@@ -1,0 +1,18 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://menu/Level.gd" type="Script" id=2]
+
+[node name="level_center" type="CenterContainer"]
+margin_right = 64.0
+margin_bottom = 64.0
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="button" type="Button" parent="."]
+margin_right = 500.0
+margin_bottom = 260.0
+rect_min_size = Vector2( 500, 260 )
+text = "Level"
+[connection signal="pressed" from="button" to="." method="_on_pressed"]

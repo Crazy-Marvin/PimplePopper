@@ -1,0 +1,98 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://assets/themes/default.tres" type="Theme" id=1]
+[ext_resource path="res://MainScreen.gd" type="Script" id=2]
+[ext_resource path="res://assets/fonts/prototype/Prototype.ttf" type="DynamicFontData" id=3]
+[ext_resource path="res://menu/hscroll.tscn" type="PackedScene" id=4]
+
+[sub_resource type="DynamicFont" id=1]
+size = 40
+font_data = ExtResource( 3 )
+
+[sub_resource type="DynamicFont" id=2]
+size = 50
+font_data = ExtResource( 3 )
+
+[node name="main" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="main_screen" type="Control" parent="."]
+margin_right = 40.0
+margin_bottom = 40.0
+
+[node name="CenterContainer" type="CenterContainer" parent="main_screen"]
+margin_right = 1024.0
+margin_bottom = 597.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="vbox" type="VBoxContainer" parent="main_screen/CenterContainer"]
+margin_left = 412.0
+margin_top = 216.0
+margin_right = 612.0
+margin_bottom = 380.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="play" type="Button" parent="main_screen/CenterContainer/vbox"]
+margin_right = 200.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 200, 80 )
+theme = ExtResource( 1 )
+custom_fonts/font = SubResource( 1 )
+text = "PLAY"
+
+[node name="options" type="Button" parent="main_screen/CenterContainer/vbox"]
+margin_top = 84.0
+margin_right = 200.0
+margin_bottom = 164.0
+rect_min_size = Vector2( 200, 80 )
+theme = ExtResource( 1 )
+custom_fonts/font = SubResource( 1 )
+text = "OPTIONS"
+
+[node name="hbox" type="HBoxContainer" parent="main_screen"]
+margin_right = 1026.0
+margin_bottom = 60.0
+alignment = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="main_screen/hbox"]
+margin_left = 354.0
+margin_right = 672.0
+margin_bottom = 60.0
+theme = ExtResource( 1 )
+custom_fonts/font = SubResource( 2 )
+text = "Project Pimple"
+
+[node name="bodypart_level_screen" type="Control" parent="."]
+margin_left = -635.384
+margin_top = -2757.78
+margin_right = -595.384
+margin_bottom = -2717.78
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="hscroll" parent="bodypart_level_screen" instance=ExtResource( 4 )]
+levels = [ "cheek", "forehead", "wrist" ]
+
+[node name="level_screen2" type="Control" parent="."]
+margin_left = -1996.92
+margin_top = 699.456
+margin_right = -1956.92
+margin_bottom = 739.456
+
+[node name="hscroll" parent="level_screen2" instance=ExtResource( 4 )]
+levels = [ "easy", "normal", "hard" ]
+[connection signal="pressed" from="main_screen/CenterContainer/vbox/play" to="." method="_on_play_pressed"]
+[connection signal="pressed" from="main_screen/CenterContainer/vbox/options" to="." method="_on_play_pressed"]
