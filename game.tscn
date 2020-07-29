@@ -1,0 +1,108 @@
+[gd_scene load_steps=12 format=2]
+
+[ext_resource path="res://UI.gd" type="Script" id=1]
+[ext_resource path="res://Hand.gd" type="Script" id=2]
+[ext_resource path="res://Game.gd" type="Script" id=3]
+[ext_resource path="res://tools/needle.tscn" type="PackedScene" id=4]
+[ext_resource path="res://Tools.gd" type="Script" id=5]
+[ext_resource path="res://Handkerchief.gd" type="Script" id=6]
+[ext_resource path="res://FingerPointer.gd" type="Script" id=7]
+[ext_resource path="res://bodyparts/BodyPart.gd" type="Script" id=12]
+[ext_resource path="res://tools/vapor.tscn" type="PackedScene" id=16]
+[ext_resource path="res://tools/comedone_extraction_tool.tscn" type="PackedScene" id=17]
+[ext_resource path="res://assets/themes/default.tres" type="Theme" id=19]
+
+[node name="game" type="Node2D"]
+script = ExtResource( 3 )
+
+[node name="bodypart" type="Node2D" parent="." groups=[
+"bodypart",
+]]
+script = ExtResource( 12 )
+
+[node name="UI" type="Control" parent="."]
+margin_right = 40.0
+margin_bottom = 40.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="tools" type="VBoxContainer" parent="UI"]
+margin_right = 249.0
+margin_bottom = 601.0
+custom_constants/separation = 20
+alignment = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="hand" type="Button" parent="UI/tools"]
+margin_top = 10.0
+margin_right = 249.0
+margin_bottom = 110.0
+rect_min_size = Vector2( 0, 100 )
+theme = ExtResource( 19 )
+text = "HAND"
+
+[node name="handkerchief" type="Button" parent="UI/tools"]
+margin_top = 130.0
+margin_right = 249.0
+margin_bottom = 230.0
+rect_min_size = Vector2( 0, 100 )
+theme = ExtResource( 19 )
+text = "HANDKERCHIEF"
+
+[node name="vapor" type="Button" parent="UI/tools"]
+margin_top = 250.0
+margin_right = 249.0
+margin_bottom = 350.0
+rect_min_size = Vector2( 0, 100 )
+theme = ExtResource( 19 )
+text = "VAPOR"
+
+[node name="comedone_extraction_tool" type="Button" parent="UI/tools"]
+margin_top = 370.0
+margin_right = 249.0
+margin_bottom = 470.0
+rect_min_size = Vector2( 0, 100 )
+theme = ExtResource( 19 )
+text = "COMEDONE"
+
+[node name="needle" type="Button" parent="UI/tools"]
+margin_top = 490.0
+margin_right = 249.0
+margin_bottom = 590.0
+rect_min_size = Vector2( 0, 100 )
+theme = ExtResource( 19 )
+text = "NEEDLE"
+
+[node name="tools" type="Node" parent="."]
+script = ExtResource( 5 )
+
+[node name="hand" type="Node2D" parent="tools"]
+script = ExtResource( 2 )
+
+[node name="finger_cero" type="Node2D" parent="tools/hand"]
+script = ExtResource( 7 )
+
+[node name="finger_one" type="Node2D" parent="tools/hand"]
+script = ExtResource( 7 )
+
+[node name="handkerchief" type="Node2D" parent="tools"]
+script = ExtResource( 6 )
+
+[node name="vapor" parent="tools" instance=ExtResource( 16 )]
+
+[node name="comedone_extraction_tool" parent="tools" instance=ExtResource( 17 )]
+
+[node name="needle" parent="tools" instance=ExtResource( 4 )]
+
+[node name="timer" type="Timer" parent="."]
+wait_time = 2.0
+[connection signal="pressed" from="UI/tools/hand" to="." method="_on_hand_pressed"]
+[connection signal="pressed" from="UI/tools/handkerchief" to="." method="_on_handkerchief_pressed"]
+[connection signal="pressed" from="UI/tools/vapor" to="." method="_on_vapor_pressed"]
+[connection signal="pressed" from="UI/tools/comedone_extraction_tool" to="." method="_on_comedone_extraction_tool_pressed"]
+[connection signal="pressed" from="UI/tools/needle" to="." method="_on_needle_pressed"]
+[connection signal="timeout" from="timer" to="." method="_on_timeout"]
