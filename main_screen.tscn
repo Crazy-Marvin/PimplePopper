@@ -7,7 +7,7 @@
 [ext_resource path="res://assets/blackscreen.png" type="Texture" id=5]
 [ext_resource path="res://assets/fonts/NoirPro-SemiBold.otf" type="DynamicFontData" id=6]
 [ext_resource path="res://assets/themes/menu.tres" type="Theme" id=7]
-[ext_resource path="res://assets/title.png" type="Texture" id=10]
+[ext_resource path="res://title.png" type="Texture" id=8]
 [ext_resource path="res://assets/background.png" type="Texture" id=11]
 
 [sub_resource type="DynamicFont" id=1]
@@ -313,25 +313,25 @@ __meta__ = {
 }
 
 [node name="main_screen" type="Control" parent="."]
-margin_top = -800.0
 margin_right = 40.0
-margin_bottom = -760.0
+margin_bottom = 40.0
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="CenterContainer" type="CenterContainer" parent="main_screen"]
-margin_right = 1024.0
-margin_bottom = 597.0
+margin_top = 163.0
+margin_right = 1002.0
+margin_bottom = 579.0
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="vbox" type="VBoxContainer" parent="main_screen/CenterContainer"]
-margin_left = 412.0
-margin_top = 216.0
-margin_right = 612.0
-margin_bottom = 380.0
+margin_left = 401.0
+margin_top = 42.0
+margin_right = 601.0
+margin_bottom = 374.0
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -340,8 +340,10 @@ __meta__ = {
 margin_right = 200.0
 margin_bottom = 80.0
 rect_min_size = Vector2( 200, 80 )
+focus_mode = 0
 theme = ExtResource( 1 )
 custom_fonts/font = SubResource( 1 )
+enabled_focus_mode = 0
 text = "PLAY"
 
 [node name="options" type="Button" parent="main_screen/CenterContainer/vbox"]
@@ -349,23 +351,49 @@ margin_top = 84.0
 margin_right = 200.0
 margin_bottom = 164.0
 rect_min_size = Vector2( 200, 80 )
+focus_mode = 0
 theme = ExtResource( 1 )
 custom_fonts/font = SubResource( 1 )
+enabled_focus_mode = 0
 text = "OPTIONS"
 
+[node name="tutorial" type="Button" parent="main_screen/CenterContainer/vbox"]
+margin_top = 168.0
+margin_right = 200.0
+margin_bottom = 248.0
+rect_min_size = Vector2( 200, 80 )
+focus_mode = 0
+theme = ExtResource( 1 )
+custom_fonts/font = SubResource( 1 )
+enabled_focus_mode = 0
+text = "TUTORIAL"
+
+[node name="about" type="Button" parent="main_screen/CenterContainer/vbox"]
+margin_top = 252.0
+margin_right = 200.0
+margin_bottom = 332.0
+rect_min_size = Vector2( 200, 80 )
+focus_mode = 0
+theme = ExtResource( 1 )
+custom_fonts/font = SubResource( 1 )
+enabled_focus_mode = 0
+text = "ABOUT"
+
 [node name="title_container" type="HBoxContainer" parent="main_screen"]
-margin_right = 1026.0
-margin_bottom = 60.0
+margin_right = 2005.0
+margin_bottom = 367.0
+rect_scale = Vector2( 0.5, 0.5 )
+rect_pivot_offset = Vector2( 0.5, 0 )
 alignment = 1
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="TextureRect" type="TextureRect" parent="main_screen/title_container"]
-margin_left = 341.0
-margin_right = 684.0
-margin_bottom = 180.0
-texture = ExtResource( 10 )
+margin_left = 646.0
+margin_right = 1359.0
+margin_bottom = 367.0
+texture = ExtResource( 8 )
 
 [node name="level_screen" type="Control" parent="."]
 margin_right = 40.0
@@ -375,6 +403,7 @@ __meta__ = {
 }
 
 [node name="bodypart_level_screen" type="Control" parent="level_screen"]
+modulate = Color( 1, 1, 1, 0 )
 margin_top = -800.0
 margin_right = 40.0
 margin_bottom = -760.0
@@ -403,14 +432,15 @@ margin_left = 14.8325
 margin_top = 21.1893
 margin_right = 104.832
 margin_bottom = 71.1893
+focus_mode = 0
 custom_fonts/font = SubResource( 4 )
+enabled_focus_mode = 0
 text = "Back"
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="difficulty_screen" type="Control" parent="level_screen"]
-modulate = Color( 1, 1, 1, 0 )
 margin_top = -800.0
 margin_right = 40.0
 margin_bottom = -760.0
@@ -439,6 +469,8 @@ margin_left = 15.0
 margin_top = 21.0
 margin_right = 105.0
 margin_bottom = 71.0
+focus_mode = 0
+enabled_focus_mode = 0
 text = "Back"
 __meta__ = {
 "_edit_use_anchors_": false
@@ -457,7 +489,6 @@ modulate = Color( 1, 1, 1, 0 )
 texture = ExtResource( 5 )
 centered = false
 [connection signal="pressed" from="main_screen/CenterContainer/vbox/play" to="." method="_on_play_pressed"]
-[connection signal="pressed" from="main_screen/CenterContainer/vbox/options" to="." method="_on_play_pressed"]
 [connection signal="pressed" from="level_screen/bodypart_level_screen/back_to_main" to="." method="_on_back_to_main_pressed"]
 [connection signal="pressed" from="level_screen/difficulty_screen/back_to_bodypart" to="." method="_on_back_to_bodypart_pressed"]
 [connection signal="animation_finished" from="animation" to="." method="_on_animation_finished"]
