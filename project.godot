@@ -1,0 +1,85 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+_global_script_classes=[ {
+"base": "Node2D",
+"class": "Blackhead",
+"language": "GDScript",
+"path": "res://protuberances/Blackhead.gd"
+}, {
+"base": "Node2D",
+"class": "BodyPart",
+"language": "GDScript",
+"path": "res://bodyparts/BodyPart.gd"
+}, {
+"base": "Node2D",
+"class": "Cyst",
+"language": "GDScript",
+"path": "res://protuberances/Cyst.gd"
+}, {
+"base": "Node2D",
+"class": "FingerPointer",
+"language": "GDScript",
+"path": "res://FingerPointer.gd"
+}, {
+"base": "Control",
+"class": "HScroll",
+"language": "GDScript",
+"path": "res://menu/HScroll.gd"
+}, {
+"base": "CenterContainer",
+"class": "Level",
+"language": "GDScript",
+"path": "res://menu/Level.gd"
+}, {
+"base": "Node2D",
+"class": "Neddle",
+"language": "GDScript",
+"path": "res://tools/Needle.gd"
+}, {
+"base": "Area2D",
+"class": "Pimple",
+"language": "GDScript",
+"path": "res://Pimple.gd"
+} ]
+_global_script_class_icons={
+"Blackhead": "",
+"BodyPart": "",
+"Cyst": "",
+"FingerPointer": "",
+"HScroll": "",
+"Level": "",
+"Neddle": "",
+"Pimple": ""
+}
+
+[application]
+
+config/name="Pimples"
+run/main_scene="res://main_screen.tscn"
+
+[autoload]
+
+Global="*res://Global.gd"
+
+[display]
+
+window/size/width=1004
+window/size/height=580
+window/stretch/mode="2d"
+window/stretch/aspect="expand"
+
+[input_devices]
+
+pointing/emulate_touch_from_mouse=true
+
+[rendering]
+
+environment/default_environment="res://default_env.tres"

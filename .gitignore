@@ -1,7 +1,9 @@
 
+# Visual Studio Code
+.vscode
 # Godot-specific ignores
 .import/
-export.cfg
+*.import
 export_presets.cfg
 
 # Mono-specific ignores
