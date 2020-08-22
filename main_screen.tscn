@@ -1,22 +1,313 @@
-[gd_scene load_steps=7 format=2]
+[gd_scene load_steps=20 format=2]
 
 [ext_resource path="res://assets/themes/default.tres" type="Theme" id=1]
 [ext_resource path="res://MainScreen.gd" type="Script" id=2]
 [ext_resource path="res://assets/fonts/prototype/Prototype.ttf" type="DynamicFontData" id=3]
 [ext_resource path="res://menu/hscroll.tscn" type="PackedScene" id=4]
+[ext_resource path="res://assets/blackscreen.png" type="Texture" id=5]
+[ext_resource path="res://assets/fonts/NoirPro-SemiBold.otf" type="DynamicFontData" id=6]
+[ext_resource path="res://assets/themes/menu.tres" type="Theme" id=7]
+[ext_resource path="res://title.png" type="Texture" id=8]
+[ext_resource path="res://assets/background.png" type="Texture" id=11]
 
 [sub_resource type="DynamicFont" id=1]
 size = 40
 font_data = ExtResource( 3 )
 
-[sub_resource type="DynamicFont" id=2]
+[sub_resource type="StyleBoxLine" id=2]
+
+[sub_resource type="DynamicFont" id=3]
 size = 50
-font_data = ExtResource( 3 )
+use_filter = true
+font_data = ExtResource( 6 )
+
+[sub_resource type="DynamicFont" id=4]
+size = 20
+font_data = ExtResource( 6 )
+
+[sub_resource type="Animation" id=5]
+resource_name = "back_to_bodypart"
+tracks/0/type = "value"
+tracks/0/path = NodePath("level_screen/difficulty_screen:rect_position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ Vector2( 0, 0 ), Vector2( 0, -800 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("level_screen/difficulty_screen:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("level_screen/bodypart_level_screen:rect_position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ Vector2( 0, -800 ), Vector2( 0, 0 ) ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("level_screen/bodypart_level_screen:modulate")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0, 0.5, 1 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
+}
+
+[sub_resource type="Animation" id=6]
+resource_name = "back_to_main"
+tracks/0/type = "value"
+tracks/0/path = NodePath("level_screen/bodypart_level_screen:rect_position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ Vector2( 0, 0 ), Vector2( 0, -800 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("level_screen/bodypart_level_screen:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("main_screen:rect_position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ Vector2( 0, -800 ), Vector2( 0, 0 ) ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("main_screen:modulate")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0, 0.5, 1 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
+}
+
+[sub_resource type="Animation" id=7]
+tracks/0/type = "value"
+tracks/0/path = NodePath("fade_screen:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
+}
+
+[sub_resource type="Animation" id=8]
+length = 2.0
+tracks/0/type = "value"
+tracks/0/path = NodePath("main_screen:rect_position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 2 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 0, -800 ), Vector2( 0, 0 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("main_screen:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("level_screen/bodypart_level_screen:rect_position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 0, -800 ) ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("level_screen/difficulty_screen:rect_position")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 0, -800 ) ]
+}
+
+[sub_resource type="Animation" id=9]
+tracks/0/type = "value"
+tracks/0/path = NodePath("main_screen:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("main_screen:rect_position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ Vector2( 0, 0 ), Vector2( 0, -800 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("level_screen/bodypart_level_screen:rect_position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ Vector2( 0, -800 ), Vector2( 0, 0 ) ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("level_screen/bodypart_level_screen:modulate")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0, 0.5, 1 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
+}
+
+[sub_resource type="Animation" id=10]
+tracks/0/type = "value"
+tracks/0/path = NodePath("level_screen/bodypart_level_screen:rect_position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ Vector2( 0, 0 ), Vector2( 0, -800 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("level_screen/bodypart_level_screen:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("level_screen/difficulty_screen:rect_position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ Vector2( 0, -800 ), Vector2( 0, 0 ) ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("level_screen/difficulty_screen:modulate")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0, 0.5, 1 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
+}
 
 [node name="main" type="Control"]
 anchor_right = 1.0
 anchor_bottom = 1.0
+theme = ExtResource( 7 )
 script = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="background" type="TextureRect" parent="."]
+margin_left = -34.9623
+margin_top = -16.9514
+margin_right = 5524.04
+margin_bottom = 3108.05
+rect_scale = Vector2( 0.2, 0.2 )
+texture = ExtResource( 11 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -24,19 +315,23 @@ __meta__ = {
 [node name="main_screen" type="Control" parent="."]
 margin_right = 40.0
 margin_bottom = 40.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="CenterContainer" type="CenterContainer" parent="main_screen"]
-margin_right = 1024.0
-margin_bottom = 597.0
+margin_top = 163.0
+margin_right = 1002.0
+margin_bottom = 579.0
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="vbox" type="VBoxContainer" parent="main_screen/CenterContainer"]
-margin_left = 412.0
-margin_top = 216.0
-margin_right = 612.0
-margin_bottom = 380.0
+margin_left = 401.0
+margin_top = 42.0
+margin_right = 601.0
+margin_bottom = 374.0
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -45,8 +340,10 @@ __meta__ = {
 margin_right = 200.0
 margin_bottom = 80.0
 rect_min_size = Vector2( 200, 80 )
+focus_mode = 0
 theme = ExtResource( 1 )
 custom_fonts/font = SubResource( 1 )
+enabled_focus_mode = 0
 text = "PLAY"
 
 [node name="options" type="Button" parent="main_screen/CenterContainer/vbox"]
@@ -54,45 +351,144 @@ margin_top = 84.0
 margin_right = 200.0
 margin_bottom = 164.0
 rect_min_size = Vector2( 200, 80 )
+focus_mode = 0
 theme = ExtResource( 1 )
 custom_fonts/font = SubResource( 1 )
+enabled_focus_mode = 0
 text = "OPTIONS"
 
-[node name="hbox" type="HBoxContainer" parent="main_screen"]
-margin_right = 1026.0
-margin_bottom = 60.0
+[node name="tutorial" type="Button" parent="main_screen/CenterContainer/vbox"]
+margin_top = 168.0
+margin_right = 200.0
+margin_bottom = 248.0
+rect_min_size = Vector2( 200, 80 )
+focus_mode = 0
+theme = ExtResource( 1 )
+custom_fonts/font = SubResource( 1 )
+enabled_focus_mode = 0
+text = "TUTORIAL"
+
+[node name="about" type="Button" parent="main_screen/CenterContainer/vbox"]
+margin_top = 252.0
+margin_right = 200.0
+margin_bottom = 332.0
+rect_min_size = Vector2( 200, 80 )
+focus_mode = 0
+theme = ExtResource( 1 )
+custom_fonts/font = SubResource( 1 )
+enabled_focus_mode = 0
+text = "ABOUT"
+
+[node name="title_container" type="HBoxContainer" parent="main_screen"]
+margin_right = 2005.0
+margin_bottom = 367.0
+rect_scale = Vector2( 0.5, 0.5 )
+rect_pivot_offset = Vector2( 0.5, 0 )
 alignment = 1
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Label" type="Label" parent="main_screen/hbox"]
-margin_left = 354.0
-margin_right = 672.0
-margin_bottom = 60.0
-theme = ExtResource( 1 )
-custom_fonts/font = SubResource( 2 )
-text = "Project Pimple"
+[node name="TextureRect" type="TextureRect" parent="main_screen/title_container"]
+margin_left = 646.0
+margin_right = 1359.0
+margin_bottom = 367.0
+texture = ExtResource( 8 )
 
-[node name="bodypart_level_screen" type="Control" parent="."]
-margin_left = -635.384
-margin_top = -2757.78
-margin_right = -595.384
-margin_bottom = -2717.78
+[node name="level_screen" type="Control" parent="."]
+margin_right = 40.0
+margin_bottom = 40.0
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="hscroll" parent="bodypart_level_screen" instance=ExtResource( 4 )]
+[node name="bodypart_level_screen" type="Control" parent="level_screen"]
+modulate = Color( 1, 1, 1, 0 )
+margin_top = -800.0
+margin_right = 40.0
+margin_bottom = -760.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="title" type="Label" parent="level_screen/bodypart_level_screen"]
+margin_right = 999.0
+margin_bottom = 79.0
+custom_styles/normal = SubResource( 2 )
+custom_fonts/font = SubResource( 3 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "Bodypart"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="hscroll" parent="level_screen/bodypart_level_screen" instance=ExtResource( 4 )]
 levels = [ "cheek", "forehead", "wrist" ]
 
-[node name="level_screen2" type="Control" parent="."]
-margin_left = -1996.92
-margin_top = 699.456
-margin_right = -1956.92
-margin_bottom = 739.456
+[node name="back_to_main" type="Button" parent="level_screen/bodypart_level_screen"]
+margin_left = 14.8325
+margin_top = 21.1893
+margin_right = 104.832
+margin_bottom = 71.1893
+focus_mode = 0
+custom_fonts/font = SubResource( 4 )
+enabled_focus_mode = 0
+text = "Back"
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
-[node name="hscroll" parent="level_screen2" instance=ExtResource( 4 )]
+[node name="difficulty_screen" type="Control" parent="level_screen"]
+margin_top = -800.0
+margin_right = 40.0
+margin_bottom = -760.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="title" type="Label" parent="level_screen/difficulty_screen"]
+margin_right = 999.0
+margin_bottom = 79.0
+custom_styles/normal = SubResource( 2 )
+custom_fonts/font = SubResource( 3 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "Level"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="hscroll" parent="level_screen/difficulty_screen" instance=ExtResource( 4 )]
 levels = [ "easy", "normal", "hard" ]
+
+[node name="back_to_bodypart" type="Button" parent="level_screen/difficulty_screen"]
+margin_left = 15.0
+margin_top = 21.0
+margin_right = 105.0
+margin_bottom = 71.0
+focus_mode = 0
+enabled_focus_mode = 0
+text = "Back"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="animation" type="AnimationPlayer" parent="."]
+anims/back_to_bodypart = SubResource( 5 )
+anims/back_to_main = SubResource( 6 )
+anims/fade_in = SubResource( 7 )
+anims/intro = SubResource( 8 )
+anims/to_bodypart = SubResource( 9 )
+anims/to_difficulty = SubResource( 10 )
+
+[node name="fade_screen" type="Sprite" parent="."]
+modulate = Color( 1, 1, 1, 0 )
+texture = ExtResource( 5 )
+centered = false
 [connection signal="pressed" from="main_screen/CenterContainer/vbox/play" to="." method="_on_play_pressed"]
-[connection signal="pressed" from="main_screen/CenterContainer/vbox/options" to="." method="_on_play_pressed"]
+[connection signal="pressed" from="level_screen/bodypart_level_screen/back_to_main" to="." method="_on_back_to_main_pressed"]
+[connection signal="pressed" from="level_screen/difficulty_screen/back_to_bodypart" to="." method="_on_back_to_bodypart_pressed"]
+[connection signal="animation_finished" from="animation" to="." method="_on_animation_finished"]
