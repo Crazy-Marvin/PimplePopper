@@ -4,13 +4,15 @@
 [ext_resource path="res://assets/cheek pimples/espinillas maduras/1.1.png" type="Texture" id=2]
 [ext_resource path="res://assets/cheek pimples/base.png" type="Texture" id=3]
 [ext_resource path="res://assets/cheek pimples/esponilla apretada/2.1.png" type="Texture" id=4]
-[ext_resource path="res://Pimple.gd" type="Script" id=5]
+[ext_resource path="res://protuberances/Pimple.gd" type="Script" id=5]
 [ext_resource path="res://assets/cheek pimples/espinillas maduras/1.3.png" type="Texture" id=6]
 [ext_resource path="res://assets/cheek pimples/espinillias explotadas/3.2.png" type="Texture" id=7]
 [ext_resource path="res://assets/cheek pimples/espinillas maduras/1.2.png" type="Texture" id=8]
 [ext_resource path="res://assets/cheek pimples/espinillias explotadas/3.3.png" type="Texture" id=9]
 [ext_resource path="res://assets/cheek pimples/esponilla apretada/2.2.png" type="Texture" id=10]
 [ext_resource path="res://assets/cheek pimples/esponilla apretada/2.3.png" type="Texture" id=11]
+
+
 
 [sub_resource type="CircleShape2D" id=1]
 radius = 12.3566

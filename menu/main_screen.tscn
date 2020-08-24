@@ -1,32 +1,92 @@
-[gd_scene load_steps=20 format=2]
+[gd_scene load_steps=26 format=2]
 
-[ext_resource path="res://assets/themes/default.tres" type="Theme" id=1]
-[ext_resource path="res://MainScreen.gd" type="Script" id=2]
-[ext_resource path="res://assets/fonts/prototype/Prototype.ttf" type="DynamicFontData" id=3]
-[ext_resource path="res://menu/hscroll.tscn" type="PackedScene" id=4]
-[ext_resource path="res://assets/blackscreen.png" type="Texture" id=5]
-[ext_resource path="res://assets/fonts/NoirPro-SemiBold.otf" type="DynamicFontData" id=6]
-[ext_resource path="res://assets/themes/menu.tres" type="Theme" id=7]
-[ext_resource path="res://title.png" type="Texture" id=8]
-[ext_resource path="res://assets/background.png" type="Texture" id=11]
+[ext_resource path="res://menu/MainScreen.gd" type="Script" id=1]
+[ext_resource path="res://assets/fonts/prototype/Prototype.ttf" type="DynamicFontData" id=2]
+[ext_resource path="res://assets/fonts/NoirPro-SemiBold.otf" type="DynamicFontData" id=3]
+[ext_resource path="res://assets/blackscreen.png" type="Texture" id=4]
+[ext_resource path="res://title.png" type="Texture" id=5]
+[ext_resource path="res://assets/background.png" type="Texture" id=6]
+[ext_resource path="res://menu/hscroll.tscn" type="PackedScene" id=7]
+[ext_resource path="res://assets/themes/menu.tres" type="Theme" id=8]
+[ext_resource path="res://assets/themes/default.tres" type="Theme" id=9]
+[ext_resource path="res://assets/themes/title.tres" type="Theme" id=10]
+[ext_resource path="res://assets/about- text-background.png" type="Texture" id=11]
 
 [sub_resource type="DynamicFont" id=1]
 size = 40
-font_data = ExtResource( 3 )
+font_data = ExtResource( 2 )
 
 [sub_resource type="StyleBoxLine" id=2]
 
 [sub_resource type="DynamicFont" id=3]
 size = 50
 use_filter = true
-font_data = ExtResource( 6 )
+font_data = ExtResource( 3 )
 
 [sub_resource type="DynamicFont" id=4]
 size = 20
-font_data = ExtResource( 6 )
+font_data = ExtResource( 3 )
 
-[sub_resource type="Animation" id=5]
-resource_name = "back_to_bodypart"
+[sub_resource type="DynamicFont" id=5]
+size = 20
+font_data = ExtResource( 3 )
+
+[sub_resource type="DynamicFont" id=6]
+size = 20
+font_data = ExtResource( 3 )
+
+[sub_resource type="Animation" id=7]
+length = 2.0
+tracks/0/type = "value"
+tracks/0/path = NodePath("about_screen:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("about_screen:rect_position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ Vector2( 0, 0 ), Vector2( 0, -800 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("main_screen:rect_position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ Vector2( 0, -800 ), Vector2( 0, 0 ) ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("main_screen:modulate")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0, 1, 2 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
+}
+
+[sub_resource type="Animation" id=8]
 tracks/0/type = "value"
 tracks/0/path = NodePath("level_screen/difficulty_screen:rect_position")
 tracks/0/interp = 1
@@ -76,8 +136,7 @@ tracks/3/keys = {
 "values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
 }
 
-[sub_resource type="Animation" id=6]
-resource_name = "back_to_main"
+[sub_resource type="Animation" id=9]
 tracks/0/type = "value"
 tracks/0/path = NodePath("level_screen/bodypart_level_screen:rect_position")
 tracks/0/interp = 1
@@ -127,7 +186,7 @@ tracks/3/keys = {
 "values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
 }
 
-[sub_resource type="Animation" id=7]
+[sub_resource type="Animation" id=10]
 tracks/0/type = "value"
 tracks/0/path = NodePath("fade_screen:modulate")
 tracks/0/interp = 1
@@ -141,7 +200,7 @@ tracks/0/keys = {
 "values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
 }
 
-[sub_resource type="Animation" id=8]
+[sub_resource type="Animation" id=11]
 length = 2.0
 tracks/0/type = "value"
 tracks/0/path = NodePath("main_screen:rect_position")
@@ -191,8 +250,71 @@ tracks/3/keys = {
 "update": 0,
 "values": [ Vector2( 0, -800 ) ]
 }
+tracks/4/type = "value"
+tracks/4/path = NodePath("about_screen:rect_position")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 0, -800 ) ]
+}
 
-[sub_resource type="Animation" id=9]
+[sub_resource type="Animation" id=12]
+length = 2.0
+tracks/0/type = "value"
+tracks/0/path = NodePath("about_screen:rect_position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ Vector2( 0, -800 ), Vector2( 0, 0 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("main_screen:rect_position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ Vector2( 0, 0 ), Vector2( 0, -800 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("main_screen:modulate")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0 ) ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("about_screen:modulate")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0, 1, 2 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
+}
+
+[sub_resource type="Animation" id=13]
 tracks/0/type = "value"
 tracks/0/path = NodePath("main_screen:modulate")
 tracks/0/interp = 1
@@ -242,7 +364,7 @@ tracks/3/keys = {
 "values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
 }
 
-[sub_resource type="Animation" id=10]
+[sub_resource type="Animation" id=14]
 tracks/0/type = "value"
 tracks/0/path = NodePath("level_screen/bodypart_level_screen:rect_position")
 tracks/0/interp = 1
@@ -295,8 +417,8 @@ tracks/3/keys = {
 [node name="main" type="Control"]
 anchor_right = 1.0
 anchor_bottom = 1.0
-theme = ExtResource( 7 )
-script = ExtResource( 2 )
+theme = ExtResource( 8 )
+script = ExtResource( 1 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -307,14 +429,16 @@ margin_top = -16.9514
 margin_right = 5524.04
 margin_bottom = 3108.05
 rect_scale = Vector2( 0.2, 0.2 )
-texture = ExtResource( 11 )
+texture = ExtResource( 6 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="main_screen" type="Control" parent="."]
+modulate = Color( 1, 1, 1, 0 )
+margin_top = -800.0
 margin_right = 40.0
-margin_bottom = 40.0
+margin_bottom = -760.0
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -341,7 +465,7 @@ margin_right = 200.0
 margin_bottom = 80.0
 rect_min_size = Vector2( 200, 80 )
 focus_mode = 0
-theme = ExtResource( 1 )
+theme = ExtResource( 9 )
 custom_fonts/font = SubResource( 1 )
 enabled_focus_mode = 0
 text = "PLAY"
@@ -352,7 +476,7 @@ margin_right = 200.0
 margin_bottom = 164.0
 rect_min_size = Vector2( 200, 80 )
 focus_mode = 0
-theme = ExtResource( 1 )
+theme = ExtResource( 9 )
 custom_fonts/font = SubResource( 1 )
 enabled_focus_mode = 0
 text = "OPTIONS"
@@ -363,7 +487,7 @@ margin_right = 200.0
 margin_bottom = 248.0
 rect_min_size = Vector2( 200, 80 )
 focus_mode = 0
-theme = ExtResource( 1 )
+theme = ExtResource( 9 )
 custom_fonts/font = SubResource( 1 )
 enabled_focus_mode = 0
 text = "TUTORIAL"
@@ -374,7 +498,7 @@ margin_right = 200.0
 margin_bottom = 332.0
 rect_min_size = Vector2( 200, 80 )
 focus_mode = 0
-theme = ExtResource( 1 )
+theme = ExtResource( 9 )
 custom_fonts/font = SubResource( 1 )
 enabled_focus_mode = 0
 text = "ABOUT"
@@ -393,7 +517,7 @@ __meta__ = {
 margin_left = 646.0
 margin_right = 1359.0
 margin_bottom = 367.0
-texture = ExtResource( 8 )
+texture = ExtResource( 5 )
 
 [node name="level_screen" type="Control" parent="."]
 margin_right = 40.0
@@ -412,11 +536,11 @@ __meta__ = {
 }
 
 [node name="title" type="Label" parent="level_screen/bodypart_level_screen"]
+modulate = Color( 0.87451, 0.470588, 0.203922, 1 )
 margin_right = 999.0
 margin_bottom = 79.0
 custom_styles/normal = SubResource( 2 )
 custom_fonts/font = SubResource( 3 )
-custom_colors/font_color = Color( 0, 0, 0, 1 )
 text = "Bodypart"
 align = 1
 valign = 1
@@ -424,7 +548,7 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="hscroll" parent="level_screen/bodypart_level_screen" instance=ExtResource( 4 )]
+[node name="hscroll" parent="level_screen/bodypart_level_screen" instance=ExtResource( 7 )]
 levels = [ "cheek", "forehead", "wrist" ]
 
 [node name="back_to_main" type="Button" parent="level_screen/bodypart_level_screen"]
@@ -449,11 +573,11 @@ __meta__ = {
 }
 
 [node name="title" type="Label" parent="level_screen/difficulty_screen"]
+modulate = Color( 0.87451, 0.470588, 0.203922, 1 )
 margin_right = 999.0
 margin_bottom = 79.0
 custom_styles/normal = SubResource( 2 )
 custom_fonts/font = SubResource( 3 )
-custom_colors/font_color = Color( 0, 0, 0, 1 )
 text = "Level"
 align = 1
 valign = 1
@@ -461,7 +585,7 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="hscroll" parent="level_screen/difficulty_screen" instance=ExtResource( 4 )]
+[node name="hscroll" parent="level_screen/difficulty_screen" instance=ExtResource( 7 )]
 levels = [ "easy", "normal", "hard" ]
 
 [node name="back_to_bodypart" type="Button" parent="level_screen/difficulty_screen"]
@@ -476,19 +600,128 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
+[node name="about_screen" type="Control" parent="."]
+margin_right = 40.0
+margin_bottom = 40.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="title" type="Label" parent="about_screen"]
+modulate = Color( 0.87451, 0.470588, 0.203922, 1 )
+margin_right = 1004.0
+margin_bottom = 95.0
+theme = ExtResource( 10 )
+text = "About"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="content-background" type="TextureRect" parent="about_screen"]
+margin_right = 1334.0
+margin_bottom = 750.0
+rect_scale = Vector2( 0.752, 0.77 )
+texture = ExtResource( 11 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="center_content" type="CenterContainer" parent="about_screen"]
+margin_top = 69.0
+margin_right = 1002.0
+margin_bottom = 580.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="content" type="Label" parent="about_screen/center_content"]
+modulate = Color( 0.141176, 0.0901961, 0.0901961, 1 )
+margin_left = 201.0
+margin_top = 145.0
+margin_right = 801.0
+margin_bottom = 366.0
+rect_min_size = Vector2( 600, 0 )
+custom_fonts/font = SubResource( 5 )
+text = "Pimple Popper allows you to enjoy the experience of removing protuberance on different human body parts.
+
+We hope you enjoy this game. If you notice any bugs, have any questions or feedback feel free to 
+or open an          .
+
+We are also interested in your real-life pops. "
+autowrap = true
+
+[node name="back" type="Button" parent="about_screen"]
+margin_left = 15.0
+margin_top = 21.0
+margin_right = 105.0
+margin_bottom = 71.0
+rect_min_size = Vector2( 90, 50 )
+text = "Back"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="mailto" type="LinkButton" parent="about_screen"]
+modulate = Color( 0.196078, 0.345098, 0.694118, 1 )
+margin_left = 588.383
+margin_top = 324.198
+margin_right = 728.383
+margin_bottom = 349.198
+custom_fonts/font = SubResource( 6 )
+text = "send an email"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="issue" type="LinkButton" parent="about_screen"]
+modulate = Color( 0.196078, 0.345098, 0.694118, 1 )
+margin_left = 312.371
+margin_top = 352.071
+margin_right = 375.371
+margin_bottom = 377.071
+custom_fonts/font = SubResource( 6 )
+text = "issue"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="mailto2" type="LinkButton" parent="about_screen"]
+modulate = Color( 0.196078, 0.345098, 0.694118, 1 )
+margin_left = 653.918
+margin_top = 406.385
+margin_right = 758.918
+margin_bottom = 431.385
+custom_fonts/font = SubResource( 6 )
+text = "Send them"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
 [node name="animation" type="AnimationPlayer" parent="."]
-anims/back_to_bodypart = SubResource( 5 )
-anims/back_to_main = SubResource( 6 )
-anims/fade_in = SubResource( 7 )
-anims/intro = SubResource( 8 )
-anims/to_bodypart = SubResource( 9 )
-anims/to_difficulty = SubResource( 10 )
+anims/about_to_main = SubResource( 7 )
+anims/back_to_bodypart = SubResource( 8 )
+anims/back_to_main = SubResource( 9 )
+anims/fade_in = SubResource( 10 )
+anims/intro = SubResource( 11 )
+anims/to_about = SubResource( 12 )
+anims/to_bodypart = SubResource( 13 )
+anims/to_difficulty = SubResource( 14 )
 
 [node name="fade_screen" type="Sprite" parent="."]
 modulate = Color( 1, 1, 1, 0 )
-texture = ExtResource( 5 )
+texture = ExtResource( 4 )
 centered = false
+__meta__ = {
+"_edit_lock_": true
+}
 [connection signal="pressed" from="main_screen/CenterContainer/vbox/play" to="." method="_on_play_pressed"]
+[connection signal="pressed" from="main_screen/CenterContainer/vbox/about" to="." method="_on_about_pressed"]
 [connection signal="pressed" from="level_screen/bodypart_level_screen/back_to_main" to="." method="_on_back_to_main_pressed"]
 [connection signal="pressed" from="level_screen/difficulty_screen/back_to_bodypart" to="." method="_on_back_to_bodypart_pressed"]
+[connection signal="pressed" from="about_screen/back" to="." method="_on_about_back_pressed"]
+[connection signal="pressed" from="about_screen/mailto" to="." method="_on_mailto_pressed"]
+[connection signal="pressed" from="about_screen/issue" to="." method="_on_issue_pressed"]
+[connection signal="pressed" from="about_screen/mailto2" to="." method="_on_mailto_pressed"]
 [connection signal="animation_finished" from="animation" to="." method="_on_animation_finished"]
