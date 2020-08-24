@@ -1,0 +1,19 @@
+Pimple Popper es un juego sobre reventar granos y remover puntos negros, granos, lipomas y cosas similares. ¡Descárgalo ahora y siente la gran sensación!
+
+<b>Características:</b>
+
+<ul>
+<li>Código abierto 🎉</li>
+<li>Extremadamente satisfactorio 😂</li>
+<li>Realista 😉</li>
+<li>Podría venir bien para tu día a día 😜</li>
+<li>Puedes enviarnos tus estallidos reales y obtener un mensaje halagador 🙈</li>
+</ul>
+
+Página principal: <a href="https://www.crazymarvin.com/pimple-popper">https://www.crazymarvin.com/pimple-popper</a>
+
+Ayúdanos con la traducción: <a href="https://crowdin.com/project/pimple-popper">https://crowdin.com/project/pimple-popper</a> 
+
+Código fuente en GitHub: <a href="https://github.com/Crazy-Marvin/PimplePopper">https://github.com/Crazy-Marvin/PimplePopper</a> 
+
+Disfrutar! 👌

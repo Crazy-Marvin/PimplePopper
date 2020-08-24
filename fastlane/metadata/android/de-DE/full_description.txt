@@ -1,0 +1,19 @@
+Pimple Popper ist ein Spiel, bei dem es um das Knacken von Pickeln und Audrücken von Mitessern und ähnlichen Vereiterungen geht. Lade dir das Spiel jetzt herunter, um den Genuss zu spüren!
+
+<b>Eigenschaften< /b>
+
+<ul>
+<li>Open Source 🎉</li>
+<li>Äußerst befriedigend 😂</li>
+<li>Recht realistisch 😉</li>
+<li>Kann auch im echten Leben nützlich sein 😜</li>
+<li>Sende uns deine real-life Matscher und erhalte ein Lob von uns 🙈</li>
+</ul>
+
+Heimseite: <a href="https://www.crazymarvin.com/pimple-popper">https://www.crazymarvin.com/pimple-popper</a>
+
+Helfe uns mit den Übersetzungen: <a href="https://crowdin.com/project/pimple-popper">https://crowdin.com/project/pimple-popper</a> 
+
+Quellcode auf GitHub: <a href="https://github.com/Crazy-Marvin/PimplePopper">https://github.com/Crazy-Marvin/PimplePopper</a> 
+
+Genieße es! 👌
