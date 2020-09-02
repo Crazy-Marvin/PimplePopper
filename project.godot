@@ -27,7 +27,7 @@ _global_script_classes=[ {
 "base": "Node2D",
 "class": "FingerPointer",
 "language": "GDScript",
-"path": "res://FingerPointer.gd"
+"path": "res://tools/FingerPointer.gd"
 }, {
 "base": "Control",
 "class": "HScroll",
@@ -47,7 +47,7 @@ _global_script_classes=[ {
 "base": "Area2D",
 "class": "Pimple",
 "language": "GDScript",
-"path": "res://Pimple.gd"
+"path": "res://protuberances/Pimple.gd"
 } ]
 _global_script_class_icons={
 "Blackhead": "",
@@ -63,7 +63,7 @@ _global_script_class_icons={
 [application]
 
 config/name="Pimples"
-run/main_scene="res://main_screen.tscn"
+run/main_scene="res://menu/main_screen.tscn"
 
 [autoload]
 

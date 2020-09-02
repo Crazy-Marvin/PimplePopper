@@ -8,6 +8,7 @@ onready var _bodypart_hscroll: Control = $level_screen/bodypart_level_screen/hsc
 onready var _difficulty_screen: Control = $level_screen/difficulty_screen
 onready var _difficulty_hscroll: Control = $level_screen/difficulty_screen/hscroll
 onready var _animation: AnimationPlayer = $animation
+onready var _popup: PopupDialog = $popup
 
 
 var _bodypart: String
@@ -18,8 +19,6 @@ var _level: String
 func _ready():
 	_main_screen.rect_position = Vector2(0, -OS.window_size.y - 100)
 	_animation.play("intro")
-#	_difficulty_hscroll.set_process_input(false)
-#	_bodypart_hscroll.set_process_input(false)
 	_difficulty_hscroll.set_enabled(false)
 	_bodypart_hscroll.set_enabled(false)
 	
@@ -66,3 +65,33 @@ func _on_back_to_bodypart_pressed():
 		_bodypart_hscroll.set_enabled(true)
 		_difficulty_hscroll.set_enabled(false)
 		_animation.play("back_to_bodypart")
+
+
+func _on_about_back_pressed():
+	if not _animation.is_playing():
+		_animation.play("about_to_main")
+
+
+func _on_about_pressed():
+	print ("About pressed")
+	if not _animation.is_playing():
+		_animation.play("to_about")
+
+
+func _on_mailto_pressed():
+	print("Open mail")
+	OS.shell_open("mailto:marvin@poopjournal.rocks")
+
+
+func _on_issue_pressed():
+	OS.shell_open("https://github.com/Crazy-Marvin/PimplePopper/issues")
+	pass # Replace with function body.
+
+
+func _on_tutorial_pressed():
+	_popup.popup()
+
+
+func _on_link_pressed(link):
+	OS.shell_open(link)
+	pass # Replace with function body.

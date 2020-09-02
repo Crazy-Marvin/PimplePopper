@@ -1,19 +1,18 @@
-Pimple Popper is a game about popping pimples and removing blackheads, whiteheads, lipomas and similar stuff. Download now and feel the huge satisfaction!
-
-<b>Features< /b>
+"Pimple Popper" هي لعبة عن لفقع البثور وازالة الرؤوس السوداء والرؤوس البيضاء والأورام الشحمية وغيرها من البثور المشابهة. قم بتنزيل اللعبة الآن واشعر بالرضا الكبير!
+<b>الميزات:</b>
 
 <ul>
-<li>Open Source 🎉</li>
-<li>Extremely satisfactory 😂</li>
-<li>Quite realistic 😉</li>
-<li>Might come in handy for your daily life 😜</li>
-<li>You can send us your real-life pops and get a complimentary message 🙈</li>
+<li>مصدر مفتوح 🎉</li>
+<li>احساس مُرضِي للغاية 😂</li>
+<li>Qلعبة واقعية تماماً 😉</li>
+<li>قد تكون مفيدة في حياتك اليومية 😜</li>
+<li>يمكنك إرسال فرقعاتك الحقيقة للبثور والحصول على رسالة مجانية 🙈</li>
 </ul>
 
-<a href="https://www.crazymarvin.com/pimple-popper">Homepage<a>
+الصفحة الرئيسية: <a href="https://www.crazymarvin.com/pimple-popper">https://www.crazymarvin.com/pimple-popper</a>
 
-<a href="https://www.crowdin.com">Help us with translation<a> 
+ساعدنا بالترجمة: <a href="https://crowdin.com/project/pimple-popper">https://crowdin.com/project/pimple-popper</a> 
 
-<a href="https://github.com/Crazy-Marvin/PimplePopper">Source on GitHub<a> 
+المصدر على GitHub هو: <a href="https://github.com/Crazy-Marvin/PimplePopper">https://github.com/Crazy-Marvin/PimplePopper</a> 
 
-Enjoy! 👌
+استمتع! 👌

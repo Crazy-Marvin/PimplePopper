@@ -1,19 +1,20 @@
-Pimple Popper is a game about popping pimples and removing blackheads, whiteheads, lipomas and similar stuff. Download now and feel the huge satisfaction!
-<br><br>
-<b>Features:</b>
+
+পিম্পল পপার হল পিম্পল বা ব্রণ চেপে বের করানো এবং ব্লাকহেড, হোয়াইটহেড, লিপোমাস ও একই ধরনের জিনিস সরানোর একটি গেম। এখনি ডাউনলোড করুন এবং অত্যন্ত সন্তষ্টি অনুভব করুন!
+
+<b>বৈশিষ্ট্যসমূহ:</b>
 
 <ul>
-<li>Open Source 🎉</li>
-<li>Extremely satisfactory 😂</li>
-<li>Quite realistic 😉</li>
-<li>Might come in handy for your daily life 😜</li>
-<li>You can send us your real-life pops and get a complimentary message 🙈</li>
+<li>উৎস উন্মুক্ত করুন 🎉</li>
+<li>অত্যন্ত সন্তোষজনক😂</li>
+<li>বেশ বাস্তবিক 😉</li>
+<li>আপনার দৈনন্দিন জীবনে কাজে লাগতে পারে 😜</li>
+<li>আপনার বাস্তবজীবনের পপসমূহ আমাদেরকে পাঠাতে পারেন এবং একটি প্রশংসামূলক বার্তা পেতে পারেন 🙈</li>
 </ul>
 
-<a href="https://www.crazymarvin.com/pimple-popper">Homepage</a>
-<br>
-<a href="https://crowdin.com/project/pimple-popper">Help us with translation</a> 
-<br>
-<a href="https://github.com/Crazy-Marvin/PimplePopper">Source on GitHub</a> 
-<br><br>
-Enjoy! 👌
+হোমপেজ: <a href="https://www.crazymarvin.com/pimple-popper">https://www.crazymarvin.com/pimple-popper</a>
+
+আমাদেরকে অনুবাদে সহযোগীতা করুন: <a href="https://crowdin.com/project/pimple-popper">https://crowdin.com/project/pimple-popper</a> 
+
+গিটহাবে উৎস: <a href="https://github.com/Crazy-Marvin/PimplePopper">https://github.com/Crazy-Marvin/PimplePopper</a> 
+
+উপভোগ করুন! 👌

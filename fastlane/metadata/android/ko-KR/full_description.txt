@@ -1,19 +1,19 @@
-Pimple Popper is a game about popping pimples and removing blackheads, whiteheads, lipomas and similar stuff. Download now and feel the huge satisfaction!
+여드름 터뜨리기(Pimple Popper)는 여드름을 터뜨리고 블랙헤드, 화이트헤드, 지방종 등을 제거하는 게임입니다. 지금 다운로드하여 큰 만족감을 느껴보세요!
 
-<b>Features< /b>
+<b>특징:</b>
 
 <ul>
-<li>Open Source 🎉</li>
-<li>Extremely satisfactory 😂</li>
-<li>Quite realistic 😉</li>
-<li>Might come in handy for your daily life 😜</li>
-<li>You can send us your real-life pops and get a complimentary message 🙈</li>
+<li>열린 출처 🎉</li>
+<li>엄청난 만족감을 줍니다 😂</li>
+<li>꽤 실제적입니다 😉</li>
+<li>실생활에 유용하게 사용될 수도 있습니다 😜</li>
+<li>실생활에서 터뜨린 무언가를 보내주시면 칭찬의 메시지를 받으실 수 있습니다 🙈</li>
 </ul>
 
-<a href="https://www.crazymarvin.com/pimple-popper">Homepage<a>
+홈페이지: <a href="https://www.crazymarvin.com/pimple-popper">https://www.crazymarvin.com/pimple-popper</a>
 
-<a href="https://www.crowdin.com">Help us with translation<a> 
+번역에 도움을 주세요: <a href="https://crowdin.com/project/pimple-popper">https://crowdin.com/project/pimple-popper</a> 
 
-<a href="https://github.com/Crazy-Marvin/PimplePopper">Source on GitHub<a> 
+GitHub에서의 출처: <a href="https://github.com/Crazy-Marvin/PimplePopper">https://github.com/Crazy-Marvin/PimplePopper</a> 
 
-Enjoy! 👌
+즐기세요! 👌
