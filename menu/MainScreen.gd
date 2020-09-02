@@ -8,6 +8,7 @@ onready var _bodypart_hscroll: Control = $level_screen/bodypart_level_screen/hsc
 onready var _difficulty_screen: Control = $level_screen/difficulty_screen
 onready var _difficulty_hscroll: Control = $level_screen/difficulty_screen/hscroll
 onready var _animation: AnimationPlayer = $animation
+onready var _popup: PopupDialog = $popup
 
 
 var _bodypart: String
@@ -84,4 +85,13 @@ func _on_mailto_pressed():
 
 func _on_issue_pressed():
 	OS.shell_open("https://github.com/Crazy-Marvin/PimplePopper/issues")
+	pass # Replace with function body.
+
+
+func _on_tutorial_pressed():
+	_popup.popup()
+
+
+func _on_link_pressed(link):
+	OS.shell_open(link)
 	pass # Replace with function body.
