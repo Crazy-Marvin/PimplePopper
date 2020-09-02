@@ -1,19 +1,22 @@
-Pimple Popper is a game about popping pimples and removing blackheads, whiteheads, lipomas and similar stuff. Download now and feel the huge satisfaction!
+《挤爆粉刺》是一款关于挤爆粉刺以及去除黑头、白头、脂肪瘤和类似东西的游戏。
+现在下载，体验巨大的满足感！
 
-<b>Features< /b>
+特色：
 
-<ul>
-<li>Open Source 🎉</li>
-<li>Extremely satisfactory 😂</li>
-<li>Quite realistic 😉</li>
-<li>Might come in handy for your daily life 😜</li>
-<li>You can send us your real-life pops and get a complimentary message 🙈</li>
-</ul>
+    开源 🎉
 
-<a href="https://www.crazymarvin.com/pimple-popper">Homepage<a>
+    极其令人满足 😂
 
-<a href="https://www.crowdin.com">Help us with translation<a> 
+    非常逼真 😉
 
-<a href="https://github.com/Crazy-Marvin/PimplePopper">Source on GitHub<a> 
+    可能在你的日常生活中派上用场 😜
 
-Enjoy! 👌
+    你可以把你现实生活中的挤爆发给我们，并获得赞语 🙈
+
+主页：https://www.crazymarvin.com/pimple-popper
+
+帮助我们翻译：https://crowdin.com/project/pimple-popper
+
+GitHub上的源代码：https://github.com/Crazy-Marvin/PimplePopper
+
+玩得开心！👌

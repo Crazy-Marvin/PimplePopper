@@ -1,4 +1,4 @@
-[gd_scene load_steps=26 format=2]
+[gd_scene load_steps=35 format=2]
 
 [ext_resource path="res://menu/MainScreen.gd" type="Script" id=1]
 [ext_resource path="res://assets/fonts/prototype/Prototype.ttf" type="DynamicFontData" id=2]
@@ -11,6 +11,13 @@
 [ext_resource path="res://assets/themes/default.tres" type="Theme" id=9]
 [ext_resource path="res://assets/themes/title.tres" type="Theme" id=10]
 [ext_resource path="res://assets/about- text-background.png" type="Texture" id=11]
+[ext_resource path="res://assets/icons/github.svg" type="Texture" id=12]
+[ext_resource path="res://assets/icons/linkedin.svg" type="Texture" id=13]
+[ext_resource path="res://assets/icons/home.svg" type="Texture" id=14]
+[ext_resource path="res://assets/icons/godot.svg" type="Texture" id=15]
+[ext_resource path="res://assets/icons/crowdin.svg" type="Texture" id=16]
+[ext_resource path="res://assets/icons/behance.svg" type="Texture" id=17]
+[ext_resource path="res://assets/icons/law.svg" type="Texture" id=18]
 
 [sub_resource type="DynamicFont" id=1]
 size = 40
@@ -35,7 +42,13 @@ font_data = ExtResource( 3 )
 size = 20
 font_data = ExtResource( 3 )
 
-[sub_resource type="Animation" id=7]
+[sub_resource type="StyleBoxFlat" id=7]
+
+[sub_resource type="DynamicFont" id=8]
+size = 30
+font_data = ExtResource( 3 )
+
+[sub_resource type="Animation" id=9]
 length = 2.0
 tracks/0/type = "value"
 tracks/0/path = NodePath("about_screen:modulate")
@@ -86,7 +99,7 @@ tracks/3/keys = {
 "values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
 }
 
-[sub_resource type="Animation" id=8]
+[sub_resource type="Animation" id=10]
 tracks/0/type = "value"
 tracks/0/path = NodePath("level_screen/difficulty_screen:rect_position")
 tracks/0/interp = 1
@@ -136,7 +149,7 @@ tracks/3/keys = {
 "values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
 }
 
-[sub_resource type="Animation" id=9]
+[sub_resource type="Animation" id=11]
 tracks/0/type = "value"
 tracks/0/path = NodePath("level_screen/bodypart_level_screen:rect_position")
 tracks/0/interp = 1
@@ -186,7 +199,7 @@ tracks/3/keys = {
 "values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
 }
 
-[sub_resource type="Animation" id=10]
+[sub_resource type="Animation" id=12]
 tracks/0/type = "value"
 tracks/0/path = NodePath("fade_screen:modulate")
 tracks/0/interp = 1
@@ -200,7 +213,7 @@ tracks/0/keys = {
 "values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
 }
 
-[sub_resource type="Animation" id=11]
+[sub_resource type="Animation" id=13]
 length = 2.0
 tracks/0/type = "value"
 tracks/0/path = NodePath("main_screen:rect_position")
@@ -263,7 +276,7 @@ tracks/4/keys = {
 "values": [ Vector2( 0, -800 ) ]
 }
 
-[sub_resource type="Animation" id=12]
+[sub_resource type="Animation" id=14]
 length = 2.0
 tracks/0/type = "value"
 tracks/0/path = NodePath("about_screen:rect_position")
@@ -314,7 +327,7 @@ tracks/3/keys = {
 "values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
 }
 
-[sub_resource type="Animation" id=13]
+[sub_resource type="Animation" id=15]
 tracks/0/type = "value"
 tracks/0/path = NodePath("main_screen:modulate")
 tracks/0/interp = 1
@@ -364,7 +377,7 @@ tracks/3/keys = {
 "values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
 }
 
-[sub_resource type="Animation" id=14]
+[sub_resource type="Animation" id=16]
 tracks/0/type = "value"
 tracks/0/path = NodePath("level_screen/bodypart_level_screen:rect_position")
 tracks/0/interp = 1
@@ -631,26 +644,259 @@ __meta__ = {
 [node name="center_content" type="CenterContainer" parent="about_screen"]
 margin_top = 69.0
 margin_right = 1002.0
-margin_bottom = 580.0
+margin_bottom = 576.0
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="content" type="Label" parent="about_screen/center_content"]
-modulate = Color( 0.141176, 0.0901961, 0.0901961, 1 )
+[node name="scroll" type="ScrollContainer" parent="about_screen/center_content"]
 margin_left = 201.0
-margin_top = 145.0
+margin_top = 103.0
 margin_right = 801.0
-margin_bottom = 366.0
-rect_min_size = Vector2( 600, 0 )
+margin_bottom = 403.0
+rect_min_size = Vector2( 600, 300 )
+
+[node name="content" type="VBoxContainer" parent="about_screen/center_content/scroll"]
+margin_right = 600.0
+margin_bottom = 650.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="text" type="Label" parent="about_screen/center_content/scroll/content"]
+self_modulate = Color( 0, 0, 0, 1 )
+margin_right = 600.0
+margin_bottom = 650.0
+rect_min_size = Vector2( 600, 650 )
 custom_fonts/font = SubResource( 5 )
 text = "Pimple Popper allows you to enjoy the experience of removing protuberance on different human body parts.
 
 We hope you enjoy this game. If you notice any bugs, have any questions or feedback feel free to 
 or open an          .
 
-We are also interested in your real-life pops. "
+We are also interested in your real-life pops. 
+
+
+
+
+
+
+
+
+"
 autowrap = true
+
+[node name="mailto" type="LinkButton" parent="about_screen/center_content/scroll/content/text"]
+modulate = Color( 0.196078, 0.345098, 0.694118, 1 )
+margin_left = 387.383
+margin_top = 110.198
+margin_right = 527.383
+margin_bottom = 135.198
+custom_fonts/font = SubResource( 6 )
+text = "send an email"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="issue" type="LinkButton" parent="about_screen/center_content/scroll/content/text"]
+modulate = Color( 0.196078, 0.345098, 0.694118, 1 )
+margin_left = 111.371
+margin_top = 138.071
+margin_right = 174.371
+margin_bottom = 163.071
+custom_fonts/font = SubResource( 6 )
+text = "issue"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="mailto2" type="LinkButton" parent="about_screen/center_content/scroll/content/text"]
+modulate = Color( 0.196078, 0.345098, 0.694118, 1 )
+margin_left = 452.918
+margin_top = 192.385
+margin_right = 557.918
+margin_bottom = 217.385
+custom_fonts/font = SubResource( 6 )
+text = "Send them"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="main_dev" type="LinkButton" parent="about_screen/center_content/scroll/content/text"]
+self_modulate = Color( 0.196078, 0.345098, 0.694118, 1 )
+margin_left = 0.279449
+margin_top = 252.0
+margin_right = 155.279
+margin_bottom = 277.0
+custom_fonts/font = SubResource( 6 )
+text = "Main Developer"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureRect" type="TextureRect" parent="about_screen/center_content/scroll/content/text/main_dev"]
+margin_left = 158.72
+margin_right = 540.72
+margin_bottom = 382.0
+rect_scale = Vector2( 0.06, 0.06 )
+texture = ExtResource( 13 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="main_artist" type="LinkButton" parent="about_screen/center_content/scroll/content/text"]
+self_modulate = Color( 0.196078, 0.345098, 0.694118, 1 )
+margin_top = 300.0
+margin_right = 155.0
+margin_bottom = 325.0
+custom_fonts/font = SubResource( 6 )
+text = "Main Artist"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureRect" type="TextureRect" parent="about_screen/center_content/scroll/content/text/main_artist"]
+margin_left = 119.0
+margin_right = 214.0
+margin_bottom = 95.0
+rect_scale = Vector2( 0.25, 0.25 )
+texture = ExtResource( 17 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="source" type="LinkButton" parent="about_screen/center_content/scroll/content/text"]
+self_modulate = Color( 0.196078, 0.345098, 0.694118, 1 )
+margin_left = -1.0
+margin_top = 348.0
+margin_right = 139.0
+margin_bottom = 373.0
+custom_fonts/font = SubResource( 6 )
+text = "Source"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureRect" type="TextureRect" parent="about_screen/center_content/scroll/content/text/source"]
+margin_left = 72.0
+margin_right = 510.0
+margin_bottom = 438.0
+rect_scale = Vector2( 0.05, 0.05 )
+texture = ExtResource( 12 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="homepage" type="LinkButton" parent="about_screen/center_content/scroll/content/text"]
+self_modulate = Color( 0.196078, 0.345098, 0.694118, 1 )
+margin_left = 0.279449
+margin_top = 396.0
+margin_right = 140.279
+margin_bottom = 421.0
+custom_fonts/font = SubResource( 6 )
+text = "Homepage"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureRect2" type="TextureRect" parent="about_screen/center_content/scroll/content/text/homepage"]
+margin_left = 111.092
+margin_right = 201.092
+margin_bottom = 93.0
+rect_scale = Vector2( 0.25, 0.25 )
+texture = ExtResource( 14 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="powered" type="LinkButton" parent="about_screen/center_content/scroll/content/text"]
+self_modulate = Color( 0.196078, 0.345098, 0.694118, 1 )
+margin_left = 0.279449
+margin_top = 444.0
+margin_right = 182.279
+margin_bottom = 469.0
+custom_fonts/font = SubResource( 6 )
+text = "Powered by Godot"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureRect" type="TextureRect" parent="about_screen/center_content/scroll/content/text/powered"]
+margin_left = 190.721
+margin_top = -1.0
+margin_right = 1214.72
+margin_bottom = 1023.0
+rect_scale = Vector2( 0.025, 0.025 )
+texture = ExtResource( 15 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="help_us" type="LinkButton" parent="about_screen/center_content/scroll/content/text"]
+self_modulate = Color( 0.196078, 0.345098, 0.694118, 1 )
+margin_top = 492.0
+margin_right = 249.0
+margin_bottom = 517.0
+custom_fonts/font = SubResource( 6 )
+text = "Help us with translations"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureRect" type="TextureRect" parent="about_screen/center_content/scroll/content/text/help_us"]
+margin_left = 255.0
+margin_right = 767.0
+margin_bottom = 512.0
+rect_scale = Vector2( 0.05, 0.05 )
+texture = ExtResource( 16 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="license" type="LinkButton" parent="about_screen/center_content/scroll/content/text"]
+self_modulate = Color( 0.196078, 0.345098, 0.694118, 1 )
+margin_left = 0.279449
+margin_top = 540.049
+margin_right = 140.279
+margin_bottom = 565.049
+custom_fonts/font = SubResource( 6 )
+text = "License"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureRect2" type="TextureRect" parent="about_screen/center_content/scroll/content/text/license"]
+margin_left = 78.7205
+margin_top = -0.0488281
+margin_right = 516.72
+margin_bottom = 437.951
+rect_scale = Vector2( 0.05, 0.05 )
+texture = ExtResource( 12 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="legal" type="LinkButton" parent="about_screen/center_content/scroll/content/text"]
+self_modulate = Color( 0.196078, 0.345098, 0.694118, 1 )
+margin_left = -1.0
+margin_top = 588.0
+margin_right = 139.0
+margin_bottom = 613.0
+custom_fonts/font = SubResource( 6 )
+text = "Legal"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureRect" type="TextureRect" parent="about_screen/center_content/scroll/content/text/legal"]
+margin_left = 60.6629
+margin_top = 2.6709
+margin_right = 139.663
+margin_bottom = 74.6709
+rect_scale = Vector2( 0.25, 0.25 )
+texture = ExtResource( 18 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="back" type="Button" parent="about_screen"]
 margin_left = 15.0
@@ -663,51 +909,38 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="mailto" type="LinkButton" parent="about_screen"]
-modulate = Color( 0.196078, 0.345098, 0.694118, 1 )
-margin_left = 588.383
-margin_top = 324.198
-margin_right = 728.383
-margin_bottom = 349.198
-custom_fonts/font = SubResource( 6 )
-text = "send an email"
+[node name="popup" type="PopupDialog" parent="."]
+margin_left = 225.411
+margin_top = 106.356
+margin_right = 808.411
+margin_bottom = 468.356
+custom_styles/panel = SubResource( 7 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="issue" type="LinkButton" parent="about_screen"]
-modulate = Color( 0.196078, 0.345098, 0.694118, 1 )
-margin_left = 312.371
-margin_top = 352.071
-margin_right = 375.371
-margin_bottom = 377.071
-custom_fonts/font = SubResource( 6 )
-text = "issue"
-__meta__ = {
-"_edit_use_anchors_": false
-}
+[node name="Label" type="Label" parent="popup"]
+modulate = Color( 0, 0, 0, 1 )
+margin_right = 580.0
+margin_bottom = 361.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+custom_fonts/font = SubResource( 8 )
+text = "The tutorial is under the works.
 
-[node name="mailto2" type="LinkButton" parent="about_screen"]
-modulate = Color( 0.196078, 0.345098, 0.694118, 1 )
-margin_left = 653.918
-margin_top = 406.385
-margin_right = 758.918
-margin_bottom = 431.385
-custom_fonts/font = SubResource( 6 )
-text = "Send them"
-__meta__ = {
-"_edit_use_anchors_": false
-}
+Please, wait for an app update"
+align = 1
+valign = 1
 
 [node name="animation" type="AnimationPlayer" parent="."]
-anims/about_to_main = SubResource( 7 )
-anims/back_to_bodypart = SubResource( 8 )
-anims/back_to_main = SubResource( 9 )
-anims/fade_in = SubResource( 10 )
-anims/intro = SubResource( 11 )
-anims/to_about = SubResource( 12 )
-anims/to_bodypart = SubResource( 13 )
-anims/to_difficulty = SubResource( 14 )
+anims/about_to_main = SubResource( 9 )
+anims/back_to_bodypart = SubResource( 10 )
+anims/back_to_main = SubResource( 11 )
+anims/fade_in = SubResource( 12 )
+anims/intro = SubResource( 13 )
+anims/to_about = SubResource( 14 )
+anims/to_bodypart = SubResource( 15 )
+anims/to_difficulty = SubResource( 16 )
 
 [node name="fade_screen" type="Sprite" parent="."]
 modulate = Color( 1, 1, 1, 0 )
@@ -717,11 +950,20 @@ __meta__ = {
 "_edit_lock_": true
 }
 [connection signal="pressed" from="main_screen/CenterContainer/vbox/play" to="." method="_on_play_pressed"]
+[connection signal="pressed" from="main_screen/CenterContainer/vbox/tutorial" to="." method="_on_tutorial_pressed"]
 [connection signal="pressed" from="main_screen/CenterContainer/vbox/about" to="." method="_on_about_pressed"]
 [connection signal="pressed" from="level_screen/bodypart_level_screen/back_to_main" to="." method="_on_back_to_main_pressed"]
 [connection signal="pressed" from="level_screen/difficulty_screen/back_to_bodypart" to="." method="_on_back_to_bodypart_pressed"]
+[connection signal="pressed" from="about_screen/center_content/scroll/content/text/mailto" to="." method="_on_mailto_pressed"]
+[connection signal="pressed" from="about_screen/center_content/scroll/content/text/issue" to="." method="_on_issue_pressed"]
+[connection signal="pressed" from="about_screen/center_content/scroll/content/text/mailto2" to="." method="_on_mailto_pressed"]
+[connection signal="pressed" from="about_screen/center_content/scroll/content/text/main_dev" to="." method="_on_link_pressed" binds= [ "https://linkedin.com/in/mottajordan" ]]
+[connection signal="pressed" from="about_screen/center_content/scroll/content/text/main_artist" to="." method="_on_link_pressed" binds= [ "https://www.behance.net/alexrendon" ]]
+[connection signal="pressed" from="about_screen/center_content/scroll/content/text/source" to="." method="_on_link_pressed" binds= [ "https://github.com/Crazy-Marvin/PimplePopper/" ]]
+[connection signal="pressed" from="about_screen/center_content/scroll/content/text/homepage" to="." method="_on_link_pressed" binds= [ "https://www.crazymarvin.com/pimple-popper" ]]
+[connection signal="pressed" from="about_screen/center_content/scroll/content/text/powered" to="." method="_on_link_pressed" binds= [ "https://godotengine.org/" ]]
+[connection signal="pressed" from="about_screen/center_content/scroll/content/text/help_us" to="." method="_on_link_pressed" binds= [ "https://crowdin.com/project/pimple-popper" ]]
+[connection signal="pressed" from="about_screen/center_content/scroll/content/text/license" to="." method="_on_link_pressed" binds= [ "https://github.com/Crazy-Marvin/PimplePopper/blob/master/LICENSE" ]]
+[connection signal="pressed" from="about_screen/center_content/scroll/content/text/legal" to="." method="_on_link_pressed" binds= [ "https://crazymarvin.com/pimple-popper/terms-of-service/" ]]
 [connection signal="pressed" from="about_screen/back" to="." method="_on_about_back_pressed"]
-[connection signal="pressed" from="about_screen/mailto" to="." method="_on_mailto_pressed"]
-[connection signal="pressed" from="about_screen/issue" to="." method="_on_issue_pressed"]
-[connection signal="pressed" from="about_screen/mailto2" to="." method="_on_mailto_pressed"]
 [connection signal="animation_finished" from="animation" to="." method="_on_animation_finished"]
