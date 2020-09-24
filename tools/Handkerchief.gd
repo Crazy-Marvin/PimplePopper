@@ -27,7 +27,17 @@ func _input(event):
 				collider.get_parent().clean()
 			elif collider is Cyst:
 				collider.clean()
+			elif collider is Lipoma:
+				collider.clean()
 	update()
 
 func _draw():
 	draw_circle(finger_position, 5, Color(1, 1, 1, 1))
+
+func disable() -> void:
+	set_process_input(false)
+	visible = false
+
+func enable() -> void:
+	set_process_input(true)
+	visible = true

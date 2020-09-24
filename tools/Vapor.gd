@@ -2,6 +2,8 @@ extends Area2D
 
 
 onready var particles: Particles2D = $particles
+onready var _hint_sfx: AudioStreamPlayer2D = $hint_sfx
+
 var _space: Physics2DDirectSpaceState
 var _protuberances: Array = []
 
@@ -12,8 +14,13 @@ func _ready():
 	_space = get_world_2d().direct_space_state
 
 func _process(delta):
+	if _protuberances.size() != 0:
+		Input.vibrate_handheld(50)
+	
 	for p in _protuberances:
-		p.apply_vapor()
+		if p.apply_vapor():
+			_hint_sfx.play()
+			_protuberances.erase(p)
 
 func _input(event):
 	if event is InputEventScreenTouch:
@@ -30,11 +37,21 @@ func _input(event):
 
 
 func _on_area_entered(area):
-	print_debug ("Body entered")
-	if area.get_parent() is Blackhead:
-		print_debug ("ON blackhead")
-		_protuberances.append(area.get_parent())
+	var bh = area.get_parent()
+	if bh is Blackhead:
+		if not bh.is_open():
+			_protuberances.append(bh)
 
 func _on_area_exited(area):
-	if area.get_parent() is Blackhead:
-		_protuberances.erase(area.get_parent())
+	var bh = area.get_parent()
+	if bh is Blackhead:
+		if _protuberances.has(bh):
+			_protuberances.erase(area.get_parent())
+
+func disable() -> void:
+	set_process_input(false)
+	visible = false
+
+func enable() -> void:
+	set_process_input(true)
+	visible = true

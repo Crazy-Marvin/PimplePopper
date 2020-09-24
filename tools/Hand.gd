@@ -1,6 +1,6 @@
 extends Node2D
 
-
+onready var _hint_sfx: AudioStreamPlayer2D = $hint_sfx
 
 var _counter: int = 0
 var _fingers: Dictionary = {}
@@ -30,6 +30,7 @@ func _input(event):
 				var result: Dictionary = space_state.intersect_ray(f0_position, f1_position, [], 2147483647, false, true)
 				print (result)
 				if not result.empty():
+					_hint_sfx.play()
 					_protuberance = result['collider']
 					_initial_distance = (f0_position - f1_position).length()
 		else:
@@ -50,4 +51,13 @@ func _input(event):
 				var f1_position: Vector2 = _fingers[1].position
 				var new_distance: float = (f0_position - f1_position).length()
 				if new_distance < _initial_distance:
-					_protuberance.apply_pressure(_initial_distance - new_distance)
+					if _protuberance.apply_pressure(_initial_distance - new_distance):
+						_hint_sfx.play()
+
+func disable() -> void:
+	set_process_input(false)
+	visible = false
+
+func enable() -> void:
+	set_process_input(true)
+	visible = true

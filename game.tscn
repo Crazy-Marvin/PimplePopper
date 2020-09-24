@@ -1,22 +1,20 @@
-[gd_scene load_steps=15 format=2]
+[gd_scene load_steps=20 format=2]
 
 [ext_resource path="res://menu/UI.gd" type="Script" id=1]
-[ext_resource path="res://tools/Hand.gd" type="Script" id=2]
+[ext_resource path="res://tools/hand.tscn" type="PackedScene" id=2]
 [ext_resource path="res://Game.gd" type="Script" id=3]
 [ext_resource path="res://tools/needle.tscn" type="PackedScene" id=4]
 [ext_resource path="res://tools/Tools.gd" type="Script" id=5]
 [ext_resource path="res://tools/Handkerchief.gd" type="Script" id=6]
-[ext_resource path="res://tools/FingerPointer.gd" type="Script" id=7]
+[ext_resource path="res://tools/cutter.tscn" type="PackedScene" id=7]
 [ext_resource path="res://assets/fonts/NoirPro-SemiBold.otf" type="DynamicFontData" id=8]
 [ext_resource path="res://assets/themes/menu.tres" type="Theme" id=9]
+[ext_resource path="res://tools/anaesthetic.tscn" type="PackedScene" id=11]
 [ext_resource path="res://bodyparts/BodyPart.gd" type="Script" id=12]
+[ext_resource path="res://assets/blackscreen.png" type="Texture" id=13]
+[ext_resource path="res://tools/needle_suture.tscn" type="PackedScene" id=14]
 [ext_resource path="res://tools/vapor.tscn" type="PackedScene" id=16]
 [ext_resource path="res://tools/comedone_extraction_tool.tscn" type="PackedScene" id=17]
-
-
-
-
-
 
 [sub_resource type="DynamicFont" id=1]
 size = 30
@@ -24,6 +22,36 @@ font_data = ExtResource( 8 )
 
 [sub_resource type="Theme" id=2]
 default_font = SubResource( 1 )
+
+[sub_resource type="Animation" id=3]
+resource_name = "fade_in"
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
+}
+
+[sub_resource type="Animation" id=4]
+resource_name = "fade_out"
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0 ) ]
+}
 
 [node name="game" type="Node2D"]
 script = ExtResource( 3 )
@@ -42,9 +70,21 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="tools" type="VBoxContainer" parent="UI"]
-margin_right = 249.0
-margin_bottom = 580.0
+[node name="scroll" type="ScrollContainer" parent="UI"]
+margin_right = 276.0
+margin_bottom = 582.0
+mouse_filter = 2
+follow_focus = true
+scroll_horizontal_enabled = false
+scroll_deadzone = 100
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="tools" type="VBoxContainer" parent="UI/scroll"]
+margin_right = 224.0
+margin_bottom = 860.0
+mouse_filter = 2
 theme = SubResource( 2 )
 custom_constants/separation = 20
 alignment = 1
@@ -52,52 +92,107 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="hand" type="Button" parent="UI/tools"]
-margin_top = 25.0
-margin_right = 249.0
-margin_bottom = 115.0
+[node name="hand" type="Button" parent="UI/scroll/tools"]
+margin_right = 224.0
+margin_bottom = 90.0
 rect_min_size = Vector2( 0, 90 )
+focus_mode = 0
+enabled_focus_mode = 0
 text = "HAND"
 
-[node name="handkerchief" type="Button" parent="UI/tools"]
-margin_top = 135.0
-margin_right = 249.0
-margin_bottom = 225.0
+[node name="handkerchief" type="Button" parent="UI/scroll/tools"]
+margin_top = 110.0
+margin_right = 224.0
+margin_bottom = 200.0
 rect_min_size = Vector2( 0, 90 )
+focus_mode = 0
+enabled_focus_mode = 0
 text = "HANDKERCHIEF"
 
-[node name="vapor" type="Button" parent="UI/tools"]
-margin_top = 245.0
-margin_right = 249.0
-margin_bottom = 335.0
+[node name="vapor" type="Button" parent="UI/scroll/tools"]
+margin_top = 220.0
+margin_right = 224.0
+margin_bottom = 310.0
 rect_min_size = Vector2( 0, 90 )
+focus_mode = 0
+enabled_focus_mode = 0
 text = "VAPOR"
 
-[node name="comedone_extraction_tool" type="Button" parent="UI/tools"]
-margin_top = 355.0
-margin_right = 249.0
-margin_bottom = 445.0
+[node name="comedone_extraction_tool" type="Button" parent="UI/scroll/tools"]
+margin_top = 330.0
+margin_right = 224.0
+margin_bottom = 420.0
 rect_min_size = Vector2( 0, 90 )
+focus_mode = 0
+enabled_focus_mode = 0
 text = "COMEDONE"
 
-[node name="needle" type="Button" parent="UI/tools"]
-margin_top = 465.0
-margin_right = 249.0
-margin_bottom = 555.0
+[node name="needle" type="Button" parent="UI/scroll/tools"]
+margin_top = 440.0
+margin_right = 224.0
+margin_bottom = 530.0
 rect_min_size = Vector2( 0, 90 )
+focus_mode = 0
+enabled_focus_mode = 0
 text = "NEEDLE"
+
+[node name="anesthetic" type="Button" parent="UI/scroll/tools"]
+margin_top = 550.0
+margin_right = 224.0
+margin_bottom = 640.0
+rect_min_size = Vector2( 0, 90 )
+focus_mode = 0
+enabled_focus_mode = 0
+text = "ANESTHETIC"
+
+[node name="suture" type="Button" parent="UI/scroll/tools"]
+margin_top = 660.0
+margin_right = 224.0
+margin_bottom = 750.0
+rect_min_size = Vector2( 0, 90 )
+focus_mode = 0
+enabled_focus_mode = 0
+text = "SUTURE"
+
+[node name="cutter" type="Button" parent="UI/scroll/tools"]
+margin_top = 770.0
+margin_right = 224.0
+margin_bottom = 860.0
+rect_min_size = Vector2( 0, 90 )
+focus_mode = 0
+enabled_focus_mode = 0
+text = "CUTTER"
+
+[node name="back" type="Button" parent="UI"]
+margin_left = 892.242
+margin_top = 13.4848
+margin_right = 992.242
+margin_bottom = 73.4848
+rect_min_size = Vector2( 100, 60 )
+focus_mode = 0
+enabled_focus_mode = 0
+text = "BACK"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="hint" type="Button" parent="UI"]
+margin_left = 786.176
+margin_top = 13.4848
+margin_right = 886.176
+margin_bottom = 73.4848
+rect_min_size = Vector2( 100, 60 )
+focus_mode = 0
+enabled_focus_mode = 0
+text = "HINT"
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="tools" type="Node" parent="."]
 script = ExtResource( 5 )
 
-[node name="hand" type="Node2D" parent="tools"]
-script = ExtResource( 2 )
-
-[node name="finger_cero" type="Node2D" parent="tools/hand"]
-script = ExtResource( 7 )
-
-[node name="finger_one" type="Node2D" parent="tools/hand"]
-script = ExtResource( 7 )
+[node name="hand" parent="tools" instance=ExtResource( 2 )]
 
 [node name="handkerchief" type="Node2D" parent="tools"]
 script = ExtResource( 6 )
@@ -108,11 +203,35 @@ script = ExtResource( 6 )
 
 [node name="needle" parent="tools" instance=ExtResource( 4 )]
 
+[node name="cutter" parent="tools" instance=ExtResource( 7 )]
+
+[node name="anaesthetic" parent="tools" instance=ExtResource( 11 )]
+
+[node name="suture" parent="tools" instance=ExtResource( 14 )]
+
 [node name="timer" type="Timer" parent="."]
 wait_time = 2.0
-[connection signal="pressed" from="UI/tools/hand" to="." method="_on_hand_pressed"]
-[connection signal="pressed" from="UI/tools/handkerchief" to="." method="_on_handkerchief_pressed"]
-[connection signal="pressed" from="UI/tools/vapor" to="." method="_on_vapor_pressed"]
-[connection signal="pressed" from="UI/tools/comedone_extraction_tool" to="." method="_on_comedone_extraction_tool_pressed"]
-[connection signal="pressed" from="UI/tools/needle" to="." method="_on_needle_pressed"]
+
+[node name="Sprite" type="Sprite" parent="."]
+modulate = Color( 1, 1, 1, 0 )
+texture = ExtResource( 13 )
+centered = false
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+anims/fade_in = SubResource( 3 )
+anims/fade_out = SubResource( 4 )
+[connection signal="pressed" from="UI/scroll/tools/hand" to="." method="_on_hand_pressed"]
+[connection signal="pressed" from="UI/scroll/tools/handkerchief" to="." method="_on_handkerchief_pressed"]
+[connection signal="pressed" from="UI/scroll/tools/vapor" to="." method="_on_vapor_pressed"]
+[connection signal="pressed" from="UI/scroll/tools/comedone_extraction_tool" to="." method="_on_comedone_extraction_tool_pressed"]
+[connection signal="pressed" from="UI/scroll/tools/needle" to="." method="_on_needle_pressed"]
+[connection signal="pressed" from="UI/scroll/tools/anesthetic" to="." method="_on_anesthetic_pressed"]
+[connection signal="pressed" from="UI/scroll/tools/suture" to="." method="_on_suture_pressed"]
+[connection signal="pressed" from="UI/scroll/tools/cutter" to="." method="_on_cutter_pressed"]
+[connection signal="pressed" from="UI/back" to="." method="_on_back_pressed"]
+[connection signal="pressed" from="UI/hint" to="." method="_on_hint_pressed"]
 [connection signal="timeout" from="timer" to="." method="_on_timeout"]
+[connection signal="animation_finished" from="AnimationPlayer" to="." method="_on_animation_finished"]

@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=2]
+[gd_scene load_steps=12 format=2]
 
 [ext_resource path="res://protuberances/cyst.tscn" type="PackedScene" id=1]
 [ext_resource path="res://assets/cyst/5.png" type="Texture" id=2]
@@ -9,6 +9,7 @@
 [ext_resource path="res://assets/cyst/3.png" type="Texture" id=7]
 [ext_resource path="res://assets/cyst/4.png" type="Texture" id=8]
 [ext_resource path="res://assets/cyst/base.png" type="Texture" id=9]
+[ext_resource path="res://tools/circle_hint.tscn" type="PackedScene" id=10]
 
 [sub_resource type="SpriteFrames" id=1]
 animations = [ {
@@ -29,5 +30,8 @@ centered = false
 "protuberance",
 ] instance=ExtResource( 1 )]
 position = Vector2( 545.683, 313.551 )
+
+[node name="circle_hint" parent="cyst" instance=ExtResource( 10 )]
+radius = 26.951
 
 [editable path="cyst"]
