@@ -1,5 +1,6 @@
 extends Node2D
 
+signal placed(right)
 
 var _counter: int = 0
 var _fingers: Dictionary = {}
@@ -36,6 +37,7 @@ func _input(event):
 				print (result)
 				if not result.empty():
 					_protuberance = result['collider']
+					_protuberance
 					_initial_distance = (f0_position - f1_position).length()
 					pass
 				pass

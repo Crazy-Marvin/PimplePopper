@@ -19,6 +19,16 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://bodyparts/BodyPart.gd"
 }, {
+"base": "Area2D",
+"class": "Clamp",
+"language": "GDScript",
+"path": "res://tools/Clamp.gd"
+}, {
+"base": "Node2D",
+"class": "Cutter",
+"language": "GDScript",
+"path": "res://tools/Cutter.gd"
+}, {
 "base": "Node2D",
 "class": "Cyst",
 "language": "GDScript",
@@ -39,10 +49,20 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://menu/Level.gd"
 }, {
+"base": "Area2D",
+"class": "Lipoma",
+"language": "GDScript",
+"path": "res://protuberances/Lipoma.gd"
+}, {
 "base": "Node2D",
 "class": "Neddle",
 "language": "GDScript",
 "path": "res://tools/Needle.gd"
+}, {
+"base": "Node2D",
+"class": "NeedleSuture",
+"language": "GDScript",
+"path": "res://tools/NeedleSuture.gd"
 }, {
 "base": "Area2D",
 "class": "Pimple",
@@ -52,11 +72,15 @@ _global_script_classes=[ {
 _global_script_class_icons={
 "Blackhead": "",
 "BodyPart": "",
+"Clamp": "",
+"Cutter": "",
 "Cyst": "",
 "FingerPointer": "",
 "HScroll": "",
 "Level": "",
+"Lipoma": "",
 "Neddle": "",
+"NeedleSuture": "",
 "Pimple": ""
 }
 
@@ -64,6 +88,7 @@ _global_script_class_icons={
 
 config/name="Pimples"
 run/main_scene="res://menu/main_screen.tscn"
+config/icon="res://icon.png"
 
 [autoload]
 
