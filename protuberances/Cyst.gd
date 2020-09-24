@@ -10,6 +10,7 @@ enum State {
 }
 
 onready var _sprites: AnimatedSprite = get_parent().get_node("background")
+onready var _cirecle_hint = $circle_hint
 
 export(int, 20, 100) var amount: int = 30
 
@@ -19,6 +20,7 @@ var _fs: int
 var _state = State.NORMAL
 
 func _ready():
+	_cirecle_hint.set_color(_cirecle_hint.white)
 	_initial_amount = amount
 	_fs = _sprites.frames.get_frame_count("default")
 
@@ -30,12 +32,13 @@ func extract() -> int:
 		print (value)
 		_sprites.frame = clamp(value, 1, _fs - 2)
 		if amount <= 0:
-			print_debug("Empty!")
 			_state = State.EMPTY
+			_cirecle_hint.set_color(_cirecle_hint.red)
 	return _sprites.frame
 
 func clean() -> void:
 	if _state == State.EMPTY:
+		_cirecle_hint.set_color(_cirecle_hint.green)
 		_sprites.frame = _fs - 1
 		emit_signal("protuberance_cleaned")
 		_state = State.CLEAN

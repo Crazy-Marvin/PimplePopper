@@ -9,6 +9,7 @@ signal double_pressed
 
 onready var _sprite: Sprite = $tool/sprite
 onready var _tween: Tween = $tween
+onready var _sfx: AudioStreamPlayer2D = $hint_sfx
 
 export(float) var pressed_timeout: float = 0.3
 export(float) var max_down_distance: float = 20.0
@@ -63,12 +64,10 @@ func position_tool(event: InputEvent) -> void:
 	if event is InputEventScreenTouch:
 		if event.pressed and event.index == 0:
 				if not _first_press:
-					print_debug("First press")
 					_first_press = true
 					_timeout = pressed_timeout
 					set_process(true)
 				elif _first_press and _timeout > 0:
-					print_debug("Double pressed")
 					emit_signal("double_pressed")
 					bring_tool(event.position)
 
@@ -84,6 +83,15 @@ func _on_tween_completed(object, key):
 		if collisions.size() != 0:
 			var collider = collisions[0].collider.get_parent()
 			if collider is Blackhead:
+				_sfx.play()
 				_protuberance = collider
 				_state = State.ON_BLACKHEAD
 		set_process_input(true)
+
+func disable() -> void:
+	set_process_input(false)
+	visible = false
+
+func enable() -> void:
+	set_process_input(true)
+	visible = true

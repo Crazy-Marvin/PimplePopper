@@ -9,14 +9,17 @@ onready var _difficulty_screen: Control = $level_screen/difficulty_screen
 onready var _difficulty_hscroll: Control = $level_screen/difficulty_screen/hscroll
 onready var _animation: AnimationPlayer = $animation
 onready var _popup: PopupDialog = $popup
+onready var _no_game_popup: PopupPanel = $no_game_popup
 
 
 var _bodypart: String
 var _level: String
 
 
-# Called when the node enters the scene tree for the first time.
 func _ready():
+	_config_menu()
+
+func _config_menu() -> void:
 	_main_screen.rect_position = Vector2(0, -OS.window_size.y - 100)
 	_animation.play("intro")
 	_difficulty_hscroll.set_enabled(false)
@@ -27,18 +30,22 @@ func _ready():
 	var difficulty_hscroll = _difficulty_screen.get_node("hscroll")
 	difficulty_hscroll.connect("selected_level", self, "_on_difficulty_selected")
 
+func _cast_string(s: String) -> String:
+	return s.replace(" ", "-")
 
 func _on_difficulty_selected(level: String) -> void:
 	if not _animation.is_playing():
 		print(level)
-		Global.level = level
+		Global.level = _cast_string(level)
 		if Global.is_bodypart_available():
 			_animation.play("fade_in")
+		else:
+			_no_game_popup.popup_centered()
 
 func _on_bodypart_selected(bodypart: String) -> void:
 	if not _animation.is_playing():
 		print (bodypart)
-		Global.bodypart = bodypart
+		Global.bodypart = _cast_string(bodypart)
 		_animation.play("to_difficulty")
 		_bodypart_hscroll.set_enabled(false)
 		_difficulty_hscroll.set_enabled(true)
@@ -95,3 +102,7 @@ func _on_tutorial_pressed():
 func _on_link_pressed(link):
 	OS.shell_open(link)
 	pass # Replace with function body.
+
+
+func _on_options_pressed():
+	Input.vibrate_handheld(50)

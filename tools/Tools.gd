@@ -9,37 +9,56 @@ func _ready():
 		$handkerchief,
 		$vapor,
 		$comedone_extraction_tool,
-		$needle
+		$needle,
+		$cutter,
+		$anaesthetic,
+		$suture
 	]
 	disable_all()
 
+
 func disable_all() -> void:
 	for t in tools:
-		t.set_process_input(false)
-		t.visible = false
+		t.disable()
 
-func _enable_tool(t: Node2D) -> void:
-	t.set_process_input(true)
-	t.visible = true
+
+func _enable_tool(t) -> void:
+	t.enable()
+
 
 func enable_hand() -> void:
-	print ("Enabling hand...")
 	disable_all()
 	_enable_tool($hand)
 
+
 func enable_handkerchief() -> void:
-	print ("Enabling handkerchief...")
 	disable_all()
 	_enable_tool($handkerchief)
+
 
 func enable_vapor() -> void:
 	disable_all()
 	_enable_tool($vapor)
 
+
 func enable_comedone_extraction_tool() -> void:
 	disable_all()
 	_enable_tool($comedone_extraction_tool)
 
+
 func enable_needle() -> void:
 	disable_all()
 	_enable_tool($needle)
+
+
+func enable_cutter() -> void:
+	disable_all()
+	_enable_tool($cutter) 
+
+func enable_anesthetic() -> void:
+	disable_all()
+	_enable_tool($anaesthetic)
+
+func enable_suture() -> void:
+	disable_all()
+	_enable_tool($suture)

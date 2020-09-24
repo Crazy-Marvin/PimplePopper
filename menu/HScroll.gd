@@ -38,7 +38,7 @@ func _ready():
 func _process(delta):
 	var np: float = direction.x * delta * speed
 	$hbox.rect_position.x += np
-	# 20.0 is a  magic number because i need a "error margin" when
+	# 30.0 is a  magic number because i need a "error margin" when
 	# the levels are sliding. I do not declare it as a exportable variable
 	# because i think i can find a better way to do it.
 	if abs($hbox.rect_position.x - new_position.x) < 30.0:

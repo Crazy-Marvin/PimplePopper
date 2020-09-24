@@ -10,17 +10,26 @@ var _scenes: Dictionary = {
 	"forehead": {
 		"easy": null,
 		"normal": load("res://bodyparts/normal/forehead.tscn"),
-		"hard": null
+		"hard": null,
+		"super-hard": null
 	},
 	"cheek": {
 		"easy": _cheek_easy_resource,
 		"normal": null,
 		"hard": null,
+		"super-hard": null
 	},
 	"wrist": {
 		"easy": null,
 		"normal": null,
-		"hard": load("res://bodyparts/hard/wrist.tscn")
+		"hard": load("res://bodyparts/hard/wrist.tscn"),
+		"super-hard": null,
+	},
+	"back": {
+		"easy": null,
+		"normal": null,
+		"hard": null,
+		"super-hard": load("res://bodyparts/super-hard/back.tscn")
 	}
 }
 

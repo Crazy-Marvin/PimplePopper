@@ -5,6 +5,9 @@ export(float) var needle_extraction_distance: float = 50
 
 onready var _tween: Tween = $tween
 onready var _sprites: AnimatedSprite = $tool/sprites
+onready var _hint: AudioStreamPlayer2D = $hint_sfx
+onready var _wrong: AudioStreamPlayer2D = $wrong_sfx
+
 var _initial_tool_position: Vector2 
 var _second_finger_position: Vector2
 var _protuberance
@@ -45,7 +48,16 @@ func _on_tween_completed(object, key):
 	print_debug(key)
 	if object == _sprites and key == ":position":
 		var collisions: Array = _space.intersect_point(_sprites.position, 1, [], 1, false, true)
-		print_debug("Tween completed")
 		if collisions.size() != 0:
+			_hint.play()
 			print_debug("On Protuberance")
 			_protuberance = collisions[0].collider
+
+func disable() -> void:
+	set_process_input(false)
+	visible = false
+
+func enable() -> void:
+	set_process_input(true)
+	visible = true
+

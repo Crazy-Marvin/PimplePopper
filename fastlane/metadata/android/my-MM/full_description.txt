@@ -1,0 +1,20 @@
+Pimple Popper သည် ဝက်ခြံများဖောက်ညှစ်ပြီး အဆီဖုအမည်းများ၊ အဆီဖုအဖြူများ၊ အဆီကျိတ်များနှင့် အလားတူအရာများကို ဖယ်ရှားရသည့် ဂိမ်းတစ်ခု ဖြစ်သည်။
+အခုပဲ ဒေါင်းလုဒ်လုပ်ပြီး ပျော်ရွှင်ကျေနပ်မှု ရယူလိုက်ပါ။
+
+<b>အင်္ဂါရပ်များ-</b>
+
+<ul>
+<li>Open Source (ကုဒ်ရယူနိုင်သော ဆော့ဖ်ဝဲ) 🎉</li>
+<li>အလွန်စိတ်ကျေနပ်စေသည် 😂</li>
+<li>အတော်လေး လက်တွေ့ဆန်သည် 😉</li>
+<li>သင့်နေ့စဉ်ဘဝအတွက် အဆင်ပြေနိုင်သည် 😜</li>
+<li>တကယ့် အပြင်မှာ ဖောက်လိုက်ပုံများကို ပေးပို့နိုင်ပြီး ချီးကျူးစာသား ရယူနိုင်သည်။ 🙈/li>
+</ul>
+
+ပင်မစာမျက်နှာ-: <a href="https://www.crazymarvin.com/pimple-popper">https://www.crazymarvin.com/pimple-popper</a>
+
+ဘာသာပြန်ဆိုရန်အတွက် ကူညီပေးရန်-: <a href="https://crowdin.com/project/pimple-popper">https://crowdin.com/project/pimple-popper</a> 
+
+GitHub တွင် ရင်းမြစ်-: <a href="https://github.com/Crazy-Marvin/PimplePopper">https://github.com/Crazy-Marvin/PimplePopper</a> 
+
+ကစားလိုက်ပါ။! 👌
