@@ -1,19 +1,19 @@
-Pimple Popper is a game about popping pimples and removing blackheads, whiteheads, lipomas and similar stuff. Download now and feel the huge satisfaction!
+Pimple Popper është një lojëqë që ka të bëjë me shtrydhjen e puçrrave dhe heqjen e pikave të zeza, pikave të bardha, lipomave dhe gjëra të ngjashme. Shkarkoni tani dhe ndjeni kënaqësinë të jashtëzakonshme!
 
-<b>Features:</b>
+<b>Karakteristikat:</b>
 
 <ul>
-<li>Open Source 🎉</li>
-<li>Extremely satisfactory 😂</li>
-<li>Quite realistic 😉</li>
-<li>Might come in handy for your daily life 😜</li>
-<li>You can send us your real-life pops and get a complimentary message 🙈</li>
+<li>Burim i Hapur 🎉</li>
+<li>Jashtëzakonisht e kënaqshme 😂</li>
+<li>Mjaft realiste 😉</li>
+<li>Mund të jetë e dobishëm për jetën tuaj të përditshme 😜</li>
+<li>Ju mund të na dërgoni shtrydhjet e tuaja reale dhe do të merrni një mesazh falas 🙈</li>
 </ul>
 
-Homepage: <a href="https://www.crazymarvin.com/pimple-popper">https://www.crazymarvin.com/pimple-popper</a>
+Faqja kryesore: <a href="https://www.crazymarvin.com/pimple-popper">https://www.crazymarvin.com/pimple-popper</a>
 
-Help us with translation: <a href="https://crowdin.com/project/pimple-popper">https://crowdin.com/project/pimple-popper</a> 
+Na ndihmoni me përkthimin: <a href="https://crowdin.com/project/pimple-popper">https://crowdin.com/project/pimple-popper</a> 
 
-Source on GitHub: <a href="https://github.com/Crazy-Marvin/PimplePopper">https://github.com/Crazy-Marvin/PimplePopper</a> 
+Burimi në GitHub: <a href="https://github.com/Crazy-Marvin/PimplePopper">https://github.com/Crazy-Marvin/PimplePopper</a> 
 
-Enjoy! 👌
+Shijoni lojën! 👌
