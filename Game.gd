@@ -1,7 +1,10 @@
 extends Node2D
 
 onready var _animation = $AnimationPlayer
-var hint_hided: bool = false
+onready var _finish_popup = $CanvasLayer/finish_game_popup
+
+export(bool) var hint_hided: bool = true
+var _hints: Array
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -9,10 +12,17 @@ func _ready():
 	for bp in nodes:
 		bp.connect("bodypart_cleaned", self, "_on_bodypart_cleaned")
 	_animation.play("fade_out")
+	
+	_hints = get_tree().get_nodes_in_group("hint")
+	hide_hints(hint_hided)
 
+func hide_hints(hided: bool) -> void:
+	for h in _hints:
+		h.visible = not hided
 
 func _on_bodypart_cleaned() -> void:
-	$timer.start()
+#	$timer.start()
+	_finish_popup.start()
 
 
 func _on_hand_pressed():
@@ -64,4 +74,9 @@ func _on_animation_finished(anim: String) -> void:
 
 func _on_hint_pressed():
 	hint_hided = not hint_hided
-	get_tree().call_group("hint", "set_visible", not hint_hided)
+	hide_hints(hint_hided)
+
+
+func _on_anim_finished(finish_type):
+	if finish_type == _finish_popup.finish_type.WIN:
+		get_tree().change_scene("res://menu/main_screen.tscn")

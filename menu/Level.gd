@@ -5,13 +5,14 @@ signal button_pressed(bodypart)
 
 var info: String
 var number: int
+var code: String
 
 
 func _on_pressed():
 	emit_signal("button_pressed")
 
 func set_text (t: String) -> void:
-	$button.text = t
+	$button.text = tr(t)
 
 func get_size () -> Vector2:
 	return $button.rect_size

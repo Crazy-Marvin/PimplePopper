@@ -4,6 +4,7 @@
 # Godot-specific ignores
 .import/
 *.import
+*.xlsx
 export_presets.cfg
 
 # Mono-specific ignores

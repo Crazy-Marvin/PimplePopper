@@ -18,7 +18,8 @@ func _input(event):
 		if event.index > 1:
 			return
 		if event.pressed:
-			var finger: FingerPointer = _fingers[event.index]
+#			var finger: FingerPointer = _fingers[event.index]
+			var finger = _fingers[event.index]
 			finger.position = event.position
 			finger.draw_pointer()
 			# When the second finger touchs the screen
@@ -34,7 +35,8 @@ func _input(event):
 					_protuberance = result['collider']
 					_initial_distance = (f0_position - f1_position).length()
 		else:
-			var finger: FingerPointer = _fingers[event.index]
+#			var finger: FingerPointer = _fingers[event.index]
+			var finger = _fingers[event.index]
 			finger.position = event.position
 			finger.hide_pointer()
 			if event.index == 1:
@@ -43,7 +45,8 @@ func _input(event):
 	elif event is InputEventScreenDrag:
 		if event.index > 1:
 			return
-		var finger: FingerPointer = _fingers[event.index]
+#		var finger: FingerPointer = _fingers[event.index]
+		var finger = _fingers[event.index]
 		finger.position = event.position
 		if event.index == 1:
 			if _protuberance:
