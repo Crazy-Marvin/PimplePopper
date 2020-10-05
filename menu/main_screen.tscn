@@ -448,9 +448,8 @@ __meta__ = {
 }
 
 [node name="main_screen" type="Control" parent="."]
-margin_top = -800.0
 margin_right = 40.0
-margin_bottom = -760.0
+margin_bottom = 40.0
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -464,56 +463,56 @@ __meta__ = {
 }
 
 [node name="vbox" type="VBoxContainer" parent="main_screen/CenterContainer"]
-margin_left = 401.0
+margin_left = 385.0
 margin_top = 42.0
-margin_right = 601.0
+margin_right = 617.0
 margin_bottom = 374.0
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="play" type="Button" parent="main_screen/CenterContainer/vbox"]
-margin_right = 200.0
+margin_right = 232.0
 margin_bottom = 80.0
 rect_min_size = Vector2( 200, 80 )
 focus_mode = 0
 theme = ExtResource( 9 )
 custom_fonts/font = SubResource( 1 )
 enabled_focus_mode = 0
-text = "PLAY"
+text = "K_PLAY"
 
 [node name="options" type="Button" parent="main_screen/CenterContainer/vbox"]
 margin_top = 84.0
-margin_right = 200.0
+margin_right = 232.0
 margin_bottom = 164.0
 rect_min_size = Vector2( 200, 80 )
 focus_mode = 0
 theme = ExtResource( 9 )
 custom_fonts/font = SubResource( 1 )
 enabled_focus_mode = 0
-text = "OPTIONS"
+text = "K_OPTIONS"
 
 [node name="tutorial" type="Button" parent="main_screen/CenterContainer/vbox"]
 margin_top = 168.0
-margin_right = 200.0
+margin_right = 232.0
 margin_bottom = 248.0
 rect_min_size = Vector2( 200, 80 )
 focus_mode = 0
 theme = ExtResource( 9 )
 custom_fonts/font = SubResource( 1 )
 enabled_focus_mode = 0
-text = "TUTORIAL"
+text = "K_TUTORIAL"
 
 [node name="about" type="Button" parent="main_screen/CenterContainer/vbox"]
 margin_top = 252.0
-margin_right = 200.0
+margin_right = 232.0
 margin_bottom = 332.0
 rect_min_size = Vector2( 200, 80 )
 focus_mode = 0
 theme = ExtResource( 9 )
 custom_fonts/font = SubResource( 1 )
 enabled_focus_mode = 0
-text = "ABOUT"
+text = "K_ABOUT"
 
 [node name="title_container" type="HBoxContainer" parent="main_screen"]
 margin_right = 2005.0
@@ -553,7 +552,7 @@ margin_right = 999.0
 margin_bottom = 79.0
 custom_styles/normal = SubResource( 2 )
 custom_fonts/font = SubResource( 3 )
-text = "Bodypart"
+text = "K_BODYPART_TITLE"
 align = 1
 valign = 1
 __meta__ = {
@@ -561,17 +560,31 @@ __meta__ = {
 }
 
 [node name="hscroll" parent="level_screen/bodypart_level_screen" instance=ExtResource( 7 )]
-levels = [ "cheek", "forehead", "wrist", "back" ]
+levels = [ {
+"code": "cheek",
+"name": "K_CHEEK_LEVEL_BUTTON"
+}, {
+"code": "forehead",
+"name": "K_FOREHEAD_LEVEL_BUTTON"
+}, {
+"code": "wrist",
+"name": "K_WRIST_LEVEL_BUTTON"
+}, {
+"code": "back",
+"name": "K_BACK_LEVEL_BUTTON"
+} ]
 
 [node name="back_to_main" type="Button" parent="level_screen/bodypart_level_screen"]
 margin_left = 14.8325
 margin_top = 21.1893
-margin_right = 104.832
-margin_bottom = 71.1893
+margin_right = 104.833
+margin_bottom = 46.1893
+rect_min_size = Vector2( 90, 60 )
 focus_mode = 0
 custom_fonts/font = SubResource( 4 )
 enabled_focus_mode = 0
-text = "Back"
+text = "K_BACK_BUTTON"
+clip_text = true
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -590,7 +603,7 @@ margin_right = 999.0
 margin_bottom = 79.0
 custom_styles/normal = SubResource( 2 )
 custom_fonts/font = SubResource( 3 )
-text = "Level"
+text = "K_LEVEL_TITLE"
 align = 1
 valign = 1
 __meta__ = {
@@ -598,16 +611,30 @@ __meta__ = {
 }
 
 [node name="hscroll" parent="level_screen/difficulty_screen" instance=ExtResource( 7 )]
-levels = [ "easy", "normal", "hard", "super hard" ]
+levels = [ {
+"code": "easy",
+"name": "K_EASY_BUTTON"
+}, {
+"code": "normal",
+"name": "K_NORMAL_BUTTON"
+}, {
+"code": "hard",
+"name": "K_HARD_BUTTON"
+}, {
+"code": "super-hard",
+"name": "K_SUPER_HARD_BUTTON"
+} ]
 
 [node name="back_to_bodypart" type="Button" parent="level_screen/difficulty_screen"]
 margin_left = 15.0
 margin_top = 21.0
 margin_right = 105.0
 margin_bottom = 71.0
+rect_min_size = Vector2( 90, 60 )
 focus_mode = 0
 enabled_focus_mode = 0
-text = "Back"
+text = "K_BACK_BUTTON"
+clip_text = true
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -625,7 +652,7 @@ modulate = Color( 0.87451, 0.470588, 0.203922, 1 )
 margin_right = 1004.0
 margin_bottom = 95.0
 theme = ExtResource( 10 )
-text = "About"
+text = "K_ABOUT_TITLE"
 align = 1
 valign = 1
 __meta__ = {
@@ -903,8 +930,9 @@ margin_left = 15.0
 margin_top = 21.0
 margin_right = 105.0
 margin_bottom = 71.0
-rect_min_size = Vector2( 90, 50 )
-text = "Back"
+rect_min_size = Vector2( 90, 60 )
+text = "K_BACK_BUTTON"
+clip_text = true
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -926,11 +954,10 @@ margin_bottom = 361.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 custom_fonts/font = SubResource( 8 )
-text = "The tutorial is under the works.
-
-Please, wait for an app update"
+text = "K_TUTORIAL_DEVELOPMENT_MESSAGE"
 align = 1
 valign = 1
+autowrap = true
 
 [node name="animation" type="AnimationPlayer" parent="."]
 anims/about_to_main = SubResource( 9 )
@@ -959,23 +986,21 @@ margin_bottom = 472.0
 [node name="ScrollContainer" type="ScrollContainer" parent="no_game_popup"]
 anchor_right = 1.0
 anchor_bottom = 1.0
+margin_left = 4.0
+margin_top = 4.0
+margin_right = -4.0
+margin_bottom = -4.0
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="Label" type="Label" parent="no_game_popup/ScrollContainer"]
-margin_top = 85.0
-margin_right = 584.0
-margin_bottom = 250.0
+margin_top = 153.0
+margin_right = 576.0
+margin_bottom = 174.0
 size_flags_horizontal = 3
 size_flags_vertical = 6
-text = "This game isn't available yet.
-
-At this moment just the following games are available:
- Wrist - Easy.
- Forehead - Normal.
- Wrist - Hard.
- Back - Super Hard."
+text = "K_GAME_AVAILABLE_MESSAGE"
 align = 1
 [connection signal="pressed" from="main_screen/CenterContainer/vbox/play" to="." method="_on_play_pressed"]
 [connection signal="pressed" from="main_screen/CenterContainer/vbox/options" to="." method="_on_options_pressed"]
