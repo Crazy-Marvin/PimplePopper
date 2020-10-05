@@ -16,4 +16,3 @@ margin_bottom = 40.0
 __meta__ = {
 "_edit_use_anchors_": false
 }
-[connection signal="gui_input" from="hbox" to="." method="_on_gui_input"]

@@ -1,0 +1,58 @@
+,es,de,en
+K_PLAY,Comenzar,Beginnen,Play
+K_TUTORIAL,Tutorial,Tutorial,Tutorial
+K_ABOUT,Sobre,Über,About
+K_CHEEK_LEVEL_BUTTON,Cachete,Wange,Cheek
+K_FOREHEAD_LEVEL_BUTTON,Frente,Stirn,Forehead
+K_WRIST_LEVEL_BUTTON,Muñeca,Handgelenk,Wrist
+K_BACK_LEVEL_BUTTON,Espalda,Rücken,Back
+,,,
+,,,
+K_BACK_BUTTON,Atras,zurück,Back
+K_EASY_BUTTON,Fácil,einfach,easy
+K_NORMAL_BUTTON,Normal,normal,normal
+K_HARD_BUTTON,Difícil,schwierig,hard
+K_SUPER_HARD_BUTTON,Super difícil,sehr schwierig,super hard
+K_OPTIONS,Opciones,Optionen,Options
+K_HAND_TOOL,Mano,Hand,Hand
+K_HANDKERCHIEF_TOOL,Pañuelo,Taschentuch,Handkerchief
+K_VAPOR_TOOL,Vapor,Wasserdampf,Vapor
+K_COMEDONE_TOOL,Comedone,Comedone,Comedone
+K_NEEDLE_TOOL,Inyectadora,Nadel,Needle
+K_ANESTHETIC_TOOL,Anestesia,Anästhesie,Anestesia
+K_SUTURE_TOOL,Suturar,vernähen,Suture
+K_CUTTER_TOOL,Exacto,Scheiden,Cutter
+,,,
+K_TUTORIAL_DEVELOPMENT_MESSAGE,"El tutorial está en desarrollo.
+
+Por favor, espere por una actualización.","The tutorial is under the works.
+
+Please, wait for an app update","Das Tutorial wird entwickelt.
+
+Warten Sie bitte auf ein Update."
+K_GAME_AVAILABLE_MESSAGE,"Este juego no está disponible todavía.
+
+En este momento solo los suigientes estan disponibles:
+
+Muñeca – Fácil
+Frente – Normal
+Muñeca – Difícil
+Espalda – Super Difícil","Dies Spiel ist noch nicht verfügbar.
+
+Zurzeit sind diese Spiele nur verfügbar:
+
+Wange – Einfach
+Stirn – Normal.
+Handgelenk – Schwierig
+Rücken – Sehr Schwierig","This game isn't available yet.
+
+At this moment just the following games are available:
+ Wrist - Easy.
+ Forehead - Normal.
+ Wrist - Hard.
+ Back - Super Hard."
+K_ABOUT_TITLE,Sobre,Über,About
+K_LEVEL_TITLE,Nivel,Niveau,Level
+K_BODYPART_TITLE,Parte del cuerpo,Körpersteil,Bodypart
+K_HINT_BUTTON,Pista,Spur,Hint
+K_EXIT_GAME_BUTTON,Salir,Verlassen,Exit

@@ -1,19 +1,19 @@
-Pimple Popper is a game about popping pimples and removing blackheads, whiteheads, lipomas and similar stuff. Download now and feel the huge satisfaction!
+Pimple Popper adalah sebuah permainan tentang memencet jerawat dan menghilangkan komedo, komedo putih, lipoma dan sejenisnya. Unduh sekarang dan rasakan kepuasan yang luar biasa!
 <br><br>
-<b>Features:</b>
+<b>Fitur:</b>
 
 <ul>
-<li>Open Source 🎉</li>
-<li>Extremely satisfactory 😂</li>
-<li>Quite realistic 😉</li>
-<li>Might come in handy for your daily life 😜</li>
-<li>You can send us your real-life pops and get a complimentary message 🙈</li>
+<li>Sumber Terbuka 🎉</li>
+<li>Sangat memuaskan 😂</li>
+<li>Cukup realistis 😉</li>
+<li>Mungkin berguna untuk kehidupan sehari-hari Anda 😜</li>
+<li>Anda dapat mengirimkan kehidupan nyata Anda dan mendapatkan sebuah pesan gratis 🙈</li>
 </ul>
 
-<a href="https://www.crazymarvin.com/pimple-popper">Homepage</a>
+<a href="https://www.crazymarvin.com/pimple-popper">Beranda</a>
 <br>
-<a href="https://crowdin.com/project/pimple-popper">Help us with translation</a> 
+<a href="https://crowdin.com/project/pimple-popper">Bantu kami dengan menerjemahkan</a> 
 <br>
-<a href="https://github.com/Crazy-Marvin/PimplePopper">Source on GitHub</a> 
+<a href="https://github.com/Crazy-Marvin/PimplePopper">Sumber di GitHub</a> 
 <br><br>
-Enjoy! 👌
+Nikmati! 👌

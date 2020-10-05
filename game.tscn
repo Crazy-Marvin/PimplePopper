@@ -1,4 +1,4 @@
-[gd_scene load_steps=20 format=2]
+[gd_scene load_steps=21 format=2]
 
 [ext_resource path="res://menu/UI.gd" type="Script" id=1]
 [ext_resource path="res://tools/hand.tscn" type="PackedScene" id=2]
@@ -13,6 +13,7 @@
 [ext_resource path="res://bodyparts/BodyPart.gd" type="Script" id=12]
 [ext_resource path="res://assets/blackscreen.png" type="Texture" id=13]
 [ext_resource path="res://tools/needle_suture.tscn" type="PackedScene" id=14]
+[ext_resource path="res://menu/finish_game_popup.tscn" type="PackedScene" id=15]
 [ext_resource path="res://tools/vapor.tscn" type="PackedScene" id=16]
 [ext_resource path="res://tools/comedone_extraction_tool.tscn" type="PackedScene" id=17]
 
@@ -71,8 +72,8 @@ __meta__ = {
 }
 
 [node name="scroll" type="ScrollContainer" parent="UI"]
-margin_right = 276.0
-margin_bottom = 582.0
+margin_right = 273.0
+margin_bottom = 600.0
 mouse_filter = 2
 follow_focus = true
 scroll_horizontal_enabled = false
@@ -82,7 +83,7 @@ __meta__ = {
 }
 
 [node name="tools" type="VBoxContainer" parent="UI/scroll"]
-margin_right = 224.0
+margin_right = 220.0
 margin_bottom = 860.0
 mouse_filter = 2
 theme = SubResource( 2 )
@@ -93,75 +94,82 @@ __meta__ = {
 }
 
 [node name="hand" type="Button" parent="UI/scroll/tools"]
-margin_right = 224.0
+margin_right = 220.0
 margin_bottom = 90.0
-rect_min_size = Vector2( 0, 90 )
+rect_min_size = Vector2( 220, 90 )
 focus_mode = 0
 enabled_focus_mode = 0
-text = "HAND"
+text = "K_HAND_TOOL"
 
 [node name="handkerchief" type="Button" parent="UI/scroll/tools"]
 margin_top = 110.0
-margin_right = 224.0
+margin_right = 220.0
 margin_bottom = 200.0
-rect_min_size = Vector2( 0, 90 )
+rect_min_size = Vector2( 220, 90 )
 focus_mode = 0
 enabled_focus_mode = 0
-text = "HANDKERCHIEF"
+text = "K_HANDKERCHIEF_TOOL"
+clip_text = true
 
 [node name="vapor" type="Button" parent="UI/scroll/tools"]
 margin_top = 220.0
-margin_right = 224.0
+margin_right = 220.0
 margin_bottom = 310.0
-rect_min_size = Vector2( 0, 90 )
+rect_min_size = Vector2( 220, 90 )
 focus_mode = 0
 enabled_focus_mode = 0
-text = "VAPOR"
+text = "K_VAPOR_TOOL"
+clip_text = true
 
 [node name="comedone_extraction_tool" type="Button" parent="UI/scroll/tools"]
 margin_top = 330.0
-margin_right = 224.0
+margin_right = 220.0
 margin_bottom = 420.0
-rect_min_size = Vector2( 0, 90 )
+rect_min_size = Vector2( 220, 90 )
 focus_mode = 0
 enabled_focus_mode = 0
-text = "COMEDONE"
+text = "K_COMEDONE_TOOL"
+clip_text = true
 
 [node name="needle" type="Button" parent="UI/scroll/tools"]
 margin_top = 440.0
-margin_right = 224.0
+margin_right = 220.0
 margin_bottom = 530.0
-rect_min_size = Vector2( 0, 90 )
+rect_min_size = Vector2( 220, 90 )
 focus_mode = 0
 enabled_focus_mode = 0
-text = "NEEDLE"
+text = "K_NEEDLE_TOOL"
+clip_text = true
 
 [node name="anesthetic" type="Button" parent="UI/scroll/tools"]
 margin_top = 550.0
-margin_right = 224.0
+margin_right = 220.0
 margin_bottom = 640.0
-rect_min_size = Vector2( 0, 90 )
+rect_min_size = Vector2( 220, 90 )
 focus_mode = 0
 enabled_focus_mode = 0
-text = "ANESTHETIC"
+text = "K_ANESTHETIC_TOOL"
+clip_text = true
 
 [node name="suture" type="Button" parent="UI/scroll/tools"]
 margin_top = 660.0
-margin_right = 224.0
+margin_right = 220.0
 margin_bottom = 750.0
-rect_min_size = Vector2( 0, 90 )
+rect_min_size = Vector2( 220, 90 )
 focus_mode = 0
 enabled_focus_mode = 0
-text = "SUTURE"
+text = "K_SUTURE_TOOL"
+clip_text = true
 
 [node name="cutter" type="Button" parent="UI/scroll/tools"]
 margin_top = 770.0
-margin_right = 224.0
+margin_right = 220.0
 margin_bottom = 860.0
-rect_min_size = Vector2( 0, 90 )
+rect_min_size = Vector2( 220, 90 )
 focus_mode = 0
 enabled_focus_mode = 0
-text = "CUTTER"
+text = "K_CUTTER_TOOL"
+clip_text = true
 
 [node name="back" type="Button" parent="UI"]
 margin_left = 892.242
@@ -171,7 +179,8 @@ margin_bottom = 73.4848
 rect_min_size = Vector2( 100, 60 )
 focus_mode = 0
 enabled_focus_mode = 0
-text = "BACK"
+text = "K_EXIT_GAME_BUTTON"
+clip_text = true
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -184,7 +193,8 @@ margin_bottom = 73.4848
 rect_min_size = Vector2( 100, 60 )
 focus_mode = 0
 enabled_focus_mode = 0
-text = "HINT"
+text = "K_HINT_BUTTON"
+clip_text = true
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -223,6 +233,15 @@ __meta__ = {
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 anims/fade_in = SubResource( 3 )
 anims/fade_out = SubResource( 4 )
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="finish_game_popup" parent="CanvasLayer" instance=ExtResource( 15 )]
+margin_left = 1646.17
+margin_top = -29.9374
+margin_right = 1646.17
+margin_bottom = -29.9374
+initial_position = Vector2( -1000, -1000 )
 [connection signal="pressed" from="UI/scroll/tools/hand" to="." method="_on_hand_pressed"]
 [connection signal="pressed" from="UI/scroll/tools/handkerchief" to="." method="_on_handkerchief_pressed"]
 [connection signal="pressed" from="UI/scroll/tools/vapor" to="." method="_on_vapor_pressed"]
@@ -235,3 +254,4 @@ anims/fade_out = SubResource( 4 )
 [connection signal="pressed" from="UI/hint" to="." method="_on_hint_pressed"]
 [connection signal="timeout" from="timer" to="." method="_on_timeout"]
 [connection signal="animation_finished" from="AnimationPlayer" to="." method="_on_animation_finished"]
+[connection signal="anim_finished" from="CanvasLayer/finish_game_popup" to="." method="_on_anim_finished"]

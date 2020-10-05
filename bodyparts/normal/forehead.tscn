@@ -67,6 +67,7 @@ animations = [ {
 scale = Vector2( 1.05, 1.05 )
 
 [node name="background" type="Sprite" parent="."]
+scale = Vector2( 1.1, 1.1 )
 texture = ExtResource( 4 )
 centered = false
 
@@ -86,7 +87,6 @@ position = Vector2( 634.96, 396.85 )
 shape = SubResource( 2 )
 
 [node name="circle_hint" parent="blackhead/Area2D" instance=ExtResource( 27 )]
-scale = Vector2( 1, 1 )
 radius = 15.0
 
 [node name="blackhead2" type="Node2D" parent="." groups=[
@@ -105,7 +105,6 @@ position = Vector2( 312.519, 480.289 )
 shape = SubResource( 2 )
 
 [node name="circle_hint" parent="blackhead2/Area2D" instance=ExtResource( 27 )]
-scale = Vector2( 1, 1 )
 radius = 15.0
 
 [node name="blackhead3" type="Node2D" parent="." groups=[
@@ -124,7 +123,6 @@ position = Vector2( 409.342, 364.553 )
 shape = SubResource( 2 )
 
 [node name="circle_hint" parent="blackhead3/Area2D" instance=ExtResource( 27 )]
-scale = Vector2( 1, 1 )
 radius = 14.456
 
 [node name="blackhead4" type="Node2D" parent="." groups=[
@@ -143,5 +141,4 @@ position = Vector2( 509.095, 261.086 )
 shape = SubResource( 2 )
 
 [node name="circle_hint" parent="blackhead4/Area2D" instance=ExtResource( 27 )]
-scale = Vector2( 1, 1 )
 radius = 15.0
