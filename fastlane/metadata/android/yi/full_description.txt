@@ -1,19 +1,19 @@
-Pimple Popper is a game about popping pimples and removing blackheads, whiteheads, lipomas and similar stuff. Download now and feel the huge satisfaction!
+פּרישטשיק פּלאַצער איז אַ שפּיל פון פּלאַצען פּרישטשיקן (פּימפּלעס) און אוועקנעמן פאַרשידענע הויט פּראָבּלעמען. באַקום עס איצט און פיל די ריזיק צופֿרידנקייט!
 <br><br>
-<b>Features:</b>
+<b>איינריכטונגען:</b>
 
 <ul>
-<li>Open Source 🎉</li>
-<li>Extremely satisfactory 😂</li>
-<li>Quite realistic 😉</li>
-<li>Might come in handy for your daily life 😜</li>
-<li>You can send us your real-life pops and get a complimentary message 🙈</li>
+<li>אפפען סאורס 🎉</li>
+<li>גאָר באַפרידיקנדיק 😂</li>
+<li>גאַנץ רעאַליסטיש 😉</li>
+<li>קען קומן צו נוץ אין דין טעגליכע לעבען 😜</li>
+<li>איר קענעט אונדז שיקן בילדער פון דיין אייגענע פלאצונגען און באַקומען אַ פּאָזיטיוו אָנזאָג 🙈</li>
 </ul>
 
-<a href="https://www.crazymarvin.com/pimple-popper">Homepage</a>
+<a href="https://www.crazymarvin.com/pimple-popper">וועבזייטל</a>
 <br>
-<a href="https://crowdin.com/project/pimple-popper">Help us with translation</a> 
+<a href="https://crowdin.com/project/pimple-popper">העלף אונדז מיט איבערטייטשן</a> 
 <br>
-<a href="https://github.com/Crazy-Marvin/PimplePopper">Source on GitHub</a> 
+<a href="https://github.com/Crazy-Marvin/PimplePopper">מקור אויף גיטהאבּ</a> 
 <br><br>
-Enjoy! 👌
+האטס הנאה! 👌
