@@ -5,8 +5,9 @@
 
 [sub_resource type="Animation" id=1]
 resource_name = "win_show_up"
+length = 2.0
 tracks/0/type = "value"
-tracks/0/path = NodePath("TextureRect:rect_position")
+tracks/0/path = NodePath("CenterContainer/TextureRect:rect_position")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/imported = false
@@ -18,16 +19,16 @@ tracks/0/keys = {
 "values": [ Vector2( 0, 0 ) ]
 }
 tracks/1/type = "value"
-tracks/1/path = NodePath("TextureRect:self_modulate")
+tracks/1/path = NodePath("CenterContainer/TextureRect:self_modulate")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
 tracks/1/imported = false
 tracks/1/enabled = true
 tracks/1/keys = {
-"times": PoolRealArray( 0, 1 ),
-"transitions": PoolRealArray( 1, 1 ),
+"times": PoolRealArray( 0, 1, 2 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
 "update": 0,
-"values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
+"values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 1 ) ]
 }
 
 [node name="finish_game_popup" type="Control"]
@@ -41,14 +42,23 @@ __meta__ = {
 }
 initial_position = Vector2( 512, 300 )
 
-[node name="TextureRect" type="TextureRect" parent="."]
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+anims/win_show_up = SubResource( 1 )
+
+[node name="CenterContainer" type="CenterContainer" parent="."]
+margin_right = 1021.0
+margin_bottom = 602.0
+rect_min_size = Vector2( 1024, 600 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureRect" type="TextureRect" parent="CenterContainer"]
+self_modulate = Color( 1, 1, 1, 0 )
 margin_right = 512.0
 margin_bottom = 361.0
 texture = ExtResource( 2 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
-
-[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
-anims/win_show_up = SubResource( 1 )
 [connection signal="animation_finished" from="AnimationPlayer" to="." method="_on_animation_finished"]

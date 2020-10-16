@@ -29,6 +29,8 @@ func _input(event):
 				collider.clean()
 			elif collider is Lipoma:
 				collider.clean()
+			elif collider is PimpleNew:
+				collider.clean()
 	update()
 
 func _draw():

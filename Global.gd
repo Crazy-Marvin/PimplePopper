@@ -8,7 +8,7 @@ var level: String = "easy"
 
 var _scenes: Dictionary = {
 	"forehead": {
-		"easy": null,
+		"easy": load("res://bodyparts/easy/forehead.tscn"),
 		"normal": load("res://bodyparts/normal/forehead.tscn"),
 		"hard": null,
 		"super-hard": null
