@@ -9,7 +9,7 @@ enum finish_type {
 signal anim_finished(finish_type)
 
 onready var _animation: AnimationPlayer = $AnimationPlayer 
-onready var _texture: TextureRect = $TextureRect
+onready var _texture: TextureRect = $CenterContainer/TextureRect
 
 export(Vector2) var initial_position: Vector2 = Vector2.ZERO
 
@@ -30,10 +30,9 @@ func _center_image() -> void:
 	var size_y: float = _texture.rect_size.y * _texture.rect_scale.y
 	
 	_center_offset = Vector2(size_x, size_y) / 2.0
-	
 
 func start() -> void:
-	rect_position = (OS.window_size / 2.0) - _center_offset
+	rect_position = (OS.window_size / 2.0) - (_center_offset * 2.5)
 	_animation.play("win_show_up")
 
 func _on_animation_finished(anim_name: String) -> void:
