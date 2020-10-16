@@ -10,6 +10,8 @@ onready var _difficulty_hscroll: Control = $level_screen/difficulty_screen/hscro
 onready var _animation: AnimationPlayer = $animation
 onready var _popup: PopupDialog = $popup
 onready var _no_game_popup: PopupPanel = $no_game_popup
+onready var _about_text = $about_screen/center_content/scroll/content/RichTextLabel
+onready var _protuberance_tutorial = $tutorial_screen/protuberance_explanation
 
 
 var _bodypart: String
@@ -24,6 +26,7 @@ func _config_menu() -> void:
 	_animation.play("intro")
 	_difficulty_hscroll.set_enabled(false)
 	_bodypart_hscroll.set_enabled(false)
+	_about_text.bbcode_text = tr("K_ABOUT_TEXT")
 	
 	var bodypart_hscroll = _bodypart_screen.get_node("hscroll")
 	bodypart_hscroll.connect("selected_level", self, "_on_bodypart_selected")
@@ -96,7 +99,8 @@ func _on_issue_pressed():
 
 
 func _on_tutorial_pressed():
-	_popup.popup()
+	if not _animation.is_playing():
+		_animation.play("intro_to_tutorial")
 
 
 func _on_link_pressed(link):
@@ -106,3 +110,35 @@ func _on_link_pressed(link):
 
 func _on_options_pressed():
 	Input.vibrate_handheld(50)
+
+func _on_meta_clicked(meta):
+	OS.shell_open(meta)
+
+func _on_pimple_tutorial_pressed():
+	_protuberance_tutorial.set_pimple_tutorial()
+	_animation.play("to_tutorial")
+
+
+func _on_blackhead_tutorial_pressed():
+	_protuberance_tutorial.set_blackhead_tutorial()
+	_animation.play("to_tutorial")
+
+
+func _on_cyst_tutorial_pressed():
+	_protuberance_tutorial.set_cyst_tutorial()
+	_animation.play("to_tutorial")
+
+
+func _on_lipoma_tutorial_pressed():
+	_protuberance_tutorial.set_lipoma_tutorial()
+	_animation.play("to_tutorial")
+
+
+func _on_back_protuberance_tutorial_pressed():
+	if not _animation.is_playing():
+		_animation.play("tutorial_to_protuberances")
+
+
+func _on_back_to_intro_pressed():
+	if not _animation.is_playing():
+		_animation.play("tutorial_screen_to_intro")

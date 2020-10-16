@@ -68,6 +68,11 @@ _global_script_classes=[ {
 "class": "Pimple",
 "language": "GDScript",
 "path": "res://protuberances/Pimple.gd"
+}, {
+"base": "Area2D",
+"class": "PimpleNew",
+"language": "GDScript",
+"path": "res://protuberances/PimpleNew.gd"
 } ]
 _global_script_class_icons={
 "Blackhead": "",
@@ -81,7 +86,8 @@ _global_script_class_icons={
 "Lipoma": "",
 "Neddle": "",
 "NeedleSuture": "",
-"Pimple": ""
+"Pimple": "",
+"PimpleNew": ""
 }
 
 [application]

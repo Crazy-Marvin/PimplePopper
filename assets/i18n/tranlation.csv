@@ -1,36 +1,42 @@
-,es,de,en
-K_PLAY,Comenzar,Beginnen,Play
+,en,es,de
+K_PLAY,Play,Comenzar,Beginnen
 K_TUTORIAL,Tutorial,Tutorial,Tutorial
-K_ABOUT,Sobre,Über,About
-K_CHEEK_LEVEL_BUTTON,Cachete,Wange,Cheek
-K_FOREHEAD_LEVEL_BUTTON,Frente,Stirn,Forehead
-K_WRIST_LEVEL_BUTTON,Muñeca,Handgelenk,Wrist
-K_BACK_LEVEL_BUTTON,Espalda,Rücken,Back
+K_ABOUT,About,Sobre,Über
+K_CHEEK_LEVEL_BUTTON,Cheek,Cachete,Wange
+K_FOREHEAD_LEVEL_BUTTON,Forehead,Frente,Stirn
+K_WRIST_LEVEL_BUTTON,Wrist,Muñeca,Handgelenk
+K_BACK_LEVEL_BUTTON,Back,Espalda,Rücken
 ,,,
 ,,,
-K_BACK_BUTTON,Atras,zurück,Back
-K_EASY_BUTTON,Fácil,einfach,easy
-K_NORMAL_BUTTON,Normal,normal,normal
-K_HARD_BUTTON,Difícil,schwierig,hard
-K_SUPER_HARD_BUTTON,Super difícil,sehr schwierig,super hard
-K_OPTIONS,Opciones,Optionen,Options
-K_HAND_TOOL,Mano,Hand,Hand
-K_HANDKERCHIEF_TOOL,Pañuelo,Taschentuch,Handkerchief
-K_VAPOR_TOOL,Vapor,Wasserdampf,Vapor
+K_BACK_BUTTON,Back,Atras,zurück
+K_EASY_BUTTON,easy,Fácil,einfach
+K_NORMAL_BUTTON,normal,Normal,normal
+K_HARD_BUTTON,hard,Difícil,schwierig
+K_SUPER_HARD_BUTTON,super hard,Super difícil,sehr schwierig
+K_OPTIONS,Options,Opciones,Optionen
+K_HAND_TOOL,Hand,Mano,Hand
+K_HANDKERCHIEF_TOOL,Handkerchief,Pañuelo,Taschentuch
+K_VAPOR_TOOL,Vapor,Vapor,Wasserdampf
 K_COMEDONE_TOOL,Comedone,Comedone,Comedone
-K_NEEDLE_TOOL,Inyectadora,Nadel,Needle
-K_ANESTHETIC_TOOL,Anestesia,Anästhesie,Anestesia
-K_SUTURE_TOOL,Suturar,vernähen,Suture
-K_CUTTER_TOOL,Exacto,Scheiden,Cutter
+K_NEEDLE_TOOL,Needle,Inyectadora,Nadel
+K_ANESTHETIC_TOOL,Anestesia,Anestesia,Anästhesie
+K_SUTURE_TOOL,Suture,Suturar,vernähen
+K_CUTTER_TOOL,Cutter,Exacto,Scheiden
 ,,,
-K_TUTORIAL_DEVELOPMENT_MESSAGE,"El tutorial está en desarrollo.
+K_TUTORIAL_DEVELOPMENT_MESSAGE,"Das Tutorial wird entwickelt.
+
+Warten Sie bitte auf ein Update.","El tutorial está en desarrollo.
 
 Por favor, espere por una actualización.","The tutorial is under the works.
 
-Please, wait for an app update","Das Tutorial wird entwickelt.
+Please, wait for an app update"
+K_GAME_AVAILABLE_MESSAGE,"This game isn't available yet.
 
-Warten Sie bitte auf ein Update."
-K_GAME_AVAILABLE_MESSAGE,"Este juego no está disponible todavía.
+At this moment just the following games are available:
+ Wrist - Easy.
+ Forehead - Normal.
+ Wrist - Hard.
+ Back - Super Hard.","Este juego no está disponible todavía.
 
 En este momento solo los suigientes estan disponibles:
 
@@ -44,15 +50,80 @@ Zurzeit sind diese Spiele nur verfügbar:
 Wange – Einfach
 Stirn – Normal.
 Handgelenk – Schwierig
-Rücken – Sehr Schwierig","This game isn't available yet.
+Rücken – Sehr Schwierig"
+K_ABOUT_TITLE,About,Sobre,Über
+K_LEVEL_TITLE,Level,Nivel,Niveau
+K_BODYPART_TITLE,Bodypart,Parte del cuerpo,Körpersteil
+K_HINT_BUTTON,Hint,Pista,Spur
+K_EXIT_GAME_BUTTON,Exit,Salir,Verlassen
+K_ABOUT_TEXT,"[color=black]
+Pimple Popper allows you to enjoy the experience of removing protuberance on different human body parts.
 
-At this moment just the following games are available:
- Wrist - Easy.
- Forehead - Normal.
- Wrist - Hard.
- Back - Super Hard."
-K_ABOUT_TITLE,Sobre,Über,About
-K_LEVEL_TITLE,Nivel,Niveau,Level
-K_BODYPART_TITLE,Parte del cuerpo,Körpersteil,Bodypart
-K_HINT_BUTTON,Pista,Spur,Hint
-K_EXIT_GAME_BUTTON,Salir,Verlassen,Exit
+We hope you enjoy this game. If you notice any bugs, have any questions or feedback feel free to [url=""mailto:marvin@poopjournal.rocks""][color=#0000FF]send an email[/color][/url] or open an [url=""https://github.com/Crazy-Marvin/PimplePopper/issues""][color=#0000FF]issue[/color][/url]. 
+
+We are also interested in your real-life pops. [url=""mailto:marvin@poopjournal.rocks""][color=#0000FF]Send them[/color][/url]
+
+[url=""https://www.linkedin.com/in/mottajordan""][color=#0000FF]Main Programmer[/color][/url]  [img=15]res://assets/icons/linkedin.svg[/img]
+
+[url=""https://www.behance.net/alexrendon""][color=#0000FF]Main Artist[/color][/url]  [img=15]res://assets/icons/behance.svg[/img] 
+
+[url=""https://www.github.com/Crazy-Marvin/PimplePopper/""][color=#0000FF]Source[/color][/url]  [img=15]res://assets/icons/github.svg[/img]
+
+[url=""https://www.crazymarvin.com/pimple-popper""][color=#0000FF]Homepage[/color][/url]  [img=15]res://assets/icons/home.svg[/img]
+
+[url=""https://www.godotengine.org/""][color=#0000FF]Powered by Godot[/color][/url]  [img=15]res://assets/icons/godot.svg[/img]
+
+[url=""https://www.crowdin.com/project/pimple-popper""][color=#0000FF]Help us with translations[/color][/url]  [img=15]res://assets/icons/crowdin.svg[/img]
+
+[url=""https://www.github.com/Crazy-Marvin/PimplePopper/blob/master/LICENSE""][color=#0000FF]License[/color][/url] [img=15]res://assets/icons/github.svg[/img]
+
+[url=""https://crazymarvin.com/pimple-popper/terms-of-service/""][color=#0000FF]Legal[/color][/url]  [img=15]res://assets/icons/law.svg[/img]
+[/color]","[color=black]
+Pimple Popper te permite disfrutar la experiencia de remover protuberancias en ditstintas partes del cuerpo humano.
+
+Esperamos que disfrutes este juego. Si percibes algo error, tienes alguna pregunta o alguna sugerencia, sientete libre de contactarnos [url=""mailto:marvin@poopjournal.rocks""][color=#0000FF]enviar un correo[/color][/url] o abre un [url=""https://github.com/Crazy-Marvin/PimplePopper/issues""][color=#0000FF]error[/color][/url].
+
+Tambien estamos interesados en tus espinillas reales. [url=""mailto:marvin@poopjournal.rocks""][color=#0000FF]Envíalas[/color][/url]
+
+[url=""https://www.linkedin.com/in/mottajordan""][color=#0000FF]Programador principal[/color][/url]  [img=15]res://assets/icons/linkedin.svg[/img]
+
+[url=""https://www.behance.net/alexrendon""][color=#0000FF]Artista principal[/color][/url]  [img=15]res://assets/icons/behance.svg[/img]
+
+[url=""https://github.com/Crazy-Marvin/PimplePopper/""][color=#0000FF]Fuente[/color][/url]  [img=15]res://assets/icons/github.svg[/img]
+
+[url=""https://www.crazymarvin.com/pimple-popper""][color=#0000FF]Página principal[/color][/url]  [img=15]res://assets/icons/home.svg[/img]
+
+[url=""https://godotengine.org/""][color=#0000FF]Impulsado por Godot[/color][/url]  [img=15]res://assets/icons/godot.svg[/img]
+
+[url=""https://crowdin.com/project/pimple-popper""][color=#0000FF]Ayudanos con las traducciones[/color][/url]  [img=15]res://assets/icons/crowdin.svg[/img]
+
+[url=""https://github.com/Crazy-Marvin/PimplePopper/blob/master/LICENSE""][color=#0000FF]Licensia[/color][/url]  [img=15]res://assets/icons/github.svg[/img]
+
+[url=""https://crazymarvin.com/pimple-popper/terms-of-service/""][color=#0000FF]Legal[/color][/url]  [img=15]res://assets/icons/law.svg[/img]
+[/color]","Pimple Popper allows you to enjoy the experience of removing protuberance on different human body parts. Pimple Popper lässt dich die Erfahrung genießen  Wir erwarten dass du dieses Spiel genießen. Ob du einen Fehler bemerkst, manchmal Fragen hast, oder Vorschlag hast. Fuhl du dich frei, [url=""“mailto:marvin@poopjournal.rocks“""][color=#0000FF]ein Email zu senden[/color][/url], oder eine [url=""“https://github.com/Crazy-Marvin/PimplePopper/issues“""][color=#0000FF]Streitfrage[/color][/url] zu öffnen   Wir sind für deine wirkliche Protuberanz. [url=“""mailto:marvin@poopjournal.rocks“""][color=#0000FF]Send sie[/color][/url].  [url=""“https://www.linkedin.com/in/mottajordan“""][color=#0000FF]Hauptprogrammierer[/color][/url]  [img=15]res://assets/icons/linkedin.svg[/img]  [url=""“https://www.behance.net/alexrendon“""][color=#0000FF]Hauptkünstlerin[/color][/url]  [img=15]res://assets/icons/behance.svg[/img]  [url=""“https://github.com/Crazy-Marvin/PimplePopper/“""][color=#0000FF]Quelle[/color][/url]  [img=15]res://assets/icons/github.svg[/img]  [url=""“https://www.crazymarvin.com/pimple-popper“""][color=#0000FF]Homepage[/color][/url]  [img=15]res://assets/icons/home.svg[/img]  [url=""“https://godotengine.org/“""][color=#0000FF]Godot[/color][/url]  [img=15]res://assets/icons/godot.svg[/img]  [url=""“https://crowdin.com/project/pimple-popper“""][color=#0000FF]Hel us with translations[/color][/url]  [img=15]res://assets/icons/crowdin.svg[/img]  [url=""“https://github.com/Crazy-Marvin/PimplePopper/blob/master/LICENSE“""][color=#0000FF]License[/color][/url]  [img=15]res://assets/icons/github.svg[/img]  [url=""“https://crazymarvin.com/pimple-popper/terms-of-service/“""][color=#0000FF]Legal[/color][/url]  [img=15]res://assets/icons/law.svg[/img]"
+K_PIMPLE_TUTORIAL_TEXT,"In this section you need to remove some pimples from different parts of the body.
+
+In order to remove the pimples, you just need to enable the hand tool and use your finger to apply pressure to pop the pimple. Then when the pimple's popped, use a handkerchief to clean the are. You aren't going to be a good doctor if you left all those stuff there.",Tutorial para Espinillas,
+K_BLACKHEAD_TUTORIAL_TEXT,"For this kind of protuberance you need to be careful.
+
+First, you need to apply vapor in order to open the pore. You will note that the pore was opened because the phone doesn‘t vibrate.
+
+Then, you need to select the comedone tool and double touch the blackhead. When you do that, the comedone will be placed onto the protuberance, finally, touch the screen and drag the finger down and the protuberance will be removed.
+
+Of course, do not forget to clean the area after you do all the work.",Tutorial para Puntos negros,
+K_CYST_TUTORIAL_TEXT,"Probably the easiest protuberance to remove.
+
+That big thing can be removed when you select the needle tool and touch and hold in a specefic location of the protuberance. Touch the hint button if you need to locate it. If you touch the right location, a sound is emitted. Now with one finger holding the needle, use another one to extract the content of the protuberance.
+
+After you remove everything, remember to clean the are with the handkerchief.",Tutorial para Quiste,
+K_LIPOMA_TUTORIAL_TEXT,"The complex protuberance to remove in a body. But i will show how to remove it.
+
+First, you need to apply anaesthetic because you are going to cut the area. After you apply it you can select the cutter tool and cut the area.
+
+Now with the content exposed, use your hand to apply pressure and remove the content.
+
+And now that everything was removed, you will need to suture the wound.",Tutorial para Lipoma,
+K_LIPOMA_BUTTON,Lipoma,Lipoma,
+K_PIMPLE_BUTTON,Pimple,Espinilla,
+K_CYST_BUTTON,Cyst,Quiste,
+K_BLACKHEAD_BUTTON,Blackhead,Puntos negros,

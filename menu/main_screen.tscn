@@ -1,4 +1,4 @@
-[gd_scene load_steps=35 format=2]
+[gd_scene load_steps=32 format=2]
 
 [ext_resource path="res://menu/MainScreen.gd" type="Script" id=1]
 [ext_resource path="res://assets/fonts/prototype/Prototype.ttf" type="DynamicFontData" id=2]
@@ -11,13 +11,8 @@
 [ext_resource path="res://assets/themes/default.tres" type="Theme" id=9]
 [ext_resource path="res://assets/themes/title.tres" type="Theme" id=10]
 [ext_resource path="res://assets/about- text-background.png" type="Texture" id=11]
-[ext_resource path="res://assets/icons/github.svg" type="Texture" id=12]
-[ext_resource path="res://assets/icons/linkedin.svg" type="Texture" id=13]
-[ext_resource path="res://assets/icons/home.svg" type="Texture" id=14]
-[ext_resource path="res://assets/icons/godot.svg" type="Texture" id=15]
-[ext_resource path="res://assets/icons/crowdin.svg" type="Texture" id=16]
-[ext_resource path="res://assets/icons/behance.svg" type="Texture" id=17]
-[ext_resource path="res://assets/icons/law.svg" type="Texture" id=18]
+[ext_resource path="res://menu/protuberance_explanation.tscn" type="PackedScene" id=12]
+[ext_resource path="res://assets/themes/button_protuberance_tutorial.tres" type="Theme" id=13]
 
 [sub_resource type="DynamicFont" id=1]
 size = 40
@@ -34,21 +29,13 @@ font_data = ExtResource( 3 )
 size = 20
 font_data = ExtResource( 3 )
 
-[sub_resource type="DynamicFont" id=5]
-size = 20
-font_data = ExtResource( 3 )
+[sub_resource type="StyleBoxFlat" id=5]
 
 [sub_resource type="DynamicFont" id=6]
-size = 20
-font_data = ExtResource( 3 )
-
-[sub_resource type="StyleBoxFlat" id=7]
-
-[sub_resource type="DynamicFont" id=8]
 size = 30
 font_data = ExtResource( 3 )
 
-[sub_resource type="Animation" id=9]
+[sub_resource type="Animation" id=7]
 length = 2.0
 tracks/0/type = "value"
 tracks/0/path = NodePath("about_screen:modulate")
@@ -99,7 +86,7 @@ tracks/3/keys = {
 "values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
 }
 
-[sub_resource type="Animation" id=10]
+[sub_resource type="Animation" id=8]
 tracks/0/type = "value"
 tracks/0/path = NodePath("level_screen/difficulty_screen:rect_position")
 tracks/0/interp = 1
@@ -149,7 +136,7 @@ tracks/3/keys = {
 "values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
 }
 
-[sub_resource type="Animation" id=11]
+[sub_resource type="Animation" id=9]
 tracks/0/type = "value"
 tracks/0/path = NodePath("level_screen/bodypart_level_screen:rect_position")
 tracks/0/interp = 1
@@ -199,7 +186,7 @@ tracks/3/keys = {
 "values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
 }
 
-[sub_resource type="Animation" id=12]
+[sub_resource type="Animation" id=10]
 tracks/0/type = "value"
 tracks/0/path = NodePath("fade_screen:modulate")
 tracks/0/interp = 1
@@ -213,7 +200,7 @@ tracks/0/keys = {
 "values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
 }
 
-[sub_resource type="Animation" id=13]
+[sub_resource type="Animation" id=11]
 length = 2.0
 tracks/0/type = "value"
 tracks/0/path = NodePath("main_screen:rect_position")
@@ -275,8 +262,71 @@ tracks/4/keys = {
 "update": 0,
 "values": [ Vector2( 0, -800 ) ]
 }
+tracks/5/type = "value"
+tracks/5/path = NodePath("tutorial_screen:rect_position")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( -1000, -1000 ) ]
+}
 
-[sub_resource type="Animation" id=14]
+[sub_resource type="Animation" id=12]
+resource_name = "intro_to_tutorial"
+tracks/0/type = "value"
+tracks/0/path = NodePath("tutorial_screen:rect_position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ Vector2( -1000, -1000 ), Vector2( 0, 0 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("main_screen:rect_position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ Vector2( 0, 0 ), Vector2( -2000, 0 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("main_screen:modulate")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0 ) ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("tutorial_screen/protuberances:modulate")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0, 0.5, 1 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
+}
+
+[sub_resource type="Animation" id=13]
 length = 2.0
 tracks/0/type = "value"
 tracks/0/path = NodePath("about_screen:rect_position")
@@ -327,7 +377,7 @@ tracks/3/keys = {
 "values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
 }
 
-[sub_resource type="Animation" id=15]
+[sub_resource type="Animation" id=14]
 tracks/0/type = "value"
 tracks/0/path = NodePath("main_screen:modulate")
 tracks/0/interp = 1
@@ -377,7 +427,7 @@ tracks/3/keys = {
 "values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
 }
 
-[sub_resource type="Animation" id=16]
+[sub_resource type="Animation" id=15]
 tracks/0/type = "value"
 tracks/0/path = NodePath("level_screen/bodypart_level_screen:rect_position")
 tracks/0/interp = 1
@@ -427,6 +477,170 @@ tracks/3/keys = {
 "values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
 }
 
+[sub_resource type="Animation" id=16]
+tracks/0/type = "value"
+tracks/0/path = NodePath("tutorial_screen:rect_position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 0, 0 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("tutorial_screen/protuberance_explanation:rect_position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( -1500, 0 ), Vector2( 0, 0 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("tutorial_screen/protuberance_explanation:modulate")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0, 0.5, 1 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("tutorial_screen/protuberances:modulate")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0 ) ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("tutorial_screen/protuberances:rect_position")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ Vector2( 0, 0 ), Vector2( -1500, 0 ) ]
+}
+
+[sub_resource type="Animation" id=17]
+resource_name = "tutorial_screen_to_intro"
+tracks/0/type = "value"
+tracks/0/path = NodePath("tutorial_screen:rect_position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ Vector2( 0, 0 ), Vector2( -2000, 0 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("main_screen:rect_position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ Vector2( -2000, 0 ), Vector2( 0, 0 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("tutorial_screen:modulate")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0 ) ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("main_screen:modulate")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0, 0.5, 1 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
+}
+
+[sub_resource type="Animation" id=18]
+resource_name = "tutorial_to_protuberances"
+tracks/0/type = "value"
+tracks/0/path = NodePath("tutorial_screen/protuberance_explanation:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("tutorial_screen/protuberance_explanation:rect_position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ Vector2( 0, 0 ), Vector2( -1500, 0 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("tutorial_screen/protuberances:modulate")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0, 0.5, 1 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("tutorial_screen/protuberances:rect_position")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ Vector2( -1500, 0 ), Vector2( 0, 0 ) ]
+}
+
 [node name="main" type="Control"]
 anchor_right = 1.0
 anchor_bottom = 1.0
@@ -448,8 +662,9 @@ __meta__ = {
 }
 
 [node name="main_screen" type="Control" parent="."]
+margin_top = -800.0
 margin_right = 40.0
-margin_bottom = 40.0
+margin_bottom = -760.0
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -685,245 +900,15 @@ rect_min_size = Vector2( 600, 300 )
 
 [node name="content" type="VBoxContainer" parent="about_screen/center_content/scroll"]
 margin_right = 600.0
-margin_bottom = 650.0
+margin_bottom = 300.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 
-[node name="text" type="Label" parent="about_screen/center_content/scroll/content"]
-self_modulate = Color( 0, 0, 0, 1 )
+[node name="RichTextLabel" type="RichTextLabel" parent="about_screen/center_content/scroll/content"]
 margin_right = 600.0
-margin_bottom = 650.0
-rect_min_size = Vector2( 600, 650 )
-custom_fonts/font = SubResource( 5 )
-text = "Pimple Popper allows you to enjoy the experience of removing protuberance on different human body parts.
-
-We hope you enjoy this game. If you notice any bugs, have any questions or feedback feel free to 
-or open an          .
-
-We are also interested in your real-life pops. 
-
-
-
-
-
-
-
-
-"
-autowrap = true
-
-[node name="mailto" type="LinkButton" parent="about_screen/center_content/scroll/content/text"]
-modulate = Color( 0.196078, 0.345098, 0.694118, 1 )
-margin_left = 387.383
-margin_top = 110.198
-margin_right = 527.383
-margin_bottom = 135.198
-custom_fonts/font = SubResource( 6 )
-text = "send an email"
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="issue" type="LinkButton" parent="about_screen/center_content/scroll/content/text"]
-modulate = Color( 0.196078, 0.345098, 0.694118, 1 )
-margin_left = 111.371
-margin_top = 138.071
-margin_right = 174.371
-margin_bottom = 163.071
-custom_fonts/font = SubResource( 6 )
-text = "issue"
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="mailto2" type="LinkButton" parent="about_screen/center_content/scroll/content/text"]
-modulate = Color( 0.196078, 0.345098, 0.694118, 1 )
-margin_left = 452.918
-margin_top = 192.385
-margin_right = 557.918
-margin_bottom = 217.385
-custom_fonts/font = SubResource( 6 )
-text = "Send them"
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="main_dev" type="LinkButton" parent="about_screen/center_content/scroll/content/text"]
-self_modulate = Color( 0.196078, 0.345098, 0.694118, 1 )
-margin_left = 0.279449
-margin_top = 252.0
-margin_right = 155.279
-margin_bottom = 277.0
-custom_fonts/font = SubResource( 6 )
-text = "Main Developer"
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="TextureRect" type="TextureRect" parent="about_screen/center_content/scroll/content/text/main_dev"]
-margin_left = 158.72
-margin_right = 540.72
-margin_bottom = 382.0
-rect_scale = Vector2( 0.06, 0.06 )
-texture = ExtResource( 13 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="main_artist" type="LinkButton" parent="about_screen/center_content/scroll/content/text"]
-self_modulate = Color( 0.196078, 0.345098, 0.694118, 1 )
-margin_top = 300.0
-margin_right = 155.0
-margin_bottom = 325.0
-custom_fonts/font = SubResource( 6 )
-text = "Main Artist"
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="TextureRect" type="TextureRect" parent="about_screen/center_content/scroll/content/text/main_artist"]
-margin_left = 119.0
-margin_right = 214.0
-margin_bottom = 95.0
-rect_scale = Vector2( 0.25, 0.25 )
-texture = ExtResource( 17 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="source" type="LinkButton" parent="about_screen/center_content/scroll/content/text"]
-self_modulate = Color( 0.196078, 0.345098, 0.694118, 1 )
-margin_left = -1.0
-margin_top = 348.0
-margin_right = 139.0
-margin_bottom = 373.0
-custom_fonts/font = SubResource( 6 )
-text = "Source"
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="TextureRect" type="TextureRect" parent="about_screen/center_content/scroll/content/text/source"]
-margin_left = 72.0
-margin_right = 510.0
-margin_bottom = 438.0
-rect_scale = Vector2( 0.05, 0.05 )
-texture = ExtResource( 12 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="homepage" type="LinkButton" parent="about_screen/center_content/scroll/content/text"]
-self_modulate = Color( 0.196078, 0.345098, 0.694118, 1 )
-margin_left = 0.279449
-margin_top = 396.0
-margin_right = 140.279
-margin_bottom = 421.0
-custom_fonts/font = SubResource( 6 )
-text = "Homepage"
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="TextureRect2" type="TextureRect" parent="about_screen/center_content/scroll/content/text/homepage"]
-margin_left = 111.092
-margin_right = 201.092
-margin_bottom = 93.0
-rect_scale = Vector2( 0.25, 0.25 )
-texture = ExtResource( 14 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="powered" type="LinkButton" parent="about_screen/center_content/scroll/content/text"]
-self_modulate = Color( 0.196078, 0.345098, 0.694118, 1 )
-margin_left = 0.279449
-margin_top = 444.0
-margin_right = 182.279
-margin_bottom = 469.0
-custom_fonts/font = SubResource( 6 )
-text = "Powered by Godot"
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="TextureRect" type="TextureRect" parent="about_screen/center_content/scroll/content/text/powered"]
-margin_left = 190.721
-margin_top = -1.0
-margin_right = 1214.72
-margin_bottom = 1023.0
-rect_scale = Vector2( 0.025, 0.025 )
-texture = ExtResource( 15 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="help_us" type="LinkButton" parent="about_screen/center_content/scroll/content/text"]
-self_modulate = Color( 0.196078, 0.345098, 0.694118, 1 )
-margin_top = 492.0
-margin_right = 249.0
-margin_bottom = 517.0
-custom_fonts/font = SubResource( 6 )
-text = "Help us with translations"
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="TextureRect" type="TextureRect" parent="about_screen/center_content/scroll/content/text/help_us"]
-margin_left = 255.0
-margin_right = 767.0
-margin_bottom = 512.0
-rect_scale = Vector2( 0.05, 0.05 )
-texture = ExtResource( 16 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="license" type="LinkButton" parent="about_screen/center_content/scroll/content/text"]
-self_modulate = Color( 0.196078, 0.345098, 0.694118, 1 )
-margin_left = 0.279449
-margin_top = 540.049
-margin_right = 140.279
-margin_bottom = 565.049
-custom_fonts/font = SubResource( 6 )
-text = "License"
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="TextureRect2" type="TextureRect" parent="about_screen/center_content/scroll/content/text/license"]
-margin_left = 78.7205
-margin_top = -0.0488281
-margin_right = 516.72
-margin_bottom = 437.951
-rect_scale = Vector2( 0.05, 0.05 )
-texture = ExtResource( 12 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="legal" type="LinkButton" parent="about_screen/center_content/scroll/content/text"]
-self_modulate = Color( 0.196078, 0.345098, 0.694118, 1 )
-margin_left = -1.0
-margin_top = 588.0
-margin_right = 139.0
-margin_bottom = 613.0
-custom_fonts/font = SubResource( 6 )
-text = "Legal"
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="TextureRect" type="TextureRect" parent="about_screen/center_content/scroll/content/text/legal"]
-margin_left = 60.6629
-margin_top = 2.6709
-margin_right = 139.663
-margin_bottom = 74.6709
-rect_scale = Vector2( 0.25, 0.25 )
-texture = ExtResource( 18 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
+margin_bottom = 300.0
+rect_min_size = Vector2( 0, 300 )
+bbcode_enabled = true
 
 [node name="back" type="Button" parent="about_screen"]
 margin_left = 15.0
@@ -937,12 +922,135 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
+[node name="tutorial_screen" type="Control" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = -1000.0
+margin_top = -1000.0
+margin_right = -1000.0
+margin_bottom = -1000.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="protuberance_explanation" parent="tutorial_screen" instance=ExtResource( 12 )]
+modulate = Color( 1, 1, 1, 0 )
+margin_left = -1500.0
+margin_right = -1500.0
+
+[node name="back" type="Button" parent="tutorial_screen/protuberance_explanation"]
+margin_left = 15.0
+margin_top = 21.0
+margin_right = 105.0
+margin_bottom = 81.0
+rect_min_size = Vector2( 90, 60 )
+text = "K_BACK_BUTTON"
+clip_text = true
+
+[node name="protuberances" type="Control" parent="tutorial_screen"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="HBoxContainer" type="HBoxContainer" parent="tutorial_screen/protuberances"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="VBoxContainer" type="VBoxContainer" parent="tutorial_screen/protuberances/HBoxContainer"]
+margin_right = 510.0
+margin_bottom = 600.0
+size_flags_horizontal = 3
+
+[node name="CenterContainer" type="CenterContainer" parent="tutorial_screen/protuberances/HBoxContainer/VBoxContainer"]
+margin_right = 510.0
+margin_bottom = 298.0
+size_flags_vertical = 3
+
+[node name="pimple_tutorial" type="Button" parent="tutorial_screen/protuberances/HBoxContainer/VBoxContainer/CenterContainer"]
+margin_left = 105.0
+margin_top = 99.0
+margin_right = 405.0
+margin_bottom = 199.0
+rect_min_size = Vector2( 300, 100 )
+theme = ExtResource( 13 )
+text = "K_PIMPLE_BUTTON"
+clip_text = true
+
+[node name="CenterContainer2" type="CenterContainer" parent="tutorial_screen/protuberances/HBoxContainer/VBoxContainer"]
+margin_top = 302.0
+margin_right = 510.0
+margin_bottom = 600.0
+size_flags_vertical = 3
+
+[node name="blackhead_tutorial" type="Button" parent="tutorial_screen/protuberances/HBoxContainer/VBoxContainer/CenterContainer2"]
+margin_left = 105.0
+margin_top = 99.0
+margin_right = 405.0
+margin_bottom = 199.0
+rect_min_size = Vector2( 300, 100 )
+theme = ExtResource( 13 )
+text = "K_BLACKHEAD_BUTTON"
+clip_text = true
+
+[node name="VBoxContainer2" type="VBoxContainer" parent="tutorial_screen/protuberances/HBoxContainer"]
+margin_left = 514.0
+margin_right = 1024.0
+margin_bottom = 600.0
+size_flags_horizontal = 3
+
+[node name="CenterContainer" type="CenterContainer" parent="tutorial_screen/protuberances/HBoxContainer/VBoxContainer2"]
+margin_right = 510.0
+margin_bottom = 298.0
+size_flags_vertical = 3
+
+[node name="cyst_tutorial" type="Button" parent="tutorial_screen/protuberances/HBoxContainer/VBoxContainer2/CenterContainer"]
+margin_left = 105.0
+margin_top = 99.0
+margin_right = 405.0
+margin_bottom = 199.0
+rect_min_size = Vector2( 300, 100 )
+theme = ExtResource( 13 )
+text = "K_CYST_BUTTON"
+clip_text = true
+
+[node name="CenterContainer2" type="CenterContainer" parent="tutorial_screen/protuberances/HBoxContainer/VBoxContainer2"]
+margin_top = 302.0
+margin_right = 510.0
+margin_bottom = 600.0
+size_flags_vertical = 3
+
+[node name="lipoma_tutorial" type="Button" parent="tutorial_screen/protuberances/HBoxContainer/VBoxContainer2/CenterContainer2"]
+margin_left = 105.0
+margin_top = 99.0
+margin_right = 405.0
+margin_bottom = 199.0
+rect_min_size = Vector2( 300, 100 )
+theme = ExtResource( 13 )
+text = "K_LIPOMA_BUTTON"
+clip_text = true
+
+[node name="back_to_intro" type="Button" parent="tutorial_screen/protuberances"]
+margin_left = 15.0
+margin_top = 21.0
+margin_right = 105.0
+margin_bottom = 81.0
+rect_min_size = Vector2( 90, 60 )
+text = "K_BACK_BUTTON"
+clip_text = true
+
 [node name="popup" type="PopupDialog" parent="."]
 margin_left = 225.411
 margin_top = 106.356
 margin_right = 808.411
 margin_bottom = 468.356
-custom_styles/panel = SubResource( 7 )
+custom_styles/panel = SubResource( 5 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -953,21 +1061,25 @@ margin_right = 580.0
 margin_bottom = 361.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
-custom_fonts/font = SubResource( 8 )
+custom_fonts/font = SubResource( 6 )
 text = "K_TUTORIAL_DEVELOPMENT_MESSAGE"
 align = 1
 valign = 1
 autowrap = true
 
 [node name="animation" type="AnimationPlayer" parent="."]
-anims/about_to_main = SubResource( 9 )
-anims/back_to_bodypart = SubResource( 10 )
-anims/back_to_main = SubResource( 11 )
-anims/fade_in = SubResource( 12 )
-anims/intro = SubResource( 13 )
-anims/to_about = SubResource( 14 )
-anims/to_bodypart = SubResource( 15 )
-anims/to_difficulty = SubResource( 16 )
+anims/about_to_main = SubResource( 7 )
+anims/back_to_bodypart = SubResource( 8 )
+anims/back_to_main = SubResource( 9 )
+anims/fade_in = SubResource( 10 )
+anims/intro = SubResource( 11 )
+anims/intro_to_tutorial = SubResource( 12 )
+anims/to_about = SubResource( 13 )
+anims/to_bodypart = SubResource( 14 )
+anims/to_difficulty = SubResource( 15 )
+anims/to_tutorial = SubResource( 16 )
+anims/tutorial_screen_to_intro = SubResource( 17 )
+anims/tutorial_to_protuberances = SubResource( 18 )
 
 [node name="fade_screen" type="Sprite" parent="."]
 modulate = Color( 1, 1, 1, 0 )
@@ -1008,16 +1120,12 @@ align = 1
 [connection signal="pressed" from="main_screen/CenterContainer/vbox/about" to="." method="_on_about_pressed"]
 [connection signal="pressed" from="level_screen/bodypart_level_screen/back_to_main" to="." method="_on_back_to_main_pressed"]
 [connection signal="pressed" from="level_screen/difficulty_screen/back_to_bodypart" to="." method="_on_back_to_bodypart_pressed"]
-[connection signal="pressed" from="about_screen/center_content/scroll/content/text/mailto" to="." method="_on_mailto_pressed"]
-[connection signal="pressed" from="about_screen/center_content/scroll/content/text/issue" to="." method="_on_issue_pressed"]
-[connection signal="pressed" from="about_screen/center_content/scroll/content/text/mailto2" to="." method="_on_mailto_pressed"]
-[connection signal="pressed" from="about_screen/center_content/scroll/content/text/main_dev" to="." method="_on_link_pressed" binds= [ "https://linkedin.com/in/mottajordan" ]]
-[connection signal="pressed" from="about_screen/center_content/scroll/content/text/main_artist" to="." method="_on_link_pressed" binds= [ "https://www.behance.net/alexrendon" ]]
-[connection signal="pressed" from="about_screen/center_content/scroll/content/text/source" to="." method="_on_link_pressed" binds= [ "https://github.com/Crazy-Marvin/PimplePopper/" ]]
-[connection signal="pressed" from="about_screen/center_content/scroll/content/text/homepage" to="." method="_on_link_pressed" binds= [ "https://www.crazymarvin.com/pimple-popper" ]]
-[connection signal="pressed" from="about_screen/center_content/scroll/content/text/powered" to="." method="_on_link_pressed" binds= [ "https://godotengine.org/" ]]
-[connection signal="pressed" from="about_screen/center_content/scroll/content/text/help_us" to="." method="_on_link_pressed" binds= [ "https://crowdin.com/project/pimple-popper" ]]
-[connection signal="pressed" from="about_screen/center_content/scroll/content/text/license" to="." method="_on_link_pressed" binds= [ "https://github.com/Crazy-Marvin/PimplePopper/blob/master/LICENSE" ]]
-[connection signal="pressed" from="about_screen/center_content/scroll/content/text/legal" to="." method="_on_link_pressed" binds= [ "https://crazymarvin.com/pimple-popper/terms-of-service/" ]]
+[connection signal="meta_clicked" from="about_screen/center_content/scroll/content/RichTextLabel" to="." method="_on_meta_clicked"]
 [connection signal="pressed" from="about_screen/back" to="." method="_on_about_back_pressed"]
+[connection signal="pressed" from="tutorial_screen/protuberance_explanation/back" to="." method="_on_back_protuberance_tutorial_pressed"]
+[connection signal="pressed" from="tutorial_screen/protuberances/HBoxContainer/VBoxContainer/CenterContainer/pimple_tutorial" to="." method="_on_pimple_tutorial_pressed"]
+[connection signal="pressed" from="tutorial_screen/protuberances/HBoxContainer/VBoxContainer/CenterContainer2/blackhead_tutorial" to="." method="_on_blackhead_tutorial_pressed"]
+[connection signal="pressed" from="tutorial_screen/protuberances/HBoxContainer/VBoxContainer2/CenterContainer/cyst_tutorial" to="." method="_on_cyst_tutorial_pressed"]
+[connection signal="pressed" from="tutorial_screen/protuberances/HBoxContainer/VBoxContainer2/CenterContainer2/lipoma_tutorial" to="." method="_on_lipoma_tutorial_pressed"]
+[connection signal="pressed" from="tutorial_screen/protuberances/back_to_intro" to="." method="_on_back_to_intro_pressed"]
 [connection signal="animation_finished" from="animation" to="." method="_on_animation_finished"]

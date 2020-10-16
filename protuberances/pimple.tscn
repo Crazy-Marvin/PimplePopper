@@ -6,11 +6,6 @@
 [ext_resource path="res://protuberances/Pimple.gd" type="Script" id=4]
 [ext_resource path="res://tools/circle_hint.tscn" type="PackedScene" id=5]
 
-
-
-
-
-
 [sub_resource type="CircleShape2D" id=1]
 radius = 9.49518
 
