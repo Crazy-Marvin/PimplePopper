@@ -1,19 +1,19 @@
-Pimple Popper is a game about popping pimples and removing blackheads, whiteheads, lipomas and similar stuff. Download now and feel the huge satisfaction!
+Bumspopper er et spil, der handler om at poppe bumser og fjerne sorte og hvide hudorme, lipomer og andre sådanne ting. Download spillet nu og føl den enorme tilfredshed!
 <br><br>
-<b>Features:</b>
+<b>Om spillet:</b>
 
 <ul>
-<li>Open Source 🎉</li>
-<li>Extremely satisfactory 😂</li>
-<li>Quite realistic 😉</li>
-<li>Might come in handy for your daily life 😜</li>
-<li>You can send us your real-life pops and get a complimentary message 🙈</li>
+<li>Åben kildekode 🎉</li>
+<li>Ekstremt tilfredsstillende 😂</li>
+<li>Ganske realistisk 😉</li>
+<li>Kan komme til nytte i det daglige liv 😜</li>
+<li>Du kan sende os dine virkelige pops og få en gratis besked 🙈</li>
 </ul>
 
-<a href="https://www.crazymarvin.com/pimple-popper">Homepage</a>
+<a href="https://www.crazymarvin.com/pimple-popper">Hjemmeside</a>
 <br>
-<a href="https://crowdin.com/project/pimple-popper">Help us with translation</a> 
+<a href="https://crowdin.com/project/pimple-popper">Hjælp os med oversættelser</a> 
 <br>
-<a href="https://github.com/Crazy-Marvin/PimplePopper">Source on GitHub</a> 
+<a href="https://github.com/Crazy-Marvin/PimplePopper">Kilde på GitHub</a> 
 <br><br>
-Enjoy! 👌
+God fornøjelse! 👌
