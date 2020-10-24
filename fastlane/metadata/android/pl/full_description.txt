@@ -16,4 +16,4 @@ Pomóż z tłumaczeniem: https://crowdin.com/project/pimple-popper
 
 Źródło na GitHubie: https://github.com/Crazy-Marvin/PimplePopper
 
-Miłej zabawy!
+Miłej zabawy! 👍
