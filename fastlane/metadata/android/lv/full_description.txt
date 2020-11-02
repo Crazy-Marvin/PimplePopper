@@ -1,0 +1,19 @@
+Pimple Popper ir spēle par pūtīšu izspiešanu un melno un balto punktiņu, lipomu un tamlīdzīgu lietu noņemšanu. Lejupielādējiet tūlīt un izjūtiet milzīgu gandarījumu!
+
+<b>Lespējas:</b>
+
+<ul>
+<li>Atvērtais kods 🎉</li>
+<li>Ļoti apmierinoša 😂</li>
+<li>Diezgan reālistiska 😉</li>
+<li>Var būt noderīgi ikdienas dzīvē 😜</li>
+<li>Jūs varat atsūtīt mums savus reālās dzīves izpiešanas video un saņemt bezmaksas ziņojumu 🙈</li>
+</ul>
+
+Mājaslapa: <a href="https://www.crazymarvin.com/pimple-popper">https://www.crazymarvin.com/pimple-popper</a>
+
+Izpalīdziet mums ar tulkojumu: <a href="https://crowdin.com/project/pimple-popper">https://crowdin.com/project/pimple-popper</a> 
+
+Avots vietnē GitHub: <a href="https://github.com/Crazy-Marvin/PimplePopper">https://github.com/Crazy-Marvin/PimplePopper</a> 
+
+Izbaudiet! 👌

@@ -1,4 +1,4 @@
-[gd_scene load_steps=12 format=2]
+[gd_scene load_steps=13 format=2]
 
 [ext_resource path="res://protuberances/cyst.tscn" type="PackedScene" id=1]
 [ext_resource path="res://assets/cyst/5.png" type="Texture" id=2]
@@ -10,6 +10,8 @@
 [ext_resource path="res://assets/cyst/4.png" type="Texture" id=8]
 [ext_resource path="res://assets/cyst/7.png" type="Texture" id=9]
 [ext_resource path="res://tools/circle_hint.tscn" type="PackedScene" id=10]
+[ext_resource path="res://bodyparts/cyst/WristCyst.gd" type="Script" id=11]
+
 
 [sub_resource type="SpriteFrames" id=1]
 animations = [ {
@@ -20,17 +22,17 @@ animations = [ {
 } ]
 
 [node name="wrist" type="Node2D"]
+position = Vector2( 687.308, 523.259 )
+script = ExtResource( 11 )
 
-[node name="background" type="AnimatedSprite" parent="."]
-position = Vector2( 1.41422, 0 )
+[node name="sprites" type="AnimatedSprite" parent="."]
 scale = Vector2( 1.16, 1.16 )
 frames = SubResource( 1 )
-centered = false
 
 [node name="cyst" parent="." groups=[
 "protuberance",
 ] instance=ExtResource( 1 )]
-position = Vector2( 574.256, 294.502 )
+position = Vector2( 43.9761, -213.082 )
 
 [node name="circle_hint" parent="cyst" instance=ExtResource( 10 )]
 radius = 26.951

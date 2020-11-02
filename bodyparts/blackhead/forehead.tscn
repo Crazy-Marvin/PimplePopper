@@ -1,4 +1,4 @@
-[gd_scene load_steps=33 format=2]
+[gd_scene load_steps=34 format=2]
 
 [ext_resource path="res://protuberances/Blackhead.gd" type="Script" id=1]
 [ext_resource path="res://assets/blackheads/foreheads/2/3.png" type="Texture" id=2]
@@ -27,6 +27,7 @@
 [ext_resource path="res://assets/blackheads/foreheads/1/3.png" type="Texture" id=25]
 [ext_resource path="res://assets/blackheads/foreheads/1/1.png" type="Texture" id=26]
 [ext_resource path="res://tools/circle_hint.tscn" type="PackedScene" id=27]
+[ext_resource path="res://bodyparts/blackhead/ForeheadBlackhead.gd" type="Script" id=28]
 
 [sub_resource type="SpriteFrames" id=1]
 animations = [ {
@@ -64,12 +65,11 @@ animations = [ {
 } ]
 
 [node name="forehead" type="Node2D"]
-scale = Vector2( 1.05, 1.05 )
+position = Vector2( 515.418, 374.577 )
+script = ExtResource( 28 )
 
 [node name="background" type="Sprite" parent="."]
-scale = Vector2( 1.1, 1.1 )
 texture = ExtResource( 4 )
-centered = false
 
 [node name="blackhead" type="Node2D" parent="." groups=[
 "protuberance",
@@ -78,15 +78,14 @@ script = ExtResource( 1 )
 
 [node name="sprites" type="AnimatedSprite" parent="blackhead"]
 frames = SubResource( 1 )
-centered = false
 
-[node name="Area2D" type="Area2D" parent="blackhead"]
-position = Vector2( 634.96, 396.85 )
+[node name="Area2D" type="Area2D" parent="blackhead/sprites"]
+position = Vector2( 136.225, -105.953 )
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="blackhead/Area2D"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="blackhead/sprites/Area2D"]
 shape = SubResource( 2 )
 
-[node name="circle_hint" parent="blackhead/Area2D" instance=ExtResource( 27 )]
+[node name="circle_hint" parent="blackhead/sprites/Area2D" instance=ExtResource( 27 )]
 radius = 15.0
 
 [node name="blackhead2" type="Node2D" parent="." groups=[
@@ -96,15 +95,14 @@ script = ExtResource( 1 )
 
 [node name="sprites" type="AnimatedSprite" parent="blackhead2"]
 frames = SubResource( 3 )
-centered = false
 
-[node name="Area2D" type="Area2D" parent="blackhead2"]
-position = Vector2( 312.519, 480.289 )
+[node name="Area2D" type="Area2D" parent="blackhead2/sprites"]
+position = Vector2( -188.728, -19.6082 )
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="blackhead2/Area2D"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="blackhead2/sprites/Area2D"]
 shape = SubResource( 2 )
 
-[node name="circle_hint" parent="blackhead2/Area2D" instance=ExtResource( 27 )]
+[node name="circle_hint" parent="blackhead2/sprites/Area2D" instance=ExtResource( 27 )]
 radius = 15.0
 
 [node name="blackhead3" type="Node2D" parent="." groups=[
@@ -114,15 +112,14 @@ script = ExtResource( 1 )
 
 [node name="sprites" type="AnimatedSprite" parent="blackhead3"]
 frames = SubResource( 4 )
-centered = false
 
-[node name="Area2D" type="Area2D" parent="blackhead3"]
-position = Vector2( 409.342, 364.553 )
+[node name="Area2D" type="Area2D" parent="blackhead3/sprites"]
+position = Vector2( -92.4986, -134.543 )
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="blackhead3/Area2D"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="blackhead3/sprites/Area2D"]
 shape = SubResource( 2 )
 
-[node name="circle_hint" parent="blackhead3/Area2D" instance=ExtResource( 27 )]
+[node name="circle_hint" parent="blackhead3/sprites/Area2D" instance=ExtResource( 27 )]
 radius = 14.456
 
 [node name="blackhead4" type="Node2D" parent="." groups=[
@@ -132,13 +129,12 @@ script = ExtResource( 1 )
 
 [node name="sprites" type="AnimatedSprite" parent="blackhead4"]
 frames = SubResource( 5 )
-centered = false
 
-[node name="Area2D" type="Area2D" parent="blackhead4"]
-position = Vector2( 509.095, 261.086 )
+[node name="Area2D" type="Area2D" parent="blackhead4/sprites"]
+position = Vector2( 8.409, -238.815 )
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="blackhead4/Area2D"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="blackhead4/sprites/Area2D"]
 shape = SubResource( 2 )
 
-[node name="circle_hint" parent="blackhead4/Area2D" instance=ExtResource( 27 )]
+[node name="circle_hint" parent="blackhead4/sprites/Area2D" instance=ExtResource( 27 )]
 radius = 15.0
