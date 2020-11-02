@@ -1,4 +1,4 @@
-extends Node2D
+extends Node
 
 onready var _animation = $AnimationPlayer
 onready var _finish_popup = $CanvasLayer/finish_game_popup

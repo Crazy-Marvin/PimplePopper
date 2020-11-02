@@ -87,8 +87,9 @@ tracks/3/keys = {
 }
 
 [sub_resource type="Animation" id=8]
+resource_name = "bodypart_to_protuberance_type"
 tracks/0/type = "value"
-tracks/0/path = NodePath("level_screen/difficulty_screen:rect_position")
+tracks/0/path = NodePath("bodypart_level_screen:rect_position")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/imported = false
@@ -100,7 +101,7 @@ tracks/0/keys = {
 "values": [ Vector2( 0, 0 ), Vector2( 0, -800 ) ]
 }
 tracks/1/type = "value"
-tracks/1/path = NodePath("level_screen/difficulty_screen:modulate")
+tracks/1/path = NodePath("bodypart_level_screen:modulate")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
 tracks/1/imported = false
@@ -112,7 +113,7 @@ tracks/1/keys = {
 "values": [ Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0 ) ]
 }
 tracks/2/type = "value"
-tracks/2/path = NodePath("level_screen/bodypart_level_screen:rect_position")
+tracks/2/path = NodePath("protuberance_type_screen:rect_position")
 tracks/2/interp = 1
 tracks/2/loop_wrap = true
 tracks/2/imported = false
@@ -124,7 +125,7 @@ tracks/2/keys = {
 "values": [ Vector2( 0, -800 ), Vector2( 0, 0 ) ]
 }
 tracks/3/type = "value"
-tracks/3/path = NodePath("level_screen/bodypart_level_screen:modulate")
+tracks/3/path = NodePath("protuberance_type_screen:modulate")
 tracks/3/interp = 1
 tracks/3/loop_wrap = true
 tracks/3/imported = false
@@ -138,56 +139,6 @@ tracks/3/keys = {
 
 [sub_resource type="Animation" id=9]
 tracks/0/type = "value"
-tracks/0/path = NodePath("level_screen/bodypart_level_screen:rect_position")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/keys = {
-"times": PoolRealArray( 0, 0.5 ),
-"transitions": PoolRealArray( 1, 1 ),
-"update": 1,
-"values": [ Vector2( 0, 0 ), Vector2( 0, -800 ) ]
-}
-tracks/1/type = "value"
-tracks/1/path = NodePath("level_screen/bodypart_level_screen:modulate")
-tracks/1/interp = 1
-tracks/1/loop_wrap = true
-tracks/1/imported = false
-tracks/1/enabled = true
-tracks/1/keys = {
-"times": PoolRealArray( 0, 0.5 ),
-"transitions": PoolRealArray( 1, 1 ),
-"update": 0,
-"values": [ Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0 ) ]
-}
-tracks/2/type = "value"
-tracks/2/path = NodePath("main_screen:rect_position")
-tracks/2/interp = 1
-tracks/2/loop_wrap = true
-tracks/2/imported = false
-tracks/2/enabled = true
-tracks/2/keys = {
-"times": PoolRealArray( 0, 0.5 ),
-"transitions": PoolRealArray( 1, 1 ),
-"update": 1,
-"values": [ Vector2( 0, -800 ), Vector2( 0, 0 ) ]
-}
-tracks/3/type = "value"
-tracks/3/path = NodePath("main_screen:modulate")
-tracks/3/interp = 1
-tracks/3/loop_wrap = true
-tracks/3/imported = false
-tracks/3/enabled = true
-tracks/3/keys = {
-"times": PoolRealArray( 0, 0.5, 1 ),
-"transitions": PoolRealArray( 1, 1, 1 ),
-"update": 0,
-"values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
-}
-
-[sub_resource type="Animation" id=10]
-tracks/0/type = "value"
 tracks/0/path = NodePath("fade_screen:modulate")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
@@ -200,7 +151,7 @@ tracks/0/keys = {
 "values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
 }
 
-[sub_resource type="Animation" id=11]
+[sub_resource type="Animation" id=10]
 length = 2.0
 tracks/0/type = "value"
 tracks/0/path = NodePath("main_screen:rect_position")
@@ -227,7 +178,7 @@ tracks/1/keys = {
 "values": [ Color( 1, 1, 1, 1 ) ]
 }
 tracks/2/type = "value"
-tracks/2/path = NodePath("level_screen/bodypart_level_screen:rect_position")
+tracks/2/path = NodePath("bodypart_level_screen:rect_position")
 tracks/2/interp = 1
 tracks/2/loop_wrap = true
 tracks/2/imported = false
@@ -236,10 +187,10 @@ tracks/2/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 0,
-"values": [ Vector2( 0, -800 ) ]
+"values": [ Vector2( 0, -2000 ) ]
 }
 tracks/3/type = "value"
-tracks/3/path = NodePath("level_screen/difficulty_screen:rect_position")
+tracks/3/path = NodePath("protuberance_type_screen:rect_position")
 tracks/3/interp = 1
 tracks/3/loop_wrap = true
 tracks/3/imported = false
@@ -248,7 +199,7 @@ tracks/3/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 0,
-"values": [ Vector2( 0, -800 ) ]
+"values": [ Vector2( 0, -2000 ) ]
 }
 tracks/4/type = "value"
 tracks/4/path = NodePath("about_screen:rect_position")
@@ -260,7 +211,7 @@ tracks/4/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 0,
-"values": [ Vector2( 0, -800 ) ]
+"values": [ Vector2( 0, -2000 ) ]
 }
 tracks/5/type = "value"
 tracks/5/path = NodePath("tutorial_screen:rect_position")
@@ -273,6 +224,57 @@ tracks/5/keys = {
 "transitions": PoolRealArray( 1 ),
 "update": 0,
 "values": [ Vector2( -1000, -1000 ) ]
+}
+
+[sub_resource type="Animation" id=11]
+resource_name = "intro_to_protuberance_type"
+tracks/0/type = "value"
+tracks/0/path = NodePath("main_screen:rect_position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ Vector2( 0, 0 ), Vector2( 0, -2000 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("main_screen:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("protuberance_type_screen:rect_position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ Vector2( 0, -800 ), Vector2( 0, 0 ) ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("protuberance_type_screen:modulate")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0, 0.5, 1 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
 }
 
 [sub_resource type="Animation" id=12]
@@ -327,6 +329,107 @@ tracks/3/keys = {
 }
 
 [sub_resource type="Animation" id=13]
+resource_name = "protuberance_type_to_bodypart"
+tracks/0/type = "value"
+tracks/0/path = NodePath("protuberance_type_screen:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("protuberance_type_screen:rect_position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ Vector2( 0, 0 ), Vector2( 0, -800 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("bodypart_level_screen:rect_position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ Vector2( 0, -800 ), Vector2( 0, 0 ) ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("bodypart_level_screen:modulate")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0, 0.5, 1 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
+}
+
+[sub_resource type="Animation" id=14]
+tracks/0/type = "value"
+tracks/0/path = NodePath("protuberance_type_screen:rect_position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ Vector2( 0, 0 ), Vector2( 0, -800 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("protuberance_type_screen:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("main_screen:rect_position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ Vector2( 0, -800 ), Vector2( 0, 0 ) ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("main_screen:modulate")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0, 0.5, 1 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
+}
+
+[sub_resource type="Animation" id=15]
 length = 2.0
 tracks/0/type = "value"
 tracks/0/path = NodePath("about_screen:rect_position")
@@ -372,106 +475,6 @@ tracks/3/imported = false
 tracks/3/enabled = true
 tracks/3/keys = {
 "times": PoolRealArray( 0, 1, 2 ),
-"transitions": PoolRealArray( 1, 1, 1 ),
-"update": 0,
-"values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
-}
-
-[sub_resource type="Animation" id=14]
-tracks/0/type = "value"
-tracks/0/path = NodePath("main_screen:modulate")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/keys = {
-"times": PoolRealArray( 0, 0.5 ),
-"transitions": PoolRealArray( 1, 1 ),
-"update": 0,
-"values": [ Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0 ) ]
-}
-tracks/1/type = "value"
-tracks/1/path = NodePath("main_screen:rect_position")
-tracks/1/interp = 1
-tracks/1/loop_wrap = true
-tracks/1/imported = false
-tracks/1/enabled = true
-tracks/1/keys = {
-"times": PoolRealArray( 0, 0.5 ),
-"transitions": PoolRealArray( 1, 1 ),
-"update": 1,
-"values": [ Vector2( 0, 0 ), Vector2( 0, -800 ) ]
-}
-tracks/2/type = "value"
-tracks/2/path = NodePath("level_screen/bodypart_level_screen:rect_position")
-tracks/2/interp = 1
-tracks/2/loop_wrap = true
-tracks/2/imported = false
-tracks/2/enabled = true
-tracks/2/keys = {
-"times": PoolRealArray( 0, 0.5 ),
-"transitions": PoolRealArray( 1, 1 ),
-"update": 1,
-"values": [ Vector2( 0, -800 ), Vector2( 0, 0 ) ]
-}
-tracks/3/type = "value"
-tracks/3/path = NodePath("level_screen/bodypart_level_screen:modulate")
-tracks/3/interp = 1
-tracks/3/loop_wrap = true
-tracks/3/imported = false
-tracks/3/enabled = true
-tracks/3/keys = {
-"times": PoolRealArray( 0, 0.5, 1 ),
-"transitions": PoolRealArray( 1, 1, 1 ),
-"update": 0,
-"values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
-}
-
-[sub_resource type="Animation" id=15]
-tracks/0/type = "value"
-tracks/0/path = NodePath("level_screen/bodypart_level_screen:rect_position")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/keys = {
-"times": PoolRealArray( 0, 0.5 ),
-"transitions": PoolRealArray( 1, 1 ),
-"update": 1,
-"values": [ Vector2( 0, 0 ), Vector2( 0, -800 ) ]
-}
-tracks/1/type = "value"
-tracks/1/path = NodePath("level_screen/bodypart_level_screen:modulate")
-tracks/1/interp = 1
-tracks/1/loop_wrap = true
-tracks/1/imported = false
-tracks/1/enabled = true
-tracks/1/keys = {
-"times": PoolRealArray( 0, 0.5 ),
-"transitions": PoolRealArray( 1, 1 ),
-"update": 0,
-"values": [ Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0 ) ]
-}
-tracks/2/type = "value"
-tracks/2/path = NodePath("level_screen/difficulty_screen:rect_position")
-tracks/2/interp = 1
-tracks/2/loop_wrap = true
-tracks/2/imported = false
-tracks/2/enabled = true
-tracks/2/keys = {
-"times": PoolRealArray( 0, 0.5 ),
-"transitions": PoolRealArray( 1, 1 ),
-"update": 1,
-"values": [ Vector2( 0, -800 ), Vector2( 0, 0 ) ]
-}
-tracks/3/type = "value"
-tracks/3/path = NodePath("level_screen/difficulty_screen:modulate")
-tracks/3/interp = 1
-tracks/3/loop_wrap = true
-tracks/3/imported = false
-tracks/3/enabled = true
-tracks/3/keys = {
-"times": PoolRealArray( 0, 0.5, 1 ),
 "transitions": PoolRealArray( 1, 1, 1 ),
 "update": 0,
 "values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
@@ -651,37 +654,71 @@ __meta__ = {
 }
 
 [node name="background" type="TextureRect" parent="."]
-margin_left = -34.9623
-margin_top = -16.9514
-margin_right = 5524.04
-margin_bottom = 3108.05
-rect_scale = Vector2( 0.2, 0.2 )
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = -35.0
+margin_top = -17.0
+margin_right = 336.0
+margin_bottom = 24.0
 texture = ExtResource( 6 )
+expand = true
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="main_screen" type="Control" parent="."]
-margin_top = -800.0
-margin_right = 40.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_top = -760.0
 margin_bottom = -760.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
+[node name="title_container" type="CenterContainer" parent="main_screen"]
+anchor_right = 1.0
+margin_top = -140.0
+margin_bottom = 370.0
+rect_min_size = Vector2( 0, 370 )
+rect_pivot_offset = Vector2( 512, 0 )
+size_flags_horizontal = 7
+size_flags_vertical = 0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureRect" type="TextureRect" parent="main_screen/title_container"]
+margin_left = 333.0
+margin_top = 155.0
+margin_right = 690.0
+margin_bottom = 355.0
+grow_horizontal = 0
+grow_vertical = 0
+rect_min_size = Vector2( 357, 200 )
+rect_clip_content = true
+size_flags_horizontal = 0
+size_flags_vertical = 0
+texture = ExtResource( 5 )
+expand = true
+stretch_mode = 1
+
 [node name="CenterContainer" type="CenterContainer" parent="main_screen"]
-margin_top = 163.0
-margin_right = 1002.0
-margin_bottom = 579.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_top = -384.0
+size_flags_horizontal = 3
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="vbox" type="VBoxContainer" parent="main_screen/CenterContainer"]
-margin_left = 385.0
-margin_top = 42.0
-margin_right = 617.0
-margin_bottom = 374.0
+margin_left = 396.0
+margin_top = 26.0
+margin_right = 628.0
+margin_bottom = 358.0
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -729,42 +766,78 @@ custom_fonts/font = SubResource( 1 )
 enabled_focus_mode = 0
 text = "K_ABOUT"
 
-[node name="title_container" type="HBoxContainer" parent="main_screen"]
-margin_right = 2005.0
-margin_bottom = 367.0
-rect_scale = Vector2( 0.5, 0.5 )
-rect_pivot_offset = Vector2( 0.5, 0 )
-alignment = 1
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="TextureRect" type="TextureRect" parent="main_screen/title_container"]
-margin_left = 646.0
-margin_right = 1359.0
-margin_bottom = 367.0
-texture = ExtResource( 5 )
-
-[node name="level_screen" type="Control" parent="."]
-margin_right = 40.0
-margin_bottom = 40.0
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="bodypart_level_screen" type="Control" parent="level_screen"]
+[node name="protuberance_type_screen" type="Control" parent="."]
 modulate = Color( 1, 1, 1, 0 )
-margin_top = -800.0
-margin_right = 40.0
-margin_bottom = -760.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_top = -2000.0
+margin_bottom = -2000.0
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="title" type="Label" parent="level_screen/bodypart_level_screen"]
+[node name="title" type="Label" parent="protuberance_type_screen"]
 modulate = Color( 0.87451, 0.470588, 0.203922, 1 )
-margin_right = 999.0
+anchor_right = 1.0
+anchor_bottom = 0.055
+margin_right = -2.0
 margin_bottom = 79.0
+custom_styles/normal = SubResource( 2 )
+custom_fonts/font = SubResource( 3 )
+text = "K_LEVEL_TITLE"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="hscroll" parent="protuberance_type_screen" instance=ExtResource( 7 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_right = 1024.0
+margin_bottom = 600.0
+levels = [ {
+"code": "pimple",
+"name": "K_PIMPLE_BUTTON"
+}, {
+"code": "blackhead",
+"name": "K_BLACKHEAD_BUTTON"
+}, {
+"code": "cyst",
+"name": "K_CYST_BUTTON"
+}, {
+"code": "lipoma",
+"name": "K_LIPOMA_BUTTON"
+} ]
+
+[node name="back_to_main" type="Button" parent="protuberance_type_screen"]
+margin_left = 15.0
+margin_top = 21.0
+margin_right = 105.0
+margin_bottom = 71.0
+rect_min_size = Vector2( 90, 60 )
+focus_mode = 0
+enabled_focus_mode = 0
+text = "K_BACK_BUTTON"
+clip_text = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="bodypart_level_screen" type="Control" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_top = -2000.0
+margin_bottom = -2000.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="title" type="Label" parent="bodypart_level_screen"]
+modulate = Color( 0.87451, 0.470588, 0.203922, 1 )
+anchor_right = 1.0
+margin_bottom = 115.0
+rect_min_size = Vector2( 0, 115 )
 custom_styles/normal = SubResource( 2 )
 custom_fonts/font = SubResource( 3 )
 text = "K_BODYPART_TITLE"
@@ -774,7 +847,8 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="hscroll" parent="level_screen/bodypart_level_screen" instance=ExtResource( 7 )]
+[node name="hscroll" parent="bodypart_level_screen" instance=ExtResource( 7 )]
+anchor_right = 0.0
 levels = [ {
 "code": "cheek",
 "name": "K_CHEEK_LEVEL_BUTTON"
@@ -789,7 +863,7 @@ levels = [ {
 "name": "K_BACK_LEVEL_BUTTON"
 } ]
 
-[node name="back_to_main" type="Button" parent="level_screen/bodypart_level_screen"]
+[node name="back_to_protuberance_type" type="Button" parent="bodypart_level_screen"]
 margin_left = 14.8325
 margin_top = 21.1893
 margin_right = 104.833
@@ -804,68 +878,21 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="difficulty_screen" type="Control" parent="level_screen"]
-margin_top = -800.0
-margin_right = 40.0
-margin_bottom = -760.0
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="title" type="Label" parent="level_screen/difficulty_screen"]
-modulate = Color( 0.87451, 0.470588, 0.203922, 1 )
-margin_right = 999.0
-margin_bottom = 79.0
-custom_styles/normal = SubResource( 2 )
-custom_fonts/font = SubResource( 3 )
-text = "K_LEVEL_TITLE"
-align = 1
-valign = 1
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="hscroll" parent="level_screen/difficulty_screen" instance=ExtResource( 7 )]
-levels = [ {
-"code": "easy",
-"name": "K_EASY_BUTTON"
-}, {
-"code": "normal",
-"name": "K_NORMAL_BUTTON"
-}, {
-"code": "hard",
-"name": "K_HARD_BUTTON"
-}, {
-"code": "super-hard",
-"name": "K_SUPER_HARD_BUTTON"
-} ]
-
-[node name="back_to_bodypart" type="Button" parent="level_screen/difficulty_screen"]
-margin_left = 15.0
-margin_top = 21.0
-margin_right = 105.0
-margin_bottom = 71.0
-rect_min_size = Vector2( 90, 60 )
-focus_mode = 0
-enabled_focus_mode = 0
-text = "K_BACK_BUTTON"
-clip_text = true
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
 [node name="about_screen" type="Control" parent="."]
-margin_top = -800.0
-margin_right = 40.0
-margin_bottom = -760.0
+modulate = Color( 1, 1, 1, 0 )
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_top = -2000.0
+margin_bottom = -2000.0
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="title" type="Label" parent="about_screen"]
 modulate = Color( 0.87451, 0.470588, 0.203922, 1 )
-margin_right = 1004.0
-margin_bottom = 95.0
+anchor_right = 1.0
+margin_bottom = 85.0
+rect_min_size = Vector2( 0, 115 )
 theme = ExtResource( 10 )
 text = "K_ABOUT_TITLE"
 align = 1
@@ -874,28 +901,43 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="content-background" type="TextureRect" parent="about_screen"]
-margin_right = 1334.0
-margin_bottom = 750.0
-rect_scale = Vector2( 0.752, 0.77 )
+[node name="CenterContainer" type="CenterContainer" parent="about_screen"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_top = 32.0
+margin_right = 256.0
+margin_bottom = 142.0
+rect_scale = Vector2( 0.8, 0.8 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="content_background" type="TextureRect" parent="about_screen/CenterContainer"]
+margin_left = 40.0
+margin_top = 4.0
+margin_right = 1240.0
+margin_bottom = 704.0
+rect_min_size = Vector2( 1200, 700 )
 texture = ExtResource( 11 )
+expand = true
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="center_content" type="CenterContainer" parent="about_screen"]
-margin_top = 69.0
-margin_right = 1002.0
-margin_bottom = 576.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_top = -504.0
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="scroll" type="ScrollContainer" parent="about_screen/center_content"]
-margin_left = 201.0
-margin_top = 103.0
-margin_right = 801.0
-margin_bottom = 403.0
+margin_left = 212.0
+margin_top = 102.0
+margin_right = 812.0
+margin_bottom = 402.0
 rect_min_size = Vector2( 600, 300 )
 
 [node name="content" type="VBoxContainer" parent="about_screen/center_content/scroll"]
@@ -948,6 +990,7 @@ text = "K_BACK_BUTTON"
 clip_text = true
 
 [node name="protuberances" type="Control" parent="tutorial_screen"]
+modulate = Color( 1, 1, 1, 0 )
 anchor_right = 1.0
 anchor_bottom = 1.0
 __meta__ = {
@@ -1068,15 +1111,16 @@ valign = 1
 autowrap = true
 
 [node name="animation" type="AnimationPlayer" parent="."]
+autoplay = "intro"
 anims/about_to_main = SubResource( 7 )
-anims/back_to_bodypart = SubResource( 8 )
-anims/back_to_main = SubResource( 9 )
-anims/fade_in = SubResource( 10 )
-anims/intro = SubResource( 11 )
+anims/bodypart_to_protuberance_type = SubResource( 8 )
+anims/fade_in = SubResource( 9 )
+anims/intro = SubResource( 10 )
+anims/intro_to_protuberance_type = SubResource( 11 )
 anims/intro_to_tutorial = SubResource( 12 )
-anims/to_about = SubResource( 13 )
-anims/to_bodypart = SubResource( 14 )
-anims/to_difficulty = SubResource( 15 )
+anims/protuberance_type_to_bodypart = SubResource( 13 )
+anims/protuberance_type_to_main = SubResource( 14 )
+anims/to_about = SubResource( 15 )
 anims/to_tutorial = SubResource( 16 )
 anims/tutorial_screen_to_intro = SubResource( 17 )
 anims/tutorial_to_protuberances = SubResource( 18 )
@@ -1118,8 +1162,8 @@ align = 1
 [connection signal="pressed" from="main_screen/CenterContainer/vbox/options" to="." method="_on_options_pressed"]
 [connection signal="pressed" from="main_screen/CenterContainer/vbox/tutorial" to="." method="_on_tutorial_pressed"]
 [connection signal="pressed" from="main_screen/CenterContainer/vbox/about" to="." method="_on_about_pressed"]
-[connection signal="pressed" from="level_screen/bodypart_level_screen/back_to_main" to="." method="_on_back_to_main_pressed"]
-[connection signal="pressed" from="level_screen/difficulty_screen/back_to_bodypart" to="." method="_on_back_to_bodypart_pressed"]
+[connection signal="pressed" from="protuberance_type_screen/back_to_main" to="." method="_on_back_to_main_pressed"]
+[connection signal="pressed" from="bodypart_level_screen/back_to_protuberance_type" to="." method="_on_back_to_protuberance_type_pressed"]
 [connection signal="meta_clicked" from="about_screen/center_content/scroll/content/RichTextLabel" to="." method="_on_meta_clicked"]
 [connection signal="pressed" from="about_screen/back" to="." method="_on_about_back_pressed"]
 [connection signal="pressed" from="tutorial_screen/protuberance_explanation/back" to="." method="_on_back_protuberance_tutorial_pressed"]

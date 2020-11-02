@@ -3,7 +3,7 @@
 [ext_resource path="res://protuberances/Cyst.gd" type="Script" id=1]
 
 [sub_resource type="CircleShape2D" id=1]
-radius = 28.2168
+radius = 45.5
 
 [node name="cyst" type="Area2D"]
 position = Vector2( 612.354, 291.328 )
