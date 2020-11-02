@@ -18,7 +18,7 @@ func _ready():
 			breakpoint
 
 func _add_bodypart() -> void:
-	var n: Node2D = Global.get_bodypart()
+	var n: Node2D = Global.get_level()
 	add_child(n)
 
 func  _on_protuberance_cleaned() -> void:

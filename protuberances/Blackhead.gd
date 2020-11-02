@@ -10,8 +10,7 @@ enum State {
 	CLEAN,
 }
 
-onready var _area: Area2D = $Area2D
-onready var _hint = $Area2D/circle_hint
+onready var _hint = $sprites/Area2D/circle_hint
 
 export(float) var vapor_tolerance_time: float = 5.0
 
