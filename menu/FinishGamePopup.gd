@@ -17,8 +17,11 @@ var _center_offset: Vector2
 var _finish_type: int = finish_type.NONE
 
 func _ready():
-	_center_image()
-	rect_position = initial_position
+#	_center_image()
+#	rect_position = initial_position
+#	start()
+	pass
+
 
 # Center image though the offset
 func _center_image() -> void:
@@ -32,7 +35,7 @@ func _center_image() -> void:
 	_center_offset = Vector2(size_x, size_y) / 2.0
 
 func start() -> void:
-	rect_position = (OS.window_size / 2.0) - (_center_offset * 2.5)
+#	rect_position = (OS.window_size / 2.0) - (_center_offset * 2.5)
 	_animation.play("win_show_up")
 
 func _on_animation_finished(anim_name: String) -> void:

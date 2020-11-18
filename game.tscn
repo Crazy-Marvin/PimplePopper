@@ -62,7 +62,9 @@ script = ExtResource( 3 )
 ]]
 script = ExtResource( 12 )
 
-[node name="UI" type="Control" parent="."]
+[node name="UI" type="Control" parent="." groups=[
+"ui",
+]]
 anchor_right = 1.0
 anchor_bottom = 1.0
 size_flags_horizontal = 3
@@ -75,17 +77,17 @@ __meta__ = {
 
 [node name="bottons_container" type="HBoxContainer" parent="UI"]
 anchor_right = 1.0
-margin_left = -20.0
 margin_top = 15.0
-margin_bottom = 75.0
+margin_right = -10.0
+margin_bottom = 60.0
 alignment = 2
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="back" type="Button" parent="UI/bottons_container"]
-margin_left = 840.0
-margin_right = 940.0
+margin_left = 810.0
+margin_right = 910.0
 margin_bottom = 60.0
 rect_min_size = Vector2( 100, 60 )
 focus_mode = 0
@@ -97,8 +99,8 @@ __meta__ = {
 }
 
 [node name="hint" type="Button" parent="UI/bottons_container"]
-margin_left = 944.0
-margin_right = 1044.0
+margin_left = 914.0
+margin_right = 1014.0
 margin_bottom = 60.0
 rect_min_size = Vector2( 100, 60 )
 focus_mode = 0
@@ -219,6 +221,7 @@ script = ExtResource( 5 )
 script = ExtResource( 6 )
 
 [node name="vapor" parent="tools" instance=ExtResource( 16 )]
+position = Vector2( -368.583, -302.658 )
 
 [node name="comedone_extraction_tool" parent="tools" instance=ExtResource( 17 )]
 
@@ -235,6 +238,7 @@ wait_time = 2.0
 
 [node name="Sprite" type="Sprite" parent="."]
 visible = false
+modulate = Color( 1, 1, 1, 0 )
 texture = ExtResource( 13 )
 centered = false
 __meta__ = {
@@ -245,16 +249,17 @@ __meta__ = {
 anims/fade_in = SubResource( 3 )
 anims/fade_out = SubResource( 4 )
 
-[node name="CanvasLayer" type="CanvasLayer" parent="."]
-
-[node name="finish_game_popup" parent="CanvasLayer" instance=ExtResource( 15 )]
-margin_left = 1646.17
-margin_top = -29.9374
-margin_right = 1646.17
-margin_bottom = -29.9374
+[node name="finish_game_popup" parent="." instance=ExtResource( 15 )]
+margin_left = -1639.15
+margin_top = -795.601
+margin_right = -1639.15
+margin_bottom = -795.601
 initial_position = Vector2( -1000, -1000 )
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
 [connection signal="pressed" from="UI/bottons_container/back" to="." method="_on_back_pressed"]
 [connection signal="pressed" from="UI/bottons_container/hint" to="." method="_on_hint_pressed"]
+[connection signal="gui_input" from="UI/scroll" to="." method="_on_scroll_gui_input"]
 [connection signal="pressed" from="UI/scroll/tools/hand" to="." method="_on_hand_pressed"]
 [connection signal="pressed" from="UI/scroll/tools/handkerchief" to="." method="_on_handkerchief_pressed"]
 [connection signal="pressed" from="UI/scroll/tools/vapor" to="." method="_on_vapor_pressed"]
@@ -265,4 +270,4 @@ initial_position = Vector2( -1000, -1000 )
 [connection signal="pressed" from="UI/scroll/tools/cutter" to="." method="_on_cutter_pressed"]
 [connection signal="timeout" from="timer" to="." method="_on_timeout"]
 [connection signal="animation_finished" from="AnimationPlayer" to="." method="_on_animation_finished"]
-[connection signal="anim_finished" from="CanvasLayer/finish_game_popup" to="." method="_on_anim_finished"]
+[connection signal="anim_finished" from="finish_game_popup" to="." method="_on_anim_finished"]

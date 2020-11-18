@@ -21,6 +21,7 @@ animations = [ {
 } ]
 
 [node name="back" type="Node2D"]
+scale = Vector2( 0.702908, 0.702908 )
 script = ExtResource( 11 )
 
 [node name="background" type="Sprite" parent="."]

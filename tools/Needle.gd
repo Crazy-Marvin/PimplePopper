@@ -12,14 +12,16 @@ var _initial_tool_position: Vector2
 var _second_finger_position: Vector2
 var _protuberance
 var _space: Physics2DDirectSpaceState
+var _ui
 
-# Called when the node enters the scene tree for the first time.
 func _ready():
 	_initial_tool_position = _sprites.position
 	_space = get_world_2d().direct_space_state
-
+	_ui = get_tree().get_nodes_in_group("ui")[0]
 
 func _input(event):
+	if _ui.is_inside_container(event.position):
+		return
 	if event is InputEventScreenTouch:
 		if event.index == 0:
 			if event.pressed:
