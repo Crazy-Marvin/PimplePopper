@@ -7,35 +7,33 @@
 resource_name = "win_show_up"
 length = 2.0
 tracks/0/type = "value"
-tracks/0/path = NodePath("CenterContainer/TextureRect:rect_position")
+tracks/0/path = NodePath("CenterContainer/TextureRect:self_modulate")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/imported = false
 tracks/0/enabled = true
 tracks/0/keys = {
-"times": PoolRealArray( 0 ),
-"transitions": PoolRealArray( 1 ),
-"update": 0,
-"values": [ Vector2( 0, 0 ) ]
-}
-tracks/1/type = "value"
-tracks/1/path = NodePath("CenterContainer/TextureRect:self_modulate")
-tracks/1/interp = 1
-tracks/1/loop_wrap = true
-tracks/1/imported = false
-tracks/1/enabled = true
-tracks/1/keys = {
 "times": PoolRealArray( 0, 1, 2 ),
 "transitions": PoolRealArray( 1, 1, 1 ),
 "update": 0,
 "values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 1 ) ]
 }
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:rect_position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 0, 0 ) ]
+}
 
 [node name="finish_game_popup" type="Control"]
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_right = -959.0
-margin_bottom = -547.0
 script = ExtResource( 1 )
 __meta__ = {
 "_edit_use_anchors_": false
@@ -46,8 +44,8 @@ initial_position = Vector2( 512, 300 )
 anims/win_show_up = SubResource( 1 )
 
 [node name="CenterContainer" type="CenterContainer" parent="."]
-margin_right = 1021.0
-margin_bottom = 602.0
+anchor_right = 1.0
+anchor_bottom = 1.0
 rect_min_size = Vector2( 1024, 600 )
 __meta__ = {
 "_edit_use_anchors_": false
@@ -55,8 +53,10 @@ __meta__ = {
 
 [node name="TextureRect" type="TextureRect" parent="CenterContainer"]
 self_modulate = Color( 1, 1, 1, 0 )
-margin_right = 512.0
-margin_bottom = 361.0
+margin_left = 256.0
+margin_top = 119.0
+margin_right = 768.0
+margin_bottom = 480.0
 texture = ExtResource( 2 )
 __meta__ = {
 "_edit_use_anchors_": false

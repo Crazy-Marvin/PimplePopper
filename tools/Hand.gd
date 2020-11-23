@@ -2,6 +2,7 @@ extends Node2D
 
 onready var _hint_sfx: AudioStreamPlayer2D = $hint_sfx
 
+var _ui
 var _counter: int = 0
 var _fingers: Dictionary = {}
 var _protuberance
@@ -12,8 +13,11 @@ func _ready():
 	_fingers[0] = $finger_cero
 	_fingers[1] = $finger_one
 	space_state = get_world_2d().direct_space_state
+	_ui = get_tree().get_nodes_in_group("ui")[0]
 
 func _input(event):
+	if _ui.is_inside_container(event.position):
+		return
 	if event is InputEventScreenTouch:
 		if event.index > 1:
 			return

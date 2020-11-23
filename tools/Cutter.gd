@@ -5,11 +5,16 @@ onready var _hint_sfx: AudioStreamPlayer2D = $hint_sfx
 var _touched
 var _space: Physics2DDirectSpaceState
 var _lipoma
+var _ui: UI
 
 func _ready():
 	_space = get_world_2d().direct_space_state
+	_ui = get_tree().get_nodes_in_group("ui")[0]
 
 func _input(event):
+	if _ui.is_inside_container(event.position):
+		return
+	
 	if event is InputEventScreenTouch:
 		_touched = event.pressed
 		if event.pressed:

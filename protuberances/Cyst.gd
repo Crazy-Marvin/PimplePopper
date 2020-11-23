@@ -22,7 +22,6 @@ var _state = State.NORMAL
 func _ready():
 	_cirecle_hint.set_color(_cirecle_hint.white)
 	_initial_amount = amount
-	print ("Initial amount: ", _initial_amount)
 	_fs = _sprites.frames.get_frame_count("default")
 
 # Returns true if the cyst is empty, false otherwise

@@ -3,9 +3,8 @@
 [ext_resource path="res://protuberances/lipoma.tscn" type="PackedScene" id=1]
 [ext_resource path="res://bodyparts/lipoma/BackLipoma.gd" type="Script" id=2]
 
-
 [node name="back" type="Node2D"]
-position = Vector2( 6.35669, -78.4003 )
+position = Vector2( -376, -64 )
 script = ExtResource( 2 )
 
 [node name="lipoma" parent="." groups=[

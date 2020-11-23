@@ -4,11 +4,15 @@ onready var _line: Line2D = $Node/Line2D
 onready var _hint: AudioStreamPlayer2D = $hint_sfx
 
 var _touched: bool = false
+var _ui
 
 func _ready():
-	pass # Replace with function body.
+	_ui = get_tree().get_nodes_in_group("ui")[0]
 
 func _input(event):
+	if _ui.is_inside_container(event.position):
+		return
+	
 	if event is InputEventScreenTouch:
 			_line.points = []
 			_touched = event.pressed
