@@ -23,13 +23,14 @@ var _state = State.NORMAL
 
 var _initial_down_position: Vector2
 var _space: Physics2DDirectSpaceState
-
+var _ui: UI
 
 func _ready():
 	set_process(false)
 	_tool_initial_position = Vector2(OS.window_size.x + 500, OS.window_size.y * 0.5)
 	_sprite.position = _tool_initial_position
 	_space = get_world_2d().direct_space_state
+	_ui = get_tree().get_nodes_in_group("ui")[0]
 
 
 func _process(delta):
@@ -39,6 +40,9 @@ func _process(delta):
 		_first_press = false
 
 func _input(event):
+	if _ui.is_inside_container(event.position):
+		return
+	
 	if _state == State.NORMAL:
 		position_tool(event)
 	elif _state == State.ON_BLACKHEAD:
@@ -81,7 +85,7 @@ func _on_tween_completed(object, key):
 	if object == _sprite:
 		var collisions: Array = _space.intersect_point(object.position, 1, [], 1, false, true)
 		if collisions.size() != 0:
-			var collider = collisions[0].collider.get_parent()
+			var collider = collisions[0].collider
 			if collider is Blackhead:
 				_sfx.play()
 				_protuberance = collider

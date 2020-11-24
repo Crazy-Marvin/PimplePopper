@@ -914,9 +914,9 @@ __meta__ = {
 
 [node name="content_background" type="TextureRect" parent="about_screen/CenterContainer"]
 margin_left = 40.0
-margin_top = 4.0
+margin_top = 5.0
 margin_right = 1240.0
-margin_bottom = 704.0
+margin_bottom = 705.0
 rect_min_size = Vector2( 1200, 700 )
 texture = ExtResource( 11 )
 expand = true

@@ -1,18 +1,18 @@
 extends Node2D
 
-
 onready var _space: Physics2DDirectSpaceState = get_world_2d().direct_space_state
 onready var _sfx: AudioStreamPlayer2D = $hint_sfx
 
+var _ui: UI
 
 func _ready():
-	pass # Replace with function body.
-
+	_ui = get_tree().get_nodes_in_group("ui")[0]
 
 func _input(event):
-	if event is InputEventScreenTouch:
-		pass
-	elif event is InputEventScreenDrag:
+	if _ui.is_inside_container(event.position):
+		return
+	
+	if event is InputEventScreenDrag:
 		var collisions: Array = _space.intersect_point(event.position, 1, [], 3, false, true)
 		if collisions.size() != 0:
 			var collider = collisions[0]["collider"]

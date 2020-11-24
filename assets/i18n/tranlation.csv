@@ -6,9 +6,10 @@ K_CHEEK_LEVEL_BUTTON,Cheek,Cachete,Wange
 K_FOREHEAD_LEVEL_BUTTON,Forehead,Frente,Stirn
 K_WRIST_LEVEL_BUTTON,Wrist,Muñeca,Handgelenk
 K_BACK_LEVEL_BUTTON,Back,Espalda,Rücken
-,,,
-,,,
-K_BACK_BUTTON,Back,Atras,zurück
+K_NOSE_LEVEL_BUTTON,Nose,Nariz,Nase
+K_SHIN_LEVEL_BUTTON,Shin,Canilla,Schienbein
+K_CHEST_LEVEL_BUTTON,Chest,Pecho,Brust
+K_BACK_BUTTON,Back,Atras,Zurück
 K_EASY_BUTTON,easy,Fácil,einfach
 K_NORMAL_BUTTON,normal,Normal,normal
 K_HARD_BUTTON,hard,Difícil,schwierig

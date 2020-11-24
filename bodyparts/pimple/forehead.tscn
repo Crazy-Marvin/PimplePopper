@@ -34,7 +34,6 @@
 [ext_resource path="res://assets/pimple_forehead/1/5.png" type="Texture" id=32]
 [ext_resource path="res://bodyparts/pimple/ForeheadPimple.gd" type="Script" id=33]
 
-
 [sub_resource type="SpriteFrames" id=1]
 animations = [ {
 "frames": [ ExtResource( 7 ), ExtResource( 18 ), ExtResource( 24 ), ExtResource( 19 ), ExtResource( 32 ) ],

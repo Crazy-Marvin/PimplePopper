@@ -1,19 +1,24 @@
 extends Node
 
 # Pimple resources
-const _pimple_cheek_resource = preload("res://bodyparts/pimple/cheek.tscn")
-const _pimple_forehead_resource = preload("res://bodyparts/pimple/forehead.tscn")
+#const _pimple_cheek_resource = preload("res://bodyparts/pimple/cheek.tscn")
+#const _pimple_forehead_resource = preload("res://bodyparts/pimple/forehead.tscn")
+#const _pimple_back_resource = preload("res://bodyparts/pimple/back.tscn")
+#const _pimple_chest_resource = preload("res://bodyparts/pimple/chest.tscn")
 
 # Blackhead resources
-const _blackhead_forehead_resource = preload("res://bodyparts/blackhead/forehead.tscn")
+#const _blackhead_forehead_resource = preload("res://bodyparts/blackhead/forehead.tscn")
+#const _blackhead_nose_resource = preload("res://bodyparts/blackhead/nose.tscn")
+#const _blackhead_cheek_resource = preload("res://bodyparts/blackhead/cheek.tscn")
 
 # Cyst resources.
-const _cyst_forehead_resource = preload("res://bodyparts/cyst/forehead.tscn")
-const _cyst_wrist_resource = preload("res://bodyparts/cyst/wrist.tscn")
-const _cyst_back_resource = preload("res://bodyparts/cyst/back.tscn")
+#const _cyst_forehead_resource = preload("res://bodyparts/cyst/forehead.tscn")
+#const _cyst_wrist_resource = preload("res://bodyparts/cyst/wrist.tscn")
+#const _cyst_back_resource = preload("res://bodyparts/cyst/back.tscn")
+#const _cyst_shin_resources = preload("res://bodyparts/cyst/shin.tscn")
 
 # Lipoma resources
-const _lipoma_back_resource = preload("res://bodyparts/lipoma/back.tscn")
+#const _lipoma_back_resource = preload("res://bodyparts/lipoma/back.tscn")
 
 var type: String = "pimple" 
 var bodypart: String = "cheek"
@@ -21,19 +26,24 @@ var level: String = "easy"
 
 var _scenes = {
 	"pimple": {
-		"cheek": _pimple_cheek_resource,
-		"forehead": _pimple_forehead_resource
+		"cheek": "res://bodyparts/pimple/cheek.tscn",
+		"forehead": "res://bodyparts/pimple/forehead.tscn",
+		"back": "res://bodyparts/pimple/back.tscn",
+		"chest": "res://bodyparts/pimple/chest.tscn"
 	},
 	"blackhead": {
-		"forehead": _blackhead_forehead_resource
+		"cheek": "res://bodyparts/blackhead/cheek.tscn",
+		"forehead": "res://bodyparts/blackhead/forehead.tscn",
+		"nose": "res://bodyparts/blackhead/nose.tscn"
 	},
 	"cyst": {
-		"forehead": _cyst_forehead_resource,
-		"wrist": _cyst_wrist_resource,
-		"back": _cyst_back_resource
+		"forehead": "res://bodyparts/cyst/forehead.tscn",
+		"wrist": "res://bodyparts/cyst/wrist.tscn",
+		"back": "res://bodyparts/cyst/back.tscn",
+		"shin": "res://bodyparts/cyst/shin.tscn"
 	},
 	"lipoma": {
-		"back": _lipoma_back_resource
+		"back": "res://bodyparts/lipoma/back.tscn"
 	}
 }
 
@@ -46,12 +56,28 @@ var _levels: Dictionary = {
 		{
 			"name": "K_FOREHEAD_LEVEL_BUTTON",
 			"code": "forehead"
+		},
+		{
+			"name": "K_BACK_LEVEL_BUTTON",
+			"code": "back"
+		},
+		{
+			"name": "K_CHEST_LEVEL_BUTTON",
+			"code": "chest"
 		}
 	],
 	"blackhead": [
 		{
+			"name": "K_CHEEK_LEVEL_BUTTON",
+			"code": "cheek"
+		},
+		{
 			"name": "K_FOREHEAD_LEVEL_BUTTON",
 			"code": "forehead"
+		},
+		{
+			"name": "K_NOSE_LEVEL_BUTTON",
+			"code": "nose"
 		}
 	],
 	"cyst": [
@@ -66,6 +92,10 @@ var _levels: Dictionary = {
 		{
 			"name": "K_BACK_LEVEL_BUTTON",
 			"code": "back"
+		},
+		{
+			"name": "K_SHIN_LEVEL_BUTTON",
+			"code": "shin"
 		}
 	],
 	"lipoma": [
@@ -99,7 +129,7 @@ func get_window_project_size() -> Vector2:
 	return _window_project_size
 
 func get_level() -> Node2D:
-	return _scenes[type][bodypart].instance()
+	return load(_scenes[type][bodypart]).instance()
 
 func is_protuberance_type_available (t: String) -> bool:
 	return _levels[t] != null
@@ -115,7 +145,7 @@ func get_bodypart_scale(sprite_size: Vector2) -> Vector2:
 	var new_x: float = OS.window_size.x / sprite_size.x
 	var new_y: float = OS.window_size.y / sprite_size.y
 	var size: Vector2
-	if new_y > new_x:
+	if new_y < new_x:
 		size = Vector2(new_y, new_y)
 	else:
 		size = Vector2(new_x, new_x)
