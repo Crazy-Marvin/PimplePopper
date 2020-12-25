@@ -9,8 +9,8 @@ enum State {
 	CLEAN
 }
 
-onready var _sprites: AnimatedSprite = get_parent().get_node("background")
-onready var _cirecle_hint = $circle_hint
+onready var _sprites: AnimatedSprite = get_parent().get_node("sprites")
+onready var _cirecle_hint = $CollisionShape2D/circle_hint
 
 export(int, 20, 100) var amount: int = 30
 

@@ -1,19 +1,21 @@
-Pimple Popper is a game about popping pimples and removing blackheads, whiteheads, lipomas and similar stuff. Download now and feel the huge satisfaction!
+<div dir="rtl">
+מפוצץ חצ'קונים הוא משחק בו מפוצצים חצ'קונים, שחורים, ועוד כל מיני פצעונים. הורידו עכשיו לתחושת הנאה עצומה!
 <br><br>
-<b>Features:</b>
+<b>תכונות:</b>
 
 <ul>
-<li>Open Source 🎉</li>
-<li>Extremely satisfactory 😂</li>
-<li>Quite realistic 😉</li>
-<li>Might come in handy for your daily life 😜</li>
-<li>You can send us your real-life pops and get a complimentary message 🙈</li>
+<li>קוד פתוח 🎉</li>
+<li>משביע רצון במיוחד 😂</li>
+<li>מאד מציאותי 😉</li>
+<li>עשוי לעזור בחיים האמיתיים 😜</li>
+<li>שלחו לנו פיצוצים אמיתיים וקבלו בחזרה הודעת תשבחות 🙈</li>
 </ul>
 
-<a href="https://www.crazymarvin.com/pimple-popper">Homepage</a>
+<a href="https://www.crazymarvin.com/pimple-popper">האתר שלנו</a>
 <br>
-<a href="https://crowdin.com/project/pimple-popper">Help us with translation</a> 
+<a href="https://crowdin.com/project/pimple-popper">עזרו לנו עם תרגומים</a> 
 <br>
-<a href="https://github.com/Crazy-Marvin/PimplePopper">Source on GitHub</a> 
+<a href="https://github.com/Crazy-Marvin/PimplePopper">קוד מקור בגיטהאב</a> 
 <br><br>
-Enjoy! 👌
+תהנו! 👌
+</div>

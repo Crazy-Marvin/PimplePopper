@@ -1,7 +1,7 @@
-extends Node2D
+extends Node
 
 onready var _animation = $AnimationPlayer
-onready var _finish_popup = $CanvasLayer/finish_game_popup
+onready var _finish_popup = $finish_game_popup
 
 export(bool) var hint_hided: bool = true
 var _hints: Array
@@ -80,3 +80,12 @@ func _on_hint_pressed():
 func _on_anim_finished(finish_type):
 	if finish_type == _finish_popup.finish_type.WIN:
 		get_tree().change_scene("res://menu/main_screen.tscn")
+
+func _input(event):
+	if event is InputEventScreenTouch:
+		print ("_input game")
+
+func _on_scroll_gui_input(event):
+	if event is InputEventScreenTouch:
+		print ("_gui_event scroll...")
+	pass # Replace with function body.

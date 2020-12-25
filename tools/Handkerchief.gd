@@ -2,13 +2,17 @@ extends Node2D
 
 var finger_position: Vector2
 var space_state: Physics2DDirectSpaceState
+var _ui
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	visible = false
 	space_state = get_world_2d().direct_space_state
+	_ui = get_tree().get_nodes_in_group("ui")[0]
 
 func _input(event):
+	if _ui.is_inside_container(event.position):
+		return
 	if event is InputEventScreenTouch:
 		if event.pressed:
 			visible = true
@@ -20,11 +24,12 @@ func _input(event):
 		var points: Array = space_state.intersect_point(event.position, 1, [], 0x7FFFFFFF, false, true)
 		for point in points:
 			var collider = point.collider
-			print (collider)
+#			print (collider)
+			# IMPORTANT: Simplify this.
 			if collider is Pimple: 
 				collider.clean()
-			elif collider.get_parent() is Blackhead:
-				collider.get_parent().clean()
+			elif collider is Blackhead:
+				collider.clean()
 			elif collider is Cyst:
 				collider.clean()
 			elif collider is Lipoma:

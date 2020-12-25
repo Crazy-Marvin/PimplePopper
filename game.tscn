@@ -54,7 +54,7 @@ tracks/0/keys = {
 "values": [ Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0 ) ]
 }
 
-[node name="game" type="Node2D"]
+[node name="game" type="Node"]
 script = ExtResource( 3 )
 
 [node name="bodypart" type="Node2D" parent="." groups=[
@@ -62,18 +62,59 @@ script = ExtResource( 3 )
 ]]
 script = ExtResource( 12 )
 
-[node name="UI" type="Control" parent="."]
-margin_right = 40.0
-margin_bottom = 40.0
+[node name="UI" type="Control" parent="." groups=[
+"ui",
+]]
+anchor_right = 1.0
+anchor_bottom = 1.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
 theme = ExtResource( 9 )
 script = ExtResource( 1 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
+[node name="bottons_container" type="HBoxContainer" parent="UI"]
+anchor_right = 1.0
+margin_top = 15.0
+margin_right = -10.0
+margin_bottom = 60.0
+alignment = 2
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="back" type="Button" parent="UI/bottons_container"]
+margin_left = 810.0
+margin_right = 910.0
+margin_bottom = 60.0
+rect_min_size = Vector2( 100, 60 )
+focus_mode = 0
+enabled_focus_mode = 0
+text = "K_EXIT_GAME_BUTTON"
+clip_text = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="hint" type="Button" parent="UI/bottons_container"]
+margin_left = 914.0
+margin_right = 1014.0
+margin_bottom = 60.0
+rect_min_size = Vector2( 100, 60 )
+focus_mode = 0
+enabled_focus_mode = 0
+text = "K_HINT_BUTTON"
+clip_text = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
 [node name="scroll" type="ScrollContainer" parent="UI"]
+anchor_bottom = 1.0
 margin_right = 273.0
-margin_bottom = 600.0
+margin_bottom = 1.0
 mouse_filter = 2
 follow_focus = true
 scroll_horizontal_enabled = false
@@ -171,34 +212,6 @@ enabled_focus_mode = 0
 text = "K_CUTTER_TOOL"
 clip_text = true
 
-[node name="back" type="Button" parent="UI"]
-margin_left = 892.242
-margin_top = 13.4848
-margin_right = 992.242
-margin_bottom = 73.4848
-rect_min_size = Vector2( 100, 60 )
-focus_mode = 0
-enabled_focus_mode = 0
-text = "K_EXIT_GAME_BUTTON"
-clip_text = true
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="hint" type="Button" parent="UI"]
-margin_left = 786.176
-margin_top = 13.4848
-margin_right = 886.176
-margin_bottom = 73.4848
-rect_min_size = Vector2( 100, 60 )
-focus_mode = 0
-enabled_focus_mode = 0
-text = "K_HINT_BUTTON"
-clip_text = true
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
 [node name="tools" type="Node" parent="."]
 script = ExtResource( 5 )
 
@@ -208,6 +221,7 @@ script = ExtResource( 5 )
 script = ExtResource( 6 )
 
 [node name="vapor" parent="tools" instance=ExtResource( 16 )]
+position = Vector2( -368.583, -302.658 )
 
 [node name="comedone_extraction_tool" parent="tools" instance=ExtResource( 17 )]
 
@@ -223,6 +237,8 @@ script = ExtResource( 6 )
 wait_time = 2.0
 
 [node name="Sprite" type="Sprite" parent="."]
+visible = false
+modulate = Color( 1, 1, 1, 0 )
 texture = ExtResource( 13 )
 centered = false
 __meta__ = {
@@ -233,14 +249,17 @@ __meta__ = {
 anims/fade_in = SubResource( 3 )
 anims/fade_out = SubResource( 4 )
 
-[node name="CanvasLayer" type="CanvasLayer" parent="."]
-
-[node name="finish_game_popup" parent="CanvasLayer" instance=ExtResource( 15 )]
-margin_left = 1646.17
-margin_top = -29.9374
-margin_right = 1646.17
-margin_bottom = -29.9374
+[node name="finish_game_popup" parent="." instance=ExtResource( 15 )]
+margin_left = -1639.15
+margin_top = -795.601
+margin_right = -1639.15
+margin_bottom = -795.601
 initial_position = Vector2( -1000, -1000 )
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+[connection signal="pressed" from="UI/bottons_container/back" to="." method="_on_back_pressed"]
+[connection signal="pressed" from="UI/bottons_container/hint" to="." method="_on_hint_pressed"]
+[connection signal="gui_input" from="UI/scroll" to="." method="_on_scroll_gui_input"]
 [connection signal="pressed" from="UI/scroll/tools/hand" to="." method="_on_hand_pressed"]
 [connection signal="pressed" from="UI/scroll/tools/handkerchief" to="." method="_on_handkerchief_pressed"]
 [connection signal="pressed" from="UI/scroll/tools/vapor" to="." method="_on_vapor_pressed"]
@@ -249,8 +268,6 @@ initial_position = Vector2( -1000, -1000 )
 [connection signal="pressed" from="UI/scroll/tools/anesthetic" to="." method="_on_anesthetic_pressed"]
 [connection signal="pressed" from="UI/scroll/tools/suture" to="." method="_on_suture_pressed"]
 [connection signal="pressed" from="UI/scroll/tools/cutter" to="." method="_on_cutter_pressed"]
-[connection signal="pressed" from="UI/back" to="." method="_on_back_pressed"]
-[connection signal="pressed" from="UI/hint" to="." method="_on_hint_pressed"]
 [connection signal="timeout" from="timer" to="." method="_on_timeout"]
 [connection signal="animation_finished" from="AnimationPlayer" to="." method="_on_animation_finished"]
-[connection signal="anim_finished" from="CanvasLayer/finish_game_popup" to="." method="_on_anim_finished"]
+[connection signal="anim_finished" from="finish_game_popup" to="." method="_on_anim_finished"]
