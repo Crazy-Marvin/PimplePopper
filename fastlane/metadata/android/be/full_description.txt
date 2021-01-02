@@ -1,19 +1,19 @@
-Pimple Popper is a game about popping pimples and removing blackheads, whiteheads, lipomas and similar stuff. Download now and feel the huge satisfaction!
+Цісканіна Вугроў - гэта гульня пра выцісканне вугроў і выдаленне чорных кропак, белых вугроў, ліпом і падобнага. Спампуйце зараз і адчуйце велізарнае задавальненне!
 
-<b>Features:</b>
+<b>Асаблівасці:</b>
 
 <ul>
-<li>Open Source 🎉</li>
-<li>Extremely satisfactory 😂</li>
-<li>Quite realistic 😉</li>
-<li>Might come in handy for your daily life 😜</li>
-<li>You can send us your real-life pops and get a complimentary message 🙈</li>
+<li>Адкрыты зыходны код 🎉</li>
+<li>Надзвычай здавальняючая 😂</li>
+<li>Цалкам рэалістычная 😉</li>
+<li>Можа спатрэбіцца для Вашага паўсядзённага жыцця 😜</li>
+<li>Вы можаце даслаць нам свае рэальныя выцісканні і атрымаць хвалебнае паведамленне 🙈</li>
 </ul>
 
-Homepage: <a href="https://www.crazymarvin.com/pimple-popper">https://www.crazymarvin.com/pimple-popper</a>
+Хатняя старонка: <a href="https://www.crazymarvin.com/pimple-popper">https://www.crazymarvin.com/pimple-popper</a>
 
-Help us with translation: <a href="https://crowdin.com/project/pimple-popper">https://crowdin.com/project/pimple-popper</a> 
+Дапамажыце нам з перакладам: <a href="https://crowdin.com/project/pimple-popper">https://crowdin.com/project/pimple-popper</a> 
 
-Source on GitHub: <a href="https://github.com/Crazy-Marvin/PimplePopper">https://github.com/Crazy-Marvin/PimplePopper</a> 
+Крыніца на GitHub: <a href="https://github.com/Crazy-Marvin/PimplePopper">https://github.com/Crazy-Marvin/PimplePopper</a> 
 
-Enjoy! 👌
+Атрымайце асалоду! 👌

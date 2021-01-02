@@ -1,19 +1,20 @@
-Pimple Popper is a game about popping pimples and removing blackheads, whiteheads, lipomas and similar stuff. Download now and feel the huge satisfaction!
+پمپل پاپر ایک بہتریں گیم ہے جس میں آپ کیل مہاسوں کو توڑتے ہیں اور آپ کالے پھوڑوں، سفید پھوڑوں، ہونٹوں پر پھوڑوں اور اسی طرح کی اور چیزوں کو ختم کرتے ہیں.
+ابھی ڈاؤنلوڈ کریں اور بڑی تسلی حاصل کریں!
 <br><br>
-<b>Features:</b>
+<b>خصوصیات:</b>
 
 <ul>
-<li>Open Source 🎉</li>
-<li>Extremely satisfactory 😂</li>
-<li>Quite realistic 😉</li>
-<li>Might come in handy for your daily life 😜</li>
-<li>You can send us your real-life pops and get a complimentary message 🙈</li>
+<li>اوپن سورس 🎉</li>
+<li>بہت تسلی بخش 😂</li>
+<li>کافی زیادہ حقیقی 😉</li>
+<li>شاید آپ کے زندگی میں کسی کام بھی آئے 😜</li>
+<li>آپ ہمیں سچ میں اپنے توڑے ہوئے پھوڑوں کی تصویریں بھیج کر مبارکی کے پیغامات بھیج سکتے ہیں 🙈</li>
 </ul>
 
-<a href="https://www.crazymarvin.com/pimple-popper">Homepage</a>
+<a href="https://www.crazymarvin.com/pimple-popper">ترجمہ میں ہماری مدد کریں</a>
 <br>
-<a href="https://crowdin.com/project/pimple-popper">Help us with translation</a> 
+<a href="https://crowdin.com/project/pimple-popper">بوم پیج:</a> 
 <br>
-<a href="https://github.com/Crazy-Marvin/PimplePopper">Source on GitHub</a> 
+<a href="https://github.com/Crazy-Marvin/PimplePopper">GitHub پر منبع:</a> 
 <br><br>
-Enjoy! 👌
+مزے اڑائیں! 👌
