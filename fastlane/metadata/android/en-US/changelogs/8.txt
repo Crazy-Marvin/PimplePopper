@@ -1,0 +1,5 @@
+Add pimples for back and chest
+Add blackheads for cheek and nose
+Add cyst for shin
+Performance improvements
+Next update will be about stability improvements, bug fixes and better UX 😅
