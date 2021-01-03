@@ -52,7 +52,7 @@
 [ext_resource path="res://protuberances/blackhead.tscn" type="PackedScene" id=50]
 
 [sub_resource type="CircleShape2D" id=1]
-radius = 7.5581
+radius = 11.3783
 
 [sub_resource type="SpriteFrames" id=2]
 animations = [ {
@@ -71,7 +71,7 @@ animations = [ {
 } ]
 
 [sub_resource type="CircleShape2D" id=4]
-radius = 7.5581
+radius = 10.7204
 
 [sub_resource type="SpriteFrames" id=5]
 animations = [ {
@@ -82,7 +82,7 @@ animations = [ {
 } ]
 
 [sub_resource type="CircleShape2D" id=6]
-radius = 7.5581
+radius = 11.0573
 
 [sub_resource type="SpriteFrames" id=7]
 animations = [ {
@@ -93,7 +93,7 @@ animations = [ {
 } ]
 
 [sub_resource type="CircleShape2D" id=8]
-radius = 7.5581
+radius = 10.2482
 
 [sub_resource type="SpriteFrames" id=9]
 animations = [ {
@@ -104,7 +104,7 @@ animations = [ {
 } ]
 
 [sub_resource type="CircleShape2D" id=10]
-radius = 7.5581
+radius = 10.7616
 
 [sub_resource type="SpriteFrames" id=11]
 animations = [ {
@@ -115,7 +115,7 @@ animations = [ {
 } ]
 
 [sub_resource type="CircleShape2D" id=12]
-radius = 7.5581
+radius = 10.2992
 
 [sub_resource type="SpriteFrames" id=13]
 animations = [ {
@@ -126,7 +126,7 @@ animations = [ {
 } ]
 
 [sub_resource type="CircleShape2D" id=14]
-radius = 7.5581
+radius = 8.99479
 
 [sub_resource type="SpriteFrames" id=15]
 animations = [ {
@@ -151,13 +151,13 @@ centered = false
 position = Vector2( 305.871, 104.95 )
 shape = SubResource( 1 )
 
+[node name="circle_hint" parent="blackhead" index="1"]
+position = Vector2( 305.871, 104.389 )
+radius = 10.0
+
 [node name="sprites" type="AnimatedSprite" parent="blackhead"]
 frames = SubResource( 2 )
 centered = false
-
-[node name="circle_hint" parent="blackhead" index="2"]
-position = Vector2( 305.871, 104.389 )
-radius = 7.439
 
 [node name="blackhead2" parent="." groups=[
 "protuberance",
@@ -167,13 +167,13 @@ radius = 7.439
 position = Vector2( 311.483, 74.6437 )
 shape = SubResource( 1 )
 
+[node name="circle_hint" parent="blackhead2" index="1"]
+position = Vector2( 312.044, 74.6437 )
+radius = 10.0
+
 [node name="sprites" type="AnimatedSprite" parent="blackhead2"]
 frames = SubResource( 3 )
 centered = false
-
-[node name="circle_hint" parent="blackhead2" index="2"]
-position = Vector2( 312.044, 74.6437 )
-radius = 5.829
 
 [node name="blackhead3" parent="." groups=[
 "protuberance",
@@ -183,13 +183,13 @@ radius = 5.829
 position = Vector2( 400.719, 78.5723 )
 shape = SubResource( 4 )
 
+[node name="circle_hint" parent="blackhead3" index="1"]
+position = Vector2( 400.719, 78.5724 )
+radius = 10.0
+
 [node name="sprites" type="AnimatedSprite" parent="blackhead3"]
 frames = SubResource( 5 )
 centered = false
-
-[node name="circle_hint" parent="blackhead3" index="2"]
-position = Vector2( 400.719, 78.5724 )
-radius = 5.829
 
 [node name="blackhead4" parent="." groups=[
 "protuberance",
@@ -199,13 +199,13 @@ radius = 5.829
 position = Vector2( 486.587, 106.073 )
 shape = SubResource( 6 )
 
+[node name="circle_hint" parent="blackhead4" index="1"]
+position = Vector2( 486.026, 105.511 )
+radius = 10.0
+
 [node name="sprites" type="AnimatedSprite" parent="blackhead4"]
 frames = SubResource( 7 )
 centered = false
-
-[node name="circle_hint" parent="blackhead4" index="2"]
-position = Vector2( 486.026, 105.511 )
-radius = 5.829
 
 [node name="blackhead5" parent="." groups=[
 "protuberance",
@@ -215,13 +215,13 @@ radius = 5.829
 position = Vector2( 513.676, 214.426 )
 shape = SubResource( 8 )
 
+[node name="circle_hint" parent="blackhead5" index="1"]
+position = Vector2( 513.744, 214.495 )
+radius = 10.0
+
 [node name="sprites" type="AnimatedSprite" parent="blackhead5"]
 frames = SubResource( 9 )
 centered = false
-
-[node name="circle_hint" parent="blackhead5" index="2"]
-position = Vector2( 513.744, 214.495 )
-radius = 5.829
 
 [node name="blackhead6" parent="." groups=[
 "protuberance",
@@ -231,13 +231,13 @@ radius = 5.829
 position = Vector2( 281.85, 94.7334 )
 shape = SubResource( 10 )
 
+[node name="circle_hint" parent="blackhead6" index="1"]
+position = Vector2( 281.289, 94.1721 )
+radius = 10.0
+
 [node name="sprites" type="AnimatedSprite" parent="blackhead6"]
 frames = SubResource( 11 )
 centered = false
-
-[node name="circle_hint" parent="blackhead6" index="2"]
-position = Vector2( 281.289, 94.1721 )
-radius = 5.829
 
 [node name="blackhead7" parent="." groups=[
 "protuberance",
@@ -247,29 +247,29 @@ radius = 5.829
 position = Vector2( 296.339, 131.271 )
 shape = SubResource( 12 )
 
+[node name="circle_hint" parent="blackhead7" index="1"]
+position = Vector2( 296.408, 131.34 )
+radius = 10.0
+
 [node name="sprites" type="AnimatedSprite" parent="blackhead7"]
 frames = SubResource( 13 )
 centered = false
-
-[node name="circle_hint" parent="blackhead7" index="2"]
-position = Vector2( 296.408, 131.34 )
-radius = 5.829
 
 [node name="blackhead8" parent="." groups=[
 "protuberance",
 ] instance=ExtResource( 50 )]
 
 [node name="CollisionShape2D" parent="blackhead8" index="0"]
-position = Vector2( 370.674, 71.4248 )
+position = Vector2( 369.403, 73.0549 )
 shape = SubResource( 14 )
+
+[node name="circle_hint" parent="blackhead8" index="1"]
+position = Vector2( 369.477, 73.1016 )
+radius = 9.049
 
 [node name="sprites" type="AnimatedSprite" parent="blackhead8"]
 frames = SubResource( 15 )
 centered = false
-
-[node name="circle_hint" parent="blackhead8" index="2"]
-position = Vector2( 370.113, 72.1235 )
-radius = 5.829
 
 [editable path="blackhead"]
 

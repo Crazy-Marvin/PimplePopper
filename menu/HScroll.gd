@@ -45,7 +45,7 @@ func _add_levels(ls: Array) -> void:
 		var li: Level = level_resource.instance()
 		li.connect("button_pressed", self, "_on_selected_level", [li])
 		li.code = l["code"]
-		li.set_text(tr(l["name"]))
+		li.set_text(l["name"])
 #		li.rect_min_size = _get_level_size()
 		_hbox.add_child(li)
 	_hbox.rect_min_size.x = _hbox.get_child_count() * Global.get_relative_screen_size_x()

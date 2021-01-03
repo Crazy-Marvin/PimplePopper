@@ -60,7 +60,7 @@ animations = [ {
 } ]
 
 [sub_resource type="CircleShape2D" id=2]
-radius = 8.57439
+radius = 11.8815
 
 [sub_resource type="SpriteFrames" id=3]
 animations = [ {
@@ -71,7 +71,7 @@ animations = [ {
 } ]
 
 [sub_resource type="CircleShape2D" id=4]
-radius = 7.92428
+radius = 11.5903
 
 [sub_resource type="SpriteFrames" id=5]
 animations = [ {
@@ -82,7 +82,7 @@ animations = [ {
 } ]
 
 [sub_resource type="CircleShape2D" id=6]
-radius = 7.73611
+radius = 11.6168
 
 [sub_resource type="SpriteFrames" id=7]
 animations = [ {
@@ -93,7 +93,7 @@ animations = [ {
 } ]
 
 [sub_resource type="CircleShape2D" id=8]
-radius = 7.98128
+radius = 10.501
 
 [sub_resource type="SpriteFrames" id=9]
 animations = [ {
@@ -104,7 +104,7 @@ animations = [ {
 } ]
 
 [sub_resource type="CircleShape2D" id=10]
-radius = 8.07195
+radius = 12.3575
 
 [sub_resource type="SpriteFrames" id=11]
 animations = [ {
@@ -115,7 +115,7 @@ animations = [ {
 } ]
 
 [sub_resource type="CircleShape2D" id=12]
-radius = 8.52917
+radius = 11.9966
 
 [sub_resource type="SpriteFrames" id=13]
 animations = [ {
@@ -126,7 +126,7 @@ animations = [ {
 } ]
 
 [sub_resource type="CircleShape2D" id=14]
-radius = 7.419
+radius = 12.0087
 
 [sub_resource type="SpriteFrames" id=15]
 animations = [ {
@@ -152,7 +152,7 @@ position = Vector2( 297.414, 219.536 )
 
 [node name="circle_hint" parent="blackhead" index="1"]
 position = Vector2( 296.985, 219.203 )
-radius = 6.634
+radius = 10.0
 
 [node name="sprites" type="AnimatedSprite" parent="blackhead"]
 frames = SubResource( 1 )
@@ -168,7 +168,7 @@ shape = SubResource( 2 )
 
 [node name="circle_hint" parent="blackhead2" index="1"]
 position = Vector2( 330.839, 181.34 )
-radius = 6.634
+radius = 10.0
 
 [node name="sprites" type="AnimatedSprite" parent="blackhead2"]
 frames = SubResource( 3 )
@@ -184,7 +184,7 @@ shape = SubResource( 4 )
 
 [node name="circle_hint" parent="blackhead3" index="1"]
 position = Vector2( 357.566, 155.949 )
-radius = 6.634
+radius = 10.0
 
 [node name="sprites" type="AnimatedSprite" parent="blackhead3"]
 frames = SubResource( 5 )
@@ -200,7 +200,7 @@ shape = SubResource( 6 )
 
 [node name="circle_hint" parent="blackhead4" index="1"]
 position = Vector2( 284.512, 174.213 )
-radius = 6.634
+radius = 10.0
 
 [node name="sprites" type="AnimatedSprite" parent="blackhead4"]
 frames = SubResource( 7 )
@@ -216,7 +216,7 @@ shape = SubResource( 8 )
 
 [node name="circle_hint" parent="blackhead5" index="1"]
 position = Vector2( 324.157, 159.067 )
-radius = 6.634
+radius = 10.0
 
 [node name="sprites" type="AnimatedSprite" parent="blackhead5"]
 frames = SubResource( 9 )
@@ -232,7 +232,7 @@ shape = SubResource( 10 )
 
 [node name="circle_hint" parent="blackhead6" index="1"]
 position = Vector2( 325.939, 118.532 )
-radius = 6.634
+radius = 10.0
 
 [node name="sprites" type="AnimatedSprite" parent="blackhead6"]
 frames = SubResource( 11 )
@@ -248,7 +248,7 @@ shape = SubResource( 12 )
 
 [node name="circle_hint" parent="blackhead7" index="1"]
 position = Vector2( 341.975, 203.167 )
-radius = 6.634
+radius = 10.0
 
 [node name="sprites" type="AnimatedSprite" parent="blackhead7"]
 frames = SubResource( 13 )
@@ -264,7 +264,7 @@ shape = SubResource( 14 )
 
 [node name="circle_hint" parent="blackhead8" index="1"]
 position = Vector2( 255.558, 147.486 )
-radius = 6.634
+radius = 10.0
 
 [node name="sprites" type="AnimatedSprite" parent="blackhead8"]
 frames = SubResource( 15 )
