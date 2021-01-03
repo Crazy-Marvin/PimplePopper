@@ -1,0 +1,3 @@
+- Improve About page
+- Prepare tutorial
+- Under the hood improvements
