@@ -2,6 +2,8 @@ extends Control
 
 signal bodypart_selected
 
+export(Array, Array) var languages: Array = []
+
 onready var _main_screen: Control = $main_screen
 onready var _bodypart_screen: Control = $bodypart_level_screen
 onready var _bodypart_hscroll: Control = $bodypart_level_screen/hscroll
@@ -13,6 +15,7 @@ onready var _no_game_popup: PopupPanel = $no_game_popup
 onready var _about_text = $about_screen/center_content/scroll/content/RichTextLabel
 onready var _protuberance_tutorial = $tutorial_screen/protuberance_explanation
 onready var _background: TextureRect = $background
+onready var _languages: OptionButton = $options_screen/CenterContainer/language_container/languages
 
 
 var _bodypart: String
@@ -21,6 +24,7 @@ var _level: String
 
 func _ready():
 	_config_menu()
+	_add_languages()
 
 func _config_menu() -> void:
 	_main_screen.rect_position = Vector2(0, -OS.window_size.y - 100)
@@ -159,6 +163,7 @@ func _on_link_pressed(link):
 
 func _on_options_pressed():
 	Input.vibrate_handheld(50)
+	_animation.play("main_to_options")
 
 func _on_meta_clicked(meta):
 	OS.shell_open(meta)
@@ -191,3 +196,30 @@ func _on_back_protuberance_tutorial_pressed():
 func _on_back_to_intro_pressed():
 	if not _animation.is_playing():
 		_animation.play("tutorial_screen_to_intro")
+
+func _add_languages() -> void:
+	var l: String = Save.get_language()
+	var dl: String
+	if l == "":
+		dl = TranslationServer.get_locale()
+	else:
+		dl = l
+	for index in languages.size():
+		_languages.add_item(tr(languages[index][1]), index)
+		if dl == languages[index][0]:
+			_languages.selected = index
+			TranslationServer.set_locale(languages[index][0])
+
+
+func _on_languages_item_selected(index):
+	# Reload translation
+	var l: String = languages[index][0]
+	Save.save_language(l)
+	TranslationServer.set_locale(l)
+	for i in languages.size():
+		_languages.set_item_text(i, tr(languages[i][1]))
+	#_languages.selected = index
+
+
+func _on_options_back_to_main_pressed():
+	_animation.play("options_to_main")
