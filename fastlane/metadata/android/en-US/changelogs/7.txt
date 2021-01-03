@@ -1,0 +1,4 @@
+- Removed static menu and implemented a dynamic one
+- Made game resposnive to run in any kind of devices (even devices with notches)
+- Added cyst on back and cyst on forehead
+- Many new languages thanks to awesome contributors
