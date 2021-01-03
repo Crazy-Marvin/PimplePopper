@@ -12,7 +12,7 @@ func _on_pressed():
 	emit_signal("button_pressed")
 
 func set_text (t: String) -> void:
-	$button.text = tr(t)
+	$button.text = t
 
 func get_size () -> Vector2:
 	return $button.rect_size

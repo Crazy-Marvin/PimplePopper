@@ -20,7 +20,9 @@ func _process(delta):
 		Input.vibrate_handheld(50)
 	
 	for p in _protuberances:
+		print("Applying vapor...")
 		if p.apply_vapor():
+			print ("Ready!")
 			_hint_sfx.play()
 			_protuberances.erase(p)
 

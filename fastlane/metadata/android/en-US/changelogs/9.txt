@@ -1,0 +1,4 @@
+- Added a bit more stability
+- Under the hood improvements
+- Options now make sense and can be used to change the language
+- Some bugs still need to be squashed next month, thanks for your patience 😓

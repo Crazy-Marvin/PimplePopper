@@ -1,0 +1,4 @@
+Add lipoma game on back
+Add winning title after succesfully removing the pimples
+Prepare localization
+Reduced the .apk size

@@ -105,6 +105,7 @@ config/icon="res://icon.png"
 [autoload]
 
 Global="*res://Global.gd"
+Save="*res://singleton/Save.gd"
 
 [display]
 
@@ -117,7 +118,6 @@ pointing/emulate_touch_from_mouse=true
 
 [locale]
 
-test="en"
 translations=PoolStringArray( "res://assets/i18n/tranlation.es.translation", "res://assets/i18n/tranlation.en.translation", "res://assets/i18n/tranlation.de.translation" )
 translation_remaps={
 "res://assets/win_title/win_en.png": PoolStringArray( "res://assets/win_title/win_de.png:de", "res://assets/win_title/won_es.png:es" )

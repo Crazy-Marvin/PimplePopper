@@ -6,7 +6,7 @@
 *.import
 *.xlsx
 export_presets.cfg
-
+data/
 # Mono-specific ignores
 .mono/
 data_*/
