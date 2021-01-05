@@ -1,19 +1,19 @@
-Pimple Popper is a game about popping pimples and removing blackheads, whiteheads, lipomas and similar stuff. Download now and feel the huge satisfaction!
-<br><br>
-<b>Features:</b>
+Pimple Popper is een spel over puistjes laten ontploffen en het verwijderen van mee-eters, lipomen en soortgelijke dingen. Download nu en ervaar de enorme voldoening!
+
+<b>Kenmerken:</b>
 
 <ul>
 <li>Open Source 🎉</li>
-<li>Extremely satisfactory 😂</li>
-<li>Quite realistic 😉</li>
-<li>Might come in handy for your daily life 😜</li>
-<li>You can send us your real-life pops and get a complimentary message 🙈</li>
+<li>Ontzettend bevredigend 😂</li>
+<li>QHeel realistisch 😉</li>
+<li>Kan van pas komen voor je dagelijkse leven 😜</li>
+<li>Je kan ons je real-life pops sturen en een extra berichtje krijgen 🙈</li>
 </ul>
 
-<a href="https://www.crazymarvin.com/pimple-popper">Homepage</a>
-<br>
-<a href="https://crowdin.com/project/pimple-popper">Help us with translation</a> 
-<br>
-<a href="https://github.com/Crazy-Marvin/PimplePopper">Source on GitHub</a> 
-<br><br>
-Enjoy! 👌
+Homepage: <a href="https://www.crazymarvin.com/pimple-popper">https://www.crazymarvin.com/pimple-popper</a>
+
+Help ons met de vertaling: <a href="https://crowdin.com/project/pimple-popper">https://crowdin.com/project/pimple-popper</a> 
+
+Bron op GitHub: <a href="https://github.com/Crazy-Marvin/PimplePopper">https://github.com/Crazy-Marvin/PimplePopper</a> 
+
+Veel plezier! 👌
