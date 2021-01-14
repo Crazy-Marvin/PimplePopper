@@ -1,25 +1,5 @@
 extends Node
 
-# Pimple resources
-#const _pimple_cheek_resource = preload("res://bodyparts/pimple/cheek.tscn")
-#const _pimple_forehead_resource = preload("res://bodyparts/pimple/forehead.tscn")
-#const _pimple_back_resource = preload("res://bodyparts/pimple/back.tscn")
-#const _pimple_chest_resource = preload("res://bodyparts/pimple/chest.tscn")
-
-# Blackhead resources
-#const _blackhead_forehead_resource = preload("res://bodyparts/blackhead/forehead.tscn")
-#const _blackhead_nose_resource = preload("res://bodyparts/blackhead/nose.tscn")
-#const _blackhead_cheek_resource = preload("res://bodyparts/blackhead/cheek.tscn")
-
-# Cyst resources.
-#const _cyst_forehead_resource = preload("res://bodyparts/cyst/forehead.tscn")
-#const _cyst_wrist_resource = preload("res://bodyparts/cyst/wrist.tscn")
-#const _cyst_back_resource = preload("res://bodyparts/cyst/back.tscn")
-#const _cyst_shin_resources = preload("res://bodyparts/cyst/shin.tscn")
-
-# Lipoma resources
-#const _lipoma_back_resource = preload("res://bodyparts/lipoma/back.tscn")
-
 var type: String = "pimple" 
 var bodypart: String = "cheek"
 var level: String = "easy"

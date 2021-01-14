@@ -1,0 +1,5 @@
+- Add lipoma removal
+- Update game mechanics
+- Show notification when clicking on a level that is not implemented yet
+- Improve handling of the tools
+- Under the hood improvements

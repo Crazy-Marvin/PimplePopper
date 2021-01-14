@@ -1,0 +1,3 @@
+- Update About page
+- Refactoring
+- Under the hood improvements
