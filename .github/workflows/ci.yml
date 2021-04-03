@@ -1,0 +1,35 @@
+name: Build tester
+
+on:
+  push:
+    branches:
+    - master
+    - development
+    - trunk
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: croconut/godot-multi-builder@v1
+      with:
+      #comma separated export presets
+        names: "Linux/X11, HTML5, Android, WindowsDesktop, MacOSX"
+        # if path is in the top level of your directory, skip
+        # path-to-game: "tester"
+        # defaults to true, Android currently only exports to debug
+        debug-mode: "true"
+        # outputs to path-to-game/builds/builds.zip
+        # if run multiple times, you can use the step's output variable
+        # to retrieve the separate builds.zip files
+        # if any zip files are too big for your purposes, unzipping is
+        # likely your best bet
+    - run: |
+          unzip ./tester/builds/builds.zip
+          git config user.email github-actions@github.com
+          git config user.name github-actions
+          git add ./tester/builds/*
+          git reset -- ./tester/builds/builds.zip
+          git commit -m 'builds generated'
+          git push --force
