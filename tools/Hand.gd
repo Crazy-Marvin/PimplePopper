@@ -8,6 +8,7 @@ var _fingers: Dictionary = {}
 var _protuberance
 var space_state: Physics2DDirectSpaceState
 var _initial_distance: float
+var _explode_protuberances: Array = []
 
 func _ready():
 	_fingers[0] = $finger_cero
@@ -32,8 +33,7 @@ func _input(event):
 			if event.index == 1:
 				var f0_position: Vector2 = $finger_cero.position
 				var f1_position: Vector2 = $finger_one.position
-				var result: Dictionary = space_state.intersect_ray(f0_position, f1_position, [], 2147483647, false, true)
-				print (result)
+				var result: Dictionary = space_state.intersect_ray(f0_position, f1_position, _explode_protuberances, 2147483647, false, true)
 				if not result.empty():
 					_hint_sfx.play()
 					_protuberance = result['collider']
@@ -59,6 +59,7 @@ func _input(event):
 				var new_distance: float = (f0_position - f1_position).length()
 				if new_distance < _initial_distance:
 					if _protuberance.apply_pressure(_initial_distance - new_distance):
+						_explode_protuberances.append(_protuberance)
 						_hint_sfx.play()
 
 func disable() -> void:

@@ -1323,6 +1323,7 @@ size_flags_horizontal = 3
 size_flags_vertical = 6
 text = "K_GAME_AVAILABLE_MESSAGE"
 align = 1
+
 [connection signal="pressed" from="main_screen/CenterContainer/vbox/play" to="." method="_on_play_pressed"]
 [connection signal="pressed" from="main_screen/CenterContainer/vbox/options" to="." method="_on_options_pressed"]
 [connection signal="pressed" from="main_screen/CenterContainer/vbox/tutorial" to="." method="_on_tutorial_pressed"]

@@ -26,7 +26,7 @@ func apply_pressure(p: float) -> bool:
 	print ("Pressure: ", p)
 	if state == State.NORMAL:
 		print ("applying pressure...")
-		var frame_index: int = (p / max_pressure) * normal_frames
+		var frame_index: int = int((p / max_pressure) * normal_frames)
 		_animated_sprite.frame = frame_index
 		print("fram index: ", frame_index)
 		if p > max_pressure:

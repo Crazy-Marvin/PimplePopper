@@ -1,4 +1,4 @@
-[gd_scene load_steps=21 format=2]
+[gd_scene load_steps=22 format=2]
 
 [ext_resource path="res://menu/UI.gd" type="Script" id=1]
 [ext_resource path="res://tools/hand.tscn" type="PackedScene" id=2]
@@ -9,6 +9,7 @@
 [ext_resource path="res://tools/cutter.tscn" type="PackedScene" id=7]
 [ext_resource path="res://assets/fonts/NoirPro-SemiBold.otf" type="DynamicFontData" id=8]
 [ext_resource path="res://assets/themes/menu.tres" type="Theme" id=9]
+[ext_resource path="res://menu/game_buttons.tres" type="ButtonGroup" id=10]
 [ext_resource path="res://tools/anaesthetic.tscn" type="PackedScene" id=11]
 [ext_resource path="res://bodyparts/BodyPart.gd" type="Script" id=12]
 [ext_resource path="res://assets/blackscreen.png" type="Texture" id=13]
@@ -56,6 +57,7 @@ tracks/0/keys = {
 
 [node name="game" type="Node"]
 script = ExtResource( 3 )
+_buttons = ExtResource( 10 )
 
 [node name="bodypart" type="Node2D" parent="." groups=[
 "bodypart",
@@ -92,6 +94,7 @@ margin_bottom = 60.0
 rect_min_size = Vector2( 100, 60 )
 focus_mode = 0
 enabled_focus_mode = 0
+group = ExtResource( 10 )
 text = "K_EXIT_GAME_BUTTON"
 clip_text = true
 __meta__ = {
@@ -105,6 +108,7 @@ margin_bottom = 60.0
 rect_min_size = Vector2( 100, 60 )
 focus_mode = 0
 enabled_focus_mode = 0
+group = ExtResource( 10 )
 text = "K_HINT_BUTTON"
 clip_text = true
 __meta__ = {
@@ -140,6 +144,7 @@ margin_bottom = 90.0
 rect_min_size = Vector2( 220, 90 )
 focus_mode = 0
 enabled_focus_mode = 0
+group = ExtResource( 10 )
 text = "K_HAND_TOOL"
 
 [node name="handkerchief" type="Button" parent="UI/scroll/tools"]
@@ -149,6 +154,7 @@ margin_bottom = 200.0
 rect_min_size = Vector2( 220, 90 )
 focus_mode = 0
 enabled_focus_mode = 0
+group = ExtResource( 10 )
 text = "K_HANDKERCHIEF_TOOL"
 clip_text = true
 
@@ -159,6 +165,7 @@ margin_bottom = 310.0
 rect_min_size = Vector2( 220, 90 )
 focus_mode = 0
 enabled_focus_mode = 0
+group = ExtResource( 10 )
 text = "K_VAPOR_TOOL"
 clip_text = true
 
@@ -169,6 +176,7 @@ margin_bottom = 420.0
 rect_min_size = Vector2( 220, 90 )
 focus_mode = 0
 enabled_focus_mode = 0
+group = ExtResource( 10 )
 text = "K_COMEDONE_TOOL"
 clip_text = true
 
@@ -179,6 +187,7 @@ margin_bottom = 530.0
 rect_min_size = Vector2( 220, 90 )
 focus_mode = 0
 enabled_focus_mode = 0
+group = ExtResource( 10 )
 text = "K_NEEDLE_TOOL"
 clip_text = true
 
@@ -189,6 +198,7 @@ margin_bottom = 640.0
 rect_min_size = Vector2( 220, 90 )
 focus_mode = 0
 enabled_focus_mode = 0
+group = ExtResource( 10 )
 text = "K_ANESTHETIC_TOOL"
 clip_text = true
 
@@ -199,6 +209,7 @@ margin_bottom = 750.0
 rect_min_size = Vector2( 220, 90 )
 focus_mode = 0
 enabled_focus_mode = 0
+group = ExtResource( 10 )
 text = "K_SUTURE_TOOL"
 clip_text = true
 
@@ -209,6 +220,7 @@ margin_bottom = 860.0
 rect_min_size = Vector2( 220, 90 )
 focus_mode = 0
 enabled_focus_mode = 0
+group = ExtResource( 10 )
 text = "K_CUTTER_TOOL"
 clip_text = true
 
@@ -237,7 +249,6 @@ position = Vector2( -368.583, -302.658 )
 wait_time = 2.0
 
 [node name="Sprite" type="Sprite" parent="."]
-visible = false
 modulate = Color( 1, 1, 1, 0 )
 texture = ExtResource( 13 )
 centered = false
@@ -257,6 +268,7 @@ margin_bottom = -795.601
 initial_position = Vector2( -1000, -1000 )
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
+
 [connection signal="pressed" from="UI/bottons_container/back" to="." method="_on_back_pressed"]
 [connection signal="pressed" from="UI/bottons_container/hint" to="." method="_on_hint_pressed"]
 [connection signal="gui_input" from="UI/scroll" to="." method="_on_scroll_gui_input"]

@@ -131,5 +131,5 @@ func get_bodypart_scale(sprite_size: Vector2) -> Vector2:
 		size = Vector2(new_x, new_x)
 	return size
 
-func get_bodyparts(level: String) -> Array:
-	return _levels[level]
+func get_bodyparts(plevel: String) -> Array:
+	return _levels[plevel]

@@ -4,6 +4,7 @@ onready var _animation = $AnimationPlayer
 onready var _finish_popup = $finish_game_popup
 
 export(bool) var hint_hided: bool = true
+export(ButtonGroup) var _buttons: ButtonGroup
 var _hints: Array
 
 # Called when the node enters the scene tree for the first time.
@@ -15,6 +16,8 @@ func _ready():
 	
 	_hints = get_tree().get_nodes_in_group("hint")
 	hide_hints(hint_hided)
+#	yield(get_tree(), "idle_frame")
+	_disable_buttons(true)
 
 func hide_hints(hided: bool) -> void:
 	for h in _hints:
@@ -61,7 +64,13 @@ func _on_cutter_pressed():
 	$tools.enable_cutter()
 
 
+func _disable_buttons(b: bool) -> void:
+	for bt in _buttons.get_buttons():
+		bt.disabled = b
+
+
 func _on_back_pressed():
+	_disable_buttons(true)
 	_animation.play("fade_in")
 
 
@@ -70,6 +79,8 @@ func _on_animation_finished(anim: String) -> void:
 		var error: int = get_tree().change_scene("res://menu/main_screen.tscn")
 		if error != OK:
 			print_debug("Error loading main screen. Code: ", error)
+	elif anim == "fade_out":
+		_disable_buttons(false)
 
 
 func _on_hint_pressed():

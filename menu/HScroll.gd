@@ -112,9 +112,9 @@ func change_level(distance: float) -> void:
 	direction = (new_position - _hbox.rect_position).normalized()
 	set_process(true)
 
-func _on_selected_level(level: Level) -> void:
+func _on_selected_level(plevel: Level) -> void:
 	if not slide_state:
-		emit_signal("selected_level", level.code)
+		emit_signal("selected_level", plevel.code)
 
 func get_levels() -> Array:
 	return _hbox.get_children()
