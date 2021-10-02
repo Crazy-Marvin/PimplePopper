@@ -1,4 +1,4 @@
-[gd_scene load_steps=36 format=2]
+[gd_scene load_steps=37 format=2]
 
 [ext_resource path="res://assets/pimple_back/p_4/4.1.png" type="Texture" id=1]
 [ext_resource path="res://assets/pimple_back/base.png" type="Texture" id=2]
@@ -11,6 +11,7 @@
 [ext_resource path="res://assets/pimple_back/p_2/2.4.png" type="Texture" id=9]
 [ext_resource path="res://assets/pimple_back/p_1/5.png" type="Texture" id=10]
 [ext_resource path="res://assets/pimple_back/p_2/2.1.png" type="Texture" id=11]
+[ext_resource path="res://bodyparts/ScaleFixer.tscn" type="PackedScene" id=12]
 [ext_resource path="res://assets/pimple_back/p_2/2.5.png" type="Texture" id=15]
 [ext_resource path="res://protuberances/pimple_new.tscn" type="PackedScene" id=18]
 [ext_resource path="res://assets/pimple_back/p_4/4.5.png" type="Texture" id=19]
@@ -78,7 +79,6 @@ animations = [ {
 radius = 24.8423
 
 [node name="back" type="Node2D"]
-position = Vector2( -372.937, 0 )
 scale = Vector2( 0.797449, 0.794678 )
 
 [node name="background" type="Sprite" parent="."]
@@ -114,7 +114,6 @@ position = Vector2( 1159.13, 234.345 )
 radius = 25.951
 
 [node name="pimple_new4" parent="." instance=ExtResource( 18 )]
-scale = Vector2( 1, 1 )
 max_pressure = 100.0
 normal_frames = 3
 
@@ -160,12 +159,10 @@ shape = SubResource( 8 )
 [node name="circle_hint" parent="pimple_new6/CollisionShape2D" index="0"]
 radius = 20.317
 
+[node name="ScaleFixer" parent="." instance=ExtResource( 12 )]
+
 [editable path="pimple_new"]
-
 [editable path="pimple_new2"]
-
 [editable path="pimple_new4"]
-
 [editable path="pimple_new5"]
-
 [editable path="pimple_new6"]

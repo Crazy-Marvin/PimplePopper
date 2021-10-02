@@ -38,7 +38,8 @@ position = Vector2( 0, 0 )
 [node name="CollisionShape2D" parent="cyst" index="0"]
 position = Vector2( 800, 352 )
 
-[node name="circle_hint" parent="cyst/CollisionShape2D" index="0" instance=ExtResource( 8 )]
+[node name="circle_hint" parent="cyst" instance=ExtResource( 8 )]
+position = Vector2( 800, 352 )
 radius = 46.878
 
 [editable path="cyst"]

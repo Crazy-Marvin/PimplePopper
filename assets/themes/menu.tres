@@ -26,7 +26,7 @@ region_rect = Rect2( 0, 0, 491, 137 )
 texture = ExtResource( 3 )
 region_rect = Rect2( 0, 0, 491, 137 )
 
-[sub_resource type="StyleBoxFlat" id=7]
+[sub_resource type="StyleBoxFlat" id=6]
 bg_color = Color( 0.772549, 0.615686, 0.447059, 1 )
 border_width_left = 4
 border_width_top = 4
@@ -38,11 +38,11 @@ corner_radius_top_right = 4
 corner_radius_bottom_right = 4
 corner_radius_bottom_left = 4
 
-[sub_resource type="DynamicFont" id=6]
+[sub_resource type="DynamicFont" id=7]
 font_data = ExtResource( 1 )
 
 [resource]
-default_font = SubResource( 6 )
+default_font = SubResource( 7 )
 Button/colors/font_color = Color( 0, 0, 0, 1 )
 Button/colors/font_color_disabled = Color( 0, 0, 0, 0.2 )
 Button/colors/font_color_hover = Color( 0, 0, 0, 1 )
@@ -70,6 +70,6 @@ PopupMenu/icons/unchecked = null
 PopupMenu/styles/hover = null
 PopupMenu/styles/labeled_separator_left = null
 PopupMenu/styles/labeled_separator_right = null
-PopupMenu/styles/panel = SubResource( 7 )
+PopupMenu/styles/panel = SubResource( 6 )
 PopupMenu/styles/panel_disabled = null
 PopupMenu/styles/separator = null

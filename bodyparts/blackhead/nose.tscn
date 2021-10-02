@@ -271,17 +271,10 @@ frames = SubResource( 15 )
 centered = false
 
 [editable path="blackhead"]
-
 [editable path="blackhead2"]
-
 [editable path="blackhead3"]
-
 [editable path="blackhead4"]
-
 [editable path="blackhead5"]
-
 [editable path="blackhead6"]
-
 [editable path="blackhead7"]
-
 [editable path="blackhead8"]

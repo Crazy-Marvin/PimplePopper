@@ -24,7 +24,6 @@ func hide_hints(hided: bool) -> void:
 		h.visible = not hided
 
 func _on_bodypart_cleaned() -> void:
-#	$timer.start()
 	_finish_popup.start()
 
 

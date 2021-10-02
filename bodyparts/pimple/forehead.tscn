@@ -193,13 +193,8 @@ shape = SubResource( 12 )
 radius = 9.854
 
 [editable path="pimple_1"]
-
 [editable path="pimple_2"]
-
 [editable path="pimple_3"]
-
 [editable path="pimple_4"]
-
 [editable path="pimple_5"]
-
 [editable path="pimple_6"]
