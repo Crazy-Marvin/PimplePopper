@@ -1,0 +1,3 @@
+- About page Aggiornata
+- Refattorizazzione
+- Migliorie sotto il cofano

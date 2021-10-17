@@ -1,0 +1,4 @@
+- Rimossi menu statici e implementati i dinamici
+- Made game resposive per funzionare in ogni tipo di device (inclusi device con il notche)
+- Aggiunte le cisti sulla schiena e le ciste sulla fronte
+- Molte altre lingue aggiunte grazie ai fantastici contributors
