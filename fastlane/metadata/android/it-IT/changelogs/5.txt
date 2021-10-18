@@ -1,0 +1,4 @@
+Aggiunto gioco del lipoma sulla schiena
+Aggiunto titolo di successo dopo aver rimosso i brufoli
+Praparata la localizzazione
+Ridotto il peso del .apk

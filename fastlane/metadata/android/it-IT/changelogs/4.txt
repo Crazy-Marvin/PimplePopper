@@ -1,0 +1,5 @@
+- Aggiunto rimuovi lipoma
+- Aggiornate le meccaniche di gioco
+- Mostrare notifiche quando si fa click su un livello non ancora inplementato
+- Migliorati gli strumenti di handling
+- Migliorie sotto il cofano

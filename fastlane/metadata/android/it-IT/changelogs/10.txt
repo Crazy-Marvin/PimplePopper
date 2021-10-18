@@ -1,0 +1,3 @@
+- Migliorie sotto il cofano
+- Nuove lingue disponibili
+- Alcuni bugs colpiti 🔨
