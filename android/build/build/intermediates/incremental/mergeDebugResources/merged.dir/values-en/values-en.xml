@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="after_timer_value">sec unitl your reward</string>
+    <string name="before_timer_value"/>
+    <string name="godot_project_name_string">Pimples</string>
+    <string name="yandex_ads_internal_instream_advertiser_social">Social ad</string>
+    <string name="yandex_ads_internal_instream_advertiser_yandex">Ad</string>
+</resources>
