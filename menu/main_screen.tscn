@@ -1,18 +1,19 @@
-[gd_scene load_steps=35 format=2]
+[gd_scene load_steps=37 format=2]
 
-[ext_resource path="res://assets/themes/menu.tres" type="Theme" id=1]
-[ext_resource path="res://menu/MainScreen.gd" type="Script" id=2]
-[ext_resource path="res://assets/background.png" type="Texture" id=3]
-[ext_resource path="res://assets/title.png" type="Texture" id=4]
-[ext_resource path="res://assets/themes/default.tres" type="Theme" id=5]
-[ext_resource path="res://assets/fonts/prototype/Prototype.ttf" type="DynamicFontData" id=6]
-[ext_resource path="res://assets/fonts/NoirPro-SemiBold.otf" type="DynamicFontData" id=7]
-[ext_resource path="res://menu/hscroll.tscn" type="PackedScene" id=8]
-[ext_resource path="res://assets/themes/title.tres" type="Theme" id=9]
-[ext_resource path="res://assets/about- text-background.png" type="Texture" id=10]
-[ext_resource path="res://menu/protuberance_explanation.tscn" type="PackedScene" id=11]
-[ext_resource path="res://assets/themes/button_protuberance_tutorial.tres" type="Theme" id=12]
-[ext_resource path="res://assets/blackscreen.png" type="Texture" id=13]
+[ext_resource path="res://menu/MainScreen.gd" type="Script" id=1]
+[ext_resource path="res://assets/fonts/prototype/Prototype.ttf" type="DynamicFontData" id=2]
+[ext_resource path="res://assets/fonts/NoirPro-SemiBold.otf" type="DynamicFontData" id=3]
+[ext_resource path="res://assets/blackscreen.png" type="Texture" id=4]
+[ext_resource path="res://assets/title.png" type="Texture" id=5]
+[ext_resource path="res://assets/background.png" type="Texture" id=6]
+[ext_resource path="res://menu/hscroll.tscn" type="PackedScene" id=7]
+[ext_resource path="res://assets/themes/menu.tres" type="Theme" id=8]
+[ext_resource path="res://assets/themes/default.tres" type="Theme" id=9]
+[ext_resource path="res://assets/themes/title.tres" type="Theme" id=10]
+[ext_resource path="res://assets/about- text-background.png" type="Texture" id=11]
+[ext_resource path="res://menu/protuberance_explanation.tscn" type="PackedScene" id=12]
+[ext_resource path="res://assets/themes/button_protuberance_tutorial.tres" type="Theme" id=13]
+[ext_resource path="res://yodo1mas.gd" type="Script" id=14]
 
 [sub_resource type="DynamicFont" id=1]
 size = 40
@@ -1323,6 +1324,11 @@ size_flags_vertical = 6
 text = "K_GAME_AVAILABLE_MESSAGE"
 align = 1
 
+[node name="yodo1mas" type="Node" parent="."]
+script = ExtResource( 14 )
+app_id_android = "Icsp8OCZ28"
+
+[connection signal="ready" from="main_screen" to="yodo1mas" method="_on_main_screen_ready"]
 [connection signal="pressed" from="main_screen/CenterContainer/vbox/play" to="." method="_on_play_pressed"]
 [connection signal="pressed" from="main_screen/CenterContainer/vbox/options" to="." method="_on_options_pressed"]
 [connection signal="pressed" from="main_screen/CenterContainer/vbox/tutorial" to="." method="_on_tutorial_pressed"]
