@@ -17,34 +17,32 @@
 
 [sub_resource type="DynamicFont" id=1]
 size = 40
-font_data = ExtResource( 2 )
+font_data = ExtResource( 6 )
 
 [sub_resource type="StyleBoxLine" id=2]
 
 [sub_resource type="DynamicFont" id=3]
 size = 50
 use_filter = true
-font_data = ExtResource( 3 )
+font_data = ExtResource( 7 )
 
 [sub_resource type="DynamicFont" id=4]
 size = 20
-font_data = ExtResource( 3 )
+font_data = ExtResource( 7 )
 
 [sub_resource type="DynamicFont" id=5]
 size = 48
-font_data = ExtResource( 3 )
+font_data = ExtResource( 7 )
 
 [sub_resource type="DynamicFont" id=6]
 size = 20
-font_data = ExtResource( 3 )
+font_data = ExtResource( 7 )
 
-[sub_resource type="StyleBoxFlat" id=7]
-
-[sub_resource type="DynamicFont" id=8]
+[sub_resource type="DynamicFont" id=7]
 size = 30
-font_data = ExtResource( 3 )
+font_data = ExtResource( 7 )
 
-[sub_resource type="Animation" id=9]
+[sub_resource type="Animation" id=8]
 length = 2.0
 tracks/0/type = "value"
 tracks/0/path = NodePath("about_screen:modulate")
@@ -95,7 +93,7 @@ tracks/3/keys = {
 "values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
 }
 
-[sub_resource type="Animation" id=10]
+[sub_resource type="Animation" id=9]
 tracks/0/type = "value"
 tracks/0/path = NodePath("bodypart_level_screen:rect_position")
 tracks/0/interp = 1
@@ -145,7 +143,7 @@ tracks/3/keys = {
 "values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
 }
 
-[sub_resource type="Animation" id=11]
+[sub_resource type="Animation" id=10]
 tracks/0/type = "value"
 tracks/0/path = NodePath("fade_screen:modulate")
 tracks/0/interp = 1
@@ -159,7 +157,7 @@ tracks/0/keys = {
 "values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
 }
 
-[sub_resource type="Animation" id=12]
+[sub_resource type="Animation" id=11]
 length = 2.0
 tracks/0/type = "value"
 tracks/0/path = NodePath("main_screen:rect_position")
@@ -234,7 +232,7 @@ tracks/5/keys = {
 "values": [ Vector2( -1000, -1000 ) ]
 }
 
-[sub_resource type="Animation" id=13]
+[sub_resource type="Animation" id=12]
 tracks/0/type = "value"
 tracks/0/path = NodePath("main_screen:rect_position")
 tracks/0/interp = 1
@@ -284,7 +282,7 @@ tracks/3/keys = {
 "values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
 }
 
-[sub_resource type="Animation" id=14]
+[sub_resource type="Animation" id=13]
 tracks/0/type = "value"
 tracks/0/path = NodePath("tutorial_screen:rect_position")
 tracks/0/interp = 1
@@ -334,7 +332,7 @@ tracks/3/keys = {
 "values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
 }
 
-[sub_resource type="Animation" id=15]
+[sub_resource type="Animation" id=14]
 tracks/0/type = "value"
 tracks/0/path = NodePath("main_screen:rect_position")
 tracks/0/interp = 0
@@ -384,7 +382,7 @@ tracks/3/keys = {
 "values": [ Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0 ) ]
 }
 
-[sub_resource type="Animation" id=16]
+[sub_resource type="Animation" id=15]
 tracks/0/type = "value"
 tracks/0/path = NodePath("options_screen:rect_position")
 tracks/0/interp = 0
@@ -434,7 +432,7 @@ tracks/3/keys = {
 "values": [ Vector2( -2000, 0 ), Vector2( 0, 0 ) ]
 }
 
-[sub_resource type="Animation" id=17]
+[sub_resource type="Animation" id=16]
 tracks/0/type = "value"
 tracks/0/path = NodePath("protuberance_type_screen:modulate")
 tracks/0/interp = 1
@@ -484,7 +482,7 @@ tracks/3/keys = {
 "values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
 }
 
-[sub_resource type="Animation" id=18]
+[sub_resource type="Animation" id=17]
 tracks/0/type = "value"
 tracks/0/path = NodePath("protuberance_type_screen:rect_position")
 tracks/0/interp = 1
@@ -534,7 +532,7 @@ tracks/3/keys = {
 "values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
 }
 
-[sub_resource type="Animation" id=19]
+[sub_resource type="Animation" id=18]
 length = 2.0
 tracks/0/type = "value"
 tracks/0/path = NodePath("about_screen:rect_position")
@@ -585,7 +583,7 @@ tracks/3/keys = {
 "values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
 }
 
-[sub_resource type="Animation" id=20]
+[sub_resource type="Animation" id=19]
 tracks/0/type = "value"
 tracks/0/path = NodePath("tutorial_screen:rect_position")
 tracks/0/interp = 1
@@ -647,7 +645,7 @@ tracks/4/keys = {
 "values": [ Vector2( 0, 0 ), Vector2( -1500, 0 ) ]
 }
 
-[sub_resource type="Animation" id=21]
+[sub_resource type="Animation" id=20]
 tracks/0/type = "value"
 tracks/0/path = NodePath("tutorial_screen:rect_position")
 tracks/0/interp = 1
@@ -697,7 +695,7 @@ tracks/3/keys = {
 "values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
 }
 
-[sub_resource type="Animation" id=22]
+[sub_resource type="Animation" id=21]
 tracks/0/type = "value"
 tracks/0/path = NodePath("tutorial_screen/protuberance_explanation:modulate")
 tracks/0/interp = 1
@@ -750,8 +748,8 @@ tracks/3/keys = {
 [node name="main" type="Control"]
 anchor_right = 1.0
 anchor_bottom = 1.0
-theme = ExtResource( 8 )
-script = ExtResource( 1 )
+theme = ExtResource( 1 )
+script = ExtResource( 2 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -764,7 +762,7 @@ margin_left = -35.0
 margin_top = -17.0
 margin_right = 336.0
 margin_bottom = 24.0
-texture = ExtResource( 6 )
+texture = ExtResource( 3 )
 expand = true
 __meta__ = {
 "_edit_use_anchors_": false
@@ -804,7 +802,7 @@ rect_min_size = Vector2( 357, 200 )
 rect_clip_content = true
 size_flags_horizontal = 0
 size_flags_vertical = 0
-texture = ExtResource( 5 )
+texture = ExtResource( 4 )
 expand = true
 stretch_mode = 1
 
@@ -832,7 +830,7 @@ margin_right = 232.0
 margin_bottom = 80.0
 rect_min_size = Vector2( 200, 80 )
 focus_mode = 0
-theme = ExtResource( 9 )
+theme = ExtResource( 5 )
 custom_fonts/font = SubResource( 1 )
 enabled_focus_mode = 0
 text = "K_PLAY"
@@ -843,7 +841,7 @@ margin_right = 232.0
 margin_bottom = 164.0
 rect_min_size = Vector2( 200, 80 )
 focus_mode = 0
-theme = ExtResource( 9 )
+theme = ExtResource( 5 )
 custom_fonts/font = SubResource( 1 )
 enabled_focus_mode = 0
 text = "K_OPTIONS"
@@ -854,7 +852,7 @@ margin_right = 232.0
 margin_bottom = 248.0
 rect_min_size = Vector2( 200, 80 )
 focus_mode = 0
-theme = ExtResource( 9 )
+theme = ExtResource( 5 )
 custom_fonts/font = SubResource( 1 )
 enabled_focus_mode = 0
 text = "K_TUTORIAL"
@@ -865,7 +863,7 @@ margin_right = 232.0
 margin_bottom = 332.0
 rect_min_size = Vector2( 200, 80 )
 focus_mode = 0
-theme = ExtResource( 9 )
+theme = ExtResource( 5 )
 custom_fonts/font = SubResource( 1 )
 enabled_focus_mode = 0
 text = "K_ABOUT"
@@ -895,7 +893,7 @@ __meta__ = {
 "_edit_use_anchors_": true
 }
 
-[node name="hscroll" parent="protuberance_type_screen" instance=ExtResource( 7 )]
+[node name="hscroll" parent="protuberance_type_screen" instance=ExtResource( 8 )]
 anchor_right = 0.0
 anchor_bottom = 0.0
 margin_right = 1024.0
@@ -951,7 +949,7 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="hscroll" parent="bodypart_level_screen" instance=ExtResource( 7 )]
+[node name="hscroll" parent="bodypart_level_screen" instance=ExtResource( 8 )]
 anchor_right = 0.0
 levels = [ {
 "code": "cheek",
@@ -997,7 +995,7 @@ modulate = Color( 0.87451, 0.470588, 0.203922, 1 )
 anchor_right = 1.0
 margin_bottom = 85.0
 rect_min_size = Vector2( 0, 115 )
-theme = ExtResource( 10 )
+theme = ExtResource( 9 )
 text = "K_ABOUT_TITLE"
 align = 1
 valign = 1
@@ -1021,7 +1019,7 @@ margin_left = 138.0
 margin_right = 1338.0
 margin_bottom = 700.0
 rect_min_size = Vector2( 1200, 700 )
-texture = ExtResource( 11 )
+texture = ExtResource( 10 )
 expand = true
 __meta__ = {
 "_edit_use_anchors_": false
@@ -1078,7 +1076,7 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="protuberance_explanation" parent="tutorial_screen" instance=ExtResource( 12 )]
+[node name="protuberance_explanation" parent="tutorial_screen" instance=ExtResource( 11 )]
 modulate = Color( 1, 1, 1, 0 )
 margin_left = -1500.0
 margin_right = -1500.0
@@ -1125,7 +1123,7 @@ margin_top = 84.0
 margin_right = 454.0
 margin_bottom = 184.0
 rect_min_size = Vector2( 300, 100 )
-theme = ExtResource( 13 )
+theme = ExtResource( 12 )
 text = "K_PIMPLE_BUTTON"
 clip_text = true
 
@@ -1141,7 +1139,7 @@ margin_top = 84.0
 margin_right = 454.0
 margin_bottom = 184.0
 rect_min_size = Vector2( 300, 100 )
-theme = ExtResource( 13 )
+theme = ExtResource( 12 )
 text = "K_BLACKHEAD_BUTTON"
 clip_text = true
 
@@ -1162,7 +1160,7 @@ margin_top = 84.0
 margin_right = 454.0
 margin_bottom = 184.0
 rect_min_size = Vector2( 300, 100 )
-theme = ExtResource( 13 )
+theme = ExtResource( 12 )
 text = "K_CYST_BUTTON"
 clip_text = true
 
@@ -1178,7 +1176,7 @@ margin_top = 84.0
 margin_right = 454.0
 margin_bottom = 184.0
 rect_min_size = Vector2( 300, 100 )
-theme = ExtResource( 13 )
+theme = ExtResource( 12 )
 text = "K_LIPOMA_BUTTON"
 clip_text = true
 
@@ -1259,7 +1257,6 @@ margin_left = 225.411
 margin_top = 106.356
 margin_right = 808.411
 margin_bottom = 468.356
-custom_styles/panel = SubResource( 7 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -1270,7 +1267,7 @@ margin_right = 580.0
 margin_bottom = 361.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
-custom_fonts/font = SubResource( 8 )
+custom_fonts/font = SubResource( 7 )
 text = "K_TUTORIAL_DEVELOPMENT_MESSAGE"
 align = 1
 valign = 1
@@ -1278,24 +1275,24 @@ autowrap = true
 
 [node name="animation" type="AnimationPlayer" parent="."]
 autoplay = "intro"
-anims/about_to_main = SubResource( 9 )
-anims/bodypart_to_protuberance_type = SubResource( 10 )
-anims/fade_in = SubResource( 11 )
-anims/intro = SubResource( 12 )
-anims/intro_to_protuberance_type = SubResource( 13 )
-anims/intro_to_tutorial = SubResource( 14 )
-anims/main_to_options = SubResource( 15 )
-anims/options_to_main = SubResource( 16 )
-anims/protuberance_type_to_bodypart = SubResource( 17 )
-anims/protuberance_type_to_main = SubResource( 18 )
-anims/to_about = SubResource( 19 )
-anims/to_tutorial = SubResource( 20 )
-anims/tutorial_screen_to_intro = SubResource( 21 )
-anims/tutorial_to_protuberances = SubResource( 22 )
+anims/about_to_main = SubResource( 8 )
+anims/bodypart_to_protuberance_type = SubResource( 9 )
+anims/fade_in = SubResource( 10 )
+anims/intro = SubResource( 11 )
+anims/intro_to_protuberance_type = SubResource( 12 )
+anims/intro_to_tutorial = SubResource( 13 )
+anims/main_to_options = SubResource( 14 )
+anims/options_to_main = SubResource( 15 )
+anims/protuberance_type_to_bodypart = SubResource( 16 )
+anims/protuberance_type_to_main = SubResource( 17 )
+anims/to_about = SubResource( 18 )
+anims/to_tutorial = SubResource( 19 )
+anims/tutorial_screen_to_intro = SubResource( 20 )
+anims/tutorial_to_protuberances = SubResource( 21 )
 
 [node name="fade_screen" type="Sprite" parent="."]
 modulate = Color( 1, 1, 1, 0 )
-texture = ExtResource( 4 )
+texture = ExtResource( 13 )
 centered = false
 __meta__ = {
 "_edit_lock_": true
