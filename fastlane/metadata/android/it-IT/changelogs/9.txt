@@ -1,0 +1,4 @@
+- Aggiunta un poco piu di stabilitá
+- Migliorie sotto la scocca
+- Adesso le opzioni hanno senso e possono essere utilizzate per cambiare lingua
+- Alcuni bugs hanno ancora bisogno di essere schiacciati il mese prossimo, grazie per la tua pazienza 😓

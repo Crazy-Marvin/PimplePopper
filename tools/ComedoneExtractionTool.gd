@@ -81,7 +81,7 @@ func bring_tool(destiny_position: Vector2) -> void:
 	_tween.start()
 
 
-func _on_tween_completed(object, key):
+func _on_tween_completed(object, _key):
 	if object == _sprite:
 		var collisions: Array = _space.intersect_point(object.position, 1, [], 1, false, true)
 		if collisions.size() != 0:

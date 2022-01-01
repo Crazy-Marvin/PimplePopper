@@ -78,6 +78,11 @@ _global_script_classes=[ {
 "class": "UI",
 "language": "GDScript",
 "path": "res://menu/UI.gd"
+}, {
+"base": "Node",
+"class": "Yodo1Mas",
+"language": "GDScript",
+"path": "res://yodo1mas.gd"
 } ]
 _global_script_class_icons={
 "Blackhead": "",
@@ -93,7 +98,8 @@ _global_script_class_icons={
 "NeedleSuture": "",
 "Pimple": "",
 "PimpleNew": "",
-"UI": ""
+"UI": "",
+"Yodo1Mas": ""
 }
 
 [application]
@@ -109,6 +115,8 @@ Save="*res://singleton/Save.gd"
 
 [display]
 
+window/size/width=1220
+window/size/height=540
 window/stretch/mode="2d"
 window/stretch/aspect="expand"
 
@@ -118,6 +126,7 @@ pointing/emulate_touch_from_mouse=true
 
 [locale]
 
+test="es"
 translations=PoolStringArray( "res://assets/i18n/tranlation.es.translation", "res://assets/i18n/tranlation.en.translation", "res://assets/i18n/tranlation.de.translation" )
 translation_remaps={
 "res://assets/win_title/win_en.png": PoolStringArray( "res://assets/win_title/win_de.png:de", "res://assets/win_title/won_es.png:es" )

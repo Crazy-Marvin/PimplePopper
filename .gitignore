@@ -5,6 +5,8 @@
 .import/
 *.import
 *.xlsx
+*.apk
+*.aab
 export_presets.cfg
 data/
 # Mono-specific ignores

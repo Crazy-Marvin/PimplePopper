@@ -15,7 +15,7 @@ func _ready():
 	_space = get_world_2d().direct_space_state
 	_ui = get_tree().get_nodes_in_group("ui")[0]
 
-func _process(delta):
+func _process(_delta):
 	if _protuberances.size() != 0:
 		Input.vibrate_handheld(50)
 	

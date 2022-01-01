@@ -10,7 +10,7 @@ enum State {
 }
 
 onready var _sprites: AnimatedSprite = get_parent().get_node("sprites")
-onready var _cirecle_hint = $CollisionShape2D/circle_hint
+onready var _cirecle_hint = $circle_hint
 
 export(int, 20, 100) var amount: int = 30
 
@@ -30,7 +30,7 @@ func extract() -> int:
 		amount -= 1
 		var value: float = (1.0 - (float(amount) / float(_initial_amount))) * float(_fs)
 		print (value)
-		_sprites.frame = clamp(value, 1, _fs - 2)
+		_sprites.frame = int(clamp(value, 1, _fs - 2))
 		if amount <= 0:
 			_state = State.EMPTY
 			_cirecle_hint.set_color(_cirecle_hint.red)

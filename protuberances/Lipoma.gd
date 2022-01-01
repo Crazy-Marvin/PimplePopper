@@ -65,7 +65,7 @@ func cut() -> bool:
 
 func apply_pressure(pressure: float) -> bool:
 	if state == State.CUT:
-		var current_frame: int = (pressure / max_pressure) * pressure_frames
+		var current_frame: int = int((pressure / max_pressure) * pressure_frames)
 		_sheet.frame = _frames + current_frame
 		if pressure > max_pressure:
 			_circle_hint.set_color(_circle_hint.purple)
@@ -89,8 +89,8 @@ func suture() -> bool:
 func clean() -> void:
 	if state == State.SUTURED:
 		return
-		state == State.CLEANED
-		emit_signal("protuberance_cleaned")
+#		state == State.CLEANED
+#		emit_signal("protuberance_cleaned")
 
 func _draw():
 	var shape: RectangleShape2D = $CollisionShape2D.shape

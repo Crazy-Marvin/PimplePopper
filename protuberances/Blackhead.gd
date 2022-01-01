@@ -36,7 +36,7 @@ func apply_vapor() -> bool:
 
 func remove(delta: float) -> void:
 	if _state == State.OPEN:
-		var f: int = clamp(delta * _fs, 1, _fs - 1)
+		var f: int = int(clamp(delta * _fs, 1, _fs - 1))
 		_sprites.frame = f
 		if _state == State.OPEN and f == _fs - 1:
 			print ("Ready to clean")

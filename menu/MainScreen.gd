@@ -1,6 +1,6 @@
 extends Control
 
-signal bodypart_selected
+#signal bodypart_selected
 
 export(Array, Array) var languages: Array = []
 
