@@ -1,4 +1,0 @@
-com/godot/game/BuildConfig.java
- com.godot.game.BuildConfig
-com/godot/game/GodotApp.java
- com.godot.game.GodotApp

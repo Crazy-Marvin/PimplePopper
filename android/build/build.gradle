@@ -27,9 +27,6 @@ allprojects {
     repositories {
         google()
         mavenCentral()
-        maven { url "https://android-sdk.is.com" }
-maven { url "https://artifact.bytedance.com/repository/pangle" }
-maven { url "https://sdk.tapjoy.com/" }
 //CHUNK_ALLPROJECTS_REPOSITORIES_BEGIN
 //CHUNK_ALLPROJECTS_REPOSITORIES_END
 
@@ -46,9 +43,8 @@ maven { url "https://sdk.tapjoy.com/" }
 }
 
 dependencies {
-    implementation libraries.supportCoreUtils
     implementation libraries.kotlinStdLib
-    implementation libraries.v4Support
+    implementation libraries.androidxFragment
 
     if (rootProject.findProject(":lib")) {
         implementation project(":lib")
@@ -88,6 +84,8 @@ android {
         targetCompatibility versions.javaVersion
     }
 
+    assetPacks = [":assetPacks:installTime"]
+
     defaultConfig {
         // The default ignore pattern for the 'assets' directory includes hidden files and directories which are used by Godot projects.
         aaptOptions {
@@ -105,9 +103,8 @@ android {
         applicationId getExportPackageName()
         versionCode getExportVersionCode()
         versionName getExportVersionName()
-        minSdkVersion versions.minSdk
-        targetSdkVersion versions.targetSdk
-        multiDexEnabled true
+        minSdkVersion getExportMinSdkVersion()
+        targetSdkVersion getExportTargetSdkVersion()
 //CHUNK_ANDROID_DEFAULTCONFIG_BEGIN
 //CHUNK_ANDROID_DEFAULTCONFIG_END
     }
