@@ -21,3 +21,7 @@ These steps should work on Linux, Windows and macOS.
 - Download the export templates for the version of Godot that is used (e.g.3.3.3) (Projects → Exports)
 ![exports](https://user-images.githubusercontent.com/15004217/149666307-6f085e98-0372-4c94-84c0-d0473fcd63ed.jpg)
 - In Version → Code you must increase the value by one each time you successfully upload a new version of the game
+
+## Translations
+
+Translations are stored in ```assets/i18n```. Users can contribute them on Crowdin.
