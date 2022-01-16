@@ -1,3 +1,5 @@
+## Install Godot
+
 - [Install Godot](https://store.steampowered.com/app/404790/Godot_Engine/)
 - [Install Android Studio](https://developer.android.com/studio) 
 - [Install Temurin 17 (LTS) or later](https://adoptium.net/)
@@ -13,3 +15,9 @@
 - Click on export project and you are done   
 
 These steps should work on Linux, Windows and macOS.
+
+## Export Android Build
+
+- Download the export templates for the version of Godot that is used (e.g.3.3.3) (Projects → Exports)
+![exports](https://user-images.githubusercontent.com/15004217/149666307-6f085e98-0372-4c94-84c0-d0473fcd63ed.jpg)
+- In Version → Code you must increase the value by one each time you successfully upload a new version of the game
