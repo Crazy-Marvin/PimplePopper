@@ -1,20 +1,19 @@
-Το Pimple Popper είναι ένα παιχνίδι όπου σπας σπυράκια και αφαιρείς μαύρα στίγματα, λευκά στίγματα, λιπόματα και παρόμοια πράγματα.
-Κατέβασέ το τώρα και νιώσε τη μεγάλη απόλαυση!
+Pimple Popper is a game about popping pimples and removing blackheads, whiteheads, lipomas and similar stuff. Download now and feel the huge satisfaction!
 
-<b>Χαρακτηριστικά:</b>
+<b>Features:</b>
 
 <ul>
-<li>Ανοιχτή πηγή 🎉</li>
-<li>Εξαιρετικά ικανοποιητικό 😂</li>
-<li>Αρκετά ρεαλιστικό 😉</li>
-<li>Ίσως να είναι βολικό για την καθημερινή σας ζωή 😜</li>
-<li>Μπορείτε να μας στείλετε την πραγματική σας εμφάνιση και να λάβετε ένα δωρεάν μήνυμα 🙈</li>
+<li>Open Source 🎉</li>
+<li>Extremely satisfactory 😂</li>
+<li>Quite realistic 😉</li>
+<li>Might come in handy for your daily life 😜</li>
+<li>You can send us your real-life pops and get a complimentary message 🙈</li>
 </ul>
 
-Αρχική σελίδα: <a href="https://www.crazymarvin.com/pimple-popper">https://www.crazymarvin.com/pimple-popper</a>
+Homepage: <a href="https://www.crazymarvin.com/pimple-popper">https://www.crazymarvin.com/pimple-popper</a>
 
-Βοηθήστε μας με τη μετάφραση: <a href="https://crowdin.com/project/pimple-popper">https://crowdin.com/project/pimple-popper</a> 
+Help us with translation: <a href="https://crowdin.com/project/pimple-popper">https://crowdin.com/project/pimple-popper</a> 
 
-Βοηθήστε μας με τη μετάφραση: <a href="https://github.com/Crazy-Marvin/PimplePopper">https://github.com/Crazy-Marvin/PimplePopper</a> 
+Source on GitHub: <a href="https://github.com/Crazy-Marvin/PimplePopper">https://github.com/Crazy-Marvin/PimplePopper</a> 
 
-Καλή διασκέδαση! 👌
+Enjoy! 👌

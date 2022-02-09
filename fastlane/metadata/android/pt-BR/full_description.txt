@@ -12,8 +12,8 @@ Pimple Popper é um jogo sobre espinhas e remoção de cravos pretos, espinhas, 
 
 <a href="https://www.crazymarvin.com/pimple-popper">Página Inicial<a>
 
-<a href="https://www.crowdin.com">Ajude-nos com a tradução<a> 
-
 <a href="https://github.com/Crazy-Marvin/PimplePopper">Código disponivel no github<a> 
+
+Source on GitHub: <a href="https://github.com/Crazy-Marvin/PimplePopper">https://github.com/Crazy-Marvin/PimplePopper</a> 
 
 Aproveite! 👌

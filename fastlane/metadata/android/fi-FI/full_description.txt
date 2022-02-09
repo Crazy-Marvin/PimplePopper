@@ -1,19 +1,19 @@
-Pimple Popper on peli, jossa poksautellaan finnejä ja poistetaan mustapäitä, valkopäitä, rasvapatteja ja muuta vastaavaa. Lataa nyt ja koe valtaisa tyydyttyneisyyden tunne!
+Pimple Popper is a game about popping pimples and removing blackheads, whiteheads, lipomas and similar stuff. Download now and feel the huge satisfaction!
 
-<b>Ominaisuudet:</b>
+<b>Features:</b>
 
 <ul>
-<li>Avoin lähdekoodi 🎉</li>
-<li>Äärimmäinen tyydyttyneisyys😂</li>
-<li>Melko realistinen 😉</li>
-<li>Saattaa osoittautua käteväksi arjessa 😜</li>
-<li>Voit lähettää meille tosielämän poksautuksia ja vastaanottaa kohteliaan viestin 🙈</li>
+<li>Open Source 🎉</li>
+<li>Extremely satisfactory 😂</li>
+<li>Quite realistic 😉</li>
+<li>Might come in handy for your daily life 😜</li>
+<li>You can send us your real-life pops and get a complimentary message 🙈</li>
 </ul>
 
-Kotisivu: <a href="https://www.crazymarvin.com/pimple-popper">https://www.crazymarvin.com/pimple-popper</a>
+Homepage: <a href="https://www.crazymarvin.com/pimple-popper">https://www.crazymarvin.com/pimple-popper</a>
 
-Auta meitä käännöksen kanssa: <a href="https://crowdin.com/project/pimple-popper">https://crowdin.com/project/pimple-popper</a> 
+Help us with translation: <a href="https://crowdin.com/project/pimple-popper">https://crowdin.com/project/pimple-popper</a> 
 
-Lähde GitHub: <a href="https://github.com/Crazy-Marvin/PimplePopper">https://github.com/Crazy-Marvin/PimplePopper</a> 
+Source on GitHub: <a href="https://github.com/Crazy-Marvin/PimplePopper">https://github.com/Crazy-Marvin/PimplePopper</a> 
 
-Nauti! 👌
+Enjoy! 👌
