@@ -1,20 +1,19 @@
-பரு பாப்பர் என்பது பாப்பிங் பிம்பிள்ஸ் ஆகும் மற்றும் பிளாக்ஹெட்ஸ், வைட்ஹெட்ஸ்,லிபோமாக்கள் மற்றும் ஒத்த விஷயங்களை நீக்குதலாகும்.
-இப்போது பதிவிறக்கம் செய்து மிகப்பெரிய திருப்தியை உணருங்கள்!
+Pimple Popper is a game about popping pimples and removing blackheads, whiteheads, lipomas and similar stuff. Download now and feel the huge satisfaction!
 
-<b>அம்சங்கள்:</b>
+<b>Features:</b>
 
 <ul>
-<li>ஓபன் சௌர்ஸ் 🎉</li>
-<li>மிகவும் திருப்திகரமான 😂</li>
-<li>மிகவும் யதார்த்தமான 😉</li>
-<li>உங்கள் அன்றாட வாழ்க்கைக்கு கைகொடுக்கும் 😜</li>
-<li>உங்கள் நிஜ வாழ்க்கை பாப்ஸை எங்களுக்கு அனுப்பலாம் மற்றும் ஒரு பாராட்டு செய்தியைப் பெறலாம் 🙈</li>
+<li>Open Source 🎉</li>
+<li>Extremely satisfactory 😂</li>
+<li>Quite realistic 😉</li>
+<li>Might come in handy for your daily life 😜</li>
+<li>You can send us your real-life pops and get a complimentary message 🙈</li>
 </ul>
 
-முகப்பு பக்கம்: <a href="https://www.crazymarvin.com/pimple-popper">https://www.crazymarvin.com/pimple-popper</a>
+Homepage: <a href="https://www.crazymarvin.com/pimple-popper">https://www.crazymarvin.com/pimple-popper</a>
 
-மொழிபெயர்ப்பில் எங்களுக்கு உதவுங்கள்: <a href="https://crowdin.com/project/pimple-popper">https://crowdin.com/project/pimple-popper</a> 
+Help us with translation: <a href="https://crowdin.com/project/pimple-popper">https://crowdin.com/project/pimple-popper</a> 
 
-ஆதாரம் GitHub: <a href="https://github.com/Crazy-Marvin/PimplePopper">https://github.com/Crazy-Marvin/PimplePopper</a> 
+Source on GitHub: <a href="https://github.com/Crazy-Marvin/PimplePopper">https://github.com/Crazy-Marvin/PimplePopper</a> 
 
-மகிழுங்கள்! 👌
+Enjoy! 👌
