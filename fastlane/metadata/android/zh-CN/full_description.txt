@@ -1,22 +1,19 @@
-《挤爆粉刺》是一款关于挤爆粉刺以及去除黑头、白头、脂肪瘤和类似东西的游戏。
-现在下载，体验巨大的满足感！
+《挤爆粉刺》是一款关于挤爆粉刺以及去除黑头、白头、脂肪瘤和类似东西的游戏。 现在下载，体验巨大的满足感！
 
-特色：
+<b>Features:</b>
 
-    开源 🎉
-
-    极其令人满足 😂
-
-    非常逼真 😉
-
-    可能在你的日常生活中派上用场 😜
-
-    你可以把你现实生活中的挤爆发给我们，并获得赞语 🙈
+<ul>
+开源 🎉
+极其令人满足 😂
+<li>Quite realistic 😉</li>
+可能在你的日常生活中派上用场 😜
+你可以把你现实生活中的挤爆发给我们，并获得赞语 🙈
+</ul>
 
 主页：https://www.crazymarvin.com/pimple-popper
 
-帮助我们翻译：https://crowdin.com/project/pimple-popper
+帮助我们翻译：https://crowdin.com/project/pimple-popper 
 
-GitHub上的源代码：https://github.com/Crazy-Marvin/PimplePopper
+GitHub上的源代码：https://github.com/Crazy-Marvin/PimplePopper 
 
-玩得开心！👌
+玩得开心！👌 👌
