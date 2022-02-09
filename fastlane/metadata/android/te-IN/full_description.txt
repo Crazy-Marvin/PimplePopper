@@ -1,19 +1,19 @@
-పింపుల్ పాప్పర్ అనేది మొటిమలను పాప్ చేయడం మరియు బ్లాక్ హెడ్స్, వైట్ హెడ్స్, లిపోమాస్ మరియు ఇలాంటి అంశాలను తొలగించడం గురించి ఒక గేమ్. ఇప్పుడే డౌన్‌లోడ్ చేసుకోండి మరియు భారీ సంతృప్తిని అనుభవించండి!
+Pimple Popper is a game about popping pimples and removing blackheads, whiteheads, lipomas and similar stuff. Download now and feel the huge satisfaction!
 
-<b>లక్షణాలు:</b>
+<b>Features:</b>
 
 <ul>
-<li>ఓపెన్ సోర్స్ 🎉</li>
-<li>చాలా సంతృప్తికరంగా ఉంది 😂</li>
-<li>చాలా వాస్తవికమైనది 😉</li>
-<li>మీ రోజువారీ జీవితంలో ఉపయోగపడవచ్చు 😜</li>
-<li>మీరు మీ నిజ జీవిత పాప్‌లను మాకు పంపవచ్చు మరియు అభినందన సందేశాన్ని పొందవచ్చు 🙈</li>
+<li>Open Source 🎉</li>
+<li>Extremely satisfactory 😂</li>
+<li>Quite realistic 😉</li>
+<li>Might come in handy for your daily life 😜</li>
+<li>You can send us your real-life pops and get a complimentary message 🙈</li>
 </ul>
 
-హోమ్‌పేజీ: <a href="https://www.crazymarvin.com/pimple-popper">https://www.crazymarvin.com/pimple-popper</a>
+Homepage: <a href="https://www.crazymarvin.com/pimple-popper">https://www.crazymarvin.com/pimple-popper</a>
 
-అనువాదంలో మాకు సహాయం చేయండి: <a href="https://crowdin.com/project/pimple-popper">https://crowdin.com/project/pimple-popper</a> 
+Help us with translation: <a href="https://crowdin.com/project/pimple-popper">https://crowdin.com/project/pimple-popper</a> 
 
-GitHubలో మూలం: <a href="https://github.com/Crazy-Marvin/PimplePopper">https://github.com/Crazy-Marvin/PimplePopper</a> 
+Source on GitHub: <a href="https://github.com/Crazy-Marvin/PimplePopper">https://github.com/Crazy-Marvin/PimplePopper</a> 
 
-ఆనందించండి! 👌
+Enjoy! 👌
