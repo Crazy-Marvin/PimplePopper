@@ -1,5 +1,5 @@
 Pimple Popper è un gioco per scoppiare brufoli e la rimozione di punti neri, bruffoli, lipomi e cose simili. Scarica ora e prova un enorme soddisfazione!
-<br><br>
+
 <b>Caratteristiche:</b>
 
 <ul>
@@ -12,9 +12,8 @@ Pimple Popper è un gioco per scoppiare brufoli e la rimozione di punti neri, br
 
 Homepage: <a href="https://www.crazymarvin.com/pimple-popper">https://www.crazymarvin.com/pimple-popper</a>
 
-Aiutaci con la traduzione: <a href="https://crowdin.com/project/pimple-popper">https://crowdin.com/project/pimple-popper</a>
+Aiutaci con la traduzione: <a href="https://crowdin.com/project/pimple-popper">https://crowdin.com/project/pimple-popper</a> 
 
-Codice su GitHub: <a href="https://github.com/Crazy-Marvin/PimplePopper">https://github.com/Crazy-Marvin/PimplePopper</a>
-
+Codice su GitHub: <a href="https://github.com/Crazy-Marvin/PimplePopper">https://github.com/Crazy-Marvin/PimplePopper</a> 
 
 Divertiti! 👌
