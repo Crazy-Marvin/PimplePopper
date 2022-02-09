@@ -1,7 +1,5 @@
 commit_message: '[Crowdin] Update translations (%language%) %original_file_name%'
 append_commit_message: false
 files:
-  - source: /metadata/android/en-US/*.txt
-    translation: /metadata/android/%locale%/%original_file_name%
-  - source: /authpass/android/fastlane/metadata/android/en-US/*.strings
-    translation: /authpass/android/fastlane/metadata/android/%locale%/%original_file_name%
+  - source: /fastlane/metadata/android/en-US/*.txt
+    translation: /fastlane/metadata/android/%locale%/%original_file_name%
