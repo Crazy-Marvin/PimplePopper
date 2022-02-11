@@ -1,35 +1,35 @@
-,en,es,de
-K_PLAY,Play,Comenzar,Start
-K_TUTORIAL,Tutorial,Tutorial,Anleitung
-K_ABOUT,About,Sobre,Über
-K_CHEEK_LEVEL_BUTTON,Cheek,Cachete,Wange
-K_FOREHEAD_LEVEL_BUTTON,Forehead,Frente,Stirn
-K_WRIST_LEVEL_BUTTON,Wrist,Muñeca,Handgelenk
-K_BACK_LEVEL_BUTTON,Back,Espalda,Rücken
-K_CHEST_LEVEL_BUTTON,Chest,Pecho,Brust
-,,,
-K_BACK_BUTTON,Back,Atras,Zurück
-K_EASY_BUTTON,Easy,Fácil,Einfach
-K_NORMAL_BUTTON,Normal,Normal,Normal
-K_HARD_BUTTON,Hard,Difícil,Schwierig
-K_SUPER_HARD_BUTTON,Super hard,Super difícil,Äußerst schwierig
-K_OPTIONS,Options,Opciones,Einstellungen
-K_HAND_TOOL,Hand,Mano,Hand
-K_HANDKERCHIEF_TOOL,Handkerchief,Pañuelo,Taschentuch
-K_VAPOR_TOOL,Vapor,Vapor,Wasserdampf
-K_COMEDONE_TOOL,Comedone,Comedone,Comedone
-K_NEEDLE_TOOL,Needle,Inyectadora,Nadel
-K_ANESTHETIC_TOOL,Anestesia,Anestesia,Anästhesie
-K_SUTURE_TOOL,Suture,Suturar,Vernähen
-K_CUTTER_TOOL,Cutter,Exacto,Messer
-,,,
+ID,en,es,de,en-revised,af,ar,ca,zh-CN,zh-TW,cs,da,nl,fi,fr,el,he,hu,it,ja,ko,no,pl,pt,pt-BR,ro,ru,sr,si,sv,tr,uk,vi
+K_PLAY,Play,Comenzar,Start,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K_TUTORIAL,Tutorial,Tutorial,Anleitung,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K_ABOUT,About,Sobre,Über,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K_CHEEK_LEVEL_BUTTON,Cheek,Cachete,Wange,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K_FOREHEAD_LEVEL_BUTTON,Forehead,Frente,Stirn,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K_WRIST_LEVEL_BUTTON,Wrist,Muñeca,Handgelenk,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K_BACK_LEVEL_BUTTON,Back,Espalda,Rücken,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K_CHEST_LEVEL_BUTTON,Chest,Pecho,Brust,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K_BACK_BUTTON,Back,Atras,Zurück,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K_EASY_BUTTON,Easy,Fácil,Einfach,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K_NORMAL_BUTTON,Normal,Normal,Normal,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K_HARD_BUTTON,Hard,Difícil,Schwierig,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K_SUPER_HARD_BUTTON,Super hard,Super difícil,Äußerst schwierig,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K_OPTIONS,Options,Opciones,Einstellungen,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K_HAND_TOOL,Hand,Mano,Hand,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K_HANDKERCHIEF_TOOL,Handkerchief,Pañuelo,Taschentuch,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K_VAPOR_TOOL,Vapor,Vapor,Wasserdampf,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K_COMEDONE_TOOL,Comedone,Comedone,Comedone,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K_NEEDLE_TOOL,Needle,Inyectadora,Nadel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K_ANESTHETIC_TOOL,Anestesia,Anestesia,Anästhesie,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K_SUTURE_TOOL,Suture,Suturar,Vernähen,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K_CUTTER_TOOL,Cutter,Exacto,Messer,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 K_TUTORIAL_DEVELOPMENT_MESSAGE,"The tutorial is under the works.
 
 Please, wait for an app update","El tutorial está en desarrollo.
 
 Por favor, espere por una actualización.","Das Tutorial wird entwickelt.
 
-Warten Sie bitte auf ein Update."
+Warten Sie bitte auf ein Update.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 K_GAME_AVAILABLE_MESSAGE,"This game isn't available yet.
 
 At this moment just the following games are available:
@@ -50,12 +50,12 @@ Zurzeit sind diese Spiele nur verfügbar:
 Wange – Einfach
 Stirn – Normal.
 Handgelenk – Schwierig
-Rücken – Sehr Schwierig"
-K_ABOUT_TITLE,About,Sobre,Über
-K_LEVEL_TITLE,Level,Nivel,Schwierigkeit
-K_BODYPART_TITLE,Bodypart,Parte del cuerpo,Körperteil
-K_HINT_BUTTON,Hint,Pista,Hilfe
-K_EXIT_GAME_BUTTON,Exit,Salir,Beenden
+Rücken – Sehr Schwierig",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K_ABOUT_TITLE,About,Sobre,Über,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K_LEVEL_TITLE,Level,Nivel,Schwierigkeit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K_BODYPART_TITLE,Bodypart,Parte del cuerpo,Körperteil,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K_HINT_BUTTON,Hint,Pista,Hilfe,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K_EXIT_GAME_BUTTON,Exit,Salir,Beenden,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 K_ABOUT_TEXT,"[color=black]
 Pimple Popper allows you to enjoy the experience of removing protuberance on different human body parts.
 
@@ -128,14 +128,14 @@ Wir würden auch gerne eure Matscher sehen. [url=""mailto:marvin@poopjournal.roc
 [url=""https://crazymarvin.com/pimple-popper/terms-of-service/""][color=#0000FF]Rechtliches[/color][/url]  [img=15]res://assets/icons/law.svg[/img]
 
 [url=""https://www.buymeacoffee.com/Marvin""][color=#0000FF]Spendiert uns einen Kaffee[/color][/url]  [img=16]res://assets/icons/bmc.svg[/img].
-[/color]"
+[/color]",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 K_PIMPLE_TUTORIAL_TEXT,"In this section you need to remove some pimples from different parts of the body.
 
 In order to remove the pimples, you just need to enable the hand tool and use your finger to apply pressure to pop the pimple. Then when the pimple's popped, use a handkerchief to clean the are. You aren't going to be a good doctor if you left all those stuff there.","En esta sección necesitas remover algunas espinillas de diferentes partes del cuerpo.
 
 Para remover las espinillas, solo necesitas seleccionar la herramienta mano y usar tus dedos para aplicar presión para eplotar la espinilla. Entonces, cuando la espinilla haya explotado, usa el paño para limpiar el area. No vas a ser un buen doctor si dejas todo sucio.","Hier geht es um das Entfernen von Pickeln von verschiedenen Körperteilen.
 
-Um einen Pickel auszumatschen wählst du die Hand aus und übst mit den Fingern von beiden Seiten Druck auf den Pickel aus. Nach dem Zerplatzen des Pickel kannst du mit dem Taschentuch die Sauerei aufwischen. Du wärst kein guter Doktor, wenn du den Eiter einfach auf dem Körper lassen würdest."
+Um einen Pickel auszumatschen wählst du die Hand aus und übst mit den Fingern von beiden Seiten Druck auf den Pickel aus. Nach dem Zerplatzen des Pickel kannst du mit dem Taschentuch die Sauerei aufwischen. Du wärst kein guter Doktor, wenn du den Eiter einfach auf dem Körper lassen würdest.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 K_BLACKHEAD_TUTORIAL_TEXT,"For this kind of protuberance you need to be careful.
 
 First, you need to apply vapor in order to open the pore. You will note that the pore was opened because the phone doesn‘t vibrate.
@@ -154,7 +154,7 @@ Zuerst musst du Wasserdampf versprühen, um die Poren zu erweitern. Erst wenn de
 
 Nun wählst du den Comedone aus und tippst doppelt auf den Mitesser. Das führt dazu, dass der Comedone auf die Protuberanz gelegt wird. Nun kannst du mit dem Finger deinen Touchscreen berühen und nach unten ziehen.
 
-Auch hier gilt: Mit dem Taschentuch den Patienten säubern."
+Auch hier gilt: Mit dem Taschentuch den Patienten säubern.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 K_CYST_TUTORIAL_TEXT,"Probably the easiest protuberance to remove.
 
 That big thing can be removed when you select the needle tool and touch and hold in a specefic location of the protuberance. Touch the hint button if you need to locate it. If you touch the right location, a sound is emitted. Now with one finger holding the needle, use another one to extract the content of the protuberance.
@@ -165,7 +165,7 @@ Esa gran cosa puede ser removida cuando seleccionas la herramienta aguja, y toca
 
 Wähle die Nadel aus und halte und drücke an der richtigen Stelle. Wenn du Unterstützung brauchst, kannst du auf Hilfe tippen. Das umkreist die richtigen Flächen. Beim Drücken der korrekten Stelle ertönt ein Ton. Während ein Finger die Nadel hält, holst du nun mit dem anderen Finger den Eiter heraus.
 
-Nachdem die Zyste sauber entfernt wurde, kann mit dem Taschentuch alles ordentlich hinterlassen werden."
+Nachdem die Zyste sauber entfernt wurde, kann mit dem Taschentuch alles ordentlich hinterlassen werden.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 K_LIPOMA_TUTORIAL_TEXT,"The complex protuberance to remove in a body. But i will show how to remove it.
 
 First, you need to apply anaesthetic because you are going to cut the area. After you apply it you can select the cutter tool and cut the area.
@@ -184,14 +184,14 @@ Wir fangen mit der Anästhesie an, da wir gleich etwas aufschneiden werden. Soba
 
 Den offenen Bereich können wir nun mit der Hand auspressen.
 
-Wenn dann endlich der ganze Eiter den Körper verlassen hat, können wir die Wunde vernähen."
-K_LIPOMA_BUTTON,Lipoma,Lipoma,Lipom
-K_PIMPLE_BUTTON,Pimple,Espinilla,Pickel
-K_CYST_BUTTON,Cyst,Quiste,Zyste
-K_BLACKHEAD_BUTTON,Blackhead,Puntos negros,Mitesser
-K_OPTIONS_TITLE,Options,Opciones,Optionen
-K_LANGUAGE_OPTION_TITLE,Language,Idioma,Sprache
-K_SPANISH_SELECTION,Spanish,Español,Spanisch
-K_ENGLISH_SELECTION,English,Ingles,Englisch
-K_GERMAN_SELECTION,German,Alemán,Deutsch
-K_LANGUAGE_SELECTION,Select a language,Seleccione un idioma,Wählen Sie eine Sprache an
+Wenn dann endlich der ganze Eiter den Körper verlassen hat, können wir die Wunde vernähen.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K_LIPOMA_BUTTON,Lipoma,Lipoma,Lipom,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K_PIMPLE_BUTTON,Pimple,Espinilla,Pickel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K_CYST_BUTTON,Cyst,Quiste,Zyste,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K_BLACKHEAD_BUTTON,Blackhead,Puntos negros,Mitesser,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K_OPTIONS_TITLE,Options,Opciones,Optionen,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K_LANGUAGE_OPTION_TITLE,Language,Idioma,Sprache,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K_SPANISH_SELECTION,Spanish,Español,Spanisch,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K_ENGLISH_SELECTION,English,Ingles,Englisch,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K_GERMAN_SELECTION,German,Alemán,Deutsch,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K_LANGUAGE_SELECTION,Select a language,Seleccione un idioma,Wählen Sie eine Sprache an,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
