@@ -3,11 +3,11 @@ append_commit_message: false
 files:
   - source: /fastlane/metadata/android/en-US/*.txt
     translation: /fastlane/metadata/android/%locale%/%original_file_name%
-  - first_line_contains_header: true
+  - source: /assets/i18n/translation.csv
+    translation: /assets/i18n/translation%two_letters_code%.csv
+    first_line_contains_header: true
     multilingual_spreadsheet: true
     scheme: 'identifier,source_phrase,es-ES,de,en,af,ar,ca,zh-CN,zh-TW,cs,da,nl,fi,fr,el,he,hu,it,ja,ko,no,pl,pt-PT,pt-BR,ro,ru,sr,si-LK,sv-SE,tr,uk,vi'
-    source: /assets/i18n/translation.csv
-    translation: /assets/i18n/translation%two_letters_code%.csv
     languages_mapping:
       two_letters_code:
         zh-CN: zh-CN
