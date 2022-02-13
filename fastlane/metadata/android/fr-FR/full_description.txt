@@ -14,6 +14,6 @@ Pimple Popper est un jeu qui consiste à éclater des boutons et à enlever des 
 
 <a href="https://github.com/Crazy-Marvin/PimplePopper">Source sur GitHub<a> 
 
-Source on GitHub: <a href="https://github.com/Crazy-Marvin/PimplePopper">https://github.com/Crazy-Marvin/PimplePopper</a> 
+Source sur GitHub : <a href="https://github.com/Crazy-Marvin/PimplePopper">https://github.com/Crazy-Marvin/PimplePopper</a> 
 
 Éclatez-vous ! 👌
