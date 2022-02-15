@@ -1,19 +1,19 @@
-Pimple Popper is a game about popping pimples and removing blackheads, whiteheads, lipomas and similar stuff. Download now and feel the huge satisfaction!
+Pimple Popper - це гра про видавлювання прищів та видалення чорних точок, вугрів, липом тощо. Завантажуйте прямо зараз та отримуйте величезне задоволення!
 
-<b>Features:</b>
+<b>Особливості:</b>
 
 <ul>
-<li>Open Source 🎉</li>
-<li>Extremely satisfactory 😂</li>
-<li>Quite realistic 😉</li>
-<li>Might come in handy for your daily life 😜</li>
-<li>You can send us your real-life pops and get a complimentary message 🙈</li>
+<li>Відкритий вихідний код 🎉</li>
+<li>Неабияке задоволення 😂</li>
+<li>Достатньо реалістично 😉</li>
+<li>Може стати в нагоді у повсякденному житті 😜</li>
+<li>Ви можете надіслати нам, як ви видавлюєте свої прищі в реальному житті, та отримати вітальне повідомлення 🙈</li>
 </ul>
 
-Homepage: <a href="https://www.crazymarvin.com/pimple-popper">https://www.crazymarvin.com/pimple-popper</a>
+Головна сторінка: <a href="https://www.crazymarvin.com/pimple-popper">https://www.crazymarvin.com/pimple-popper</a>
 
-Help us with translation: <a href="https://crowdin.com/project/pimple-popper">https://crowdin.com/project/pimple-popper</a> 
+Допоможіть нам із перекладом: <a href="https://crowdin.com/project/pimple-popper">https://crowdin.com/project/pimple-popper</a> 
 
-Source on GitHub: <a href="https://github.com/Crazy-Marvin/PimplePopper">https://github.com/Crazy-Marvin/PimplePopper</a> 
+Джерело на GitHub: <a href="https://github.com/Crazy-Marvin/PimplePopper">https://github.com/Crazy-Marvin/PimplePopper</a> 
 
-Enjoy! 👌
+Насолоджуйтеся! 👌
