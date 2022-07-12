@@ -106,6 +106,7 @@ Zurzeit sind diese Spiele nur verfügbar:
 Wange – Einfach
 Stirn – Normal.
 Handgelenk – Schwierig
+
 Rücken – Sehr Schwierig","","This game isn't available yet.
 
 At this moment just the following games are available:
@@ -281,6 +282,7 @@ At this moment just the following games are available:
 "K_HINT_BUTTON","Hint","Pista","Hilfe","","Hint","Hint","Hint","Hint","Hint","Hint","Hint","Hint","Hint","Hint","Hint","Hint","Hint","Hint","Hint","Hint","Hint","Hint","Hint","Hint","Hint","Подсказка","Hint","ඉඟිය","Hint","Hint","Підказка","Hint"
 "K_EXIT_GAME_BUTTON","Exit","Salir","Beenden","","Exit","Exit","Exit","Exit","Exit","Exit","Exit","Exit","Exit","Exit","Exit","Exit","Exit","Exit","Exit","Exit","Exit","Exit","Exit","Exit","Exit","Выйти","Exit","පිටවන්න","Exit","Exit","Вийти","Exit"
 "K_ABOUT_TEXT","[color=black]
+
 Pimple Popper allows you to enjoy the experience of removing protuberance on different human body parts.
 
 We hope you enjoy this game. If you notice any bugs, have any questions or feedback feel free to [url=""mailto:marvin@poopjournal.rocks""][color=#0000FF]send an email[/color][/url] or open an [url=""https://github.com/Crazy-Marvin/PimplePopper/issues""][color=#0000FF]issue[/color][/url]. 
@@ -352,6 +354,7 @@ Wir würden auch gerne eure Matscher sehen. [url=""mailto:marvin@poopjournal.roc
 [url=""https://crazymarvin.com/pimple-popper/terms-of-service/""][color=#0000FF]Rechtliches[/color][/url]  [img=15]res://assets/icons/law.svg[/img]
 
 [url=""https://www.buymeacoffee.com/Marvin""][color=#0000FF]Spendiert uns einen Kaffee[/color][/url]  [img=16]res://assets/icons/bmc.svg[/img].
+
 [/color]","","[color=black]
 Pimple Popper allows you to enjoy the experience of removing protuberance on different human body parts.
 
@@ -1597,3 +1600,71 @@ And now that everything was removed, you will need to suture the wound."
 "K_ENGLISH_SELECTION","English","Ingles","Englisch","","English","English","English","English","English","English","English","English","English","English","English","English","English","English","English","English","English","English","English","English","English","Английский","English","ඉංග්‍රීසි","English","English","Англійська","English"
 "K_GERMAN_SELECTION","German","Alemán","Deutsch","","German","German","German","German","German","German","German","German","German","German","German","German","German","German","German","German","German","German","German","German","German","Немецкий","German","ජර්මානු","German","German","Німецька","German"
 "K_LANGUAGE_SELECTION","Select a language","Seleccione un idioma","Wählen Sie eine Sprache aus","","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Выбрать язык","Select a language","භාෂාව තෝරන්න","Select a language","Select a language","Обрати мову","Select a language"
+
+[/color]",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K_PIMPLE_TUTORIAL_TEXT,"In this section you need to remove some pimples from different parts of the body.
+
+In order to remove the pimples, you just need to enable the hand tool and use your finger to apply pressure to pop the pimple. Then when the pimple's popped, use a handkerchief to clean the are. You aren't going to be a good doctor if you left all those stuff there.","En esta sección necesitas remover algunas espinillas de diferentes partes del cuerpo.
+
+Para remover las espinillas, solo necesitas seleccionar la herramienta mano y usar tus dedos para aplicar presión para eplotar la espinilla. Entonces, cuando la espinilla haya explotado, usa el paño para limpiar el area. No vas a ser un buen doctor si dejas todo sucio.","Hier geht es um das Entfernen von Pickeln von verschiedenen Körperteilen.
+
+Um einen Pickel auszumatschen wählst du die Hand aus und übst mit den Fingern von beiden Seiten Druck auf den Pickel aus. Nach dem Zerplatzen des Pickel kannst du mit dem Taschentuch die Sauerei aufwischen. Du wärst kein guter Doktor, wenn du den Eiter einfach auf dem Körper lassen würdest.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K_BLACKHEAD_TUTORIAL_TEXT,"For this kind of protuberance you need to be careful.
+
+First, you need to apply vapor in order to open the pore. You will note that the pore was opened because the phone doesn‘t vibrate.
+
+Then, you need to select the comedone tool and double touch the blackhead. When you do that, the comedone will be placed onto the protuberance, finally, touch the screen and drag the finger down and the protuberance will be removed.
+
+Of course, do not forget to clean the area after you do all the work.","Para este tipo de protuberancia necesitas tener cuidado.
+
+Primero necesitas aplicar vapor para abrir el poro. Vas a notar que el poro fue abrierto ya que el telefono deja de vibrar.
+
+Entonces, necesitar seleccionar la herramienta comedon y tocar dos veces el punto negro. Cuando lo haces, el comedon será colocado sobre la protuberancia y, finalmente, toca y desliza el dedo hacia abajo y la protuberancia será removido.
+
+Por supuesto, no olvides de limpiar el area después de hacer todo el trabajo.","Hier ist Vorsicht angesagt.
+
+Zuerst musst du Wasserdampf versprühen, um die Poren zu erweitern. Erst wenn dein Gerät nicht mehr vibriert, sind alle Poren bereit für den nächsten Schritt.
+
+Nun wählst du den Comedone aus und tippst doppelt auf den Mitesser. Das führt dazu, dass der Comedone auf die Protuberanz gelegt wird. Nun kannst du mit dem Finger deinen Touchscreen berühen und nach unten ziehen.
+
+Auch hier gilt: Mit dem Taschentuch den Patienten säubern.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K_CYST_TUTORIAL_TEXT,"Probably the easiest protuberance to remove.
+
+That big thing can be removed when you select the needle tool and touch and hold in a specefic location of the protuberance. Touch the hint button if you need to locate it. If you touch the right location, a sound is emitted. Now with one finger holding the needle, use another one to extract the content of the protuberance.
+
+After you remove everything, remember to clean the are with the handkerchief.","Probablemente la más sencilla de todas.
+
+Esa gran cosa puede ser removida cuando seleccionas la herramienta aguja, y toca y mantienes en el area especificada de la protuberancia. Toca el boton de pista si necesitas localizar el area. Si tocaste donde se necesita, un sonido será emitido. Ahora con un dedo sosteniendo la aguja, usa el otro para extraer la protuberancia.","Wahrscheinlich die einfachste Art von Protuberanz.
+
+Wähle die Nadel aus und halte und drücke an der richtigen Stelle. Wenn du Unterstützung brauchst, kannst du auf Hilfe tippen. Das umkreist die richtigen Flächen. Beim Drücken der korrekten Stelle ertönt ein Ton. Während ein Finger die Nadel hält, holst du nun mit dem anderen Finger den Eiter heraus.
+
+Nachdem die Zyste sauber entfernt wurde, kann mit dem Taschentuch alles ordentlich hinterlassen werden.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K_LIPOMA_TUTORIAL_TEXT,"The complex protuberance to remove in a body. But i will show how to remove it.
+
+First, you need to apply anaesthetic because you are going to cut the area. After you apply it you can select the cutter tool and cut the area.
+
+Now with the content exposed, use your hand to apply pressure and remove the content.
+
+And now that everything was removed, you will need to suture the wound.","Tutorial para LipomaLa protuberancia más compleja de remover. Pero te mostraré como removerla.
+
+Primero, necesitas aplicar anestesia porque vas a cortar el area. Después de aplicarlo, selecciona el cortador y comienza a cortar.
+
+Ahora con el contenido expuesto, usa tu mano para plaicar presión y remover el contenido.
+
+Y ahora que todo fue removido, solo neceitas suturar la herida.","Das wird knifflig. Aber ich zeige es dir.
+
+Wir fangen mit der Anästhesie an, da wir gleich etwas aufschneiden werden. Sobald der Bereich betäubt wurde, wählen wir das Messer und schneiden los.
+
+Den offenen Bereich können wir nun mit der Hand auspressen.
+
+Wenn dann endlich der ganze Eiter den Körper verlassen hat, können wir die Wunde vernähen.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K_LIPOMA_BUTTON,Lipoma,Lipoma,Lipom,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K_PIMPLE_BUTTON,Pimple,Espinilla,Pickel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K_CYST_BUTTON,Cyst,Quiste,Zyste,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K_BLACKHEAD_BUTTON,Blackhead,Puntos negros,Mitesser,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K_OPTIONS_TITLE,Options,Opciones,Optionen,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K_LANGUAGE_OPTION_TITLE,Language,Idioma,Sprache,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K_SPANISH_SELECTION,Spanish,Español,Spanisch,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K_ENGLISH_SELECTION,English,Ingles,Englisch,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K_GERMAN_SELECTION,German,Alemán,Deutsch,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K_LANGUAGE_SELECTION,Select a language,Seleccione un idioma,Wählen Sie eine Sprache an,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
