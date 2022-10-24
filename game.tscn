@@ -59,14 +59,10 @@ tracks/0/keys = {
 script = ExtResource( 3 )
 _buttons = ExtResource( 10 )
 
-[node name="bodypart" type="Node2D" parent="." groups=[
-"bodypart",
-]]
+[node name="bodypart" type="Node2D" parent="." groups=["bodypart"]]
 script = ExtResource( 12 )
 
-[node name="UI" type="Control" parent="." groups=[
-"ui",
-]]
+[node name="UI" type="Control" parent="." groups=["ui"]]
 anchor_right = 1.0
 anchor_bottom = 1.0
 size_flags_horizontal = 3

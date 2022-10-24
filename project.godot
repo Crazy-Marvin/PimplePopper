@@ -131,7 +131,7 @@ translations=PoolStringArray( "res://assets/i18n/tranlation.es.translation", "re
 translation_remaps={
 "res://assets/win_title/win_en.png": PoolStringArray( "res://assets/win_title/win_de.png:de", "res://assets/win_title/won_es.png:es" )
 }
-locale_filter=[ 1, [ "de", "en", "es" ] ]
+locale_filter=[ 0, [ "de", "en", "es" ] ]
 
 [rendering]
 
