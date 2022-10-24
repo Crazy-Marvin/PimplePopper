@@ -1,0 +1,47 @@
+[gd_scene load_steps=14 format=2]
+
+[ext_resource path="res://tools/circle_hint.tscn" type="PackedScene" id=1]
+[ext_resource path="res://protuberances/cyst.tscn" type="PackedScene" id=2]
+[ext_resource path="res://assets/forehead_cyst/background.png" type="Texture" id=3]
+[ext_resource path="res://assets/forehead_cyst/7.png" type="Texture" id=4]
+[ext_resource path="res://assets/forehead_cyst/1.png" type="Texture" id=5]
+[ext_resource path="res://assets/forehead_cyst/2.png" type="Texture" id=6]
+[ext_resource path="res://assets/forehead_cyst/6.png" type="Texture" id=7]
+[ext_resource path="res://assets/forehead_cyst/3.png" type="Texture" id=8]
+[ext_resource path="res://assets/forehead_cyst/4.png" type="Texture" id=9]
+[ext_resource path="res://assets/forehead_cyst/5.png" type="Texture" id=10]
+[ext_resource path="res://assets/forehead_cyst/0.png" type="Texture" id=11]
+[ext_resource path="res://bodyparts/cyst/ForeheadCyst.gd" type="Script" id=12]
+
+[sub_resource type="SpriteFrames" id=1]
+animations = [ {
+"frames": [ ExtResource( 11 ), ExtResource( 5 ), ExtResource( 6 ), ExtResource( 8 ), ExtResource( 9 ), ExtResource( 10 ), ExtResource( 7 ), ExtResource( 4 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[node name="forehead" type="Node2D"]
+scale = Vector2( 0.648265, 0.648265 )
+script = ExtResource( 12 )
+
+[node name="background" type="Sprite" parent="."]
+texture = ExtResource( 3 )
+centered = false
+
+[node name="sprites" type="AnimatedSprite" parent="."]
+frames = SubResource( 1 )
+centered = false
+
+[node name="cyst" parent="." groups=[
+"protuberance",
+] instance=ExtResource( 2 )]
+position = Vector2( 0, 0 )
+
+[node name="CollisionShape2D" parent="cyst" index="0"]
+position = Vector2( 1016, 192 )
+
+[node name="circle_hint" parent="cyst/CollisionShape2D" index="0" instance=ExtResource( 1 )]
+radius = 43.659
+
+[editable path="cyst"]
