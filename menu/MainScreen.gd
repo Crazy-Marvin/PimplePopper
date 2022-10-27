@@ -31,13 +31,14 @@ func _config_menu() -> void:
 	_protuberance_type_hscroll.set_enabled(false)
 	_bodypart_hscroll.set_enabled(false)
 	_about_text.bbcode_text = tr("K_ABOUT_TEXT")
-	
+
 	var bodypart_hscroll = _bodypart_screen.get_node("hscroll")
 	bodypart_hscroll.connect("selected_level", self, "_on_bodypart_selected")
 	var protuberance_type_hscroll = _protuberance_type_screen.get_node("hscroll")
 	protuberance_type_hscroll.connect("selected_level", self, "_on_protuberance_type_selected")
 
 func _fit_sizes() -> void:
+	pass
 	_background.rect_position = Vector2.ZERO
 	var bsize: Vector2 = _background.texture.get_size()
 	var ssize: Vector2 = OS.window_size
