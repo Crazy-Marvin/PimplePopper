@@ -17,16 +17,15 @@ __meta__ = {
 "_edit_use_anchors_": true
 }
 
-[node name="button" type="Button" parent="." groups=[
-"translation-text",
-]]
-margin_left = 262.0
-margin_top = 170.0
-margin_right = 762.0
-margin_bottom = 430.0
+[node name="button" type="Button" parent="." groups=["translation-text"]]
+margin_left = 360.0
+margin_top = 140.0
+margin_right = 860.0
+margin_bottom = 400.0
 rect_min_size = Vector2( 500, 260 )
 focus_mode = 0
 custom_fonts/font = SubResource( 1 )
 enabled_focus_mode = 0
 text = "Level"
+
 [connection signal="pressed" from="button" to="." method="_on_pressed"]
