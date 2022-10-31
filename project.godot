@@ -105,7 +105,7 @@ _global_script_class_icons={
 [application]
 
 config/name="Pimples"
-run/main_scene="res://menu/main_screen.tscn"
+run/main_scene="res://menu/new_main_screen.tscn"
 config/icon="res://icon.png"
 
 [autoload]

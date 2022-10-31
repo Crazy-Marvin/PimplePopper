@@ -1,0 +1,170 @@
+[gd_scene load_steps=13 format=2]
+
+[ext_resource path="res://assets/styles/back.png" type="Texture" id=1]
+[ext_resource path="res://assets/styles/panel_1.tres" type="StyleBox" id=2]
+[ext_resource path="res://assets/styles/Icon_Award.png" type="Texture" id=3]
+[ext_resource path="res://assets/styles/Icon_Play.png" type="Texture" id=4]
+[ext_resource path="res://assets/themes/menu.tres" type="Theme" id=5]
+[ext_resource path="res://assets/styles/Item1.png" type="Texture" id=6]
+[ext_resource path="res://assets/styles/Icon_Info.png" type="Texture" id=7]
+[ext_resource path="res://assets/styles/Icon_Star.png" type="Texture" id=8]
+[ext_resource path="res://assets/styles/title.png" type="Texture" id=9]
+[ext_resource path="res://assets/styles/Icon_Question.png" type="Texture" id=10]
+[ext_resource path="res://assets/styles/Icon_Settings.png" type="Texture" id=11]
+[ext_resource path="res://menu/new_main_screen.gd" type="Script" id=12]
+
+[node name="new_main_screen" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+theme = ExtResource( 5 )
+script = ExtResource( 12 )
+
+[node name="Background" type="TextureRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+texture = ExtResource( 1 )
+expand = true
+stretch_mode = 1
+
+[node name="Panel" type="Panel" parent="."]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -176.0
+margin_top = -91.0
+margin_right = 176.0
+margin_bottom = 146.0
+custom_styles/panel = ExtResource( 2 )
+
+[node name="Title" type="TextureRect" parent="Panel"]
+anchor_left = 0.5
+anchor_right = 0.5
+margin_left = -327.0
+margin_top = -114.0
+margin_right = 327.0
+margin_bottom = -16.0
+texture = ExtResource( 9 )
+
+[node name="TextureRect2" type="TextureRect" parent="Panel/Title"]
+anchor_top = 0.5
+anchor_bottom = 0.5
+margin_left = -84.0
+margin_top = -39.0
+margin_right = -13.0
+margin_bottom = 29.0
+texture = ExtResource( 3 )
+expand = true
+stretch_mode = 6
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Panel"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 34.0
+margin_top = 23.0
+margin_right = -34.0
+margin_bottom = -48.0
+alignment = 1
+
+[node name="Play" type="Button" parent="Panel/VBoxContainer"]
+margin_right = 284.0
+margin_bottom = 60.0
+rect_min_size = Vector2( 0, 60 )
+text = "K_PLAY"
+
+[node name="TextureRect" type="TextureRect" parent="Panel/VBoxContainer/Play"]
+anchor_top = 0.5
+anchor_bottom = 0.5
+margin_left = 17.0
+margin_top = -20.0
+margin_right = 57.0
+margin_bottom = 20.0
+texture = ExtResource( 4 )
+expand = true
+stretch_mode = 6
+
+[node name="Button2" type="Button" parent="Panel/VBoxContainer"]
+margin_top = 64.0
+margin_right = 284.0
+margin_bottom = 124.0
+rect_min_size = Vector2( 0, 60 )
+text = "K_ABOUT"
+
+[node name="TextureRect" type="TextureRect" parent="Panel/VBoxContainer/Button2"]
+anchor_top = 0.5
+anchor_bottom = 0.5
+margin_left = 17.0
+margin_top = -20.0
+margin_right = 57.0
+margin_bottom = 20.0
+texture = ExtResource( 10 )
+expand = true
+stretch_mode = 6
+
+[node name="Button3" type="Button" parent="Panel/VBoxContainer"]
+margin_top = 128.0
+margin_right = 284.0
+margin_bottom = 188.0
+rect_min_size = Vector2( 0, 60 )
+text = "Settings"
+
+[node name="TextureRect" type="TextureRect" parent="Panel/VBoxContainer/Button3"]
+anchor_top = 0.5
+anchor_bottom = 0.5
+margin_left = 17.0
+margin_top = -20.0
+margin_right = 57.0
+margin_bottom = 20.0
+texture = ExtResource( 11 )
+expand = true
+stretch_mode = 6
+
+[node name="HBoxContainer" type="HBoxContainer" parent="Panel/VBoxContainer"]
+margin_top = 192.0
+margin_right = 284.0
+margin_bottom = 192.0
+
+[node name="Floating" type="TextureRect" parent="Panel"]
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+margin_left = -27.0
+margin_top = -116.5
+margin_right = 295.0
+margin_bottom = 27.5
+texture = ExtResource( 6 )
+expand = true
+stretch_mode = 6
+
+[node name="HBoxContainer" type="HBoxContainer" parent="Panel/Floating"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -97.0
+margin_top = -50.0
+margin_right = 97.0
+margin_bottom = 16.0
+custom_constants/separation = -11
+
+[node name="TextureRect" type="TextureRect" parent="Panel/Floating/HBoxContainer"]
+margin_right = 102.0
+margin_bottom = 66.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+texture = ExtResource( 8 )
+expand = true
+stretch_mode = 6
+
+[node name="TextureRect2" type="TextureRect" parent="Panel/Floating/HBoxContainer"]
+margin_left = 91.0
+margin_right = 194.0
+margin_bottom = 66.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+texture = ExtResource( 7 )
+expand = true
+stretch_mode = 6
+
+[connection signal="pressed" from="Panel/VBoxContainer/Play" to="." method="_on_Play_pressed"]
