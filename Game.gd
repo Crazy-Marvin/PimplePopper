@@ -75,7 +75,7 @@ func _on_back_pressed():
 
 func _on_animation_finished(anim: String) -> void:
 	if anim == "fade_in":
-		var error: int = get_tree().change_scene("res://menu/main_screen.tscn")
+		var error: int = get_tree().change_scene("res://menu/new_main_screen.tscn")
 		if error != OK:
 			print_debug("Error loading main screen. Code: ", error)
 	elif anim == "fade_out":
