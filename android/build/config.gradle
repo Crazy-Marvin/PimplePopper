@@ -1,22 +1,23 @@
 ext.versions = [
-    androidGradlePlugin: '7.0.3',
-    compileSdk         : 31,
-    minSdk             : 19, // Also update 'platform/android/java/lib/AndroidManifest.xml#minSdkVersion' & 'platform/android/export/export_plugin.cpp#DEFAULT_MIN_SDK_VERSION'
-    targetSdk          : 32, // Also update 'platform/android/java/lib/AndroidManifest.xml#targetSdkVersion' & 'platform/android/export/export_plugin.cpp#DEFAULT_TARGET_SDK_VERSION'
-    buildTools         : '32.0.0',
-    kotlinVersion      : '1.6.21',
-    fragmentVersion    : '1.3.6',
-    nexusPublishVersion: '1.1.0',
-    javaVersion        : 11,
-    ndkVersion         : '23.2.8568313' // Also update 'platform/android/detect.py#get_ndk_version' when this is updated.
+    androidGradlePlugin: '4.0.1',
+    compileSdk         : 29,
+    minSdk             : 19,
+    targetSdk          : 29,
+    buildTools         : '30.0.3',
+    supportCoreUtils   : '1.0.0',
+    kotlinVersion      : '1.4.10',
+    v4Support          : '1.0.0',
+    javaVersion        : 1.8,
+    ndkVersion         : '21.4.7075529' // Also update 'platform/android/detect.py#get_project_ndk_version()' when this is updated.
 
 ]
 
 ext.libraries = [
     androidGradlePlugin: "com.android.tools.build:gradle:$versions.androidGradlePlugin",
+    supportCoreUtils   : "androidx.legacy:legacy-support-core-utils:$versions.supportCoreUtils",
     kotlinGradlePlugin : "org.jetbrains.kotlin:kotlin-gradle-plugin:$versions.kotlinVersion",
-    kotlinStdLib       : "org.jetbrains.kotlin:kotlin-stdlib:$versions.kotlinVersion",
-    androidxFragment   : "androidx.fragment:fragment:$versions.fragmentVersion",
+    kotlinStdLib       : "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$versions.kotlinVersion",
+    v4Support          : "androidx.legacy:legacy-support-v4:$versions.v4Support"
 ]
 
 ext.getExportPackageName = { ->
@@ -49,35 +50,11 @@ ext.getExportVersionName = { ->
     return versionName
 }
 
-ext.getExportMinSdkVersion = { ->
-    String minSdkVersion = project.hasProperty("export_version_min_sdk") ? project.property("export_version_min_sdk") : ""
-    if (minSdkVersion == null || minSdkVersion.isEmpty()) {
-        minSdkVersion = "$versions.minSdk"
-    }
-    try {
-        return Integer.parseInt(minSdkVersion)
-    } catch (NumberFormatException ignored) {
-        return versions.minSdk
-    }
-}
-
-ext.getExportTargetSdkVersion = { ->
-    String targetSdkVersion = project.hasProperty("export_version_target_sdk") ? project.property("export_version_target_sdk") : ""
-    if (targetSdkVersion == null || targetSdkVersion.isEmpty()) {
-        targetSdkVersion = "$versions.targetSdk"
-    }
-    try {
-        return Integer.parseInt(targetSdkVersion)
-    } catch (NumberFormatException ignored) {
-        return versions.targetSdk
-    }
-}
-
 ext.getGodotEditorVersion = { ->
     String editorVersion = project.hasProperty("godot_editor_version") ? project.property("godot_editor_version") : ""
     if (editorVersion == null || editorVersion.isEmpty()) {
         // Try the library version first
-        editorVersion = getGodotLibraryVersionName()
+        editorVersion = getGodotLibraryVersion()
 
         if (editorVersion.isEmpty()) {
             // Fallback value.
@@ -87,27 +64,13 @@ ext.getGodotEditorVersion = { ->
     return editorVersion
 }
 
-ext.getGodotLibraryVersionCode = { ->
-    String versionName = ""
-    int versionCode = 1
-    (versionName, versionCode) = getGodotLibraryVersion()
-    return versionCode
-}
-
-ext.getGodotLibraryVersionName = { ->
-    String versionName = ""
-    int versionCode = 1
-    (versionName, versionCode) = getGodotLibraryVersion()
-    return versionName
-}
-
-ext.generateGodotLibraryVersion = { List<String> requiredKeys ->
+ext.getGodotLibraryVersion = { ->
     // Attempt to read the version from the `version.py` file.
-    String libraryVersionName = ""
-    int libraryVersionCode = 0
+    String libraryVersion = ""
 
     File versionFile = new File("../../../version.py")
     if (versionFile.isFile()) {
+        List<String> requiredKeys = ["major", "minor", "patch", "status", "module_config"]
         def map = [:]
 
         List<String> lines = versionFile.readLines()
@@ -125,48 +88,15 @@ ext.generateGodotLibraryVersion = { List<String> requiredKeys ->
         }
 
         if (requiredKeys.empty) {
-            libraryVersionName = map.values().join(".")
-            try {
-                if (map.containsKey("patch")) {
-                    libraryVersionCode = Integer.parseInt(map["patch"])
-                }
-
-                if (map.containsKey("minor")) {
-                    libraryVersionCode += (Integer.parseInt(map["minor"]) * 100)
-                }
-
-                if (map.containsKey("major")) {
-                    libraryVersionCode += (Integer.parseInt(map["major"]) * 10000)
-                }
-            } catch (NumberFormatException ignore) {
-                libraryVersionCode = 1
-            }
+            libraryVersion = map.values().join(".")
         }
     }
 
-    if (libraryVersionName.isEmpty()) {
+    if (libraryVersion.isEmpty()) {
         // Fallback value in case we're unable to read the file.
-        libraryVersionName = "custom_build"
+        libraryVersion = "custom_build"
     }
-
-    if (libraryVersionCode == 0) {
-        libraryVersionCode = 1
-    }
-
-    return [libraryVersionName, libraryVersionCode]
-}
-
-ext.getGodotLibraryVersion = { ->
-    List<String> requiredKeys = ["major", "minor", "patch", "status", "module_config"]
-    return generateGodotLibraryVersion(requiredKeys)
-}
-
-ext.getGodotPublishVersion = { ->
-    List<String> requiredKeys = ["major", "minor", "patch", "status"]
-    String versionName = ""
-    int versionCode = 1
-    (versionName, versionCode) = generateGodotLibraryVersion(requiredKeys)
-    return versionName
+    return libraryVersion
 }
 
 final String VALUE_SEPARATOR_REGEX = "\\|"
@@ -259,35 +189,6 @@ ext.getGodotPluginsLocalBinaries = { ->
     }
 
     return binDeps
-}
-
-ext.getDebugKeystoreFile = { ->
-    String keystoreFile = project.hasProperty("debug_keystore_file") ? project.property("debug_keystore_file") : ""
-    if (keystoreFile == null || keystoreFile.isEmpty()) {
-        keystoreFile = "."
-    }
-    return keystoreFile
-}
-
-ext.hasCustomDebugKeystore = { ->
-    File keystoreFile = new File(getDebugKeystoreFile())
-    return keystoreFile.isFile()
-}
-
-ext.getDebugKeystorePassword = { ->
-    String keystorePassword = project.hasProperty("debug_keystore_password") ? project.property("debug_keystore_password") : ""
-    if (keystorePassword == null || keystorePassword.isEmpty()) {
-        keystorePassword = "android"
-    }
-    return keystorePassword
-}
-
-ext.getDebugKeyAlias = { ->
-    String keyAlias = project.hasProperty("debug_keystore_alias") ? project.property("debug_keystore_alias") : ""
-    if (keyAlias == null || keyAlias.isEmpty()) {
-        keyAlias = "androiddebugkey"
-    }
-    return keyAlias
 }
 
 ext.getReleaseKeystoreFile = { ->
