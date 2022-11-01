@@ -2,14 +2,17 @@
 //
 // Do not remove/modify comments ending with BEGIN/END, they are used to inject
 // addon-specific configuration.
-apply from: 'config.gradle'
-
 buildscript {
     apply from: 'config.gradle'
 
     repositories {
         google()
-        jcenter()
+        mavenCentral()
+
+        mavenCentral { url "https://android-sdk.is.com" }
+        mavenCentral { url "https://artifact.bytedance.com/repository/pangle" }
+        mavenCentral { url "https://sdk.tapjoy.com/" }
+
 //CHUNK_BUILDSCRIPT_REPOSITORIES_BEGIN
 //CHUNK_BUILDSCRIPT_REPOSITORIES_END
     }
@@ -21,23 +24,19 @@ buildscript {
     }
 }
 
-apply plugin: 'com.android.application'
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+}
+
+apply from: 'config.gradle'
 
 allprojects {
     repositories {
-        mavenCentral()
         google()
-        jcenter()
+        mavenCentral()
 //CHUNK_ALLPROJECTS_REPOSITORIES_BEGIN
 //CHUNK_ALLPROJECTS_REPOSITORIES_END
-
-        maven { url "https://dl.bintray.com/ironsource-mobile/android-sdk" }
-        maven { url "https://dl.bintray.com/ironsource-mobile/android-adapters" }
-        maven { url "https://dl.bintray.com/yodo1/MAS-Android" }
-        maven { url "https://dl.bintray.com/yodo1/android-sdk" }
-        maven { url "https://android-sdk.is.com" }
-        maven { url "https://artifact.bytedance.com/repository/pangle" }
-        maven { url "https://sdk.tapjoy.com/" }
 
         // Godot user plugins custom maven repos
         String[] mavenRepos = getGodotPluginsMavenRepos()
@@ -51,10 +50,14 @@ allprojects {
     }
 }
 
+configurations {
+    // Initializes a placeholder for the devImplementation dependency configuration.
+    devImplementation {}
+}
+
 dependencies {
-    implementation libraries.supportCoreUtils
     implementation libraries.kotlinStdLib
-    implementation libraries.v4Support
+    implementation libraries.androidxFragment
 
     if (rootProject.findProject(":lib")) {
         implementation project(":lib")
@@ -64,6 +67,7 @@ dependencies {
         // Custom build mode. In this scenario this project is the only one around and the Godot
         // library is available through the pre-generated godot-lib.*.aar android archive files.
         debugImplementation fileTree(dir: 'libs/debug', include: ['*.jar', '*.aar'])
+        devImplementation fileTree(dir: 'libs/dev', include: ['*.jar', '*.aar'])
         releaseImplementation fileTree(dir: 'libs/release', include: ['*.jar', '*.aar'])
     }
 
@@ -88,11 +92,18 @@ dependencies {
 android {
     compileSdkVersion versions.compileSdk
     buildToolsVersion versions.buildTools
+    ndkVersion versions.ndkVersion
 
     compileOptions {
         sourceCompatibility versions.javaVersion
         targetCompatibility versions.javaVersion
     }
+
+    kotlinOptions {
+        jvmTarget = versions.javaVersion
+    }
+
+    assetPacks = [":assetPacks:installTime"]
 
     defaultConfig {
         // The default ignore pattern for the 'assets' directory includes hidden files and directories which are used by Godot projects.
@@ -111,9 +122,11 @@ android {
         applicationId getExportPackageName()
         versionCode getExportVersionCode()
         versionName getExportVersionName()
-        minSdkVersion versions.minSdk
-        targetSdkVersion versions.targetSdk
-		multiDexEnabled true
+        minSdkVersion getExportMinSdkVersion()
+        targetSdkVersion getExportTargetSdkVersion()
+        multiDexEnabled true
+
+        missingDimensionStrategy 'products', 'template'
 //CHUNK_ANDROID_DEFAULTCONFIG_BEGIN
 //CHUNK_ANDROID_DEFAULTCONFIG_END
     }
@@ -136,6 +149,15 @@ android {
     }
 
     signingConfigs {
+        debug {
+            if (hasCustomDebugKeystore()) {
+                storeFile new File(getDebugKeystoreFile())
+                storePassword getDebugKeystorePassword()
+                keyAlias getDebugKeyAlias()
+                keyPassword getDebugKeystorePassword()
+            }
+        }
+
         release {
             File keystoreFile = new File(getReleaseKeystoreFile())
             if (keystoreFile.isFile()) {
@@ -150,6 +172,18 @@ android {
     buildTypes {
 
         debug {
+            // Signing and zip-aligning are skipped for prebuilt builds, but
+            // performed for custom builds.
+            zipAlignEnabled shouldZipAlign()
+            if (shouldSign()) {
+                signingConfig signingConfigs.debug
+            } else {
+                signingConfig null
+            }
+        }
+
+        dev {
+            initWith debug
             // Signing and zip-aligning are skipped for prebuilt builds, but
             // performed for custom builds.
             zipAlignEnabled shouldZipAlign()
@@ -201,6 +235,11 @@ android {
 //DIR_JNI_DEBUG_BEGIN
 //DIR_JNI_DEBUG_END
         ]
+        dev.jniLibs.srcDirs = [
+            'libs/dev'
+//DIR_JNI_DEV_BEGIN
+//DIR_JNI_DEV_END
+        ]
         release.jniLibs.srcDirs = [
             'libs/release'
 //DIR_JNI_RELEASE_BEGIN
@@ -221,6 +260,12 @@ task copyAndRenameDebugApk(type: Copy) {
     rename "android_debug.apk", getExportFilename()
 }
 
+task copyAndRenameDevApk(type: Copy) {
+    from "$buildDir/outputs/apk/dev/android_dev.apk"
+    into getExportPath()
+    rename "android_dev.apk", getExportFilename()
+}
+
 task copyAndRenameReleaseApk(type: Copy) {
     from "$buildDir/outputs/apk/release/android_release.apk"
     into getExportPath()
@@ -231,6 +276,12 @@ task copyAndRenameDebugAab(type: Copy) {
     from "$buildDir/outputs/bundle/debug/build-debug.aab"
     into getExportPath()
     rename "build-debug.aab", getExportFilename()
+}
+
+task copyAndRenameDevAab(type: Copy) {
+    from "$buildDir/outputs/bundle/dev/build-dev.aab"
+    into getExportPath()
+    rename "build-dev.aab", getExportFilename()
 }
 
 task copyAndRenameReleaseAab(type: Copy) {
