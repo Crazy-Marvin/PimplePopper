@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\Marvin\\Documents\\GitHub\\PimplePopper\\android\\build\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Marvin\\.gradle\\caches\\transforms-3\\c0474865e18a460802be23cdbe3ce8e6\\transformed\\appcompat-1.2.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "source": "C:\\Users\\Marvin\\.gradle\\caches\\transforms-3\\5d268cfae888ec6b279acc6623e25b09\\transformed\\appcompat-1.2.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Marvin\\.gradle\\caches\\transforms-3\\e6f3ae30ef11b883f50f6ddfd0995559\\transformed\\jetified-marketplace-sdk-8.1.3\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "source": "C:\\Users\\Marvin\\.gradle\\caches\\transforms-3\\213f1a5046a8f8d11b31450dc69d6ab7\\transformed\\jetified-marketplace-sdk-8.1.3\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,34,40,48,56,62,68,74,84,92,103,111",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

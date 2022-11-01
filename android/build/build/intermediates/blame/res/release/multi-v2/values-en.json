@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Marvin\\.gradle\\caches\\transforms-3\\25548c3a18287fb36f186d688dbd8caf\\transformed\\jetified-mobileads-5.3.0\\res\\values-en\\values-en.xml",
+                    "source": "C:\\Users\\Marvin\\.gradle\\caches\\transforms-3\\e429a99758cbb7b4aedc1280fa06671b\\transformed\\jetified-mobileads-5.3.0\\res\\values-en\\values-en.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -38,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Marvin\\.gradle\\caches\\transforms-3\\b0c7b58cdc2e2c16e67f638cf777ccd9\\transformed\\jetified-ads-sdk-4.5.0.3\\res\\values-en\\values-en.xml",
+                    "source": "C:\\Users\\Marvin\\.gradle\\caches\\transforms-3\\b7bc16beffaa154434dc4eb36b4741bf\\transformed\\jetified-ads-sdk-4.5.0.3\\res\\values-en\\values-en.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
