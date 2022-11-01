@@ -144,9 +144,7 @@ scale = Vector2( 1.7663, 1.72146 )
 texture = ExtResource( 12 )
 centered = false
 
-[node name="blackhead" parent="." groups=[
-"protuberance",
-] instance=ExtResource( 50 )]
+[node name="blackhead" parent="." groups=["protuberance"] instance=ExtResource( 50 )]
 
 [node name="CollisionShape2D" parent="blackhead" index="0"]
 position = Vector2( 305.871, 104.95 )
@@ -160,9 +158,7 @@ radius = 10.0
 frames = SubResource( 2 )
 centered = false
 
-[node name="blackhead2" parent="." groups=[
-"protuberance",
-] instance=ExtResource( 50 )]
+[node name="blackhead2" parent="." groups=["protuberance"] instance=ExtResource( 50 )]
 
 [node name="CollisionShape2D" parent="blackhead2" index="0"]
 position = Vector2( 311.483, 74.6437 )
@@ -176,9 +172,7 @@ radius = 10.0
 frames = SubResource( 3 )
 centered = false
 
-[node name="blackhead3" parent="." groups=[
-"protuberance",
-] instance=ExtResource( 50 )]
+[node name="blackhead3" parent="." groups=["protuberance"] instance=ExtResource( 50 )]
 
 [node name="CollisionShape2D" parent="blackhead3" index="0"]
 position = Vector2( 400.719, 78.5723 )
@@ -192,9 +186,7 @@ radius = 10.0
 frames = SubResource( 5 )
 centered = false
 
-[node name="blackhead4" parent="." groups=[
-"protuberance",
-] instance=ExtResource( 50 )]
+[node name="blackhead4" parent="." groups=["protuberance"] instance=ExtResource( 50 )]
 
 [node name="CollisionShape2D" parent="blackhead4" index="0"]
 position = Vector2( 486.587, 106.073 )
@@ -208,9 +200,7 @@ radius = 10.0
 frames = SubResource( 7 )
 centered = false
 
-[node name="blackhead5" parent="." groups=[
-"protuberance",
-] instance=ExtResource( 50 )]
+[node name="blackhead5" parent="." groups=["protuberance"] instance=ExtResource( 50 )]
 
 [node name="CollisionShape2D" parent="blackhead5" index="0"]
 position = Vector2( 513.676, 214.426 )
@@ -224,9 +214,7 @@ radius = 10.0
 frames = SubResource( 9 )
 centered = false
 
-[node name="blackhead6" parent="." groups=[
-"protuberance",
-] instance=ExtResource( 50 )]
+[node name="blackhead6" parent="." groups=["protuberance"] instance=ExtResource( 50 )]
 
 [node name="CollisionShape2D" parent="blackhead6" index="0"]
 position = Vector2( 281.85, 94.7334 )
@@ -240,9 +228,7 @@ radius = 10.0
 frames = SubResource( 11 )
 centered = false
 
-[node name="blackhead7" parent="." groups=[
-"protuberance",
-] instance=ExtResource( 50 )]
+[node name="blackhead7" parent="." groups=["protuberance"] instance=ExtResource( 50 )]
 
 [node name="CollisionShape2D" parent="blackhead7" index="0"]
 position = Vector2( 296.339, 131.271 )
@@ -256,9 +242,7 @@ radius = 10.0
 frames = SubResource( 13 )
 centered = false
 
-[node name="blackhead8" parent="." groups=[
-"protuberance",
-] instance=ExtResource( 50 )]
+[node name="blackhead8" parent="." groups=["protuberance"] instance=ExtResource( 50 )]
 
 [node name="CollisionShape2D" parent="blackhead8" index="0"]
 position = Vector2( 369.403, 73.0549 )

@@ -121,7 +121,6 @@ __meta__ = {
 anchor_bottom = 1.0
 margin_right = 273.0
 margin_bottom = 1.0
-mouse_filter = 2
 theme = ExtResource( 26 )
 follow_focus = true
 scroll_horizontal_enabled = false
