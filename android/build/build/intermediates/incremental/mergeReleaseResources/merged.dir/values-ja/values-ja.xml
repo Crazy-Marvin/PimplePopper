@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="exo_controls_playback_speeds">
+    <item>0.25x</item>
+    <item>0.5x</item>
+    <item>0.75x</item>
+    <item>標準</item>
+    <item>1.25x</item>
+    <item>1.5x</item>
+    <item>2x</item>
+  </string-array>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+    <item quantity="one">%d 秒早送り</item>
+    <item quantity="other">%d 秒早送り</item>
+  </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+    <item quantity="one">%d 秒巻き戻し</item>
+    <item quantity="other">%d 秒巻き戻し</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"ホームに戻る"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"前に戻る"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"その他のオプション"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"完了"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"すべて表示"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"アプリの選択"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"OFF"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"ON"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"Delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"Enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"Space"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"検索…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"検索キーワードを削除"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"検索キーワード"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"検索"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"検索キーワードを送信"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"音声検索"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"共有"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g>と共有"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"折りたたむ"</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">有効にする</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text">%1$sの実行には、Google Play開発者サービスの有効化が必要です。</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Google Play開発者サービスの有効化</string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">インストール</string>
+    <string name="common_google_play_services_install_text">「%1$s」の実行には Google Play 開発者サービスが必要ですが、お使いのデバイスにはインストールされていません。</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Google Play開発者サービスの入手</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play 開発者サービスの利用</string>
+    <string name="common_google_play_services_notification_ticker">Google Play開発者サービスのエラー</string>
+    <string name="common_google_play_services_unknown_issue">「%1$s」で Google Play 開発者サービスに問題が発生しています。もう一度お試しください。</string>
+    <string name="common_google_play_services_unsupported_text">「%1$s」の実行には Google Play 開発者サービスが必要ですが、お使いのデバイスではサポートされていません。</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">更新</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text">%1$sの実行にはGoogle Play開発者サービスの更新が必要です。</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Google Play開発者サービスの更新</string>
+    <string name="common_google_play_services_updating_text">%1$sの実行にはGoogle Play開発者サービスが必要ですが、このサービスは現在更新中です。</string>
+    <string name="common_google_play_services_wear_update_text">Google Play開発者サービスの新しいバージョンが必要です。まもなく自動更新されます。</string>
+    <string name="common_open_on_phone">スマートフォンで開く</string>
+    <string name="common_signin_button_text">ログイン</string>
+    <string name="common_signin_button_text_long">Googleにログイン</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"リンクをクリップボードにコピーしました"</string>
+    <string name="exo_controls_cc_disabled_description">字幕の有効化</string>
+    <string name="exo_controls_cc_enabled_description">字幕の無効化</string>
+    <string name="exo_controls_fastforward_description">早送り</string>
+    <string name="exo_controls_fullscreen_enter_description">全画面表示に変更</string>
+    <string name="exo_controls_fullscreen_exit_description">全画面表示を終了</string>
+    <string name="exo_controls_hide">プレーヤーのコントロールを非表示にする</string>
+    <string name="exo_controls_next_description">次へ</string>
+    <string name="exo_controls_overflow_hide_description">その他の設定の非表示</string>
+    <string name="exo_controls_overflow_show_description">その他の設定の表示</string>
+    <string name="exo_controls_pause_description">一時停止</string>
+    <string name="exo_controls_play_description">再生</string>
+    <string name="exo_controls_playback_speed">速度</string>
+    <string name="exo_controls_previous_description">前へ</string>
+    <string name="exo_controls_repeat_all_description">全曲をリピート</string>
+    <string name="exo_controls_repeat_off_description">リピートなし</string>
+    <string name="exo_controls_repeat_one_description">1 曲をリピート</string>
+    <string name="exo_controls_rewind_description">巻き戻し</string>
+    <string name="exo_controls_seek_bar_description">再生中</string>
+    <string name="exo_controls_settings_description">設定</string>
+    <string name="exo_controls_show">プレーヤーのコントロールを表示する</string>
+    <string name="exo_controls_shuffle_off_description">シャッフル OFF</string>
+    <string name="exo_controls_shuffle_on_description">シャッフル ON</string>
+    <string name="exo_controls_stop_description">停止</string>
+    <string name="exo_controls_vr_description">VR モード</string>
+    <string name="exo_download_completed">ダウンロードが完了しました</string>
+    <string name="exo_download_description">ダウンロード</string>
+    <string name="exo_download_downloading">ダウンロードしています</string>
+    <string name="exo_download_failed">ダウンロードに失敗しました</string>
+    <string name="exo_download_notification_channel_name">ダウンロード</string>
+    <string name="exo_download_paused">ダウンロード一時停止</string>
+    <string name="exo_download_paused_for_network">ダウンロード停止: ネットワーク接続中</string>
+    <string name="exo_download_paused_for_wifi">ダウンロード停止: Wi-Fi 接続中</string>
+    <string name="exo_download_removing">ダウンロードを削除しています</string>
+    <string name="exo_item_list">%1$s、%2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mbps</string>
+    <string name="exo_track_mono">モノラル</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
+    <string name="exo_track_role_alternate">代替</string>
+    <string name="exo_track_role_closed_captions">字幕</string>
+    <string name="exo_track_role_commentary">解説</string>
+    <string name="exo_track_role_supplementary">補足</string>
+    <string name="exo_track_selection_auto">自動</string>
+    <string name="exo_track_selection_none">なし</string>
+    <string name="exo_track_selection_title_audio">音声</string>
+    <string name="exo_track_selection_title_text">文字</string>
+    <string name="exo_track_selection_title_video">動画</string>
+    <string name="exo_track_stereo">ステレオ</string>
+    <string name="exo_track_surround">サラウンド サウンド</string>
+    <string name="exo_track_surround_5_point_1">5.1 サラウンド サウンド</string>
+    <string name="exo_track_surround_7_point_1">7.1 サラウンド サウンド</string>
+    <string name="exo_track_unknown">不明</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"リンクをコピー"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"ブラウザで開く"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"リンクの共有"</string>
+    <string name="godot_project_name_string">Pimple Popper</string>
+    <string name="no_thank_you">いいえ、結構です</string>
+    <string name="offline_notification_text">タップすると広告を表示します</string>
+    <string name="offline_notification_title">オフライン時に保存した広告を表示します</string>
+    <string name="offline_opt_in_confirm">OK</string>
+    <string name="offline_opt_in_confirmation">ネットワークに接続したときに、リンクが記載された通知が届きます</string>
+    <string name="offline_opt_in_decline">設定しない</string>
+    <string name="offline_opt_in_message">広告主のサイトへのリンクが記載された通知が届きます。</string>
+    <string name="offline_opt_in_title">ネットワークに接続したときに、広告を表示します。</string>
+    <string name="s1">画像の保存</string>
+    <string name="s2">広告が画像ギャラリーに画像を保存することを許可しますか？</string>
+    <string name="s3">許可する</string>
+    <string name="s4">許可しない</string>
+    <string name="s5">カレンダーの予定の作成</string>
+    <string name="s6">広告がカレンダーの予定を作成することを許可しますか？</string>
+    <string name="s7">テスト広告</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"検索"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="tt_00_00">00:00</string>
+    <string name="tt_ad">広告</string>
+    <string name="tt_ad_clicked_text">広告クリック</string>
+    <string name="tt_ad_close_text">広告を閉じる</string>
+    <string name="tt_ad_data_error">Response data error</string>
+    <string name="tt_ad_is_closed">広告は終了しました</string>
+    <string name="tt_ad_logo_txt">AD</string>
+    <string name="tt_ad_showed_text">アドショウ</string>
+    <string name="tt_adslot_empty">No request ad slot</string>
+    <string name="tt_adslot_id_error">Illegal ad slot id</string>
+    <string name="tt_adslot_size_empty">Empty ad slot size</string>
+    <string name="tt_adtype_not_match_rit">Ad slot id error</string>
+    <string name="tt_app_empty">No request app</string>
+    <string name="tt_app_name">tt_open_ad_sdk</string>
+    <string name="tt_auto_play_cancel_text">キャンセル</string>
+    <string name="tt_banner_ad_load_image_error">Banner loading failed</string>
+    <string name="tt_cancel">キャンセル</string>
+    <string name="tt_choose_language">ja</string>
+    <string name="tt_click_to_replay"> リプレイ</string>
+    <string name="tt_comment_num">%1$s 評価数</string>
+    <string name="tt_comment_num_backup">%1$s 評価数</string>
+    <string name="tt_comment_score">評価スコア</string>
+    <string name="tt_confirm_download">"モバイルデータ通信ネットワークを利用しています。ダウンロードしますか？"</string>
+    <string name="tt_confirm_download_have_app_name">"%sアプリケーションのダウンロードを準備しています"</string>
+    <string name="tt_content_type">Http content type error</string>
+    <string name="tt_count_down_view">スキップ</string>
+    <string name="tt_dislike_header_tv_back">戻る</string>
+    <string name="tt_dislike_header_tv_title">選択</string>
+    <string name="tt_error_access_method_pass">Illegal access method</string>
+    <string name="tt_error_ad_type">Illegal ad type</string>
+    <string name="tt_error_adtype_differ">Ad type error</string>
+    <string name="tt_error_apk_sign_check_error">Illegal apk sha1 value</string>
+    <string name="tt_error_code_adcount_error">Incorrect number of ad</string>
+    <string name="tt_error_code_click_event_error">Click event error</string>
+    <string name="tt_error_image_size">Illegal image size</string>
+    <string name="tt_error_media_id">Illegal media id</string>
+    <string name="tt_error_media_type">Illegal media type</string>
+    <string name="tt_error_new_register_limit">New ad slot exceeded daily request limit</string>
+    <string name="tt_error_origin_ad_error">Origin type error</string>
+    <string name="tt_error_package_name">Package name error</string>
+    <string name="tt_error_redirect">Redirect error</string>
+    <string name="tt_error_request_invalid">Invalid request</string>
+    <string name="tt_error_slot_id_app_id_differ">SlotId and AppId match error</string>
+    <string name="tt_error_splash_ad_type">Splash ad type error</string>
+    <string name="tt_error_union_os_error">Os type error</string>
+    <string name="tt_error_union_sdk_too_old">Sdk version too low</string>
+    <string name="tt_error_unknow">Unknown error</string>
+    <string name="tt_error_verify_reward">Reward verify error</string>
+    <string name="tt_feedback_experience_text">より良いサービスを目指して改善致します</string>
+    <string name="tt_feedback_submit_text">こちらに投稿しないでください please don’t submit it again!</string>
+    <string name="tt_feedback_thank_text">フィードバック頂きありがとうございます</string>
+    <string name="tt_frequent_call_erroe">Ad requests are too frequent</string>
+    <string name="tt_full_screen_skip_tx">スキップ</string>
+    <string name="tt_get_reward">報酬を得る</string>
+    <string name="tt_insert_ad_load_image_error">Interstitial loading failed</string>
+    <string name="tt_label_cancel">キャンセル</string>
+    <string name="tt_label_ok">確認</string>
+    <string name="tt_lack_android_manifest_configuration">Initialization check error, please check the AndroidManifest</string>
+    <string name="tt_load_creative_icon_error">Icon loading failed</string>
+    <string name="tt_load_creative_icon_response_error">Icon loading error</string>
+    <string name="tt_load_failed_text">ロード失敗</string>
+    <string name="tt_load_success_text">ロード成功</string>
+    <string name="tt_msgPlayable">遊んで報酬をゲット!</string>
+    <string name="tt_negtiveBtnBtnText">やらない</string>
+    <string name="tt_negtive_txt">キャンセル</string>
+    <string name="tt_net_error">Network error</string>
+    <string name="tt_no_ad">No ad</string>
+    <string name="tt_no_ad_parse">Parsing data without ad</string>
+    <string name="tt_no_network">"ネットワークがありません。暫くしてから再度お試しください"</string>
+    <string name="tt_parse_fail">Parsing error</string>
+    <string name="tt_permission_denied">権限付与の操作が無効になっています。有効にしてください</string>
+    <string name="tt_postiveBtnText">視聴を続ける</string>
+    <string name="tt_postiveBtnTextPlayable">つづける</string>
+    <string name="tt_postive_txt">確認</string>
+    <string name="tt_privacy_title">プライバシーポリシー</string>
+    <string name="tt_reder_ad_load_timeout">Template loading timeout</string>
+    <string name="tt_render_diff_template_invalid">Template diff invalid</string>
+    <string name="tt_render_fail_meta_invalid">Template invalid</string>
+    <string name="tt_render_fail_template_parse_error">Template parsing error</string>
+    <string name="tt_render_fail_timeout">Render timeout</string>
+    <string name="tt_render_fail_unknown">Render failed unknown</string>
+    <string name="tt_render_main_template_invalid">Main template invalid</string>
+    <string name="tt_render_render_parse_error">Render parsing failed</string>
+    <string name="tt_request_body_error">Request entity is empty</string>
+    <string name="tt_request_pb_error">Http request pb error</string>
+    <string name="tt_reward_feedback">フィードバック</string>
+    <string name="tt_reward_msg">動画を最後まで視聴いただけるとリワードを付与されます</string>
+    <string name="tt_reward_screen_skip_tx">スキップ</string>
+    <string name="tt_reward_video_show_error">広告は表示に失敗しました</string>
+    <string name="tt_ror_code_show_event_error">Show event error</string>
+    <string name="tt_skip_ad_time_text">%ds後にスキップ</string>
+    <string name="tt_splash_ad_load_image_error">Splash loading failed</string>
+    <string name="tt_splash_cache_expired_error">Cache expired</string>
+    <string name="tt_splash_cache_parse_error">Cache parsing failed</string>
+    <string name="tt_splash_not_have_cache_error">No splash cache</string>
+    <string name="tt_splash_skip_tv">3s | スキップ</string>
+    <string name="tt_sys_error">System error</string>
+    <string name="tt_tip">促す</string>
+    <string name="tt_toast_ad_on_rewarded">Ad on rewarded</string>
+    <string name="tt_toast_later_download">Download later</string>
+    <string name="tt_toast_no_ad">No Ad to Show, Please Load Ad</string>
+    <string name="tt_toast_start_loading">Start Loading</string>
+    <string name="tt_toast_tiktok_ad_failed">TikTok Ad Failed to load, error code is:</string>
+    <string name="tt_try_now">今すぐやってみて下さい</string>
+    <string name="tt_txt_skip">スキップ</string>
+    <string name="tt_unlike">興味なし</string>
+    <string name="tt_video_bytesize">データ通信量</string>
+    <string name="tt_video_bytesize_M">M</string>
+    <string name="tt_video_bytesize_MB">MB</string>
+    <string name="tt_video_continue_play">再生し続ける</string>
+    <string name="tt_video_dial_phone">今すぐ電話をかける</string>
+    <string name="tt_video_download_apk">今すぐダウンロード</string>
+    <string name="tt_video_mobile_go_detail">詳細を見る</string>
+    <string name="tt_video_retry_des">ロード失敗、再試行してください</string>
+    <string name="tt_video_retry_des_txt">ロード失敗、再試行してください</string>
+    <string name="tt_video_without_wifi_tips">再生すると%.2fMBの通信量が消費されます</string>
+    <string name="tt_wap_empty">No request wap</string>
+    <string name="tt_web_title_default">広告</string>
+    <string name="tt_will_play">まもなく再生します</string>
+    <string name="yes_i_agree">はい私は同意する</string>
+    <string name="yodo1_mas_string_age"> 歳 です。</string>
+    <string name="yodo1_mas_string_protocol_privacy"> プライバシーポリシー</string>
+    <string name="yodo1_mas_string_protocol_term"> 利用規約</string>
+    <string name="yodo1_mas_string_uc_accept">同意します</string>
+    <string name="yodo1_mas_string_uc_age">おいくつですか。</string>
+    <string name="yodo1_mas_string_uc_msg"> ”同意します”ボタンをクリックすることによって、弊社のユーザー利用規約とプライバシーポリシーをお読みになった上、同意されたものと見なします。</string>
+    <string name="yodo1_mas_string_uc_prompt">最適なゲーミング体験をご提供できるように、ご年齢情報をご登録ください。</string>
+    <string name="yodo1_mas_string_uc_select_age">ご年齢はまだ設定されていません。</string>
+</resources>

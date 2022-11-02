@@ -25,3 +25,7 @@ These steps should work on Linux, Windows and macOS.
 ## Translations
 
 Translations are stored in ```assets/i18n```. Users can contribute them on Crowdin.
+
+## Yodo1 MAS (ads)
+
+See [https://developers.yodo1.com/docs/godot/get-started/android-integration/](https://developers.yodo1.com/docs/godot/get-started/android-integration/).

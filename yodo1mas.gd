@@ -38,18 +38,34 @@ var _yodo1mas_singleton = null
 # initialization
 
 func set_gdpr(gdpr) -> void:
-	_yodo1mas_singleton.setGdpr(gdpr)
+	print("Editor, set_gdpr: " + str(gdpr))
+	if(_yodo1mas_singleton != null):
+		_yodo1mas_singleton.setGDPR(gdpr)
 
 func set_ccpa(ccpa) -> void:
-	_yodo1mas_singleton.setCCPA(ccpa)
+	print("Editor, set_ccpa: " + str(ccpa))
+	if(_yodo1mas_singleton != null):
+		_yodo1mas_singleton.setCCPA(ccpa)
 	
 func set_coppa(coppa) -> void:
-	_yodo1mas_singleton.setCOPPA(coppa)
+	print("Editor, set_coppa: " + str(coppa))
+	if(_yodo1mas_singleton != null):
+		_yodo1mas_singleton.setCOPPA(coppa)
+
+
+func _ready():
+	if(Engine.has_singleton("GodotYodo1Mas")):
+		_yodo1mas_singleton = Engine.get_singleton("GodotYodo1Mas")
+		print("Editor, GodotYodo1Mas initialized")
+	else:
+		print("Editor, GodotYodo1Mas not initialized")
+
+
+
 
 func init() -> bool:
 	print("Initialize yodo sdk")
 	if(Engine.has_singleton("GodotYodo1Mas")):
-		_yodo1mas_singleton = Engine.get_singleton("GodotYodo1Mas")
 
 		# check if one signal is already connected
 		if not _yodo1mas_singleton.is_connected("on_banner_ad_not_loaded", self, "_on_banner_ad_not_loaded"):
@@ -174,8 +190,3 @@ func _on_rewarded_ad_earned() -> void:
 func _on_rewarded_ad_error(error_code:int) -> void:
 	emit_signal("rewarded_ad_error", error_code)
 	
-
-
-func _on_main_screen_ready():
-	show_banner_ad()
-	pass # Replace with function body.
