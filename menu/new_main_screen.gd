@@ -8,10 +8,14 @@ var selection_panel_destination_pos
 var is_on_second_selection: bool = false
 
 
+onready var tutorial = $protuberance_explanation
+
+
 func _ready():
 	orig_main_panel_pos = $Panel.rect_global_position
 	
 	$LevelSelectionPanel.rect_pivot_offset = $LevelSelectionPanel.rect_size / 2
+	$TutorialPanel.rect_pivot_offset = $TutorialPanel.rect_size / 2
 	
 	load_types()
 
@@ -46,6 +50,21 @@ func animate_selection(forward: bool = true):
 		animate_main_panel(false)
 
 
+func animate_tut(forward):
+	var tween = get_tree().create_tween()
+	
+	
+	if forward:
+		$Panel.hide()
+		$TutorialPanel.rect_scale = Vector2.ZERO
+		$TutorialPanel.show()
+		tween.tween_property($TutorialPanel, 'rect_scale', Vector2.ONE, 0.4).set_trans(Tween.TRANS_BOUNCE).set_ease(Tween.EASE_OUT)
+	else:
+		tween.tween_property($TutorialPanel, 'rect_scale', Vector2.ZERO, 0.4).set_trans(Tween.TRANS_BOUNCE).set_ease(Tween.EASE_OUT)
+		yield(tween, "finished")
+		$Panel.show()
+
+
 func load_types():
 	for child in $LevelSelectionPanel/CenterContainer/LevelsList.get_children():
 		child.queue_free()
@@ -77,6 +96,23 @@ func on_type_select(level: String):
 	load_bodyparts()
 
 
+func _on_tutorial_pressed(string: String):
+	tutorial.show()
+	$TutorialPanel.hide()
+	$TutBackButton.show()
+	
+	match string:
+		'pimple':
+			tutorial.set_pimple_tutorial()
+		'blackhead':
+			tutorial.set_blackhead_tutorial()
+		'cyst':
+			tutorial.set_cyst_tutorial()
+		'lipoma':
+			tutorial.set_lipoma_tutorial()
+	
+
+
 func on_level_select(string: String):
 	Global.bodypart = string
 	get_tree().change_scene("res://game.tscn")
@@ -90,3 +126,18 @@ func _on_Back_pressed():
 	is_on_second_selection = false
 	$LevelSelectionPanel/HBoxContainer/Back.disabled = true
 	load_types()
+
+
+func _on_TextureRect2_gui_input(event):
+	if event is InputEventScreenTouch and !event.pressed:
+		animate_tut(true)
+
+
+func _on_TutPanelBack_pressed():
+	animate_tut(false)
+
+
+func _on_TutBackButton_pressed():
+	tutorial.hide()
+	$TutBackButton.hide()
+	animate_tut(true)
