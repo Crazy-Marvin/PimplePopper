@@ -7,8 +7,15 @@ var selection_panel_destination_pos
 
 var is_on_second_selection: bool = false
 
+var langs = [
+	['es', 'K_SPANISH_SELECTION'],
+	['en', 'K_ENGLISH_SELECTION'],
+	['de', 'K_GERMAN_SELECTION'],
+]
+
 
 onready var tutorial = $protuberance_explanation
+onready var lang_options = $SettingsPanel/VBoxContainer/LangOptions
 
 
 func _ready():
@@ -16,8 +23,10 @@ func _ready():
 	
 	$LevelSelectionPanel.rect_pivot_offset = $LevelSelectionPanel.rect_size / 2
 	$TutorialPanel.rect_pivot_offset = $TutorialPanel.rect_size / 2
+	$SettingsPanel.rect_pivot_offset = $SettingsPanel.rect_size / 2
 	
 	load_types()
+	load_languages()
 
 
 func _on_Play_pressed():
@@ -62,6 +71,22 @@ func animate_tut(forward):
 	else:
 		tween.tween_property($TutorialPanel, 'rect_scale', Vector2.ZERO, 0.4).set_trans(Tween.TRANS_BOUNCE).set_ease(Tween.EASE_OUT)
 		yield(tween, "finished")
+		$Panel.show()
+
+
+func animate_settings(forward: bool):
+	var tween = get_tree().create_tween()
+	
+	
+	if forward:
+		$Panel.hide()
+		$SettingsPanel.rect_scale = Vector2.ZERO
+		$SettingsPanel.show()
+		tween.tween_property($SettingsPanel, 'rect_scale', Vector2.ONE, 0.4).set_trans(Tween.TRANS_BOUNCE).set_ease(Tween.EASE_OUT)
+	else:
+		tween.tween_property($SettingsPanel, 'rect_scale', Vector2.ZERO, 0.4).set_trans(Tween.TRANS_BOUNCE).set_ease(Tween.EASE_OUT)
+		yield(tween, "finished")
+		$SettingsPanel.hide()
 		$Panel.show()
 
 
@@ -118,6 +143,11 @@ func on_level_select(string: String):
 	get_tree().change_scene("res://game.tscn")
 
 
+func load_languages():
+	for l in langs:
+		lang_options.add_item(l[1])
+
+
 func _on_Cancel_pressed():
 	animate_selection(false)
 
@@ -141,3 +171,17 @@ func _on_TutBackButton_pressed():
 	tutorial.hide()
 	$TutBackButton.hide()
 	animate_tut(true)
+
+
+func on_language_selected(index):
+	var l: String = langs[index][0]
+	Save.save_language(l)
+	TranslationServer.set_locale(l)
+
+
+func _on_SettingsBack_pressed():
+	animate_settings(false)
+
+
+func _on_Options_pressed():
+	animate_settings(true)

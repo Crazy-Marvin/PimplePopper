@@ -73,6 +73,7 @@ alignment = 1
 margin_right = 298.0
 margin_bottom = 60.0
 rect_min_size = Vector2( 0, 60 )
+focus_mode = 0
 text = "K_PLAY"
 
 [node name="TextureRect" type="TextureRect" parent="Panel/VBoxContainer/Play"]
@@ -91,6 +92,7 @@ margin_top = 64.0
 margin_right = 298.0
 margin_bottom = 124.0
 rect_min_size = Vector2( 0, 60 )
+focus_mode = 0
 text = "K_ABOUT"
 
 [node name="TextureRect" type="TextureRect" parent="Panel/VBoxContainer/About"]
@@ -109,6 +111,7 @@ margin_top = 128.0
 margin_right = 298.0
 margin_bottom = 188.0
 rect_min_size = Vector2( 0, 60 )
+focus_mode = 0
 text = "K_OPTIONS"
 
 [node name="TextureRect" type="TextureRect" parent="Panel/VBoxContainer/Options"]
@@ -121,11 +124,6 @@ margin_bottom = 20.0
 texture = ExtResource( 11 )
 expand = true
 stretch_mode = 6
-
-[node name="HBoxContainer" type="HBoxContainer" parent="Panel/VBoxContainer"]
-margin_top = 192.0
-margin_right = 298.0
-margin_bottom = 192.0
 
 [node name="Floating" type="TextureRect" parent="Panel"]
 anchor_left = 1.0
@@ -311,6 +309,86 @@ margin_bottom = 362.0
 rect_min_size = Vector2( 0, 64 )
 text = "K_BACK_BUTTON"
 
+[node name="AboutPanel" type="Panel" parent="."]
+visible = false
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -401.0
+margin_top = -206.0
+margin_right = 401.0
+margin_bottom = 206.0
+
+[node name="SettingsPanel" type="Panel" parent="."]
+visible = false
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -255.0
+margin_top = -162.0
+margin_right = 255.0
+margin_bottom = 235.0
+custom_styles/panel = ExtResource( 2 )
+
+[node name="TextureRect" type="TextureRect" parent="SettingsPanel"]
+anchor_left = 0.5
+anchor_right = 0.5
+margin_left = -192.0
+margin_top = -101.0
+margin_right = 192.0
+margin_bottom = 2.0
+texture = ExtResource( 13 )
+expand = true
+stretch_mode = 6
+
+[node name="Label" type="Label" parent="SettingsPanel/TextureRect"]
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+margin_left = -192.0
+margin_top = -103.0
+margin_right = 192.0
+text = "K_OPTIONS"
+align = 1
+valign = 1
+
+[node name="VBoxContainer" type="VBoxContainer" parent="SettingsPanel"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 64.0
+margin_top = 67.0
+margin_right = -64.0
+margin_bottom = -211.0
+
+[node name="Label" type="Label" parent="SettingsPanel/VBoxContainer"]
+margin_right = 382.0
+margin_bottom = 21.0
+text = "Language"
+align = 1
+
+[node name="LangOptions" type="OptionButton" parent="SettingsPanel/VBoxContainer"]
+margin_left = 81.0
+margin_top = 25.0
+margin_right = 301.0
+margin_bottom = 65.0
+rect_min_size = Vector2( 0, 40 )
+size_flags_horizontal = 4
+
+[node name="SettingsBack" type="Button" parent="SettingsPanel"]
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+margin_left = -134.5
+margin_top = -72.0
+margin_right = 134.5
+margin_bottom = -32.0
+rect_min_size = Vector2( 0, 40 )
+text = "K_BACK_BUTTON"
+
 [node name="protuberance_explanation" parent="." instance=ExtResource( 14 )]
 visible = false
 
@@ -323,6 +401,7 @@ margin_bottom = 80.0
 text = "K_BACK_BUTTON"
 
 [connection signal="pressed" from="Panel/VBoxContainer/Play" to="." method="_on_Play_pressed"]
+[connection signal="pressed" from="Panel/VBoxContainer/Options" to="." method="_on_Options_pressed"]
 [connection signal="gui_input" from="Panel/Floating/HBoxContainer/TextureRect2" to="." method="_on_TextureRect2_gui_input"]
 [connection signal="pressed" from="LevelSelectionPanel/HBoxContainer/Back" to="." method="_on_Back_pressed"]
 [connection signal="pressed" from="LevelSelectionPanel/HBoxContainer/Cancel" to="." method="_on_Cancel_pressed"]
@@ -331,4 +410,6 @@ text = "K_BACK_BUTTON"
 [connection signal="pressed" from="TutorialPanel/VBoxContainer/Cyst" to="." method="_on_tutorial_pressed" binds= [ "cyst" ]]
 [connection signal="pressed" from="TutorialPanel/VBoxContainer/Lipoma" to="." method="_on_tutorial_pressed" binds= [ "lipoma" ]]
 [connection signal="pressed" from="TutorialPanel/VBoxContainer/TutPanelBack" to="." method="_on_TutPanelBack_pressed"]
+[connection signal="item_selected" from="SettingsPanel/VBoxContainer/LangOptions" to="." method="on_language_selected"]
+[connection signal="pressed" from="SettingsPanel/SettingsBack" to="." method="_on_SettingsBack_pressed"]
 [connection signal="pressed" from="TutBackButton" to="." method="_on_TutBackButton_pressed"]
