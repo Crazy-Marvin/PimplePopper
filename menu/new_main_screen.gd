@@ -7,13 +7,26 @@ var selection_panel_destination_pos
 
 var is_on_second_selection: bool = false
 
+var langs = [
+	['es', 'K_SPANISH_SELECTION'],
+	['en', 'K_ENGLISH_SELECTION'],
+	['de', 'K_GERMAN_SELECTION'],
+]
+
+
+onready var tutorial = $protuberance_explanation
+onready var lang_options = $SettingsPanel/VBoxContainer/LangOptions
+
 
 func _ready():
 	orig_main_panel_pos = $Panel.rect_global_position
 	
 	$LevelSelectionPanel.rect_pivot_offset = $LevelSelectionPanel.rect_size / 2
+	$TutorialPanel.rect_pivot_offset = $TutorialPanel.rect_size / 2
+	$SettingsPanel.rect_pivot_offset = $SettingsPanel.rect_size / 2
 	
 	load_types()
+	load_languages()
 
 
 func _on_Play_pressed():
@@ -44,6 +57,37 @@ func animate_selection(forward: bool = true):
 		tween.tween_property($LevelSelectionPanel, 'rect_scale', Vector2.ZERO, 0.4).set_trans(Tween.TRANS_BOUNCE).set_ease(Tween.EASE_OUT)
 		yield(tween, "finished")
 		animate_main_panel(false)
+
+
+func animate_tut(forward):
+	var tween = get_tree().create_tween()
+	
+	
+	if forward:
+		$Panel.hide()
+		$TutorialPanel.rect_scale = Vector2.ZERO
+		$TutorialPanel.show()
+		tween.tween_property($TutorialPanel, 'rect_scale', Vector2.ONE, 0.4).set_trans(Tween.TRANS_BOUNCE).set_ease(Tween.EASE_OUT)
+	else:
+		tween.tween_property($TutorialPanel, 'rect_scale', Vector2.ZERO, 0.4).set_trans(Tween.TRANS_BOUNCE).set_ease(Tween.EASE_OUT)
+		yield(tween, "finished")
+		$Panel.show()
+
+
+func animate_settings(forward: bool):
+	var tween = get_tree().create_tween()
+	
+	
+	if forward:
+		$Panel.hide()
+		$SettingsPanel.rect_scale = Vector2.ZERO
+		$SettingsPanel.show()
+		tween.tween_property($SettingsPanel, 'rect_scale', Vector2.ONE, 0.4).set_trans(Tween.TRANS_BOUNCE).set_ease(Tween.EASE_OUT)
+	else:
+		tween.tween_property($SettingsPanel, 'rect_scale', Vector2.ZERO, 0.4).set_trans(Tween.TRANS_BOUNCE).set_ease(Tween.EASE_OUT)
+		yield(tween, "finished")
+		$SettingsPanel.hide()
+		$Panel.show()
 
 
 func load_types():
@@ -77,9 +121,31 @@ func on_type_select(level: String):
 	load_bodyparts()
 
 
+func _on_tutorial_pressed(string: String):
+	tutorial.show()
+	$TutorialPanel.hide()
+	$TutBackButton.show()
+	
+	match string:
+		'pimple':
+			tutorial.set_pimple_tutorial()
+		'blackhead':
+			tutorial.set_blackhead_tutorial()
+		'cyst':
+			tutorial.set_cyst_tutorial()
+		'lipoma':
+			tutorial.set_lipoma_tutorial()
+	
+
+
 func on_level_select(string: String):
 	Global.bodypart = string
 	get_tree().change_scene("res://game.tscn")
+
+
+func load_languages():
+	for l in langs:
+		lang_options.add_item(l[1])
 
 
 func _on_Cancel_pressed():
@@ -90,3 +156,32 @@ func _on_Back_pressed():
 	is_on_second_selection = false
 	$LevelSelectionPanel/HBoxContainer/Back.disabled = true
 	load_types()
+
+
+func _on_TextureRect2_gui_input(event):
+	if event is InputEventScreenTouch and !event.pressed:
+		animate_tut(true)
+
+
+func _on_TutPanelBack_pressed():
+	animate_tut(false)
+
+
+func _on_TutBackButton_pressed():
+	tutorial.hide()
+	$TutBackButton.hide()
+	animate_tut(true)
+
+
+func on_language_selected(index):
+	var l: String = langs[index][0]
+	Save.save_language(l)
+	TranslationServer.set_locale(l)
+
+
+func _on_SettingsBack_pressed():
+	animate_settings(false)
+
+
+func _on_Options_pressed():
+	animate_settings(true)
