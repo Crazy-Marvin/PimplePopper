@@ -41,6 +41,10 @@
             android:name="xr_mode_metadata_name"
             android:value="xr_mode_metadata_value" />
 
+        <meta-data
+			android:name="com.google.android.gms.ads.APPLICATION_ID"
+			android:value="ca-app-pub-7188592076082444~9384775166"/>
+
         <!-- XR hand tracking metadata -->
         <!-- This is modified by the exporter based on the selected xr mode. DO NOT CHANGE the values here. -->
         <!-- Removed at export time if the xr mode is not VR or hand tracking is disabled. -->
