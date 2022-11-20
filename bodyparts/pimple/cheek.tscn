@@ -31,9 +31,7 @@ texture = ExtResource( 3 )
 centered = false
 region_rect = Rect2( 0, 0, 2000, 1000 )
 
-[node name="pimple" type="Area2D" parent="." groups=[
-"protuberance",
-]]
+[node name="pimple" type="Area2D" parent="." groups=["protuberance"]]
 position = Vector2( 615.412, 189.475 )
 script = ExtResource( 6 )
 
@@ -56,9 +54,7 @@ shape = SubResource( 1 )
 visible = false
 radius = 10.612
 
-[node name="pimple2" type="Area2D" parent="." groups=[
-"protuberance",
-]]
+[node name="pimple2" type="Area2D" parent="." groups=["protuberance"]]
 position = Vector2( 575.018, 262.716 )
 script = ExtResource( 6 )
 
@@ -86,9 +82,7 @@ visible = false
 position = Vector2( 2.99658, 25.4712 )
 radius = 12.534
 
-[node name="pimple3" type="Area2D" parent="." groups=[
-"protuberance",
-]]
+[node name="pimple3" type="Area2D" parent="." groups=["protuberance"]]
 position = Vector2( 665.276, 289.371 )
 script = ExtResource( 6 )
 
