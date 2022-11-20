@@ -1,0 +1,4 @@
+- UI updates: new main screen, reworked tools, improved level selection logic, more on the way 🎨
+- Some bugs removed, some bugs added 🐛
+- New localizations 🗺️
+- Updated dependencies ⚙️
