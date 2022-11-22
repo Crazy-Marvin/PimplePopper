@@ -1,4 +1,4 @@
-- UI updates: new main screen, reworked tools, improved level selection logic, more on the way 🎨
+- UI updates: new main screen, reworked tools, improved level selection logic, tools that shouldn't be used with a protuberance will be hidden, vibration permission was   added to make removing blackheads more intuitive, more is on the way 🎨
 - Some bugs removed, some bugs added 🐛
 - New localizations 🗺️
 - Updated dependencies ⚙️
