@@ -17,3 +17,5 @@ android/
 .mono/
 data_*/
 
+# Keystore
+*.keystore

@@ -66,6 +66,12 @@ tracks/0/keys = {
 
 [node name="game" type="Node"]
 script = ExtResource( 3 )
+tools_per_type = {
+"blackhead": PoolStringArray( "vapor", "comedone_extraction_tool", "handkerchief" ),
+"cyst": PoolStringArray( "needle", "handkerchief" ),
+"lipoma": PoolStringArray( "anaesthetic", "hand", "suture", "cutter" ),
+"pimple": PoolStringArray( "hand", "handkerchief" )
+}
 _buttons = ExtResource( 10 )
 
 [node name="bodypart" type="Node2D" parent="." groups=["bodypart"]]
@@ -85,9 +91,6 @@ margin_top = 15.0
 margin_right = -10.0
 margin_bottom = 60.0
 alignment = 2
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="back" type="Button" parent="UI/bottons_container"]
 margin_left = 794.0
@@ -239,7 +242,7 @@ texture = ExtResource( 23 )
 expand = true
 stretch_mode = 6
 
-[node name="anesthetic" type="Button" parent="UI/scroll/tools"]
+[node name="anaesthetic" type="Button" parent="UI/scroll/tools"]
 margin_top = 400.0
 margin_right = 426.0
 margin_bottom = 460.0
@@ -250,7 +253,7 @@ group = ExtResource( 10 )
 text = "K_ANESTHETIC_TOOL"
 clip_text = true
 
-[node name="TextureRect" type="TextureRect" parent="UI/scroll/tools/anesthetic"]
+[node name="TextureRect" type="TextureRect" parent="UI/scroll/tools/anaesthetic"]
 margin_left = 19.0
 margin_top = 11.0
 margin_right = 59.0
@@ -352,7 +355,7 @@ initial_position = Vector2( -1000, -1000 )
 [connection signal="pressed" from="UI/scroll/tools/vapor" to="." method="_on_vapor_pressed"]
 [connection signal="pressed" from="UI/scroll/tools/comedone_extraction_tool" to="." method="_on_comedone_extraction_tool_pressed"]
 [connection signal="pressed" from="UI/scroll/tools/needle" to="." method="_on_needle_pressed"]
-[connection signal="pressed" from="UI/scroll/tools/anesthetic" to="." method="_on_anesthetic_pressed"]
+[connection signal="pressed" from="UI/scroll/tools/anaesthetic" to="." method="_on_anesthetic_pressed"]
 [connection signal="pressed" from="UI/scroll/tools/suture" to="." method="_on_suture_pressed"]
 [connection signal="pressed" from="UI/scroll/tools/cutter" to="." method="_on_cutter_pressed"]
 [connection signal="timeout" from="timer" to="." method="_on_timeout"]

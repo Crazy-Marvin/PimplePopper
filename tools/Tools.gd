@@ -23,6 +23,10 @@ func disable_all() -> void:
 
 
 func _enable_tool(t) -> void:
+	if not get_parent().tools_per_type[Global.type].has(t.name):
+		printerr("This tool shouldnt be used")
+		return
+	
 	t.enable()
 
 

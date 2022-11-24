@@ -34,6 +34,7 @@ tracks/1/keys = {
 [node name="finish_game_popup" type="Control"]
 anchor_right = 1.0
 anchor_bottom = 1.0
+mouse_filter = 2
 script = ExtResource( 1 )
 __meta__ = {
 "_edit_use_anchors_": false
@@ -47,18 +48,20 @@ anims/win_show_up = SubResource( 1 )
 anchor_right = 1.0
 anchor_bottom = 1.0
 rect_min_size = Vector2( 1024, 600 )
+mouse_filter = 2
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="TextureRect" type="TextureRect" parent="CenterContainer"]
 self_modulate = Color( 1, 1, 1, 0 )
-margin_left = 256.0
+margin_left = 354.0
 margin_top = 119.0
-margin_right = 768.0
+margin_right = 866.0
 margin_bottom = 480.0
 texture = ExtResource( 2 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
+
 [connection signal="animation_finished" from="AnimationPlayer" to="." method="_on_animation_finished"]
