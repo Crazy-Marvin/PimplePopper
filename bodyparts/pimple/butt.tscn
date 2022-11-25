@@ -54,46 +54,46 @@ texture = ExtResource( 2 )
 centered = false
 
 [node name="pimple_new" parent="." instance=ExtResource( 18 )]
-position = Vector2( -614.459, -61.6602 )
 max_pressure = 100.0
 normal_frames = 3
 
 [node name="AnimatedSprite" parent="pimple_new" index="0"]
+position = Vector2( -632.015, -69.2104 )
 frames = SubResource( 1 )
 centered = false
 
 [node name="CollisionShape2D" parent="pimple_new" index="1"]
-position = Vector2( 1317.88, 448.532 )
+position = Vector2( 685.865, 379.322 )
 
 [node name="circle_hint" parent="pimple_new/CollisionShape2D" index="0"]
 radius = 20.397
 
 [node name="pimple_new2" parent="." instance=ExtResource( 18 )]
-position = Vector2( -436.392, -57.8851 )
 max_pressure = 100.0
 normal_frames = 3
 
 [node name="AnimatedSprite" parent="pimple_new2" index="0"]
+position = Vector2( -435.138, -37.7511 )
 frames = SubResource( 2 )
 centered = false
 
 [node name="CollisionShape2D" parent="pimple_new2" index="1"]
-position = Vector2( 1159.13, 234.345 )
+position = Vector2( 723.992, 196.594 )
 
 [node name="circle_hint" parent="pimple_new2/CollisionShape2D" index="0"]
 radius = 25.951
 
 [node name="pimple_new4" parent="." instance=ExtResource( 18 )]
-position = Vector2( -769.955, 94.3782 )
 max_pressure = 100.0
 normal_frames = 3
 
 [node name="AnimatedSprite" parent="pimple_new4" index="0"]
+position = Vector2( -786.257, 108.22 )
 frames = SubResource( 3 )
 centered = false
 
 [node name="CollisionShape2D" parent="pimple_new4" index="1"]
-position = Vector2( 1562.3, 143.631 )
+position = Vector2( 776.043, 251.851 )
 shape = SubResource( 4 )
 
 [node name="circle_hint" parent="pimple_new4/CollisionShape2D" index="0"]
