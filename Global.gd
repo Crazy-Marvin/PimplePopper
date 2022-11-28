@@ -9,7 +9,8 @@ var _scenes = {
 		"cheek": "res://bodyparts/pimple/cheek.tscn",
 		"forehead": "res://bodyparts/pimple/forehead.tscn",
 		"back": "res://bodyparts/pimple/back.tscn",
-		"chest": "res://bodyparts/pimple/chest.tscn"
+		"chest": "res://bodyparts/pimple/chest.tscn",
+		"buttocks": "res://bodyparts/pimple/butt.tscn"
 	},
 	"blackhead": {
 		"cheek": "res://bodyparts/blackhead/cheek.tscn",
@@ -44,6 +45,10 @@ var _levels: Dictionary = {
 		{
 			"name": "K_CHEST_LEVEL_BUTTON",
 			"code": "chest"
+		},
+		{
+			"name": "Butt",
+			"code": "buttocks"
 		}
 	],
 	"blackhead": [
