@@ -27,6 +27,8 @@ func _ready():
 	
 	load_types()
 	load_languages()
+	
+	TranslationServer.set_locale(Save.get_language())
 
 
 func _on_Play_pressed():

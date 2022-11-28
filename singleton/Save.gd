@@ -16,7 +16,8 @@ func _ready():
 
 
 func load_data() -> void:
-	pass
+	TranslationServer.set_locale(get_language())
+
 
 func save_language(lang: String) -> void:
 	var f: File = File.new()
@@ -30,4 +31,5 @@ func get_language() -> String:
 		var t: String = f.get_as_text()
 		f.close()
 		return t
-	return ""
+	
+	return "de"
