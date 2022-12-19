@@ -1,7 +1,7 @@
 "ID","en","es","de","en-revised","af","ar","ca","zh-CN","zh-TW","cs","da","nl","fi","fr","el","he","hu","it","ja","ko","no","pl","pt","pt-BR","ro","ru","sr","si","sv","tr","uk","vi"
-"K_PLAY","Play","Comenzar","Start","","Play","Play","Play","Play","Play","Play","Play","Play","Play","Play","Play","Play","Play","Play","Play","Play","Play","Play","Play","Play","Play","Играть","Play","ධාවනය","Play","Play","Грати","Play"
-"K_TUTORIAL","Tutorial","Tutorial","Anleitung","","Tutorial","Tutorial","Tutorial","Tutorial","Tutorial","Tutorial","Tutorial","Tutorial","Tutorial","Tutorial","Tutorial","Tutorial","Tutorial","Tutorial","Tutorial","Tutorial","Tutorial","Tutorial","Tutorial","Tutorial","Tutorial","Инструкция","Tutorial","ඉගැන්වීම","Tutorial","Tutorial","Інструкція","Tutorial"
-"K_ABOUT","About","Sobre","Über","","About","About","About","About","About","About","About","About","About","About","About","About","About","About","About","About","About","About","About","About","About","О приложении","About","පිළිබඳව","About","About","Про додаток","About"
+"K_PLAY","Play","Comenzar","Start","","Play","Play","Play","Play","Play","Play","Play","Play","Play","Play","Play","Play","Play","Play","Play","Play","Play","Play","Play","Play","Play","Играть","Покрени","ධාවනය","Play","Play","Грати","Play"
+"K_TUTORIAL","Tutorial","Tutorial","Anleitung","","Tutorial","Tutorial","Tutorial","Tutorial","Tutorial","Tutorial","Tutorial","Tutorial","Tutorial","Tutorial","Tutorial","Tutorial","Tutorial","Tutorial","Tutorial","Tutorial","Tutorial","Tutorial","Tutorial","Tutorial","Tutorial","Инструкция","Водич","ඉගැන්වීම","Tutorial","Tutorial","Інструкція","Tutorial"
+"K_ABOUT","About","Sobre","Über","","About","About","About","About","About","About","About","About","About","About","About","About","About","About","About","About","About","About","About","About","About","О приложении","О програму","පිළිබඳව","About","About","Про додаток","About"
 "K_CHEEK_LEVEL_BUTTON","Cheek","Cachete","Wange","","Cheek","Cheek","Cheek","Cheek","Cheek","Cheek","Cheek","Cheek","Cheek","Cheek","Cheek","Cheek","Cheek","Cheek","Cheek","Cheek","Cheek","Cheek","Cheek","Cheek","Cheek","Щека","Cheek","කන්මුල","Cheek","Cheek","Щока","Cheek"
 "K_FOREHEAD_LEVEL_BUTTON","Forehead","Frente","Stirn","","Forehead","Forehead","Forehead","Forehead","Forehead","Forehead","Forehead","Forehead","Forehead","Forehead","Forehead","Forehead","Forehead","Forehead","Forehead","Forehead","Forehead","Forehead","Forehead","Forehead","Forehead","Лоб","Forehead","නළල","Forehead","Forehead","Чоло","Forehead"
 "K_WRIST_LEVEL_BUTTON","Wrist","Muñeca","Handgelenk","","Wrist","Wrist","Wrist","Wrist","Wrist","Wrist","Wrist","Wrist","Wrist","Wrist","Wrist","Wrist","Wrist","Wrist","Wrist","Wrist","Wrist","Wrist","Wrist","Wrist","Wrist","Запястье","Wrist","මැණික්කටුව","Wrist","Wrist","Зап'ясток","Wrist"
@@ -29,7 +29,9 @@ Please, wait for an app update","El tutorial está en desarrollo.
 
 Por favor, espere por una actualización.","Das Tutorial wird entwickelt.
 
-Warten Sie bitte auf ein Update.","","The tutorial is under the works.
+Warten Sie bitte auf ein Update.","The tutorial is under the works.
+
+Please, wait for an app update","The tutorial is under the works.
 
 Please, wait for an app update","The tutorial is under the works.
 
@@ -106,7 +108,13 @@ Zurzeit sind diese Spiele nur verfügbar:
 Wange – Einfach
 Stirn – Normal.
 Handgelenk – Schwierig
-Rücken – Sehr Schwierig","","This game isn't available yet.
+Rücken – Sehr Schwierig","This game isn't available yet.
+
+At this moment just the following games are available:
+ Wrist - Easy.
+ Forehead - Normal.
+ Wrist - Hard.
+ Back - Super Hard.","This game isn't available yet.
 
 At this moment just the following games are available:
  Wrist - Easy.
@@ -275,11 +283,12 @@ At this moment just the following games are available:
  Forehead - Normal.
  Wrist - Hard.
  Back - Super Hard."
+
 "K_ABOUT_TITLE","About","Sobre","Über","","About","About","About","About","About","About","About","About","About","About","About","About","About","About","About","About","About","About","About","About","About","Об игре","About","පිළිබඳව","About","About","Про додаток","About"
 "K_LEVEL_TITLE","Level","Nivel","Schwierigkeit","","Level","Level","Level","Level","Level","Level","Level","Level","Level","Level","Level","Level","Level","Level","Level","Level","Level","Level","Level","Level","Level","Уровень","Level","මට්ටම","Level","Level","Рівень","Level"
 "K_BODYPART_TITLE","Bodypart","Parte del cuerpo","Körperteil","","Bodypart","Bodypart","Bodypart","Bodypart","Bodypart","Bodypart","Bodypart","Bodypart","Bodypart","Bodypart","Bodypart","Bodypart","Bodypart","Bodypart","Bodypart","Bodypart","Bodypart","Bodypart","Bodypart","Bodypart","Bodypart","Часть тела","Bodypart","ශරීරකොටස","Bodypart","Bodypart","Частина тіла","Bodypart"
-"K_HINT_BUTTON","Hint","Pista","Hilfe","","Hint","Hint","Hint","Hint","Hint","Hint","Hint","Hint","Hint","Hint","Hint","Hint","Hint","Hint","Hint","Hint","Hint","Hint","Hint","Hint","Hint","Подсказка","Hint","ඉඟිය","Hint","Hint","Підказка","Hint"
-"K_EXIT_GAME_BUTTON","Exit","Salir","Beenden","","Exit","Exit","Exit","Exit","Exit","Exit","Exit","Exit","Exit","Exit","Exit","Exit","Exit","Exit","Exit","Exit","Exit","Exit","Exit","Exit","Exit","Выйти","Exit","පිටවන්න","Exit","Exit","Вийти","Exit"
+"K_HINT_BUTTON","Hint","Pista","Hilfe","","Hint","Hint","Hint","Hint","Hint","Hint","Hint","Hint","Hint","Hint","Hint","Hint","Hint","Hint","Hint","Hint","Hint","Hint","Hint","Hint","Hint","Подсказка","Наговештаји","ඉඟිය","Hint","Hint","Підказка","Hint"
+"K_EXIT_GAME_BUTTON","Exit","Salir","Beenden","","Exit","Exit","Exit","Exit","Exit","Exit","Exit","Exit","Exit","Exit","Exit","Exit","Exit","Exit","Exit","Exit","Exit","Exit","Exit","Exit","Exit","Выйти","Изађи","පිටවන්න","Exit","Exit","Вийти","Exit"
 "K_ABOUT_TEXT","[color=black]
 
 Pimple Popper allows you to enjoy the experience of removing protuberance on different human body parts.
@@ -355,7 +364,32 @@ Wir interessieren uns auch für deine Pops. [url=""mailto:marvin@poopjournal. oc
 [url=""https://crazymarvin.com/pimple-popper/terms-of-service/""][color=#0000FF]Legales[/color][/url]  [img=15]res://assets/icons/law. vg[/img]
 
 [url=""https://www.buymeacoffee.com/Marvin""][color=#0000FF]Senden Sie uns einen Kaffee[/color][/url]  [img=16]res://assets/icons/bmc.svg[/img]
-[/color]","","[color=black]
+[/color]","[color=black]
+
+Pimple Popper allows you to enjoy the experience of removing protuberance on different human body parts.
+
+We hope you enjoy this game. If you notice any bugs, have any questions or feedback feel free to [url=""mailto:marvin@poopjournal.rocks""][color=#0000FF]send an email[/color][/url] or open an [url=""https://github.com/Crazy-Marvin/PimplePopper/issues""][color=#0000FF]issue[/color][/url]. 
+
+We are also interested in your real-life pops. [url=""mailto:marvin@poopjournal.rocks""][color=#0000FF]Send them[/color][/url]
+
+[url=""https://www.linkedin.com/in/mottajordan""][color=#0000FF]Main Programmer[/color][/url]  [img=15]res://assets/icons/linkedin.svg[/img]
+
+[url=""https://www.behance.net/alexrendon""][color=#0000FF]Main Artist[/color][/url]  [img=15]res://assets/icons/behance.svg[/img] 
+
+[url=""https://www.github.com/Crazy-Marvin/PimplePopper/""][color=#0000FF]Source[/color][/url]  [img=15]res://assets/icons/github.svg[/img]
+
+[url=""https://www.crazymarvin.com/pimple-popper""][color=#0000FF]Homepage[/color][/url]  [img=15]res://assets/icons/home.svg[/img]
+
+[url=""https://www.godotengine.org/""][color=#0000FF]Powered by Godot[/color][/url]  [img=15]res://assets/icons/godot.svg[/img]
+
+[url=""https://www.crowdin.com/project/pimple-popper""][color=#0000FF]Help us with translations[/color][/url]  [img=15]res://assets/icons/crowdin.svg[/img]
+
+[url=""https://www.github.com/Crazy-Marvin/PimplePopper/blob/master/LICENSE""][color=#0000FF]License[/color][/url] [img=15]res://assets/icons/github.svg[/img]
+
+[url=""https://crazymarvin.com/pimple-popper/terms-of-service/""][color=#0000FF]Legal[/color][/url]  [img=15]res://assets/icons/law.svg[/img]
+
+[url=""https://www.buymeacoffee.com/Marvin""][color=#0000FF]Send us a coffee[/color][/url]  [img=16]res://assets/icons/bmc.svg[/img]
+[/color]","[color=black]
 
 Pimple Popper allows you to enjoy the experience of removing protuberance on different human body parts.
 
@@ -1062,7 +1096,9 @@ In order to remove the pimples, you just need to enable the hand tool and use yo
 
 Para remover las espinillas, solo necesitas seleccionar la herramienta mano y usar tus dedos para aplicar presión para eplotar la espinilla. Entonces, cuando la espinilla haya explotado, usa el paño para limpiar el area. No vas a ser un buen doctor si dejas todo sucio.","Hier geht es um das Entfernen von Pickeln von verschiedenen Körperteilen.
 
-Um einen Pickel auszumatschen wählst du die Hand aus und übst mit den Fingern von beiden Seiten Druck auf den Pickel aus. Nach dem Zerplatzen des Pickel kannst du mit dem Taschentuch die Sauerei aufwischen. Du wärst kein guter Doktor, wenn du den Eiter einfach auf dem Körper lassen würdest.","","In this section you need to remove some pimples from different parts of the body.
+Um einen Pickel auszumatschen wählst du die Hand aus und übst mit den Fingern von beiden Seiten Druck auf den Pickel aus. Nach dem Zerplatzen des Pickel kannst du mit dem Taschentuch die Sauerei aufwischen. Du wärst kein guter Doktor, wenn du den Eiter einfach auf dem Körper lassen würdest.","In this section you need to remove some pimples from different parts of the body.
+
+In order to remove the pimples, you just need to enable the hand tool and use your finger to apply pressure to pop the pimple. Then when the pimple's popped, use a handkerchief to clean the are. You aren't going to be a good doctor if you left all those stuff there.","In this section you need to remove some pimples from different parts of the body.
 
 In order to remove the pimples, you just need to enable the hand tool and use your finger to apply pressure to pop the pimple. Then when the pimple's popped, use a handkerchief to clean the are. You aren't going to be a good doctor if you left all those stuff there.","In this section you need to remove some pimples from different parts of the body.
 
@@ -1137,7 +1173,13 @@ Zuerst musst du Wasserdampf versprühen, um die Poren zu erweitern. Erst wenn de
 
 Nun wählst du den Comedone aus und tippst doppelt auf den Mitesser. Das führt dazu, dass der Comedone auf die Protuberanz gelegt wird. Nun kannst du mit dem Finger deinen Touchscreen berühen und nach unten ziehen.
 
-Auch hier gilt: Mit dem Taschentuch den Patienten säubern.","","For this kind of protuberance you need to be careful.
+Auch hier gilt: Mit dem Taschentuch den Patienten säubern.","For this kind of protuberance you need to be careful.
+
+First, you need to apply vapor in order to open the pore. You will note that the pore was opened because the phone doesn‘t vibrate.
+
+Then, you need to select the comedone tool and double touch the blackhead. When you do that, the comedone will be placed onto the protuberance, finally, touch the screen and drag the finger down and the protuberance will be removed.
+
+Of course, do not forget to clean the area after you do all the work.","For this kind of protuberance you need to be careful.
 
 First, you need to apply vapor in order to open the pore. You will note that the pore was opened because the phone doesn‘t vibrate.
 
@@ -1316,7 +1358,11 @@ Esa gran cosa puede ser removida cuando seleccionas la herramienta aguja, y toca
 
 Wähle die Nadel aus und halte und drücke an der richtigen Stelle. Wenn du Unterstützung brauchst, kannst du auf Hilfe tippen. Das umkreist die richtigen Flächen. Beim Drücken der korrekten Stelle ertönt ein Ton. Während ein Finger die Nadel hält, holst du nun mit dem anderen Finger den Eiter heraus.
 
-Nachdem die Zyste sauber entfernt wurde, kann mit dem Taschentuch alles ordentlich hinterlassen werden.","","Probably the easiest protuberance to remove.
+Nachdem die Zyste sauber entfernt wurde, kann mit dem Taschentuch alles ordentlich hinterlassen werden.","Probably the easiest protuberance to remove.
+
+That big thing can be removed when you select the needle tool and touch and hold in a specefic location of the protuberance. Touch the hint button if you need to locate it. If you touch the right location, a sound is emitted. Now with one finger holding the needle, use another one to extract the content of the protuberance.
+
+After you remove everything, remember to clean the are with the handkerchief.","Probably the easiest protuberance to remove.
 
 That big thing can be removed when you select the needle tool and touch and hold in a specefic location of the protuberance. Touch the hint button if you need to locate it. If you touch the right location, a sound is emitted. Now with one finger holding the needle, use another one to extract the content of the protuberance.
 
@@ -1447,7 +1493,13 @@ Wir fangen mit der Anästhesie an, da wir gleich etwas aufschneiden werden. Soba
 
 Den offenen Bereich können wir nun mit der Hand auspressen.
 
-Wenn dann endlich der ganze Eiter den Körper verlassen hat, können wir die Wunde vernähen.","","The complex protuberance to remove in a body. But i will show how to remove it.
+Wenn dann endlich der ganze Eiter den Körper verlassen hat, können wir die Wunde vernähen.","The complex protuberance to remove in a body. But i will show how to remove it.
+
+First, you need to apply anaesthetic because you are going to cut the area. After you apply it you can select the cutter tool and cut the area.
+
+Now with the content exposed, use your hand to apply pressure and remove the content.
+
+And now that everything was removed, you will need to suture the wound.","The complex protuberance to remove in a body. But i will show how to remove it.
 
 First, you need to apply anaesthetic because you are going to cut the area. After you apply it you can select the cutter tool and cut the area.
 
@@ -1616,16 +1668,17 @@ First, you need to apply anaesthetic because you are going to cut the area. Afte
 Now with the content exposed, use your hand to apply pressure and remove the content.
 
 And now that everything was removed, you will need to suture the wound."
+
 "K_LIPOMA_BUTTON","Lipoma","Lipoma","Lipom","","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Липома","Lipoma","Lipoma","Lipoma","Lipoma","Ліпома","Lipoma"
 "K_PIMPLE_BUTTON","Pimple","Espinilla","Pickel","","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Прыщ","Pimple","කුරුලෑව","Pimple","Pimple","Прищ","Pimple"
 "K_CYST_BUTTON","Cyst","Quiste","Zyste","","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Киста","Cyst","Cyst","Cyst","Cyst","Кіста","Cyst"
 "K_BLACKHEAD_BUTTON","Blackhead","Puntos negros","Mitesser","","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Угорь","Blackhead","කළු ලපය","Blackhead","Blackhead","Вугор","Blackhead"
-"K_OPTIONS_TITLE","Options","Opciones","Optionen","","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Опции","Options","විකල්ප","Options","Options","Опції","Options"
+"K_OPTIONS_TITLE","Options","Opciones","Optionen","","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Опции","Опције","විකල්ප","Options","Options","Опції","Options"
 "K_LANGUAGE_OPTION_TITLE","Language","Idioma","Sprache","","Language","Language","Language","Language","Language","Language","Language","Language","Language","Language","Language","Language","Language","Language","Language","Language","Language","Language","Language","Language","Language","Язык","Language","භාෂාව","Language","Language","Мова","Language"
 "K_SPANISH_SELECTION","Spanish","Español","Spanisch","","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Испанский","Spanish","ස්පාඤ්ඤ","Spanish","Spanish","Іспанська","Spanish"
-"K_ENGLISH_SELECTION","English","Ingles","Englisch","","English","English","English","English","English","English","English","English","English","English","English","English","English","English","English","English","English","English","English","English","English","Английский","English","ඉංග්‍රීසි","English","English","Англійська","English"
+"K_ENGLISH_SELECTION","English","Ingles","Englisch","","English","English","English","English","English","English","English","English","English","English","English","English","English","English","English","English","English","English","English","English","English","Английский","Енглески","ඉංග්‍රීසි","English","English","Англійська","English"
 "K_GERMAN_SELECTION","German","Alemán","Deutsch","","German","German","German","German","German","German","German","German","German","German","German","German","German","German","German","German","German","German","German","German","German","Немецкий","German","ජර්මානු","German","German","Німецька","German"
-"K_LANGUAGE_SELECTION","Select a language","Seleccione un idioma","Wählen Sie eine Sprache aus","","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Выбрать язык","Select a language","භාෂාව තෝරන්න","Select a language","Select a language","Обрати мову","Select a language"
+"K_LANGUAGE_SELECTION","Select a language","Seleccione un idioma","Wählen Sie eine Sprache aus","","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Выбрать язык","Одабери језик","භාෂාව තෝරන්න","Select a language","Select a language","Обрати мову","Select a language"
 
 "[/color]""","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
 "K_PIMPLE_TUTORIAL_TEXT","In this section you need to remove some pimples from different parts of the body.
@@ -1634,7 +1687,9 @@ In order to remove the pimples, you just need to enable the hand tool and use yo
 
 Para remover las espinillas, solo necesitas seleccionar la herramienta mano y usar tus dedos para aplicar presión para eplotar la espinilla. Entonces, cuando la espinilla haya explotado, usa el paño para limpiar el area. No vas a ser un buen doctor si dejas todo sucio.","Hier geht es um das Entfernen von Pickeln von verschiedenen Körperteilen.
 
-Um einen Pickel auszumatschen wählst du die Hand aus und übst mit den Fingern von beiden Seiten Druck auf den Pickel aus. Nach dem Zerplatzen des Pickel kannst du mit dem Taschentuch die Sauerei aufwischen. Du wärst kein guter Doktor, wenn du den Eiter einfach auf dem Körper lassen würdest.","","In this section you need to remove some pimples from different parts of the body.
+Um einen Pickel auszumatschen wählst du die Hand aus und übst mit den Fingern von beiden Seiten Druck auf den Pickel aus. Nach dem Zerplatzen des Pickel kannst du mit dem Taschentuch die Sauerei aufwischen. Du wärst kein guter Doktor, wenn du den Eiter einfach auf dem Körper lassen würdest.","In this section you need to remove some pimples from different parts of the body.
+
+In order to remove the pimples, you just need to enable the hand tool and use your finger to apply pressure to pop the pimple. Then when the pimple's popped, use a handkerchief to clean the are. You aren't going to be a good doctor if you left all those stuff there.","In this section you need to remove some pimples from different parts of the body.
 
 In order to remove the pimples, you just need to enable the hand tool and use your finger to apply pressure to pop the pimple. Then when the pimple's popped, use a handkerchief to clean the are. You aren't going to be a good doctor if you left all those stuff there.","In this section you need to remove some pimples from different parts of the body.
 
@@ -1709,7 +1764,13 @@ Zuerst musst du Wasserdampf versprühen, um die Poren zu erweitern. Erst wenn de
 
 Nun wählst du den Comedone aus und tippst doppelt auf den Mitesser. Das führt dazu, dass der Comedone auf die Protuberanz gelegt wird. Nun kannst du mit dem Finger deinen Touchscreen berühen und nach unten ziehen.
 
-Auch hier gilt: Mit dem Taschentuch den Patienten säubern.","","For this kind of protuberance you need to be careful.
+Auch hier gilt: Mit dem Taschentuch den Patienten säubern.","For this kind of protuberance you need to be careful.
+
+First, you need to apply vapor in order to open the pore. You will note that the pore was opened because the phone doesn‘t vibrate.
+
+Then, you need to select the comedone tool and double touch the blackhead. When you do that, the comedone will be placed onto the protuberance, finally, touch the screen and drag the finger down and the protuberance will be removed.
+
+Of course, do not forget to clean the area after you do all the work.","For this kind of protuberance you need to be careful.
 
 First, you need to apply vapor in order to open the pore. You will note that the pore was opened because the phone doesn‘t vibrate.
 
@@ -1888,7 +1949,11 @@ Esa gran cosa puede ser removida cuando seleccionas la herramienta aguja, y toca
 
 Wähle die Nadel aus und halte und drücke an der richtigen Stelle. Wenn du Unterstützung brauchst, kannst du auf Hilfe tippen. Das umkreist die richtigen Flächen. Beim Drücken der korrekten Stelle ertönt ein Ton. Während ein Finger die Nadel hält, holst du nun mit dem anderen Finger den Eiter heraus.
 
-Nachdem die Zyste sauber entfernt wurde, kann mit dem Taschentuch alles ordentlich hinterlassen werden.","","Probably the easiest protuberance to remove.
+Nachdem die Zyste sauber entfernt wurde, kann mit dem Taschentuch alles ordentlich hinterlassen werden.","Probably the easiest protuberance to remove.
+
+That big thing can be removed when you select the needle tool and touch and hold in a specefic location of the protuberance. Touch the hint button if you need to locate it. If you touch the right location, a sound is emitted. Now with one finger holding the needle, use another one to extract the content of the protuberance.
+
+After you remove everything, remember to clean the are with the handkerchief.","Probably the easiest protuberance to remove.
 
 That big thing can be removed when you select the needle tool and touch and hold in a specefic location of the protuberance. Touch the hint button if you need to locate it. If you touch the right location, a sound is emitted. Now with one finger holding the needle, use another one to extract the content of the protuberance.
 
@@ -2019,7 +2084,13 @@ Wir fangen mit der Anästhesie an, da wir gleich etwas aufschneiden werden. Soba
 
 Den offenen Bereich können wir nun mit der Hand auspressen.
 
-Wenn dann endlich der ganze Eiter den Körper verlassen hat, können wir die Wunde vernähen.","","The complex protuberance to remove in a body. But i will show how to remove it.
+Wenn dann endlich der ganze Eiter den Körper verlassen hat, können wir die Wunde vernähen.","The complex protuberance to remove in a body. But i will show how to remove it.
+
+First, you need to apply anaesthetic because you are going to cut the area. After you apply it you can select the cutter tool and cut the area.
+
+Now with the content exposed, use your hand to apply pressure and remove the content.
+
+And now that everything was removed, you will need to suture the wound.","The complex protuberance to remove in a body. But i will show how to remove it.
 
 First, you need to apply anaesthetic because you are going to cut the area. After you apply it you can select the cutter tool and cut the area.
 
@@ -2188,13 +2259,14 @@ First, you need to apply anaesthetic because you are going to cut the area. Afte
 Now with the content exposed, use your hand to apply pressure and remove the content.
 
 And now that everything was removed, you will need to suture the wound."
+
 "K_LIPOMA_BUTTON","Lipoma","Lipoma","Lipom","","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Липома","Lipoma","Lipoma","Lipoma","Lipoma","Ліпома","Lipoma"
 "K_PIMPLE_BUTTON","Pimple","Espinilla","Pickel","","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Прыщ","Pimple","කුරුලෑව","Pimple","Pimple","Прищ","Pimple"
 "K_CYST_BUTTON","Cyst","Quiste","Zyste","","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Киста","Cyst","Cyst","Cyst","Cyst","Кіста","Cyst"
 "K_BLACKHEAD_BUTTON","Blackhead","Puntos negros","Mitesser","","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Угорь","Blackhead","කළු ලපය","Blackhead","Blackhead","Вугор","Blackhead"
-"K_OPTIONS_TITLE","Options","Opciones","Optionen","","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Опции","Options","විකල්ප","Options","Options","Опції","Options"
+"K_OPTIONS_TITLE","Options","Opciones","Optionen","","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Опции","Опције","විකල්ප","Options","Options","Опції","Options"
 "K_LANGUAGE_OPTION_TITLE","Language","Idioma","Sprache","","Language","Language","Language","Language","Language","Language","Language","Language","Language","Language","Language","Language","Language","Language","Language","Language","Language","Language","Language","Language","Language","Язык","Language","භාෂාව","Language","Language","Мова","Language"
 "K_SPANISH_SELECTION","Spanish","Español","Spanisch","","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Испанский","Spanish","ස්පාඤ්ඤ","Spanish","Spanish","Іспанська","Spanish"
-"K_ENGLISH_SELECTION","English","Ingles","Englisch","","English","English","English","English","English","English","English","English","English","English","English","English","English","English","English","English","English","English","English","English","English","Английский","English","ඉංග්‍රීසි","English","English","Англійська","English"
+"K_ENGLISH_SELECTION","English","Ingles","Englisch","","English","English","English","English","English","English","English","English","English","English","English","English","English","English","English","English","English","English","English","English","English","Английский","Енглески","ඉංග්‍රීසි","English","English","Англійська","English"
 "K_GERMAN_SELECTION","German","Alemán","Deutsch","","German","German","German","German","German","German","German","German","German","German","German","German","German","German","German","German","German","German","German","German","German","Немецкий","German","ජර්මානු","German","German","Німецька","German"
-"K_LANGUAGE_SELECTION","Select a language","Seleccione un idioma","Wählen Sie eine Sprache aus","","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Выбрать язык","Select a language","භාෂාව තෝරන්න","Select a language","Select a language","Обрати мову","Select a language"
+"K_LANGUAGE_SELECTION","Select a language","Seleccione un idioma","Wählen Sie eine Sprache aus","","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Выбрать язык","Одабери језик","භාෂාව තෝරන්න","Select a language","Select a language","Обрати мову","Select a language"
