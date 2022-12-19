@@ -9,9 +9,6 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 theme = ExtResource( 3 )
 script = ExtResource( 2 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
 tutorial_type = 3
 
 [node name="HBoxContainer" type="HBoxContainer" parent="."]
@@ -22,27 +19,27 @@ __meta__ = {
 }
 
 [node name="CenterContainer" type="CenterContainer" parent="HBoxContainer"]
-margin_right = 510.0
+margin_right = 608.0
 margin_bottom = 600.0
 size_flags_horizontal = 3
 
 [node name="VideoPlayer" type="VideoPlayer" parent="HBoxContainer/CenterContainer"]
-margin_left = 105.0
+margin_left = 154.0
 margin_top = 210.0
-margin_right = 405.0
+margin_right = 454.0
 margin_bottom = 390.0
 rect_min_size = Vector2( 300, 180 )
 stream = ExtResource( 1 )
 
 [node name="CenterContainer2" type="CenterContainer" parent="HBoxContainer"]
-margin_left = 514.0
-margin_right = 1024.0
+margin_left = 612.0
+margin_right = 1220.0
 margin_bottom = 600.0
 size_flags_horizontal = 3
 
 [node name="ScrollContainer" type="ScrollContainer" parent="HBoxContainer/CenterContainer2"]
-margin_left = 55.0
-margin_right = 455.0
+margin_left = 104.0
+margin_right = 504.0
 margin_bottom = 600.0
 rect_min_size = Vector2( 400, 600 )
 
@@ -57,4 +54,5 @@ In order to remove the pimples, you just need to enable the hand tool and use yo
 align = 1
 valign = 1
 autowrap = true
+
 [connection signal="finished" from="HBoxContainer/CenterContainer/VideoPlayer" to="." method="_on_VideoPlayer_finished"]

@@ -18,9 +18,7 @@ animations = [ {
 
 [sub_resource type="CircleShape2D" id=2]
 
-[node name="pimple_new" type="Area2D" groups=[
-"protuberance",
-]]
+[node name="pimple_new" type="Area2D" groups=["protuberance"]]
 script = ExtResource( 1 )
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]

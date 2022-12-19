@@ -1,6 +1,0 @@
-[gd_scene load_steps=2 format=2]
-
-[ext_resource path="res://assets/sfx/correct.wav" type="AudioStream" id=1]
-
-[node name="hint_sfx" type="AudioStreamPlayer2D"]
-stream = ExtResource( 1 )

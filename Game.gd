@@ -3,6 +3,9 @@ extends Node
 onready var _animation = $AnimationPlayer
 onready var _finish_popup = $finish_game_popup
 
+# shows what tools can be used with each body part.
+export(Dictionary) var tools_per_type:Dictionary
+
 export(bool) var hint_hided: bool = true
 export(ButtonGroup) var _buttons: ButtonGroup
 var _hints: Array
@@ -18,6 +21,11 @@ func _ready():
 	hide_hints(hint_hided)
 #	yield(get_tree(), "idle_frame")
 	_disable_buttons(true)
+	
+	for b in _buttons.get_buttons():
+		if b.get_parent()!=$UI/scroll/tools:
+			continue
+		b.visible = tools_per_type[Global.type].has(b.name)
 
 func hide_hints(hided: bool) -> void:
 	for h in _hints:
@@ -75,7 +83,7 @@ func _on_back_pressed():
 
 func _on_animation_finished(anim: String) -> void:
 	if anim == "fade_in":
-		var error: int = get_tree().change_scene("res://menu/main_screen.tscn")
+		var error: int = get_tree().change_scene("res://menu/new_main_screen.tscn")
 		if error != OK:
 			print_debug("Error loading main screen. Code: ", error)
 	elif anim == "fade_out":
