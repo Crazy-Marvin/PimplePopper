@@ -46,7 +46,7 @@ PRs to the ```trunk``` need at least one approving review before getting merged.
 
 Please make sure to update tests as appropriate.
 
-Check out the [contribution guidelines](https://github.com/Crazy-Marvin/PimplePopper/blob/trunk/.github/CONTRIBUTING.md) for details please.
+Check out the [contribution guidelines](https://github.com/Crazy-Marvin/PimplePopper/blob/trunk/.github/CONTRIBUTING.md) and [setup information](https://github.com/Crazy-Marvin/PimplePopper/blob/trunk/.github/SETUP.md) for details please.
 
 # License
 
