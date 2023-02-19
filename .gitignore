@@ -10,7 +10,6 @@
 export_presets.cfg
 data/
 android/build/
-android\build\
 build/
 android/
 # Mono-specific ignores
