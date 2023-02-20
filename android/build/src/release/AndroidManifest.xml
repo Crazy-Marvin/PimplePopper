@@ -8,9 +8,10 @@
         android:largeScreens="true"
         android:xlargeScreens="true" />
     <uses-feature android:glEsVersion="0x00030000" android:required="true" />
-    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
     <application android:label="@string/godot_project_name_string"
-        android:allowBackup="false"
+        android:allowBackup="true"
         android:isGame="true"
         android:hasFragileUserData="false"
         android:requestLegacyExternalStorage="false"

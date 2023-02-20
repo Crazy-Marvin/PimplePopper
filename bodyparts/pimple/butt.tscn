@@ -58,7 +58,6 @@ max_pressure = 100.0
 normal_frames = 3
 
 [node name="AnimatedSprite" parent="pimple_new" index="0"]
-position = Vector2( -621.983, -69.2104 )
 frames = SubResource( 1 )
 centered = false
 

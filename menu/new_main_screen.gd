@@ -112,6 +112,7 @@ func load_bodyparts():
 		var b = load("res://menu/LevelButton.tscn").instance()
 		b.level_type = l['code']
 		b.text = l['name'].to_upper()
+#		b.text = 'K_CHEEK_LEVEL_BUTTON'
 		b.connect('clicked', self, 'on_level_select')
 		$LevelSelectionPanel/CenterContainer/LevelsList.add_child(b)
 

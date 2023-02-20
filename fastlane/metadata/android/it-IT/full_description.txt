@@ -10,7 +10,7 @@ Pimple Popper è un gioco per scoppiare brufoli e la rimozione di punti neri, br
 <li>Puoi inviarci i tuoi scoppi nella vita reale e ricevere un messaggio 🙈</li>
 </ul>
 
-Homepage: <a href="https://www.crazymarvin.com/pimple-popper">https://www.crazymarvin.com/pimple-popper</a>
+Pagina iniziale: <a href="https://www.crazymarvin.com/pimple-popper">https://www.crazymarvin.com/pimple-popper</a>
 
 Aiutaci con la traduzione: <a href="https://crowdin.com/project/pimple-popper">https://crowdin.com/project/pimple-popper</a> 
 
