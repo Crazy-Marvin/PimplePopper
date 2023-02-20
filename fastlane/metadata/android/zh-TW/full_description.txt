@@ -5,15 +5,15 @@
 <ul>
 開源 🎉
 極其令人滿足 😂
-<li>Quite realistic 😉</li>
+<li>很現實 😉</li>
 可能在你的日常生活中派上用場 😜
-<li>You can send us your real-life pops and get a complimentary message 🙈</li>
+<li>你可以把你現實生活中的擠爆發給我們，並獲得讚語 🙈</li>
 </ul>
 
-主頁：https://www.crazymarvin.com/pimple-popper
+主頁：<a href="https://www.crazymarvin.com/pimple-popper">https://www.crazymarvin.com/pimple-popper</a>
 
-幫助我們翻譯：https://crowdin.com/project/pimple-popper 
+幫助我們翻譯：<a href="https://crowdin.com/project/pimple-popper">https://crowdin.com/project/pimple-popper</a> 
 
-GitHub上的源代碼：https://github.com/Crazy-Marvin/PimplePopper 
+GitHub上的源代碼：<a href="https://github.com/Crazy-Marvin/PimplePopper">https://github.com/Crazy-Marvin/PimplePopper</a> 
 
-玩得開心 👌 👌
+玩得開心 👌
