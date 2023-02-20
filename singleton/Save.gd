@@ -9,7 +9,7 @@ var _language_path: String
 func _ready():
 	if OS.has_feature("editor"):
 		print("Running on editor")
-		_language_path = DEBUG_LANGUAGE_PATH
+		_language_path = RELEASE_LANGUAGE_PATH
 	else:
 		_language_path = RELEASE_LANGUAGE_PATH
 	load_data()
