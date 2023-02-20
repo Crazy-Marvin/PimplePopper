@@ -11,7 +11,7 @@ export_presets.cfg
 data/
 android/build/
 build/
-android/
+# android/
 # Mono-specific ignores
 .mono/
 data_*/
