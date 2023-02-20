@@ -7,7 +7,7 @@ var level_type: String = ''
 
 
 func _ready():
-	pass
+	text = tr(text)
 
 
 func _on_LevelButton_pressed():
