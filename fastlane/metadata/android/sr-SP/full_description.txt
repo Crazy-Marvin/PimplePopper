@@ -1,6 +1,21 @@
-Pimple Popper is a game about popping pimples and removing blackheads, whiteheads, lipomas and similar stuff. Download now and feel the huge satisfaction!
+Pimple Popper је игра о истискивању бубуљица и уклањању митисера, акни, масних ткива и сличних ствари. Download now and feel the huge satisfaction!
 
-<b>Features:</b>
+<b>Karakteristike:</b>
+
+<ul>
+<li>Otvorenog koda 🎉</li>
+<li>Ekstremno zadovoljavajuć 🤣</li>
+<li>Poprilično realističan 😉</li>
+<li>Mogao bi vam dobro doći u svakodnevnom životu 😜</li>
+<li>Možete nam poslati svoje prave bubuljice i dobiti besplatnu poruku 🙈</li>
+</ul>
+Početna stranica: <a href="https://www. crazymarvin. com/pimple-popper">https://www. crazymarvin. com/pimple-popper</a>
+
+Pomozite nam sa prevodom: <a href="https://crowdin. com/project/pimple-popper">https://crowdin. com/project/pimple-popper</a>
+
+Izvorni kod na GitHub-u: <a href="https://github. com/Crazy-Marvin/PimplePopper">https://github. com/Crazy-Marvin/PimplePopper</a>
+
+Uživajte! 👌
 
 <ul>
 <li>Open Source 🎉</li>
