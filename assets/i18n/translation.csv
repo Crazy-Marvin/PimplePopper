@@ -1,3 +1,31 @@
+<<<<<<< HEAD
+"ID","en","es","de","en-revised","af","ar","ca","zh-CN","zh-TW","cs","da","nl","fi","fr","el","he","hu","it","ja","ko","no","pl","pt","pt-BR","ro","ru","sr","si","sv","tr","uk","vi"
+"K_PLAY","Play","Comenzar","Start","","Play","Play","Play","Play","Play","Play","Play","Play","Play","Play","Play","Play","Play","Play","Play","Play","Play","Play","Play","Play","Play","Играть","Покрени","ධාවනය","Play","Play","Грати","Play"
+"K_TUTORIAL","Tutorial","Tutorial","Anleitung","","Tutorial","Tutorial","Tutorial","Tutorial","Tutorial","Tutorial","Tutorial","Tutorial","Tutorial","Tutorial","Tutorial","Tutorial","Tutorial","Tutorial","Tutorial","Tutorial","Tutorial","Tutorial","Tutorial","Tutorial","Tutorial","Инструкция","Водич","ඉගැන්වීම","Tutorial","Tutorial","Інструкція","Tutorial"
+"K_ABOUT","About","Sobre","Über","","About","About","About","About","About","About","About","About","About","About","About","About","About","About","About","About","About","About","About","About","About","О приложении","О програму","පිළිබඳව","About","About","Про додаток","About"
+"K_CHEEK_LEVEL_BUTTON","Cheek","Cachete","Wange","","Cheek","Cheek","Cheek","Cheek","Cheek","Cheek","Cheek","Cheek","Cheek","Cheek","Cheek","Cheek","Cheek","Cheek","Cheek","Cheek","Cheek","Cheek","Cheek","Cheek","Cheek","Щека","Cheek","කන්මුල","Cheek","Cheek","Щока","Cheek"
+"K_FOREHEAD_LEVEL_BUTTON","Forehead","Frente","Stirn","","Forehead","Forehead","Forehead","Forehead","Forehead","Forehead","Forehead","Forehead","Forehead","Forehead","Forehead","Forehead","Forehead","Forehead","Forehead","Forehead","Forehead","Forehead","Forehead","Forehead","Forehead","Лоб","Forehead","නළල","Forehead","Forehead","Чоло","Forehead"
+"K_WRIST_LEVEL_BUTTON","Wrist","Muñeca","Handgelenk","","Wrist","Wrist","Wrist","Wrist","Wrist","Wrist","Wrist","Wrist","Wrist","Wrist","Wrist","Wrist","Wrist","Wrist","Wrist","Wrist","Wrist","Wrist","Wrist","Wrist","Wrist","Запястье","Wrist","මැණික්කටුව","Wrist","Wrist","Зап'ясток","Wrist"
+"K_BACK_LEVEL_BUTTON","Back","Espalda","Rücken","","Back","Back","Back","Back","Back","Back","Back","Back","Back","Back","Back","Back","Back","Back","Back","Back","Back","Back","Back","Back","Back","Спина","Back","ආපසු","Back","Back","Спина","Back"
+"K_CHEST_LEVEL_BUTTON","Chest","Pecho","Brust","","Chest","Chest","Chest","Chest","Chest","Chest","Chest","Chest","Chest","Chest","Chest","Chest","Chest","Chest","Chest","Chest","Chest","Chest","Chest","Chest","Chest","Грудь","Chest","උරස්ථලය","Chest","Chest","Груди","Chest"
+"","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"K_BACK_BUTTON","Back","Atras","Zurück","","Back","Back","Back","Back","Back","Back","Back","Back","Back","Back","Back","Back","Back","Back","Back","Back","Back","Back","Back","Back","Back","Назад","Back","ආපසු","Back","Back","Назад","Back"
+"K_EASY_BUTTON","Easy","Fácil","Einfach","","Easy","Easy","Easy","Easy","Easy","Easy","Easy","Easy","Easy","Easy","Easy","Easy","Easy","Easy","Easy","Easy","Easy","Easy","Easy","Easy","Easy","Легкий","Easy","ලෙහෙසි","Easy","Easy","Легкий","Easy"
+"K_NORMAL_BUTTON","Normal","Normal","Normal","","Normal","Normal","Normal","Normal","Normal","Normal","Normal","Normal","Normal","Normal","Normal","Normal","Normal","Normal","Normal","Normal","Normal","Normal","Normal","Normal","Normal","Средний","Normal","සාමාන්‍ය","Normal","Normal","Середній","Normal"
+"K_HARD_BUTTON","Hard","Difícil","Schwierig","","Hard","Hard","Hard","Hard","Hard","Hard","Hard","Hard","Hard","Hard","Hard","Hard","Hard","Hard","Hard","Hard","Hard","Hard","Hard","Hard","Hard","Сложный","Hard","අමාරු","Hard","Hard","Складний","Hard"
+"K_SUPER_HARD_BUTTON","Super hard","Super difícil","Äußerst schwierig","","Super hard","Super hard","Super hard","Super hard","Super hard","Super hard","Super hard","Super hard","Super hard","Super hard","Super hard","Super hard","Super hard","Super hard","Super hard","Super hard","Super hard","Super hard","Super hard","Super hard","Super hard","Очень сложный","Super hard","ඉතා අමාරු","Super hard","Super hard","Дуже складний","Super hard"
+"K_OPTIONS","Options","Opciones","Einstellungen","","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Опции","Options","විකල්ප","Options","Options","Опції","Options"
+"K_HAND_TOOL","Hand","Mano","Hand","","Hand","Hand","Hand","Hand","Hand","Hand","Hand","Hand","Hand","Hand","Hand","Hand","Hand","Hand","Hand","Hand","Hand","Hand","Hand","Hand","Hand","Рука","Hand","අත","Hand","Hand","Рука","Hand"
+"K_HANDKERCHIEF_TOOL","Handkerchief","Pañuelo","Taschentuch","","Handkerchief","Handkerchief","Handkerchief","Handkerchief","Handkerchief","Handkerchief","Handkerchief","Handkerchief","Handkerchief","Handkerchief","Handkerchief","Handkerchief","Handkerchief","Handkerchief","Handkerchief","Handkerchief","Handkerchief","Handkerchief","Handkerchief","Handkerchief","Handkerchief","Носовой платок","Handkerchief","අත් ලේන්සුව","Handkerchief","Handkerchief","Носова хустинка","Handkerchief"
+"K_VAPOR_TOOL","Vapor","Vapor","Wasserdampf","","Vapor","Vapor","Vapor","Vapor","Vapor","Vapor","Vapor","Vapor","Vapor","Vapor","Vapor","Vapor","Vapor","Vapor","Vapor","Vapor","Vapor","Vapor","Vapor","Vapor","Vapor","Пар","Vapor","හුමාලය","Vapor","Vapor","Пара","Vapor"
+"K_COMEDONE_TOOL","Comedone","Comedona","Mitesser","","Comedone","Comedone","Comedone","Comedone","Comedone","Comedone","Comedone","Comedone","Comedone","Comedone","Comedone","Comedone","Comedone","Comedone","Comedone","Comedone","Comedone","Comedone","Comedone","Comedone","Comedone","Комедон","Comedone","වර්විය","Comedone","Comedone","Комедон","Comedone"
+"K_NEEDLE_TOOL","Needle","Inyectadora","Nadel","","Needle","Needle","Needle","Needle","Needle","Needle","Needle","Needle","Needle","Needle","Needle","Needle","Needle","Needle","Needle","Needle","Needle","Needle","Needle","Needle","Needle","Игла","Needle","ඉදිකටුව","Needle","Needle","Голка","Needle"
+"K_ANESTHETIC_TOOL","Anestesia","Anestesia","Anästhesie","","Anestesia","Anestesia","Anestesia","Anestesia","Anestesia","Anestesia","Anestesia","Anestesia","Anestesia","Anestesia","Anestesia","Anestesia","Anestesia","Anestesia","Anestesia","Anestesia","Anestesia","Anestesia","Anestesia","Anestesia","Anestesia","Анестезия","Anestesia","නිර්වින්දනය","Anestesia","Anestesia","Анестезія","Anestesia"
+"K_SUTURE_TOOL","Suture","Suturar","Vernähen","","Suture","Suture","Suture","Suture","Suture","Suture","Suture","Suture","Suture","Suture","Suture","Suture","Suture","Suture","Suture","Suture","Suture","Suture","Suture","Suture","Suture","Хирургическая нить","Suture","මැසීම","Suture","Suture","Хірургічна нитка","Suture"
+"K_CUTTER_TOOL","Cutter","Exacto","Messer","","Cutter","Cutter","Cutter","Cutter","Cutter","Cutter","Cutter","Cutter","Cutter","Cutter","Cutter","Cutter","Cutter","Cutter","Cutter","Cutter","Cutter","Cutter","Cutter","Cutter","Cutter","Режущий инструмент","Cutter","කපනය","Cutter","Cutter","Ріжучий інструмент","Cutter"
+"","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"K_TUTORIAL_DEVELOPMENT_MESSAGE","The tutorial is under the works.
+=======
 ID,en,es,de,af,ar,ca,cs,da,nl,fi,fr,el,he,hu,it,ja,ko
 K_PLAY,Play,Comenzar,Start,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play
 K_TUTORIAL,Tutorial,Tutorial,Anleitung,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial
@@ -27,6 +55,7 @@ K_SUTURE_TOOL,Suture,Suturar,Vernähen,Suture,Suture,Suture,Suture,Suture,Suture
 K_CUTTER_TOOL,Cutter,Exacto,Messer,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter
 ,,,,,,,,,,,,,,,,,
 K_TUTORIAL_DEVELOPMENT_MESSAGE,"The tutorial is under the works.
+>>>>>>> trunk
 
 Please, wait for an app update","El tutorial está en desarrollo.
 
@@ -60,8 +89,38 @@ Please, wait for an app update","The tutorial is under the works.
 
 Please, wait for an app update","The tutorial is under the works.
 
+Please, wait for an app update","The tutorial is under the works.
+
+Please, wait for an app update","The tutorial is under the works.
+
+Please, wait for an app update","The tutorial is under the works.
+
+Please, wait for an app update","The tutorial is under the works.
+
+Please, wait for an app update","The tutorial is under the works.
+
+Please, wait for an app update","The tutorial is under the works.
+
+Please, wait for an app update","The tutorial is under the works.
+
+Please, wait for an app update","The tutorial is under the works.
+
+Please, wait for an app update","Инструкция находится в разработке.
+
+Пожалуйста, дождитесь обновления приложения","The tutorial is under the works.
+
+Please, wait for an app update","මෙම ඉගැන්වීම සකසමින් පවතී.
+
+යාවත්කාලයක් සඳහා බලා සිටින්න","The tutorial is under the works.
+
+Please, wait for an app update","The tutorial is under the works.
+
+Please, wait for an app update","Інструкція знаходиться у розробці.
+
+Будь ласка, зачекайте на оновлення додатка","The tutorial is under the works.
+
 Please, wait for an app update"
-K_GAME_AVAILABLE_MESSAGE,"This game isn't available yet.
+"K_GAME_AVAILABLE_MESSAGE","This game isn't available yet.
 
 At this moment just the following games are available:
  Wrist - Easy.
@@ -165,13 +224,104 @@ At this moment just the following games are available:
  Wrist - Easy.
  Forehead - Normal.
  Wrist - Hard.
+ Back - Super Hard.","This game isn't available yet.
+
+At this moment just the following games are available:
+ Wrist - Easy.
+ Forehead - Normal.
+ Wrist - Hard.
+ Back - Super Hard.","This game isn't available yet.
+
+At this moment just the following games are available:
+ Wrist - Easy.
+ Forehead - Normal.
+ Wrist - Hard.
+ Back - Super Hard.","This game isn't available yet.
+
+At this moment just the following games are available:
+ Wrist - Easy.
+ Forehead - Normal.
+ Wrist - Hard.
+ Back - Super Hard.","This game isn't available yet.
+
+At this moment just the following games are available:
+ Wrist - Easy.
+ Forehead - Normal.
+ Wrist - Hard.
+ Back - Super Hard.","This game isn't available yet.
+
+At this moment just the following games are available:
+ Wrist - Easy.
+ Forehead - Normal.
+ Wrist - Hard.
+ Back - Super Hard.","This game isn't available yet.
+
+At this moment just the following games are available:
+ Wrist - Easy.
+ Forehead - Normal.
+ Wrist - Hard.
+ Back - Super Hard.","This game isn't available yet.
+
+At this moment just the following games are available:
+ Wrist - Easy.
+ Forehead - Normal.
+ Wrist - Hard.
+ Back - Super Hard.","This game isn't available yet.
+
+At this moment just the following games are available:
+ Wrist - Easy.
+ Forehead - Normal.
+ Wrist - Hard.
+ Back - Super Hard.","Эта игра пока недоступна.
+
+На данный момент доступны такие игры:
+Запястье - Легкий.
+Лоб - Средний.
+Запястье - Сложный.
+Спина - Очень сложный.","This game isn't available yet.
+
+At this moment just the following games are available:
+ Wrist - Easy.
+ Forehead - Normal.
+ Wrist - Hard.
+ Back - Super Hard.","මෙම ක්‍රීඩාව තවම නැත.
+
+මේ මොහොතේ පහත සඳහන් ක්‍රීඩා තිබේ:
+මැණික්කටුව - පහසුයි.
+නළල - සාමාන්‍යයි.
+මැණික්කටුව - අමාරුයි.
+කොන්ද - ඉතා අමාරුයි.","This game isn't available yet.
+
+At this moment just the following games are available:
+ Wrist - Easy.
+ Forehead - Normal.
+ Wrist - Hard.
+ Back - Super Hard.","This game isn't available yet.
+
+At this moment just the following games are available:
+ Wrist - Easy.
+ Forehead - Normal.
+ Wrist - Hard.
+ Back - Super Hard.","Ця гра поки що недоступна.
+
+На даний момент доступні такі ігри:
+Зап'ясток - Легкий.
+Чоло - Середній.
+Зап'ясток - Складний.
+Спина - Дуже складний.","This game isn't available yet.
+
+At this moment just the following games are available:
+ Wrist - Easy.
+ Forehead - Normal.
+ Wrist - Hard.
  Back - Super Hard."
-K_ABOUT_TITLE,About,Sobre,Über,About,About,About,About,About,About,About,About,About,About,About,About,About,About
-K_LEVEL_TITLE,Level,Nivel,Schwierigkeit,Level,Level,Level,Level,Level,Level,Level,Level,Level,Level,Level,Level,Level,Level
-K_BODYPART_TITLE,Bodypart,Parte del cuerpo,Körperteil,Bodypart,Bodypart,Bodypart,Bodypart,Bodypart,Bodypart,Bodypart,Bodypart,Bodypart,Bodypart,Bodypart,Bodypart,Bodypart,Bodypart
-K_HINT_BUTTON,Hint,Pista,Hilfe,Hint,Hint,Hint,Hint,Hint,Hint,Hint,Hint,Hint,Hint,Hint,Hint,Hint,Hint
-K_EXIT_GAME_BUTTON,Exit,Salir,Beenden,Exit,Exit,Exit,Exit,Exit,Exit,Exit,Exit,Exit,Exit,Exit,Exit,Exit,Exit
-K_ABOUT_TEXT,"[color=black]
+
+"K_ABOUT_TITLE","About","Sobre","Über","","About","About","About","About","About","About","About","About","About","About","About","About","About","About","About","About","About","About","About","About","About","Об игре","About","පිළිබඳව","About","About","Про додаток","About"
+"K_LEVEL_TITLE","Level","Nivel","Schwierigkeit","","Level","Level","Level","Level","Level","Level","Level","Level","Level","Level","Level","Level","Level","Level","Level","Level","Level","Level","Level","Level","Level","Уровень","Level","මට්ටම","Level","Level","Рівень","Level"
+"K_BODYPART_TITLE","Bodypart","Parte del cuerpo","Körperteil","","Bodypart","Bodypart","Bodypart","Bodypart","Bodypart","Bodypart","Bodypart","Bodypart","Bodypart","Bodypart","Bodypart","Bodypart","Bodypart","Bodypart","Bodypart","Bodypart","Bodypart","Bodypart","Bodypart","Bodypart","Bodypart","Часть тела","Bodypart","ශරීරකොටස","Bodypart","Bodypart","Частина тіла","Bodypart"
+"K_HINT_BUTTON","Hint","Pista","Hilfe","","Hint","Hint","Hint","Hint","Hint","Hint","Hint","Hint","Hint","Hint","Hint","Hint","Hint","Hint","Hint","Hint","Hint","Hint","Hint","Hint","Hint","Подсказка","Наговештаји","ඉඟිය","Hint","Hint","Підказка","Hint"
+"K_EXIT_GAME_BUTTON","Exit","Salir","Beenden","","Exit","Exit","Exit","Exit","Exit","Exit","Exit","Exit","Exit","Exit","Exit","Exit","Exit","Exit","Exit","Exit","Exit","Exit","Exit","Exit","Exit","Выйти","Изађи","පිටවන්න","Exit","Exit","Вийти","Exit"
+"K_ABOUT_TEXT","[color=black]
 
 Pimple Popper allows you to enjoy the experience of removing protuberance on different human body parts.
 
@@ -596,8 +746,383 @@ We are also interested in your real-life pops. [url=""mailto:marvin@poopjournal.
 [url=""https://crazymarvin.com/pimple-popper/terms-of-service/""][color=#0000FF]Legal[/color][/url]  [img=15]res://assets/icons/law.svg[/img]
 
 [url=""https://www.buymeacoffee.com/Marvin""][color=#0000FF]Send us a coffee[/color][/url]  [img=16]res://assets/icons/bmc.svg[/img]
+[/color]","[color=black]
+
+Pimple Popper allows you to enjoy the experience of removing protuberance on different human body parts.
+
+We hope you enjoy this game. If you notice any bugs, have any questions or feedback feel free to [url=""mailto:marvin@poopjournal.rocks""][color=#0000FF]send an email[/color][/url] or open an [url=""https://github.com/Crazy-Marvin/PimplePopper/issues""][color=#0000FF]issue[/color][/url]. 
+
+We are also interested in your real-life pops. [url=""mailto:marvin@poopjournal.rocks""][color=#0000FF]Send them[/color][/url]
+
+[url=""https://www.linkedin.com/in/mottajordan""][color=#0000FF]Main Programmer[/color][/url]  [img=15]res://assets/icons/linkedin.svg[/img]
+
+[url=""https://www.behance.net/alexrendon""][color=#0000FF]Main Artist[/color][/url]  [img=15]res://assets/icons/behance.svg[/img] 
+
+[url=""https://www.github.com/Crazy-Marvin/PimplePopper/""][color=#0000FF]Source[/color][/url]  [img=15]res://assets/icons/github.svg[/img]
+
+[url=""https://www.crazymarvin.com/pimple-popper""][color=#0000FF]Homepage[/color][/url]  [img=15]res://assets/icons/home.svg[/img]
+
+[url=""https://www.godotengine.org/""][color=#0000FF]Powered by Godot[/color][/url]  [img=15]res://assets/icons/godot.svg[/img]
+
+[url=""https://www.crowdin.com/project/pimple-popper""][color=#0000FF]Help us with translations[/color][/url]  [img=15]res://assets/icons/crowdin.svg[/img]
+
+[url=""https://www.github.com/Crazy-Marvin/PimplePopper/blob/master/LICENSE""][color=#0000FF]License[/color][/url] [img=15]res://assets/icons/github.svg[/img]
+
+[url=""https://crazymarvin.com/pimple-popper/terms-of-service/""][color=#0000FF]Legal[/color][/url]  [img=15]res://assets/icons/law.svg[/img]
+
+[url=""https://www.buymeacoffee.com/Marvin""][color=#0000FF]Send us a coffee[/color][/url]  [img=16]res://assets/icons/bmc.svg[/img]
+[/color]","[color=black]
+
+Pimple Popper allows you to enjoy the experience of removing protuberance on different human body parts.
+
+We hope you enjoy this game. If you notice any bugs, have any questions or feedback feel free to [url=""mailto:marvin@poopjournal.rocks""][color=#0000FF]send an email[/color][/url] or open an [url=""https://github.com/Crazy-Marvin/PimplePopper/issues""][color=#0000FF]issue[/color][/url]. 
+
+We are also interested in your real-life pops. [url=""mailto:marvin@poopjournal.rocks""][color=#0000FF]Send them[/color][/url]
+
+[url=""https://www.linkedin.com/in/mottajordan""][color=#0000FF]Main Programmer[/color][/url]  [img=15]res://assets/icons/linkedin.svg[/img]
+
+[url=""https://www.behance.net/alexrendon""][color=#0000FF]Main Artist[/color][/url]  [img=15]res://assets/icons/behance.svg[/img] 
+
+[url=""https://www.github.com/Crazy-Marvin/PimplePopper/""][color=#0000FF]Source[/color][/url]  [img=15]res://assets/icons/github.svg[/img]
+
+[url=""https://www.crazymarvin.com/pimple-popper""][color=#0000FF]Homepage[/color][/url]  [img=15]res://assets/icons/home.svg[/img]
+
+[url=""https://www.godotengine.org/""][color=#0000FF]Powered by Godot[/color][/url]  [img=15]res://assets/icons/godot.svg[/img]
+
+[url=""https://www.crowdin.com/project/pimple-popper""][color=#0000FF]Help us with translations[/color][/url]  [img=15]res://assets/icons/crowdin.svg[/img]
+
+[url=""https://www.github.com/Crazy-Marvin/PimplePopper/blob/master/LICENSE""][color=#0000FF]License[/color][/url] [img=15]res://assets/icons/github.svg[/img]
+
+[url=""https://crazymarvin.com/pimple-popper/terms-of-service/""][color=#0000FF]Legal[/color][/url]  [img=15]res://assets/icons/law.svg[/img]
+
+[url=""https://www.buymeacoffee.com/Marvin""][color=#0000FF]Send us a coffee[/color][/url]  [img=16]res://assets/icons/bmc.svg[/img]
+[/color]","[color=black]
+
+Pimple Popper allows you to enjoy the experience of removing protuberance on different human body parts.
+
+We hope you enjoy this game. If you notice any bugs, have any questions or feedback feel free to [url=""mailto:marvin@poopjournal.rocks""][color=#0000FF]send an email[/color][/url] or open an [url=""https://github.com/Crazy-Marvin/PimplePopper/issues""][color=#0000FF]issue[/color][/url]. 
+
+We are also interested in your real-life pops. [url=""mailto:marvin@poopjournal.rocks""][color=#0000FF]Send them[/color][/url]
+
+[url=""https://www.linkedin.com/in/mottajordan""][color=#0000FF]Main Programmer[/color][/url]  [img=15]res://assets/icons/linkedin.svg[/img]
+
+[url=""https://www.behance.net/alexrendon""][color=#0000FF]Main Artist[/color][/url]  [img=15]res://assets/icons/behance.svg[/img] 
+
+[url=""https://www.github.com/Crazy-Marvin/PimplePopper/""][color=#0000FF]Source[/color][/url]  [img=15]res://assets/icons/github.svg[/img]
+
+[url=""https://www.crazymarvin.com/pimple-popper""][color=#0000FF]Homepage[/color][/url]  [img=15]res://assets/icons/home.svg[/img]
+
+[url=""https://www.godotengine.org/""][color=#0000FF]Powered by Godot[/color][/url]  [img=15]res://assets/icons/godot.svg[/img]
+
+[url=""https://www.crowdin.com/project/pimple-popper""][color=#0000FF]Help us with translations[/color][/url]  [img=15]res://assets/icons/crowdin.svg[/img]
+
+[url=""https://www.github.com/Crazy-Marvin/PimplePopper/blob/master/LICENSE""][color=#0000FF]License[/color][/url] [img=15]res://assets/icons/github.svg[/img]
+
+[url=""https://crazymarvin.com/pimple-popper/terms-of-service/""][color=#0000FF]Legal[/color][/url]  [img=15]res://assets/icons/law.svg[/img]
+
+[url=""https://www.buymeacoffee.com/Marvin""][color=#0000FF]Send us a coffee[/color][/url]  [img=16]res://assets/icons/bmc.svg[/img]
+[/color]","[color=black]
+
+Pimple Popper allows you to enjoy the experience of removing protuberance on different human body parts.
+
+We hope you enjoy this game. If you notice any bugs, have any questions or feedback feel free to [url=""mailto:marvin@poopjournal.rocks""][color=#0000FF]send an email[/color][/url] or open an [url=""https://github.com/Crazy-Marvin/PimplePopper/issues""][color=#0000FF]issue[/color][/url]. 
+
+We are also interested in your real-life pops. [url=""mailto:marvin@poopjournal.rocks""][color=#0000FF]Send them[/color][/url]
+
+[url=""https://www.linkedin.com/in/mottajordan""][color=#0000FF]Main Programmer[/color][/url]  [img=15]res://assets/icons/linkedin.svg[/img]
+
+[url=""https://www.behance.net/alexrendon""][color=#0000FF]Main Artist[/color][/url]  [img=15]res://assets/icons/behance.svg[/img] 
+
+[url=""https://www.github.com/Crazy-Marvin/PimplePopper/""][color=#0000FF]Source[/color][/url]  [img=15]res://assets/icons/github.svg[/img]
+
+[url=""https://www.crazymarvin.com/pimple-popper""][color=#0000FF]Homepage[/color][/url]  [img=15]res://assets/icons/home.svg[/img]
+
+[url=""https://www.godotengine.org/""][color=#0000FF]Powered by Godot[/color][/url]  [img=15]res://assets/icons/godot.svg[/img]
+
+[url=""https://www.crowdin.com/project/pimple-popper""][color=#0000FF]Help us with translations[/color][/url]  [img=15]res://assets/icons/crowdin.svg[/img]
+
+[url=""https://www.github.com/Crazy-Marvin/PimplePopper/blob/master/LICENSE""][color=#0000FF]License[/color][/url] [img=15]res://assets/icons/github.svg[/img]
+
+[url=""https://crazymarvin.com/pimple-popper/terms-of-service/""][color=#0000FF]Legal[/color][/url]  [img=15]res://assets/icons/law.svg[/img]
+
+[url=""https://www.buymeacoffee.com/Marvin""][color=#0000FF]Send us a coffee[/color][/url]  [img=16]res://assets/icons/bmc.svg[/img]
+[/color]","[color=black]
+
+Pimple Popper allows you to enjoy the experience of removing protuberance on different human body parts.
+
+We hope you enjoy this game. If you notice any bugs, have any questions or feedback feel free to [url=""mailto:marvin@poopjournal.rocks""][color=#0000FF]send an email[/color][/url] or open an [url=""https://github.com/Crazy-Marvin/PimplePopper/issues""][color=#0000FF]issue[/color][/url]. 
+
+We are also interested in your real-life pops. [url=""mailto:marvin@poopjournal.rocks""][color=#0000FF]Send them[/color][/url]
+
+[url=""https://www.linkedin.com/in/mottajordan""][color=#0000FF]Main Programmer[/color][/url]  [img=15]res://assets/icons/linkedin.svg[/img]
+
+[url=""https://www.behance.net/alexrendon""][color=#0000FF]Main Artist[/color][/url]  [img=15]res://assets/icons/behance.svg[/img] 
+
+[url=""https://www.github.com/Crazy-Marvin/PimplePopper/""][color=#0000FF]Source[/color][/url]  [img=15]res://assets/icons/github.svg[/img]
+
+[url=""https://www.crazymarvin.com/pimple-popper""][color=#0000FF]Homepage[/color][/url]  [img=15]res://assets/icons/home.svg[/img]
+
+[url=""https://www.godotengine.org/""][color=#0000FF]Powered by Godot[/color][/url]  [img=15]res://assets/icons/godot.svg[/img]
+
+[url=""https://www.crowdin.com/project/pimple-popper""][color=#0000FF]Help us with translations[/color][/url]  [img=15]res://assets/icons/crowdin.svg[/img]
+
+[url=""https://www.github.com/Crazy-Marvin/PimplePopper/blob/master/LICENSE""][color=#0000FF]License[/color][/url] [img=15]res://assets/icons/github.svg[/img]
+
+[url=""https://crazymarvin.com/pimple-popper/terms-of-service/""][color=#0000FF]Legal[/color][/url]  [img=15]res://assets/icons/law.svg[/img]
+
+[url=""https://www.buymeacoffee.com/Marvin""][color=#0000FF]Send us a coffee[/color][/url]  [img=16]res://assets/icons/bmc.svg[/img]
+[/color]","[color=black]
+
+Pimple Popper allows you to enjoy the experience of removing protuberance on different human body parts.
+
+We hope you enjoy this game. If you notice any bugs, have any questions or feedback feel free to [url=""mailto:marvin@poopjournal.rocks""][color=#0000FF]send an email[/color][/url] or open an [url=""https://github.com/Crazy-Marvin/PimplePopper/issues""][color=#0000FF]issue[/color][/url]. 
+
+We are also interested in your real-life pops. [url=""mailto:marvin@poopjournal.rocks""][color=#0000FF]Send them[/color][/url]
+
+[url=""https://www.linkedin.com/in/mottajordan""][color=#0000FF]Main Programmer[/color][/url]  [img=15]res://assets/icons/linkedin.svg[/img]
+
+[url=""https://www.behance.net/alexrendon""][color=#0000FF]Main Artist[/color][/url]  [img=15]res://assets/icons/behance.svg[/img] 
+
+[url=""https://www.github.com/Crazy-Marvin/PimplePopper/""][color=#0000FF]Source[/color][/url]  [img=15]res://assets/icons/github.svg[/img]
+
+[url=""https://www.crazymarvin.com/pimple-popper""][color=#0000FF]Homepage[/color][/url]  [img=15]res://assets/icons/home.svg[/img]
+
+[url=""https://www.godotengine.org/""][color=#0000FF]Powered by Godot[/color][/url]  [img=15]res://assets/icons/godot.svg[/img]
+
+[url=""https://www.crowdin.com/project/pimple-popper""][color=#0000FF]Help us with translations[/color][/url]  [img=15]res://assets/icons/crowdin.svg[/img]
+
+[url=""https://www.github.com/Crazy-Marvin/PimplePopper/blob/master/LICENSE""][color=#0000FF]License[/color][/url] [img=15]res://assets/icons/github.svg[/img]
+
+[url=""https://crazymarvin.com/pimple-popper/terms-of-service/""][color=#0000FF]Legal[/color][/url]  [img=15]res://assets/icons/law.svg[/img]
+
+[url=""https://www.buymeacoffee.com/Marvin""][color=#0000FF]Send us a coffee[/color][/url]  [img=16]res://assets/icons/bmc.svg[/img]
+[/color]","[color=black]
+
+Pimple Popper allows you to enjoy the experience of removing protuberance on different human body parts.
+
+We hope you enjoy this game. If you notice any bugs, have any questions or feedback feel free to [url=""mailto:marvin@poopjournal.rocks""][color=#0000FF]send an email[/color][/url] or open an [url=""https://github.com/Crazy-Marvin/PimplePopper/issues""][color=#0000FF]issue[/color][/url]. 
+
+We are also interested in your real-life pops. [url=""mailto:marvin@poopjournal.rocks""][color=#0000FF]Send them[/color][/url]
+
+[url=""https://www.linkedin.com/in/mottajordan""][color=#0000FF]Main Programmer[/color][/url]  [img=15]res://assets/icons/linkedin.svg[/img]
+
+[url=""https://www.behance.net/alexrendon""][color=#0000FF]Main Artist[/color][/url]  [img=15]res://assets/icons/behance.svg[/img] 
+
+[url=""https://www.github.com/Crazy-Marvin/PimplePopper/""][color=#0000FF]Source[/color][/url]  [img=15]res://assets/icons/github.svg[/img]
+
+[url=""https://www.crazymarvin.com/pimple-popper""][color=#0000FF]Homepage[/color][/url]  [img=15]res://assets/icons/home.svg[/img]
+
+[url=""https://www.godotengine.org/""][color=#0000FF]Powered by Godot[/color][/url]  [img=15]res://assets/icons/godot.svg[/img]
+
+[url=""https://www.crowdin.com/project/pimple-popper""][color=#0000FF]Help us with translations[/color][/url]  [img=15]res://assets/icons/crowdin.svg[/img]
+
+[url=""https://www.github.com/Crazy-Marvin/PimplePopper/blob/master/LICENSE""][color=#0000FF]License[/color][/url] [img=15]res://assets/icons/github.svg[/img]
+
+[url=""https://crazymarvin.com/pimple-popper/terms-of-service/""][color=#0000FF]Legal[/color][/url]  [img=15]res://assets/icons/law.svg[/img]
+
+[url=""https://www.buymeacoffee.com/Marvin""][color=#0000FF]Send us a coffee[/color][/url]  [img=16]res://assets/icons/bmc.svg[/img]
+[/color]","[color=black]
+
+Pimple Popper allows you to enjoy the experience of removing protuberance on different human body parts.
+
+We hope you enjoy this game. If you notice any bugs, have any questions or feedback feel free to [url=""mailto:marvin@poopjournal.rocks""][color=#0000FF]send an email[/color][/url] or open an [url=""https://github.com/Crazy-Marvin/PimplePopper/issues""][color=#0000FF]issue[/color][/url]. 
+
+We are also interested in your real-life pops. [url=""mailto:marvin@poopjournal.rocks""][color=#0000FF]Send them[/color][/url]
+
+[url=""https://www.linkedin.com/in/mottajordan""][color=#0000FF]Main Programmer[/color][/url]  [img=15]res://assets/icons/linkedin.svg[/img]
+
+[url=""https://www.behance.net/alexrendon""][color=#0000FF]Main Artist[/color][/url]  [img=15]res://assets/icons/behance.svg[/img] 
+
+[url=""https://www.github.com/Crazy-Marvin/PimplePopper/""][color=#0000FF]Source[/color][/url]  [img=15]res://assets/icons/github.svg[/img]
+
+[url=""https://www.crazymarvin.com/pimple-popper""][color=#0000FF]Homepage[/color][/url]  [img=15]res://assets/icons/home.svg[/img]
+
+[url=""https://www.godotengine.org/""][color=#0000FF]Powered by Godot[/color][/url]  [img=15]res://assets/icons/godot.svg[/img]
+
+[url=""https://www.crowdin.com/project/pimple-popper""][color=#0000FF]Help us with translations[/color][/url]  [img=15]res://assets/icons/crowdin.svg[/img]
+
+[url=""https://www.github.com/Crazy-Marvin/PimplePopper/blob/master/LICENSE""][color=#0000FF]License[/color][/url] [img=15]res://assets/icons/github.svg[/img]
+
+[url=""https://crazymarvin.com/pimple-popper/terms-of-service/""][color=#0000FF]Legal[/color][/url]  [img=15]res://assets/icons/law.svg[/img]
+
+[url=""https://www.buymeacoffee.com/Marvin""][color=#0000FF]Send us a coffee[/color][/url]  [img=16]res://assets/icons/bmc.svg[/img]
+[/color]","[color=black]
+
+Pimple Popper allows you to enjoy the experience of removing protuberance on different human body parts.
+
+We hope you enjoy this game. If you notice any bugs, have any questions or feedback feel free to [url=""mailto:marvin@poopjournal.rocks""][color=#0000FF]send an email[/color][/url] or open an [url=""https://github.com/Crazy-Marvin/PimplePopper/issues""][color=#0000FF]issue[/color][/url]. 
+
+We are also interested in your real-life pops. [url=""mailto:marvin@poopjournal.rocks""][color=#0000FF]Send them[/color][/url]
+
+[url=""https://www.linkedin.com/in/mottajordan""][color=#0000FF]Main Programmer[/color][/url]  [img=15]res://assets/icons/linkedin.svg[/img]
+
+[url=""https://www.behance.net/alexrendon""][color=#0000FF]Main Artist[/color][/url]  [img=15]res://assets/icons/behance.svg[/img] 
+
+[url=""https://www.github.com/Crazy-Marvin/PimplePopper/""][color=#0000FF]Source[/color][/url]  [img=15]res://assets/icons/github.svg[/img]
+
+[url=""https://www.crazymarvin.com/pimple-popper""][color=#0000FF]Homepage[/color][/url]  [img=15]res://assets/icons/home.svg[/img]
+
+[url=""https://www.godotengine.org/""][color=#0000FF]Powered by Godot[/color][/url]  [img=15]res://assets/icons/godot.svg[/img]
+
+[url=""https://www.crowdin.com/project/pimple-popper""][color=#0000FF]Help us with translations[/color][/url]  [img=15]res://assets/icons/crowdin.svg[/img]
+
+[url=""https://www.github.com/Crazy-Marvin/PimplePopper/blob/master/LICENSE""][color=#0000FF]License[/color][/url] [img=15]res://assets/icons/github.svg[/img]
+
+[url=""https://crazymarvin.com/pimple-popper/terms-of-service/""][color=#0000FF]Legal[/color][/url]  [img=15]res://assets/icons/law.svg[/img]
+
+[url=""https://www.buymeacoffee.com/Marvin""][color=#0000FF]Send us a coffee[/color][/url]  [img=16]res://assets/icons/bmc.svg[/img]
+[/color]","[color=black]
+
+Pimple Popper allows you to enjoy the experience of removing protuberance on different human body parts.
+
+We hope you enjoy this game. If you notice any bugs, have any questions or feedback feel free to [url=""mailto:marvin@poopjournal.rocks""][color=#0000FF]send an email[/color][/url] or open an [url=""https://github.com/Crazy-Marvin/PimplePopper/issues""][color=#0000FF]issue[/color][/url]. 
+
+We are also interested in your real-life pops. [url=""mailto:marvin@poopjournal.rocks""][color=#0000FF]Send them[/color][/url]
+
+[url=""https://www.linkedin.com/in/mottajordan""][color=#0000FF]Main Programmer[/color][/url]  [img=15]res://assets/icons/linkedin.svg[/img]
+
+[url=""https://www.behance.net/alexrendon""][color=#0000FF]Main Artist[/color][/url]  [img=15]res://assets/icons/behance.svg[/img] 
+
+[url=""https://www.github.com/Crazy-Marvin/PimplePopper/""][color=#0000FF]Source[/color][/url]  [img=15]res://assets/icons/github.svg[/img]
+
+[url=""https://www.crazymarvin.com/pimple-popper""][color=#0000FF]Homepage[/color][/url]  [img=15]res://assets/icons/home.svg[/img]
+
+[url=""https://www.godotengine.org/""][color=#0000FF]Powered by Godot[/color][/url]  [img=15]res://assets/icons/godot.svg[/img]
+
+[url=""https://www.crowdin.com/project/pimple-popper""][color=#0000FF]Help us with translations[/color][/url]  [img=15]res://assets/icons/crowdin.svg[/img]
+
+[url=""https://www.github.com/Crazy-Marvin/PimplePopper/blob/master/LICENSE""][color=#0000FF]License[/color][/url] [img=15]res://assets/icons/github.svg[/img]
+
+[url=""https://crazymarvin.com/pimple-popper/terms-of-service/""][color=#0000FF]Legal[/color][/url]  [img=15]res://assets/icons/law.svg[/img]
+
+[url=""https://www.buymeacoffee.com/Marvin""][color=#0000FF]Send us a coffee[/color][/url]  [img=16]res://assets/icons/bmc.svg[/img]
+[/color]","[color=black]
+
+Pimple Popper allows you to enjoy the experience of removing protuberance on different human body parts.
+
+We hope you enjoy this game. If you notice any bugs, have any questions or feedback feel free to [url=""mailto:marvin@poopjournal.rocks""][color=#0000FF]send an email[/color][/url] or open an [url=""https://github.com/Crazy-Marvin/PimplePopper/issues""][color=#0000FF]issue[/color][/url]. 
+
+We are also interested in your real-life pops. [url=""mailto:marvin@poopjournal.rocks""][color=#0000FF]Send them[/color][/url]
+
+[url=""https://www.linkedin.com/in/mottajordan""][color=#0000FF]Main Programmer[/color][/url]  [img=15]res://assets/icons/linkedin.svg[/img]
+
+[url=""https://www.behance.net/alexrendon""][color=#0000FF]Main Artist[/color][/url]  [img=15]res://assets/icons/behance.svg[/img] 
+
+[url=""https://www.github.com/Crazy-Marvin/PimplePopper/""][color=#0000FF]Source[/color][/url]  [img=15]res://assets/icons/github.svg[/img]
+
+[url=""https://www.crazymarvin.com/pimple-popper""][color=#0000FF]Homepage[/color][/url]  [img=15]res://assets/icons/home.svg[/img]
+
+[url=""https://www.godotengine.org/""][color=#0000FF]Powered by Godot[/color][/url]  [img=15]res://assets/icons/godot.svg[/img]
+
+[url=""https://www.crowdin.com/project/pimple-popper""][color=#0000FF]Help us with translations[/color][/url]  [img=15]res://assets/icons/crowdin.svg[/img]
+
+[url=""https://www.github.com/Crazy-Marvin/PimplePopper/blob/master/LICENSE""][color=#0000FF]License[/color][/url] [img=15]res://assets/icons/github.svg[/img]
+
+[url=""https://crazymarvin.com/pimple-popper/terms-of-service/""][color=#0000FF]Legal[/color][/url]  [img=15]res://assets/icons/law.svg[/img]
+
+[url=""https://www.buymeacoffee.com/Marvin""][color=#0000FF]Send us a coffee[/color][/url]  [img=16]res://assets/icons/bmc.svg[/img]
+[/color]","[color=black]
+
+Pimple Popper allows you to enjoy the experience of removing protuberance on different human body parts.
+
+We hope you enjoy this game. If you notice any bugs, have any questions or feedback feel free to [url=""mailto:marvin@poopjournal.rocks""][color=#0000FF]send an email[/color][/url] or open an [url=""https://github.com/Crazy-Marvin/PimplePopper/issues""][color=#0000FF]issue[/color][/url]. 
+
+We are also interested in your real-life pops. [url=""mailto:marvin@poopjournal.rocks""][color=#0000FF]Send them[/color][/url]
+
+[url=""https://www.linkedin.com/in/mottajordan""][color=#0000FF]Main Programmer[/color][/url]  [img=15]res://assets/icons/linkedin.svg[/img]
+
+[url=""https://www.behance.net/alexrendon""][color=#0000FF]Main Artist[/color][/url]  [img=15]res://assets/icons/behance.svg[/img] 
+
+[url=""https://www.github.com/Crazy-Marvin/PimplePopper/""][color=#0000FF]Source[/color][/url]  [img=15]res://assets/icons/github.svg[/img]
+
+[url=""https://www.crazymarvin.com/pimple-popper""][color=#0000FF]Homepage[/color][/url]  [img=15]res://assets/icons/home.svg[/img]
+
+[url=""https://www.godotengine.org/""][color=#0000FF]Powered by Godot[/color][/url]  [img=15]res://assets/icons/godot.svg[/img]
+
+[url=""https://www.crowdin.com/project/pimple-popper""][color=#0000FF]Help us with translations[/color][/url]  [img=15]res://assets/icons/crowdin.svg[/img]
+
+[url=""https://www.github.com/Crazy-Marvin/PimplePopper/blob/master/LICENSE""][color=#0000FF]License[/color][/url] [img=15]res://assets/icons/github.svg[/img]
+
+[url=""https://crazymarvin.com/pimple-popper/terms-of-service/""][color=#0000FF]Legal[/color][/url]  [img=15]res://assets/icons/law.svg[/img]
+
+[url=""https://www.buymeacoffee.com/Marvin""][color=#0000FF]Send us a coffee[/color][/url]  [img=16]res://assets/icons/bmc.svg[/img]
+[/color]","[color=black]
+
+Pimple Popper allows you to enjoy the experience of removing protuberance on different human body parts.
+
+We hope you enjoy this game. If you notice any bugs, have any questions or feedback feel free to [url=""mailto:marvin@poopjournal.rocks""][color=#0000FF]send an email[/color][/url] or open an [url=""https://github.com/Crazy-Marvin/PimplePopper/issues""][color=#0000FF]issue[/color][/url]. 
+
+We are also interested in your real-life pops. [url=""mailto:marvin@poopjournal.rocks""][color=#0000FF]Send them[/color][/url]
+
+[url=""https://www.linkedin.com/in/mottajordan""][color=#0000FF]Main Programmer[/color][/url]  [img=15]res://assets/icons/linkedin.svg[/img]
+
+[url=""https://www.behance.net/alexrendon""][color=#0000FF]Main Artist[/color][/url]  [img=15]res://assets/icons/behance.svg[/img] 
+
+[url=""https://www.github.com/Crazy-Marvin/PimplePopper/""][color=#0000FF]Source[/color][/url]  [img=15]res://assets/icons/github.svg[/img]
+
+[url=""https://www.crazymarvin.com/pimple-popper""][color=#0000FF]Homepage[/color][/url]  [img=15]res://assets/icons/home.svg[/img]
+
+[url=""https://www.godotengine.org/""][color=#0000FF]Powered by Godot[/color][/url]  [img=15]res://assets/icons/godot.svg[/img]
+
+[url=""https://www.crowdin.com/project/pimple-popper""][color=#0000FF]Help us with translations[/color][/url]  [img=15]res://assets/icons/crowdin.svg[/img]
+
+[url=""https://www.github.com/Crazy-Marvin/PimplePopper/blob/master/LICENSE""][color=#0000FF]License[/color][/url] [img=15]res://assets/icons/github.svg[/img]
+
+[url=""https://crazymarvin.com/pimple-popper/terms-of-service/""][color=#0000FF]Legal[/color][/url]  [img=15]res://assets/icons/law.svg[/img]
+
+[url=""https://www.buymeacoffee.com/Marvin""][color=#0000FF]Send us a coffee[/color][/url]  [img=16]res://assets/icons/bmc.svg[/img]
+[/color]","[color=black]
+
+Pimple Popper allows you to enjoy the experience of removing protuberance on different human body parts.
+
+We hope you enjoy this game. If you notice any bugs, have any questions or feedback feel free to [url=""mailto:marvin@poopjournal.rocks""][color=#0000FF]send an email[/color][/url] or open an [url=""https://github.com/Crazy-Marvin/PimplePopper/issues""][color=#0000FF]issue[/color][/url]. 
+
+We are also interested in your real-life pops. [url=""mailto:marvin@poopjournal.rocks""][color=#0000FF]Send them[/color][/url]
+
+[url=""https://www.linkedin.com/in/mottajordan""][color=#0000FF]Main Programmer[/color][/url]  [img=15]res://assets/icons/linkedin.svg[/img]
+
+[url=""https://www.behance.net/alexrendon""][color=#0000FF]Main Artist[/color][/url]  [img=15]res://assets/icons/behance.svg[/img] 
+
+[url=""https://www.github.com/Crazy-Marvin/PimplePopper/""][color=#0000FF]Source[/color][/url]  [img=15]res://assets/icons/github.svg[/img]
+
+[url=""https://www.crazymarvin.com/pimple-popper""][color=#0000FF]Homepage[/color][/url]  [img=15]res://assets/icons/home.svg[/img]
+
+[url=""https://www.godotengine.org/""][color=#0000FF]Powered by Godot[/color][/url]  [img=15]res://assets/icons/godot.svg[/img]
+
+[url=""https://www.crowdin.com/project/pimple-popper""][color=#0000FF]Help us with translations[/color][/url]  [img=15]res://assets/icons/crowdin.svg[/img]
+
+[url=""https://www.github.com/Crazy-Marvin/PimplePopper/blob/master/LICENSE""][color=#0000FF]License[/color][/url] [img=15]res://assets/icons/github.svg[/img]
+
+[url=""https://crazymarvin.com/pimple-popper/terms-of-service/""][color=#0000FF]Legal[/color][/url]  [img=15]res://assets/icons/law.svg[/img]
+
+[url=""https://www.buymeacoffee.com/Marvin""][color=#0000FF]Send us a coffee[/color][/url]  [img=16]res://assets/icons/bmc.svg[/img]
+[/color]","[color=black]
+
+Pimple Popper allows you to enjoy the experience of removing protuberance on different human body parts.
+
+We hope you enjoy this game. If you notice any bugs, have any questions or feedback feel free to [url=""mailto:marvin@poopjournal.rocks""][color=#0000FF]send an email[/color][/url] or open an [url=""https://github.com/Crazy-Marvin/PimplePopper/issues""][color=#0000FF]issue[/color][/url]. 
+
+We are also interested in your real-life pops. [url=""mailto:marvin@poopjournal.rocks""][color=#0000FF]Send them[/color][/url]
+
+[url=""https://www.linkedin.com/in/mottajordan""][color=#0000FF]Main Programmer[/color][/url]  [img=15]res://assets/icons/linkedin.svg[/img]
+
+[url=""https://www.behance.net/alexrendon""][color=#0000FF]Main Artist[/color][/url]  [img=15]res://assets/icons/behance.svg[/img] 
+
+[url=""https://www.github.com/Crazy-Marvin/PimplePopper/""][color=#0000FF]Source[/color][/url]  [img=15]res://assets/icons/github.svg[/img]
+
+[url=""https://www.crazymarvin.com/pimple-popper""][color=#0000FF]Homepage[/color][/url]  [img=15]res://assets/icons/home.svg[/img]
+
+[url=""https://www.godotengine.org/""][color=#0000FF]Powered by Godot[/color][/url]  [img=15]res://assets/icons/godot.svg[/img]
+
+[url=""https://www.crowdin.com/project/pimple-popper""][color=#0000FF]Help us with translations[/color][/url]  [img=15]res://assets/icons/crowdin.svg[/img]
+
+[url=""https://www.github.com/Crazy-Marvin/PimplePopper/blob/master/LICENSE""][color=#0000FF]License[/color][/url] [img=15]res://assets/icons/github.svg[/img]
+
+[url=""https://crazymarvin.com/pimple-popper/terms-of-service/""][color=#0000FF]Legal[/color][/url]  [img=15]res://assets/icons/law.svg[/img]
+
+[url=""https://www.buymeacoffee.com/Marvin""][color=#0000FF]Send us a coffee[/color][/url]  [img=16]res://assets/icons/bmc.svg[/img]
 [/color]"
-K_PIMPLE_TUTORIAL_TEXT,"In this section you need to remove some pimples from different parts of the body.
+"K_PIMPLE_TUTORIAL_TEXT","In this section you need to remove some pimples from different parts of the body.
 
 In order to remove the pimples, you just need to enable the hand tool and use your finger to apply pressure to pop the pimple. Then when the pimple's popped, use a handkerchief to clean the are. You aren't going to be a good doctor if you left all those stuff there.","En esta sección necesitas remover algunas espinillas de diferentes partes del cuerpo.
 
@@ -631,8 +1156,38 @@ In order to remove the pimples, you just need to enable the hand tool and use yo
 
 In order to remove the pimples, you just need to enable the hand tool and use your finger to apply pressure to pop the pimple. Then when the pimple's popped, use a handkerchief to clean the are. You aren't going to be a good doctor if you left all those stuff there.","In this section you need to remove some pimples from different parts of the body.
 
+In order to remove the pimples, you just need to enable the hand tool and use your finger to apply pressure to pop the pimple. Then when the pimple's popped, use a handkerchief to clean the are. You aren't going to be a good doctor if you left all those stuff there.","In this section you need to remove some pimples from different parts of the body.
+
+In order to remove the pimples, you just need to enable the hand tool and use your finger to apply pressure to pop the pimple. Then when the pimple's popped, use a handkerchief to clean the are. You aren't going to be a good doctor if you left all those stuff there.","In this section you need to remove some pimples from different parts of the body.
+
+In order to remove the pimples, you just need to enable the hand tool and use your finger to apply pressure to pop the pimple. Then when the pimple's popped, use a handkerchief to clean the are. You aren't going to be a good doctor if you left all those stuff there.","In this section you need to remove some pimples from different parts of the body.
+
+In order to remove the pimples, you just need to enable the hand tool and use your finger to apply pressure to pop the pimple. Then when the pimple's popped, use a handkerchief to clean the are. You aren't going to be a good doctor if you left all those stuff there.","In this section you need to remove some pimples from different parts of the body.
+
+In order to remove the pimples, you just need to enable the hand tool and use your finger to apply pressure to pop the pimple. Then when the pimple's popped, use a handkerchief to clean the are. You aren't going to be a good doctor if you left all those stuff there.","In this section you need to remove some pimples from different parts of the body.
+
+In order to remove the pimples, you just need to enable the hand tool and use your finger to apply pressure to pop the pimple. Then when the pimple's popped, use a handkerchief to clean the are. You aren't going to be a good doctor if you left all those stuff there.","In this section you need to remove some pimples from different parts of the body.
+
+In order to remove the pimples, you just need to enable the hand tool and use your finger to apply pressure to pop the pimple. Then when the pimple's popped, use a handkerchief to clean the are. You aren't going to be a good doctor if you left all those stuff there.","In this section you need to remove some pimples from different parts of the body.
+
+In order to remove the pimples, you just need to enable the hand tool and use your finger to apply pressure to pop the pimple. Then when the pimple's popped, use a handkerchief to clean the are. You aren't going to be a good doctor if you left all those stuff there.","In this section you need to remove some pimples from different parts of the body.
+
+In order to remove the pimples, you just need to enable the hand tool and use your finger to apply pressure to pop the pimple. Then when the pimple's popped, use a handkerchief to clean the are. You aren't going to be a good doctor if you left all those stuff there.","В этом блоке вам нужно будет удалить несколько прыщей с разных частей тела.
+
+Чтобы удалить прыщи, все, что вам нужно, это активизировать ручной инструмент и надавить пальцем на прыщ, чтобы выдавить его. После того, когда прыщ будет выдавлен, используйте носовой платок, чтобы протереть этот участок кожи. Вы не станете хорошим доктором, если оставите все как есть.","In this section you need to remove some pimples from different parts of the body.
+
+In order to remove the pimples, you just need to enable the hand tool and use your finger to apply pressure to pop the pimple. Then when the pimple's popped, use a handkerchief to clean the are. You aren't going to be a good doctor if you left all those stuff there.","මෙහිදී ඔබ ශරීරයේ විවිධ කොටස් වලින් කුරුලෑ කිහිපයක් ඉවත් කළ යුතුය.
+
+කුරුලෑ ඉවත් කිරීමට ඔබ අත් මෙවලම සබල කළ යුතු අතර ඔබගේ ඇඟිල්ලෙන් කුරුලෑව පිපිරවීමට පීඩනය යෙදිය යුතුය. ඉන්පසු කුරුලෑව පිපිරුනු පසු අත් ලේන්සුවක් භාවිතයෙන් ඒවා පිරිසිදු කරන්න. යමක් ඉතිරි කළහොත් ඔබ හොඳ දොස්තර කෙනෙක් නොවනු ඇත.","In this section you need to remove some pimples from different parts of the body.
+
+In order to remove the pimples, you just need to enable the hand tool and use your finger to apply pressure to pop the pimple. Then when the pimple's popped, use a handkerchief to clean the are. You aren't going to be a good doctor if you left all those stuff there.","In this section you need to remove some pimples from different parts of the body.
+
+In order to remove the pimples, you just need to enable the hand tool and use your finger to apply pressure to pop the pimple. Then when the pimple's popped, use a handkerchief to clean the are. You aren't going to be a good doctor if you left all those stuff there.","У цьому блоці вам потрібно видалити кілька прищів із різних частин тіла.
+
+Щоб видалити прищі, вам потрібно лише активізувати ручний інструмент і натиснути пальцем на прищ, щоб видавити його. Після того, як прищ буде видавлений, скористайтеся носову хустинкою, щоб протерти ділянку шкіри. Ви не станете хорошим лікарем, якщо залишите все як є.","In this section you need to remove some pimples from different parts of the body.
+
 In order to remove the pimples, you just need to enable the hand tool and use your finger to apply pressure to pop the pimple. Then when the pimple's popped, use a handkerchief to clean the are. You aren't going to be a good doctor if you left all those stuff there."
-K_BLACKHEAD_TUTORIAL_TEXT,"For this kind of protuberance you need to be careful.
+"K_BLACKHEAD_TUTORIAL_TEXT","For this kind of protuberance you need to be careful.
 
 First, you need to apply vapor in order to open the pore. You will note that the pore was opened because the phone doesn‘t vibrate.
 
@@ -734,8 +1289,98 @@ First, you need to apply vapor in order to open the pore. You will note that the
 
 Then, you need to select the comedone tool and double touch the blackhead. When you do that, the comedone will be placed onto the protuberance, finally, touch the screen and drag the finger down and the protuberance will be removed.
 
+Of course, do not forget to clean the area after you do all the work.","For this kind of protuberance you need to be careful.
+
+First, you need to apply vapor in order to open the pore. You will note that the pore was opened because the phone doesn‘t vibrate.
+
+Then, you need to select the comedone tool and double touch the blackhead. When you do that, the comedone will be placed onto the protuberance, finally, touch the screen and drag the finger down and the protuberance will be removed.
+
+Of course, do not forget to clean the area after you do all the work.","For this kind of protuberance you need to be careful.
+
+First, you need to apply vapor in order to open the pore. You will note that the pore was opened because the phone doesn‘t vibrate.
+
+Then, you need to select the comedone tool and double touch the blackhead. When you do that, the comedone will be placed onto the protuberance, finally, touch the screen and drag the finger down and the protuberance will be removed.
+
+Of course, do not forget to clean the area after you do all the work.","For this kind of protuberance you need to be careful.
+
+First, you need to apply vapor in order to open the pore. You will note that the pore was opened because the phone doesn‘t vibrate.
+
+Then, you need to select the comedone tool and double touch the blackhead. When you do that, the comedone will be placed onto the protuberance, finally, touch the screen and drag the finger down and the protuberance will be removed.
+
+Of course, do not forget to clean the area after you do all the work.","For this kind of protuberance you need to be careful.
+
+First, you need to apply vapor in order to open the pore. You will note that the pore was opened because the phone doesn‘t vibrate.
+
+Then, you need to select the comedone tool and double touch the blackhead. When you do that, the comedone will be placed onto the protuberance, finally, touch the screen and drag the finger down and the protuberance will be removed.
+
+Of course, do not forget to clean the area after you do all the work.","For this kind of protuberance you need to be careful.
+
+First, you need to apply vapor in order to open the pore. You will note that the pore was opened because the phone doesn‘t vibrate.
+
+Then, you need to select the comedone tool and double touch the blackhead. When you do that, the comedone will be placed onto the protuberance, finally, touch the screen and drag the finger down and the protuberance will be removed.
+
+Of course, do not forget to clean the area after you do all the work.","For this kind of protuberance you need to be careful.
+
+First, you need to apply vapor in order to open the pore. You will note that the pore was opened because the phone doesn‘t vibrate.
+
+Then, you need to select the comedone tool and double touch the blackhead. When you do that, the comedone will be placed onto the protuberance, finally, touch the screen and drag the finger down and the protuberance will be removed.
+
+Of course, do not forget to clean the area after you do all the work.","For this kind of protuberance you need to be careful.
+
+First, you need to apply vapor in order to open the pore. You will note that the pore was opened because the phone doesn‘t vibrate.
+
+Then, you need to select the comedone tool and double touch the blackhead. When you do that, the comedone will be placed onto the protuberance, finally, touch the screen and drag the finger down and the protuberance will be removed.
+
+Of course, do not forget to clean the area after you do all the work.","For this kind of protuberance you need to be careful.
+
+First, you need to apply vapor in order to open the pore. You will note that the pore was opened because the phone doesn‘t vibrate.
+
+Then, you need to select the comedone tool and double touch the blackhead. When you do that, the comedone will be placed onto the protuberance, finally, touch the screen and drag the finger down and the protuberance will be removed.
+
+Of course, do not forget to clean the area after you do all the work.","С таким кожным образованием нужно быть предельно осторожными.
+
+Во-первых, чтобы открыть поры, необходимо распарить кожу. Вы заметите, что пора открылась, потому что телефон не будет вибрировать.
+
+После этого вам нужно будет выбрать инструмент для удаления комедонов и дважды коснуться угря. Когда вы это сделаете, комедон будет выделен, после чего необходимо коснуться экрана и провести пальцем вниз, чтобы удалить образование.
+
+И, конечно же, после завершения процедуры не забудьте очистить участок кожи, с которым вы работали.","For this kind of protuberance you need to be careful.
+
+First, you need to apply vapor in order to open the pore. You will note that the pore was opened because the phone doesn‘t vibrate.
+
+Then, you need to select the comedone tool and double touch the blackhead. When you do that, the comedone will be placed onto the protuberance, finally, touch the screen and drag the finger down and the protuberance will be removed.
+
+Of course, do not forget to clean the area after you do all the work.","මෙම ආකාරයේ ඉදිමුම් ගැන ඔබ පරෙස්සම් විය යුතුය.
+
+පළමුව, සිදුර විවෘත කිරීමට ඔබ හුමාලය යෙදිය යුතුය. දුරකථනය කම්පනය නොවීම සිදුර විවෘත වූ බව ඔබට සටහන් කරයි.
+
+ඉන්පසුව, ඔබ වර්විය මෙවලම තෝරාගෙන කළු ලපය මත ද්විත්ව ස්පර්ශය කළ යුතුය. ඔබ එය කරන විට වර්විය ඉදිමුම මත තැබෙනු ඇත, අවසානයේ, තිරය ස්පර්ශ කරගෙන ඇඟිල්ල පහළට අදින්න, එවිට ඉදිමුම ඉවත් වනු ඇත.
+
+සැබැවින්ම, ඔබ සියලු වැඩ කිරීමෙන් පසු ප්‍රදේශය පිරිසිදු කිරීමට අමතක නොකරන්න.","For this kind of protuberance you need to be careful.
+
+First, you need to apply vapor in order to open the pore. You will note that the pore was opened because the phone doesn‘t vibrate.
+
+Then, you need to select the comedone tool and double touch the blackhead. When you do that, the comedone will be placed onto the protuberance, finally, touch the screen and drag the finger down and the protuberance will be removed.
+
+Of course, do not forget to clean the area after you do all the work.","For this kind of protuberance you need to be careful.
+
+First, you need to apply vapor in order to open the pore. You will note that the pore was opened because the phone doesn‘t vibrate.
+
+Then, you need to select the comedone tool and double touch the blackhead. When you do that, the comedone will be placed onto the protuberance, finally, touch the screen and drag the finger down and the protuberance will be removed.
+
+Of course, do not forget to clean the area after you do all the work.","З таким шкірним утворенням потрібно бути дуже обережними.
+
+По-перше, щоб відкрити пори, необхідно розпарити шкіру. Ви помітите, що пора відкрилася, тому що телефон не буде вібрувати.
+
+Після цього вам потрібно буде обрати інструмент для видалення комедонів і двічі торкнутися вугра. Коли ви це зробите, комедон буде виділено, після чого необхідно торкнутися екрану та провести пальцем вниз, щоб видалити утворення.
+
+І, звичайно ж, після завершення процедури не забудьте очистити ділянку шкіри, з якою ви працювали.","For this kind of protuberance you need to be careful.
+
+First, you need to apply vapor in order to open the pore. You will note that the pore was opened because the phone doesn‘t vibrate.
+
+Then, you need to select the comedone tool and double touch the blackhead. When you do that, the comedone will be placed onto the protuberance, finally, touch the screen and drag the finger down and the protuberance will be removed.
+
 Of course, do not forget to clean the area after you do all the work."
-K_CYST_TUTORIAL_TEXT,"Probably the easiest protuberance to remove.
+"K_CYST_TUTORIAL_TEXT","Probably the easiest protuberance to remove.
 
 That big thing can be removed when you select the needle tool and touch and hold in a specefic location of the protuberance. Touch the hint button if you need to locate it. If you touch the right location, a sound is emitted. Now with one finger holding the needle, use another one to extract the content of the protuberance.
 
@@ -801,8 +1446,68 @@ After you remove everything, remember to clean the are with the handkerchief.","
 
 That big thing can be removed when you select the needle tool and touch and hold in a specefic location of the protuberance. Touch the hint button if you need to locate it. If you touch the right location, a sound is emitted. Now with one finger holding the needle, use another one to extract the content of the protuberance.
 
+After you remove everything, remember to clean the are with the handkerchief.","Probably the easiest protuberance to remove.
+
+That big thing can be removed when you select the needle tool and touch and hold in a specefic location of the protuberance. Touch the hint button if you need to locate it. If you touch the right location, a sound is emitted. Now with one finger holding the needle, use another one to extract the content of the protuberance.
+
+After you remove everything, remember to clean the are with the handkerchief.","Probably the easiest protuberance to remove.
+
+That big thing can be removed when you select the needle tool and touch and hold in a specefic location of the protuberance. Touch the hint button if you need to locate it. If you touch the right location, a sound is emitted. Now with one finger holding the needle, use another one to extract the content of the protuberance.
+
+After you remove everything, remember to clean the are with the handkerchief.","Probably the easiest protuberance to remove.
+
+That big thing can be removed when you select the needle tool and touch and hold in a specefic location of the protuberance. Touch the hint button if you need to locate it. If you touch the right location, a sound is emitted. Now with one finger holding the needle, use another one to extract the content of the protuberance.
+
+After you remove everything, remember to clean the are with the handkerchief.","Probably the easiest protuberance to remove.
+
+That big thing can be removed when you select the needle tool and touch and hold in a specefic location of the protuberance. Touch the hint button if you need to locate it. If you touch the right location, a sound is emitted. Now with one finger holding the needle, use another one to extract the content of the protuberance.
+
+After you remove everything, remember to clean the are with the handkerchief.","Probably the easiest protuberance to remove.
+
+That big thing can be removed when you select the needle tool and touch and hold in a specefic location of the protuberance. Touch the hint button if you need to locate it. If you touch the right location, a sound is emitted. Now with one finger holding the needle, use another one to extract the content of the protuberance.
+
+After you remove everything, remember to clean the are with the handkerchief.","Probably the easiest protuberance to remove.
+
+That big thing can be removed when you select the needle tool and touch and hold in a specefic location of the protuberance. Touch the hint button if you need to locate it. If you touch the right location, a sound is emitted. Now with one finger holding the needle, use another one to extract the content of the protuberance.
+
+After you remove everything, remember to clean the are with the handkerchief.","Probably the easiest protuberance to remove.
+
+That big thing can be removed when you select the needle tool and touch and hold in a specefic location of the protuberance. Touch the hint button if you need to locate it. If you touch the right location, a sound is emitted. Now with one finger holding the needle, use another one to extract the content of the protuberance.
+
+After you remove everything, remember to clean the are with the handkerchief.","Probably the easiest protuberance to remove.
+
+That big thing can be removed when you select the needle tool and touch and hold in a specefic location of the protuberance. Touch the hint button if you need to locate it. If you touch the right location, a sound is emitted. Now with one finger holding the needle, use another one to extract the content of the protuberance.
+
+After you remove everything, remember to clean the are with the handkerchief.","Пожалуй, эти накожные образования удалять легче всего.
+
+Это большое образование можно удалить таким образом: выберите инструмент «Игла» и удерживайте его в определенной точке выпуклости. Коснитесь кнопки ""Подсказка"", если не знаете, где лучше разместить иглу. Если коснуться правильного места, раздастся звук. После этого, удерживая иглу одним пальцем, другим извлеките содержимое образования.
+
+После того, как вы все удалите, не забудьте протереть кожу носовым платком.","Probably the easiest protuberance to remove.
+
+That big thing can be removed when you select the needle tool and touch and hold in a specefic location of the protuberance. Touch the hint button if you need to locate it. If you touch the right location, a sound is emitted. Now with one finger holding the needle, use another one to extract the content of the protuberance.
+
+After you remove everything, remember to clean the are with the handkerchief.","පෙනෙන හැටියට ඉවත් කිරීමට පහසුම ඉදිමුමකි.
+
+විශාල දෙය ඔබ ඉඳිකටු මෙවලම තෝරාගෙන ඉදිමුමෙහි විශේෂිත ස්ථානයක් ස්පර්ශ කර අල්ලා ගත් විට ඉවත් කළ හැකිය. එය පිහිටි තැන සොයා ගැනීමට ඇවැසි නම් ඉඟිය බොත්තම ඔබන්න. ඔබ නිවැරදි ස්ථානය ස්පර්ශ කළහොත්, ශබ්දයක් පිට වේ. දැන් එක් ඇඟිල්ලකින් ඉඳිකටුව අල්ලාගෙන, අනෙත් එක භාවිතයෙන් ඉදිමුමෙහි අන්තර්ගතය මිරිකා ගන්න.
+
+ඔබ සියල්ල ඉවත් කළ පසු, අත් ලේන්සුවකින් ඒවා පිරිසිදු කිරීමට මතක තබා ගන්න.","Probably the easiest protuberance to remove.
+
+That big thing can be removed when you select the needle tool and touch and hold in a specefic location of the protuberance. Touch the hint button if you need to locate it. If you touch the right location, a sound is emitted. Now with one finger holding the needle, use another one to extract the content of the protuberance.
+
+After you remove everything, remember to clean the are with the handkerchief.","Probably the easiest protuberance to remove.
+
+That big thing can be removed when you select the needle tool and touch and hold in a specefic location of the protuberance. Touch the hint button if you need to locate it. If you touch the right location, a sound is emitted. Now with one finger holding the needle, use another one to extract the content of the protuberance.
+
+After you remove everything, remember to clean the are with the handkerchief.","Мабуть, ці шкірні утворення видаляти найлегше.
+
+Це велике утворення можна видалити таким чином: оберіть інструмент «Голка» та утримуйте його у певній точці випуклості. Натисніть кнопку ""Підказка"", якщо не знаєте, де краще розмістити голку. Якщо торкнутися правильного місця, ви почуєте звук. Після цього, утримуючи голку одним пальцем, іншим вийміть вміст утворення.
+
+Після того, як ви все видалите, не забудьте протерти шкіру носовою хустинкою.","Probably the easiest protuberance to remove.
+
+That big thing can be removed when you select the needle tool and touch and hold in a specefic location of the protuberance. Touch the hint button if you need to locate it. If you touch the right location, a sound is emitted. Now with one finger holding the needle, use another one to extract the content of the protuberance.
+
 After you remove everything, remember to clean the are with the handkerchief."
-K_LIPOMA_TUTORIAL_TEXT,"The complex protuberance to remove in a body. But i will show how to remove it.
+"K_LIPOMA_TUTORIAL_TEXT","The complex protuberance to remove in a body. But i will show how to remove it.
 
 First, you need to apply anaesthetic because you are going to cut the area. After you apply it you can select the cutter tool and cut the area.
 
@@ -904,20 +1609,111 @@ First, you need to apply anaesthetic because you are going to cut the area. Afte
 
 Now with the content exposed, use your hand to apply pressure and remove the content.
 
+And now that everything was removed, you will need to suture the wound.","The complex protuberance to remove in a body. But i will show how to remove it.
+
+First, you need to apply anaesthetic because you are going to cut the area. After you apply it you can select the cutter tool and cut the area.
+
+Now with the content exposed, use your hand to apply pressure and remove the content.
+
+And now that everything was removed, you will need to suture the wound.","The complex protuberance to remove in a body. But i will show how to remove it.
+
+First, you need to apply anaesthetic because you are going to cut the area. After you apply it you can select the cutter tool and cut the area.
+
+Now with the content exposed, use your hand to apply pressure and remove the content.
+
+And now that everything was removed, you will need to suture the wound.","The complex protuberance to remove in a body. But i will show how to remove it.
+
+First, you need to apply anaesthetic because you are going to cut the area. After you apply it you can select the cutter tool and cut the area.
+
+Now with the content exposed, use your hand to apply pressure and remove the content.
+
+And now that everything was removed, you will need to suture the wound.","The complex protuberance to remove in a body. But i will show how to remove it.
+
+First, you need to apply anaesthetic because you are going to cut the area. After you apply it you can select the cutter tool and cut the area.
+
+Now with the content exposed, use your hand to apply pressure and remove the content.
+
+And now that everything was removed, you will need to suture the wound.","The complex protuberance to remove in a body. But i will show how to remove it.
+
+First, you need to apply anaesthetic because you are going to cut the area. After you apply it you can select the cutter tool and cut the area.
+
+Now with the content exposed, use your hand to apply pressure and remove the content.
+
+And now that everything was removed, you will need to suture the wound.","The complex protuberance to remove in a body. But i will show how to remove it.
+
+First, you need to apply anaesthetic because you are going to cut the area. After you apply it you can select the cutter tool and cut the area.
+
+Now with the content exposed, use your hand to apply pressure and remove the content.
+
+And now that everything was removed, you will need to suture the wound.","The complex protuberance to remove in a body. But i will show how to remove it.
+
+First, you need to apply anaesthetic because you are going to cut the area. After you apply it you can select the cutter tool and cut the area.
+
+Now with the content exposed, use your hand to apply pressure and remove the content.
+
+And now that everything was removed, you will need to suture the wound.","The complex protuberance to remove in a body. But i will show how to remove it.
+
+First, you need to apply anaesthetic because you are going to cut the area. After you apply it you can select the cutter tool and cut the area.
+
+Now with the content exposed, use your hand to apply pressure and remove the content.
+
+And now that everything was removed, you will need to suture the wound.","Данное кожное образование является довольно сложным. Но я покажу, как его удалить.
+
+Во-первых, поскольку вы собираетесь резать кожу, необходимо применить анестетик. После этого вы можете выбрать режущий инструмент и сделать надрез.
+
+Теперь, когда образование вскрыто, надавите на него рукой, чтобы удалить содержимое.
+
+После завершения процедуры рану необходимо зашить.","The complex protuberance to remove in a body. But i will show how to remove it.
+
+First, you need to apply anaesthetic because you are going to cut the area. After you apply it you can select the cutter tool and cut the area.
+
+Now with the content exposed, use your hand to apply pressure and remove the content.
+
+And now that everything was removed, you will need to suture the wound.","ශරීරයක ඉවත් කළ යුතු සංකීර්ණ ඉදිමුමකි. නමුත් එය ඉවත් කරන්නේ කෙසේදැයි මම පෙන්වන්නම්.
+
+ඔබ ප්‍රදේශය කැපීමට යන නිසා පළමුව, නිර්වින්දනය යෙදිය යුතුය. ඔබ එය යෙදීමෙන් පසු කපන මෙවලම තෝරාගෙන ප්‍රදේශය කැපීමට හැකිය.
+
+දැන් අන්තර්ගතය නිරාවරණය වීමත් සමඟ ඔබගේ අත භාවිතා කර පීඩනය යෙදීමෙන් අන්තර්ගතය ඉවත් කරන්න.
+
+දැන් සියල්ල ඉවත් කර ඇති බැවින්, ඔබ තුවාලය මැසීම සිදු කළ යුතුය.","The complex protuberance to remove in a body. But i will show how to remove it.
+
+First, you need to apply anaesthetic because you are going to cut the area. After you apply it you can select the cutter tool and cut the area.
+
+Now with the content exposed, use your hand to apply pressure and remove the content.
+
+And now that everything was removed, you will need to suture the wound.","The complex protuberance to remove in a body. But i will show how to remove it.
+
+First, you need to apply anaesthetic because you are going to cut the area. After you apply it you can select the cutter tool and cut the area.
+
+Now with the content exposed, use your hand to apply pressure and remove the content.
+
+And now that everything was removed, you will need to suture the wound.","Це шкірне утворення є досить складним. Але я покажу, як його видалити.
+
+По-перше, оскільки ви збираєтеся різати шкіру, необхідно застосувати анестетик. Після цього ви можете обрати ріжучий інструмент і зробити надріз.
+
+Тепер, коли утворення розкрито, натисніть на нього рукою, щоб видалити вміст.
+
+Після завершення процедури рану необхідно зашити.","The complex protuberance to remove in a body. But i will show how to remove it.
+
+First, you need to apply anaesthetic because you are going to cut the area. After you apply it you can select the cutter tool and cut the area.
+
+Now with the content exposed, use your hand to apply pressure and remove the content.
+
 And now that everything was removed, you will need to suture the wound."
-K_LIPOMA_BUTTON,Lipoma,Lipoma,Lipom,Lipoma,Lipoma,Lipoma,Lipoma,Lipoma,Lipoma,Lipoma,Lipoma,Lipoma,Lipoma,Lipoma,Lipoma,Lipoma,Lipoma
-K_PIMPLE_BUTTON,Pimple,Espinilla,Pickel,Pimple,Pimple,Pimple,Pimple,Pimple,Pimple,Pimple,Pimple,Pimple,Pimple,Pimple,Pimple,Pimple,Pimple
-K_CYST_BUTTON,Cyst,Quiste,Zyste,Cyst,Cyst,Cyst,Cyst,Cyst,Cyst,Cyst,Cyst,Cyst,Cyst,Cyst,Cyst,Cyst,Cyst
-K_BLACKHEAD_BUTTON,Blackhead,Puntos negros,Mitesser,Blackhead,Blackhead,Blackhead,Blackhead,Blackhead,Blackhead,Blackhead,Blackhead,Blackhead,Blackhead,Blackhead,Blackhead,Blackhead,Blackhead
-K_OPTIONS_TITLE,Options,Opciones,Optionen,Options,Options,Options,Options,Options,Options,Options,Options,Options,Options,Options,Options,Options,Options
-K_LANGUAGE_OPTION_TITLE,Language,Idioma,Sprache,Language,Language,Language,Language,Language,Language,Language,Language,Language,Language,Language,Language,Language,Language
-K_SPANISH_SELECTION,Spanish,Español,Spanisch,Spanish,Spanish,Spanish,Spanish,Spanish,Spanish,Spanish,Spanish,Spanish,Spanish,Spanish,Spanish,Spanish,Spanish
-K_ENGLISH_SELECTION,English,Ingles,Englisch,English,English,English,English,English,English,English,English,English,English,English,English,English,English
-K_GERMAN_SELECTION,German,Alemán,Deutsch,German,German,German,German,German,German,German,German,German,German,German,German,German,German
-K_LANGUAGE_SELECTION,Select a language,Seleccione un idioma,Wählen Sie eine Sprache aus,Select a language,Select a language,Select a language,Select a language,Select a language,Select a language,Select a language,Select a language,Select a language,Select a language,Select a language,Select a language,Select a language,Select a language
-,,,,,,,,,,,,,,,,,
-"[/color]""",,,,,,,,,,,,,,,,,
-K_PIMPLE_TUTORIAL_TEXT,"In this section you need to remove some pimples from different parts of the body.
+
+"K_LIPOMA_BUTTON","Lipoma","Lipoma","Lipom","","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Липома","Lipoma","Lipoma","Lipoma","Lipoma","Ліпома","Lipoma"
+"K_PIMPLE_BUTTON","Pimple","Espinilla","Pickel","","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Прыщ","Pimple","කුරුලෑව","Pimple","Pimple","Прищ","Pimple"
+"K_CYST_BUTTON","Cyst","Quiste","Zyste","","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Киста","Cyst","Cyst","Cyst","Cyst","Кіста","Cyst"
+"K_BLACKHEAD_BUTTON","Blackhead","Puntos negros","Mitesser","","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Угорь","Blackhead","කළු ලපය","Blackhead","Blackhead","Вугор","Blackhead"
+"K_OPTIONS_TITLE","Options","Opciones","Optionen","","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Опции","Опције","විකල්ප","Options","Options","Опції","Options"
+"K_LANGUAGE_OPTION_TITLE","Language","Idioma","Sprache","","Language","Language","Language","Language","Language","Language","Language","Language","Language","Language","Language","Language","Language","Language","Language","Language","Language","Language","Language","Language","Language","Язык","Language","භාෂාව","Language","Language","Мова","Language"
+"K_SPANISH_SELECTION","Spanish","Español","Spanisch","","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Испанский","Spanish","ස්පාඤ්ඤ","Spanish","Spanish","Іспанська","Spanish"
+"K_ENGLISH_SELECTION","English","Ingles","Englisch","","English","English","English","English","English","English","English","English","English","English","English","English","English","English","English","English","English","English","English","English","English","Английский","Енглески","ඉංග්‍රීසි","English","English","Англійська","English"
+"K_GERMAN_SELECTION","German","Alemán","Deutsch","","German","German","German","German","German","German","German","German","German","German","German","German","German","German","German","German","German","German","German","German","German","Немецкий","German","ජර්මානු","German","German","Німецька","German"
+"K_LANGUAGE_SELECTION","Select a language","Seleccione un idioma","Wählen Sie eine Sprache aus","","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Выбрать язык","Одабери језик","භාෂාව තෝරන්න","Select a language","Select a language","Обрати мову","Select a language"
+
+"[/color]""","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
+"K_PIMPLE_TUTORIAL_TEXT","In this section you need to remove some pimples from different parts of the body.
 
 In order to remove the pimples, you just need to enable the hand tool and use your finger to apply pressure to pop the pimple. Then when the pimple's popped, use a handkerchief to clean the are. You aren't going to be a good doctor if you left all those stuff there.","En esta sección necesitas remover algunas espinillas de diferentes partes del cuerpo.
 
@@ -951,8 +1747,38 @@ In order to remove the pimples, you just need to enable the hand tool and use yo
 
 In order to remove the pimples, you just need to enable the hand tool and use your finger to apply pressure to pop the pimple. Then when the pimple's popped, use a handkerchief to clean the are. You aren't going to be a good doctor if you left all those stuff there.","In this section you need to remove some pimples from different parts of the body.
 
+In order to remove the pimples, you just need to enable the hand tool and use your finger to apply pressure to pop the pimple. Then when the pimple's popped, use a handkerchief to clean the are. You aren't going to be a good doctor if you left all those stuff there.","In this section you need to remove some pimples from different parts of the body.
+
+In order to remove the pimples, you just need to enable the hand tool and use your finger to apply pressure to pop the pimple. Then when the pimple's popped, use a handkerchief to clean the are. You aren't going to be a good doctor if you left all those stuff there.","In this section you need to remove some pimples from different parts of the body.
+
+In order to remove the pimples, you just need to enable the hand tool and use your finger to apply pressure to pop the pimple. Then when the pimple's popped, use a handkerchief to clean the are. You aren't going to be a good doctor if you left all those stuff there.","In this section you need to remove some pimples from different parts of the body.
+
+In order to remove the pimples, you just need to enable the hand tool and use your finger to apply pressure to pop the pimple. Then when the pimple's popped, use a handkerchief to clean the are. You aren't going to be a good doctor if you left all those stuff there.","In this section you need to remove some pimples from different parts of the body.
+
+In order to remove the pimples, you just need to enable the hand tool and use your finger to apply pressure to pop the pimple. Then when the pimple's popped, use a handkerchief to clean the are. You aren't going to be a good doctor if you left all those stuff there.","In this section you need to remove some pimples from different parts of the body.
+
+In order to remove the pimples, you just need to enable the hand tool and use your finger to apply pressure to pop the pimple. Then when the pimple's popped, use a handkerchief to clean the are. You aren't going to be a good doctor if you left all those stuff there.","In this section you need to remove some pimples from different parts of the body.
+
+In order to remove the pimples, you just need to enable the hand tool and use your finger to apply pressure to pop the pimple. Then when the pimple's popped, use a handkerchief to clean the are. You aren't going to be a good doctor if you left all those stuff there.","In this section you need to remove some pimples from different parts of the body.
+
+In order to remove the pimples, you just need to enable the hand tool and use your finger to apply pressure to pop the pimple. Then when the pimple's popped, use a handkerchief to clean the are. You aren't going to be a good doctor if you left all those stuff there.","In this section you need to remove some pimples from different parts of the body.
+
+In order to remove the pimples, you just need to enable the hand tool and use your finger to apply pressure to pop the pimple. Then when the pimple's popped, use a handkerchief to clean the are. You aren't going to be a good doctor if you left all those stuff there.","В этом блоке вам нужно будет удалить несколько прыщей с разных частей тела.
+
+Чтобы удалить прыщи, все, что вам нужно, это активизировать ручной инструмент и надавить пальцем на прыщ, чтобы выдавить его. После того, когда прыщ будет выдавлен, используйте носовой платок, чтобы протереть этот участок кожи. Вы не станете хорошим доктором, если оставите все как есть.","In this section you need to remove some pimples from different parts of the body.
+
+In order to remove the pimples, you just need to enable the hand tool and use your finger to apply pressure to pop the pimple. Then when the pimple's popped, use a handkerchief to clean the are. You aren't going to be a good doctor if you left all those stuff there.","මෙහිදී ඔබ ශරීරයේ විවිධ කොටස් වලින් කුරුලෑ කිහිපයක් ඉවත් කළ යුතුය.
+
+කුරුලෑ ඉවත් කිරීමට ඔබ අත් මෙවලම සබල කළ යුතු අතර ඔබගේ ඇඟිල්ලෙන් කුරුලෑව පිපිරවීමට පීඩනය යෙදිය යුතුය. ඉන්පසු කුරුලෑව පිපිරුනු පසු අත් ලේන්සුවක් භාවිතයෙන් ඒවා පිරිසිදු කරන්න. යමක් ඉතිරි කළහොත් ඔබ හොඳ දොස්තර කෙනෙක් නොවනු ඇත.","In this section you need to remove some pimples from different parts of the body.
+
+In order to remove the pimples, you just need to enable the hand tool and use your finger to apply pressure to pop the pimple. Then when the pimple's popped, use a handkerchief to clean the are. You aren't going to be a good doctor if you left all those stuff there.","In this section you need to remove some pimples from different parts of the body.
+
+In order to remove the pimples, you just need to enable the hand tool and use your finger to apply pressure to pop the pimple. Then when the pimple's popped, use a handkerchief to clean the are. You aren't going to be a good doctor if you left all those stuff there.","У цьому блоці вам потрібно видалити кілька прищів із різних частин тіла.
+
+Щоб видалити прищі, вам потрібно лише активізувати ручний інструмент і натиснути пальцем на прищ, щоб видавити його. Після того, як прищ буде видавлений, скористайтеся носову хустинкою, щоб протерти ділянку шкіри. Ви не станете хорошим лікарем, якщо залишите все як є.","In this section you need to remove some pimples from different parts of the body.
+
 In order to remove the pimples, you just need to enable the hand tool and use your finger to apply pressure to pop the pimple. Then when the pimple's popped, use a handkerchief to clean the are. You aren't going to be a good doctor if you left all those stuff there."
-K_BLACKHEAD_TUTORIAL_TEXT,"For this kind of protuberance you need to be careful.
+"K_BLACKHEAD_TUTORIAL_TEXT","For this kind of protuberance you need to be careful.
 
 First, you need to apply vapor in order to open the pore. You will note that the pore was opened because the phone doesn‘t vibrate.
 
@@ -1054,8 +1880,98 @@ First, you need to apply vapor in order to open the pore. You will note that the
 
 Then, you need to select the comedone tool and double touch the blackhead. When you do that, the comedone will be placed onto the protuberance, finally, touch the screen and drag the finger down and the protuberance will be removed.
 
+Of course, do not forget to clean the area after you do all the work.","For this kind of protuberance you need to be careful.
+
+First, you need to apply vapor in order to open the pore. You will note that the pore was opened because the phone doesn‘t vibrate.
+
+Then, you need to select the comedone tool and double touch the blackhead. When you do that, the comedone will be placed onto the protuberance, finally, touch the screen and drag the finger down and the protuberance will be removed.
+
+Of course, do not forget to clean the area after you do all the work.","For this kind of protuberance you need to be careful.
+
+First, you need to apply vapor in order to open the pore. You will note that the pore was opened because the phone doesn‘t vibrate.
+
+Then, you need to select the comedone tool and double touch the blackhead. When you do that, the comedone will be placed onto the protuberance, finally, touch the screen and drag the finger down and the protuberance will be removed.
+
+Of course, do not forget to clean the area after you do all the work.","For this kind of protuberance you need to be careful.
+
+First, you need to apply vapor in order to open the pore. You will note that the pore was opened because the phone doesn‘t vibrate.
+
+Then, you need to select the comedone tool and double touch the blackhead. When you do that, the comedone will be placed onto the protuberance, finally, touch the screen and drag the finger down and the protuberance will be removed.
+
+Of course, do not forget to clean the area after you do all the work.","For this kind of protuberance you need to be careful.
+
+First, you need to apply vapor in order to open the pore. You will note that the pore was opened because the phone doesn‘t vibrate.
+
+Then, you need to select the comedone tool and double touch the blackhead. When you do that, the comedone will be placed onto the protuberance, finally, touch the screen and drag the finger down and the protuberance will be removed.
+
+Of course, do not forget to clean the area after you do all the work.","For this kind of protuberance you need to be careful.
+
+First, you need to apply vapor in order to open the pore. You will note that the pore was opened because the phone doesn‘t vibrate.
+
+Then, you need to select the comedone tool and double touch the blackhead. When you do that, the comedone will be placed onto the protuberance, finally, touch the screen and drag the finger down and the protuberance will be removed.
+
+Of course, do not forget to clean the area after you do all the work.","For this kind of protuberance you need to be careful.
+
+First, you need to apply vapor in order to open the pore. You will note that the pore was opened because the phone doesn‘t vibrate.
+
+Then, you need to select the comedone tool and double touch the blackhead. When you do that, the comedone will be placed onto the protuberance, finally, touch the screen and drag the finger down and the protuberance will be removed.
+
+Of course, do not forget to clean the area after you do all the work.","For this kind of protuberance you need to be careful.
+
+First, you need to apply vapor in order to open the pore. You will note that the pore was opened because the phone doesn‘t vibrate.
+
+Then, you need to select the comedone tool and double touch the blackhead. When you do that, the comedone will be placed onto the protuberance, finally, touch the screen and drag the finger down and the protuberance will be removed.
+
+Of course, do not forget to clean the area after you do all the work.","For this kind of protuberance you need to be careful.
+
+First, you need to apply vapor in order to open the pore. You will note that the pore was opened because the phone doesn‘t vibrate.
+
+Then, you need to select the comedone tool and double touch the blackhead. When you do that, the comedone will be placed onto the protuberance, finally, touch the screen and drag the finger down and the protuberance will be removed.
+
+Of course, do not forget to clean the area after you do all the work.","С таким кожным образованием нужно быть предельно осторожными.
+
+Во-первых, чтобы открыть поры, необходимо распарить кожу. Вы заметите, что пора открылась, потому что телефон не будет вибрировать.
+
+После этого вам нужно будет выбрать инструмент для удаления комедонов и дважды коснуться угря. Когда вы это сделаете, комедон будет выделен, после чего необходимо коснуться экрана и провести пальцем вниз, чтобы удалить образование.
+
+И, конечно же, после завершения процедуры не забудьте очистить участок кожи, с которым вы работали.","For this kind of protuberance you need to be careful.
+
+First, you need to apply vapor in order to open the pore. You will note that the pore was opened because the phone doesn‘t vibrate.
+
+Then, you need to select the comedone tool and double touch the blackhead. When you do that, the comedone will be placed onto the protuberance, finally, touch the screen and drag the finger down and the protuberance will be removed.
+
+Of course, do not forget to clean the area after you do all the work.","මෙම ආකාරයේ ඉදිමුම් ගැන ඔබ පරෙස්සම් විය යුතුය.
+
+පළමුව, සිදුර විවෘත කිරීමට ඔබ හුමාලය යෙදිය යුතුය. දුරකථනය කම්පනය නොවීම සිදුර විවෘත වූ බව ඔබට සටහන් කරයි.
+
+ඉන්පසුව, ඔබ වර්විය මෙවලම තෝරාගෙන කළු ලපය මත ද්විත්ව ස්පර්ශය කළ යුතුය. ඔබ එය කරන විට වර්විය ඉදිමුම මත තැබෙනු ඇත, අවසානයේ, තිරය ස්පර්ශ කරගෙන ඇඟිල්ල පහළට අදින්න, එවිට ඉදිමුම ඉවත් වනු ඇත.
+
+සැබැවින්ම, ඔබ සියලු වැඩ කිරීමෙන් පසු ප්‍රදේශය පිරිසිදු කිරීමට අමතක නොකරන්න.","For this kind of protuberance you need to be careful.
+
+First, you need to apply vapor in order to open the pore. You will note that the pore was opened because the phone doesn‘t vibrate.
+
+Then, you need to select the comedone tool and double touch the blackhead. When you do that, the comedone will be placed onto the protuberance, finally, touch the screen and drag the finger down and the protuberance will be removed.
+
+Of course, do not forget to clean the area after you do all the work.","For this kind of protuberance you need to be careful.
+
+First, you need to apply vapor in order to open the pore. You will note that the pore was opened because the phone doesn‘t vibrate.
+
+Then, you need to select the comedone tool and double touch the blackhead. When you do that, the comedone will be placed onto the protuberance, finally, touch the screen and drag the finger down and the protuberance will be removed.
+
+Of course, do not forget to clean the area after you do all the work.","З таким шкірним утворенням потрібно бути дуже обережними.
+
+По-перше, щоб відкрити пори, необхідно розпарити шкіру. Ви помітите, що пора відкрилася, тому що телефон не буде вібрувати.
+
+Після цього вам потрібно буде обрати інструмент для видалення комедонів і двічі торкнутися вугра. Коли ви це зробите, комедон буде виділено, після чого необхідно торкнутися екрану та провести пальцем вниз, щоб видалити утворення.
+
+І, звичайно ж, після завершення процедури не забудьте очистити ділянку шкіри, з якою ви працювали.","For this kind of protuberance you need to be careful.
+
+First, you need to apply vapor in order to open the pore. You will note that the pore was opened because the phone doesn‘t vibrate.
+
+Then, you need to select the comedone tool and double touch the blackhead. When you do that, the comedone will be placed onto the protuberance, finally, touch the screen and drag the finger down and the protuberance will be removed.
+
 Of course, do not forget to clean the area after you do all the work."
-K_CYST_TUTORIAL_TEXT,"Probably the easiest protuberance to remove.
+"K_CYST_TUTORIAL_TEXT","Probably the easiest protuberance to remove.
 
 That big thing can be removed when you select the needle tool and touch and hold in a specefic location of the protuberance. Touch the hint button if you need to locate it. If you touch the right location, a sound is emitted. Now with one finger holding the needle, use another one to extract the content of the protuberance.
 
@@ -1121,8 +2037,68 @@ After you remove everything, remember to clean the are with the handkerchief.","
 
 That big thing can be removed when you select the needle tool and touch and hold in a specefic location of the protuberance. Touch the hint button if you need to locate it. If you touch the right location, a sound is emitted. Now with one finger holding the needle, use another one to extract the content of the protuberance.
 
+After you remove everything, remember to clean the are with the handkerchief.","Probably the easiest protuberance to remove.
+
+That big thing can be removed when you select the needle tool and touch and hold in a specefic location of the protuberance. Touch the hint button if you need to locate it. If you touch the right location, a sound is emitted. Now with one finger holding the needle, use another one to extract the content of the protuberance.
+
+After you remove everything, remember to clean the are with the handkerchief.","Probably the easiest protuberance to remove.
+
+That big thing can be removed when you select the needle tool and touch and hold in a specefic location of the protuberance. Touch the hint button if you need to locate it. If you touch the right location, a sound is emitted. Now with one finger holding the needle, use another one to extract the content of the protuberance.
+
+After you remove everything, remember to clean the are with the handkerchief.","Probably the easiest protuberance to remove.
+
+That big thing can be removed when you select the needle tool and touch and hold in a specefic location of the protuberance. Touch the hint button if you need to locate it. If you touch the right location, a sound is emitted. Now with one finger holding the needle, use another one to extract the content of the protuberance.
+
+After you remove everything, remember to clean the are with the handkerchief.","Probably the easiest protuberance to remove.
+
+That big thing can be removed when you select the needle tool and touch and hold in a specefic location of the protuberance. Touch the hint button if you need to locate it. If you touch the right location, a sound is emitted. Now with one finger holding the needle, use another one to extract the content of the protuberance.
+
+After you remove everything, remember to clean the are with the handkerchief.","Probably the easiest protuberance to remove.
+
+That big thing can be removed when you select the needle tool and touch and hold in a specefic location of the protuberance. Touch the hint button if you need to locate it. If you touch the right location, a sound is emitted. Now with one finger holding the needle, use another one to extract the content of the protuberance.
+
+After you remove everything, remember to clean the are with the handkerchief.","Probably the easiest protuberance to remove.
+
+That big thing can be removed when you select the needle tool and touch and hold in a specefic location of the protuberance. Touch the hint button if you need to locate it. If you touch the right location, a sound is emitted. Now with one finger holding the needle, use another one to extract the content of the protuberance.
+
+After you remove everything, remember to clean the are with the handkerchief.","Probably the easiest protuberance to remove.
+
+That big thing can be removed when you select the needle tool and touch and hold in a specefic location of the protuberance. Touch the hint button if you need to locate it. If you touch the right location, a sound is emitted. Now with one finger holding the needle, use another one to extract the content of the protuberance.
+
+After you remove everything, remember to clean the are with the handkerchief.","Probably the easiest protuberance to remove.
+
+That big thing can be removed when you select the needle tool and touch and hold in a specefic location of the protuberance. Touch the hint button if you need to locate it. If you touch the right location, a sound is emitted. Now with one finger holding the needle, use another one to extract the content of the protuberance.
+
+After you remove everything, remember to clean the are with the handkerchief.","Пожалуй, эти накожные образования удалять легче всего.
+
+Это большое образование можно удалить таким образом: выберите инструмент «Игла» и удерживайте его в определенной точке выпуклости. Коснитесь кнопки ""Подсказка"", если не знаете, где лучше разместить иглу. Если коснуться правильного места, раздастся звук. После этого, удерживая иглу одним пальцем, другим извлеките содержимое образования.
+
+После того, как вы все удалите, не забудьте протереть кожу носовым платком.","Probably the easiest protuberance to remove.
+
+That big thing can be removed when you select the needle tool and touch and hold in a specefic location of the protuberance. Touch the hint button if you need to locate it. If you touch the right location, a sound is emitted. Now with one finger holding the needle, use another one to extract the content of the protuberance.
+
+After you remove everything, remember to clean the are with the handkerchief.","පෙනෙන හැටියට ඉවත් කිරීමට පහසුම ඉදිමුමකි.
+
+විශාල දෙය ඔබ ඉඳිකටු මෙවලම තෝරාගෙන ඉදිමුමෙහි විශේෂිත ස්ථානයක් ස්පර්ශ කර අල්ලා ගත් විට ඉවත් කළ හැකිය. එය පිහිටි තැන සොයා ගැනීමට ඇවැසි නම් ඉඟිය බොත්තම ඔබන්න. ඔබ නිවැරදි ස්ථානය ස්පර්ශ කළහොත්, ශබ්දයක් පිට වේ. දැන් එක් ඇඟිල්ලකින් ඉඳිකටුව අල්ලාගෙන, අනෙත් එක භාවිතයෙන් ඉදිමුමෙහි අන්තර්ගතය මිරිකා ගන්න.
+
+ඔබ සියල්ල ඉවත් කළ පසු, අත් ලේන්සුවකින් ඒවා පිරිසිදු කිරීමට මතක තබා ගන්න.","Probably the easiest protuberance to remove.
+
+That big thing can be removed when you select the needle tool and touch and hold in a specefic location of the protuberance. Touch the hint button if you need to locate it. If you touch the right location, a sound is emitted. Now with one finger holding the needle, use another one to extract the content of the protuberance.
+
+After you remove everything, remember to clean the are with the handkerchief.","Probably the easiest protuberance to remove.
+
+That big thing can be removed when you select the needle tool and touch and hold in a specefic location of the protuberance. Touch the hint button if you need to locate it. If you touch the right location, a sound is emitted. Now with one finger holding the needle, use another one to extract the content of the protuberance.
+
+After you remove everything, remember to clean the are with the handkerchief.","Мабуть, ці шкірні утворення видаляти найлегше.
+
+Це велике утворення можна видалити таким чином: оберіть інструмент «Голка» та утримуйте його у певній точці випуклості. Натисніть кнопку ""Підказка"", якщо не знаєте, де краще розмістити голку. Якщо торкнутися правильного місця, ви почуєте звук. Після цього, утримуючи голку одним пальцем, іншим вийміть вміст утворення.
+
+Після того, як ви все видалите, не забудьте протерти шкіру носовою хустинкою.","Probably the easiest protuberance to remove.
+
+That big thing can be removed when you select the needle tool and touch and hold in a specefic location of the protuberance. Touch the hint button if you need to locate it. If you touch the right location, a sound is emitted. Now with one finger holding the needle, use another one to extract the content of the protuberance.
+
 After you remove everything, remember to clean the are with the handkerchief."
-K_LIPOMA_TUTORIAL_TEXT,"The complex protuberance to remove in a body. But i will show how to remove it.
+"K_LIPOMA_TUTORIAL_TEXT","The complex protuberance to remove in a body. But i will show how to remove it.
 
 First, you need to apply anaesthetic because you are going to cut the area. After you apply it you can select the cutter tool and cut the area.
 
@@ -1224,14 +2200,105 @@ First, you need to apply anaesthetic because you are going to cut the area. Afte
 
 Now with the content exposed, use your hand to apply pressure and remove the content.
 
+And now that everything was removed, you will need to suture the wound.","The complex protuberance to remove in a body. But i will show how to remove it.
+
+First, you need to apply anaesthetic because you are going to cut the area. After you apply it you can select the cutter tool and cut the area.
+
+Now with the content exposed, use your hand to apply pressure and remove the content.
+
+And now that everything was removed, you will need to suture the wound.","The complex protuberance to remove in a body. But i will show how to remove it.
+
+First, you need to apply anaesthetic because you are going to cut the area. After you apply it you can select the cutter tool and cut the area.
+
+Now with the content exposed, use your hand to apply pressure and remove the content.
+
+And now that everything was removed, you will need to suture the wound.","The complex protuberance to remove in a body. But i will show how to remove it.
+
+First, you need to apply anaesthetic because you are going to cut the area. After you apply it you can select the cutter tool and cut the area.
+
+Now with the content exposed, use your hand to apply pressure and remove the content.
+
+And now that everything was removed, you will need to suture the wound.","The complex protuberance to remove in a body. But i will show how to remove it.
+
+First, you need to apply anaesthetic because you are going to cut the area. After you apply it you can select the cutter tool and cut the area.
+
+Now with the content exposed, use your hand to apply pressure and remove the content.
+
+And now that everything was removed, you will need to suture the wound.","The complex protuberance to remove in a body. But i will show how to remove it.
+
+First, you need to apply anaesthetic because you are going to cut the area. After you apply it you can select the cutter tool and cut the area.
+
+Now with the content exposed, use your hand to apply pressure and remove the content.
+
+And now that everything was removed, you will need to suture the wound.","The complex protuberance to remove in a body. But i will show how to remove it.
+
+First, you need to apply anaesthetic because you are going to cut the area. After you apply it you can select the cutter tool and cut the area.
+
+Now with the content exposed, use your hand to apply pressure and remove the content.
+
+And now that everything was removed, you will need to suture the wound.","The complex protuberance to remove in a body. But i will show how to remove it.
+
+First, you need to apply anaesthetic because you are going to cut the area. After you apply it you can select the cutter tool and cut the area.
+
+Now with the content exposed, use your hand to apply pressure and remove the content.
+
+And now that everything was removed, you will need to suture the wound.","The complex protuberance to remove in a body. But i will show how to remove it.
+
+First, you need to apply anaesthetic because you are going to cut the area. After you apply it you can select the cutter tool and cut the area.
+
+Now with the content exposed, use your hand to apply pressure and remove the content.
+
+And now that everything was removed, you will need to suture the wound.","Данное кожное образование является довольно сложным. Но я покажу, как его удалить.
+
+Во-первых, поскольку вы собираетесь резать кожу, необходимо применить анестетик. После этого вы можете выбрать режущий инструмент и сделать надрез.
+
+Теперь, когда образование вскрыто, надавите на него рукой, чтобы удалить содержимое.
+
+После завершения процедуры рану необходимо зашить.","The complex protuberance to remove in a body. But i will show how to remove it.
+
+First, you need to apply anaesthetic because you are going to cut the area. After you apply it you can select the cutter tool and cut the area.
+
+Now with the content exposed, use your hand to apply pressure and remove the content.
+
+And now that everything was removed, you will need to suture the wound.","ශරීරයක ඉවත් කළ යුතු සංකීර්ණ ඉදිමුමකි. නමුත් එය ඉවත් කරන්නේ කෙසේදැයි මම පෙන්වන්නම්.
+
+ඔබ ප්‍රදේශය කැපීමට යන නිසා පළමුව, නිර්වින්දනය යෙදිය යුතුය. ඔබ එය යෙදීමෙන් පසු කපන මෙවලම තෝරාගෙන ප්‍රදේශය කැපීමට හැකිය.
+
+දැන් අන්තර්ගතය නිරාවරණය වීමත් සමඟ ඔබගේ අත භාවිතා කර පීඩනය යෙදීමෙන් අන්තර්ගතය ඉවත් කරන්න.
+
+දැන් සියල්ල ඉවත් කර ඇති බැවින්, ඔබ තුවාලය මැසීම සිදු කළ යුතුය.","The complex protuberance to remove in a body. But i will show how to remove it.
+
+First, you need to apply anaesthetic because you are going to cut the area. After you apply it you can select the cutter tool and cut the area.
+
+Now with the content exposed, use your hand to apply pressure and remove the content.
+
+And now that everything was removed, you will need to suture the wound.","The complex protuberance to remove in a body. But i will show how to remove it.
+
+First, you need to apply anaesthetic because you are going to cut the area. After you apply it you can select the cutter tool and cut the area.
+
+Now with the content exposed, use your hand to apply pressure and remove the content.
+
+And now that everything was removed, you will need to suture the wound.","Це шкірне утворення є досить складним. Але я покажу, як його видалити.
+
+По-перше, оскільки ви збираєтеся різати шкіру, необхідно застосувати анестетик. Після цього ви можете обрати ріжучий інструмент і зробити надріз.
+
+Тепер, коли утворення розкрито, натисніть на нього рукою, щоб видалити вміст.
+
+Після завершення процедури рану необхідно зашити.","The complex protuberance to remove in a body. But i will show how to remove it.
+
+First, you need to apply anaesthetic because you are going to cut the area. After you apply it you can select the cutter tool and cut the area.
+
+Now with the content exposed, use your hand to apply pressure and remove the content.
+
 And now that everything was removed, you will need to suture the wound."
-K_LIPOMA_BUTTON,Lipoma,Lipoma,Lipom,Lipoma,Lipoma,Lipoma,Lipoma,Lipoma,Lipoma,Lipoma,Lipoma,Lipoma,Lipoma,Lipoma,Lipoma,Lipoma,Lipoma
-K_PIMPLE_BUTTON,Pimple,Espinilla,Pickel,Pimple,Pimple,Pimple,Pimple,Pimple,Pimple,Pimple,Pimple,Pimple,Pimple,Pimple,Pimple,Pimple,Pimple
-K_CYST_BUTTON,Cyst,Quiste,Zyste,Cyst,Cyst,Cyst,Cyst,Cyst,Cyst,Cyst,Cyst,Cyst,Cyst,Cyst,Cyst,Cyst,Cyst
-K_BLACKHEAD_BUTTON,Blackhead,Puntos negros,Mitesser,Blackhead,Blackhead,Blackhead,Blackhead,Blackhead,Blackhead,Blackhead,Blackhead,Blackhead,Blackhead,Blackhead,Blackhead,Blackhead,Blackhead
-K_OPTIONS_TITLE,Options,Opciones,Optionen,Options,Options,Options,Options,Options,Options,Options,Options,Options,Options,Options,Options,Options,Options
-K_LANGUAGE_OPTION_TITLE,Language,Idioma,Sprache,Language,Language,Language,Language,Language,Language,Language,Language,Language,Language,Language,Language,Language,Language
-K_SPANISH_SELECTION,Spanish,Español,Spanisch,Spanish,Spanish,Spanish,Spanish,Spanish,Spanish,Spanish,Spanish,Spanish,Spanish,Spanish,Spanish,Spanish,Spanish
-K_ENGLISH_SELECTION,English,Ingles,Englisch,English,English,English,English,English,English,English,English,English,English,English,English,English,English
-K_GERMAN_SELECTION,German,Alemán,Deutsch,German,German,German,German,German,German,German,German,German,German,German,German,German,German
-K_LANGUAGE_SELECTION,Select a language,Seleccione un idioma,Wählen Sie eine Sprache aus,Select a language,Select a language,Select a language,Select a language,Select a language,Select a language,Select a language,Select a language,Select a language,Select a language,Select a language,Select a language,Select a language,Select a language
+
+"K_LIPOMA_BUTTON","Lipoma","Lipoma","Lipom","","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Липома","Lipoma","Lipoma","Lipoma","Lipoma","Ліпома","Lipoma"
+"K_PIMPLE_BUTTON","Pimple","Espinilla","Pickel","","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Прыщ","Pimple","කුරුලෑව","Pimple","Pimple","Прищ","Pimple"
+"K_CYST_BUTTON","Cyst","Quiste","Zyste","","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Киста","Cyst","Cyst","Cyst","Cyst","Кіста","Cyst"
+"K_BLACKHEAD_BUTTON","Blackhead","Puntos negros","Mitesser","","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Угорь","Blackhead","කළු ලපය","Blackhead","Blackhead","Вугор","Blackhead"
+"K_OPTIONS_TITLE","Options","Opciones","Optionen","","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Опции","Опције","විකල්ප","Options","Options","Опції","Options"
+"K_LANGUAGE_OPTION_TITLE","Language","Idioma","Sprache","","Language","Language","Language","Language","Language","Language","Language","Language","Language","Language","Language","Language","Language","Language","Language","Language","Language","Language","Language","Language","Language","Язык","Language","භාෂාව","Language","Language","Мова","Language"
+"K_SPANISH_SELECTION","Spanish","Español","Spanisch","","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Испанский","Spanish","ස්පාඤ්ඤ","Spanish","Spanish","Іспанська","Spanish"
+"K_ENGLISH_SELECTION","English","Ingles","Englisch","","English","English","English","English","English","English","English","English","English","English","English","English","English","English","English","English","English","English","English","English","English","Английский","Енглески","ඉංග්‍රීසි","English","English","Англійська","English"
+"K_GERMAN_SELECTION","German","Alemán","Deutsch","","German","German","German","German","German","German","German","German","German","German","German","German","German","German","German","German","German","German","German","German","German","Немецкий","German","ජර්මානු","German","German","Німецька","German"
+"K_LANGUAGE_SELECTION","Select a language","Seleccione un idioma","Wählen Sie eine Sprache aus","","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Выбрать язык","Одабери језик","භාෂාව තෝරන්න","Select a language","Select a language","Обрати мову","Select a language"

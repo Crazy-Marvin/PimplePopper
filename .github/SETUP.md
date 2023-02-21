@@ -29,3 +29,6 @@ Translations are stored in ```assets/i18n```. Users can contribute them on Crowd
 ## Yodo1 MAS (ads)
 
 See [https://developers.yodo1.com/docs/godot/get-started/android-integration/](https://developers.yodo1.com/docs/godot/get-started/android-integration/).
+
+Yodo 1 may be en- or disabled in the build settings:  
+![ads](https://user-images.githubusercontent.com/15004217/220143947-77f23523-611d-45b9-89c0-b6eb010fd8e6.PNG)
