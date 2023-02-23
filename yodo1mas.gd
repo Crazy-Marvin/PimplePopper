@@ -71,7 +71,7 @@ func _ready():
 func init() -> bool:
 	print("Initialize yodo sdk")
 	if(Engine.has_singleton("GodotYodo1Mas")):
-
+		
 		# check if one signal is already connected
 		if not _yodo1mas_singleton.is_connected("on_interstitial_ad_loaded", self, "_on_interstitial_ad_loaded"):
 			connect_signals()
