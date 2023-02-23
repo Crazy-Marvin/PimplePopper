@@ -10,7 +10,7 @@ var is_on_second_selection: bool = false
 var langs = [
 	['es', 'K_SPANISH_SELECTION'],
 	['en', 'K_ENGLISH_SELECTION'],
-	['de', 'K_GERMAN_SELECTION'],
+	['de', 'K_GERMAN_SELECTION']
 ]
 
 
