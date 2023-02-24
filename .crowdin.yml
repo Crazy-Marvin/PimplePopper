@@ -7,7 +7,7 @@ files:
     translation: /assets/i18n/translation%two_letters_code%.csv
     first_line_contains_header: true
     multilingual_spreadsheet: true
-    scheme: 'identifier,source_phrase,es_ES,de,en,af,ar,ca,zh_CN,zh_TW,cs,da,nl,fi,fr,el,he,hu,it,ja,ko,no,pl,pt_PT,pt_BR,ro,ru,sr,si_LK,sv_SE,tr,uk,vi'
+    scheme: 'identifier,source_phrase,es_ES,de,en,af,ar,ca,zh_CN,zh_TW,cs,da,nl,fi,fr,el,he,hu,it,ja,ko,nn_NO,pl,pt_PT,pt_BR,ro,ru,sr,si_LK,sv_SE,tr,uk,vi'
     languages_mapping:
       two_letters_code:
         zh-CN: zh_CN
@@ -34,7 +34,7 @@ files:
       it.: .
       ja.: .
       ko.: .
-      no.: .
+      nn_NO.: .
       pl.: .
       pt.: .
       pt-BR.: .
