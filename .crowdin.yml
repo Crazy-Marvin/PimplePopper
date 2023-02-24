@@ -7,13 +7,13 @@ files:
     translation: /assets/i18n/translation%two_letters_code%.csv
     first_line_contains_header: true
     multilingual_spreadsheet: true
-    scheme: 'identifier,source_phrase,es-ES,de,en,af,ar,ca,zh-CN,zh-TW,cs,da,nl,fi,fr,el,he,hu,it,ja,ko,no,pl,pt-PT,pt-BR,ro,ru,sr,si-LK,sv-SE,tr,uk,vi'
+    scheme: 'identifier,source_phrase,es_ES,de,en,af,ar,ca,zh_CN,zh_TW,cs,da,nl,fi,fr,el,he,hu,it,ja,ko,no,pl,pt_PT,pt_BR,ro,ru,sr,si_LK,sv_SE,tr,uk,vi'
     languages_mapping:
       two_letters_code:
-        zh-CN: zh-CN
-        zh-TW: zh-TW
+        zh-CN: zh_CN
+        zh-TW: zh_TW
         pt-PT: pt
-        pt-BR: pt-BR
+        pt-BR: pt_BR
     translation_replace:
       es.: .
       de.: .
