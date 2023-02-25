@@ -1,58 +1,27 @@
-
-"ID","en","es","de","af","ar","ca","zh_CN","zh_TW","cs","da","nl","fi","fr","el","he","hu","it","ja","ko","nn_NO","pl","pt","pt_BR","ro","ru","sr","si","sv","tr","uk","vi",""
-"K_PLAY","Play","Comenzar","Start","Play","Play","Play","开始","開始","Play","Play","Spelen","Spelen","Play","Play","Play","Play","Play","Play","Play","Play","Play","Play","Play","Play","Играть","Играть","Покрени","Play","Play","Грати","Грати","Play"
-"K_TUTORIAL","Tutorial","Tutorial","Anleitung","Tutorial","Tutorial","Tutorial","新手教程","新手教學","Tutorial","Tutorial","Tutorial","Tutorial","Tutorial","Tutorial","Tutorial","Tutorial","Tutorial","Tutorial","Tutorial","Tutorial","Tutorial","Tutorial","Tutorial","Tutorial","Инструкция","Инструкция","Водич","Tutorial","Tutorial","Інструкція","Інструкція","Tutorial"
-"K_ABOUT","About","Sobre","Über","About","About","About","关于","關於","About","About","Over","Over","About","About","About","About","About","About","About","About","About","About","About","About","О приложении","О приложении","О програму","About","About","Про додаток","Про додаток","About"
-"K_CHEEK_LEVEL_BUTTON","Cheek","Cachete","Wange","Cheek","Cheek","Cheek","脸颊","臉頰","Cheek","Cheek","Wang","Wang","Cheek","Cheek","Cheek","Cheek","Cheek","Cheek","Cheek","Cheek","Cheek","Cheek","Cheek","Cheek","Щека","Щека","Образ","Cheek","Cheek","Щока","Щока","Cheek"
-"K_FOREHEAD_LEVEL_BUTTON","Forehead","Frente","Stirn","Forehead","Forehead","Forehead","额头","額頭","Forehead","Forehead","Voorhoofd","Voorhoofd","Forehead","Forehead","Forehead","Forehead","Forehead","Forehead","Forehead","Forehead","Forehead","Forehead","Forehead","Forehead","Лоб","Лоб","නළල","Forehead","Forehead","Чоло","Чоло","Forehead"
-"K_WRIST_LEVEL_BUTTON","Wrist","Muñeca","Handgelenk","Wrist","Wrist","Wrist","手腕","手腕","Wrist","Wrist","Pols","Pols","Wrist","Wrist","Wrist","Wrist","Wrist","Wrist","Wrist","Wrist","Wrist","Wrist","Wrist","Wrist","Запястье","Запястье","මැණික්කටුව","Wrist","Wrist","Зап'ясток","Зап'ясток","Wrist"
-"K_BACK_LEVEL_BUTTON","Back","Espalda","Rücken","Back","Back","Back","返回","返回","Back","Back","Vorige","Vorige","Back","Back","Back","Back","Back","Back","Back","Back","Back","Back","Back","Back","Спина","Спина","ආපසු","Back","Back","Спина","Спина","Back"
-"K_CHEST_LEVEL_BUTTON","Chest","Pecho","Brust","Chest","Chest","Chest","队伍物资箱","箱子","Chest","Chest","Kist","Kist","Chest","Chest","Chest","Chest","Chest","Chest","Chest","Chest","Chest","Chest","Chest","Chest","Грудь","Грудь","උරස්ථලය","Chest","Chest","Груди","Груди","Chest"
-"K_BACK_BUTTON","Back","Atras","Zurück","Back","Back","Back","返回","返回","Back","Back","Vorige","Vorige","Back","Back","Back","Back","Back","Back","Back","Back","Back","Back","Back","Back","Назад","Назад","ආපසු","Back","Back","Назад","Назад","Back"
-"K_EASY_BUTTON","Easy","Fácil","Einfach","Easy","Easy","Easy","简单","簡單","Easy","Easy","Gemakkelijk","Gemakkelijk","Easy","Easy","Easy","Easy","Easy","Easy","Easy","Easy","Easy","Easy","Easy","Easy","Легкий","Легкий","ලෙහෙසි","Easy","Easy","Легкий","Легкий","Easy"
-"K_NORMAL_BUTTON","Normal","Normal","Normal","Normal","Normal","Normal","普通","普通","Normal","Normal","Normaal","Normaal","Normal","Normal","Normal","Normal","Normal","Normal","Normal","Normal","Normal","Normal","Normal","Normal","Средний","Средний","සාමාන්‍ය","Normal","Normal","Середній","Середній","Normal"
-"K_HARD_BUTTON","Hard","Difícil","Schwierig","Hard","Hard","Hard","困难","困難","Hard","Hard","Moeilijk","Moeilijk","Hard","Hard","Hard","Hard","Hard","Hard","Hard","Hard","Hard","Hard","Hard","Hard","Сложный","Сложный","අමාරු","Hard","Hard","Складний","Складний","Hard"
-"K_SUPER_HARD_BUTTON","Super hard","Super difícil","Äußerst schwierig","Super hard","Super hard","Super hard","超难","超難","Super hard","Super hard","Heel moeilijk","Heel moeilijk","Super hard","Super hard","Super hard","Super hard","Super hard","Super hard","Super hard","Super hard","Super hard","Super hard","Super hard","Super hard","Очень сложный","Очень сложный","ඉතා අමාරු","Super hard","Super hard","Дуже складний","Дуже складний","Super hard"
-"K_OPTIONS","Options","Opciones","Einstellungen","Options","Options","Options","选项","選項","Options","Options","Opties","Opties","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Опции","Опции","විකල්ප","Options","Options","Опції","Опції","Options"
-"K_HAND_TOOL","Hand","Mano","Hand","Hand","Hand","Hand","手部","手","Hand","Hand","Hand","Hand","Hand","Hand","Hand","Hand","Hand","Hand","Hand","Hand","Hand","Hand","Hand","Hand","Рука","Рука","අත","Hand","Hand","Рука","Рука","Hand"
-"K_HANDKERCHIEF_TOOL","Handkerchief","Pañuelo","Taschentuch","Handkerchief","Handkerchief","Handkerchief","手帕","手帕","Handkerchief","Handkerchief","Zakdoek","Zakdoek","Handkerchief","Handkerchief","Handkerchief","Handkerchief","Handkerchief","Handkerchief","Handkerchief","Handkerchief","Handkerchief","Handkerchief","Handkerchief","Handkerchief","Носовой платок","Носовой платок","අත් ලේන්සුව","Handkerchief","Handkerchief","Носова хустинка","Носова хустинка","Handkerchief"
-"K_VAPOR_TOOL","Vapor","Vapor","Wasserdampf","Vapor","Vapor","Vapor","水汽","噴霧器","Vapor","Vapor","Stoom","Stoom","Vapor","Vapor","Vapor","Vapor","Vapor","Vapor","Vapor","Vapor","Vapor","Vapor","Vapor","Vapor","Пар","Пар","හුමාලය","Vapor","Vapor","Пара","Пара","Vapor"
-"K_COMEDONE_TOOL","Comedone","Comedona","Mitesser","Comedone","Comedone","Comedone","粉刺","粉刺","Comedone","Comedone","Mee-eters","Mee-eters","Comedone","Comedone","Comedone","Comedone","Comedone","Comedone","Comedone","Comedone","Comedone","Comedone","Comedone","Comedone","Комедон","Комедон","වර්විය","Comedone","Comedone","Комедон","Комедон","Comedone"
-"K_NEEDLE_TOOL","Needle","Inyectadora","Nadel","Needle","Needle","Needle","针","針","Needle","Needle","Naald","Naald","Needle","Needle","Needle","Needle","Needle","Needle","Needle","Needle","Needle","Needle","Needle","Needle","Игла","Игла","ඉදිකටුව","Needle","Needle","Голка","Голка","Needle"
-"K_ANESTHETIC_TOOL","Anestesia","Anestesia","Anästhesie","Anestesia","Anestesia","Anestesia","麻醉","麻醉","Anestesia","Anestesia","Anestesia","Anestesia","Anestesia","Anestesia","Anestesia","Anestesia","Anestesia","Anestesia","Anestesia","Anestesia","Anestesia","Anestesia","Anestesia","Anestesia","Анестезия","Анестезия","නිර්වින්දනය","Anestesia","Anestesia","Анестезія","Анестезія","Anestesia"
-"K_SUTURE_TOOL","Suture","Suturar","Vernähen","Suture","Suture","Suture","缝合","縫合","Suture","Suture","Hechting","Hechting","Suture","Suture","Suture","Suture","Suture","Suture","Suture","Suture","Suture","Suture","Suture","Suture","Хирургическая нить","Хирургическая нить","මැසීම","Suture","Suture","Хірургічна нитка","Хірургічна нитка","Suture"
-"K_CUTTER_TOOL","Cutter","Exacto","Messer","Cutter","Cutter","Cutter","切割","切割","Cutter","Cutter","Cutter","Cutter","Cutter","Cutter","Cutter","Cutter","Cutter","Cutter","Cutter","Cutter","Cutter","Cutter","Cutter","Cutter","Режущий инструмент","Режущий инструмент","කපනය","Cutter","Cutter","Ріжучий інструмент","Ріжучий інструмент","Cutter"
-"K_TUTORIAL_DEVELOPMENT_MESSAGE","The tutorial is under the works.
-=======
-ID,en,es,de,af,ar,ca,cs,da,nl,fi,fr,el,he,hu,it,ja,ko
-K_PLAY,Play,Comenzar,Start,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play
-K_TUTORIAL,Tutorial,Tutorial,Anleitung,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial
-K_ABOUT,About,Sobre,Über,About,About,About,About,About,About,About,About,About,About,About,About,About,About
-K_CHEEK_LEVEL_BUTTON,Cheek,Cachete,Wange,Cheek,Cheek,Cheek,Cheek,Cheek,Cheek,Cheek,Cheek,Cheek,Cheek,Cheek,Cheek,Cheek,Cheek
-K_FOREHEAD_LEVEL_BUTTON,Forehead,Frente,Stirn,Forehead,Forehead,Forehead,Forehead,Forehead,Forehead,Forehead,Forehead,Forehead,Forehead,Forehead,Forehead,Forehead,Forehead
-K_WRIST_LEVEL_BUTTON,Wrist,Muñeca,Handgelenk,Wrist,Wrist,Wrist,Wrist,Wrist,Wrist,Wrist,Wrist,Wrist,Wrist,Wrist,Wrist,Wrist,Wrist
-K_BACK_LEVEL_BUTTON,Back,Espalda,Rücken,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back
-K_CHEST_LEVEL_BUTTON,Chest,Pecho,Brust,Chest,Chest,Chest,Chest,Chest,Chest,Chest,Chest,Chest,Chest,Chest,Chest,Chest,Chest
-K_BUTTOCKS_LEVEL_BUTTON,Butt,Butt,Butt,,,,,,,,,,,,,,
-K_NOSE_LEVEL_BUTTON,Nose,,,,,,,,,,,,,,,,
-K_SHIN_LEVEL_BUTTON,Shin,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,
-K_BACK_BUTTON,Back,Atras,Zurück,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back
-K_EASY_BUTTON,Easy,Fácil,Einfach,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy
-K_NORMAL_BUTTON,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal
-K_HARD_BUTTON,Hard,Difícil,Schwierig,Hard,Hard,Hard,Hard,Hard,Hard,Hard,Hard,Hard,Hard,Hard,Hard,Hard,Hard
-K_SUPER_HARD_BUTTON,Super hard,Super difícil,Äußerst schwierig,Super hard,Super hard,Super hard,Super hard,Super hard,Super hard,Super hard,Super hard,Super hard,Super hard,Super hard,Super hard,Super hard,Super hard
-K_OPTIONS,Options,Opciones,Einstellungen,Options,Options,Options,Options,Options,Options,Options,Options,Options,Options,Options,Options,Options,Options
-K_HAND_TOOL,Hand,Mano,Hand,Hand,Hand,Hand,Hand,Hand,Hand,Hand,Hand,Hand,Hand,Hand,Hand,Hand,Hand
-K_HANDKERCHIEF_TOOL,Handkerchief,Pañuelo,Taschentuch,Handkerchief,Handkerchief,Handkerchief,Handkerchief,Handkerchief,Handkerchief,Handkerchief,Handkerchief,Handkerchief,Handkerchief,Handkerchief,Handkerchief,Handkerchief,Handkerchief
-K_VAPOR_TOOL,Vapor,Vapor,Wasserdampf,Vapor,Vapor,Vapor,Vapor,Vapor,Vapor,Vapor,Vapor,Vapor,Vapor,Vapor,Vapor,Vapor,Vapor
-K_COMEDONE_TOOL,Comedone,Comedona,Mitesser,Comedone,Comedone,Comedone,Comedone,Comedone,Comedone,Comedone,Comedone,Comedone,Comedone,Comedone,Comedone,Comedone,Comedone
-K_NEEDLE_TOOL,Needle,Inyectadora,Nadel,Needle,Needle,Needle,Needle,Needle,Needle,Needle,Needle,Needle,Needle,Needle,Needle,Needle,Needle
-K_ANESTHETIC_TOOL,Anestesia,Anestesia,Anästhesie,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia
-K_SUTURE_TOOL,Suture,Suturar,Vernähen,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture
-K_CUTTER_TOOL,Cutter,Exacto,Messer,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter
-,,,,,,,,,,,,,,,,,
-K_TUTORIAL_DEVELOPMENT_MESSAGE,The tutorial is under the works.","The tutorial is under the works.
+ID,en,es,de,af,ar,ca,zh_CN,zh_TW,cs,da,nl,fi,fr,el,he,hu,it,ja,ko,nn_NO,pl,pt,pt_BR,ro,ru,sr,si,sv,tr,uk,vi
+K_PLAY,Play,Comenzar,Start,Play,Play,Play,开始,開始,Play,Play,Spelen,Spelen,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Играть,Играть,Покрени,Play,Play,Грати,Грати
+K_TUTORIAL,Tutorial,Tutorial,Anleitung,Tutorial,Tutorial,Tutorial,新手教程,新手教學,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Инструкция,Инструкция,Водич,Tutorial,Tutorial,Інструкція,Інструкція
+K_ABOUT,About,Sobre,Über,About,About,About,关于,關於,About,About,Over,Over,About,About,About,About,About,About,About,About,About,About,About,About,О приложении,О приложении,О програму,About,About,Про додаток,Про додаток
+K_CHEEK_LEVEL_BUTTON,Cheek,Cachete,Wange,Cheek,Cheek,Cheek,脸颊,臉頰,Cheek,Cheek,Wang,Wang,Cheek,Cheek,Cheek,Cheek,Cheek,Cheek,Cheek,Cheek,Cheek,Cheek,Cheek,Cheek,Щека,Щека,Образ,Cheek,Cheek,Щока,Щока
+K_FOREHEAD_LEVEL_BUTTON,Forehead,Frente,Stirn,Forehead,Forehead,Forehead,额头,額頭,Forehead,Forehead,Voorhoofd,Voorhoofd,Forehead,Forehead,Forehead,Forehead,Forehead,Forehead,Forehead,Forehead,Forehead,Forehead,Forehead,Forehead,Лоб,Лоб,නළල,Forehead,Forehead,Чоло,Чоло
+K_WRIST_LEVEL_BUTTON,Wrist,Muñeca,Handgelenk,Wrist,Wrist,Wrist,手腕,手腕,Wrist,Wrist,Pols,Pols,Wrist,Wrist,Wrist,Wrist,Wrist,Wrist,Wrist,Wrist,Wrist,Wrist,Wrist,Wrist,Запястье,Запястье,මැණික්කටුව,Wrist,Wrist,Зап'ясток,Зап'ясток
+K_BACK_LEVEL_BUTTON,Back,Espalda,Rücken,Back,Back,Back,返回,返回,Back,Back,Vorige,Vorige,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Спина,Спина,ආපසු,Back,Back,Спина,Спина
+K_CHEST_LEVEL_BUTTON,Chest,Pecho,Brust,Chest,Chest,Chest,队伍物资箱,箱子,Chest,Chest,Kist,Kist,Chest,Chest,Chest,Chest,Chest,Chest,Chest,Chest,Chest,Chest,Chest,Chest,Грудь,Грудь,උරස්ථලය,Chest,Chest,Груди,Груди
+K_BACK_BUTTON,Back,Atras,Zurück,Back,Back,Back,返回,返回,Back,Back,Vorige,Vorige,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Назад,Назад,ආපසු,Back,Back,Назад,Назад
+K_EASY_BUTTON,Easy,Fácil,Einfach,Easy,Easy,Easy,简单,簡單,Easy,Easy,Gemakkelijk,Gemakkelijk,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Легкий,Легкий,ලෙහෙසි,Easy,Easy,Легкий,Легкий
+K_NORMAL_BUTTON,Normal,Normal,Normal,Normal,Normal,Normal,普通,普通,Normal,Normal,Normaal,Normaal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Средний,Средний,සාමාන්‍ය,Normal,Normal,Середній,Середній
+K_HARD_BUTTON,Hard,Difícil,Schwierig,Hard,Hard,Hard,困难,困難,Hard,Hard,Moeilijk,Moeilijk,Hard,Hard,Hard,Hard,Hard,Hard,Hard,Hard,Hard,Hard,Hard,Hard,Сложный,Сложный,අමාරු,Hard,Hard,Складний,Складний
+K_SUPER_HARD_BUTTON,Super hard,Super difícil,Äußerst schwierig,Super hard,Super hard,Super hard,超难,超難,Super hard,Super hard,Heel moeilijk,Heel moeilijk,Super hard,Super hard,Super hard,Super hard,Super hard,Super hard,Super hard,Super hard,Super hard,Super hard,Super hard,Super hard,Очень сложный,Очень сложный,ඉතා අමාරු,Super hard,Super hard,Дуже складний,Дуже складний
+K_OPTIONS,Options,Opciones,Einstellungen,Options,Options,Options,选项,選項,Options,Options,Opties,Opties,Options,Options,Options,Options,Options,Options,Options,Options,Options,Options,Options,Options,Опции,Опции,විකල්ප,Options,Options,Опції,Опції
+K_HAND_TOOL,Hand,Mano,Hand,Hand,Hand,Hand,手部,手,Hand,Hand,Hand,Hand,Hand,Hand,Hand,Hand,Hand,Hand,Hand,Hand,Hand,Hand,Hand,Hand,Рука,Рука,අත,Hand,Hand,Рука,Рука
+K_HANDKERCHIEF_TOOL,Handkerchief,Pañuelo,Taschentuch,Handkerchief,Handkerchief,Handkerchief,手帕,手帕,Handkerchief,Handkerchief,Zakdoek,Zakdoek,Handkerchief,Handkerchief,Handkerchief,Handkerchief,Handkerchief,Handkerchief,Handkerchief,Handkerchief,Handkerchief,Handkerchief,Handkerchief,Handkerchief,Носовой платок,Носовой платок,අත් ලේන්සුව,Handkerchief,Handkerchief,Носова хустинка,Носова хустинка
+K_VAPOR_TOOL,Vapor,Vapor,Wasserdampf,Vapor,Vapor,Vapor,水汽,噴霧器,Vapor,Vapor,Stoom,Stoom,Vapor,Vapor,Vapor,Vapor,Vapor,Vapor,Vapor,Vapor,Vapor,Vapor,Vapor,Vapor,Пар,Пар,හුමාලය,Vapor,Vapor,Пара,Пара
+K_COMEDONE_TOOL,Comedone,Comedona,Mitesser,Comedone,Comedone,Comedone,粉刺,粉刺,Comedone,Comedone,Mee-eters,Mee-eters,Comedone,Comedone,Comedone,Comedone,Comedone,Comedone,Comedone,Comedone,Comedone,Comedone,Comedone,Comedone,Комедон,Комедон,වර්විය,Comedone,Comedone,Комедон,Комедон
+K_NEEDLE_TOOL,Needle,Inyectadora,Nadel,Needle,Needle,Needle,针,針,Needle,Needle,Naald,Naald,Needle,Needle,Needle,Needle,Needle,Needle,Needle,Needle,Needle,Needle,Needle,Needle,Игла,Игла,ඉදිකටුව,Needle,Needle,Голка,Голка
+K_ANESTHETIC_TOOL,Anestesia,Anestesia,Anästhesie,Anestesia,Anestesia,Anestesia,麻醉,麻醉,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Анестезия,Анестезия,නිර්වින්දනය,Anestesia,Anestesia,Анестезія,Анестезія
+K_SUTURE_TOOL,Suture,Suturar,Vernähen,Suture,Suture,Suture,缝合,縫合,Suture,Suture,Hechting,Hechting,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Хирургическая нить,Хирургическая нить,මැසීම,Suture,Suture,Хірургічна нитка,Хірургічна нитка
+K_CUTTER_TOOL,Cutter,Exacto,Messer,Cutter,Cutter,Cutter,切割,切割,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Режущий инструмент,Режущий инструмент,කපනය,Cutter,Cutter,Ріжучий інструмент,Ріжучий інструмент
+K_TUTORIAL_DEVELOPMENT_MESSAGE,"The tutorial is under the works.
 =======
 ID,en,es,de,af,ar,ca,cs,da,nl,fi,fr,el,he,hu,it,ja,ko
 K_PLAY,Play,Comenzar,Start,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play
@@ -983,11 +952,11 @@ K_SUTURE_TOOL,Suture,Suturar,Vernähen,Suture,Suture,Suture,Suture,Suture,Suture
 K_CUTTER_TOOL,Cutter,Exacto,Messer,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter
 ,,,,,,,,,,,,,,,,,
 K_TUTORIAL_DEVELOPMENT_MESSAGE,The tutorial is under the works."
-
-"Please"," wait for an app update""","El tutorial está en desarrollo.
-
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Please," wait for an app update""","El tutorial está en desarrollo.
+
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Please, wait for an app update""""""","El tutorial está en desarrollo.
 
 Por favor, espere por una actualización.","Das Tutorial wird entwickelt.
 
@@ -1045,11 +1014,7 @@ Please, wait for an app update","The tutorial is under the works.
 
 Please, wait for an app update","Інструкція знаходиться у розробці.
 
-Будь ласка, зачекайте на оновлення додатка","The tutorial is under the works.
-
-Please, wait for an app update","The tutorial is under the works.
-
-Please, wait for an app update"
+Будь ласка, зачекайте на оновлення додатка"
 K_GAME_AVAILABLE_MESSAGE,"This game isn't available yet.
 
 At this moment just the following games are available:
@@ -1238,19 +1203,13 @@ At this moment just the following games are available:
 Зап'ясток - Легкий.
 Чоло - Середній.
 Зап'ясток - Складний.
-Спина - Дуже складний.","This game isn't available yet.
-
-At this moment just the following games are available:
- Wrist - Easy.
- Forehead - Normal.
- Wrist - Hard.
- Back - Super Hard."
-"K_ABOUT_TITLE","About","Sobre","Über","About","About","About","关于","關於","About","About","Over","Over","About","About","About","About","About","About","About","About","About","About","About","About","Об игре","Об игре","පිළිබඳව","About","About","Про додаток","Про додаток","About"
-"K_LEVEL_TITLE","Level","Nivel","Schwierigkeit","Level","Level","Level","关卡","等級","Level","Level","Level","Level","Level","Level","Level","Level","Level","Level","Level","Level","Level","Level","Level","Level","Уровень","Уровень","මට්ටම","Level","Level","Рівень","Рівень","Level"
-"K_BODYPART_TITLE","Bodypart","Parte del cuerpo","Körperteil","Bodypart","Bodypart","Bodypart","身体部位","身體部位","Bodypart","Bodypart","Lichaamsdeel","Lichaamsdeel","Bodypart","Bodypart","Bodypart","Bodypart","Bodypart","Bodypart","Bodypart","Bodypart","Bodypart","Bodypart","Bodypart","Bodypart","Часть тела","Часть тела","ශරීරකොටස","Bodypart","Bodypart","Частина тіла","Частина тіла","Bodypart"
-"K_HINT_BUTTON","Hint","Pista","Hilfe","Hint","Hint","Hint","提示","提示","Hint","Hint","Tip","Tip","Hint","Hint","Hint","Hint","Hint","Hint","Hint","Hint","Hint","Hint","Hint","Hint","Подсказка","Подсказка","Наговештаји","Hint","Hint","Підказка","Підказка","Hint"
-"K_EXIT_GAME_BUTTON","Exit","Salir","Beenden","Exit","Exit","Exit","退出","退出","Exit","Exit","Sluit af","Sluit af","Exit","Exit","Exit","Exit","Exit","Exit","Exit","Exit","Exit","Exit","Exit","Exit","Выйти","Выйти","Изађи","Exit","Exit","Вийти","Вийти","Exit"
-"K_ABOUT_TEXT","[color=black]
+Спина - Дуже складний."
+K_ABOUT_TITLE,About,Sobre,Über,About,About,About,关于,關於,About,About,Over,Over,About,About,About,About,About,About,About,About,About,About,About,About,Об игре,Об игре,පිළිබඳව,About,About,Про додаток,Про додаток
+K_LEVEL_TITLE,Level,Nivel,Schwierigkeit,Level,Level,Level,关卡,等級,Level,Level,Level,Level,Level,Level,Level,Level,Level,Level,Level,Level,Level,Level,Level,Level,Уровень,Уровень,මට්ටම,Level,Level,Рівень,Рівень
+K_BODYPART_TITLE,Bodypart,Parte del cuerpo,Körperteil,Bodypart,Bodypart,Bodypart,身体部位,身體部位,Bodypart,Bodypart,Lichaamsdeel,Lichaamsdeel,Bodypart,Bodypart,Bodypart,Bodypart,Bodypart,Bodypart,Bodypart,Bodypart,Bodypart,Bodypart,Bodypart,Bodypart,Часть тела,Часть тела,ශරීරකොටස,Bodypart,Bodypart,Частина тіла,Частина тіла
+K_HINT_BUTTON,Hint,Pista,Hilfe,Hint,Hint,Hint,提示,提示,Hint,Hint,Tip,Tip,Hint,Hint,Hint,Hint,Hint,Hint,Hint,Hint,Hint,Hint,Hint,Hint,Подсказка,Подсказка,Наговештаји,Hint,Hint,Підказка,Підказка
+K_EXIT_GAME_BUTTON,Exit,Salir,Beenden,Exit,Exit,Exit,退出,退出,Exit,Exit,Sluit af,Sluit af,Exit,Exit,Exit,Exit,Exit,Exit,Exit,Exit,Exit,Exit,Exit,Exit,Выйти,Выйти,Изађи,Exit,Exit,Вийти,Вийти
+K_ABOUT_TEXT,"[color=black]
 
 Pimple Popper allows you to enjoy the experience of removing protuberance on different human body parts.
 
@@ -2025,31 +1984,6 @@ We are also interested in your real-life pops. [url=""mailto:marvin@poopjournal.
 [url=""https://crazymarvin.com/pimple-popper/terms-of-service/""][color=#0000FF]Legal[/color][/url]  [img=15]res://assets/icons/law.svg[/img]
 
 [url=""https://www.buymeacoffee.com/Marvin""][color=#0000FF]Send us a coffee[/color][/url]  [img=16]res://assets/icons/bmc.svg[/img]
-[/color]","[color=black]
-
-Pimple Popper allows you to enjoy the experience of removing protuberance on different human body parts.
-
-We hope you enjoy this game. If you notice any bugs, have any questions or feedback feel free to [url=""mailto:marvin@poopjournal.rocks""][color=#0000FF]send an email[/color][/url] or open an [url=""https://github.com/Crazy-Marvin/PimplePopper/issues""][color=#0000FF]issue[/color][/url]. 
-
-We are also interested in your real-life pops. [url=""mailto:marvin@poopjournal.rocks""][color=#0000FF]Send them[/color][/url]
-
-[url=""https://www.linkedin.com/in/mottajordan""][color=#0000FF]Main Programmer[/color][/url]  [img=15]res://assets/icons/linkedin.svg[/img]
-
-[url=""https://www.behance.net/alexrendon""][color=#0000FF]Main Artist[/color][/url]  [img=15]res://assets/icons/behance.svg[/img] 
-
-[url=""https://www.github.com/Crazy-Marvin/PimplePopper/""][color=#0000FF]Source[/color][/url]  [img=15]res://assets/icons/github.svg[/img]
-
-[url=""https://www.crazymarvin.com/pimple-popper""][color=#0000FF]Homepage[/color][/url]  [img=15]res://assets/icons/home.svg[/img]
-
-[url=""https://www.godotengine.org/""][color=#0000FF]Powered by Godot[/color][/url]  [img=15]res://assets/icons/godot.svg[/img]
-
-[url=""https://www.crowdin.com/project/pimple-popper""][color=#0000FF]Help us with translations[/color][/url]  [img=15]res://assets/icons/crowdin.svg[/img]
-
-[url=""https://www.github.com/Crazy-Marvin/PimplePopper/blob/master/LICENSE""][color=#0000FF]License[/color][/url] [img=15]res://assets/icons/github.svg[/img]
-
-[url=""https://crazymarvin.com/pimple-popper/terms-of-service/""][color=#0000FF]Legal[/color][/url]  [img=15]res://assets/icons/law.svg[/img]
-
-[url=""https://www.buymeacoffee.com/Marvin""][color=#0000FF]Send us a coffee[/color][/url]  [img=16]res://assets/icons/bmc.svg[/img]
 [/color]"
 K_PIMPLE_TUTORIAL_TEXT,"In this section you need to remove some pimples from different parts of the body.
 
@@ -2113,9 +2047,7 @@ In order to remove the pimples, you just need to enable the hand tool and use yo
 
 Щоб видалити прищі, вам потрібно лише активізувати ручний інструмент і натиснути пальцем на прищ, щоб видавити його. Після того, як прищ буде видавлений, скористайтеся носову хустинкою, щоб протерти ділянку шкіри. Ви не станете хорошим лікарем, якщо залишите все як є.","У цьому блоці вам потрібно видалити кілька прищів із різних частин тіла.
 
-Щоб видалити прищі, вам потрібно лише активізувати ручний інструмент і натиснути пальцем на прищ, щоб видавити його. Після того, як прищ буде видавлений, скористайтеся носову хустинкою, щоб протерти ділянку шкіри. Ви не станете хорошим лікарем, якщо залишите все як є.","In this section you need to remove some pimples from different parts of the body.
-
-In order to remove the pimples, you just need to enable the hand tool and use your finger to apply pressure to pop the pimple. Then when the pimple's popped, use a handkerchief to clean the are. You aren't going to be a good doctor if you left all those stuff there."
+Щоб видалити прищі, вам потрібно лише активізувати ручний інструмент і натиснути пальцем на прищ, щоб видавити його. Після того, як прищ буде видавлений, скористайтеся носову хустинкою, щоб протерти ділянку шкіри. Ви не станете хорошим лікарем, якщо залишите все як є."
 K_BLACKHEAD_TUTORIAL_TEXT,"For this kind of protuberance you need to be careful.
 
 First, you need to apply vapor in order to open the pore. You will note that the pore was opened because the phone doesn‘t vibrate.
@@ -2302,13 +2234,7 @@ Of course, do not forget to clean the area after you do all the work.","З та�
 
 Після цього вам потрібно буде обрати інструмент для видалення комедонів і двічі торкнутися вугра. Коли ви це зробите, комедон буде виділено, після чого необхідно торкнутися екрану та провести пальцем вниз, щоб видалити утворення.
 
-І, звичайно ж, після завершення процедури не забудьте очистити ділянку шкіри, з якою ви працювали.","For this kind of protuberance you need to be careful.
-
-First, you need to apply vapor in order to open the pore. You will note that the pore was opened because the phone doesn‘t vibrate.
-
-Then, you need to select the comedone tool and double touch the blackhead. When you do that, the comedone will be placed onto the protuberance, finally, touch the screen and drag the finger down and the protuberance will be removed.
-
-Of course, do not forget to clean the area after you do all the work."
+І, звичайно ж, після завершення процедури не забудьте очистити ділянку шкіри, з якою ви працювали."
 K_CYST_TUTORIAL_TEXT,"Probably the easiest protuberance to remove.
 
 That big thing can be removed when you select the needle tool and touch and hold in a specefic location of the protuberance. Touch the hint button if you need to locate it. If you touch the right location, a sound is emitted. Now with one finger holding the needle, use another one to extract the content of the protuberance.
@@ -2431,11 +2357,7 @@ After you remove everything, remember to clean the are with the handkerchief.","
 
 Це велике утворення можна видалити таким чином: оберіть інструмент «Голка» та утримуйте його у певній точці випуклості. Натисніть кнопку ""Підказка"", якщо не знаєте, де краще розмістити голку. Якщо торкнутися правильного місця, ви почуєте звук. Після цього, утримуючи голку одним пальцем, іншим вийміть вміст утворення.
 
-Після того, як ви все видалите, не забудьте протерти шкіру носовою хустинкою.","Probably the easiest protuberance to remove.
-
-That big thing can be removed when you select the needle tool and touch and hold in a specefic location of the protuberance. Touch the hint button if you need to locate it. If you touch the right location, a sound is emitted. Now with one finger holding the needle, use another one to extract the content of the protuberance.
-
-After you remove everything, remember to clean the are with the handkerchief."
+Після того, як ви все видалите, не забудьте протерти шкіру носовою хустинкою."
 K_LIPOMA_TUTORIAL_TEXT,"The complex protuberance to remove in a body. But i will show how to remove it.
 
 First, you need to apply anaesthetic because you are going to cut the area. After you apply it you can select the cutter tool and cut the area.
@@ -2622,24 +2544,18 @@ And now that everything was removed, you will need to suture the wound.","Це �
 
 Тепер, коли утворення розкрито, натисніть на нього рукою, щоб видалити вміст.
 
-Після завершення процедури рану необхідно зашити.","The complex protuberance to remove in a body. But i will show how to remove it.
-
-First, you need to apply anaesthetic because you are going to cut the area. After you apply it you can select the cutter tool and cut the area.
-
-Now with the content exposed, use your hand to apply pressure and remove the content.
-
-And now that everything was removed, you will need to suture the wound."
-"K_LIPOMA_BUTTON","Lipoma","Lipoma","Lipom","Lipoma","Lipoma","Lipoma","脂肪瘤","脂肪瘤","Lipoma","Lipoma","Lipoom","Lipoom","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Липома","Липома","Lipoma","Lipoma","Lipoma","Ліпома","Ліпома","Lipoma"
-"K_PIMPLE_BUTTON","Pimple","Espinilla","Pickel","Pimple","Pimple","Pimple","丘疹","丘疹","Pimple","Pimple","Puistje","Puistje","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Прыщ","Прыщ","කුරුලෑව","Pimple","Pimple","Прищ","Прищ","Pimple"
-"K_CYST_BUTTON","Cyst","Quiste","Zyste","Cyst","Cyst","Cyst","囊肿","囊腫","Cyst","Cyst","Cyste","Cyste","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Киста","Киста","Циста","Cyst","Cyst","Кіста","Кіста","Cyst"
-"K_BLACKHEAD_BUTTON","Blackhead","Puntos negros","Mitesser","Blackhead","Blackhead","Blackhead","黑头","黑頭","Blackhead","Blackhead","Mee-eter","Mee-eter","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Угорь","Угорь","කළු ලපය","Blackhead","Blackhead","Вугор","Вугор","Blackhead"
-"K_OPTIONS_TITLE","Options","Opciones","Optionen","Options","Options","Options","选项","選項","Options","Options","Opties","Opties","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Опции","Опции","Опције","Options","Options","Опції","Опції","Options"
-"K_LANGUAGE_OPTION_TITLE","Language","Idioma","Sprache","Language","Language","Language","语言","語言","Language","Language","Taal","Taal","Language","Language","Language","Language","Language","Language","Language","Language","Language","Language","Language","Language","Язык","Язык","භාෂාව","Language","Language","Мова","Мова","Language"
-"K_SPANISH_SELECTION","Spanish","Español","Spanisch","Spanish","Spanish","Spanish","西班牙文","西班牙文","Spanish","Spanish","Spaans","Spaans","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Испанский","Испанский","ස්පාඤ්ඤ","Spanish","Spanish","Іспанська","Іспанська","Spanish"
-"K_ENGLISH_SELECTION","English","Ingles","Englisch","English","English","English","汉语","英文","English","English","Engels","Engels","English","English","English","English","English","English","English","English","English","English","English","English","Английский","Английский","Енглески","English","English","Англійська","Англійська","English"
-"K_GERMAN_SELECTION","German","Alemán","Deutsch","German","German","German","德语","德文","German","German","Duits","Duits","German","German","German","German","German","German","German","German","German","German","German","German","Немецкий","Немецкий","ජර්මානු","German","German","Німецька","Німецька","German"
-"K_LANGUAGE_SELECTION","Select a language","Seleccione un idioma","Wählen Sie eine Sprache aus","Select a language","Select a language","Select a language","选择语言","選擇語言","Select a language","Select a language","Kies een taal","Kies een taal","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Выбрать язык","Выбрать язык","Одабери језик","Select a language","Select a language","Обрати мову","Обрати мову","Select a language"
-"K_PIMPLE_TUTORIAL_TEXT","In this section you need to remove some pimples from different parts of the body.
+Після завершення процедури рану необхідно зашити."
+K_LIPOMA_BUTTON,Lipoma,Lipoma,Lipom,Lipoma,Lipoma,Lipoma,脂肪瘤,脂肪瘤,Lipoma,Lipoma,Lipoom,Lipoom,Lipoma,Lipoma,Lipoma,Lipoma,Lipoma,Lipoma,Lipoma,Lipoma,Lipoma,Lipoma,Lipoma,Lipoma,Липома,Липома,Lipoma,Lipoma,Lipoma,Ліпома,Ліпома
+K_PIMPLE_BUTTON,Pimple,Espinilla,Pickel,Pimple,Pimple,Pimple,丘疹,丘疹,Pimple,Pimple,Puistje,Puistje,Pimple,Pimple,Pimple,Pimple,Pimple,Pimple,Pimple,Pimple,Pimple,Pimple,Pimple,Pimple,Прыщ,Прыщ,කුරුලෑව,Pimple,Pimple,Прищ,Прищ
+K_CYST_BUTTON,Cyst,Quiste,Zyste,Cyst,Cyst,Cyst,囊肿,囊腫,Cyst,Cyst,Cyste,Cyste,Cyst,Cyst,Cyst,Cyst,Cyst,Cyst,Cyst,Cyst,Cyst,Cyst,Cyst,Cyst,Киста,Киста,Циста,Cyst,Cyst,Кіста,Кіста
+K_BLACKHEAD_BUTTON,Blackhead,Puntos negros,Mitesser,Blackhead,Blackhead,Blackhead,黑头,黑頭,Blackhead,Blackhead,Mee-eter,Mee-eter,Blackhead,Blackhead,Blackhead,Blackhead,Blackhead,Blackhead,Blackhead,Blackhead,Blackhead,Blackhead,Blackhead,Blackhead,Угорь,Угорь,කළු ලපය,Blackhead,Blackhead,Вугор,Вугор
+K_OPTIONS_TITLE,Options,Opciones,Optionen,Options,Options,Options,选项,選項,Options,Options,Opties,Opties,Options,Options,Options,Options,Options,Options,Options,Options,Options,Options,Options,Options,Опции,Опции,Опције,Options,Options,Опції,Опції
+K_LANGUAGE_OPTION_TITLE,Language,Idioma,Sprache,Language,Language,Language,语言,語言,Language,Language,Taal,Taal,Language,Language,Language,Language,Language,Language,Language,Language,Language,Language,Language,Language,Язык,Язык,භාෂාව,Language,Language,Мова,Мова
+K_SPANISH_SELECTION,Spanish,Español,Spanisch,Spanish,Spanish,Spanish,西班牙文,西班牙文,Spanish,Spanish,Spaans,Spaans,Spanish,Spanish,Spanish,Spanish,Spanish,Spanish,Spanish,Spanish,Spanish,Spanish,Spanish,Spanish,Испанский,Испанский,ස්පාඤ්ඤ,Spanish,Spanish,Іспанська,Іспанська
+K_ENGLISH_SELECTION,English,Ingles,Englisch,English,English,English,汉语,英文,English,English,Engels,Engels,English,English,English,English,English,English,English,English,English,English,English,English,Английский,Английский,Енглески,English,English,Англійська,Англійська
+K_GERMAN_SELECTION,German,Alemán,Deutsch,German,German,German,德语,德文,German,German,Duits,Duits,German,German,German,German,German,German,German,German,German,German,German,German,Немецкий,Немецкий,ජර්මානු,German,German,Німецька,Німецька
+K_LANGUAGE_SELECTION,Select a language,Seleccione un idioma,Wählen Sie eine Sprache aus,Select a language,Select a language,Select a language,选择语言,選擇語言,Select a language,Select a language,Kies een taal,Kies een taal,Select a language,Select a language,Select a language,Select a language,Select a language,Select a language,Select a language,Select a language,Select a language,Select a language,Select a language,Select a language,Выбрать язык,Выбрать язык,Одабери језик,Select a language,Select a language,Обрати мову,Обрати мову
+K_PIMPLE_TUTORIAL_TEXT,"In this section you need to remove some pimples from different parts of the body.
 
 In order to remove the pimples, you just need to enable the hand tool and use your finger to apply pressure to pop the pimple. Then when the pimple's popped, use a handkerchief to clean the are. You aren't going to be a good doctor if you left all those stuff there.","En esta sección necesitas remover algunas espinillas de diferentes partes del cuerpo.
 
@@ -2693,8 +2609,6 @@ In order to remove the pimples, you just need to enable the hand tool and use yo
 In order to remove the pimples, you just need to enable the hand tool and use your finger to apply pressure to pop the pimple. Then when the pimple's popped, use a handkerchief to clean the are. You aren't going to be a good doctor if you left all those stuff there.","В этом блоке вам нужно будет удалить несколько прыщей с разных частей тела.
 
 Чтобы удалить прыщи, все, что вам нужно, это активизировать ручной инструмент и надавить пальцем на прыщ, чтобы выдавить его. После того, когда прыщ будет выдавлен, используйте носовой платок, чтобы протереть этот участок кожи. Вы не станете хорошим доктором, если оставите все как есть.","In this section you need to remove some pimples from different parts of the body.
-
-In order to remove the pimples, you just need to enable the hand tool and use your finger to apply pressure to pop the pimple. Then when the pimple's popped, use a handkerchief to clean the are. You aren't going to be a good doctor if you left all those stuff there.","In this section you need to remove some pimples from different parts of the body.
 
 In order to remove the pimples, you just need to enable the hand tool and use your finger to apply pressure to pop the pimple. Then when the pimple's popped, use a handkerchief to clean the are. You aren't going to be a good doctor if you left all those stuff there.","In this section you need to remove some pimples from different parts of the body.
 
@@ -2891,12 +2805,6 @@ First, you need to apply vapor in order to open the pore. You will note that the
 
 Then, you need to select the comedone tool and double touch the blackhead. When you do that, the comedone will be placed onto the protuberance, finally, touch the screen and drag the finger down and the protuberance will be removed.
 
-Of course, do not forget to clean the area after you do all the work.","For this kind of protuberance you need to be careful.
-
-First, you need to apply vapor in order to open the pore. You will note that the pore was opened because the phone doesn‘t vibrate.
-
-Then, you need to select the comedone tool and double touch the blackhead. When you do that, the comedone will be placed onto the protuberance, finally, touch the screen and drag the finger down and the protuberance will be removed.
-
 Of course, do not forget to clean the area after you do all the work."
 K_CYST_TUTORIAL_TEXT,"Probably the easiest protuberance to remove.
 
@@ -3001,10 +2909,6 @@ After you remove everything, remember to clean the are with the handkerchief.","
 Это большое образование можно удалить таким образом: выберите инструмент «Игла» и удерживайте его в определенной точке выпуклости. Коснитесь кнопки ""Подсказка"", если не знаете, где лучше разместить иглу. Если коснуться правильного места, раздастся звук. После этого, удерживая иглу одним пальцем, другим извлеките содержимое образования.
 
 После того, как вы все удалите, не забудьте протереть кожу носовым платком.","Probably the easiest protuberance to remove.
-
-That big thing can be removed when you select the needle tool and touch and hold in a specefic location of the protuberance. Touch the hint button if you need to locate it. If you touch the right location, a sound is emitted. Now with one finger holding the needle, use another one to extract the content of the protuberance.
-
-After you remove everything, remember to clean the are with the handkerchief.","Probably the easiest protuberance to remove.
 
 That big thing can be removed when you select the needle tool and touch and hold in a specefic location of the protuberance. Touch the hint button if you need to locate it. If you touch the right location, a sound is emitted. Now with one finger holding the needle, use another one to extract the content of the protuberance.
 
@@ -3211,28 +3115,21 @@ First, you need to apply anaesthetic because you are going to cut the area. Afte
 
 Now with the content exposed, use your hand to apply pressure and remove the content.
 
-And now that everything was removed, you will need to suture the wound.","The complex protuberance to remove in a body. But i will show how to remove it.
-
-First, you need to apply anaesthetic because you are going to cut the area. After you apply it you can select the cutter tool and cut the area.
-
-Now with the content exposed, use your hand to apply pressure and remove the content.
-
 And now that everything was removed, you will need to suture the wound."
-"K_LIPOMA_BUTTON","Lipoma","Lipoma","Diplom","Lipoma","Lipoma","Lipoma","Lipoma","脂肪瘤","Lipoma","Lipoma","Lipoma","Lipoom","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Липома","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma"
-"K_PIMPLE_BUTTON","Pimple","Espinilla","Pickel","Pimple","Pimple","Pimple","Pimple","丘疹","Pimple","Pimple","Pimple","Puistje","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Прыщ","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple"
-"K_CYST_BUTTON","Cyst","Quiste","Zyste","Cyst","Cyst","Cyst","Cyst","囊腫","Cyst","Cyst","Cyst","Cyste","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Киста","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst"
-"K_BLACKHEAD_BUTTON","Blackhead","Puntos negros","Mitesser","Blackhead","Blackhead","Blackhead","Blackhead","黑頭","Blackhead","Blackhead","Blackhead","Mee-eter","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Угорь","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead"
-"K_OPTIONS_TITLE","Options","Opciones","Optionen","Options","Options","Options","Options","選項","Options","Options","Options","Opties","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Опции","Options","Options","Options","Options","Options","Options"
-"K_LANGUAGE_OPTION_TITLE","Language","Idioma","Sprache","Language","Language","Language","Language","語言","Language","Language","Language","Taal","Language","Language","Language","Language","Language","Language","Language","Language","Language","Language","Language","Language","Language","Язык","Language","Language","Language","Language","Language","Language"
-"K_SPANISH_SELECTION","Spanish","Español","Spanisch","Spanish","Spanish","Spanish","Spanish","西班牙文","Spanish","Spanish","Spanish","Spaans","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Испанский","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish"
-"K_ENGLISH_SELECTION","English","Ingles","Englisch","English","English","English","English","英文","English","English","English","Engels","English","English","English","English","English","English","English","English","English","English","English","English","English","Английский","English","English","English","English","English","English"
-"K_GERMAN_SELECTION","German","Alemán","Deutsch","German","German","German","German","德文","German","German","German","Duits","German","German","German","German","German","German","German","German","German","German","German","German","German","Немецкий","German","German","German","German","German","German"
-"K_LANGUAGE_SELECTION","Select a language","Seleccione un idioma","Wähle eine Sprache aus","Select a language","Select a language","Select a language","Select a language","選擇語言","Select a language","Select a language","Select a language","Kies een taal","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Выбрать язык","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language"
-"K_BUTTOCKS_BUTTON","Butt","","Po","","Butt","Butt","Butt","","","Butt","Butt","Billen","Butt","Butt","Butt","Butt","Butt","Butt","Butt","Butt","","Butt","","","Butt","Попа","Butt","","","Butt","Butt","Butt"
-"K_NOSE_BUTTON","Nose","","Nase","","Nose","Nose","Nose","","","Nose","Nose","Neus","Nose","Nose","Nose","Nose","Nose","Nose","Nose","Nose","","Nose","","","Nose","Нос","Nose","","","Nose","Nose","Nose"
-"K_SHIN_BUTTON","Shin","","Schienbein","","Shin","Shin","Shin","","","Shin","Shin","scheenbeen","Shin","Shin","Shin","Shin","Shin","Shin","Shin","Shin","","Shin","","","Shin","Шин","Shin","","","Shin","Shin","Shin"
-"K_CN_SIMPLIFIED_SELECTION","Chinese Simplified","","Chinesisch (vereinfacht)","","Chinese Simplified","Chinese Simplified","Chinese Simplified","","","Chinese Simplified","Chinese Simplified","Chinees (vereenvoudigd)","Chinese Simplified","Chinese Simplified","Chinese Simplified","Chinese Simplified","Chinese Simplified","Chinese Simplified","Chinese Simplified","Chinese Simplified","","Chinese Simplified","","","Chinese Simplified","Китайский (упрощенный)","Chinese Simplified","","","Chinese Simplified","Chinese Simplified","Chinese Simplified"
-"K_CN_TRAD_SELECTION","Chinese Traditional","","Chinesisch (traditionell)","","Chinese Traditional","Chinese Traditional","Chinese Traditional","","","Chinese Traditional","Chinese Traditional","Chinees (traditioneel)","Chinese Traditional","Chinese Traditional","Chinese Traditional","Chinese Traditional","Chinese Traditional","Chinese Traditional","Chinese Traditional","Chinese Traditional","","Chinese Traditional","","","Chinese Traditional","Китайский (традиционный)","Chinese Traditional","","","Chinese Traditional","Chinese Traditional","Chinese Traditional"
-"K_RUSSIAN_SELECTION","Russian","","Russisch","","Russian","Russian","Russian","","","Russian","Russian","Russisch","Russian","Russian","Russian","Russian","Russian","Russian","Russian","Russian","","Russian","","","Russian","Русский","Russian","","","Russian","Russian","Russian"
-"K_SERBIAN_SELECTION","Serbian","","Serbisch","","Serbian","Serbian","Serbian","","","Serbian","Serbian","Servisch","Serbian","Serbian","Serbian","Serbian","Serbian","Serbian","Serbian","Serbian","","Serbian","","","Serbian","Сербский","Serbian","","","Serbian","Serbian","Serbian"
-
+K_LIPOMA_BUTTON,Lipoma,Lipoma,Diplom,Lipoma,Lipoma,Lipoma,Lipoma,脂肪瘤,Lipoma,Lipoma,Lipoma,Lipoom,Lipoma,Lipoma,Lipoma,Lipoma,Lipoma,Lipoma,Lipoma,Lipoma,Lipoma,Lipoma,Lipoma,Lipoma,Lipoma,Липома,Lipoma,Lipoma,Lipoma,Lipoma,Lipoma
+K_PIMPLE_BUTTON,Pimple,Espinilla,Pickel,Pimple,Pimple,Pimple,Pimple,丘疹,Pimple,Pimple,Pimple,Puistje,Pimple,Pimple,Pimple,Pimple,Pimple,Pimple,Pimple,Pimple,Pimple,Pimple,Pimple,Pimple,Pimple,Прыщ,Pimple,Pimple,Pimple,Pimple,Pimple
+K_CYST_BUTTON,Cyst,Quiste,Zyste,Cyst,Cyst,Cyst,Cyst,囊腫,Cyst,Cyst,Cyst,Cyste,Cyst,Cyst,Cyst,Cyst,Cyst,Cyst,Cyst,Cyst,Cyst,Cyst,Cyst,Cyst,Cyst,Киста,Cyst,Cyst,Cyst,Cyst,Cyst
+K_BLACKHEAD_BUTTON,Blackhead,Puntos negros,Mitesser,Blackhead,Blackhead,Blackhead,Blackhead,黑頭,Blackhead,Blackhead,Blackhead,Mee-eter,Blackhead,Blackhead,Blackhead,Blackhead,Blackhead,Blackhead,Blackhead,Blackhead,Blackhead,Blackhead,Blackhead,Blackhead,Blackhead,Угорь,Blackhead,Blackhead,Blackhead,Blackhead,Blackhead
+K_OPTIONS_TITLE,Options,Opciones,Optionen,Options,Options,Options,Options,選項,Options,Options,Options,Opties,Options,Options,Options,Options,Options,Options,Options,Options,Options,Options,Options,Options,Options,Опции,Options,Options,Options,Options,Options
+K_LANGUAGE_OPTION_TITLE,Language,Idioma,Sprache,Language,Language,Language,Language,語言,Language,Language,Language,Taal,Language,Language,Language,Language,Language,Language,Language,Language,Language,Language,Language,Language,Language,Язык,Language,Language,Language,Language,Language
+K_SPANISH_SELECTION,Spanish,Español,Spanisch,Spanish,Spanish,Spanish,Spanish,西班牙文,Spanish,Spanish,Spanish,Spaans,Spanish,Spanish,Spanish,Spanish,Spanish,Spanish,Spanish,Spanish,Spanish,Spanish,Spanish,Spanish,Spanish,Испанский,Spanish,Spanish,Spanish,Spanish,Spanish
+K_ENGLISH_SELECTION,English,Ingles,Englisch,English,English,English,English,英文,English,English,English,Engels,English,English,English,English,English,English,English,English,English,English,English,English,English,Английский,English,English,English,English,English
+K_GERMAN_SELECTION,German,Alemán,Deutsch,German,German,German,German,德文,German,German,German,Duits,German,German,German,German,German,German,German,German,German,German,German,German,German,Немецкий,German,German,German,German,German
+K_LANGUAGE_SELECTION,Select a language,Seleccione un idioma,Wähle eine Sprache aus,Select a language,Select a language,Select a language,Select a language,選擇語言,Select a language,Select a language,Select a language,Kies een taal,Select a language,Select a language,Select a language,Select a language,Select a language,Select a language,Select a language,Select a language,Select a language,Select a language,Select a language,Select a language,Select a language,Выбрать язык,Select a language,Select a language,Select a language,Select a language,Select a language
+K_BUTTOCKS_BUTTON,Butt,,Po,,Butt,Butt,Butt,,,Butt,Butt,Billen,Butt,Butt,Butt,Butt,Butt,Butt,Butt,Butt,,Butt,,,Butt,Попа,Butt,,,Butt,Butt
+K_NOSE_BUTTON,Nose,,Nase,,Nose,Nose,Nose,,,Nose,Nose,Neus,Nose,Nose,Nose,Nose,Nose,Nose,Nose,Nose,,Nose,,,Nose,Нос,Nose,,,Nose,Nose
+K_SHIN_BUTTON,Shin,,Schienbein,,Shin,Shin,Shin,,,Shin,Shin,scheenbeen,Shin,Shin,Shin,Shin,Shin,Shin,Shin,Shin,,Shin,,,Shin,Шин,Shin,,,Shin,Shin
+K_CN_SIMPLIFIED_SELECTION,Chinese Simplified,,Chinesisch (vereinfacht),,Chinese Simplified,Chinese Simplified,Chinese Simplified,,,Chinese Simplified,Chinese Simplified,Chinees (vereenvoudigd),Chinese Simplified,Chinese Simplified,Chinese Simplified,Chinese Simplified,Chinese Simplified,Chinese Simplified,Chinese Simplified,Chinese Simplified,,Chinese Simplified,,,Chinese Simplified,Китайский (упрощенный),Chinese Simplified,,,Chinese Simplified,Chinese Simplified
+K_CN_TRAD_SELECTION,Chinese Traditional,,Chinesisch (traditionell),,Chinese Traditional,Chinese Traditional,Chinese Traditional,,,Chinese Traditional,Chinese Traditional,Chinees (traditioneel),Chinese Traditional,Chinese Traditional,Chinese Traditional,Chinese Traditional,Chinese Traditional,Chinese Traditional,Chinese Traditional,Chinese Traditional,,Chinese Traditional,,,Chinese Traditional,Китайский (традиционный),Chinese Traditional,,,Chinese Traditional,Chinese Traditional
+K_RUSSIAN_SELECTION,Russian,,Russisch,,Russian,Russian,Russian,,,Russian,Russian,Russisch,Russian,Russian,Russian,Russian,Russian,Russian,Russian,Russian,,Russian,,,Russian,Русский,Russian,,,Russian,Russian
+K_SERBIAN_SELECTION,Serbian,,Serbisch,,Serbian,Serbian,Serbian,,,Serbian,Serbian,Servisch,Serbian,Serbian,Serbian,Serbian,Serbian,Serbian,Serbian,Serbian,,Serbian,,,Serbian,Сербский,Serbian,,,Serbian,Serbian
