@@ -10,7 +10,11 @@ var is_on_second_selection: bool = false
 var langs = [
 	['es', 'K_SPANISH_SELECTION'],
 	['en', 'K_ENGLISH_SELECTION'],
-	['de', 'K_GERMAN_SELECTION']
+	['de', 'K_GERMAN_SELECTION'],
+	['zh_CN', 'K_CN_SIMPLIFIED_SELECTION'],
+	['zh_TW', 'K_CN_TRAD_SELECTION'],
+	['ru', 'K_RUSSIAN_SELECTION'],
+	['sr', 'K_SERBIAN_SELECTION'],
 ]
 
 
@@ -28,7 +32,7 @@ func _ready():
 	load_types()
 	load_languages()
 	
-	TranslationServer.set_locale(Save.get_language())
+#	TranslationServer.set_locale(Save.get_language())
 
 
 func _on_Play_pressed():

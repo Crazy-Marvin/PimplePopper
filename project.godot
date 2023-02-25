@@ -129,11 +129,11 @@ pointing/emulate_touch_from_mouse=true
 [locale]
 
 test="es"
-translations=PoolStringArray( "res://assets/i18n/translation.de.translation", "res://assets/i18n/translation.en.translation", "res://assets/i18n/translation.es.translation", "res://assets/i18n/translation.fr.translation" )
+translations=PoolStringArray( "res://assets/i18n/translation.de.translation", "res://assets/i18n/translation.en.translation", "res://assets/i18n/translation.es.translation", "res://assets/i18n/translation.fr.translation", "res://assets/i18n/translation.ru.translation", "res://assets/i18n/translation.zh_CN.translation", "res://assets/i18n/translation.zh_TW.translation", "res://assets/i18n/translation.sr.translation" )
 translation_remaps={
 "res://assets/win_title/win_en.png": PoolStringArray( "res://assets/win_title/win_de.png:de", "res://assets/win_title/won_es.png:es" )
 }
-locale_filter=[ 1, [ "de", "en", "es", "fr_FR" ] ]
+locale_filter=[ 0, [ "de", "en", "es", "fr_FR", "ru", "zh_CN", "zh_HK" ] ]
 
 [rendering]
 
