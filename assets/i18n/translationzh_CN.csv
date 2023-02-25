@@ -1,4 +1,3 @@
-
 "ID","en","es","de","af","ar","ca","zh_CN","zh_TW","cs","da","nl","fi","fr","el","he","hu","it","ja","ko","nn_NO","pl","pt","pt_BR","ro","ru","sr","si","sv","tr","uk","vi",""
 "K_PLAY","Play","Comenzar","Start","Play","Play","Play","开始","開始","Play","Play","Spelen","Spelen","Play","Play","Play","Play","Play","Play","Play","Play","Play","Play","Play","Play","Играть","Играть","Покрени","Play","Play","Грати","Грати","Play"
 "K_TUTORIAL","Tutorial","Tutorial","Anleitung","Tutorial","Tutorial","Tutorial","新手教程","新手教學","Tutorial","Tutorial","Tutorial","Tutorial","Tutorial","Tutorial","Tutorial","Tutorial","Tutorial","Tutorial","Tutorial","Tutorial","Tutorial","Tutorial","Tutorial","Tutorial","Инструкция","Инструкция","Водич","Tutorial","Tutorial","Інструкція","Інструкція","Tutorial"
@@ -983,11 +982,7 @@ K_SUTURE_TOOL,Suture,Suturar,Vernähen,Suture,Suture,Suture,Suture,Suture,Suture
 K_CUTTER_TOOL,Cutter,Exacto,Messer,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter
 ,,,,,,,,,,,,,,,,,
 K_TUTORIAL_DEVELOPMENT_MESSAGE,The tutorial is under the works."
-
 "Please"," wait for an app update""","El tutorial está en desarrollo.
-
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Please," wait for an app update""","El tutorial está en desarrollo.
 
 Por favor, espere por una actualización.","Das Tutorial wird entwickelt.
 
@@ -1050,7 +1045,7 @@ Please, wait for an app update","Інструкція знаходиться у 
 Please, wait for an app update","The tutorial is under the works.
 
 Please, wait for an app update"
-K_GAME_AVAILABLE_MESSAGE,"This game isn't available yet.
+"K_GAME_AVAILABLE_MESSAGE","This game isn't available yet.
 
 At this moment just the following games are available:
  Wrist - Easy.
@@ -2051,7 +2046,7 @@ We are also interested in your real-life pops. [url=""mailto:marvin@poopjournal.
 
 [url=""https://www.buymeacoffee.com/Marvin""][color=#0000FF]Send us a coffee[/color][/url]  [img=16]res://assets/icons/bmc.svg[/img]
 [/color]"
-K_PIMPLE_TUTORIAL_TEXT,"In this section you need to remove some pimples from different parts of the body.
+"K_PIMPLE_TUTORIAL_TEXT","In this section you need to remove some pimples from different parts of the body.
 
 In order to remove the pimples, you just need to enable the hand tool and use your finger to apply pressure to pop the pimple. Then when the pimple's popped, use a handkerchief to clean the are. You aren't going to be a good doctor if you left all those stuff there.","En esta sección necesitas remover algunas espinillas de diferentes partes del cuerpo.
 
@@ -2116,7 +2111,7 @@ In order to remove the pimples, you just need to enable the hand tool and use yo
 Щоб видалити прищі, вам потрібно лише активізувати ручний інструмент і натиснути пальцем на прищ, щоб видавити його. Після того, як прищ буде видавлений, скористайтеся носову хустинкою, щоб протерти ділянку шкіри. Ви не станете хорошим лікарем, якщо залишите все як є.","In this section you need to remove some pimples from different parts of the body.
 
 In order to remove the pimples, you just need to enable the hand tool and use your finger to apply pressure to pop the pimple. Then when the pimple's popped, use a handkerchief to clean the are. You aren't going to be a good doctor if you left all those stuff there."
-K_BLACKHEAD_TUTORIAL_TEXT,"For this kind of protuberance you need to be careful.
+"K_BLACKHEAD_TUTORIAL_TEXT","For this kind of protuberance you need to be careful.
 
 First, you need to apply vapor in order to open the pore. You will note that the pore was opened because the phone doesn‘t vibrate.
 
@@ -2309,7 +2304,7 @@ First, you need to apply vapor in order to open the pore. You will note that the
 Then, you need to select the comedone tool and double touch the blackhead. When you do that, the comedone will be placed onto the protuberance, finally, touch the screen and drag the finger down and the protuberance will be removed.
 
 Of course, do not forget to clean the area after you do all the work."
-K_CYST_TUTORIAL_TEXT,"Probably the easiest protuberance to remove.
+"K_CYST_TUTORIAL_TEXT","Probably the easiest protuberance to remove.
 
 That big thing can be removed when you select the needle tool and touch and hold in a specefic location of the protuberance. Touch the hint button if you need to locate it. If you touch the right location, a sound is emitted. Now with one finger holding the needle, use another one to extract the content of the protuberance.
 
@@ -2436,7 +2431,7 @@ After you remove everything, remember to clean the are with the handkerchief.","
 That big thing can be removed when you select the needle tool and touch and hold in a specefic location of the protuberance. Touch the hint button if you need to locate it. If you touch the right location, a sound is emitted. Now with one finger holding the needle, use another one to extract the content of the protuberance.
 
 After you remove everything, remember to clean the are with the handkerchief."
-K_LIPOMA_TUTORIAL_TEXT,"The complex protuberance to remove in a body. But i will show how to remove it.
+"K_LIPOMA_TUTORIAL_TEXT","The complex protuberance to remove in a body. But i will show how to remove it.
 
 First, you need to apply anaesthetic because you are going to cut the area. After you apply it you can select the cutter tool and cut the area.
 
@@ -2655,7 +2650,6 @@ In order to remove the pimples, you just need to enable the hand tool and use yo
 
 In order to remove the pimples, you just need to enable the hand tool and use your finger to apply pressure to pop the pimple. Then when the pimple's popped, use a handkerchief to clean the are. You aren't going to be a good doctor if you left all those stuff there.","在本部分中，您需要消除身體不同部位的痘痘。
 
-
 在消除這些痘痘時，你需要運用工具，並利用手指來擠壓痘痘。爆痘之後，使用手帕進行清潔。只有做好每一步才能稱為合格的醫生。","In this section you need to remove some pimples from different parts of the body.
 
 In order to remove the pimples, you just need to enable the hand tool and use your finger to apply pressure to pop the pimple. Then when the pimple's popped, use a handkerchief to clean the are. You aren't going to be a good doctor if you left all those stuff there.","In this section you need to remove some pimples from different parts of the body.
@@ -2705,7 +2699,7 @@ In order to remove the pimples, you just need to enable the hand tool and use yo
 In order to remove the pimples, you just need to enable the hand tool and use your finger to apply pressure to pop the pimple. Then when the pimple's popped, use a handkerchief to clean the are. You aren't going to be a good doctor if you left all those stuff there.","In this section you need to remove some pimples from different parts of the body.
 
 In order to remove the pimples, you just need to enable the hand tool and use your finger to apply pressure to pop the pimple. Then when the pimple's popped, use a handkerchief to clean the are. You aren't going to be a good doctor if you left all those stuff there."
-K_BLACKHEAD_TUTORIAL_TEXT,"For this kind of protuberance you need to be careful.
+"K_BLACKHEAD_TUTORIAL_TEXT","For this kind of protuberance you need to be careful.
 
 First, you need to apply vapor in order to open the pore. You will note that the pore was opened because the phone doesn‘t vibrate.
 
@@ -2898,7 +2892,7 @@ First, you need to apply vapor in order to open the pore. You will note that the
 Then, you need to select the comedone tool and double touch the blackhead. When you do that, the comedone will be placed onto the protuberance, finally, touch the screen and drag the finger down and the protuberance will be removed.
 
 Of course, do not forget to clean the area after you do all the work."
-K_CYST_TUTORIAL_TEXT,"Probably the easiest protuberance to remove.
+"K_CYST_TUTORIAL_TEXT","Probably the easiest protuberance to remove.
 
 That big thing can be removed when you select the needle tool and touch and hold in a specefic location of the protuberance. Touch the hint button if you need to locate it. If you touch the right location, a sound is emitted. Now with one finger holding the needle, use another one to extract the content of the protuberance.
 
@@ -3025,7 +3019,7 @@ After you remove everything, remember to clean the are with the handkerchief.","
 That big thing can be removed when you select the needle tool and touch and hold in a specefic location of the protuberance. Touch the hint button if you need to locate it. If you touch the right location, a sound is emitted. Now with one finger holding the needle, use another one to extract the content of the protuberance.
 
 After you remove everything, remember to clean the are with the handkerchief."
-K_LIPOMA_TUTORIAL_TEXT,"The complex protuberance to remove in a body. But i will show how to remove it.
+"K_LIPOMA_TUTORIAL_TEXT","The complex protuberance to remove in a body. But i will show how to remove it.
 
 First, you need to apply anaesthetic because you are going to cut the area. After you apply it you can select the cutter tool and cut the area.
 
@@ -3235,4 +3229,3 @@ And now that everything was removed, you will need to suture the wound."
 "K_CN_TRAD_SELECTION","Chinese Traditional","","Chinesisch (traditionell)","","Chinese Traditional","Chinese Traditional","Chinese Traditional","","","Chinese Traditional","Chinese Traditional","Chinees (traditioneel)","Chinese Traditional","Chinese Traditional","Chinese Traditional","Chinese Traditional","Chinese Traditional","Chinese Traditional","Chinese Traditional","Chinese Traditional","","Chinese Traditional","","","Chinese Traditional","Китайский (традиционный)","Chinese Traditional","","","Chinese Traditional","Chinese Traditional","Chinese Traditional"
 "K_RUSSIAN_SELECTION","Russian","","Russisch","","Russian","Russian","Russian","","","Russian","Russian","Russisch","Russian","Russian","Russian","Russian","Russian","Russian","Russian","Russian","","Russian","","","Russian","Русский","Russian","","","Russian","Russian","Russian"
 "K_SERBIAN_SELECTION","Serbian","","Serbisch","","Serbian","Serbian","Serbian","","","Serbian","Serbian","Servisch","Serbian","Serbian","Serbian","Serbian","Serbian","Serbian","Serbian","Serbian","","Serbian","","","Serbian","Сербский","Serbian","","","Serbian","Serbian","Serbian"
-
