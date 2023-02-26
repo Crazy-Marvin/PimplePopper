@@ -1,0 +1,4 @@
+- New level: buttocks
+- Under the hood improvements
+
+Please feel welcome to open issues on https://github.com/Crazy-Marvin/PimplePopper/ and help with translations on https://crowdin.com/project/pimple-popper.

@@ -1,0 +1,3 @@
+- New levels
+- Translation updates
+- Bugs fixed
