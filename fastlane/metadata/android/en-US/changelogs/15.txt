@@ -1,2 +1,2 @@
-- Translation Updates
-- Bugfixes
+- Translation Updates 🗺️
+- Bugfixes 🐛
