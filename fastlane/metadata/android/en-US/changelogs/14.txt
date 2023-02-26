@@ -1,2 +1,4 @@
 - Update Translation Workflow
 - Enable Yodo1
+
+Please feel welcome to open issues on https://github.com/Crazy-Marvin/PimplePopper/ and help with translations on https://crowdin.com/project/pimple-popper.
