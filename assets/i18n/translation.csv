@@ -1,57 +1,27 @@
-"ID","en","es","de","af","ar","ca","zh_CN","zh_TW","cs","da","nl","fi","fr","el","he","hu","it","ja","ko","nn_NO","pl","pt","pt_BR","ro","ru","sr","si","sv","tr","uk","vi",""
-"K_PLAY","Play","Comenzar","Start","Play","Play","تشغيل","开始","開始","Play","Hrát","Spelen","Spelen","Toista","Jouer","Αναπαραγωγή","Play","Játék","Gioca","再生","Play","Play","Odtwórz","Play","Play","Играть","Играть","Покрени","Play","Play","Грати","Грати","Play"
-"K_TUTORIAL","Tutorial","Tutorial","Anleitung","Tutorial","Tutorial","البرنامج التعليمي","新手教程","新手教學","Tutorial","Návod","Vejledning","Tutorial","Opastus","Tutoriel","Εκμάθηση","Tutorial","Oktató videó","Tutorial","チュートリアル","Tutorial","Tutorial","Samouczek","Tutorial","Tutorial","Инструкция","Инструкция","Водич","Tutorial","Tutorial","Інструкція","Інструкція","Tutorial"
-"K_ABOUT","About","Sobre","Über","About","Oor","عن البرنامج","关于","關於","About","O aplikaci","Over","Over","Tietoja","À propos","Σχετικά με","About","Róla","Info","About","관련 정보","About","O programie","About","About","О приложении","О приложении","О програму","About","About","Про додаток","Про додаток","Về Chúng Tôi"
-"K_CHEEK_LEVEL_BUTTON","Cheek","Cachete","Wange","Cheek","Cheek","شيك","脸颊","臉頰","Cheek","Sýr","Wang","Wang","Cheek","Joue","Μάγουλα","Cheek","Pofa","Guancia","チーク","Cheek","Cheek","Czek","Cheek","Cheek","Щека","Щека","Образ","Cheek","Cheek","Щока","Щока","Cheek"
-"K_FOREHEAD_LEVEL_BUTTON","Forehead","Frente","Stirn","Forehead","Forehead","الفاتح","额头","額頭","Forehead","Přední","Voorhoofd","Voorhoofd","Etupää","Avant-plan","Μέτωπο","Forehead","Homlok","Fronte","おでき","Forehead","Forehead","Przód","Forehead","Forehead","Лоб","Лоб","නළල","Forehead","Forehead","Чоло","Чоло","Forehead"
-"K_WRIST_LEVEL_BUTTON","Wrist","Muñeca","Handgelenk","Wrist","Wrist","معطف","手腕","手腕","Wrist","Zápěstí","Pols","Pols","Ranneke","Poignets","Καρπός","Wrist","Csukló","Polso","手","Wrist","Wrist","Nadgarstka","Wrist","Wrist","Запястье","Запястье","මැණික්කටුව","Wrist","Wrist","Зап'ясток","Зап'ясток","Wrist"
-"K_BACK_LEVEL_BUTTON","Back","Espalda","Rücken","Back","Back","الرجوع","返回","返回","Back","Zpět","Vorige","Vorige","Takaisin","Précédent","Πίσω","Back","Hát","Indietro","戻る","Back","Back","Powrót","Back","Back","Спина","Спина","ආපසු","Back","Back","Спина","Спина","Back"
-"K_CHEST_LEVEL_BUTTON","Chest","Pecho","Brust","Chest","Chest","صندوق","队伍物资箱","箱子","Chest","Truhla","Kist","Kist","Arkku","Coffre","Κιβώτιο","Chest","Chest","Forziere","Chest","Chest","Chest","Skrzynia","Chest","Chest","Грудь","Грудь","උරස්ථලය","Chest","Chest","Груди","Груди","Chest"
-"K_BACK_BUTTON","Back","Atras","Zurück","Back","Back","الرجوع","返回","返回","Back","Zpět","Vorige","Vorige","Takaisin","Précédent","Πίσω","Back","Hát","Indietro","戻る","Back","Back","Powrót","Back","Back","Назад","Назад","ආපසු","Back","Back","Назад","Назад","Back"
-"K_EASY_BUTTON","Easy","Fácil","Einfach","Easy","Easy","سهل","简单","簡單","Easy","Snadné","Gemakkelijk","Gemakkelijk","Helppo","Facile","Εύκολο","Easy","Könnyű","Facile","簡単","Easy","Easy","Łatwy","Easy","Easy","Легкий","Легкий","ලෙහෙසි","Easy","Easy","Легкий","Легкий","Easy"
-"K_NORMAL_BUTTON","Normal","Normal","Normal","Normal","Normal","عادي","普通","普通","Normal","Normální","Normaal","Normaal","Normaali","Normale","Κανονικό","Normal","Normális","Normale","標準","Normal","Normal","Normalny","Normal","Normal","Средний","Средний","සාමාන්‍ය","Normal","Normal","Середній","Середній","Normal"
-"K_HARD_BUTTON","Hard","Difícil","Schwierig","Hard","Hard","صعب","困难","困難","Hard","Těžká","Moeilijk","Moeilijk","Vaikea","Difficile","Δύσκολο","Hard","Kéz","Difficile","ハード","Hard","Hard","Twarde","Hard","Hard","Сложный","Сложный","අමාරු","Hard","Hard","Складний","Складний","Hard"
-"K_SUPER_HARD_BUTTON","Super hard","Super difícil","Äußerst schwierig","Super hard","Super hard","صعب جداً","超难","超難","Super hard","Super tvrdý","Heel moeilijk","Heel moeilijk","Super kova","Super dur","Σούπερ σκληρό","Super hard","Szuper kemény","Super difficile","Super hard","Super hard","Super hard","Super twardy","Super hard","Super hard","Очень сложный","Очень сложный","ඉතා අමාරු","Super hard","Super hard","Дуже складний","Дуже складний","Super hard"
-"K_OPTIONS","Options","Opciones","Einstellungen","Options","Options","خيارات","选项","選項","Options","Možnosti","Opties","Opties","Valinnat","Options","Επιλογές","Options","Lehetőségek","Opzioni","オプション","Options","Options","Opcje","Options","Options","Опции","Опции","විකල්ප","Options","Options","Опції","Опції","Options"
-"K_HAND_TOOL","Hand","Mano","Hand","Hand","Hand","اليد","手部","手","Hand","Ruka","Hånd","Hand","Käsi","Main","Χέρι","Hand","Kéz","Mano","手","Hand","Hand","Dłoń","Hand","Hand","Рука","Рука","අත","Hand","Hand","Рука","Рука","Hand"
-"K_HANDKERCHIEF_TOOL","Handkerchief","Pañuelo","Taschentuch","Handkerchief","Handkerchief","المعالج","手帕","手帕","Handkerchief","Šéfkuchař","Zakdoek","Zakdoek","Nenäliinat","Poussière","Handkerchief","Handkerchief","Zsebkendő","Fazzoletto","ハンカチ型","Handkerchief","Handkerchief","Kierownik","Handkerchief","Handkerchief","Носовой платок","Носовой платок","අත් ලේන්සුව","Handkerchief","Handkerchief","Носова хустинка","Носова хустинка","Handkerchief"
-"K_VAPOR_TOOL","Vapor","Vapor","Wasserdampf","Vapor","Vapor","Vapor","水汽","噴霧器","Vapor","Vapor","Stoom","Stoom","Vapor","Vapor","Vapor","Vapor","Gőz","Vapore","Vapor","Vapor","Vapor","Vapor","Vapor","Vapor","Пар","Пар","හුමාලය","Vapor","Vapor","Пара","Пара","Vapor"
-"K_COMEDONE_TOOL","Comedone","Comedona","Mitesser","Comedone","Comedone","كوميدون","粉刺","粉刺","Comedone","Komedon","Mee-eters","Mee-eters","Komedoni","Comedone","Κομεδόνη","Comedone","Bőratka","Comedone","Comedone","Comedone","Comedone","Komedon","Comedone","Comedone","Комедон","Комедон","වර්විය","Comedone","Comedone","Комедон","Комедон","Comedone"
-"K_NEEDLE_TOOL","Needle","Inyectadora","Nadel","Needle","Needle","إحتياطي","针","針","Needle","Jehly","Naald","Naald","Neula","Aiguille","Βελόνα","Needle","Tű","Ago","ニードル語","Needle","Needle","Igła","Needle","Needle","Игла","Игла","ඉදිකටුව","Needle","Needle","Голка","Голка","Needle"
-"K_ANESTHETIC_TOOL","Anestesia","Anestesia","Anästhesie","Anestesia","Anestesia","Anestesia","麻醉","麻醉","Anestesia","Anestesia","Anestesia","Anestesia","Anestesia","Anestesia","Anestesia","Anestesia","Anesztézia","Anestesia","Anestesia","Anestesia","Anestesia","Anestesia","Anestesia","Anestesia","Анестезия","Анестезия","නිර්වින්දනය","Anestesia","Anestesia","Анестезія","Анестезія","Anestesia"
-"K_SUTURE_TOOL","Suture","Suturar","Vernähen","Suture","Suture","رقاقة","缝合","縫合","Suture","Výbuch","Hechting","Hechting","Imeä","Suture","Συρραφή","Suture","Varrat","Sutura","Suture","Suture","Suture","Przyszłość","Suture","Suture","Хирургическая нить","Хирургическая нить","මැසීම","Suture","Suture","Хірургічна нитка","Хірургічна нитка","Suture"
-"K_CUTTER_TOOL","Cutter","Exacto","Messer","Cutter","Cutter","مصراع","切割","切割","Cutter","Řezání","Smør","Cutter","Leikkaaja","Coupeur","Κόφτης","Cutter","Vágó szerkezet","Taglierino","カッター","Cutter","Cutter","Kawałek","Cutter","Cutter","Режущий инструмент","Режущий инструмент","කපනය","Cutter","Cutter","Ріжучий інструмент","Ріжучий інструмент","Cutter"
-"K_TUTORIAL_DEVELOPMENT_MESSAGE","The tutorial is under the works.
-=======
-ID,en,es,de,af,ar,ca,cs,da,nl,fi,fr,el,he,hu,it,ja,ko
-K_PLAY,Play,Comenzar,Start,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play
-K_TUTORIAL,Tutorial,Tutorial,Anleitung,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial
-K_ABOUT,About,Sobre,Über,About,About,About,About,About,About,About,About,About,About,About,About,About,About
-K_CHEEK_LEVEL_BUTTON,Cheek,Cachete,Wange,Cheek,Cheek,Cheek,Cheek,Cheek,Cheek,Cheek,Cheek,Cheek,Cheek,Cheek,Cheek,Cheek,Cheek
-K_FOREHEAD_LEVEL_BUTTON,Forehead,Frente,Stirn,Forehead,Forehead,Forehead,Forehead,Forehead,Forehead,Forehead,Forehead,Forehead,Forehead,Forehead,Forehead,Forehead,Forehead
-K_WRIST_LEVEL_BUTTON,Wrist,Muñeca,Handgelenk,Wrist,Wrist,Wrist,Wrist,Wrist,Wrist,Wrist,Wrist,Wrist,Wrist,Wrist,Wrist,Wrist,Wrist
-K_BACK_LEVEL_BUTTON,Back,Espalda,Rücken,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back
-K_CHEST_LEVEL_BUTTON,Chest,Pecho,Brust,Chest,Chest,Chest,Chest,Chest,Chest,Chest,Chest,Chest,Chest,Chest,Chest,Chest,Chest
-K_BUTTOCKS_LEVEL_BUTTON,Butt,Butt,Butt,,,,,,,,,,,,,,
-K_NOSE_LEVEL_BUTTON,Nose,,,,,,,,,,,,,,,,
-K_SHIN_LEVEL_BUTTON,Shin,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,
-K_BACK_BUTTON,Back,Atras,Zurück,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back
-K_EASY_BUTTON,Easy,Fácil,Einfach,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy
-K_NORMAL_BUTTON,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal
-K_HARD_BUTTON,Hard,Difícil,Schwierig,Hard,Hard,Hard,Hard,Hard,Hard,Hard,Hard,Hard,Hard,Hard,Hard,Hard,Hard
-K_SUPER_HARD_BUTTON,Super hard,Super difícil,Äußerst schwierig,Super hard,Super hard,Super hard,Super hard,Super hard,Super hard,Super hard,Super hard,Super hard,Super hard,Super hard,Super hard,Super hard,Super hard
-K_OPTIONS,Options,Opciones,Einstellungen,Options,Options,Options,Options,Options,Options,Options,Options,Options,Options,Options,Options,Options,Options
-K_HAND_TOOL,Hand,Mano,Hand,Hand,Hand,Hand,Hand,Hand,Hand,Hand,Hand,Hand,Hand,Hand,Hand,Hand,Hand
-K_HANDKERCHIEF_TOOL,Handkerchief,Pañuelo,Taschentuch,Handkerchief,Handkerchief,Handkerchief,Handkerchief,Handkerchief,Handkerchief,Handkerchief,Handkerchief,Handkerchief,Handkerchief,Handkerchief,Handkerchief,Handkerchief,Handkerchief
-K_VAPOR_TOOL,Vapor,Vapor,Wasserdampf,Vapor,Vapor,Vapor,Vapor,Vapor,Vapor,Vapor,Vapor,Vapor,Vapor,Vapor,Vapor,Vapor,Vapor
-K_COMEDONE_TOOL,Comedone,Comedona,Mitesser,Comedone,Comedone,Comedone,Comedone,Comedone,Comedone,Comedone,Comedone,Comedone,Comedone,Comedone,Comedone,Comedone,Comedone
-K_NEEDLE_TOOL,Needle,Inyectadora,Nadel,Needle,Needle,Needle,Needle,Needle,Needle,Needle,Needle,Needle,Needle,Needle,Needle,Needle,Needle
-K_ANESTHETIC_TOOL,Anestesia,Anestesia,Anästhesie,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia
-K_SUTURE_TOOL,Suture,Suturar,Vernähen,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture
-K_CUTTER_TOOL,Cutter,Exacto,Messer,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter
-,,,,,,,,,,,,,,,,,
-K_TUTORIAL_DEVELOPMENT_MESSAGE,The tutorial is under the works.","The tutorial is under the works.
+ID,en,es,de,af,ar,ca,zh_CN,zh_TW,cs,da,nl,fi,fr,el,he,hu,it,ja,ko,nn_NO,pl,pt,pt_BR,ro,ru,sr,si,sv,tr,uk,vi
+K_PLAY,Play,Comenzar,Start,Play,Play,تشغيل,开始,開始,Play,Hrát,Spelen,Spelen,Toista,Jouer,Αναπαραγωγή,Play,Játék,Gioca,再生,Play,Play,Odtwórz,Play,Play,Играть,Играть,Покрени,Play,Play,Грати,Грати
+K_TUTORIAL,Tutorial,Tutorial,Anleitung,Tutorial,Tutorial,البرنامج التعليمي,新手教程,新手教學,Tutorial,Návod,Vejledning,Tutorial,Opastus,Tutoriel,Εκμάθηση,Tutorial,Oktató videó,Tutorial,チュートリアル,Tutorial,Tutorial,Samouczek,Tutorial,Tutorial,Инструкция,Инструкция,Водич,Tutorial,Tutorial,Інструкція,Інструкція
+K_ABOUT,About,Sobre,Über,About,Oor,عن البرنامج,关于,關於,About,O aplikaci,Over,Over,Tietoja,À propos,Σχετικά με,About,Róla,Info,About,관련 정보,About,O programie,About,About,О приложении,О приложении,О програму,About,About,Про додаток,Про додаток
+K_CHEEK_LEVEL_BUTTON,Cheek,Cachete,Wange,Cheek,Cheek,شيك,脸颊,臉頰,Cheek,Sýr,Wang,Wang,Cheek,Joue,Μάγουλα,Cheek,Pofa,Guancia,チーク,Cheek,Cheek,Czek,Cheek,Cheek,Щека,Щека,Образ,Cheek,Cheek,Щока,Щока
+K_FOREHEAD_LEVEL_BUTTON,Forehead,Frente,Stirn,Forehead,Forehead,الفاتح,额头,額頭,Forehead,Přední,Voorhoofd,Voorhoofd,Etupää,Avant-plan,Μέτωπο,Forehead,Homlok,Fronte,おでき,Forehead,Forehead,Przód,Forehead,Forehead,Лоб,Лоб,නළල,Forehead,Forehead,Чоло,Чоло
+K_WRIST_LEVEL_BUTTON,Wrist,Muñeca,Handgelenk,Wrist,Wrist,معطف,手腕,手腕,Wrist,Zápěstí,Pols,Pols,Ranneke,Poignets,Καρπός,Wrist,Csukló,Polso,手,Wrist,Wrist,Nadgarstka,Wrist,Wrist,Запястье,Запястье,මැණික්කටුව,Wrist,Wrist,Зап'ясток,Зап'ясток
+K_BACK_LEVEL_BUTTON,Back,Espalda,Rücken,Back,Back,الرجوع,返回,返回,Back,Zpět,Vorige,Vorige,Takaisin,Précédent,Πίσω,Back,Hát,Indietro,戻る,Back,Back,Powrót,Back,Back,Спина,Спина,ආපසු,Back,Back,Спина,Спина
+K_CHEST_LEVEL_BUTTON,Chest,Pecho,Brust,Chest,Chest,صندوق,队伍物资箱,箱子,Chest,Truhla,Kist,Kist,Arkku,Coffre,Κιβώτιο,Chest,Chest,Forziere,Chest,Chest,Chest,Skrzynia,Chest,Chest,Грудь,Грудь,උරස්ථලය,Chest,Chest,Груди,Груди
+K_BACK_BUTTON,Back,Atras,Zurück,Back,Back,الرجوع,返回,返回,Back,Zpět,Vorige,Vorige,Takaisin,Précédent,Πίσω,Back,Hát,Indietro,戻る,Back,Back,Powrót,Back,Back,Назад,Назад,ආපසු,Back,Back,Назад,Назад
+K_EASY_BUTTON,Easy,Fácil,Einfach,Easy,Easy,سهل,简单,簡單,Easy,Snadné,Gemakkelijk,Gemakkelijk,Helppo,Facile,Εύκολο,Easy,Könnyű,Facile,簡単,Easy,Easy,Łatwy,Easy,Easy,Легкий,Легкий,ලෙහෙසි,Easy,Easy,Легкий,Легкий
+K_NORMAL_BUTTON,Normal,Normal,Normal,Normal,Normal,عادي,普通,普通,Normal,Normální,Normaal,Normaal,Normaali,Normale,Κανονικό,Normal,Normális,Normale,標準,Normal,Normal,Normalny,Normal,Normal,Средний,Средний,සාමාන්‍ය,Normal,Normal,Середній,Середній
+K_HARD_BUTTON,Hard,Difícil,Schwierig,Hard,Hard,صعب,困难,困難,Hard,Těžká,Moeilijk,Moeilijk,Vaikea,Difficile,Δύσκολο,Hard,Kéz,Difficile,ハード,Hard,Hard,Twarde,Hard,Hard,Сложный,Сложный,අමාරු,Hard,Hard,Складний,Складний
+K_SUPER_HARD_BUTTON,Super hard,Super difícil,Äußerst schwierig,Super hard,Super hard,صعب جداً,超难,超難,Super hard,Super tvrdý,Heel moeilijk,Heel moeilijk,Super kova,Super dur,Σούπερ σκληρό,Super hard,Szuper kemény,Super difficile,Super hard,Super hard,Super hard,Super twardy,Super hard,Super hard,Очень сложный,Очень сложный,ඉතා අමාරු,Super hard,Super hard,Дуже складний,Дуже складний
+K_OPTIONS,Options,Opciones,Einstellungen,Options,Options,خيارات,选项,選項,Options,Možnosti,Opties,Opties,Valinnat,Options,Επιλογές,Options,Lehetőségek,Opzioni,オプション,Options,Options,Opcje,Options,Options,Опции,Опции,විකල්ප,Options,Options,Опції,Опції
+K_HAND_TOOL,Hand,Mano,Hand,Hand,Hand,اليد,手部,手,Hand,Ruka,Hånd,Hand,Käsi,Main,Χέρι,Hand,Kéz,Mano,手,Hand,Hand,Dłoń,Hand,Hand,Рука,Рука,අත,Hand,Hand,Рука,Рука
+K_HANDKERCHIEF_TOOL,Handkerchief,Pañuelo,Taschentuch,Handkerchief,Handkerchief,المعالج,手帕,手帕,Handkerchief,Šéfkuchař,Zakdoek,Zakdoek,Nenäliinat,Poussière,Handkerchief,Handkerchief,Zsebkendő,Fazzoletto,ハンカチ型,Handkerchief,Handkerchief,Kierownik,Handkerchief,Handkerchief,Носовой платок,Носовой платок,අත් ලේන්සුව,Handkerchief,Handkerchief,Носова хустинка,Носова хустинка
+K_VAPOR_TOOL,Vapor,Vapor,Wasserdampf,Vapor,Vapor,Vapor,水汽,噴霧器,Vapor,Vapor,Stoom,Stoom,Vapor,Vapor,Vapor,Vapor,Gőz,Vapore,Vapor,Vapor,Vapor,Vapor,Vapor,Vapor,Пар,Пар,හුමාලය,Vapor,Vapor,Пара,Пара
+K_COMEDONE_TOOL,Comedone,Comedona,Mitesser,Comedone,Comedone,كوميدون,粉刺,粉刺,Comedone,Komedon,Mee-eters,Mee-eters,Komedoni,Comedone,Κομεδόνη,Comedone,Bőratka,Comedone,Comedone,Comedone,Comedone,Komedon,Comedone,Comedone,Комедон,Комедон,වර්විය,Comedone,Comedone,Комедон,Комедон
+K_NEEDLE_TOOL,Needle,Inyectadora,Nadel,Needle,Needle,إحتياطي,针,針,Needle,Jehly,Naald,Naald,Neula,Aiguille,Βελόνα,Needle,Tű,Ago,ニードル語,Needle,Needle,Igła,Needle,Needle,Игла,Игла,ඉදිකටුව,Needle,Needle,Голка,Голка
+K_ANESTHETIC_TOOL,Anestesia,Anestesia,Anästhesie,Anestesia,Anestesia,Anestesia,麻醉,麻醉,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anesztézia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Анестезия,Анестезия,නිර්වින්දනය,Anestesia,Anestesia,Анестезія,Анестезія
+K_SUTURE_TOOL,Suture,Suturar,Vernähen,Suture,Suture,رقاقة,缝合,縫合,Suture,Výbuch,Hechting,Hechting,Imeä,Suture,Συρραφή,Suture,Varrat,Sutura,Suture,Suture,Suture,Przyszłość,Suture,Suture,Хирургическая нить,Хирургическая нить,මැසීම,Suture,Suture,Хірургічна нитка,Хірургічна нитка
+K_CUTTER_TOOL,Cutter,Exacto,Messer,Cutter,Cutter,مصراع,切割,切割,Cutter,Řezání,Smør,Cutter,Leikkaaja,Coupeur,Κόφτης,Cutter,Vágó szerkezet,Taglierino,カッター,Cutter,Cutter,Kawałek,Cutter,Cutter,Режущий инструмент,Режущий инструмент,කපනය,Cutter,Cutter,Ріжучий інструмент,Ріжучий інструмент
+K_TUTORIAL_DEVELOPMENT_MESSAGE,"The tutorial is under the works.
 =======
 ID,en,es,de,af,ar,ca,cs,da,nl,fi,fr,el,he,hu,it,ja,ko
 K_PLAY,Play,Comenzar,Start,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play
@@ -982,7 +952,7 @@ K_SUTURE_TOOL,Suture,Suturar,Vernähen,Suture,Suture,Suture,Suture,Suture,Suture
 K_CUTTER_TOOL,Cutter,Exacto,Messer,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter
 ,,,,,,,,,,,,,,,,,
 K_TUTORIAL_DEVELOPMENT_MESSAGE,The tutorial is under the works."
-"Please"," wait for an app update""","El tutorial está en desarrollo.
+Please," wait for an app update""","El tutorial está en desarrollo.
 
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Please, wait for an app update""""""","Das Tutorial wird entwickelt.
@@ -1043,10 +1013,8 @@ Please, wait for an app update","Інструкція знаходиться у 
 
 Будь ласка, зачекайте на оновлення додатка","The tutorial is under the works.
 
-Please, wait for an app update","The tutorial is under the works.
-
 Please, wait for an app update"
-"K_GAME_AVAILABLE_MESSAGE","This game isn't available yet.
+K_GAME_AVAILABLE_MESSAGE,"This game isn't available yet.
 
 At this moment just the following games are available:
  Wrist - Easy.
@@ -1234,19 +1202,13 @@ At this moment just the following games are available:
 Зап'ясток - Легкий.
 Чоло - Середній.
 Зап'ясток - Складний.
-Спина - Дуже складний.","This game isn't available yet.
-
-At this moment just the following games are available:
- Wrist - Easy.
- Forehead - Normal.
- Wrist - Hard.
- Back - Super Hard."
-"K_ABOUT_TITLE","About","Sobre","Über","About","Oor","عن البرنامج","关于","關於","About","O aplikaci","Over","Over","Tietoja","À propos","Σχετικά με","About","Róla","Info","About","관련 정보","About","O programie","About","About","Об игре","Об игре","පිළිබඳව","About","About","Про додаток","Про додаток","Về Chúng Tôi"
-"K_LEVEL_TITLE","Level","Nivel","Schwierigkeit","Level","Level","المستوى","关卡","等級","Level","Úrovně","Niveau","Level","Taso","Niveau","Επίπεδο","Level","Szint","Livello","レベル","Level","Level","Poziom","Level","Level","Уровень","Уровень","මට්ටම","Level","Level","Рівень","Рівень","Level"
-"K_BODYPART_TITLE","Bodypart","Parte del cuerpo","Körperteil","Bodypart","Bodypart","جسد","身体部位","身體部位","Bodypart","Součást karoserie","Lichaamsdeel","Lichaamsdeel","Kehonosa","Pièce corporelle","ΣώμαΕξάρτημα","Bodypart","Testrész","Parti del corpo","ボディーパーツ","Bodypart","Bodypart","Część ciała","Bodypart","Bodypart","Часть тела","Часть тела","ශරීරකොටස","Bodypart","Bodypart","Частина тіла","Частина тіла","Bodypart"
-"K_HINT_BUTTON","Hint","Pista","Hilfe","Hint","Hint","تلميح","提示","提示","Hint","Nápověda","Tip","Tip","Vihje","Indice","Υπόδειξη","Hint","Célzás","Suggerimenti","ヒント","Hint","Hint","Wskazówka","Hint","Hint","Подсказка","Подсказка","Наговештаји","Hint","Hint","Підказка","Підказка","Hint"
-"K_EXIT_GAME_BUTTON","Exit","Salir","Beenden","Exit","Exit","الخروج","退出","退出","Exit","Ukončit","Sluit af","Sluit af","Poistu","Quitter","Έξοδος","Exit","Kijárat","Esci","終了","Exit","Exit","Wyjście","Exit","Exit","Выйти","Выйти","Изађи","Exit","Exit","Вийти","Вийти","Exit"
-"K_ABOUT_TEXT","[color=black]
+Спина - Дуже складний."
+K_ABOUT_TITLE,About,Sobre,Über,About,Oor,عن البرنامج,关于,關於,About,O aplikaci,Over,Over,Tietoja,À propos,Σχετικά με,About,Róla,Info,About,관련 정보,About,O programie,About,About,Об игре,Об игре,පිළිබඳව,About,About,Про додаток,Про додаток
+K_LEVEL_TITLE,Level,Nivel,Schwierigkeit,Level,Level,المستوى,关卡,等級,Level,Úrovně,Niveau,Level,Taso,Niveau,Επίπεδο,Level,Szint,Livello,レベル,Level,Level,Poziom,Level,Level,Уровень,Уровень,මට්ටම,Level,Level,Рівень,Рівень
+K_BODYPART_TITLE,Bodypart,Parte del cuerpo,Körperteil,Bodypart,Bodypart,جسد,身体部位,身體部位,Bodypart,Součást karoserie,Lichaamsdeel,Lichaamsdeel,Kehonosa,Pièce corporelle,ΣώμαΕξάρτημα,Bodypart,Testrész,Parti del corpo,ボディーパーツ,Bodypart,Bodypart,Część ciała,Bodypart,Bodypart,Часть тела,Часть тела,ශරීරකොටස,Bodypart,Bodypart,Частина тіла,Частина тіла
+K_HINT_BUTTON,Hint,Pista,Hilfe,Hint,Hint,تلميح,提示,提示,Hint,Nápověda,Tip,Tip,Vihje,Indice,Υπόδειξη,Hint,Célzás,Suggerimenti,ヒント,Hint,Hint,Wskazówka,Hint,Hint,Подсказка,Подсказка,Наговештаји,Hint,Hint,Підказка,Підказка
+K_EXIT_GAME_BUTTON,Exit,Salir,Beenden,Exit,Exit,الخروج,退出,退出,Exit,Ukončit,Sluit af,Sluit af,Poistu,Quitter,Έξοδος,Exit,Kijárat,Esci,終了,Exit,Exit,Wyjście,Exit,Exit,Выйти,Выйти,Изађи,Exit,Exit,Вийти,Вийти
+K_ABOUT_TEXT,"[color=black]
 
 Pimple Popper allows you to enjoy the experience of removing protuberance on different human body parts.
 
@@ -2021,33 +1983,8 @@ We are also interested in your real-life pops. [url=""mailto:marvin@poopjournal.
 [url=""https://crazymarvin.com/pimple-popper/terms-of-service/""][color=#0000FF]Legal[/color][/url]  [img=15]res://assets/icons/law.svg[/img]
 
 [url=""https://www.buymeacoffee.com/Marvin""][color=#0000FF]Send us a coffee[/color][/url]  [img=16]res://assets/icons/bmc.svg[/img]
-[/color]","[color=black]
-
-Pimple Popper allows you to enjoy the experience of removing protuberance on different human body parts.
-
-We hope you enjoy this game. If you notice any bugs, have any questions or feedback feel free to [url=""mailto:marvin@poopjournal.rocks""][color=#0000FF]send an email[/color][/url] or open an [url=""https://github.com/Crazy-Marvin/PimplePopper/issues""][color=#0000FF]issue[/color][/url]. 
-
-We are also interested in your real-life pops. [url=""mailto:marvin@poopjournal.rocks""][color=#0000FF]Send them[/color][/url]
-
-[url=""https://www.linkedin.com/in/mottajordan""][color=#0000FF]Main Programmer[/color][/url]  [img=15]res://assets/icons/linkedin.svg[/img]
-
-[url=""https://www.behance.net/alexrendon""][color=#0000FF]Main Artist[/color][/url]  [img=15]res://assets/icons/behance.svg[/img] 
-
-[url=""https://www.github.com/Crazy-Marvin/PimplePopper/""][color=#0000FF]Source[/color][/url]  [img=15]res://assets/icons/github.svg[/img]
-
-[url=""https://www.crazymarvin.com/pimple-popper""][color=#0000FF]Homepage[/color][/url]  [img=15]res://assets/icons/home.svg[/img]
-
-[url=""https://www.godotengine.org/""][color=#0000FF]Powered by Godot[/color][/url]  [img=15]res://assets/icons/godot.svg[/img]
-
-[url=""https://www.crowdin.com/project/pimple-popper""][color=#0000FF]Help us with translations[/color][/url]  [img=15]res://assets/icons/crowdin.svg[/img]
-
-[url=""https://www.github.com/Crazy-Marvin/PimplePopper/blob/master/LICENSE""][color=#0000FF]License[/color][/url] [img=15]res://assets/icons/github.svg[/img]
-
-[url=""https://crazymarvin.com/pimple-popper/terms-of-service/""][color=#0000FF]Legal[/color][/url]  [img=15]res://assets/icons/law.svg[/img]
-
-[url=""https://www.buymeacoffee.com/Marvin""][color=#0000FF]Send us a coffee[/color][/url]  [img=16]res://assets/icons/bmc.svg[/img]
 [/color]"
-"K_PIMPLE_TUTORIAL_TEXT","In this section you need to remove some pimples from different parts of the body.
+K_PIMPLE_TUTORIAL_TEXT,"In this section you need to remove some pimples from different parts of the body.
 
 In order to remove the pimples, you just need to enable the hand tool and use your finger to apply pressure to pop the pimple. Then when the pimple's popped, use a handkerchief to clean the are. You aren't going to be a good doctor if you left all those stuff there.","En esta sección necesitas remover algunas espinillas de diferentes partes del cuerpo.
 
@@ -2095,9 +2032,9 @@ W celu usunięcia szkieletów po prostu musisz włączyć narzędzie ręczne i u
 
 In order to remove the pimples, you just need to enable the hand tool and use your finger to apply pressure to pop the pimple. Then when the pimple's popped, use a handkerchief to clean the are. You aren't going to be a good doctor if you left all those stuff there.","In this section you need to remove some pimples from different parts of the body.
 
-In order to remove the pimples, you just need to enable the hand tool and use your finger to apply pressure to pop the pimple. Then when the pimple's popped, use a handkerchief to clean the are. You aren't going to be a good doctor if you left all those stuff there.","La această secţiune trebuie să îndepărtaţi unele coşuri din diferite părţi ale corpului.
+In order to remove the pimples, you just need to enable the hand tool and use your finger to apply pressure to pop the pimple. Then when the pimple's popped, use a handkerchief to clean the are. You aren't going to be a good doctor if you left all those stuff there.","В этом блоке вам нужно будет удалить несколько прыщей с разных частей тела.
 
-Pentru a elimina implanturile, trebuie doar să activați scula mâinii și să folosiți degetul pentru a aplica presiune pentru a scoate degetul. Apoi când se ciopleşte teaca, utilizaţi un batistă pentru a curăţa firea. Nu vei fi un medic bun dacă ai lăsat toate acele lucruri acolo.","В этом блоке вам нужно будет удалить несколько прыщей с разных частей тела.
+Чтобы удалить прыщи, все, что вам нужно, это активизировать ручной инструмент и надавить пальцем на прыщ, чтобы выдавить его. После того, когда прыщ будет выдавлен, используйте носовой платок, чтобы протереть этот участок кожи. Вы не станете хорошим доктором, если оставите все как есть.","В этом блоке вам нужно будет удалить несколько прыщей с разных частей тела.
 
 Чтобы удалить прыщи, все, что вам нужно, это активизировать ручной инструмент и надавить пальцем на прыщ, чтобы выдавить его. После того, когда прыщ будет выдавлен, используйте носовой платок, чтобы протереть этот участок кожи. Вы не станете хорошим доктором, если оставите все как есть.","මෙහිදී ඔබ ශරීරයේ විවිධ කොටස් වලින් කුරුලෑ කිහිපයක් ඉවත් කළ යුතුය.
 
@@ -2109,10 +2046,8 @@ In order to remove the pimples, you just need to enable the hand tool and use yo
 
 Щоб видалити прищі, вам потрібно лише активізувати ручний інструмент і натиснути пальцем на прищ, щоб видавити його. Після того, як прищ буде видавлений, скористайтеся носову хустинкою, щоб протерти ділянку шкіри. Ви не станете хорошим лікарем, якщо залишите все як є.","У цьому блоці вам потрібно видалити кілька прищів із різних частин тіла.
 
-Щоб видалити прищі, вам потрібно лише активізувати ручний інструмент і натиснути пальцем на прищ, щоб видавити його. Після того, як прищ буде видавлений, скористайтеся носову хустинкою, щоб протерти ділянку шкіри. Ви не станете хорошим лікарем, якщо залишите все як є.","In this section you need to remove some pimples from different parts of the body.
-
-In order to remove the pimples, you just need to enable the hand tool and use your finger to apply pressure to pop the pimple. Then when the pimple's popped, use a handkerchief to clean the are. You aren't going to be a good doctor if you left all those stuff there."
-"K_BLACKHEAD_TUTORIAL_TEXT","For this kind of protuberance you need to be careful.
+Щоб видалити прищі, вам потрібно лише активізувати ручний інструмент і натиснути пальцем на прищ, щоб видавити його. Після того, як прищ буде видавлений, скористайтеся носову хустинкою, щоб протерти ділянку шкіри. Ви не станете хорошим лікарем, якщо залишите все як є."
+K_BLACKHEAD_TUTORIAL_TEXT,"For this kind of protuberance you need to be careful.
 
 First, you need to apply vapor in order to open the pore. You will note that the pore was opened because the phone doesn‘t vibrate.
 
@@ -2256,13 +2191,13 @@ First, you need to apply vapor in order to open the pore. You will note that the
 
 Then, you need to select the comedone tool and double touch the blackhead. When you do that, the comedone will be placed onto the protuberance, finally, touch the screen and drag the finger down and the protuberance will be removed.
 
-Of course, do not forget to clean the area after you do all the work.","Pentru acest tip de protuberanță trebuie să fii atent.
+Of course, do not forget to clean the area after you do all the work.","С таким кожным образованием нужно быть предельно осторожными.
 
-Mai întâi, trebuie să aplici vapori pentru a deschide porul. Veți observa că porul a fost deschis deoarece telefonul nu vibrează.
+Во-первых, чтобы открыть поры, необходимо распарить кожу. Вы заметите, что пора открылась, потому что телефон не будет вибрировать.
 
-Apoi, trebuie să selectaţi instrumentul comedone şi să atingeţi de două ori capul negru. Când faci asta, comedona va fi plasată pe protuberanță, în final, atinge ecranul și glisează cu degetul în jos și protuberanța va fi eliminată.
+После этого вам нужно будет выбрать инструмент для удаления комедонов и дважды коснуться угря. Когда вы это сделаете, комедон будет выделен, после чего необходимо коснуться экрана и провести пальцем вниз, чтобы удалить образование.
 
-Bineînțeles, nu uitați să curățați zona după ce ați făcut toată treaba.","С таким кожным образованием нужно быть предельно осторожными.
+И, конечно же, после завершения процедуры не забудьте очистить участок кожи, с которым вы работали.","С таким кожным образованием нужно быть предельно осторожными.
 
 Во-первых, чтобы открыть поры, необходимо распарить кожу. Вы заметите, что пора открылась, потому что телефон не будет вибрировать.
 
@@ -2298,14 +2233,8 @@ Of course, do not forget to clean the area after you do all the work.","З та�
 
 Після цього вам потрібно буде обрати інструмент для видалення комедонів і двічі торкнутися вугра. Коли ви це зробите, комедон буде виділено, після чого необхідно торкнутися екрану та провести пальцем вниз, щоб видалити утворення.
 
-І, звичайно ж, після завершення процедури не забудьте очистити ділянку шкіри, з якою ви працювали.","For this kind of protuberance you need to be careful.
-
-First, you need to apply vapor in order to open the pore. You will note that the pore was opened because the phone doesn‘t vibrate.
-
-Then, you need to select the comedone tool and double touch the blackhead. When you do that, the comedone will be placed onto the protuberance, finally, touch the screen and drag the finger down and the protuberance will be removed.
-
-Of course, do not forget to clean the area after you do all the work."
-"K_CYST_TUTORIAL_TEXT","Probably the easiest protuberance to remove.
+І, звичайно ж, після завершення процедури не забудьте очистити ділянку шкіри, з якою ви працювали."
+K_CYST_TUTORIAL_TEXT,"Probably the easiest protuberance to remove.
 
 That big thing can be removed when you select the needle tool and touch and hold in a specefic location of the protuberance. Touch the hint button if you need to locate it. If you touch the right location, a sound is emitted. Now with one finger holding the needle, use another one to extract the content of the protuberance.
 
@@ -2399,11 +2328,11 @@ After you remove everything, remember to clean the are with the handkerchief.","
 
 That big thing can be removed when you select the needle tool and touch and hold in a specefic location of the protuberance. Touch the hint button if you need to locate it. If you touch the right location, a sound is emitted. Now with one finger holding the needle, use another one to extract the content of the protuberance.
 
-After you remove everything, remember to clean the are with the handkerchief.","Probabil cel mai ușor de eliminat protuberanța.
+After you remove everything, remember to clean the are with the handkerchief.","Пожалуй, эти накожные образования удалять легче всего.
 
-Acest lucru important poate fi îndepărtat atunci când selectați unelta cu acul și atingeți și mențineți apăsat o specificitate a protuberanței. Atingeți butonul de indiciu dacă aveți nevoie să îl localizați. Dacă atingeți locația potrivită, se emite un sunet. Acum cu un deget ținând acul, folosiți altul pentru a extrage conținutul protuberanței.
+Это большое образование можно удалить таким образом: выберите инструмент «Игла» и удерживайте его в определенной точке выпуклости. Коснитесь кнопки ""Подсказка"", если не знаете, где лучше разместить иглу. Если коснуться правильного места, раздастся звук. После этого, удерживая иглу одним пальцем, другим извлеките содержимое образования.
 
-După ce eliminați totul, nu uitați să curățați sunt cu batistul.","Пожалуй, эти накожные образования удалять легче всего.
+После того, как вы все удалите, не забудьте протереть кожу носовым платком.","Пожалуй, эти накожные образования удалять легче всего.
 
 Это большое образование можно удалить таким образом: выберите инструмент «Игла» и удерживайте его в определенной точке выпуклости. Коснитесь кнопки ""Подсказка"", если не знаете, где лучше разместить иглу. Если коснуться правильного места, раздастся звук. После этого, удерживая иглу одним пальцем, другим извлеките содержимое образования.
 
@@ -2427,12 +2356,8 @@ After you remove everything, remember to clean the are with the handkerchief.","
 
 Це велике утворення можна видалити таким чином: оберіть інструмент «Голка» та утримуйте його у певній точці випуклості. Натисніть кнопку ""Підказка"", якщо не знаєте, де краще розмістити голку. Якщо торкнутися правильного місця, ви почуєте звук. Після цього, утримуючи голку одним пальцем, іншим вийміть вміст утворення.
 
-Після того, як ви все видалите, не забудьте протерти шкіру носовою хустинкою.","Probably the easiest protuberance to remove.
-
-That big thing can be removed when you select the needle tool and touch and hold in a specefic location of the protuberance. Touch the hint button if you need to locate it. If you touch the right location, a sound is emitted. Now with one finger holding the needle, use another one to extract the content of the protuberance.
-
-After you remove everything, remember to clean the are with the handkerchief."
-"K_LIPOMA_TUTORIAL_TEXT","The complex protuberance to remove in a body. But i will show how to remove it.
+Після того, як ви все видалите, не забудьте протерти шкіру носовою хустинкою."
+K_LIPOMA_TUTORIAL_TEXT,"The complex protuberance to remove in a body. But i will show how to remove it.
 
 First, you need to apply anaesthetic because you are going to cut the area. After you apply it you can select the cutter tool and cut the area.
 
@@ -2574,13 +2499,13 @@ First, you need to apply anaesthetic because you are going to cut the area. Afte
 
 Now with the content exposed, use your hand to apply pressure and remove the content.
 
-And now that everything was removed, you will need to suture the wound.","Protuberanța complexă de îndepărtat într-un corp. Dar i se va arăta cum să o îndepărteze.
+And now that everything was removed, you will need to suture the wound.","Данное кожное образование является довольно сложным. Но я покажу, как его удалить.
 
-În primul rând, trebuie să aplicați anestezic, deoarece veți tăia zona. După ce o aplicaţi puteţi selecta unealta de tăiere şi să tăiaţi zona.
+Во-первых, поскольку вы собираетесь резать кожу, необходимо применить анестетик. После этого вы можете выбрать режущий инструмент и сделать надрез.
 
-Acum cu conținutul expus, folosiți mâna pentru a aplica presiune și a elimina conținutul.
+Теперь, когда образование вскрыто, надавите на него рукой, чтобы удалить содержимое.
 
-Și acum că totul a fost eliminat, va trebui să suturați rana.","Данное кожное образование является довольно сложным. Но я покажу, как его удалить.
+После завершения процедуры рану необходимо зашить.","Данное кожное образование является довольно сложным. Но я покажу, как его удалить.
 
 Во-первых, поскольку вы собираетесь резать кожу, необходимо применить анестетик. После этого вы можете выбрать режущий инструмент и сделать надрез.
 
@@ -2616,43 +2541,71 @@ And now that everything was removed, you will need to suture the wound.","Це �
 
 Тепер, коли утворення розкрито, натисніть на нього рукою, щоб видалити вміст.
 
-Після завершення процедури рану необхідно зашити.","The complex protuberance to remove in a body. But i will show how to remove it.
-
-First, you need to apply anaesthetic because you are going to cut the area. After you apply it you can select the cutter tool and cut the area.
-
-Now with the content exposed, use your hand to apply pressure and remove the content.
-
-And now that everything was removed, you will need to suture the wound."
-"K_LIPOMA_BUTTON","Lipoma","Lipoma","Lipom","Lipoma","Lipoma","Lipoma","脂肪瘤","脂肪瘤","Lipoma","Lipoma","Lipoom","Lipoom","Lipoma","Lipoma","Lipoma","Lipoma","Lipóma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Липома","Липома","Lipoma","Lipoma","Lipoma","Ліпома","Ліпома","Lipoma"
-"K_PIMPLE_BUTTON","Pimple","Espinilla","Pickel","Pimple","Pimple","قماش","丘疹","丘疹","Pimple","Pimár","Puistje","Puistje","Pimple","Touche","Σπυράκι","Pimple","Pattanás","Brufoli","<unk>","Pimple","Pimple","Prosty","Pimple","Pimple","Pimplant","Прыщ","කුරුලෑව","Pimple","Pimple","Прищ","Прищ","Pimple"
-"K_CYST_BUTTON","Cyst","Quiste","Zyste","Cyst","Cyst","دراجة","囊肿","囊腫","Cyst","Cyst","Cyste","Cyste","Kysy","kyste","Κύστη","Cyst","Hólyag","Cisti","<unk>","Cyst","Cyst","Cysta","Cyst","Cyst","Киста","Киста","Циста","Cyst","Cyst","Кіста","Кіста","Cyst"
-"K_BLACKHEAD_BUTTON","Blackhead","Puntos negros","Mitesser","Blackhead","Blackhead","رأس أسود","黑头","黑頭","Blackhead","Černá hlava","Mee-eter","Mee-eter","Mustapää","Tête noire","Μαύρο","Blackhead","Miteszer","Punti neri","ブラックヘッド","Blackhead","Blackhead","Czarna głowa","Blackhead","Blackhead","Угорь","Угорь","කළු ලපය","Blackhead","Blackhead","Вугор","Вугор","Blackhead"
-"K_OPTIONS_TITLE","Options","Opciones","Optionen","Options","Options","خيارات","选项","選項","Options","Možnosti","Opties","Opties","Valinnat","Options","Επιλογές","Options","Lehetőségek","Opzioni","オプション","Options","Options","Opcje","Options","Options","Opţiuni","Опции","Опције","Options","Options","Опції","Опції","Options"
-"K_LANGUAGE_OPTION_TITLE","Language","Idioma","Sprache","Language","Language","اللغة","语言","語言","Language","Jazyk","Taal","Taal","Kieli","Langue","Γλώσσα","Language","Language","Lingua","言語","Language","Language","Język","Language","Language","Limba","Язык","භාෂාව","Language","Language","Мова","Мова","Language"
-"K_SPANISH_SELECTION","Spanish","Español","Spanisch","Spanish","Spanish","الإسبانية","西班牙文","西班牙文","Spanish","Španělština","Spaans","Spaans","Espanja","Espagnol","Ισπανικά","Spanish","Spanish","Spagnolo","スペイン語","Spanish","Spanish","hiszpański","Spanish","Spanish","Spaniolă","Испанский","ස්පාඤ්ඤ","Spanish","Spanish","Іспанська","Іспанська","Spanish"
-"K_ENGLISH_SELECTION","English","Ingles","Englisch","English","English","الإنكليزية","汉语","英文","English","Anglické","Engels","Engels","Englanti","Anglais","Αγγλικά","English","English","Inglese","日本語","English","English","Angielski","English","English","Română","Английский","Енглески","English","English","Англійська","Англійська","English"
-"K_GERMAN_SELECTION","German","Alemán","Deutsch","German","German","الألمانية","德语","德文","German","Němčina","Duits","Duits","Saksa","Allemand","Γερμανικά","German","German","Tedesco","ドイツ語","German","German","niemiecki","German","German","Germană","Немецкий","ජර්මානු","German","German","Німецька","Німецька","German"
-"K_LANGUAGE_SELECTION","Select a language","Seleccione un idioma","Wählen Sie eine Sprache aus","Select a language","Select a language","اختر لغة","选择语言","選擇語言","Select a language","Vyberte jazyk","Kies een taal","Kies een taal","Valitse kieli","Sélectionnez une langue","Επιλέξτε μια γλώσσα","Select a language","Select a language","Seleziona una lingua","言語を選択","Select a language","Select a language","Wybierz język","Select a language","Select a language","Selectaţi o limbă","Выбрать язык","Одабери језик","Select a language","Select a language","Обрати мову","Обрати мову","Select a language"
-"K_PIMPLE_TUTORIAL_TEXT","In this section you need to remove some pimples from different parts of the body.
+Після завершення процедури рану необхідно зашити."
+K_LIPOMA_BUTTON,Lipoma,Lipoma,Lipom,Lipoma,Lipoma,Lipoma,脂肪瘤,脂肪瘤,Lipoma,Lipoma,Lipoom,Lipoom,Lipoma,Lipoma,Lipoma,Lipoma,Lipóma,Lipoma,Lipoma,Lipoma,Lipoma,Lipoma,Lipoma,Lipoma,Липома,Липома,Lipoma,Lipoma,Lipoma,Ліпома,Ліпома
+K_PIMPLE_BUTTON,Pimple,Espinilla,Pickel,Pimple,Pimple,قماش,丘疹,丘疹,Pimple,Pimár,Puistje,Puistje,Pimple,Touche,Σπυράκι,Pimple,Pattanás,Brufoli,<unk>,Pimple,Pimple,Prosty,Pimple,Pimple,Прыщ,Прыщ,කුරුලෑව,Pimple,Pimple,Прищ,Прищ
+K_CYST_BUTTON,Cyst,Quiste,Zyste,Cyst,Cyst,دراجة,囊肿,囊腫,Cyst,Cyst,Cyste,Cyste,Kysy,kyste,Κύστη,Cyst,Hólyag,Cisti,<unk>,Cyst,Cyst,Cysta,Cyst,Cyst,Киста,Киста,Циста,Cyst,Cyst,Кіста,Кіста
+K_BLACKHEAD_BUTTON,Blackhead,Puntos negros,Mitesser,Blackhead,Blackhead,رأس أسود,黑头,黑頭,Blackhead,Černá hlava,Mee-eter,Mee-eter,Mustapää,Tête noire,Μαύρο,Blackhead,Miteszer,Punti neri,ブラックヘッド,Blackhead,Blackhead,Czarna głowa,Blackhead,Blackhead,Угорь,Угорь,කළු ලපය,Blackhead,Blackhead,Вугор,Вугор
+K_OPTIONS_TITLE,Options,Opciones,Optionen,Options,Options,خيارات,选项,選項,Options,Možnosti,Opties,Opties,Valinnat,Options,Επιλογές,Options,Lehetőségek,Opzioni,オプション,Options,Options,Opcje,Options,Options,Опции,Опции,Опције,Options,Options,Опції,Опції
+K_LANGUAGE_OPTION_TITLE,Language,Idioma,Sprache,Language,Language,اللغة,语言,語言,Language,Jazyk,Taal,Taal,Kieli,Langue,Γλώσσα,Language,Language,Lingua,言語,Language,Language,Język,Language,Language,Язык,Язык,භාෂාව,Language,Language,Мова,Мова
+K_SPANISH_SELECTION,Spanish,Español,Spanisch,Spanish,Spanish,الإسبانية,西班牙文,西班牙文,Spanish,Španělština,Spaans,Spaans,Espanja,Espagnol,Ισπανικά,Spanish,Spanish,Spagnolo,スペイン語,Spanish,Spanish,hiszpański,Spanish,Spanish,Испанский,Испанский,ස්පාඤ්ඤ,Spanish,Spanish,Іспанська,Іспанська
+K_ENGLISH_SELECTION,English,Ingles,Englisch,English,English,الإنكليزية,汉语,英文,English,Anglické,Engels,Engels,Englanti,Anglais,Αγγλικά,English,English,Inglese,日本語,English,English,Angielski,English,English,Английский,Английский,Енглески,English,English,Англійська,Англійська
+K_GERMAN_SELECTION,German,Alemán,Deutsch,German,German,الألمانية,德语,德文,German,Němčina,Duits,Duits,Saksa,Allemand,Γερμανικά,German,German,Tedesco,ドイツ語,German,German,niemiecki,German,German,Немецкий,Немецкий,ජර්මානු,German,German,Німецька,Німецька
+K_LANGUAGE_SELECTION,Select a language,Seleccione un idioma,Wählen Sie eine Sprache aus,Select a language,Select a language,اختر لغة,选择语言,選擇語言,Select a language,Vyberte jazyk,Kies een taal,Kies een taal,Valitse kieli,Sélectionnez une langue,Επιλέξτε μια γλώσσα,Select a language,Select a language,Seleziona una lingua,言語を選択,Select a language,Select a language,Wybierz język,Select a language,Select a language,Выбрать язык,Выбрать язык,Одабери језик,Select a language,Select a language,Обрати мову,Обрати мову
+K_PIMPLE_TUTORIAL_TEXT,"In this section you need to remove some pimples from different parts of the body.
 
 In order to remove the pimples, you just need to enable the hand tool and use your finger to apply pressure to pop the pimple. Then when the pimple's popped, use a handkerchief to clean the are. You aren't going to be a good doctor if you left all those stuff there.","En esta sección necesitas remover algunas espinillas de diferentes partes del cuerpo.
 
-Para remover las espinillas, solo necesitas seleccionar la herramienta mano y usar tus dedos para aplicar presión para eplotar la espinilla. Entonces, cuando la espinilla haya explotado, usa el paño para limpiar el area. No vas a ser un buen doctor si dejas todo sucio.","In this section you need to remove some pimples from different parts of the body.
+Para remover las espinillas, solo necesitas seleccionar la herramienta mano y usar tus dedos para aplicar presión para eplotar la espinilla. Entonces, cuando la espinilla haya explotado, usa el paño para limpiar el area. No vas a ser un buen doctor si dejas todo sucio.","In diesem Abschnitt müssen Sie einige Pickel aus verschiedenen Körperteilen entfernen.
+
+Um die Zuhälter zu entfernen, Sie müssen nur das Handwerkzeug aktivieren und mit dem Finger Druck ausüben, um die Pimple. Dann wenn die Pimple's Pop, mit einem Taschentuch, um die zu reinigen. Du bist kein guter Arzt, wenn du all diese Sachen dort gelassen hast.","In this section you need to remove some pimples from different parts of the body.
 
 In order to remove the pimples, you just need to enable the hand tool and use your finger to apply pressure to pop the pimple. Then when the pimple's popped, use a handkerchief to clean the are. You aren't going to be a good doctor if you left all those stuff there.","In this section you need to remove some pimples from different parts of the body.
 
-In order to remove the pimples, you just need to enable the hand tool and use your finger to apply pressure to pop the pimple. Then when the pimple's popped, use a handkerchief to clean the are. You aren't going to be a good doctor if you left all those stuff there.","In this section you need to remove some pimples from different parts of the body.
+In order to remove the pimples, you just need to enable the hand tool and use your finger to apply pressure to pop the pimple. Then when the pimple's popped, use a handkerchief to clean the are. You aren't going to be a good doctor if you left all those stuff there.","في هذا القسم تحتاج إلى إزالة بعض القماش من أجزاء مختلفة من الجسم.
 
-In order to remove the pimples, you just need to enable the hand tool and use your finger to apply pressure to pop the pimple. Then when the pimple's popped, use a handkerchief to clean the are. You aren't going to be a good doctor if you left all those stuff there.","In this section you need to remove some pimples from different parts of the body.
-
-In order to remove the pimples, you just need to enable the hand tool and use your finger to apply pressure to pop the pimple. Then when the pimple's popped, use a handkerchief to clean the are. You aren't going to be a good doctor if you left all those stuff there.","In this section you need to remove some pimples from different parts of the body.
+من أجل إزالة الأقمشة، أنت فقط بحاجة إلى تمكين الأداة اليدوية واستخدام إصبعك لتطبيق الضغط لتبويب السلسلة. ثم عندما ينبض المنفذ ، استخدم معالج لتنظيف المنصات. لن تكون طبيباً جيداً إذا تركت كل هذه الأشياء هناك.","In this section you need to remove some pimples from different parts of the body.
 
 In order to remove the pimples, you just need to enable the hand tool and use your finger to apply pressure to pop the pimple. Then when the pimple's popped, use a handkerchief to clean the are. You aren't going to be a good doctor if you left all those stuff there.","在本部分中，您需要消除身體不同部位的痘痘。
 
 
 在消除這些痘痘時，你需要運用工具，並利用手指來擠壓痘痘。爆痘之後，使用手帕進行清潔。只有做好每一步才能稱為合格的醫生。","In this section you need to remove some pimples from different parts of the body.
 
+In order to remove the pimples, you just need to enable the hand tool and use your finger to apply pressure to pop the pimple. Then when the pimple's popped, use a handkerchief to clean the are. You aren't going to be a good doctor if you left all those stuff there.","V této sekci je třeba odstranit několik párů z různých částí těla.
+
+Pro odstranění pimpleů, stačí povolit ruční nástroj a použít prst, abyste vyvinuli tlak na pop pimple. Potom když pimplet vyskakuje, použijte handkerkergue, abyste vyčistili je. Nebudeš dobrý lékař, pokud opustíš všechny tyto věci.","I dette afsnit skal du fjerne nogle bumser fra forskellige dele af kroppen.
+
+For at fjerne bumserne, du bare nødt til at aktivere håndværktøjet og bruge din finger til at lægge pres til pop bumsen. Når bumsen er poppet, skal du bruge en lommetørklæde til at rense den. Du vil ikke være en god læge, hvis du forlod alle disse ting der.","In dit gedeelte moet je enkele klappen uit verschillende delen van het lichaam verwijderen.
+
+om de bouwstenen te verwijderen je hoeft alleen maar de hand tool in te schakelen en met je vinger druk uit te oefenen om het bot te poetsen. Als de klauw dan papegaait, gebruik dan een zakdoek om het op te ruimen. Je zult geen goede dokter zijn als je al die dingen daar achterlaat.","Tässä osiossa sinun täytyy poistaa joitakin näppylöitä eri kehon osista.
+
+Jotta pimples poistetaan, sinun tarvitsee vain ottaa käsi työkalu ja käyttää sormea soveltaa painetta pop pimple. Sitten kun nuotan silmukka, käytä nenäliinaa puhdistaaksesi ne ovat. Et tule olemaan hyvä lääkäri, jos jätät kaikki nämä jutut sinne.","Dans cette section, vous devez enlever quelques boutons de différentes parties du corps.
+
+Pour enlever les imples, il vous suffit d'activer l'outil main et d'utiliser votre doigt pour faire pression sur le bouton. Ensuite, lorsque la pimple's popped, utilisez un mouchoir pour nettoyer le sont. Vous ne serez pas un bon médecin si vous avez laissé toutes ces choses là-bas.","Σε αυτή την ενότητα θα πρέπει να αφαιρέσετε μερικά σπυράκια από διαφορετικά μέρη του σώματος.
+
+Για να αφαιρέσετε τα σπυράκια, απλά πρέπει να ενεργοποιήσετε το εργαλείο χεριών και να χρησιμοποιήσετε το δάχτυλό σας για να εφαρμόσετε την πίεση για να ποπ το pimple. Στη συνέχεια, όταν το pimple's popped, χρησιμοποιήστε ένα handkerchief για να καθαρίσετε το είναι. Δεν πρόκειται να είστε ένας καλός γιατρός αν αφήσετε όλα αυτά τα πράγματα εκεί.","In this section you need to remove some pimples from different parts of the body.
+
 In order to remove the pimples, you just need to enable the hand tool and use your finger to apply pressure to pop the pimple. Then when the pimple's popped, use a handkerchief to clean the are. You aren't going to be a good doctor if you left all those stuff there.","In this section you need to remove some pimples from different parts of the body.
+
+In order to remove the pimples, you just need to enable the hand tool and use your finger to apply pressure to pop the pimple. Then when the pimple's popped, use a handkerchief to clean the are. You aren't going to be a good doctor if you left all those stuff there.","In questa sezione è necessario rimuovere alcuni brufoli da diverse parti del corpo.
+
+Per rimuovere i brufoli, hai solo bisogno di abilitare lo strumento della mano e utilizzare il dito per applicare la pressione per pop il brufolo. Poi quando il brufolo popped, utilizzare un fazzoletto per pulire le sono. Non sarai un buon dottore se hai lasciato tutte quelle cose lì.","このセクションでは、体のさまざまな部分からいくつかのニキビを削除する必要があります。
+
+ニキビを除去するために、 手道具を有効にして指を使えばニキビを吹き飛ばすことができます 次に、ポン引きが飛び出したら、ハンカチを使ってアールをきれいにします。 そこにすべてのものを残していれば、あなたは良い医者になるつもりはありません。","In this section you need to remove some pimples from different parts of the body.
+
+In order to remove the pimples, you just need to enable the hand tool and use your finger to apply pressure to pop the pimple. Then when the pimple's popped, use a handkerchief to clean the are. You aren't going to be a good doctor if you left all those stuff there.","In this section you need to remove some pimples from different parts of the body.
+
+In order to remove the pimples, you just need to enable the hand tool and use your finger to apply pressure to pop the pimple. Then when the pimple's popped, use a handkerchief to clean the are. You aren't going to be a good doctor if you left all those stuff there.","W tym punkcie należy usunąć niektóre wady z różnych części ciała.
+
+W celu usunięcia szkieletów po prostu musisz włączyć narzędzie ręczne i użyć palca, aby wycisnąć siostrę. Następnie po wypchnięciu pimetu użyj uchwytu, aby oczyścić resztę. Nie będziesz dobrym lekarzem, jeśli zostawisz tam wszystkie te rzeczy.","In this section you need to remove some pimples from different parts of the body.
+
+In order to remove the pimples, you just need to enable the hand tool and use your finger to apply pressure to pop the pimple. Then when the pimple's popped, use a handkerchief to clean the are. You aren't going to be a good doctor if you left all those stuff there.","In this section you need to remove some pimples from different parts of the body.
+
+In order to remove the pimples, you just need to enable the hand tool and use your finger to apply pressure to pop the pimple. Then when the pimple's popped, use a handkerchief to clean the are. You aren't going to be a good doctor if you left all those stuff there.","La această secţiune trebuie să îndepărtaţi unele coşuri din diferite părţi ale corpului.
+
+Pentru a elimina implanturile, trebuie doar să activați scula mâinii și să folosiți degetul pentru a aplica presiune pentru a scoate degetul. Apoi când se ciopleşte teaca, utilizaţi un batistă pentru a curăţa firea. Nu vei fi un medic bun dacă ai lăsat toate acele lucruri acolo.","В этом разделе необходимо удалить несколько прыжков из различных частей тела.
+
+Чтобы удалить печати, Вам просто нужно включить инструмент для ручной работы и использовать палец, чтобы наложить на него давление. Потом, когда в pimple, используйте гардероб, чтобы очистить его. Вы не собираетесь быть хорошим врачом, если оставите все эти вещи там.","In this section you need to remove some pimples from different parts of the body.
 
 In order to remove the pimples, you just need to enable the hand tool and use your finger to apply pressure to pop the pimple. Then when the pimple's popped, use a handkerchief to clean the are. You aren't going to be a good doctor if you left all those stuff there.","In this section you need to remove some pimples from different parts of the body.
 
@@ -2660,46 +2613,10 @@ In order to remove the pimples, you just need to enable the hand tool and use yo
 
 In order to remove the pimples, you just need to enable the hand tool and use your finger to apply pressure to pop the pimple. Then when the pimple's popped, use a handkerchief to clean the are. You aren't going to be a good doctor if you left all those stuff there.","In this section you need to remove some pimples from different parts of the body.
 
-In order to remove the pimples, you just need to enable the hand tool and use your finger to apply pressure to pop the pimple. Then when the pimple's popped, use a handkerchief to clean the are. You aren't going to be a good doctor if you left all those stuff there.","In this section you need to remove some pimples from different parts of the body.
+In order to remove the pimples, you just need to enable the hand tool and use your finger to apply pressure to pop the pimple. Then when the pimple's popped, use a handkerchief to clean the are. You aren't going to be a good doctor if you left all those stuff there.","У цьому розділі необхідно видалити деякі приладдя з різних частин тіла.
 
-In order to remove the pimples, you just need to enable the hand tool and use your finger to apply pressure to pop the pimple. Then when the pimple's popped, use a handkerchief to clean the are. You aren't going to be a good doctor if you left all those stuff there.","In this section you need to remove some pimples from different parts of the body.
-
-In order to remove the pimples, you just need to enable the hand tool and use your finger to apply pressure to pop the pimple. Then when the pimple's popped, use a handkerchief to clean the are. You aren't going to be a good doctor if you left all those stuff there.","In this section you need to remove some pimples from different parts of the body.
-
-In order to remove the pimples, you just need to enable the hand tool and use your finger to apply pressure to pop the pimple. Then when the pimple's popped, use a handkerchief to clean the are. You aren't going to be a good doctor if you left all those stuff there.","In this section you need to remove some pimples from different parts of the body.
-
-In order to remove the pimples, you just need to enable the hand tool and use your finger to apply pressure to pop the pimple. Then when the pimple's popped, use a handkerchief to clean the are. You aren't going to be a good doctor if you left all those stuff there.","In this section you need to remove some pimples from different parts of the body.
-
-In order to remove the pimples, you just need to enable the hand tool and use your finger to apply pressure to pop the pimple. Then when the pimple's popped, use a handkerchief to clean the are. You aren't going to be a good doctor if you left all those stuff there.","In this section you need to remove some pimples from different parts of the body.
-
-In order to remove the pimples, you just need to enable the hand tool and use your finger to apply pressure to pop the pimple. Then when the pimple's popped, use a handkerchief to clean the are. You aren't going to be a good doctor if you left all those stuff there.","In this section you need to remove some pimples from different parts of the body.
-
-In order to remove the pimples, you just need to enable the hand tool and use your finger to apply pressure to pop the pimple. Then when the pimple's popped, use a handkerchief to clean the are. You aren't going to be a good doctor if you left all those stuff there.","In this section you need to remove some pimples from different parts of the body.
-
-In order to remove the pimples, you just need to enable the hand tool and use your finger to apply pressure to pop the pimple. Then when the pimple's popped, use a handkerchief to clean the are. You aren't going to be a good doctor if you left all those stuff there.","In this section you need to remove some pimples from different parts of the body.
-
-In order to remove the pimples, you just need to enable the hand tool and use your finger to apply pressure to pop the pimple. Then when the pimple's popped, use a handkerchief to clean the are. You aren't going to be a good doctor if you left all those stuff there.","In this section you need to remove some pimples from different parts of the body.
-
-In order to remove the pimples, you just need to enable the hand tool and use your finger to apply pressure to pop the pimple. Then when the pimple's popped, use a handkerchief to clean the are. You aren't going to be a good doctor if you left all those stuff there.","In this section you need to remove some pimples from different parts of the body.
-
-In order to remove the pimples, you just need to enable the hand tool and use your finger to apply pressure to pop the pimple. Then when the pimple's popped, use a handkerchief to clean the are. You aren't going to be a good doctor if you left all those stuff there.","In this section you need to remove some pimples from different parts of the body.
-
-In order to remove the pimples, you just need to enable the hand tool and use your finger to apply pressure to pop the pimple. Then when the pimple's popped, use a handkerchief to clean the are. You aren't going to be a good doctor if you left all those stuff there.","In this section you need to remove some pimples from different parts of the body.
-
-In order to remove the pimples, you just need to enable the hand tool and use your finger to apply pressure to pop the pimple. Then when the pimple's popped, use a handkerchief to clean the are. You aren't going to be a good doctor if you left all those stuff there.","In this section you need to remove some pimples from different parts of the body.
-
-In order to remove the pimples, you just need to enable the hand tool and use your finger to apply pressure to pop the pimple. Then when the pimple's popped, use a handkerchief to clean the are. You aren't going to be a good doctor if you left all those stuff there.","In this section you need to remove some pimples from different parts of the body.
-
-In order to remove the pimples, you just need to enable the hand tool and use your finger to apply pressure to pop the pimple. Then when the pimple's popped, use a handkerchief to clean the are. You aren't going to be a good doctor if you left all those stuff there.","In this section you need to remove some pimples from different parts of the body.
-
-In order to remove the pimples, you just need to enable the hand tool and use your finger to apply pressure to pop the pimple. Then when the pimple's popped, use a handkerchief to clean the are. You aren't going to be a good doctor if you left all those stuff there.","In this section you need to remove some pimples from different parts of the body.
-
-In order to remove the pimples, you just need to enable the hand tool and use your finger to apply pressure to pop the pimple. Then when the pimple's popped, use a handkerchief to clean the are. You aren't going to be a good doctor if you left all those stuff there.","In this section you need to remove some pimples from different parts of the body.
-
-In order to remove the pimples, you just need to enable the hand tool and use your finger to apply pressure to pop the pimple. Then when the pimple's popped, use a handkerchief to clean the are. You aren't going to be a good doctor if you left all those stuff there.","In this section you need to remove some pimples from different parts of the body.
-
-In order to remove the pimples, you just need to enable the hand tool and use your finger to apply pressure to pop the pimple. Then when the pimple's popped, use a handkerchief to clean the are. You aren't going to be a good doctor if you left all those stuff there."
-"K_BLACKHEAD_TUTORIAL_TEXT","For this kind of protuberance you need to be careful.
+Щоб видалити прийоми, вам просто потрібно увімкнути інструмент і використовувати палець для застосування тиску, щоб поп реп. Потім, коли виривається злочинність, проведіть носовичка, щоб прибрати її. Ви не будете хорошим лікарем, якщо ви залишите всі ці речі тут."
+K_BLACKHEAD_TUTORIAL_TEXT,"For this kind of protuberance you need to be careful.
 
 First, you need to apply vapor in order to open the pore. You will note that the pore was opened because the phone doesn‘t vibrate.
 
@@ -2711,7 +2628,13 @@ Primero necesitas aplicar vapor para abrir el poro. Vas a notar que el poro fue 
 
 Entonces, necesitar seleccionar la herramienta comedon y tocar dos veces el punto negro. Cuando lo haces, el comedon será colocado sobre la protuberancia y, finalmente, toca y desliza el dedo hacia abajo y la protuberancia será removido.
 
-Por supuesto, no olvides de limpiar el area después de hacer todo el trabajo.","For this kind of protuberance you need to be careful.
+Por supuesto, no olvides de limpiar el area después de hacer todo el trabajo.","Für diese Art von Protuberanz musst du vorsichtig sein.
+
+Zuerst musst du Dampf anwenden, um die Pore zu öffnen. Sie werden bemerken, dass die Pore geöffnet wurde, weil das Telefon nicht vibriert.
+
+Dann müssen Sie das Comedone-Werkzeug auswählen und den schwarzen Kopf doppeltippen. Wenn du das tust, wird die Komedone schließlich auf die Protuberität gesetzt Berühren Sie den Bildschirm und ziehen Sie den Finger nach unten und die Protuberance wird entfernt.
+
+Vergessen Sie natürlich nicht, den Bereich nach der gesamten Arbeit zu reinigen.","For this kind of protuberance you need to be careful.
 
 First, you need to apply vapor in order to open the pore. You will note that the pore was opened because the phone doesn‘t vibrate.
 
@@ -2723,19 +2646,13 @@ First, you need to apply vapor in order to open the pore. You will note that the
 
 Then, you need to select the comedone tool and double touch the blackhead. When you do that, the comedone will be placed onto the protuberance, finally, touch the screen and drag the finger down and the protuberance will be removed.
 
-Of course, do not forget to clean the area after you do all the work.","For this kind of protuberance you need to be careful.
+Of course, do not forget to clean the area after you do all the work.","لهذا النوع من التوفير تحتاج إلى توخي الحذر.
 
-First, you need to apply vapor in order to open the pore. You will note that the pore was opened because the phone doesn‘t vibrate.
+أولاً، تحتاج إلى تطبيق البخار من أجل فتح البؤر. ستلاحظون أن المسامية قد فتحت لأن الهاتف لا يهتز.
 
-Then, you need to select the comedone tool and double touch the blackhead. When you do that, the comedone will be placed onto the protuberance, finally, touch the screen and drag the finger down and the protuberance will be removed.
+بعد ذلك، تحتاج إلى تحديد أداة كوميدون ومضاعفة اللمس السوداء. عندما تفعل ذلك، سيتم وضع الكوميدون في التثبيت، في النهاية، لمس الشاشة وسحب الإصبع لأسفل وسيتم إزالة التثبيت.
 
-Of course, do not forget to clean the area after you do all the work.","For this kind of protuberance you need to be careful.
-
-First, you need to apply vapor in order to open the pore. You will note that the pore was opened because the phone doesn‘t vibrate.
-
-Then, you need to select the comedone tool and double touch the blackhead. When you do that, the comedone will be placed onto the protuberance, finally, touch the screen and drag the finger down and the protuberance will be removed.
-
-Of course, do not forget to clean the area after you do all the work.","For this kind of protuberance you need to be careful.
+بطبيعة الحال، لا تنسى تنظيف المنطقة بعد أن تقوم بكل العمل.","For this kind of protuberance you need to be careful.
 
 First, you need to apply vapor in order to open the pore. You will note that the pore was opened because the phone doesn‘t vibrate.
 
@@ -2753,7 +2670,109 @@ First, you need to apply vapor in order to open the pore. You will note that the
 
 Then, you need to select the comedone tool and double touch the blackhead. When you do that, the comedone will be placed onto the protuberance, finally, touch the screen and drag the finger down and the protuberance will be removed.
 
+Of course, do not forget to clean the area after you do all the work.","Pro tento druh protuberance musíte být opatrní.
+
+Nejprve musíte použít páru pro otevření póru. Můžete si všimnout, že pávka byla otevřena, protože telefon nevibrová.
+
+Pak je třeba vybrat nástroj komedonu a dvojitým dotykem blackhead. Až to uděláte, bude komedon konečně postaven na výhru dotkněte se obrazovky a přetáhněte prstem dolů a výstižnost bude odstraněna.
+
+Samozřejmě, nezapomeňte vyčistit prostor až po vykonání veškeré práce.","For denne form for fremmede skal du være forsigtig.
+
+Først skal du anvende damp for at åbne poren. Du vil bemærke, at pornoen blev åbnet, fordi telefonen ikke vibrerer.
+
+Derefter skal du vælge det komedone værktøj og dobbelt røre det sorte hoved. Når du gør det, vil komedonen blive placeret på stammen, endelig, røre ved skærmen og trække fingeren ned, og udskillelsen vil blive fjernet.
+
+Selvfølgelig skal du ikke glemme at rense området, efter du har gjort alt arbejdet.","Voor dit soort protuberantie moet je voorzichtig zijn.
+
+Eerst moet je een damp toepassen om het porno te openen. U ziet dat de poron geopend is omdat de telefoon niet trilt.
+
+Dan moet je de comedone tool selecteren en het zwarte hoofd aanraken. Wanneer je dat doet, zal de comedon uiteindelijk in de protuberantie worden geplaatst. raak het scherm aan en sleep de vinger omlaag en de protuberantie wordt verwijderd.
+
+Vergeet natuurlijk niet om de ruimte schoon te maken nadat je al het werk hebt gedaan.","Jotta tällainen protuberanssi sinun täytyy olla varovainen.
+
+Ensinnäkin, sinun täytyy soveltaa höyryä avataksesi huokos. Huomaat, että huokoset avattiin, koska puhelin ei ole värähtelevä.
+
+Sitten sinun täytyy valita comedone työkalu ja kaksinkertainen kosketus blackhead. Kun teet sen, komedoni on sijoitettu ulvoon, lopuksi, kosketa näyttöä ja vedä sormi alas ja poistetaan.
+
+Tietenkään älä unohda puhdistaa aluetta sen jälkeen, kun teet kaiken työn.","Pour ce genre de protubérance, vous devez être prudent.
+
+D'abord, vous devez appliquer de la vapeur pour ouvrir le pore. Vous remarquerez que le pore a été ouvert parce que le téléphone ne vibre pas.
+
+Ensuite, vous devez sélectionner l'outil comedone et double toucher la tête noire. Lorsque vous faites cela, le comedone sera placé sur la protubérance, enfin, touchez l'écran et faites glisser le doigt vers le bas et la protubérance sera supprimée.
+
+Bien sûr, n'oubliez pas de nettoyer la zone après que vous avez fait tout le travail.","Για αυτό το είδος προεξοχής πρέπει να είστε προσεκτικοί.
+
+Πρώτα, θα πρέπει να εφαρμόσετε ατμούς για να ανοίξετε τον πόρο. Θα σημειώσετε ότι ο πόρος άνοιξε επειδή το τηλέφωνο δεν δονείται.
+
+Στη συνέχεια, θα πρέπει να επιλέξετε το εργαλείο κωμωδίας και να αγγίξετε διπλά τη μαύρη κεφαλή. Όταν το κάνετε αυτό, η κωμωδία θα τοποθετηθεί στην προεξοχή, τέλος, αγγίξτε την οθόνη και σύρετε το δάχτυλο προς τα κάτω και η προεξοχή θα αφαιρεθεί.
+
+Φυσικά, μην ξεχάσετε να καθαρίσετε την περιοχή αφού κάνετε όλη τη δουλειά.","For this kind of protuberance you need to be careful.
+
+First, you need to apply vapor in order to open the pore. You will note that the pore was opened because the phone doesn‘t vibrate.
+
+Then, you need to select the comedone tool and double touch the blackhead. When you do that, the comedone will be placed onto the protuberance, finally, touch the screen and drag the finger down and the protuberance will be removed.
+
 Of course, do not forget to clean the area after you do all the work.","For this kind of protuberance you need to be careful.
+
+First, you need to apply vapor in order to open the pore. You will note that the pore was opened because the phone doesn‘t vibrate.
+
+Then, you need to select the comedone tool and double touch the blackhead. When you do that, the comedone will be placed onto the protuberance, finally, touch the screen and drag the finger down and the protuberance will be removed.
+
+Of course, do not forget to clean the area after you do all the work.","Per questo tipo di protuberanza è necessario fare attenzione.
+
+In primo luogo, è necessario applicare il vapore per aprire il poro. Noterete che il poro è stato aperto perché il telefono non vibra.
+
+Poi, è necessario selezionare lo strumento comedone e doppio tocco sulla testa nera. Quando lo farete, il comedone sarà posto sulla protuberanza, infine, toccare lo schermo e trascinare il dito verso il basso e la protuberanza verrà rimossa.
+
+Naturalmente, non dimenticate di pulire l'area dopo aver fatto tutto il lavoro.","For this kind of protuberance you need to be careful.
+
+First, you need to apply vapor in order to open the pore. You will note that the pore was opened because the phone doesn‘t vibrate.
+
+Then, you need to select the comedone tool and double touch the blackhead. When you do that, the comedone will be placed onto the protuberance, finally, touch the screen and drag the finger down and the protuberance will be removed.
+
+Of course, do not forget to clean the area after you do all the work.","For this kind of protuberance you need to be careful.
+
+First, you need to apply vapor in order to open the pore. You will note that the pore was opened because the phone doesn‘t vibrate.
+
+Then, you need to select the comedone tool and double touch the blackhead. When you do that, the comedone will be placed onto the protuberance, finally, touch the screen and drag the finger down and the protuberance will be removed.
+
+Of course, do not forget to clean the area after you do all the work.","For this kind of protuberance you need to be careful.
+
+First, you need to apply vapor in order to open the pore. You will note that the pore was opened because the phone doesn‘t vibrate.
+
+Then, you need to select the comedone tool and double touch the blackhead. When you do that, the comedone will be placed onto the protuberance, finally, touch the screen and drag the finger down and the protuberance will be removed.
+
+Of course, do not forget to clean the area after you do all the work.","W przypadku tego rodzaju gruźlicy musisz zachować ostrożność.
+
+Najpierw musisz nałożyć parę, aby otworzyć biedę. Zauważysz, że pora została otwarta, ponieważ telefon nie wibruje.
+
+Następnie musisz wybrać narzędzie comedone i dwukrotnie dotknąć czarnej głowy. Kiedy to zrobisz, komedon zostanie umieszczony na gruźlicy, na koniec, dotknąć ekranu i przeciągnąć palcem w dół, a następnie usunąć.
+
+Oczywiście nie zapomnij oczyścić miejsca po wykonaniu wszystkich zadań.","For this kind of protuberance you need to be careful.
+
+First, you need to apply vapor in order to open the pore. You will note that the pore was opened because the phone doesn‘t vibrate.
+
+Then, you need to select the comedone tool and double touch the blackhead. When you do that, the comedone will be placed onto the protuberance, finally, touch the screen and drag the finger down and the protuberance will be removed.
+
+Of course, do not forget to clean the area after you do all the work.","For this kind of protuberance you need to be careful.
+
+First, you need to apply vapor in order to open the pore. You will note that the pore was opened because the phone doesn‘t vibrate.
+
+Then, you need to select the comedone tool and double touch the blackhead. When you do that, the comedone will be placed onto the protuberance, finally, touch the screen and drag the finger down and the protuberance will be removed.
+
+Of course, do not forget to clean the area after you do all the work.","Pentru acest tip de protuberanță trebuie să fii atent.
+
+Mai întâi, trebuie să aplici vapori pentru a deschide porul. Veți observa că porul a fost deschis deoarece telefonul nu vibrează.
+
+Apoi, trebuie să selectaţi instrumentul comedone şi să atingeţi de două ori capul negru. Când faci asta, comedona va fi plasată pe protuberanță, în final, atinge ecranul și glisează cu degetul în jos și protuberanța va fi eliminată.
+
+Bineînțeles, nu uitați să curățați zona după ce ați făcut toată treaba.","Для такого проникновения вам нужно быть осторожным.
+
+Для начала вам необходимо применить пар для открытия пора. Вы заметите, что пора была открыта, потому что телефон не вибрат.
+
+Затем необходимо выбрать инструмент с комедией и дважды прикоснуться к черной голове. Когда вы это сделаете, комедия будет помещена в пропасть, наконец, прикоснитесь к экрану и перетащите пальцем вниз, и проклубнение будет удалено.
+
+Конечно, не забудьте очистить область после выполнения всех работ.","For this kind of protuberance you need to be careful.
 
 First, you need to apply vapor in order to open the pore. You will note that the pore was opened because the phone doesn‘t vibrate.
 
@@ -2777,128 +2796,24 @@ First, you need to apply vapor in order to open the pore. You will note that the
 
 Then, you need to select the comedone tool and double touch the blackhead. When you do that, the comedone will be placed onto the protuberance, finally, touch the screen and drag the finger down and the protuberance will be removed.
 
-Of course, do not forget to clean the area after you do all the work.","For this kind of protuberance you need to be careful.
+Of course, do not forget to clean the area after you do all the work.","Для такого типу протестуаність, вам необхідно бути обережними.
 
-First, you need to apply vapor in order to open the pore. You will note that the pore was opened because the phone doesn‘t vibrate.
+По-перше, ви повинні застосувати пару, щоб відкрити порр. Ви врахуєте, що пора була відкрита, бо телефон не вібрує вібросигнал.
 
-Then, you need to select the comedone tool and double touch the blackhead. When you do that, the comedone will be placed onto the protuberance, finally, touch the screen and drag the finger down and the protuberance will be removed.
+Тепер потрібно вибрати інструмент comedone і подвоїти дотик до чорної голови. Коли ви це зробите, комедон буде розміщений на протуберанці, нарешті, торкніться екрану та перетягуйте палець донизу, а пропущено буде видалено.
 
-Of course, do not forget to clean the area after you do all the work.","For this kind of protuberance you need to be careful.
-
-First, you need to apply vapor in order to open the pore. You will note that the pore was opened because the phone doesn‘t vibrate.
-
-Then, you need to select the comedone tool and double touch the blackhead. When you do that, the comedone will be placed onto the protuberance, finally, touch the screen and drag the finger down and the protuberance will be removed.
-
-Of course, do not forget to clean the area after you do all the work.","For this kind of protuberance you need to be careful.
-
-First, you need to apply vapor in order to open the pore. You will note that the pore was opened because the phone doesn‘t vibrate.
-
-Then, you need to select the comedone tool and double touch the blackhead. When you do that, the comedone will be placed onto the protuberance, finally, touch the screen and drag the finger down and the protuberance will be removed.
-
-Of course, do not forget to clean the area after you do all the work.","For this kind of protuberance you need to be careful.
-
-First, you need to apply vapor in order to open the pore. You will note that the pore was opened because the phone doesn‘t vibrate.
-
-Then, you need to select the comedone tool and double touch the blackhead. When you do that, the comedone will be placed onto the protuberance, finally, touch the screen and drag the finger down and the protuberance will be removed.
-
-Of course, do not forget to clean the area after you do all the work.","For this kind of protuberance you need to be careful.
-
-First, you need to apply vapor in order to open the pore. You will note that the pore was opened because the phone doesn‘t vibrate.
-
-Then, you need to select the comedone tool and double touch the blackhead. When you do that, the comedone will be placed onto the protuberance, finally, touch the screen and drag the finger down and the protuberance will be removed.
-
-Of course, do not forget to clean the area after you do all the work.","For this kind of protuberance you need to be careful.
-
-First, you need to apply vapor in order to open the pore. You will note that the pore was opened because the phone doesn‘t vibrate.
-
-Then, you need to select the comedone tool and double touch the blackhead. When you do that, the comedone will be placed onto the protuberance, finally, touch the screen and drag the finger down and the protuberance will be removed.
-
-Of course, do not forget to clean the area after you do all the work.","For this kind of protuberance you need to be careful.
-
-First, you need to apply vapor in order to open the pore. You will note that the pore was opened because the phone doesn‘t vibrate.
-
-Then, you need to select the comedone tool and double touch the blackhead. When you do that, the comedone will be placed onto the protuberance, finally, touch the screen and drag the finger down and the protuberance will be removed.
-
-Of course, do not forget to clean the area after you do all the work.","For this kind of protuberance you need to be careful.
-
-First, you need to apply vapor in order to open the pore. You will note that the pore was opened because the phone doesn‘t vibrate.
-
-Then, you need to select the comedone tool and double touch the blackhead. When you do that, the comedone will be placed onto the protuberance, finally, touch the screen and drag the finger down and the protuberance will be removed.
-
-Of course, do not forget to clean the area after you do all the work.","For this kind of protuberance you need to be careful.
-
-First, you need to apply vapor in order to open the pore. You will note that the pore was opened because the phone doesn‘t vibrate.
-
-Then, you need to select the comedone tool and double touch the blackhead. When you do that, the comedone will be placed onto the protuberance, finally, touch the screen and drag the finger down and the protuberance will be removed.
-
-Of course, do not forget to clean the area after you do all the work.","For this kind of protuberance you need to be careful.
-
-First, you need to apply vapor in order to open the pore. You will note that the pore was opened because the phone doesn‘t vibrate.
-
-Then, you need to select the comedone tool and double touch the blackhead. When you do that, the comedone will be placed onto the protuberance, finally, touch the screen and drag the finger down and the protuberance will be removed.
-
-Of course, do not forget to clean the area after you do all the work.","For this kind of protuberance you need to be careful.
-
-First, you need to apply vapor in order to open the pore. You will note that the pore was opened because the phone doesn‘t vibrate.
-
-Then, you need to select the comedone tool and double touch the blackhead. When you do that, the comedone will be placed onto the protuberance, finally, touch the screen and drag the finger down and the protuberance will be removed.
-
-Of course, do not forget to clean the area after you do all the work.","For this kind of protuberance you need to be careful.
-
-First, you need to apply vapor in order to open the pore. You will note that the pore was opened because the phone doesn‘t vibrate.
-
-Then, you need to select the comedone tool and double touch the blackhead. When you do that, the comedone will be placed onto the protuberance, finally, touch the screen and drag the finger down and the protuberance will be removed.
-
-Of course, do not forget to clean the area after you do all the work.","For this kind of protuberance you need to be careful.
-
-First, you need to apply vapor in order to open the pore. You will note that the pore was opened because the phone doesn‘t vibrate.
-
-Then, you need to select the comedone tool and double touch the blackhead. When you do that, the comedone will be placed onto the protuberance, finally, touch the screen and drag the finger down and the protuberance will be removed.
-
-Of course, do not forget to clean the area after you do all the work.","For this kind of protuberance you need to be careful.
-
-First, you need to apply vapor in order to open the pore. You will note that the pore was opened because the phone doesn‘t vibrate.
-
-Then, you need to select the comedone tool and double touch the blackhead. When you do that, the comedone will be placed onto the protuberance, finally, touch the screen and drag the finger down and the protuberance will be removed.
-
-Of course, do not forget to clean the area after you do all the work.","For this kind of protuberance you need to be careful.
-
-First, you need to apply vapor in order to open the pore. You will note that the pore was opened because the phone doesn‘t vibrate.
-
-Then, you need to select the comedone tool and double touch the blackhead. When you do that, the comedone will be placed onto the protuberance, finally, touch the screen and drag the finger down and the protuberance will be removed.
-
-Of course, do not forget to clean the area after you do all the work.","For this kind of protuberance you need to be careful.
-
-First, you need to apply vapor in order to open the pore. You will note that the pore was opened because the phone doesn‘t vibrate.
-
-Then, you need to select the comedone tool and double touch the blackhead. When you do that, the comedone will be placed onto the protuberance, finally, touch the screen and drag the finger down and the protuberance will be removed.
-
-Of course, do not forget to clean the area after you do all the work.","For this kind of protuberance you need to be careful.
-
-First, you need to apply vapor in order to open the pore. You will note that the pore was opened because the phone doesn‘t vibrate.
-
-Then, you need to select the comedone tool and double touch the blackhead. When you do that, the comedone will be placed onto the protuberance, finally, touch the screen and drag the finger down and the protuberance will be removed.
-
-Of course, do not forget to clean the area after you do all the work.","For this kind of protuberance you need to be careful.
-
-First, you need to apply vapor in order to open the pore. You will note that the pore was opened because the phone doesn‘t vibrate.
-
-Then, you need to select the comedone tool and double touch the blackhead. When you do that, the comedone will be placed onto the protuberance, finally, touch the screen and drag the finger down and the protuberance will be removed.
-
-Of course, do not forget to clean the area after you do all the work.","For this kind of protuberance you need to be careful.
-
-First, you need to apply vapor in order to open the pore. You will note that the pore was opened because the phone doesn‘t vibrate.
-
-Then, you need to select the comedone tool and double touch the blackhead. When you do that, the comedone will be placed onto the protuberance, finally, touch the screen and drag the finger down and the protuberance will be removed.
-
-Of course, do not forget to clean the area after you do all the work."
-"K_CYST_TUTORIAL_TEXT","Probably the easiest protuberance to remove.
+Звичайно, не забудь очистити місцевість після всієї роботи."
+K_CYST_TUTORIAL_TEXT,"Probably the easiest protuberance to remove.
 
 That big thing can be removed when you select the needle tool and touch and hold in a specefic location of the protuberance. Touch the hint button if you need to locate it. If you touch the right location, a sound is emitted. Now with one finger holding the needle, use another one to extract the content of the protuberance.
 
 After you remove everything, remember to clean the are with the handkerchief.","Probablemente la más sencilla de todas.
 
-Esa gran cosa puede ser removida cuando seleccionas la herramienta aguja, y toca y mantienes en el area especificada de la protuberancia. Toca el boton de pista si necesitas localizar el area. Si tocaste donde se necesita, un sonido será emitido. Ahora con un dedo sosteniendo la aguja, usa el otro para extraer la protuberancia.","Probably the easiest protuberance to remove.
+Esa gran cosa puede ser removida cuando seleccionas la herramienta aguja, y toca y mantienes en el area especificada de la protuberancia. Toca el boton de pista si necesitas localizar el area. Si tocaste donde se necesita, un sonido será emitido. Ahora con un dedo sosteniendo la aguja, usa el otro para extraer la protuberancia.","Wahrscheinlich die einfachste Protuberance zu entfernen.
+
+Diese große Sache kann entfernt werden, wenn du das Nadelwerkzeug auswählst und an einer spezifischen Position der Protuberanz berührst und hält. Tippen Sie auf den Hinweis-Button, wenn Sie ihn finden müssen. Wenn Sie den richtigen Ort berühren, wird ein Ton abgesendet. Wenn nun ein Finger die Nadel hält, verwenden Sie einen anderen, um den Inhalt der Protuberanz zu extrahieren.
+
+Nachdem Sie alles entfernt haben, vergessen Sie nicht, die sind mit dem Taschentuch.","Probably the easiest protuberance to remove.
 
 That big thing can be removed when you select the needle tool and touch and hold in a specefic location of the protuberance. Touch the hint button if you need to locate it. If you touch the right location, a sound is emitted. Now with one finger holding the needle, use another one to extract the content of the protuberance.
 
@@ -2906,15 +2821,11 @@ After you remove everything, remember to clean the are with the handkerchief.","
 
 That big thing can be removed when you select the needle tool and touch and hold in a specefic location of the protuberance. Touch the hint button if you need to locate it. If you touch the right location, a sound is emitted. Now with one finger holding the needle, use another one to extract the content of the protuberance.
 
-After you remove everything, remember to clean the are with the handkerchief.","Probably the easiest protuberance to remove.
+After you remove everything, remember to clean the are with the handkerchief.","ربما أسهل ما يمكن إزالته.
 
-That big thing can be removed when you select the needle tool and touch and hold in a specefic location of the protuberance. Touch the hint button if you need to locate it. If you touch the right location, a sound is emitted. Now with one finger holding the needle, use another one to extract the content of the protuberance.
+هذا الشيء الكبير يمكن إزالته عند تحديد أداة الإبر والمس والاستمرار في موقع رائع من التأثير. المس زر التلميح إذا كنت بحاجة لتحديد موقعه. إذا لمست المكان الصحيح، يتم انبعاث الصوت. الآن مع اصبع واحد يحمل الإبرة ، استخدم اصبع آخر لاستخراج محتوى التثبيت.
 
-After you remove everything, remember to clean the are with the handkerchief.","Probably the easiest protuberance to remove.
-
-That big thing can be removed when you select the needle tool and touch and hold in a specefic location of the protuberance. Touch the hint button if you need to locate it. If you touch the right location, a sound is emitted. Now with one finger holding the needle, use another one to extract the content of the protuberance.
-
-After you remove everything, remember to clean the are with the handkerchief.","Probably the easiest protuberance to remove.
+بعد إزالة كل شيء، تذكر أن تنظف مع مدير المعالجة.","Probably the easiest protuberance to remove.
 
 That big thing can be removed when you select the needle tool and touch and hold in a specefic location of the protuberance. Touch the hint button if you need to locate it. If you touch the right location, a sound is emitted. Now with one finger holding the needle, use another one to extract the content of the protuberance.
 
@@ -2926,7 +2837,75 @@ After you remove everything, remember to clean the are with the handkerchief.","
 
 That big thing can be removed when you select the needle tool and touch and hold in a specefic location of the protuberance. Touch the hint button if you need to locate it. If you touch the right location, a sound is emitted. Now with one finger holding the needle, use another one to extract the content of the protuberance.
 
+After you remove everything, remember to clean the are with the handkerchief.","Pravděpodobně nejsnadnější protuberance k odstranění.
+
+Tato velká věc může být odstraněna, když vyberete nástroj pro jehlu a dotkněte se a podržte na spektrálním místě výstupu. Pokud to potřebujete najít, klepněte na tlačítko nápovědy. Pokud se dotknete správné polohy, vypíná se zvuk. Nyní s jedním prstem držícím jehlu, použijte jiný k extrakci obsahu výhonku.
+
+Po odstranění všeho nezapomeňte vyčistit je s kapesníkem.","Sandsynligvis den letteste udvækst at fjerne.
+
+At store ting kan fjernes, når du vælger nåleværktøjet og røre og holde på en spektakulær placering af stammen. Tryk på vinkelknappen, hvis du har brug for at finde den. Hvis du rører den rigtige placering, udsendes en lyd. Nu hvor den ene finger holder kanylen, skal du bruge den anden til at udvinde indholdet af udskillelsen.
+
+Når du har fjernet alt, så husk at rense dem med lommetørklædet.","Waarschijnlijk de makkelijkste behendigheid om te verwijderen.
+
+Dat grote ding kan worden verwijderd als je de naaldrichting selecteert en op een spooklocatie van de kromme klikt. Raak de hint knop aan als je hem wilt vinden. Als je de juiste locatie aanraakt, wordt een geluid uitgezonden. Nu met één vinger de naald vasthoudt, gebruik een andere om de inhoud van de protuberantie te extraheren.
+
+Nadat je alles hebt verwijderd, vergeet niet om het op te ruimen.","Luultavasti helpoin protuberanssi poistaa.
+
+Tämä iso asia voidaan poistaa, kun valitset neulan työkalun ja kosketat ja pidä kiinni protuberantin näyttävässä paikassa. Kosketa vihje painiketta, jos haluat löytää sen. Jos kosketat oikeaa paikkaa, ääntä säteilee. Nyt yhdellä sormella, jolla on neula ja käytä toista sormea poimiakseen sen sisältämän tuberkuloinnin.
+
+Kun olet poistanut kaiken, muista puhdistaa ovat nenäliinalla.","Probablement la protubérance la plus facile à retirer.
+
+Cette grosse chose peut être retirée lorsque vous sélectionnez l'outil d'aiguille et que vous touchez et maintenez dans un emplacement précis de la protubérance. Appuyez sur le bouton d'indication si vous avez besoin de le localiser. Si vous touchez le bon emplacement, un son est émis. Maintenant avec un doigt tenant l'aiguille, utilisez un autre pour extraire le contenu de la protubérance.
+
+Après que vous supprimiez tout, n'oubliez pas de nettoyer le sont avec le chef de mouchoir.","Πιθανώς η ευκολότερη προεξοχή για να αφαιρέσετε.
+
+Αυτό το μεγάλο πράγμα μπορεί να αφαιρεθεί όταν επιλέξετε το εργαλείο της βελόνας και αγγίξετε και κρατήστε σε μια θέση specefic της προεξοχής. Αγγίξτε το κουμπί υποδείξεων αν χρειαστεί να το εντοπίσετε. Αν αγγίξετε τη σωστή τοποθεσία, εκπέμπεται ήχος. Τώρα με ένα δάχτυλο κρατώντας τη βελόνα, χρησιμοποιήστε ένα άλλο για να εξαγάγετε το περιεχόμενο της προεξοχής.
+
+Αφού αφαιρέσετε τα πάντα, θυμηθείτε να καθαρίσετε τα είναι με το μαντήλι.","Probably the easiest protuberance to remove.
+
+That big thing can be removed when you select the needle tool and touch and hold in a specefic location of the protuberance. Touch the hint button if you need to locate it. If you touch the right location, a sound is emitted. Now with one finger holding the needle, use another one to extract the content of the protuberance.
+
 After you remove everything, remember to clean the are with the handkerchief.","Probably the easiest protuberance to remove.
+
+That big thing can be removed when you select the needle tool and touch and hold in a specefic location of the protuberance. Touch the hint button if you need to locate it. If you touch the right location, a sound is emitted. Now with one finger holding the needle, use another one to extract the content of the protuberance.
+
+After you remove everything, remember to clean the are with the handkerchief.","Probabilmente la protuberanza più facile da rimuovere.
+
+Questa grande cosa può essere rimossa quando si seleziona lo strumento dell'ago e tocca e tieni premuto in una posizione specifica della protuberanza. Toccare il pulsante di suggerimento se è necessario individuarlo. Se si tocca la giusta posizione, viene emesso un suono. Ora con un dito che tiene l'ago, usane un altro per estrarre il contenuto della protuberanza.
+
+Dopo aver rimosso tutto, ricordati di pulire i sono con il fazzoletto.","Probably the easiest protuberance to remove.
+
+That big thing can be removed when you select the needle tool and touch and hold in a specefic location of the protuberance. Touch the hint button if you need to locate it. If you touch the right location, a sound is emitted. Now with one finger holding the needle, use another one to extract the content of the protuberance.
+
+After you remove everything, remember to clean the are with the handkerchief.","Probably the easiest protuberance to remove.
+
+That big thing can be removed when you select the needle tool and touch and hold in a specefic location of the protuberance. Touch the hint button if you need to locate it. If you touch the right location, a sound is emitted. Now with one finger holding the needle, use another one to extract the content of the protuberance.
+
+After you remove everything, remember to clean the are with the handkerchief.","Probably the easiest protuberance to remove.
+
+That big thing can be removed when you select the needle tool and touch and hold in a specefic location of the protuberance. Touch the hint button if you need to locate it. If you touch the right location, a sound is emitted. Now with one finger holding the needle, use another one to extract the content of the protuberance.
+
+After you remove everything, remember to clean the are with the handkerchief.","Prawdopodobnie najłatwiejsza gruźlica do usunięcia.
+
+Ta duża rzecz może zostać usunięta po wybraniu narzędzia igły i dotknięciu i przytrzymaniu w miejscu napadu gruźlicy. Dotknij przycisku wskazówki, jeśli chcesz go zlokalizować. Jeśli dotkniesz właściwej lokalizacji, dźwięk jest emitowany. Teraz, trzymając igłę w jednym palcu, należy użyć innego palca do pobrania zawartości prozury.
+
+Po usunięciu wszystkiego, pamiętaj, aby oczyścić je za pomocą uchwytu.","Probably the easiest protuberance to remove.
+
+That big thing can be removed when you select the needle tool and touch and hold in a specefic location of the protuberance. Touch the hint button if you need to locate it. If you touch the right location, a sound is emitted. Now with one finger holding the needle, use another one to extract the content of the protuberance.
+
+After you remove everything, remember to clean the are with the handkerchief.","Probably the easiest protuberance to remove.
+
+That big thing can be removed when you select the needle tool and touch and hold in a specefic location of the protuberance. Touch the hint button if you need to locate it. If you touch the right location, a sound is emitted. Now with one finger holding the needle, use another one to extract the content of the protuberance.
+
+After you remove everything, remember to clean the are with the handkerchief.","Probabil cel mai ușor de eliminat protuberanța.
+
+Acest lucru important poate fi îndepărtat atunci când selectați unelta cu acul și atingeți și mențineți apăsat o specificitate a protuberanței. Atingeți butonul de indiciu dacă aveți nevoie să îl localizați. Dacă atingeți locația potrivită, se emite un sunet. Acum cu un deget ținând acul, folosiți altul pentru a extrage conținutul protuberanței.
+
+După ce eliminați totul, nu uitați să curățați sunt cu batistul.","Вероятно, самый простой прототип для удаления.
+
+Эта большая вещь может быть удалена, когда вы выберете инструмент иглы и прикоснутесь и удерживайтесь в специализационном месте прототипа. Коснитесь кнопки подсказки, если вам нужно найти ее. Если прикоснуться к нужному местоположению, то будет издан звук. Теперь одним пальцем, держащим иглу, используйте другой для извлечения содержания прототипа.
+
+После удаления не забудьте очистить всё с помощью handkerchief.","Probably the easiest protuberance to remove.
 
 That big thing can be removed when you select the needle tool and touch and hold in a specefic location of the protuberance. Touch the hint button if you need to locate it. If you touch the right location, a sound is emitted. Now with one finger holding the needle, use another one to extract the content of the protuberance.
 
@@ -2942,84 +2921,12 @@ After you remove everything, remember to clean the are with the handkerchief.","
 
 That big thing can be removed when you select the needle tool and touch and hold in a specefic location of the protuberance. Touch the hint button if you need to locate it. If you touch the right location, a sound is emitted. Now with one finger holding the needle, use another one to extract the content of the protuberance.
 
-After you remove everything, remember to clean the are with the handkerchief.","Probably the easiest protuberance to remove.
+After you remove everything, remember to clean the are with the handkerchief.","Напевно, найпростіший протест до видалення.
 
-That big thing can be removed when you select the needle tool and touch and hold in a specefic location of the protuberance. Touch the hint button if you need to locate it. If you touch the right location, a sound is emitted. Now with one finger holding the needle, use another one to extract the content of the protuberance.
+Цю велику річ можна видалити при виборі голки і дотику і тримати її у видовищному місці протектора. Торкніться кнопки підказки, щоб знайти її. Якщо торкнутися правильного розташування, випромінюється звук. Один палець утримує голку, використовуючи інший для видобування змісту протуберанства.
 
-After you remove everything, remember to clean the are with the handkerchief.","Probably the easiest protuberance to remove.
-
-That big thing can be removed when you select the needle tool and touch and hold in a specefic location of the protuberance. Touch the hint button if you need to locate it. If you touch the right location, a sound is emitted. Now with one finger holding the needle, use another one to extract the content of the protuberance.
-
-After you remove everything, remember to clean the are with the handkerchief.","Probably the easiest protuberance to remove.
-
-That big thing can be removed when you select the needle tool and touch and hold in a specefic location of the protuberance. Touch the hint button if you need to locate it. If you touch the right location, a sound is emitted. Now with one finger holding the needle, use another one to extract the content of the protuberance.
-
-After you remove everything, remember to clean the are with the handkerchief.","Probably the easiest protuberance to remove.
-
-That big thing can be removed when you select the needle tool and touch and hold in a specefic location of the protuberance. Touch the hint button if you need to locate it. If you touch the right location, a sound is emitted. Now with one finger holding the needle, use another one to extract the content of the protuberance.
-
-After you remove everything, remember to clean the are with the handkerchief.","Probably the easiest protuberance to remove.
-
-That big thing can be removed when you select the needle tool and touch and hold in a specefic location of the protuberance. Touch the hint button if you need to locate it. If you touch the right location, a sound is emitted. Now with one finger holding the needle, use another one to extract the content of the protuberance.
-
-After you remove everything, remember to clean the are with the handkerchief.","Probably the easiest protuberance to remove.
-
-That big thing can be removed when you select the needle tool and touch and hold in a specefic location of the protuberance. Touch the hint button if you need to locate it. If you touch the right location, a sound is emitted. Now with one finger holding the needle, use another one to extract the content of the protuberance.
-
-After you remove everything, remember to clean the are with the handkerchief.","Probably the easiest protuberance to remove.
-
-That big thing can be removed when you select the needle tool and touch and hold in a specefic location of the protuberance. Touch the hint button if you need to locate it. If you touch the right location, a sound is emitted. Now with one finger holding the needle, use another one to extract the content of the protuberance.
-
-After you remove everything, remember to clean the are with the handkerchief.","Probably the easiest protuberance to remove.
-
-That big thing can be removed when you select the needle tool and touch and hold in a specefic location of the protuberance. Touch the hint button if you need to locate it. If you touch the right location, a sound is emitted. Now with one finger holding the needle, use another one to extract the content of the protuberance.
-
-After you remove everything, remember to clean the are with the handkerchief.","Probably the easiest protuberance to remove.
-
-That big thing can be removed when you select the needle tool and touch and hold in a specefic location of the protuberance. Touch the hint button if you need to locate it. If you touch the right location, a sound is emitted. Now with one finger holding the needle, use another one to extract the content of the protuberance.
-
-After you remove everything, remember to clean the are with the handkerchief.","Probably the easiest protuberance to remove.
-
-That big thing can be removed when you select the needle tool and touch and hold in a specefic location of the protuberance. Touch the hint button if you need to locate it. If you touch the right location, a sound is emitted. Now with one finger holding the needle, use another one to extract the content of the protuberance.
-
-After you remove everything, remember to clean the are with the handkerchief.","Probably the easiest protuberance to remove.
-
-That big thing can be removed when you select the needle tool and touch and hold in a specefic location of the protuberance. Touch the hint button if you need to locate it. If you touch the right location, a sound is emitted. Now with one finger holding the needle, use another one to extract the content of the protuberance.
-
-After you remove everything, remember to clean the are with the handkerchief.","Probably the easiest protuberance to remove.
-
-That big thing can be removed when you select the needle tool and touch and hold in a specefic location of the protuberance. Touch the hint button if you need to locate it. If you touch the right location, a sound is emitted. Now with one finger holding the needle, use another one to extract the content of the protuberance.
-
-After you remove everything, remember to clean the are with the handkerchief.","Probably the easiest protuberance to remove.
-
-That big thing can be removed when you select the needle tool and touch and hold in a specefic location of the protuberance. Touch the hint button if you need to locate it. If you touch the right location, a sound is emitted. Now with one finger holding the needle, use another one to extract the content of the protuberance.
-
-After you remove everything, remember to clean the are with the handkerchief.","Probably the easiest protuberance to remove.
-
-That big thing can be removed when you select the needle tool and touch and hold in a specefic location of the protuberance. Touch the hint button if you need to locate it. If you touch the right location, a sound is emitted. Now with one finger holding the needle, use another one to extract the content of the protuberance.
-
-After you remove everything, remember to clean the are with the handkerchief.","Probably the easiest protuberance to remove.
-
-That big thing can be removed when you select the needle tool and touch and hold in a specefic location of the protuberance. Touch the hint button if you need to locate it. If you touch the right location, a sound is emitted. Now with one finger holding the needle, use another one to extract the content of the protuberance.
-
-After you remove everything, remember to clean the are with the handkerchief.","Probably the easiest protuberance to remove.
-
-That big thing can be removed when you select the needle tool and touch and hold in a specefic location of the protuberance. Touch the hint button if you need to locate it. If you touch the right location, a sound is emitted. Now with one finger holding the needle, use another one to extract the content of the protuberance.
-
-After you remove everything, remember to clean the are with the handkerchief.","Probably the easiest protuberance to remove.
-
-That big thing can be removed when you select the needle tool and touch and hold in a specefic location of the protuberance. Touch the hint button if you need to locate it. If you touch the right location, a sound is emitted. Now with one finger holding the needle, use another one to extract the content of the protuberance.
-
-After you remove everything, remember to clean the are with the handkerchief.","Probably the easiest protuberance to remove.
-
-That big thing can be removed when you select the needle tool and touch and hold in a specefic location of the protuberance. Touch the hint button if you need to locate it. If you touch the right location, a sound is emitted. Now with one finger holding the needle, use another one to extract the content of the protuberance.
-
-After you remove everything, remember to clean the are with the handkerchief.","Probably the easiest protuberance to remove.
-
-That big thing can be removed when you select the needle tool and touch and hold in a specefic location of the protuberance. Touch the hint button if you need to locate it. If you touch the right location, a sound is emitted. Now with one finger holding the needle, use another one to extract the content of the protuberance.
-
-After you remove everything, remember to clean the are with the handkerchief."
-"K_LIPOMA_TUTORIAL_TEXT","The complex protuberance to remove in a body. But i will show how to remove it.
+Після вилучення все, не забувайте очищувати з хусткою."
+K_LIPOMA_TUTORIAL_TEXT,"The complex protuberance to remove in a body. But i will show how to remove it.
 
 First, you need to apply anaesthetic because you are going to cut the area. After you apply it you can select the cutter tool and cut the area.
 
@@ -3031,7 +2938,13 @@ Primero, necesitas aplicar anestesia porque vas a cortar el area. Después de ap
 
 Ahora con el contenido expuesto, usa tu mano para plaicar presión y remover el contenido.
 
-Y ahora que todo fue removido, solo neceitas suturar la herida.","The complex protuberance to remove in a body. But i will show how to remove it.
+Y ahora que todo fue removido, solo neceitas suturar la herida.","Die komplexe Protuberanz, die in einem Körper entfernt werden soll. Aber ich werde zeigen, wie man sie entfernen kann.
+
+Zuerst musst du Anästhesie anwenden, weil du den Bereich schneiden möchtest. Danach können Sie das Schneidwerkzeug auswählen und den Bereich schneiden.
+
+Jetzt mit dem exponierten Inhalt verwenden Sie Ihre Hand, um Druck auszuüben und den Inhalt zu entfernen.
+
+Und nun, da alles entfernt wurde, müssen Sie die Wunde beruhigen.","The complex protuberance to remove in a body. But i will show how to remove it.
 
 First, you need to apply anaesthetic because you are going to cut the area. After you apply it you can select the cutter tool and cut the area.
 
@@ -3043,19 +2956,13 @@ First, you need to apply anaesthetic because you are going to cut the area. Afte
 
 Now with the content exposed, use your hand to apply pressure and remove the content.
 
-And now that everything was removed, you will need to suture the wound.","The complex protuberance to remove in a body. But i will show how to remove it.
+And now that everything was removed, you will need to suture the wound.","الثروات المعقدة التي يجب إزالتها في الجسم. لكنني سأريكم كيف أزيلها.
 
-First, you need to apply anaesthetic because you are going to cut the area. After you apply it you can select the cutter tool and cut the area.
+أولا، تحتاج إلى تطبيق الجمال لأنك سوف تقطع المنطقة. بعد تطبيقه، يمكنك تحديد أداة القطع وقطع المنطقة.
 
-Now with the content exposed, use your hand to apply pressure and remove the content.
+الآن مع المحتوى المكشوف، استخدم يدك لتطبيق الضغط وإزالة المحتوى.
 
-And now that everything was removed, you will need to suture the wound.","The complex protuberance to remove in a body. But i will show how to remove it.
-
-First, you need to apply anaesthetic because you are going to cut the area. After you apply it you can select the cutter tool and cut the area.
-
-Now with the content exposed, use your hand to apply pressure and remove the content.
-
-And now that everything was removed, you will need to suture the wound.","The complex protuberance to remove in a body. But i will show how to remove it.
+والآن بعد أن تم إزالة كل شيء، سوف تحتاج إلى التلاعب بالجروح.","The complex protuberance to remove in a body. But i will show how to remove it.
 
 First, you need to apply anaesthetic because you are going to cut the area. After you apply it you can select the cutter tool and cut the area.
 
@@ -3073,7 +2980,109 @@ First, you need to apply anaesthetic because you are going to cut the area. Afte
 
 Now with the content exposed, use your hand to apply pressure and remove the content.
 
+And now that everything was removed, you will need to suture the wound.","Komplexní protuberance odstranit v těle. Ale já ukážu, jak odstranit to.
+
+Nejprve musíte použít anestetikum, protože se chystáte tuto oblast snížit. Po uplatnění můžete vybrat řezácí nástroj a snížit oblast.
+
+Nyní s exponovaným obsahem, použij ruku k vyvinutí tlaku a odstranění obsahu.
+
+A teď, když bylo vše odstraněno, budete muset poranění zachránit.","Komplekset udspring at fjerne i en krop. Men jeg vil vise, hvordan du fjerner det.
+
+Først skal du anvende bedøvelse, fordi du kommer til at skære området. Når du har anvendt det, kan du vælge cutter værktøj og skære området.
+
+Nu med det udsatte indhold skal du bruge din hånd til at lægge pres og fjerne indholdet.
+
+Og nu, hvor alt blev fjernet, bliver du nødt til at suturere såret.","De complexe kletspraat om in een lichaam te verwijderen. Maar ik zal laten zien hoe je het kan verwijderen.
+
+Eerst moet je anesthetisch zijn omdat je het gebied gaat doorsnijden. Nadat u het toepast kunt u het snijgereedschap selecteren en het gebied knippen.
+
+Nu de inhoud wordt blootgelegd, gebruik uw hand om druk uit te oefenen en de inhoud te verwijderen.
+
+En nu alles is verwijderd, moet u de wonde verzekeren.","Monimutkainen protuberance poistaa elimistössä. Mutta osoitan miten poistaa sen.
+
+Ensinnäkin, sinun täytyy soveltaa anestesia, koska aiot leikata alueen. Kun käytät sitä, voit valita leikkuri työkalu ja leikata alueen.
+
+Nyt kun sisältö on paljastettu, käytä kätesi painetta ja poista sisältöä.
+
+Ja nyt, kun kaikki on poistettu, sinun täytyy ommella haava.","La protubérance complexe à enlever dans un corps. Mais je vais montrer comment l'enlever.
+
+D'abord, vous devez appliquer l'anesthésie parce que vous allez couper la zone. Après l'avoir appliqué, vous pouvez sélectionner l'outil de coupe et couper la zone.
+
+Maintenant avec le contenu exposé, utilisez votre main pour appliquer la pression et supprimer le contenu.
+
+Et maintenant que tout a été enlevé, vous devrez suturer la blessure.","Η σύνθετη προεξοχή για να αφαιρέσετε σε ένα σώμα. Αλλά θα δείξω πώς να το αφαιρέσετε.
+
+Κατ 'αρχάς, πρέπει να εφαρμόσετε αναισθητικό επειδή πρόκειται να κόψετε την περιοχή. Αφού το εφαρμόσετε μπορείτε να επιλέξετε το εργαλείο κοπής και να κόψετε την περιοχή.
+
+Τώρα με το περιεχόμενο που εκτίθεται, χρησιμοποιήστε το χέρι σας για να εφαρμόσετε πίεση και αφαιρέστε το περιεχόμενο.
+
+Και τώρα που όλα αφαιρέθηκαν, θα χρειαστεί να ράψετε την πληγή.","The complex protuberance to remove in a body. But i will show how to remove it.
+
+First, you need to apply anaesthetic because you are going to cut the area. After you apply it you can select the cutter tool and cut the area.
+
+Now with the content exposed, use your hand to apply pressure and remove the content.
+
 And now that everything was removed, you will need to suture the wound.","The complex protuberance to remove in a body. But i will show how to remove it.
+
+First, you need to apply anaesthetic because you are going to cut the area. After you apply it you can select the cutter tool and cut the area.
+
+Now with the content exposed, use your hand to apply pressure and remove the content.
+
+And now that everything was removed, you will need to suture the wound.","La protuberanza complessa per rimuovere in un corpo. Ma mostrerò come rimuoverlo.
+
+In primo luogo, è necessario applicare l'anestetico perché si sta andando a tagliare la zona. Dopo averlo applicato è possibile selezionare l'utensile cutter e tagliare la zona.
+
+Ora con il contenuto esposto, utilizzare la mano per applicare la pressione e rimuovere il contenuto.
+
+E ora che tutto è stato rimosso, dovrai suturare la ferita.","The complex protuberance to remove in a body. But i will show how to remove it.
+
+First, you need to apply anaesthetic because you are going to cut the area. After you apply it you can select the cutter tool and cut the area.
+
+Now with the content exposed, use your hand to apply pressure and remove the content.
+
+And now that everything was removed, you will need to suture the wound.","The complex protuberance to remove in a body. But i will show how to remove it.
+
+First, you need to apply anaesthetic because you are going to cut the area. After you apply it you can select the cutter tool and cut the area.
+
+Now with the content exposed, use your hand to apply pressure and remove the content.
+
+And now that everything was removed, you will need to suture the wound.","The complex protuberance to remove in a body. But i will show how to remove it.
+
+First, you need to apply anaesthetic because you are going to cut the area. After you apply it you can select the cutter tool and cut the area.
+
+Now with the content exposed, use your hand to apply pressure and remove the content.
+
+And now that everything was removed, you will need to suture the wound.","Złożona gruźlica do usunięcia z organizmu. Pokażę jednak, jak ją usunąć.
+
+Najpierw musisz zastosować znieczulenie, ponieważ zamierzasz przeciąć obszar. Po jego zastosowaniu możesz wybrać narzędzie separatora i przeciąć obszar.
+
+Teraz, gdy widoczna jest zawartość, użyj ręki do nacisku i usuń zawartość.
+
+A teraz, gdy wszystko zostało usunięte, będziesz musiał sadzić ranę.","The complex protuberance to remove in a body. But i will show how to remove it.
+
+First, you need to apply anaesthetic because you are going to cut the area. After you apply it you can select the cutter tool and cut the area.
+
+Now with the content exposed, use your hand to apply pressure and remove the content.
+
+And now that everything was removed, you will need to suture the wound.","The complex protuberance to remove in a body. But i will show how to remove it.
+
+First, you need to apply anaesthetic because you are going to cut the area. After you apply it you can select the cutter tool and cut the area.
+
+Now with the content exposed, use your hand to apply pressure and remove the content.
+
+And now that everything was removed, you will need to suture the wound.","Protuberanța complexă de îndepărtat într-un corp. Dar i se va arăta cum să o îndepărteze.
+
+În primul rând, trebuie să aplicați anestezic, deoarece veți tăia zona. După ce o aplicaţi puteţi selecta unealta de tăiere şi să tăiaţi zona.
+
+Acum cu conținutul expus, folosiți mâna pentru a aplica presiune și a elimina conținutul.
+
+Și acum că totul a fost eliminat, va trebui să suturați rana.","I would like to improve my English and I would like to improve my English and I would like to improve my English and I would like to improve my English and I would like to improve my English.
+
+Для начала нужно наложить анестезию, потому что вы собираетесь вырезать область. После применения можно выбрать инструмент резак и вырезать область.
+
+Теперь с содержанием раскрыто, используйте руку для применения давления и удаления содержимого.
+
+И теперь, когда все было удалено, вам нужно будет намерить рану.","The complex protuberance to remove in a body. But i will show how to remove it.
 
 First, you need to apply anaesthetic because you are going to cut the area. After you apply it you can select the cutter tool and cut the area.
 
@@ -3097,139 +3106,31 @@ First, you need to apply anaesthetic because you are going to cut the area. Afte
 
 Now with the content exposed, use your hand to apply pressure and remove the content.
 
-And now that everything was removed, you will need to suture the wound.","The complex protuberance to remove in a body. But i will show how to remove it.
+And now that everything was removed, you will need to suture the wound.","Складний протектор в тілі, але я покажу, як його вилучити.
 
-First, you need to apply anaesthetic because you are going to cut the area. After you apply it you can select the cutter tool and cut the area.
+Спочатку, вам потрібно застосувати анастетику, тому що ви збираєтесь розрізати площу. Після того, як ви застосуєте його, ви можете вибрати інструмент для обрізання та рубати площу.
 
-Now with the content exposed, use your hand to apply pressure and remove the content.
+Тепер з викритим вмістом, використовуйте руку для застосування тиску і видалення вмісту.
 
-And now that everything was removed, you will need to suture the wound.","The complex protuberance to remove in a body. But i will show how to remove it.
-
-First, you need to apply anaesthetic because you are going to cut the area. After you apply it you can select the cutter tool and cut the area.
-
-Now with the content exposed, use your hand to apply pressure and remove the content.
-
-And now that everything was removed, you will need to suture the wound.","The complex protuberance to remove in a body. But i will show how to remove it.
-
-First, you need to apply anaesthetic because you are going to cut the area. After you apply it you can select the cutter tool and cut the area.
-
-Now with the content exposed, use your hand to apply pressure and remove the content.
-
-And now that everything was removed, you will need to suture the wound.","The complex protuberance to remove in a body. But i will show how to remove it.
-
-First, you need to apply anaesthetic because you are going to cut the area. After you apply it you can select the cutter tool and cut the area.
-
-Now with the content exposed, use your hand to apply pressure and remove the content.
-
-And now that everything was removed, you will need to suture the wound.","The complex protuberance to remove in a body. But i will show how to remove it.
-
-First, you need to apply anaesthetic because you are going to cut the area. After you apply it you can select the cutter tool and cut the area.
-
-Now with the content exposed, use your hand to apply pressure and remove the content.
-
-And now that everything was removed, you will need to suture the wound.","The complex protuberance to remove in a body. But i will show how to remove it.
-
-First, you need to apply anaesthetic because you are going to cut the area. After you apply it you can select the cutter tool and cut the area.
-
-Now with the content exposed, use your hand to apply pressure and remove the content.
-
-And now that everything was removed, you will need to suture the wound.","The complex protuberance to remove in a body. But i will show how to remove it.
-
-First, you need to apply anaesthetic because you are going to cut the area. After you apply it you can select the cutter tool and cut the area.
-
-Now with the content exposed, use your hand to apply pressure and remove the content.
-
-And now that everything was removed, you will need to suture the wound.","The complex protuberance to remove in a body. But i will show how to remove it.
-
-First, you need to apply anaesthetic because you are going to cut the area. After you apply it you can select the cutter tool and cut the area.
-
-Now with the content exposed, use your hand to apply pressure and remove the content.
-
-And now that everything was removed, you will need to suture the wound.","The complex protuberance to remove in a body. But i will show how to remove it.
-
-First, you need to apply anaesthetic because you are going to cut the area. After you apply it you can select the cutter tool and cut the area.
-
-Now with the content exposed, use your hand to apply pressure and remove the content.
-
-And now that everything was removed, you will need to suture the wound.","The complex protuberance to remove in a body. But i will show how to remove it.
-
-First, you need to apply anaesthetic because you are going to cut the area. After you apply it you can select the cutter tool and cut the area.
-
-Now with the content exposed, use your hand to apply pressure and remove the content.
-
-And now that everything was removed, you will need to suture the wound.","The complex protuberance to remove in a body. But i will show how to remove it.
-
-First, you need to apply anaesthetic because you are going to cut the area. After you apply it you can select the cutter tool and cut the area.
-
-Now with the content exposed, use your hand to apply pressure and remove the content.
-
-And now that everything was removed, you will need to suture the wound.","The complex protuberance to remove in a body. But i will show how to remove it.
-
-First, you need to apply anaesthetic because you are going to cut the area. After you apply it you can select the cutter tool and cut the area.
-
-Now with the content exposed, use your hand to apply pressure and remove the content.
-
-And now that everything was removed, you will need to suture the wound.","The complex protuberance to remove in a body. But i will show how to remove it.
-
-First, you need to apply anaesthetic because you are going to cut the area. After you apply it you can select the cutter tool and cut the area.
-
-Now with the content exposed, use your hand to apply pressure and remove the content.
-
-And now that everything was removed, you will need to suture the wound.","The complex protuberance to remove in a body. But i will show how to remove it.
-
-First, you need to apply anaesthetic because you are going to cut the area. After you apply it you can select the cutter tool and cut the area.
-
-Now with the content exposed, use your hand to apply pressure and remove the content.
-
-And now that everything was removed, you will need to suture the wound.","The complex protuberance to remove in a body. But i will show how to remove it.
-
-First, you need to apply anaesthetic because you are going to cut the area. After you apply it you can select the cutter tool and cut the area.
-
-Now with the content exposed, use your hand to apply pressure and remove the content.
-
-And now that everything was removed, you will need to suture the wound.","The complex protuberance to remove in a body. But i will show how to remove it.
-
-First, you need to apply anaesthetic because you are going to cut the area. After you apply it you can select the cutter tool and cut the area.
-
-Now with the content exposed, use your hand to apply pressure and remove the content.
-
-And now that everything was removed, you will need to suture the wound.","The complex protuberance to remove in a body. But i will show how to remove it.
-
-First, you need to apply anaesthetic because you are going to cut the area. After you apply it you can select the cutter tool and cut the area.
-
-Now with the content exposed, use your hand to apply pressure and remove the content.
-
-And now that everything was removed, you will need to suture the wound.","The complex protuberance to remove in a body. But i will show how to remove it.
-
-First, you need to apply anaesthetic because you are going to cut the area. After you apply it you can select the cutter tool and cut the area.
-
-Now with the content exposed, use your hand to apply pressure and remove the content.
-
-And now that everything was removed, you will need to suture the wound.","The complex protuberance to remove in a body. But i will show how to remove it.
-
-First, you need to apply anaesthetic because you are going to cut the area. After you apply it you can select the cutter tool and cut the area.
-
-Now with the content exposed, use your hand to apply pressure and remove the content.
-
-And now that everything was removed, you will need to suture the wound."
-"K_LIPOMA_BUTTON","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","脂肪瘤","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma","Lipoma"
-"K_PIMPLE_BUTTON","Pimple","Espinilla","Pimple","Pimple","Pimple","Pimple","Pimple","丘疹","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple","Pimple"
-"K_CYST_BUTTON","Cyst","Quiste","Cyst","Cyst","Cyst","Cyst","Cyst","囊腫","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst","Cyst"
-"K_BLACKHEAD_BUTTON","Blackhead","Puntos negros","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","黑頭","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead","Blackhead"
-"K_OPTIONS_TITLE","Options","Opciones","Options","Options","Options","Options","Options","選項","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options","Options"
-"K_LANGUAGE_OPTION_TITLE","Language","Idioma","Language","Language","Language","Language","Language","語言","Language","Language","Language","Language","Language","Language","Language","Language","Language","Language","Language","Language","Language","Language","Language","Language","Language","Language","Language","Language","Language","Language","Language","Language"
-"K_SPANISH_SELECTION","Spanish","Español","Spanish","Spanish","Spanish","Spanish","Spanish","西班牙文","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish","Spanish"
-"K_ENGLISH_SELECTION","English","Ingles","English","English","English","English","English","英文","English","English","English","English","English","English","English","English","English","English","English","English","English","English","English","English","English","English","English","English","English","English","English","English"
-"K_GERMAN_SELECTION","German","Alemán","German","German","German","German","German","德文","German","German","German","German","German","German","German","German","German","German","German","German","German","German","German","German","German","German","German","German","German","German","German","German"
-"K_LANGUAGE_SELECTION","Select a language","Seleccione un idioma","Select a language","Select a language","Select a language","Select a language","Select a language","選擇語言","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language","Select a language"
-"K_BUTTOCKS_BUTTON","Butt","","Po","","Butt","بايت","Butt","","","Koberce","Butt","Billen","Butt","format@@0 Butt","Πλήκτρο","Butt","Butt","Butt","バット","Butt","","Przycisk","","","Buton","Попа","Butt","","","Butt","Піпа","Butt"
-"K_NOSE_BUTTON","Nose","","Nase","","Nose","الأنف","Nose","","","Nosnice","Næse","Neus","Nenä","Nez","Μύτη","Nose","Nose","Naso","鼻毛（なせ）","Nose","","Nose","","","Nuci","Нос","Nose","","","Nose","Носе","Nose"
-"K_SHIN_BUTTON","Shin","","Schienbein","","Shin","شين","Shin","","","Stříbrný","Shin","scheenbeen","Shin","Tibia","Shin","Shin","Shin","Shin","しん（しん）","Shin","","Ślew","","","Strălucire","Шин","Shin","","","Shin","Шин","Shin"
-"K_CN_SIMPLIFIED_SELECTION","Chinese Simplified","","Chinesisch (vereinfacht)","","Chinese Simplified","الصينية المبسطة","Chinese Simplified","","","Čínština zjednodušená","Kinesisk Forenklet","Chinees (vereenvoudigd)","Kiina Yksinkertaistettu","Chinois simplifié","Κινεζικά Απλοποιημένα","Chinese Simplified","Chinese Simplified","Cinese Semplificato","簡体字中国語","Chinese Simplified","","Chiński uproszczony","","","Chineză simplificată","Китайский (упрощенный)","Chinese Simplified","","","Chinese Simplified","Китайська спрощена","Chinese Simplified"
-"K_CN_TRAD_SELECTION","Chinese Traditional","","Chinesisch (traditionell)","","Chinese Traditional","الصينية التقليدية","Chinese Traditional","","","Tradiční čínština","Kinesisk, Traditionelt","Chinees (traditioneel)","Kiina Perinteinen","Chinois Traditionnel","Παραδοσιακά Κινέζικα","Chinese Traditional","Chinese Traditional","Cinese Tradizionale","繁体字中国語","Chinese Traditional","","Chiński tradycyjny","","","Chineză tradițională","Китайский (традиционный)","Chinese Traditional","","","Chinese Traditional","Китайська традиційна","Chinese Traditional"
-"K_RUSSIAN_SELECTION","Russian","","Russisch","","Russian","الروسية","Russian","","","Ruština","Russisk","Russisch","Venäjä","Russe","Ρωσικά","Russian","Russian","Russo","ロシア語","Russian","","rosyjski","","","Rusă","Русский","Russian","","","Russian","Російська","Russian"
-"K_SERBIAN_SELECTION","Serbian","","Serbisch","","Serbian","الصربية","Serbian","","","Srbština","Serbisk","Servisch","Serbia","Serbe","Σερβικά","Serbian","Serbian","Serbo","セルビア語","Serbian","","serbski","","","Sârbă","Сербский","Serbian","","","Serbian","Сербська","Serbian"
-"K_ITALIAN_SELECTION","Italian","","Italienisch","","Italian","الإيطالية","Italian","","","Italština","Italiensk","Italiaans","Italia","Italien","Ιταλικά","Italian","Italian","Italiano","イタリア語","Italian","","włoski","","","Italiană","Итальянский","Italian","","","Italian","Італійська","Italian"
-"K_FRENCH_SELECTION","French","","Französisch","","French","الفرنسية","French","","","Francouzština","Fransk","Frans","Ranska","Français","Γαλλικά","French","French","Francese","フランス語","French","","Francuski","","","Franceză","Французский","French","","","French","Французька","French"
-"K_PR_SELECTION","Portugese","","Portugese","","Portugese","Portugese","Portugese","","","Portugese","Portugese","Portugese","Portugese","Portugese","Portugese","Portugese","Portugese","Portugese","Portugese","Portugese","","Portugese","","","Portugese","Portugese","Portugese","","","Portugese","Portugese","Portugese"
-"K_SHOULDER_BUTTON","Shoulder","","Shoulder","","Shoulder","Shoulder","Shoulder","","","Shoulder","Shoulder","Shoulder","Shoulder","Shoulder","Shoulder","Shoulder","Shoulder","Shoulder","Shoulder","Shoulder","","Shoulder","","","Shoulder","Shoulder","Shoulder","","","Shoulder","Shoulder","Shoulder"
+І тепер, коли все було видалено, вам потрібно завалити рану."
+K_LIPOMA_BUTTON,Lipoma,Lipoma,Lipoma,Lipoma,Lipoma,Lipoma,Lipoma,脂肪瘤,Lipoma,Lipoma,Lipoma,Lipoma,Lipoma,Lipoma,Lipoma,Lipoma,Lipoma,Lipoma,Lipoma,Lipoma,Lipoma,Lipoma,Lipoma,Lipoma,Lipoma,Lipoma,Lipoma,Lipoma,Lipoma,Lipoma,Lipoma
+K_PIMPLE_BUTTON,Pimple,Espinilla,Pimple,Pimple,Pimple,قماش,Pimple,丘疹,Pimple,Pimár,Pumpe,Pimpel,Pimple,Touche,Σπυράκι,Pimple,Pimple,Pimple,<unk>,Pimple,Pimple,Prosty,Pimple,Pimple,Pimplant,Пульс,Pimple,Pimple,Pimple,Pimple,Гноячок
+K_CYST_BUTTON,Cyst,Quiste,Zysten,Cyst,Cyst,دراجة,Cyst,囊腫,Cyst,Cyst,Cyste,Cyste,Kysy,kyste,Κύστη,Cyst,Cyst,Cisti,<unk>,Cyst,Cyst,Cysta,Cyst,Cyst,Cyst,Киста,Cyst,Cyst,Cyst,Cyst,Кіста
+K_BLACKHEAD_BUTTON,Blackhead,Puntos negros,Schwarzkopf,Blackhead,Blackhead,رأس أسود,Blackhead,黑頭,Blackhead,Černá hlava,Blackhead,Zwarthoofd,Mustapää,Tête noire,Μαύρο,Blackhead,Blackhead,Testa Nera,ブラックヘッド,Blackhead,Blackhead,Czarna głowa,Blackhead,Blackhead,Blackhead,Чёрный голова,Blackhead,Blackhead,Blackhead,Blackhead,Чорна котяча
+K_OPTIONS_TITLE,Options,Opciones,Optionen,Options,Options,خيارات,Options,選項,Options,Možnosti,Indstillinger,Instellingen,Valinnat,Options,Επιλογές,Options,Options,Opzioni,オプション,Options,Options,Opcje,Options,Options,Opţiuni,Варианты,Options,Options,Options,Options,Опції
+K_LANGUAGE_OPTION_TITLE,Language,Idioma,Sprache,Language,Language,اللغة,Language,語言,Language,Jazyk,Sprog,Taal,Kieli,Langue,Γλώσσα,Language,Language,Lingua,言語,Language,Language,Język,Language,Language,Limba,Язык,Language,Language,Language,Language,Мова:
+K_SPANISH_SELECTION,Spanish,Español,Spanisch,Spanish,Spanish,الإسبانية,Spanish,西班牙文,Spanish,Španělština,Spansk,Spaans,Espanja,Espagnol,Ισπανικά,Spanish,Spanish,Spagnolo,スペイン語,Spanish,Spanish,hiszpański,Spanish,Spanish,Spaniolă,Испанский,Spanish,Spanish,Spanish,Spanish,Іспанська
+K_ENGLISH_SELECTION,English,Ingles,Englisch,English,English,الإنكليزية,English,英文,English,Anglické,Engelsk,Nederlands,Englanti,Anglais,Αγγλικά,English,English,Inglese,日本語,English,English,Angielski,English,English,Română,Russian,English,English,English,English,Українська
+K_GERMAN_SELECTION,German,Alemán,Deutsch,German,German,الألمانية,German,德文,German,Němčina,Tysk,Duits,Saksa,Allemand,Γερμανικά,German,German,Tedesco,ドイツ語,German,German,niemiecki,German,German,Germană,Немецкий,German,German,German,German,Німецька
+K_LANGUAGE_SELECTION,Select a language,Seleccione un idioma,Sprache auswählen,Select a language,Select a language,اختر لغة,Select a language,選擇語言,Select a language,Vyberte jazyk,Vælg et sprog,Kies een taal,Valitse kieli,Sélectionnez une langue,Επιλέξτε μια γλώσσα,Select a language,Select a language,Seleziona una lingua,言語を選択,Select a language,Select a language,Wybierz język,Select a language,Select a language,Selectaţi o limbă,Выберите язык,Select a language,Select a language,Select a language,Select a language,Оберіть мову
+K_BUTTOCKS_BUTTON,Butt,,Po,,Butt,بايت,Butt,,,Koberce,Butt,Billen,Butt,format@@0 Butt,Πλήκτρο,Butt,Butt,Butt,バット,Butt,,Przycisk,,,Buton,Попа,Butt,,,Butt,Піпа
+K_NOSE_BUTTON,Nose,,Nase,,Nose,الأنف,Nose,,,Nosnice,Næse,Neus,Nenä,Nez,Μύτη,Nose,Nose,Naso,鼻毛（なせ）,Nose,,Nose,,,Nuci,Нос,Nose,,,Nose,Носе
+K_SHIN_BUTTON,Shin,,Schienbein,,Shin,شين,Shin,,,Stříbrný,Shin,scheenbeen,Shin,Tibia,Shin,Shin,Shin,Shin,しん（しん）,Shin,,Ślew,,,Strălucire,Шин,Shin,,,Shin,Шин
+K_CN_SIMPLIFIED_SELECTION,Chinese Simplified,,Chinesisch (vereinfacht),,Chinese Simplified,الصينية المبسطة,Chinese Simplified,,,Čínština zjednodušená,Kinesisk Forenklet,Chinees (vereenvoudigd),Kiina Yksinkertaistettu,Chinois simplifié,Κινεζικά Απλοποιημένα,Chinese Simplified,Chinese Simplified,Cinese Semplificato,簡体字中国語,Chinese Simplified,,Chiński uproszczony,,,Chineză simplificată,Китайский (упрощенный),Chinese Simplified,,,Chinese Simplified,Китайська спрощена
+K_CN_TRAD_SELECTION,Chinese Traditional,,Chinesisch (traditionell),,Chinese Traditional,الصينية التقليدية,Chinese Traditional,,,Tradiční čínština,"Kinesisk, Traditionelt",Chinees (traditioneel),Kiina Perinteinen,Chinois Traditionnel,Παραδοσιακά Κινέζικα,Chinese Traditional,Chinese Traditional,Cinese Tradizionale,繁体字中国語,Chinese Traditional,,Chiński tradycyjny,,,Chineză tradițională,Китайский (традиционный),Chinese Traditional,,,Chinese Traditional,Китайська традиційна
+K_RUSSIAN_SELECTION,Russian,,Russisch,,Russian,الروسية,Russian,,,Ruština,Russisk,Russisch,Venäjä,Russe,Ρωσικά,Russian,Russian,Russo,ロシア語,Russian,,rosyjski,,,Rusă,Русский,Russian,,,Russian,Російська
+K_SERBIAN_SELECTION,Serbian,,Serbisch,,Serbian,الصربية,Serbian,,,Srbština,Serbisk,Servisch,Serbia,Serbe,Σερβικά,Serbian,Serbian,Serbo,セルビア語,Serbian,,serbski,,,Sârbă,Сербский,Serbian,,,Serbian,Сербська
+K_ITALIAN_SELECTION,Italian,,Italienisch,,Italian,الإيطالية,Italian,,,Italština,Italiensk,Italiaans,Italia,Italien,Ιταλικά,Italian,Italian,Italiano,イタリア語,Italian,,włoski,,,Italiană,Итальянский,Italian,,,Italian,Італійська
+K_FRENCH_SELECTION,French,,Französisch,,French,الفرنسية,French,,,Francouzština,Fransk,Frans,Ranska,Français,Γαλλικά,French,French,Francese,フランス語,French,,Francuski,,,Franceză,Французский,French,,,French,Французька
+K_PR_SELECTION,Portugese,,Portugese,,Portugese,Portugese,Portugese,,,Portugese,Portugese,Portugese,Portugese,Portugese,Portugese,Portugese,Portugese,Portugese,Portugese,Portugese,,Portugese,,,Portugese,Portugese,Portugese,,,Portugese,Portugese
+K_SHOULDER_BUTTON,Shoulder,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
