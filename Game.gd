@@ -26,6 +26,8 @@ func _ready():
 		if b.get_parent()!=$UI/scroll/tools:
 			continue
 		b.visible = tools_per_type[Global.type].has(b.name)
+	
+	Yodo.load_interstitial_ads()
 
 func hide_hints(hided: bool) -> void:
 	for h in _hints:
@@ -97,6 +99,8 @@ func _on_hint_pressed():
 
 func _on_anim_finished(finish_type):
 	if finish_type == _finish_popup.finish_type.WIN:
+		Yodo.show_interstitial_ad()
+		yield(Yodo, "interstitial_ad_closed")
 		get_tree().change_scene("res://menu/main_screen.tscn")
 
 func _input(event):

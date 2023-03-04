@@ -26,6 +26,8 @@ onready var lang_options = $SettingsPanel/VBoxContainer/LangOptions
 
 
 func _ready():
+	Yodo.connect("banner_ad_loaded", self, 'on_banner_ad_loaded')
+	
 	if Global.player_data['is_add_active'] == false:
 		Yodo.load_banner_ad("Banner","RIGHT","TOP")
 	
@@ -39,7 +41,12 @@ func _ready():
 	load_languages()
 	
 	
+	
 #	TranslationServer.set_locale(Save.get_language())
+
+
+func on_banner_ad_loaded():
+	Yodo.show_banner_ad()
 
 
 func _on_Play_pressed():
