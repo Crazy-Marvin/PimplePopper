@@ -378,6 +378,16 @@ margin_bottom = 65.0
 rect_min_size = Vector2( 0, 40 )
 size_flags_horizontal = 4
 
+[node name="DisableAdsButton" type="Button" parent="SettingsPanel/VBoxContainer"]
+unique_name_in_owner = true
+margin_left = 41.0
+margin_top = 69.0
+margin_right = 341.0
+margin_bottom = 101.0
+rect_min_size = Vector2( 0, 32 )
+size_flags_horizontal = 4
+text = "Disable Ads"
+
 [node name="SettingsBack" type="Button" parent="SettingsPanel"]
 anchor_left = 0.5
 anchor_top = 1.0
@@ -387,6 +397,7 @@ margin_left = -134.5
 margin_top = -72.0
 margin_right = 134.5
 margin_bottom = -32.0
+grow_horizontal = 2
 rect_min_size = Vector2( 0, 40 )
 text = "K_BACK_BUTTON"
 
@@ -417,5 +428,6 @@ IsPrivacyEnabled = true
 [connection signal="pressed" from="TutorialPanel/VBoxContainer/Lipoma" to="." method="_on_tutorial_pressed" binds= [ "lipoma" ]]
 [connection signal="pressed" from="TutorialPanel/VBoxContainer/TutPanelBack" to="." method="_on_TutPanelBack_pressed"]
 [connection signal="item_selected" from="SettingsPanel/VBoxContainer/LangOptions" to="." method="on_language_selected"]
+[connection signal="pressed" from="SettingsPanel/VBoxContainer/DisableAdsButton" to="." method="_on_DisableAdsButton_pressed"]
 [connection signal="pressed" from="SettingsPanel/SettingsBack" to="." method="_on_SettingsBack_pressed"]
 [connection signal="pressed" from="TutBackButton" to="." method="_on_TutBackButton_pressed"]
