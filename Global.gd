@@ -115,6 +115,14 @@ func _ready():
 	_window_relation = Vector2(_window_project_size.x / OS.window_size.x,  _window_project_size.y / OS.window_size.y)
 	var ry: float = OS.window_size.y / _window_project_size.y
 	relative_screen_size_x = OS.window_size.x / ry
+	
+	var f = File.new()
+	if f.file_exists(SAVE_PATH):
+		load_game()
+	else:
+		save_game()
+	
+	f.close()
 
 
 func get_relative_screen_size_x() -> float:
@@ -153,10 +161,19 @@ func get_bodyparts(plevel: String) -> Array:
 	return _levels[plevel]
 
 
+func load_game():
+	var f = File.new()
+	f.open(SAVE_PATH, f.READ)
+	player_data = parse_json(f.get_as_text())
+	f.close()
+
+
 func save_game():
 	var f = File.new()
 	f.open(SAVE_PATH, f.WRITE)
+	f.store_string(JSON.print(player_data))
 	f.close()
+
 
 func _notification(what):
 	if what == NOTIFICATION_WM_FOCUS_OUT:

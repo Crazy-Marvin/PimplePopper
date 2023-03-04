@@ -27,7 +27,9 @@ onready var lang_options = $SettingsPanel/VBoxContainer/LangOptions
 
 func _ready():
 	
-	$Yodo1Mas.load_banner_ad("Banner","RIGHT","TOP")
+	if Global.player_data['is_add_active'] == false:
+		$Yodo1Mas.load_banner_ad("Banner","RIGHT","TOP")
+	
 	orig_main_panel_pos = $Panel.rect_global_position
 	
 	$LevelSelectionPanel.rect_pivot_offset = $LevelSelectionPanel.rect_size / 2
