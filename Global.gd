@@ -1,5 +1,7 @@
 extends Node
 
+const SAVE_PATH = 'user://player_data.json'
+
 var type: String = "pimple" 
 var bodypart: String = "cheek"
 var level: String = "easy"
@@ -102,6 +104,10 @@ var _window_relation: Vector2
 var _window_project_size: Vector2
 var relative_screen_size_x: float
 
+var player_data: Dictionary = {
+	'is_add_active': true
+}
+
 func _ready():
 	var width: float = ProjectSettings.get_setting("display/window/size/width")
 	var height: float = ProjectSettings.get_setting("display/window/size/height")
@@ -145,3 +151,13 @@ func get_bodypart_scale(sprite_size: Vector2) -> Vector2:
 
 func get_bodyparts(plevel: String) -> Array:
 	return _levels[plevel]
+
+
+func save_game():
+	var f = File.new()
+	f.open(SAVE_PATH, f.WRITE)
+	f.close()
+
+func _notification(what):
+	if what == NOTIFICATION_WM_FOCUS_OUT:
+		save_game()
