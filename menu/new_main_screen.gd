@@ -25,9 +25,6 @@ onready var tutorial = $protuberance_explanation
 onready var lang_options = $SettingsPanel/VBoxContainer/LangOptions
 
 
-var popup_ad_remove
-
-
 func _ready():
 	if Global.player_data['is_add_active'] == false:
 		Yodo.load_banner_ad("Banner","RIGHT","TOP")
@@ -41,8 +38,6 @@ func _ready():
 	load_types()
 	load_languages()
 	
-	popup_ad_remove = PopupDialog.new()
-	add_child(popup_ad_remove)
 	
 #	TranslationServer.set_locale(Save.get_language())
 
@@ -207,4 +202,8 @@ func _on_Options_pressed():
 
 
 func _on_DisableAdsButton_pressed():
-	popup_ad_remove.popup_centered_ratio(0.5)
+	get_node('%DisableAdsPopup').popup_centered_ratio(0.3)
+
+
+func _on_DisableAdsPopup_confirmed():
+	ManagerBilling.payment.purchase('remove_ads') # add this sku to your google play settings
