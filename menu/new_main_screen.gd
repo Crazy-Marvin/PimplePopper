@@ -39,10 +39,6 @@ func _ready():
 	
 	load_types()
 	load_languages()
-	
-	
-	
-#	TranslationServer.set_locale(Save.get_language())
 
 
 func on_banner_ad_loaded():
