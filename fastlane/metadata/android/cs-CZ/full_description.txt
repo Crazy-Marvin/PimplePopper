@@ -1,19 +1,19 @@
-Pimple Popper is a game about popping pimples and removing blackheads, whiteheads, lipomas and similar stuff. Download now and feel the huge satisfaction!
+Pimple Popper je hra o praskání pupínků a odstraňování blackheadů, whiteheadů, lipomů a podobných věcí. Stáhnout ihned a cítit obrovské uspokojení!
 
-<b>Features:</b>
+<b>Vlastnosti:</b>
 
 <ul>
 <li>Open Source 🎉</li>
-<li>Extremely satisfactory 😂</li>
-<li>Quite realistic 😉</li>
-<li>Might come in handy for your daily life 😜</li>
-<li>You can send us your real-life pops and get a complimentary message 🙈</li>
+<li>Velmi uspokojivý 😂</li>
+<li>Docela realistický 😉</li>
+<li>Možná se hodí pro svůj každodenní život 😜</li>
+<li>Můžete nám poslat vaše prasklé pupínky a získat pochvalu 🙈</li>
 </ul>
 
-Homepage: <a href="https://www.crazymarvin.com/pimple-popper">https://www.crazymarvin.com/pimple-popper</a>
+Domovská stránka: <a href="https://www.crazymarvin.com/pimple-popper">https://www.crazymarvin.com/pimple-popper</a>
 
-Help us with translation: <a href="https://crowdin.com/project/pimple-popper">https://crowdin.com/project/pimple-popper</a> 
+Pomozte nám s překladem: <a href="https://crowdin.com/project/pimple-popper">https://crowdin.com/project/pimple-popper</a> 
 
-Source on GitHub: <a href="https://github.com/Crazy-Marvin/PimplePopper">https://github.com/Crazy-Marvin/PimplePopper</a> 
+Stáhnout na GitHubu: <a href="https://github.com/Crazy-Marvin/PimplePopper">https://github.com/Crazy-Marvin/PimplePopper</a> 
 
-Enjoy! 👌
+A užívejte si! 👌
