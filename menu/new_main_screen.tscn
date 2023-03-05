@@ -1,4 +1,4 @@
-[gd_scene load_steps=15 format=2]
+[gd_scene load_steps=16 format=2]
 
 [ext_resource path="res://assets/styles/back.png" type="Texture" id=1]
 [ext_resource path="res://assets/styles/panel_1.tres" type="StyleBox" id=2]
@@ -14,6 +14,7 @@
 [ext_resource path="res://menu/new_main_screen.gd" type="Script" id=12]
 [ext_resource path="res://assets/styles/Item2.png" type="Texture" id=13]
 [ext_resource path="res://menu/protuberance_explanation.tscn" type="PackedScene" id=14]
+[ext_resource path="res://assets/components/ui/DisableAdsPopup.tscn" type="PackedScene" id=16]
 
 [node name="new_main_screen" type="Control"]
 anchor_right = 1.0
@@ -377,6 +378,16 @@ margin_bottom = 65.0
 rect_min_size = Vector2( 0, 40 )
 size_flags_horizontal = 4
 
+[node name="DisableAdsButton" type="Button" parent="SettingsPanel/VBoxContainer"]
+unique_name_in_owner = true
+margin_left = 41.0
+margin_top = 69.0
+margin_right = 341.0
+margin_bottom = 101.0
+rect_min_size = Vector2( 0, 32 )
+size_flags_horizontal = 4
+text = "Disable Ads"
+
 [node name="SettingsBack" type="Button" parent="SettingsPanel"]
 anchor_left = 0.5
 anchor_top = 1.0
@@ -386,6 +397,7 @@ margin_left = -134.5
 margin_top = -72.0
 margin_right = 134.5
 margin_bottom = -32.0
+grow_horizontal = 2
 rect_min_size = Vector2( 0, 40 )
 text = "K_BACK_BUTTON"
 
@@ -400,6 +412,9 @@ margin_right = 365.0
 margin_bottom = 80.0
 text = "K_BACK_BUTTON"
 
+[node name="DisableAdsPopup" parent="." instance=ExtResource( 16 )]
+unique_name_in_owner = true
+
 [connection signal="pressed" from="Panel/VBoxContainer/Play" to="." method="_on_Play_pressed"]
 [connection signal="pressed" from="Panel/VBoxContainer/Options" to="." method="_on_Options_pressed"]
 [connection signal="gui_input" from="Panel/Floating/HBoxContainer/TextureRect2" to="." method="_on_TextureRect2_gui_input"]
@@ -411,5 +426,7 @@ text = "K_BACK_BUTTON"
 [connection signal="pressed" from="TutorialPanel/VBoxContainer/Lipoma" to="." method="_on_tutorial_pressed" binds= [ "lipoma" ]]
 [connection signal="pressed" from="TutorialPanel/VBoxContainer/TutPanelBack" to="." method="_on_TutPanelBack_pressed"]
 [connection signal="item_selected" from="SettingsPanel/VBoxContainer/LangOptions" to="." method="on_language_selected"]
+[connection signal="pressed" from="SettingsPanel/VBoxContainer/DisableAdsButton" to="." method="_on_DisableAdsButton_pressed"]
 [connection signal="pressed" from="SettingsPanel/SettingsBack" to="." method="_on_SettingsBack_pressed"]
 [connection signal="pressed" from="TutBackButton" to="." method="_on_TutBackButton_pressed"]
+[connection signal="confirmed" from="DisableAdsPopup" to="." method="_on_DisableAdsPopup_confirmed"]

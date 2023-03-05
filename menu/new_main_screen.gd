@@ -26,6 +26,11 @@ onready var lang_options = $SettingsPanel/VBoxContainer/LangOptions
 
 
 func _ready():
+	Yodo.connect("banner_ad_loaded", self, 'on_banner_ad_loaded')
+	
+	if Global.player_data['is_add_active'] == false:
+		Yodo.load_banner_ad("Banner","RIGHT","TOP")
+	
 	orig_main_panel_pos = $Panel.rect_global_position
 	
 	$LevelSelectionPanel.rect_pivot_offset = $LevelSelectionPanel.rect_size / 2
@@ -34,8 +39,10 @@ func _ready():
 	
 	load_types()
 	load_languages()
-	
-#	TranslationServer.set_locale(Save.get_language())
+
+
+func on_banner_ad_loaded():
+	Yodo.show_banner_ad()
 
 
 func _on_Play_pressed():
@@ -195,3 +202,11 @@ func _on_SettingsBack_pressed():
 
 func _on_Options_pressed():
 	animate_settings(true)
+
+
+func _on_DisableAdsButton_pressed():
+	get_node('%DisableAdsPopup').popup_centered_ratio(0.3)
+
+
+func _on_DisableAdsPopup_confirmed():
+	ManagerBilling.payment.purchase('remove_ads') # add this sku to your google play settings
