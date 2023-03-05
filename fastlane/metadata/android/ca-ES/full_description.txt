@@ -1,6 +1,6 @@
-Pimple Popper is a game about popping pimples and removing blackheads, whiteheads, lipomas and similar stuff. Download now and feel the huge satisfaction!
+Pimple Popper és un joc que consisteix a rebentar grans i eliminar punts negres, barbs, lipomes i coses similars. Descarrega'l ara i experimenta aquesta gran sensació!
 
-<b>Features:</b>
+<b>Característiques de l'aplicació</b>
 
 <ul>
 <li>Open Source 🎉</li>
