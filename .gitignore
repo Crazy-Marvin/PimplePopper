@@ -1,4 +1,6 @@
 
+android/build/
+
 # Visual Studio Code
 .vscode
 # Godot-specific ignores
@@ -9,7 +11,7 @@
 *.aab
 export_presets.cfg
 data/
-android/build/
+
 # Mono-specific ignores
 .mono/
 data_*/

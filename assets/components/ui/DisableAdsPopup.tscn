@@ -1,0 +1,11 @@
+[gd_scene format=2]
+
+[node name="DisableAdsPopup" type="AcceptDialog"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 383.0
+margin_top = 164.0
+margin_right = -383.0
+margin_bottom = -164.0
+window_title = "Confirm"
+dialog_text = "Confirm purchase?"
