@@ -1,19 +1,19 @@
-Pimple Popper is a game about popping pimples and removing blackheads, whiteheads, lipomas and similar stuff. Download now and feel the huge satisfaction!
+Kvisepopper er et spill som handler om å poppe kviser og fjerne hudormer, hvite nupper, lipomer og slike ting. Last ned spillet nå og kjenn den enorme tilfredsheten!
 
-<b>Features:</b>
+<b>Funksjoner:</b>
 
 <ul>
-<li>Open Source 🎉</li>
-<li>Extremely satisfactory 😂</li>
-<li>Quite realistic 😉</li>
-<li>Might come in handy for your daily life 😜</li>
-<li>You can send us your real-life pops and get a complimentary message 🙈</li>
+<li>Åpen kildekode 🎉</li>
+<li>Ekstremt tilfredsstillende 😂</li>
+<li>Vanskelig realistisk 😉</li>
+<li>Kan komme i håndfull for ditt daglige liv 😜</li>
+<li>Du kan sende oss din virkelige pops og få en komplimentær melding 🙈</li>
 </ul>
 
-Homepage: <a href="https://www.crazymarvin.com/pimple-popper">https://www.crazymarvin.com/pimple-popper</a>
+Hjemmesidde: <a href="https://www.crazymarvin.com/pimple-popper">https://www.crazymarvin.com/pimple-popper</a>
 
-Help us with translation: <a href="https://crowdin.com/project/pimple-popper">https://crowdin.com/project/pimple-popper</a> 
+Hjelp oss med oversettelse: <a href="https://crowdin.com/project/pimple-popper">https://crowdin.com/project/pimple-popper</a> 
 
-Source on GitHub: <a href="https://github.com/Crazy-Marvin/PimplePopper">https://github.com/Crazy-Marvin/PimplePopper</a> 
+Kilde på GitHub: <a href="https://github.com/Crazy-Marvin/PimplePopper">https://github.com/Crazy-Marvin/PimplePopper</a> 
 
-Enjoy! 👌
+Nyt! 👌

@@ -1,19 +1,19 @@
-Pimple Popper is a game about popping pimples and removing blackheads, whiteheads, lipomas and similar stuff. Download now and feel the huge satisfaction!
+Pimple Popper là trò chơi về nặn mụn và loại bỏ các loại mụn như mụn đầu đen, mụn đầu trắng, u mỡ. Tải ngay để thấy thỏa mãn tột đỉnh! Tính năng!
 
-<b>Features:</b>
+<b>Tính năng:</b>
 
 <ul>
 <li>Open Source 🎉</li>
-<li>Extremely satisfactory 😂</li>
-<li>Quite realistic 😉</li>
-<li>Might come in handy for your daily life 😜</li>
-<li>You can send us your real-life pops and get a complimentary message 🙈</li>
+<li>Sướng khó đỡ 😂</li>
+<li>Khá thực tế 😉</li>
+<li>Có thể bạn sẽ hữu dụng cho bạn sau này 😜</li>
+<li>Hãy gửi chúng tôi cách bạn nặn mụn và nhận tin nhắn thưởng 🙈</li>
 </ul>
 
-Homepage: <a href="https://www.crazymarvin.com/pimple-popper">https://www.crazymarvin.com/pimple-popper</a>
+Trang chủ: <a href="https://www.crazymarvin.com/pimple-popper">https://www.crazymarvin.com/pimple-popper</a>
 
-Help us with translation: <a href="https://crowdin.com/project/pimple-popper">https://crowdin.com/project/pimple-popper</a> 
+Giúp chúng tôi với bản dịch: <a href="https://crowdin.com/project/pimple-popper">https://crowdin.com/project/pimple-popper</a> 
 
-Source on GitHub: <a href="https://github.com/Crazy-Marvin/PimplePopper">https://github.com/Crazy-Marvin/PimplePopper</a> 
+Nguồn trên GitHub: <a href="https://github.com/Crazy-Marvin/PimplePopper">https://github.com/Crazy-Marvin/PimplePopper</a> 
 
-Enjoy! 👌
+Tận hưởng nào! 👌
