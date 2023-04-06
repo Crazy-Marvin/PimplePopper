@@ -22,8 +22,6 @@
 "K_SUTURE_TOOL","Suture","Suturar","Vernähen","Suture","Suture","رقاقة","缝合","縫合","Suture","Výbuch","Hechting","Hechting","Imeä","Suture","Συρραφή","Suture","Varrat","Sutura","Suture","Suture","Suture","Przyszłość","Suture","Suture","Хирургическая нить","Хирургическая нить","මැසීම","Suture","Suture","Хірургічна нитка","Хірургічна нитка"
 "K_CUTTER_TOOL","Cutter","Exacto","Messer","Cutter","Cutter","مصراع","切割","切割","Cutter","Řezání","Smør","Cutter","Leikkaaja","Coupeur","Κόφτης","Cutter","Vágó szerkezet","Taglierino","カッター","Cutter","Cutter","Kawałek","Cutter","Cutter","Режущий инструмент","Режущий инструмент","කපනය","Cutter","Cutter","Ріжучий інструмент","Ріжучий інструмент"
 "K_TUTORIAL_DEVELOPMENT_MESSAGE","The tutorial is under the works.
-
-"ID","en","es","de","af","ar","ca","zh_CN","zh_TW","cs","da","nl","fi","fr","el","he","hu","it","ja","ko","nn_NO","pl","pt","pt_BR","ro","ru","sr","si","sv","tr","uk","vi",""
 "K_PLAY","Play","Comenzar","Start","Play","Play","تشغيل","开始","開始","Play","Hrát","Spelen","Spelen","Toista","Jouer","Αναπαραγωγή","Play","Játék","Gioca","再生","Play","Play","Odtwórz","Play","Play","Играть","Играть","Покрени","Play","Play","Грати","Грати","Play"
 "K_TUTORIAL","Tutorial","Tutorial","Anleitung","Tutorial","Tutorial","البرنامج التعليمي","新手教程","新手教學","Tutorial","Návod","Vejledning","Tutorial","Opastus","Tutoriel","Εκμάθηση","Tutorial","Oktató videó","Tutorial","チュートリアル","Tutorial","Tutorial","Samouczek","Tutorial","Tutorial","Инструкция","Инструкция","Водич","Tutorial","Tutorial","Інструкція","Інструкція","Tutorial"
 "K_ABOUT","About","Sobre","Über","About","Oor","عن البرنامج","关于","關於","About","O aplikaci","Over","Over","Tietoja","À propos","Σχετικά με","About","Róla","Info","About","관련 정보","About","O programie","About","About","О приложении","О приложении","О програму","About","About","Про додаток","Про додаток","Về Chúng Tôi"
@@ -47,8 +45,6 @@
 "K_SUTURE_TOOL","Suture","Suturar","Vernähen","Suture","Suture","رقاقة","缝合","縫合","Suture","Výbuch","Hechting","Hechting","Imeä","Suture","Συρραφή","Suture","Varrat","Sutura","Suture","Suture","Suture","Przyszłość","Suture","Suture","Хирургическая нить","Хирургическая нить","මැසීම","Suture","Suture","Хірургічна нитка","Хірургічна нитка","Suture"
 "K_CUTTER_TOOL","Cutter","Exacto","Messer","Cutter","Cutter","مصراع","切割","切割","Cutter","Řezání","Smør","Cutter","Leikkaaja","Coupeur","Κόφτης","Cutter","Vágó szerkezet","Taglierino","カッター","Cutter","Cutter","Kawałek","Cutter","Cutter","Режущий инструмент","Режущий инструмент","කපනය","Cutter","Cutter","Ріжучий інструмент","Ріжучий інструмент","Cutter"
 "K_TUTORIAL_DEVELOPMENT_MESSAGE","The tutorial is under the works.
-
-ID,en,es,de,af,ar,ca,cs,da,nl,fi,fr,el,he,hu,it,ja,ko
 K_PLAY,Play,Comenzar,Start,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play
 K_TUTORIAL,Tutorial,Tutorial,Anleitung,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial
 K_ABOUT,About,Sobre,Über,About,About,About,About,About,About,About,About,About,About,About,About,About,About
@@ -60,7 +56,6 @@ K_CHEST_LEVEL_BUTTON,Chest,Pecho,Brust,Chest,Chest,Chest,Chest,Chest,Chest,Chest
 K_BUTTOCKS_LEVEL_BUTTON,Butt,Butt,Butt,,,,,,,,,,,,,,
 K_NOSE_LEVEL_BUTTON,Nose,,,,,,,,,,,,,,,,
 K_SHIN_LEVEL_BUTTON,Shin,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,
 K_BACK_BUTTON,Back,Atras,Zurück,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back
 K_EASY_BUTTON,Easy,Fácil,Einfach,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy
 K_NORMAL_BUTTON,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal
@@ -75,9 +70,7 @@ K_NEEDLE_TOOL,Needle,Inyectadora,Nadel,Needle,Needle,Needle,Needle,Needle,Needle
 K_ANESTHETIC_TOOL,Anestesia,Anestesia,Anästhesie,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia
 K_SUTURE_TOOL,Suture,Suturar,Vernähen,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture
 K_CUTTER_TOOL,Cutter,Exacto,Messer,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter
-,,,,,,,,,,,,,,,,,
 K_TUTORIAL_DEVELOPMENT_MESSAGE,The tutorial is under the works.","The tutorial is under the works.
-ID,en,es,de,af,ar,ca,cs,da,nl,fi,fr,el,he,hu,it,ja,ko
 K_PLAY,Play,Comenzar,Start,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play
 K_TUTORIAL,Tutorial,Tutorial,Anleitung,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial
 K_ABOUT,About,Sobre,Über,About,About,About,About,About,About,About,About,About,About,About,About,About,About
@@ -89,7 +82,6 @@ K_CHEST_LEVEL_BUTTON,Chest,Pecho,Brust,Chest,Chest,Chest,Chest,Chest,Chest,Chest
 K_BUTTOCKS_LEVEL_BUTTON,Butt,Butt,Butt,,,,,,,,,,,,,,
 K_NOSE_LEVEL_BUTTON,Nose,,,,,,,,,,,,,,,,
 K_SHIN_LEVEL_BUTTON,Shin,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,
 K_BACK_BUTTON,Back,Atras,Zurück,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back
 K_EASY_BUTTON,Easy,Fácil,Einfach,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy
 K_NORMAL_BUTTON,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal
@@ -104,9 +96,7 @@ K_NEEDLE_TOOL,Needle,Inyectadora,Nadel,Needle,Needle,Needle,Needle,Needle,Needle
 K_ANESTHETIC_TOOL,Anestesia,Anestesia,Anästhesie,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia
 K_SUTURE_TOOL,Suture,Suturar,Vernähen,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture
 K_CUTTER_TOOL,Cutter,Exacto,Messer,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter
-,,,,,,,,,,,,,,,,,
 K_TUTORIAL_DEVELOPMENT_MESSAGE,The tutorial is under the works.","The tutorial is under the works.
-ID,en,es,de,af,ar,ca,cs,da,nl,fi,fr,el,he,hu,it,ja,ko
 K_PLAY,Play,Comenzar,Start,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play
 K_TUTORIAL,Tutorial,Tutorial,Anleitung,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial
 K_ABOUT,About,Sobre,Über,About,About,About,About,About,About,About,About,About,About,About,About,About,About
@@ -118,7 +108,6 @@ K_CHEST_LEVEL_BUTTON,Chest,Pecho,Brust,Chest,Chest,Chest,Chest,Chest,Chest,Chest
 K_BUTTOCKS_LEVEL_BUTTON,Butt,Butt,Butt,,,,,,,,,,,,,,
 K_NOSE_LEVEL_BUTTON,Nose,,,,,,,,,,,,,,,,
 K_SHIN_LEVEL_BUTTON,Shin,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,
 K_BACK_BUTTON,Back,Atras,Zurück,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back
 K_EASY_BUTTON,Easy,Fácil,Einfach,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy
 K_NORMAL_BUTTON,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal
@@ -133,9 +122,7 @@ K_NEEDLE_TOOL,Needle,Inyectadora,Nadel,Needle,Needle,Needle,Needle,Needle,Needle
 K_ANESTHETIC_TOOL,Anestesia,Anestesia,Anästhesie,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia
 K_SUTURE_TOOL,Suture,Suturar,Vernähen,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture
 K_CUTTER_TOOL,Cutter,Exacto,Messer,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter
-,,,,,,,,,,,,,,,,,
 K_TUTORIAL_DEVELOPMENT_MESSAGE,The tutorial is under the works.","The tutorial is under the works.
-ID,en,es,de,af,ar,ca,cs,da,nl,fi,fr,el,he,hu,it,ja,ko
 K_PLAY,Play,Comenzar,Start,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play
 K_TUTORIAL,Tutorial,Tutorial,Anleitung,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial
 K_ABOUT,About,Sobre,Über,About,About,About,About,About,About,About,About,About,About,About,About,About,About
@@ -147,7 +134,6 @@ K_CHEST_LEVEL_BUTTON,Chest,Pecho,Brust,Chest,Chest,Chest,Chest,Chest,Chest,Chest
 K_BUTTOCKS_LEVEL_BUTTON,Butt,Butt,Butt,,,,,,,,,,,,,,
 K_NOSE_LEVEL_BUTTON,Nose,,,,,,,,,,,,,,,,
 K_SHIN_LEVEL_BUTTON,Shin,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,
 K_BACK_BUTTON,Back,Atras,Zurück,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back
 K_EASY_BUTTON,Easy,Fácil,Einfach,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy
 K_NORMAL_BUTTON,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal
@@ -162,9 +148,7 @@ K_NEEDLE_TOOL,Needle,Inyectadora,Nadel,Needle,Needle,Needle,Needle,Needle,Needle
 K_ANESTHETIC_TOOL,Anestesia,Anestesia,Anästhesie,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia
 K_SUTURE_TOOL,Suture,Suturar,Vernähen,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture
 K_CUTTER_TOOL,Cutter,Exacto,Messer,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter
-,,,,,,,,,,,,,,,,,
 K_TUTORIAL_DEVELOPMENT_MESSAGE,The tutorial is under the works.","The tutorial is under the works.
-ID,en,es,de,af,ar,ca,cs,da,nl,fi,fr,el,he,hu,it,ja,ko
 K_PLAY,Play,Comenzar,Start,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play
 K_TUTORIAL,Tutorial,Tutorial,Anleitung,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial
 K_ABOUT,About,Sobre,Über,About,About,About,About,About,About,About,About,About,About,About,About,About,About
@@ -176,7 +160,6 @@ K_CHEST_LEVEL_BUTTON,Chest,Pecho,Brust,Chest,Chest,Chest,Chest,Chest,Chest,Chest
 K_BUTTOCKS_LEVEL_BUTTON,Butt,Butt,Butt,,,,,,,,,,,,,,
 K_NOSE_LEVEL_BUTTON,Nose,,,,,,,,,,,,,,,,
 K_SHIN_LEVEL_BUTTON,Shin,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,
 K_BACK_BUTTON,Back,Atras,Zurück,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back
 K_EASY_BUTTON,Easy,Fácil,Einfach,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy
 K_NORMAL_BUTTON,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal
@@ -191,7 +174,6 @@ K_NEEDLE_TOOL,Needle,Inyectadora,Nadel,Needle,Needle,Needle,Needle,Needle,Needle
 K_ANESTHETIC_TOOL,Anestesia,Anestesia,Anästhesie,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia
 K_SUTURE_TOOL,Suture,Suturar,Vernähen,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture
 K_CUTTER_TOOL,Cutter,Exacto,Messer,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter
-,,,,,,,,,,,,,,,,,
 K_TUTORIAL_DEVELOPMENT_MESSAGE,The tutorial is under the works.","The tutorial is under the works.
 ID,en,es,de,af,ar,ca,cs,da,nl,fi,fr,el,he,hu,it,ja,ko
 K_PLAY,Play,Comenzar,Start,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play
@@ -205,7 +187,6 @@ K_CHEST_LEVEL_BUTTON,Chest,Pecho,Brust,Chest,Chest,Chest,Chest,Chest,Chest,Chest
 K_BUTTOCKS_LEVEL_BUTTON,Butt,Butt,Butt,,,,,,,,,,,,,,
 K_NOSE_LEVEL_BUTTON,Nose,,,,,,,,,,,,,,,,
 K_SHIN_LEVEL_BUTTON,Shin,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,
 K_BACK_BUTTON,Back,Atras,Zurück,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back
 K_EASY_BUTTON,Easy,Fácil,Einfach,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy
 K_NORMAL_BUTTON,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal
@@ -220,9 +201,7 @@ K_NEEDLE_TOOL,Needle,Inyectadora,Nadel,Needle,Needle,Needle,Needle,Needle,Needle
 K_ANESTHETIC_TOOL,Anestesia,Anestesia,Anästhesie,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia
 K_SUTURE_TOOL,Suture,Suturar,Vernähen,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture
 K_CUTTER_TOOL,Cutter,Exacto,Messer,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter
-,,,,,,,,,,,,,,,,,
 K_TUTORIAL_DEVELOPMENT_MESSAGE,The tutorial is under the works.","The tutorial is under the works.
-ID,en,es,de,af,ar,ca,cs,da,nl,fi,fr,el,he,hu,it,ja,ko
 K_PLAY,Play,Comenzar,Start,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play
 K_TUTORIAL,Tutorial,Tutorial,Anleitung,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial
 K_ABOUT,About,Sobre,Über,About,About,About,About,About,About,About,About,About,About,About,About,About,About
@@ -234,7 +213,6 @@ K_CHEST_LEVEL_BUTTON,Chest,Pecho,Brust,Chest,Chest,Chest,Chest,Chest,Chest,Chest
 K_BUTTOCKS_LEVEL_BUTTON,Butt,Butt,Butt,,,,,,,,,,,,,,
 K_NOSE_LEVEL_BUTTON,Nose,,,,,,,,,,,,,,,,
 K_SHIN_LEVEL_BUTTON,Shin,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,
 K_BACK_BUTTON,Back,Atras,Zurück,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back
 K_EASY_BUTTON,Easy,Fácil,Einfach,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy
 K_NORMAL_BUTTON,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal
@@ -249,9 +227,7 @@ K_NEEDLE_TOOL,Needle,Inyectadora,Nadel,Needle,Needle,Needle,Needle,Needle,Needle
 K_ANESTHETIC_TOOL,Anestesia,Anestesia,Anästhesie,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia
 K_SUTURE_TOOL,Suture,Suturar,Vernähen,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture
 K_CUTTER_TOOL,Cutter,Exacto,Messer,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter
-,,,,,,,,,,,,,,,,,
 K_TUTORIAL_DEVELOPMENT_MESSAGE,The tutorial is under the works.","The tutorial is under the works.
-ID,en,es,de,af,ar,ca,cs,da,nl,fi,fr,el,he,hu,it,ja,ko
 K_PLAY,Play,Comenzar,Start,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play
 K_TUTORIAL,Tutorial,Tutorial,Anleitung,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial
 K_ABOUT,About,Sobre,Über,About,About,About,About,About,About,About,About,About,About,About,About,About,About
@@ -263,7 +239,6 @@ K_CHEST_LEVEL_BUTTON,Chest,Pecho,Brust,Chest,Chest,Chest,Chest,Chest,Chest,Chest
 K_BUTTOCKS_LEVEL_BUTTON,Butt,Butt,Butt,,,,,,,,,,,,,,
 K_NOSE_LEVEL_BUTTON,Nose,,,,,,,,,,,,,,,,
 K_SHIN_LEVEL_BUTTON,Shin,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,
 K_BACK_BUTTON,Back,Atras,Zurück,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back
 K_EASY_BUTTON,Easy,Fácil,Einfach,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy
 K_NORMAL_BUTTON,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal
@@ -278,9 +253,7 @@ K_NEEDLE_TOOL,Needle,Inyectadora,Nadel,Needle,Needle,Needle,Needle,Needle,Needle
 K_ANESTHETIC_TOOL,Anestesia,Anestesia,Anästhesie,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia
 K_SUTURE_TOOL,Suture,Suturar,Vernähen,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture
 K_CUTTER_TOOL,Cutter,Exacto,Messer,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter
-,,,,,,,,,,,,,,,,,
 K_TUTORIAL_DEVELOPMENT_MESSAGE,The tutorial is under the works.","The tutorial is under the works.
-ID,en,es,de,af,ar,ca,cs,da,nl,fi,fr,el,he,hu,it,ja,ko
 K_PLAY,Play,Comenzar,Start,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play
 K_TUTORIAL,Tutorial,Tutorial,Anleitung,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial
 K_ABOUT,About,Sobre,Über,About,About,About,About,About,About,About,About,About,About,About,About,About,About
@@ -292,7 +265,6 @@ K_CHEST_LEVEL_BUTTON,Chest,Pecho,Brust,Chest,Chest,Chest,Chest,Chest,Chest,Chest
 K_BUTTOCKS_LEVEL_BUTTON,Butt,Butt,Butt,,,,,,,,,,,,,,
 K_NOSE_LEVEL_BUTTON,Nose,,,,,,,,,,,,,,,,
 K_SHIN_LEVEL_BUTTON,Shin,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,
 K_BACK_BUTTON,Back,Atras,Zurück,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back
 K_EASY_BUTTON,Easy,Fácil,Einfach,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy
 K_NORMAL_BUTTON,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal
@@ -307,9 +279,7 @@ K_NEEDLE_TOOL,Needle,Inyectadora,Nadel,Needle,Needle,Needle,Needle,Needle,Needle
 K_ANESTHETIC_TOOL,Anestesia,Anestesia,Anästhesie,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia
 K_SUTURE_TOOL,Suture,Suturar,Vernähen,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture
 K_CUTTER_TOOL,Cutter,Exacto,Messer,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter
-,,,,,,,,,,,,,,,,,
 K_TUTORIAL_DEVELOPMENT_MESSAGE,The tutorial is under the works.","The tutorial is under the works.
-ID,en,es,de,af,ar,ca,cs,da,nl,fi,fr,el,he,hu,it,ja,ko
 K_PLAY,Play,Comenzar,Start,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play
 K_TUTORIAL,Tutorial,Tutorial,Anleitung,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial
 K_ABOUT,About,Sobre,Über,About,About,About,About,About,About,About,About,About,About,About,About,About,About
@@ -321,7 +291,6 @@ K_CHEST_LEVEL_BUTTON,Chest,Pecho,Brust,Chest,Chest,Chest,Chest,Chest,Chest,Chest
 K_BUTTOCKS_LEVEL_BUTTON,Butt,Butt,Butt,,,,,,,,,,,,,,
 K_NOSE_LEVEL_BUTTON,Nose,,,,,,,,,,,,,,,,
 K_SHIN_LEVEL_BUTTON,Shin,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,
 K_BACK_BUTTON,Back,Atras,Zurück,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back
 K_EASY_BUTTON,Easy,Fácil,Einfach,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy
 K_NORMAL_BUTTON,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal
@@ -336,9 +305,7 @@ K_NEEDLE_TOOL,Needle,Inyectadora,Nadel,Needle,Needle,Needle,Needle,Needle,Needle
 K_ANESTHETIC_TOOL,Anestesia,Anestesia,Anästhesie,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia
 K_SUTURE_TOOL,Suture,Suturar,Vernähen,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture
 K_CUTTER_TOOL,Cutter,Exacto,Messer,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter
-,,,,,,,,,,,,,,,,,
 K_TUTORIAL_DEVELOPMENT_MESSAGE,The tutorial is under the works.","The tutorial is under the works.
-ID,en,es,de,af,ar,ca,cs,da,nl,fi,fr,el,he,hu,it,ja,ko
 K_PLAY,Play,Comenzar,Start,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play
 K_TUTORIAL,Tutorial,Tutorial,Anleitung,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial
 K_ABOUT,About,Sobre,Über,About,About,About,About,About,About,About,About,About,About,About,About,About,About
@@ -350,7 +317,6 @@ K_CHEST_LEVEL_BUTTON,Chest,Pecho,Brust,Chest,Chest,Chest,Chest,Chest,Chest,Chest
 K_BUTTOCKS_LEVEL_BUTTON,Butt,Butt,Butt,,,,,,,,,,,,,,
 K_NOSE_LEVEL_BUTTON,Nose,,,,,,,,,,,,,,,,
 K_SHIN_LEVEL_BUTTON,Shin,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,
 K_BACK_BUTTON,Back,Atras,Zurück,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back
 K_EASY_BUTTON,Easy,Fácil,Einfach,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy
 K_NORMAL_BUTTON,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal
@@ -365,9 +331,7 @@ K_NEEDLE_TOOL,Needle,Inyectadora,Nadel,Needle,Needle,Needle,Needle,Needle,Needle
 K_ANESTHETIC_TOOL,Anestesia,Anestesia,Anästhesie,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia
 K_SUTURE_TOOL,Suture,Suturar,Vernähen,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture
 K_CUTTER_TOOL,Cutter,Exacto,Messer,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter
-,,,,,,,,,,,,,,,,,
 K_TUTORIAL_DEVELOPMENT_MESSAGE,The tutorial is under the works.","The tutorial is under the works.
-ID,en,es,de,af,ar,ca,cs,da,nl,fi,fr,el,he,hu,it,ja,ko
 K_PLAY,Play,Comenzar,Start,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play
 K_TUTORIAL,Tutorial,Tutorial,Anleitung,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial
 K_ABOUT,About,Sobre,Über,About,About,About,About,About,About,About,About,About,About,About,About,About,About
@@ -379,7 +343,6 @@ K_CHEST_LEVEL_BUTTON,Chest,Pecho,Brust,Chest,Chest,Chest,Chest,Chest,Chest,Chest
 K_BUTTOCKS_LEVEL_BUTTON,Butt,Butt,Butt,,,,,,,,,,,,,,
 K_NOSE_LEVEL_BUTTON,Nose,,,,,,,,,,,,,,,,
 K_SHIN_LEVEL_BUTTON,Shin,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,
 K_BACK_BUTTON,Back,Atras,Zurück,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back
 K_EASY_BUTTON,Easy,Fácil,Einfach,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy
 K_NORMAL_BUTTON,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal
@@ -394,9 +357,7 @@ K_NEEDLE_TOOL,Needle,Inyectadora,Nadel,Needle,Needle,Needle,Needle,Needle,Needle
 K_ANESTHETIC_TOOL,Anestesia,Anestesia,Anästhesie,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia
 K_SUTURE_TOOL,Suture,Suturar,Vernähen,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture
 K_CUTTER_TOOL,Cutter,Exacto,Messer,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter
-,,,,,,,,,,,,,,,,,
 K_TUTORIAL_DEVELOPMENT_MESSAGE,The tutorial is under the works.","The tutorial is under the works.
-ID,en,es,de,af,ar,ca,cs,da,nl,fi,fr,el,he,hu,it,ja,ko
 K_PLAY,Play,Comenzar,Start,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play
 K_TUTORIAL,Tutorial,Tutorial,Anleitung,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial
 K_ABOUT,About,Sobre,Über,About,About,About,About,About,About,About,About,About,About,About,About,About,About
@@ -408,7 +369,6 @@ K_CHEST_LEVEL_BUTTON,Chest,Pecho,Brust,Chest,Chest,Chest,Chest,Chest,Chest,Chest
 K_BUTTOCKS_LEVEL_BUTTON,Butt,Butt,Butt,,,,,,,,,,,,,,
 K_NOSE_LEVEL_BUTTON,Nose,,,,,,,,,,,,,,,,
 K_SHIN_LEVEL_BUTTON,Shin,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,
 K_BACK_BUTTON,Back,Atras,Zurück,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back
 K_EASY_BUTTON,Easy,Fácil,Einfach,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy
 K_NORMAL_BUTTON,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal
@@ -423,9 +383,7 @@ K_NEEDLE_TOOL,Needle,Inyectadora,Nadel,Needle,Needle,Needle,Needle,Needle,Needle
 K_ANESTHETIC_TOOL,Anestesia,Anestesia,Anästhesie,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia
 K_SUTURE_TOOL,Suture,Suturar,Vernähen,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture
 K_CUTTER_TOOL,Cutter,Exacto,Messer,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter
-,,,,,,,,,,,,,,,,,
 K_TUTORIAL_DEVELOPMENT_MESSAGE,The tutorial is under the works.","The tutorial is under the works.
-ID,en,es,de,af,ar,ca,cs,da,nl,fi,fr,el,he,hu,it,ja,ko
 K_PLAY,Play,Comenzar,Start,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play
 K_TUTORIAL,Tutorial,Tutorial,Anleitung,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial
 K_ABOUT,About,Sobre,Über,About,About,About,About,About,About,About,About,About,About,About,About,About,About
@@ -437,7 +395,6 @@ K_CHEST_LEVEL_BUTTON,Chest,Pecho,Brust,Chest,Chest,Chest,Chest,Chest,Chest,Chest
 K_BUTTOCKS_LEVEL_BUTTON,Butt,Butt,Butt,,,,,,,,,,,,,,
 K_NOSE_LEVEL_BUTTON,Nose,,,,,,,,,,,,,,,,
 K_SHIN_LEVEL_BUTTON,Shin,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,
 K_BACK_BUTTON,Back,Atras,Zurück,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back
 K_EASY_BUTTON,Easy,Fácil,Einfach,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy
 K_NORMAL_BUTTON,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal
@@ -452,7 +409,6 @@ K_NEEDLE_TOOL,Needle,Inyectadora,Nadel,Needle,Needle,Needle,Needle,Needle,Needle
 K_ANESTHETIC_TOOL,Anestesia,Anestesia,Anästhesie,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia
 K_SUTURE_TOOL,Suture,Suturar,Vernähen,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture
 K_CUTTER_TOOL,Cutter,Exacto,Messer,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter
-,,,,,,,,,,,,,,,,,
 K_TUTORIAL_DEVELOPMENT_MESSAGE,The tutorial is under the works.","The tutorial is under the works.
 ID,en,es,de,af,ar,ca,cs,da,nl,fi,fr,el,he,hu,it,ja,ko
 K_PLAY,Play,Comenzar,Start,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play
@@ -466,7 +422,6 @@ K_CHEST_LEVEL_BUTTON,Chest,Pecho,Brust,Chest,Chest,Chest,Chest,Chest,Chest,Chest
 K_BUTTOCKS_LEVEL_BUTTON,Butt,Butt,Butt,,,,,,,,,,,,,,
 K_NOSE_LEVEL_BUTTON,Nose,,,,,,,,,,,,,,,,
 K_SHIN_LEVEL_BUTTON,Shin,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,
 K_BACK_BUTTON,Back,Atras,Zurück,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back
 K_EASY_BUTTON,Easy,Fácil,Einfach,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy
 K_NORMAL_BUTTON,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal
@@ -481,9 +436,7 @@ K_NEEDLE_TOOL,Needle,Inyectadora,Nadel,Needle,Needle,Needle,Needle,Needle,Needle
 K_ANESTHETIC_TOOL,Anestesia,Anestesia,Anästhesie,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia
 K_SUTURE_TOOL,Suture,Suturar,Vernähen,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture
 K_CUTTER_TOOL,Cutter,Exacto,Messer,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter
-,,,,,,,,,,,,,,,,,
 K_TUTORIAL_DEVELOPMENT_MESSAGE,The tutorial is under the works.","The tutorial is under the works.
-ID,en,es,de,af,ar,ca,cs,da,nl,fi,fr,el,he,hu,it,ja,ko
 K_PLAY,Play,Comenzar,Start,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play
 K_TUTORIAL,Tutorial,Tutorial,Anleitung,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial
 K_ABOUT,About,Sobre,Über,About,About,About,About,About,About,About,About,About,About,About,About,About,About
@@ -495,7 +448,6 @@ K_CHEST_LEVEL_BUTTON,Chest,Pecho,Brust,Chest,Chest,Chest,Chest,Chest,Chest,Chest
 K_BUTTOCKS_LEVEL_BUTTON,Butt,Butt,Butt,,,,,,,,,,,,,,
 K_NOSE_LEVEL_BUTTON,Nose,,,,,,,,,,,,,,,,
 K_SHIN_LEVEL_BUTTON,Shin,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,
 K_BACK_BUTTON,Back,Atras,Zurück,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back
 K_EASY_BUTTON,Easy,Fácil,Einfach,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy
 K_NORMAL_BUTTON,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal
@@ -510,9 +462,7 @@ K_NEEDLE_TOOL,Needle,Inyectadora,Nadel,Needle,Needle,Needle,Needle,Needle,Needle
 K_ANESTHETIC_TOOL,Anestesia,Anestesia,Anästhesie,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia
 K_SUTURE_TOOL,Suture,Suturar,Vernähen,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture
 K_CUTTER_TOOL,Cutter,Exacto,Messer,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter
-,,,,,,,,,,,,,,,,,
 K_TUTORIAL_DEVELOPMENT_MESSAGE,The tutorial is under the works.","The tutorial is under the works.
-ID,en,es,de,af,ar,ca,cs,da,nl,fi,fr,el,he,hu,it,ja,ko
 K_PLAY,Play,Comenzar,Start,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play
 K_TUTORIAL,Tutorial,Tutorial,Anleitung,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial
 K_ABOUT,About,Sobre,Über,About,About,About,About,About,About,About,About,About,About,About,About,About,About
@@ -524,7 +474,6 @@ K_CHEST_LEVEL_BUTTON,Chest,Pecho,Brust,Chest,Chest,Chest,Chest,Chest,Chest,Chest
 K_BUTTOCKS_LEVEL_BUTTON,Butt,Butt,Butt,,,,,,,,,,,,,,
 K_NOSE_LEVEL_BUTTON,Nose,,,,,,,,,,,,,,,,
 K_SHIN_LEVEL_BUTTON,Shin,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,
 K_BACK_BUTTON,Back,Atras,Zurück,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back
 K_EASY_BUTTON,Easy,Fácil,Einfach,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy
 K_NORMAL_BUTTON,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal
@@ -539,9 +488,7 @@ K_NEEDLE_TOOL,Needle,Inyectadora,Nadel,Needle,Needle,Needle,Needle,Needle,Needle
 K_ANESTHETIC_TOOL,Anestesia,Anestesia,Anästhesie,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia
 K_SUTURE_TOOL,Suture,Suturar,Vernähen,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture
 K_CUTTER_TOOL,Cutter,Exacto,Messer,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter
-,,,,,,,,,,,,,,,,,
 K_TUTORIAL_DEVELOPMENT_MESSAGE,The tutorial is under the works.","The tutorial is under the works.
-ID,en,es,de,af,ar,ca,cs,da,nl,fi,fr,el,he,hu,it,ja,ko
 K_PLAY,Play,Comenzar,Start,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play
 K_TUTORIAL,Tutorial,Tutorial,Anleitung,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial
 K_ABOUT,About,Sobre,Über,About,About,About,About,About,About,About,About,About,About,About,About,About,About
@@ -553,7 +500,6 @@ K_CHEST_LEVEL_BUTTON,Chest,Pecho,Brust,Chest,Chest,Chest,Chest,Chest,Chest,Chest
 K_BUTTOCKS_LEVEL_BUTTON,Butt,Butt,Butt,,,,,,,,,,,,,,
 K_NOSE_LEVEL_BUTTON,Nose,,,,,,,,,,,,,,,,
 K_SHIN_LEVEL_BUTTON,Shin,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,
 K_BACK_BUTTON,Back,Atras,Zurück,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back
 K_EASY_BUTTON,Easy,Fácil,Einfach,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy
 K_NORMAL_BUTTON,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal
@@ -568,9 +514,7 @@ K_NEEDLE_TOOL,Needle,Inyectadora,Nadel,Needle,Needle,Needle,Needle,Needle,Needle
 K_ANESTHETIC_TOOL,Anestesia,Anestesia,Anästhesie,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia
 K_SUTURE_TOOL,Suture,Suturar,Vernähen,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture
 K_CUTTER_TOOL,Cutter,Exacto,Messer,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter
-,,,,,,,,,,,,,,,,,
 K_TUTORIAL_DEVELOPMENT_MESSAGE,The tutorial is under the works.","The tutorial is under the works.
-ID,en,es,de,af,ar,ca,cs,da,nl,fi,fr,el,he,hu,it,ja,ko
 K_PLAY,Play,Comenzar,Start,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play
 K_TUTORIAL,Tutorial,Tutorial,Anleitung,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial
 K_ABOUT,About,Sobre,Über,About,About,About,About,About,About,About,About,About,About,About,About,About,About
@@ -582,7 +526,6 @@ K_CHEST_LEVEL_BUTTON,Chest,Pecho,Brust,Chest,Chest,Chest,Chest,Chest,Chest,Chest
 K_BUTTOCKS_LEVEL_BUTTON,Butt,Butt,Butt,,,,,,,,,,,,,,
 K_NOSE_LEVEL_BUTTON,Nose,,,,,,,,,,,,,,,,
 K_SHIN_LEVEL_BUTTON,Shin,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,
 K_BACK_BUTTON,Back,Atras,Zurück,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back
 K_EASY_BUTTON,Easy,Fácil,Einfach,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy
 K_NORMAL_BUTTON,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal
@@ -597,9 +540,7 @@ K_NEEDLE_TOOL,Needle,Inyectadora,Nadel,Needle,Needle,Needle,Needle,Needle,Needle
 K_ANESTHETIC_TOOL,Anestesia,Anestesia,Anästhesie,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia
 K_SUTURE_TOOL,Suture,Suturar,Vernähen,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture
 K_CUTTER_TOOL,Cutter,Exacto,Messer,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter
-,,,,,,,,,,,,,,,,,
 K_TUTORIAL_DEVELOPMENT_MESSAGE,The tutorial is under the works.","The tutorial is under the works.
-ID,en,es,de,af,ar,ca,cs,da,nl,fi,fr,el,he,hu,it,ja,ko
 K_PLAY,Play,Comenzar,Start,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play
 K_TUTORIAL,Tutorial,Tutorial,Anleitung,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial
 K_ABOUT,About,Sobre,Über,About,About,About,About,About,About,About,About,About,About,About,About,About,About
@@ -611,7 +552,6 @@ K_CHEST_LEVEL_BUTTON,Chest,Pecho,Brust,Chest,Chest,Chest,Chest,Chest,Chest,Chest
 K_BUTTOCKS_LEVEL_BUTTON,Butt,Butt,Butt,,,,,,,,,,,,,,
 K_NOSE_LEVEL_BUTTON,Nose,,,,,,,,,,,,,,,,
 K_SHIN_LEVEL_BUTTON,Shin,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,
 K_BACK_BUTTON,Back,Atras,Zurück,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back
 K_EASY_BUTTON,Easy,Fácil,Einfach,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy
 K_NORMAL_BUTTON,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal
@@ -626,9 +566,7 @@ K_NEEDLE_TOOL,Needle,Inyectadora,Nadel,Needle,Needle,Needle,Needle,Needle,Needle
 K_ANESTHETIC_TOOL,Anestesia,Anestesia,Anästhesie,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia
 K_SUTURE_TOOL,Suture,Suturar,Vernähen,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture
 K_CUTTER_TOOL,Cutter,Exacto,Messer,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter
-,,,,,,,,,,,,,,,,,
 K_TUTORIAL_DEVELOPMENT_MESSAGE,The tutorial is under the works.","The tutorial is under the works.
-ID,en,es,de,af,ar,ca,cs,da,nl,fi,fr,el,he,hu,it,ja,ko
 K_PLAY,Play,Comenzar,Start,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play
 K_TUTORIAL,Tutorial,Tutorial,Anleitung,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial
 K_ABOUT,About,Sobre,Über,About,About,About,About,About,About,About,About,About,About,About,About,About,About
@@ -640,7 +578,6 @@ K_CHEST_LEVEL_BUTTON,Chest,Pecho,Brust,Chest,Chest,Chest,Chest,Chest,Chest,Chest
 K_BUTTOCKS_LEVEL_BUTTON,Butt,Butt,Butt,,,,,,,,,,,,,,
 K_NOSE_LEVEL_BUTTON,Nose,,,,,,,,,,,,,,,,
 K_SHIN_LEVEL_BUTTON,Shin,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,
 K_BACK_BUTTON,Back,Atras,Zurück,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back
 K_EASY_BUTTON,Easy,Fácil,Einfach,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy
 K_NORMAL_BUTTON,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal
@@ -655,7 +592,6 @@ K_NEEDLE_TOOL,Needle,Inyectadora,Nadel,Needle,Needle,Needle,Needle,Needle,Needle
 K_ANESTHETIC_TOOL,Anestesia,Anestesia,Anästhesie,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia
 K_SUTURE_TOOL,Suture,Suturar,Vernähen,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture
 K_CUTTER_TOOL,Cutter,Exacto,Messer,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter
-,,,,,,,,,,,,,,,,,
 K_TUTORIAL_DEVELOPMENT_MESSAGE,The tutorial is under the works.","The tutorial is under the works.
 ID,en,es,de,af,ar,ca,cs,da,nl,fi,fr,el,he,hu,it,ja,ko
 K_PLAY,Play,Comenzar,Start,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play
@@ -669,7 +605,6 @@ K_CHEST_LEVEL_BUTTON,Chest,Pecho,Brust,Chest,Chest,Chest,Chest,Chest,Chest,Chest
 K_BUTTOCKS_LEVEL_BUTTON,Butt,Butt,Butt,,,,,,,,,,,,,,
 K_NOSE_LEVEL_BUTTON,Nose,,,,,,,,,,,,,,,,
 K_SHIN_LEVEL_BUTTON,Shin,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,
 K_BACK_BUTTON,Back,Atras,Zurück,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back
 K_EASY_BUTTON,Easy,Fácil,Einfach,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy
 K_NORMAL_BUTTON,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal
@@ -684,9 +619,7 @@ K_NEEDLE_TOOL,Needle,Inyectadora,Nadel,Needle,Needle,Needle,Needle,Needle,Needle
 K_ANESTHETIC_TOOL,Anestesia,Anestesia,Anästhesie,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia
 K_SUTURE_TOOL,Suture,Suturar,Vernähen,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture
 K_CUTTER_TOOL,Cutter,Exacto,Messer,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter
-,,,,,,,,,,,,,,,,,
 K_TUTORIAL_DEVELOPMENT_MESSAGE,The tutorial is under the works.","The tutorial is under the works.
-ID,en,es,de,af,ar,ca,cs,da,nl,fi,fr,el,he,hu,it,ja,ko
 K_PLAY,Play,Comenzar,Start,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play
 K_TUTORIAL,Tutorial,Tutorial,Anleitung,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial
 K_ABOUT,About,Sobre,Über,About,About,About,About,About,About,About,About,About,About,About,About,About,About
@@ -698,7 +631,6 @@ K_CHEST_LEVEL_BUTTON,Chest,Pecho,Brust,Chest,Chest,Chest,Chest,Chest,Chest,Chest
 K_BUTTOCKS_LEVEL_BUTTON,Butt,Butt,Butt,,,,,,,,,,,,,,
 K_NOSE_LEVEL_BUTTON,Nose,,,,,,,,,,,,,,,,
 K_SHIN_LEVEL_BUTTON,Shin,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,
 K_BACK_BUTTON,Back,Atras,Zurück,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back
 K_EASY_BUTTON,Easy,Fácil,Einfach,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy
 K_NORMAL_BUTTON,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal
@@ -713,9 +645,7 @@ K_NEEDLE_TOOL,Needle,Inyectadora,Nadel,Needle,Needle,Needle,Needle,Needle,Needle
 K_ANESTHETIC_TOOL,Anestesia,Anestesia,Anästhesie,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia
 K_SUTURE_TOOL,Suture,Suturar,Vernähen,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture
 K_CUTTER_TOOL,Cutter,Exacto,Messer,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter
-,,,,,,,,,,,,,,,,,
 K_TUTORIAL_DEVELOPMENT_MESSAGE,The tutorial is under the works.","The tutorial is under the works.
-ID,en,es,de,af,ar,ca,cs,da,nl,fi,fr,el,he,hu,it,ja,ko
 K_PLAY,Play,Comenzar,Start,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play
 K_TUTORIAL,Tutorial,Tutorial,Anleitung,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial
 K_ABOUT,About,Sobre,Über,About,About,About,About,About,About,About,About,About,About,About,About,About,About
@@ -727,7 +657,6 @@ K_CHEST_LEVEL_BUTTON,Chest,Pecho,Brust,Chest,Chest,Chest,Chest,Chest,Chest,Chest
 K_BUTTOCKS_LEVEL_BUTTON,Butt,Butt,Butt,,,,,,,,,,,,,,
 K_NOSE_LEVEL_BUTTON,Nose,,,,,,,,,,,,,,,,
 K_SHIN_LEVEL_BUTTON,Shin,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,
 K_BACK_BUTTON,Back,Atras,Zurück,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back
 K_EASY_BUTTON,Easy,Fácil,Einfach,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy
 K_NORMAL_BUTTON,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal
@@ -742,9 +671,7 @@ K_NEEDLE_TOOL,Needle,Inyectadora,Nadel,Needle,Needle,Needle,Needle,Needle,Needle
 K_ANESTHETIC_TOOL,Anestesia,Anestesia,Anästhesie,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia
 K_SUTURE_TOOL,Suture,Suturar,Vernähen,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture
 K_CUTTER_TOOL,Cutter,Exacto,Messer,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter
-,,,,,,,,,,,,,,,,,
 K_TUTORIAL_DEVELOPMENT_MESSAGE,The tutorial is under the works.","The tutorial is under the works.
-ID,en,es,de,af,ar,ca,cs,da,nl,fi,fr,el,he,hu,it,ja,ko
 K_PLAY,Play,Comenzar,Start,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play
 K_TUTORIAL,Tutorial,Tutorial,Anleitung,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial
 K_ABOUT,About,Sobre,Über,About,About,About,About,About,About,About,About,About,About,About,About,About,About
@@ -756,7 +683,6 @@ K_CHEST_LEVEL_BUTTON,Chest,Pecho,Brust,Chest,Chest,Chest,Chest,Chest,Chest,Chest
 K_BUTTOCKS_LEVEL_BUTTON,Butt,Butt,Butt,,,,,,,,,,,,,,
 K_NOSE_LEVEL_BUTTON,Nose,,,,,,,,,,,,,,,,
 K_SHIN_LEVEL_BUTTON,Shin,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,
 K_BACK_BUTTON,Back,Atras,Zurück,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back
 K_EASY_BUTTON,Easy,Fácil,Einfach,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy
 K_NORMAL_BUTTON,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal
@@ -771,9 +697,7 @@ K_NEEDLE_TOOL,Needle,Inyectadora,Nadel,Needle,Needle,Needle,Needle,Needle,Needle
 K_ANESTHETIC_TOOL,Anestesia,Anestesia,Anästhesie,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia
 K_SUTURE_TOOL,Suture,Suturar,Vernähen,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture
 K_CUTTER_TOOL,Cutter,Exacto,Messer,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter
-,,,,,,,,,,,,,,,,,
 K_TUTORIAL_DEVELOPMENT_MESSAGE,The tutorial is under the works.","The tutorial is under the works.
-ID,en,es,de,af,ar,ca,cs,da,nl,fi,fr,el,he,hu,it,ja,ko
 K_PLAY,Play,Comenzar,Start,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play
 K_TUTORIAL,Tutorial,Tutorial,Anleitung,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial
 K_ABOUT,About,Sobre,Über,About,About,About,About,About,About,About,About,About,About,About,About,About,About
@@ -785,7 +709,6 @@ K_CHEST_LEVEL_BUTTON,Chest,Pecho,Brust,Chest,Chest,Chest,Chest,Chest,Chest,Chest
 K_BUTTOCKS_LEVEL_BUTTON,Butt,Butt,Butt,,,,,,,,,,,,,,
 K_NOSE_LEVEL_BUTTON,Nose,,,,,,,,,,,,,,,,
 K_SHIN_LEVEL_BUTTON,Shin,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,
 K_BACK_BUTTON,Back,Atras,Zurück,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back
 K_EASY_BUTTON,Easy,Fácil,Einfach,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy
 K_NORMAL_BUTTON,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal
@@ -800,9 +723,7 @@ K_NEEDLE_TOOL,Needle,Inyectadora,Nadel,Needle,Needle,Needle,Needle,Needle,Needle
 K_ANESTHETIC_TOOL,Anestesia,Anestesia,Anästhesie,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia
 K_SUTURE_TOOL,Suture,Suturar,Vernähen,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture
 K_CUTTER_TOOL,Cutter,Exacto,Messer,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter
-,,,,,,,,,,,,,,,,,
 K_TUTORIAL_DEVELOPMENT_MESSAGE,The tutorial is under the works.","The tutorial is under the works.
-ID,en,es,de,af,ar,ca,cs,da,nl,fi,fr,el,he,hu,it,ja,ko
 K_PLAY,Play,Comenzar,Start,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play
 K_TUTORIAL,Tutorial,Tutorial,Anleitung,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial
 K_ABOUT,About,Sobre,Über,About,About,About,About,About,About,About,About,About,About,About,About,About,About
@@ -814,7 +735,6 @@ K_CHEST_LEVEL_BUTTON,Chest,Pecho,Brust,Chest,Chest,Chest,Chest,Chest,Chest,Chest
 K_BUTTOCKS_LEVEL_BUTTON,Butt,Butt,Butt,,,,,,,,,,,,,,
 K_NOSE_LEVEL_BUTTON,Nose,,,,,,,,,,,,,,,,
 K_SHIN_LEVEL_BUTTON,Shin,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,
 K_BACK_BUTTON,Back,Atras,Zurück,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back
 K_EASY_BUTTON,Easy,Fácil,Einfach,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy
 K_NORMAL_BUTTON,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal
@@ -829,7 +749,6 @@ K_NEEDLE_TOOL,Needle,Inyectadora,Nadel,Needle,Needle,Needle,Needle,Needle,Needle
 K_ANESTHETIC_TOOL,Anestesia,Anestesia,Anästhesie,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia
 K_SUTURE_TOOL,Suture,Suturar,Vernähen,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture
 K_CUTTER_TOOL,Cutter,Exacto,Messer,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter
-,,,,,,,,,,,,,,,,,
 K_TUTORIAL_DEVELOPMENT_MESSAGE,The tutorial is under the works.","The tutorial is under the works.
 ID,en,es,de,af,ar,ca,cs,da,nl,fi,fr,el,he,hu,it,ja,ko
 K_PLAY,Play,Comenzar,Start,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play
@@ -843,7 +762,6 @@ K_CHEST_LEVEL_BUTTON,Chest,Pecho,Brust,Chest,Chest,Chest,Chest,Chest,Chest,Chest
 K_BUTTOCKS_LEVEL_BUTTON,Butt,Butt,Butt,,,,,,,,,,,,,,
 K_NOSE_LEVEL_BUTTON,Nose,,,,,,,,,,,,,,,,
 K_SHIN_LEVEL_BUTTON,Shin,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,
 K_BACK_BUTTON,Back,Atras,Zurück,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back
 K_EASY_BUTTON,Easy,Fácil,Einfach,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy
 K_NORMAL_BUTTON,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal
@@ -858,9 +776,7 @@ K_NEEDLE_TOOL,Needle,Inyectadora,Nadel,Needle,Needle,Needle,Needle,Needle,Needle
 K_ANESTHETIC_TOOL,Anestesia,Anestesia,Anästhesie,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia
 K_SUTURE_TOOL,Suture,Suturar,Vernähen,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture
 K_CUTTER_TOOL,Cutter,Exacto,Messer,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter
-,,,,,,,,,,,,,,,,,
 K_TUTORIAL_DEVELOPMENT_MESSAGE,The tutorial is under the works.","The tutorial is under the works.
-ID,en,es,de,af,ar,ca,cs,da,nl,fi,fr,el,he,hu,it,ja,ko
 K_PLAY,Play,Comenzar,Start,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play
 K_TUTORIAL,Tutorial,Tutorial,Anleitung,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial
 K_ABOUT,About,Sobre,Über,About,About,About,About,About,About,About,About,About,About,About,About,About,About
@@ -872,7 +788,6 @@ K_CHEST_LEVEL_BUTTON,Chest,Pecho,Brust,Chest,Chest,Chest,Chest,Chest,Chest,Chest
 K_BUTTOCKS_LEVEL_BUTTON,Butt,Butt,Butt,,,,,,,,,,,,,,
 K_NOSE_LEVEL_BUTTON,Nose,,,,,,,,,,,,,,,,
 K_SHIN_LEVEL_BUTTON,Shin,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,
 K_BACK_BUTTON,Back,Atras,Zurück,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back
 K_EASY_BUTTON,Easy,Fácil,Einfach,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy
 K_NORMAL_BUTTON,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal
@@ -887,7 +802,6 @@ K_NEEDLE_TOOL,Needle,Inyectadora,Nadel,Needle,Needle,Needle,Needle,Needle,Needle
 K_ANESTHETIC_TOOL,Anestesia,Anestesia,Anästhesie,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia
 K_SUTURE_TOOL,Suture,Suturar,Vernähen,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture
 K_CUTTER_TOOL,Cutter,Exacto,Messer,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter
-,,,,,,,,,,,,,,,,,
 K_TUTORIAL_DEVELOPMENT_MESSAGE,The tutorial is under the works.","The tutorial is under the works.
 ID,en,es,de,af,ar,ca,cs,da,nl,fi,fr,el,he,hu,it,ja,ko
 K_PLAY,Play,Comenzar,Start,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play
@@ -901,7 +815,6 @@ K_CHEST_LEVEL_BUTTON,Chest,Pecho,Brust,Chest,Chest,Chest,Chest,Chest,Chest,Chest
 K_BUTTOCKS_LEVEL_BUTTON,Butt,Butt,Butt,,,,,,,,,,,,,,
 K_NOSE_LEVEL_BUTTON,Nose,,,,,,,,,,,,,,,,
 K_SHIN_LEVEL_BUTTON,Shin,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,
 K_BACK_BUTTON,Back,Atras,Zurück,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back
 K_EASY_BUTTON,Easy,Fácil,Einfach,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy
 K_NORMAL_BUTTON,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal
@@ -916,9 +829,7 @@ K_NEEDLE_TOOL,Needle,Inyectadora,Nadel,Needle,Needle,Needle,Needle,Needle,Needle
 K_ANESTHETIC_TOOL,Anestesia,Anestesia,Anästhesie,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia
 K_SUTURE_TOOL,Suture,Suturar,Vernähen,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture
 K_CUTTER_TOOL,Cutter,Exacto,Messer,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter
-,,,,,,,,,,,,,,,,,
 K_TUTORIAL_DEVELOPMENT_MESSAGE,The tutorial is under the works.","The tutorial is under the works.
-ID,en,es,de,af,ar,ca,cs,da,nl,fi,fr,el,he,hu,it,ja,ko
 K_PLAY,Play,Comenzar,Start,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play
 K_TUTORIAL,Tutorial,Tutorial,Anleitung,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial
 K_ABOUT,About,Sobre,Über,About,About,About,About,About,About,About,About,About,About,About,About,About,About
@@ -930,7 +841,6 @@ K_CHEST_LEVEL_BUTTON,Chest,Pecho,Brust,Chest,Chest,Chest,Chest,Chest,Chest,Chest
 K_BUTTOCKS_LEVEL_BUTTON,Butt,Butt,Butt,,,,,,,,,,,,,,
 K_NOSE_LEVEL_BUTTON,Nose,,,,,,,,,,,,,,,,
 K_SHIN_LEVEL_BUTTON,Shin,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,
 K_BACK_BUTTON,Back,Atras,Zurück,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back
 K_EASY_BUTTON,Easy,Fácil,Einfach,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy
 K_NORMAL_BUTTON,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal
@@ -945,7 +855,6 @@ K_NEEDLE_TOOL,Needle,Inyectadora,Nadel,Needle,Needle,Needle,Needle,Needle,Needle
 K_ANESTHETIC_TOOL,Anestesia,Anestesia,Anästhesie,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia
 K_SUTURE_TOOL,Suture,Suturar,Vernähen,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture,Suture
 K_CUTTER_TOOL,Cutter,Exacto,Messer,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter,Cutter
-,,,,,,,,,,,,,,,,,
 K_TUTORIAL_DEVELOPMENT_MESSAGE,The tutorial is under the works.","The tutorial is under the works.
 ID,en,es,de,af,ar,ca,cs,da,nl,fi,fr,el,he,hu,it,ja,ko
 K_PLAY,Play,Comenzar,Start,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play,Play
@@ -959,7 +868,6 @@ K_CHEST_LEVEL_BUTTON,Chest,Pecho,Brust,Chest,Chest,Chest,Chest,Chest,Chest,Chest
 K_BUTTOCKS_LEVEL_BUTTON,Butt,Butt,Butt,,,,,,,,,,,,,,
 K_NOSE_LEVEL_BUTTON,Nose,,,,,,,,,,,,,,,,
 K_SHIN_LEVEL_BUTTON,Shin,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,
 K_BACK_BUTTON,Back,Atras,Zurück,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back,Back
 K_EASY_BUTTON,Easy,Fácil,Einfach,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy,Easy
 K_NORMAL_BUTTON,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal
