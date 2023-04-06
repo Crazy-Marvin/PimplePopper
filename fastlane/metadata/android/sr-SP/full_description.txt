@@ -1,34 +1,19 @@
-Pimple Popper је игра о истискивању бубуљица и уклањању митисера, акни, масних ткива и сличних ствари. Download now and feel the huge satisfaction!
+Pimple Popper је игра о истискивању бубуљица и уклањању митисера, акни, масних ткива и сличних ствари. Преузмите сада и осетите огромно задовољство!
 
-<b>Karakteristike:</b>
-
-<ul>
-<li>Otvorenog koda 🎉</li>
-<li>Ekstremno zadovoljavajuć 🤣</li>
-<li>Poprilično realističan 😉</li>
-<li>Mogao bi vam dobro doći u svakodnevnom životu 😜</li>
-<li>Možete nam poslati svoje prave bubuljice i dobiti besplatnu poruku 🙈</li>
-</ul>
-Početna stranica: <a href="https://www. crazymarvin. com/pimple-popper">https://www. crazymarvin. com/pimple-popper</a>
-
-Pomozite nam sa prevodom: <a href="https://crowdin. com/project/pimple-popper">https://crowdin. com/project/pimple-popper</a>
-
-Izvorni kod na GitHub-u: <a href="https://github. com/Crazy-Marvin/PimplePopper">https://github. com/Crazy-Marvin/PimplePopper</a>
-
-Uživajte! 👌
+<b>Карактеристике:</b>
 
 <ul>
-<li>Open Source 🎉</li>
-<li>Extremely satisfactory 😂</li>
-<li>Quite realistic 😉</li>
-<li>Might come in handy for your daily life 😜</li>
-<li>You can send us your real-life pops and get a complimentary message 🙈</li>
+<li>Отворени извор 🎉</li>
+<li>Изузетно задовољавајуће 😂</li>
+<li>Сасвим реално 😉</li>
+<li>Можда ће вам добро доћи у свакодневном животу 😜</li>
+<li>Можете нам послати своја истискивања из стварног живота и добити комплимент 🙈</li>
 </ul>
 
-Homepage: <a href="https://www.crazymarvin.com/pimple-popper">https://www.crazymarvin.com/pimple-popper</a>
+Почетна страница: <a href="https://www.crazymarvin.com/pimple-popper">https://www.crazymarvin.com/pimple-popper</a>
 
-Help us with translation: <a href="https://crowdin.com/project/pimple-popper">https://crowdin.com/project/pimple-popper</a> 
+Помозите нам са преводом: <a href="https://crowdin.com/project/pimple-popper">https://crowdin.com/project/pimple-popper</a> 
 
-Source on GitHub: <a href="https://github.com/Crazy-Marvin/PimplePopper">https://github.com/Crazy-Marvin/PimplePopper</a> 
+Извор на ГитХуб-у: <a href="https://github.com/Crazy-Marvin/PimplePopper">https://github.com/Crazy-Marvin/PimplePopper</a> 
 
-Enjoy! 👌
+Уживајте! 👌
