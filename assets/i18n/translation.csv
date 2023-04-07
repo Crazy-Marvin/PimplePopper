@@ -1,5 +1,5 @@
-ID,en,es,de,af,ar,ca,zh_CN,zh_TW,cs,da,nl,fi,fr,el,he,hu,it,ja,ko,nn_NO,pl,pt,pt_BR,ro,ru,sr,si,sv,tr,uk,vi,
-K_ABOUT,About,Sobre,Über,About,Oor,عن البرنامج,Sobre,關於,About,O aplikaci,Over,Over,Tietoja,À propos,Σχετικά με,אודות,Róla,Info,について,관련 정보,About,O programie,About,About,Despre,О приложении,О програму,About,About,Hakkında,Про додаток,Về Chúng Tôi
+ID,en,es,de,af,ar,ca,zh_CN,zh_TW,cs,da,nl,fi,fr,el,he,hu,it,ja,ko,nn_NO,pl,pt,pt_BR,ro,ru,sr,si,sv,tr,uk,vi
+K_ABOUT,About,Sobre,Über,About,Oor,عن البرنامج,Sobre,關於,About,O aplikaci,Over,Over,Tietoja,À propos,Σχετικά με,אודות,Róla,Info,について,관련 정보,About,O programie,About,About,Despre,О приложении,О програму,About,About,Hakkında,Про додаток
 K_ABOUT_TEXT,"[color=black]
 
 Pimple Popper allows you to enjoy the experience of removing protuberance on different human body parts.
@@ -775,37 +775,12 @@ We are also interested in your real-life pops. [url=""mailto:marvin@poopjournal.
 [url=""https://crazymarvin.com/pimple-popper/terms-of-service/""][color=#0000FF]Legal[/color][/url]  [img=15]res://assets/icons/law.svg[/img]
 
 [url=""https://www.buymeacoffee.com/Marvin""][color=#0000FF]Send us a coffee[/color][/url]  [img=16]res://assets/icons/bmc.svg[/img]
-[/color]","[color=black]
-
-Pimple Popper allows you to enjoy the experience of removing protuberance on different human body parts.
-
-We hope you enjoy this game. If you notice any bugs, have any questions or feedback feel free to [url=""mailto:marvin@poopjournal.rocks""][color=#0000FF]send an email[/color][/url] or open an [url=""https://github.com/Crazy-Marvin/PimplePopper/issues""][color=#0000FF]issue[/color][/url]. 
-
-We are also interested in your real-life pops. [url=""mailto:marvin@poopjournal.rocks""][color=#0000FF]Send them[/color][/url]
-
-[url=""https://www.linkedin.com/in/mottajordan""][color=#0000FF]Main Programmer[/color][/url]  [img=15]res://assets/icons/linkedin.svg[/img]
-
-[url=""https://www.behance.net/alexrendon""][color=#0000FF]Main Artist[/color][/url]  [img=15]res://assets/icons/behance.svg[/img] 
-
-[url=""https://www.github.com/Crazy-Marvin/PimplePopper/""][color=#0000FF]Source[/color][/url]  [img=15]res://assets/icons/github.svg[/img]
-
-[url=""https://www.crazymarvin.com/pimple-popper""][color=#0000FF]Homepage[/color][/url]  [img=15]res://assets/icons/home.svg[/img]
-
-[url=""https://www.godotengine.org/""][color=#0000FF]Powered by Godot[/color][/url]  [img=15]res://assets/icons/godot.svg[/img]
-
-[url=""https://www.crowdin.com/project/pimple-popper""][color=#0000FF]Help us with translations[/color][/url]  [img=15]res://assets/icons/crowdin.svg[/img]
-
-[url=""https://www.github.com/Crazy-Marvin/PimplePopper/blob/master/LICENSE""][color=#0000FF]License[/color][/url] [img=15]res://assets/icons/github.svg[/img]
-
-[url=""https://crazymarvin.com/pimple-popper/terms-of-service/""][color=#0000FF]Legal[/color][/url]  [img=15]res://assets/icons/law.svg[/img]
-
-[url=""https://www.buymeacoffee.com/Marvin""][color=#0000FF]Send us a coffee[/color][/url]  [img=16]res://assets/icons/bmc.svg[/img]
 [/color]"
-K_ABOUT_TITLE,About,Sobre,Über,About,Oor,عن البرنامج,Sobre,關於,About,O aplikaci,Over,Over,Tietoja,À propos,Σχετικά με,אודות,Róla,Info,について,관련 정보,About,O programie,About,About,Об игре,Об игре,О програму,About,About,Hakkında,Про додаток,Về Chúng Tôi
-K_ANESTHETIC_TOOL,Anestesia,Anestesia,Anästhesie,Anestesia,Anestesia,Anestesia,Anestèsia,麻醉,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anesztézia,Anestesia,麻酔,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Анестезия,Анестезия,Анестезија,Anestesia,Anestesia,Anestezi,Анестезія,Anestesia
-K_BACK_BUTTON,Back,Atras,Zurück,Back,Back,الرجوع,Darrere,返回,Back,Zpět,Vorige,Vorige,Takaisin,Précédent,Πίσω,Back,Hát,Indietro,戻る,Back,Back,Powrót,Back,Back,Spate,Назад,Назад,Back,Back,Geri dönmek,Назад,Back
-K_BACK_LEVEL_BUTTON,Back,Espalda,Rücken,Back,Back,الرجوع,Darrere,返回,Back,Zpět,Vorige,Vorige,Takaisin,Précédent,Πίσω,Back,Hát,Indietro,戻る,Back,Back,Powrót,Back,Back,Spate,Спина,Назад,Back,Back,Taşınmak,Спина,Back
-K_BLACKHEAD_BUTTON,Blackhead,Puntos negros,Mitesser,Blackhead,Blackhead,رأس أسود,Cap negre,黑頭,Blackhead,Černá hlava,Mee-eter,Mee-eter,Mustapää,Tête noire,Μαύρο,Blackhead,Miteszer,Punti neri,ブラックヘッド,Blackhead,Blackhead,Czarna głowa,Blackhead,Blackhead,Coş,Угорь,Црноглави,Blackhead,Blackhead,Siyah nokta,Вугор,Blackhead
+K_ABOUT_TITLE,About,Sobre,Über,About,Oor,عن البرنامج,Sobre,關於,About,O aplikaci,Over,Over,Tietoja,À propos,Σχετικά με,אודות,Róla,Info,について,관련 정보,About,O programie,About,About,Об игре,Об игре,О програму,About,About,Hakkında,Про додаток
+K_ANESTHETIC_TOOL,Anestesia,Anestesia,Anästhesie,Anestesia,Anestesia,Anestesia,Anestèsia,麻醉,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Anesztézia,Anestesia,麻酔,Anestesia,Anestesia,Anestesia,Anestesia,Anestesia,Анестезия,Анестезия,Анестезија,Anestesia,Anestesia,Anestezi,Анестезія
+K_BACK_BUTTON,Back,Atras,Zurück,Back,Back,الرجوع,Darrere,返回,Back,Zpět,Vorige,Vorige,Takaisin,Précédent,Πίσω,Back,Hát,Indietro,戻る,Back,Back,Powrót,Back,Back,Spate,Назад,Назад,Back,Back,Geri dönmek,Назад
+K_BACK_LEVEL_BUTTON,Back,Espalda,Rücken,Back,Back,الرجوع,Darrere,返回,Back,Zpět,Vorige,Vorige,Takaisin,Précédent,Πίσω,Back,Hát,Indietro,戻る,Back,Back,Powrót,Back,Back,Spate,Спина,Назад,Back,Back,Taşınmak,Спина
+K_BLACKHEAD_BUTTON,Blackhead,Puntos negros,Mitesser,Blackhead,Blackhead,رأس أسود,Cap negre,黑頭,Blackhead,Černá hlava,Mee-eter,Mee-eter,Mustapää,Tête noire,Μαύρο,Blackhead,Miteszer,Punti neri,ブラックヘッド,Blackhead,Blackhead,Czarna głowa,Blackhead,Blackhead,Coş,Угорь,Црноглави,Blackhead,Blackhead,Siyah nokta,Вугор
 K_BLACKHEAD_TUTORIAL_TEXT,"For this kind of protuberance you need to be careful.
 
 First, you need to apply vapor in order to open the pore. You will note that the pore was opened because the phone doesn‘t vibrate.
@@ -992,22 +967,16 @@ Tabii ki, tüm işleri yaptıktan sonra alanı temizlemeyi unutmayın.","З та
 
 Після цього вам потрібно буде обрати інструмент для видалення комедонів і двічі торкнутися вугра. Коли ви це зробите, комедон буде виділено, після чого необхідно торкнутися екрану та провести пальцем вниз, щоб видалити утворення.
 
-І, звичайно ж, після завершення процедури не забудьте очистити ділянку шкіри, з якою ви працювали.","Đối với loại nhô ra này, bạn cần phải cẩn thận.
-
-Đầu tiên, bạn cần xông hơi để mở lỗ chân lông. Bạn sẽ lưu ý rằng lỗ đã được mở vì điện thoại không rung.
-
-Sau đó, bạn cần chọn công cụ comedone và chạm hai lần vào mụn đầu đen. Khi bạn làm như vậy, nhân mụn sẽ được đặt vào phần nhô ra, cuối cùng, chạm vào màn hình và kéo ngón tay xuống và phần lồi ra sẽ bị loại bỏ.
-
-Tất nhiên, đừng quên làm sạch khu vực sau khi bạn làm tất cả công việc."
-K_BODYPART_TITLE,Bodypart,Parte del cuerpo,Körperteil,Bodypart,Bodypart,جسد,Parts del cos,身體部位,Bodypart,Součást karoserie,Lichaamsdeel,Lichaamsdeel,Kehonosa,Pièce corporelle,ΣώμαΕξάρτημα,Bodypart,Testrész,Parti del corpo,ボディーパーツ,Bodypart,Bodypart,Część ciała,Bodypart,Bodypart,Parte a corpului,Часть тела,Део тела,Bodypart,Bodypart,Vücut kısımları,Частина тіла,Bodypart
-K_BUTTOCKS_BUTTON,Butt,,Po,,Butt,بايت,Botó,,,Koberce,Butt,Billen,Butt,format@@0 Butt,Πλήκτρο,Butt,Fenék,Butt,バット,Butt,,Przycisk,,,Buton,Попа,Бутт,,,Popo,Піпа,Butt
-K_CHEEK_LEVEL_BUTTON,Cheek,Cachete,Wange,Cheek,Cheek,شيك,Galta,臉頰,Cheek,Sýr,Wang,Wang,Cheek,Joue,Μάγουλα,Cheek,Pofa,Guancia,チーク,Cheek,Cheek,Czek,Cheek,Cheek,Obraz,Щека,Образ,Cheek,Cheek,Yanak,Щока,Cheek
-K_CHEST_LEVEL_BUTTON,Chest,Pecho,Brust,Chest,Chest,صندوق,Pit,箱子,Chest,Truhla,Kist,Kist,Arkku,Coffre,Κιβώτιο,Chest,Láda,Forziere,Chest,Chest,Chest,Skrzynia,Chest,Chest,Ladă,Грудь,Груди,Chest,Chest,Göğüs,Груди,Chest
-K_CN_SIMPLIFIED_SELECTION,Chinese Simplified,,Chinesisch (vereinfacht),,Chinese Simplified,الصينية المبسطة,Xinès simplificat,,,Čínština zjednodušená,Kinesisk Forenklet,Chinees (vereenvoudigd),Kiina Yksinkertaistettu,Chinois simplifié,Κινεζικά Απλοποιημένα,Chinese Simplified,Kínai egyszerűsített,Cinese Semplificato,簡体字中国語,Chinese Simplified,,Chiński uproszczony,,,Chineză simplificată,Китайский (упрощенный),Кинески поједностављени,,,Çince (Basitleştirilmiş),Китайська спрощена,Chinese Simplified
-K_CN_TRAD_SELECTION,Chinese Traditional,,Chinesisch (traditionell),,Chinese Traditional,الصينية التقليدية,Xinès tradicional,,,Tradiční čínština,"Kinesisk, Traditionelt",Chinees (traditioneel),Kiina Perinteinen,Chinois Traditionnel,Παραδοσιακά Κινέζικα,Chinese Traditional,Hagyományos kínai,Cinese Tradizionale,繁体字中国語,Chinese Traditional,,Chiński tradycyjny,,,Chineză tradițională,Китайский (традиционный),Кинески традиционални,,,Çince (Geleneksel),Китайська традиційна,Chinese Traditional
-K_COMEDONE_TOOL,Comedone,Comedona,Mitesser,Comedone,Comedone,كوميدون,Comedons,粉刺,Comedone,Komedon,Mee-eters,Mee-eters,Komedoni,Comedone,Κομεδόνη,Comedone,Bőratka,Comedone,面皰,Comedone,Comedone,Komedon,Comedone,Comedone,Cădere,Комедон,Комедони,Comedone,Comedone,Komedonlar,Комедон,Comedone
-K_CUTTER_TOOL,Cutter,Exacto,Messer,Cutter,Cutter,مصراع,Tallador,切割,Cutter,Řezání,Smør,Cutter,Leikkaaja,Coupeur,Κόφτης,Cutter,Vágó szerkezet,Taglierino,カッター,Cutter,Cutter,Kawałek,Cutter,Cutter,Cuțit,Режущий инструмент,Цуттер,Cutter,Cutter,Kesici,Ріжучий інструмент,Cutter
-K_CYST_BUTTON,Cyst,Quiste,Zyste,Cyst,Cyst,دراجة,Quist,囊腫,Cyst,Cyst,Cyste,Cyste,Kysy,kyste,Κύστη,Cyst,Hólyag,Cisti,シスト,Cyst,Cyst,Cysta,Cyst,Cyst,Chist,Киста,Циста,Cyst,Cyst,Kist,Кіста,Cyst
+І, звичайно ж, після завершення процедури не забудьте очистити ділянку шкіри, з якою ви працювали."
+K_BODYPART_TITLE,Bodypart,Parte del cuerpo,Körperteil,Bodypart,Bodypart,جسد,Parts del cos,身體部位,Bodypart,Součást karoserie,Lichaamsdeel,Lichaamsdeel,Kehonosa,Pièce corporelle,ΣώμαΕξάρτημα,Bodypart,Testrész,Parti del corpo,ボディーパーツ,Bodypart,Bodypart,Część ciała,Bodypart,Bodypart,Parte a corpului,Часть тела,Део тела,Bodypart,Bodypart,Vücut kısımları,Частина тіла
+K_BUTTOCKS_BUTTON,Butt,,Po,,Butt,بايت,Botó,,,Koberce,Butt,Billen,Butt,format@@0 Butt,Πλήκτρο,Butt,Fenék,Butt,バット,Butt,,Przycisk,,,Buton,Попа,Бутт,,,Popo,Піпа
+K_CHEEK_LEVEL_BUTTON,Cheek,Cachete,Wange,Cheek,Cheek,شيك,Galta,臉頰,Cheek,Sýr,Wang,Wang,Cheek,Joue,Μάγουλα,Cheek,Pofa,Guancia,チーク,Cheek,Cheek,Czek,Cheek,Cheek,Obraz,Щека,Образ,Cheek,Cheek,Yanak,Щока
+K_CHEST_LEVEL_BUTTON,Chest,Pecho,Brust,Chest,Chest,صندوق,Pit,箱子,Chest,Truhla,Kist,Kist,Arkku,Coffre,Κιβώτιο,Chest,Láda,Forziere,Chest,Chest,Chest,Skrzynia,Chest,Chest,Ladă,Грудь,Груди,Chest,Chest,Göğüs,Груди
+K_CN_SIMPLIFIED_SELECTION,Chinese Simplified,,Chinesisch (vereinfacht),,Chinese Simplified,الصينية المبسطة,Xinès simplificat,,,Čínština zjednodušená,Kinesisk Forenklet,Chinees (vereenvoudigd),Kiina Yksinkertaistettu,Chinois simplifié,Κινεζικά Απλοποιημένα,Chinese Simplified,Kínai egyszerűsített,Cinese Semplificato,簡体字中国語,Chinese Simplified,,Chiński uproszczony,,,Chineză simplificată,Китайский (упрощенный),Кинески поједностављени,,,Çince (Basitleştirilmiş),Китайська спрощена
+K_CN_TRAD_SELECTION,Chinese Traditional,,Chinesisch (traditionell),,Chinese Traditional,الصينية التقليدية,Xinès tradicional,,,Tradiční čínština,"Kinesisk, Traditionelt",Chinees (traditioneel),Kiina Perinteinen,Chinois Traditionnel,Παραδοσιακά Κινέζικα,Chinese Traditional,Hagyományos kínai,Cinese Tradizionale,繁体字中国語,Chinese Traditional,,Chiński tradycyjny,,,Chineză tradițională,Китайский (традиционный),Кинески традиционални,,,Çince (Geleneksel),Китайська традиційна
+K_COMEDONE_TOOL,Comedone,Comedona,Mitesser,Comedone,Comedone,كوميدون,Comedons,粉刺,Comedone,Komedon,Mee-eters,Mee-eters,Komedoni,Comedone,Κομεδόνη,Comedone,Bőratka,Comedone,面皰,Comedone,Comedone,Komedon,Comedone,Comedone,Cădere,Комедон,Комедони,Comedone,Comedone,Komedonlar,Комедон
+K_CUTTER_TOOL,Cutter,Exacto,Messer,Cutter,Cutter,مصراع,Tallador,切割,Cutter,Řezání,Smør,Cutter,Leikkaaja,Coupeur,Κόφτης,Cutter,Vágó szerkezet,Taglierino,カッター,Cutter,Cutter,Kawałek,Cutter,Cutter,Cuțit,Режущий инструмент,Цуттер,Cutter,Cutter,Kesici,Ріжучий інструмент
+K_CYST_BUTTON,Cyst,Quiste,Zyste,Cyst,Cyst,دراجة,Quist,囊腫,Cyst,Cyst,Cyste,Cyste,Kysy,kyste,Κύστη,Cyst,Hólyag,Cisti,シスト,Cyst,Cyst,Cysta,Cyst,Cyst,Chist,Киста,Циста,Cyst,Cyst,Kist,Кіста
 K_CYST_TUTORIAL_TEXT,"Probably the easiest protuberance to remove.
 
 That big thing can be removed when you select the needle tool and touch and hold in a specefic location of the protuberance. Touch the hint button if you need to locate it. If you touch the right location, a sound is emitted. Now with one finger holding the needle, use another one to extract the content of the protuberance.
@@ -1130,26 +1099,22 @@ Her şeyi çıkardıktan sonra mendille temizlemeyi unutmayın.","Мабуть, 
 
 Це велике утворення можна видалити таким чином: оберіть інструмент «Голка» та утримуйте його у певній точці випуклості. Натисніть кнопку ""Підказка"", якщо не знаєте, де краще розмістити голку. Якщо торкнутися правильного місця, ви почуєте звук. Після цього, утримуючи голку одним пальцем, іншим вийміть вміст утворення.
 
-Після того, як ви все видалите, не забудьте протерти шкіру носовою хустинкою.","Có lẽ phần nhô ra dễ dàng nhất để loại bỏ.
-
-Điều to lớn đó có thể được loại bỏ khi bạn chọn công cụ kim và chạm và giữ ở một vị trí cụ thể của phần nhô ra. Chạm vào nút gợi ý nếu bạn cần xác định vị trí của nó. Nếu bạn chạm vào đúng vị trí, âm thanh sẽ phát ra. Bây giờ với một ngón tay cầm kim, sử dụng một ngón tay khác để trích xuất nội dung của phần nhô ra.
-
-Sau khi bạn loại bỏ mọi thứ, hãy nhớ làm sạch chúng bằng khăn tay."
-K_EASY_BUTTON,Easy,Fácil,Einfach,Easy,Easy,سهل,Fàcil,簡單,Easy,Snadné,Gemakkelijk,Gemakkelijk,Helppo,Facile,Εύκολο,Easy,Könnyű,Facile,簡単,Easy,Easy,Łatwy,Easy,Easy,Ușor,Легкий,Лако,Easy,Easy,Kolay,Легкий,Easy
-K_ENGLISH_SELECTION,English,Ingles,Englisch,English,English,الإنكليزية,Anglès,英文,English,Anglické,Engels,Engels,Englanti,Anglais,Αγγλικά,English,Angol,Inglese,日本語,English,English,Angielski,English,English,Engleză,Английский,Енглески,English,English,İngilizce,Англійська,English
-K_EXIT_GAME_BUTTON,Exit,Salir,Beenden,Exit,Exit,الخروج,Sortir,退出,Exit,Ukončit,Sluit af,Sluit af,Poistu,Quitter,Έξοδος,Exit,Kijárat,Esci,終了,Exit,Exit,Wyjście,Exit,Exit,Ieșire,Выйти,Изађи,Exit,Exit,Çıkış,Вийти,Exit
-K_FOREHEAD_LEVEL_BUTTON,Forehead,Frente,Stirn,Forehead,Forehead,الفاتح,Front,額頭,Forehead,Přední,Voorhoofd,Voorhoofd,Etupää,Avant-plan,Μέτωπο,Forehead,Homlok,Fronte,おでき,Forehead,Forehead,Przód,Forehead,Forehead,Frunte,Лоб,Чело,Forehead,Forehead,Alın,Чоло,Forehead
-K_FRENCH_SELECTION,French,,Französisch,,French,الفرنسية,Francès,,,Francouzština,Fransk,Frans,Ranska,Français,Γαλλικά,French,Franciául,Francese,フランス語,French,,Francuski,,,Franceză,Французский,Француски,,,Fransızca,Французька,French
-K_GERMAN_SELECTION,German,Alemán,Deutsch,German,German,الألمانية,Alemany,德文,German,Němčina,Duits,Duits,Saksa,Allemand,Γερμανικά,גרמנית,Német,Tedesco,ドイツ語,German,German,niemiecki,German,German,Germană,Немецкий,Немачки,German,German,Almanca,Німецька,German
-K_HAND_TOOL,Hand,Mano,Hand,Hand,Hand,اليد,Mans,手,Hand,Ruka,Hånd,Hand,Käsi,Main,Χέρι,Hand,Kéz,Mano,手,Hand,Hand,Dłoń,Hand,Hand,Mână,Рука,Рука,Hand,Hand,El,Рука,Hand
-K_HANDKERCHIEF_TOOL,Handkerchief,Pañuelo,Taschentuch,Handkerchief,Handkerchief,المعالج,Mocador,手帕,Handkerchief,Šéfkuchař,Zakdoek,Zakdoek,Nenäliinat,Poussière,Handkerchief,Handkerchief,Zsebkendő,Fazzoletto,ハンカチ型,Handkerchief,Handkerchief,Kierownik,Handkerchief,Handkerchief,Batistă,Носовой платок,Марамица,Handkerchief,Handkerchief,Lenço,Носова хустинка,Handkerchief
-K_HARD_BUTTON,Hard,Difícil,Schwierig,Hard,Hard,صعب,Difícil,困難,Hard,Těžká,Moeilijk,Moeilijk,Vaikea,Difficile,Δύσκολο,Hard,Kéz,Difficile,ハード,Hard,Hard,Twarde,Hard,Hard,Dificil,Сложный,Тешко,Hard,Hard,Zor,Складний,Hard
-K_HINT_BUTTON,Hint,Pista,Hilfe,Hint,Hint,تلميح,Pista,提示,Hint,Nápověda,Tip,Tip,Vihje,Indice,Υπόδειξη,Hint,Célzás,Suggerimenti,ヒント,Hint,Hint,Wskazówka,Hint,Hint,Indiciu,Подсказка,Наговештаји,Hint,Hint,İpucu,Підказка,Hint
-K_ITALIAN_SELECTION,Italian,,Italienisch,,Italian,الإيطالية,Italià,,,Italština,Italiensk,Italiaans,Italia,Italien,Ιταλικά,Italian,Olasz,Italiano,イタリア語,Italian,,Włoski,,,Italiană,Итальянский,Италијански,,,İtalyanca,Італійська,Italian
-K_LANGUAGE_OPTION_TITLE,Language,Idioma,Sprache,Language,Language,اللغة,Llengua,語言,Language,Jazyk,Taal,Taal,Kieli,Langue,Γλώσσα,Language,Nyelv,Lingua,言語,Language,Language,Język,Language,Language,Limba,Язык,Језици,Language,Language,Dil,Мова,Language
-K_LANGUAGE_SELECTION,Select a language,Seleccione un idioma,Wählen Sie eine Sprache aus,Select a language,Select a language,اختر لغة,Selecciona una llengua,選擇語言,Select a language,Vyberte jazyk,Kies een taal,Kies een taal,Valitse kieli,Sélectionnez une langue,Επιλέξτε μια γλώσσα,Select a language,Nyelv kiválasztása,Seleziona una lingua,言語を選択,Select a language,Select a language,Wybierz język,Select a language,Select a language,Selectaţi o limbă,Выбрать язык,Одабери језик,Select a language,Select a language,Bir dil seçin,Обрати мову,Select a language
-K_LEVEL_TITLE,Level,Nivel,Schwierigkeit,Level,Level,المستوى,Nivell,等級,Level,Úrovně,Niveau,Level,Taso,Niveau,Επίπεδο,Level,Szint,Livello,レベル,Level,Level,Poziom,Level,Level,Nivel,Уровень,Ниво,Level,Level,Seviye,Рівень,Level
-K_LIPOMA_BUTTON,Lipoma,Lipoma,Lipom,Lipoma,Lipoma,Lipoma,Lipoma,脂肪瘤,Lipoma,Lipoma,Lipoom,Lipoom,Lipoma,Lipoma,Lipoma,Lipoma,Lipóma,Lipoma,脂肪腫,Lipoma,Lipoma,Lipoma,Lipoma,Lipoma,Lipom,Липома,Липома,Lipoma,Lipoma,Lipom,Ліпома,Lipoma
+Після того, як ви все видалите, не забудьте протерти шкіру носовою хустинкою."
+K_EASY_BUTTON,Easy,Fácil,Einfach,Easy,Easy,سهل,Fàcil,簡單,Easy,Snadné,Gemakkelijk,Gemakkelijk,Helppo,Facile,Εύκολο,Easy,Könnyű,Facile,簡単,Easy,Easy,Łatwy,Easy,Easy,Ușor,Легкий,Лако,Easy,Easy,Kolay,Легкий
+K_ENGLISH_SELECTION,English,Ingles,Englisch,English,English,الإنكليزية,Anglès,英文,English,Anglické,Engels,Engels,Englanti,Anglais,Αγγλικά,English,Angol,Inglese,日本語,English,English,Angielski,English,English,Engleză,Английский,Енглески,English,English,İngilizce,Англійська
+K_EXIT_GAME_BUTTON,Exit,Salir,Beenden,Exit,Exit,الخروج,Sortir,退出,Exit,Ukončit,Sluit af,Sluit af,Poistu,Quitter,Έξοδος,Exit,Kijárat,Esci,終了,Exit,Exit,Wyjście,Exit,Exit,Ieșire,Выйти,Изађи,Exit,Exit,Çıkış,Вийти
+K_FOREHEAD_LEVEL_BUTTON,Forehead,Frente,Stirn,Forehead,Forehead,الفاتح,Front,額頭,Forehead,Přední,Voorhoofd,Voorhoofd,Etupää,Avant-plan,Μέτωπο,Forehead,Homlok,Fronte,おでき,Forehead,Forehead,Przód,Forehead,Forehead,Frunte,Лоб,Чело,Forehead,Forehead,Alın,Чоло
+K_FRENCH_SELECTION,French,,Französisch,,French,الفرنسية,Francès,,,Francouzština,Fransk,Frans,Ranska,Français,Γαλλικά,French,Franciául,Francese,フランス語,French,,Francuski,,,Franceză,Французский,Француски,,,Fransızca,Французька
+K_GERMAN_SELECTION,German,Alemán,Deutsch,German,German,الألمانية,Alemany,德文,German,Němčina,Duits,Duits,Saksa,Allemand,Γερμανικά,גרמנית,Német,Tedesco,ドイツ語,German,German,niemiecki,German,German,Germană,Немецкий,Немачки,German,German,Almanca,Німецька
+K_HAND_TOOL,Hand,Mano,Hand,Hand,Hand,اليد,Mans,手,Hand,Ruka,Hånd,Hand,Käsi,Main,Χέρι,Hand,Kéz,Mano,手,Hand,Hand,Dłoń,Hand,Hand,Mână,Рука,Рука,Hand,Hand,El,Рука
+K_HANDKERCHIEF_TOOL,Handkerchief,Pañuelo,Taschentuch,Handkerchief,Handkerchief,المعالج,Mocador,手帕,Handkerchief,Šéfkuchař,Zakdoek,Zakdoek,Nenäliinat,Poussière,Handkerchief,Handkerchief,Zsebkendő,Fazzoletto,ハンカチ型,Handkerchief,Handkerchief,Kierownik,Handkerchief,Handkerchief,Batistă,Носовой платок,Марамица,Handkerchief,Handkerchief,Lenço,Носова хустинка
+K_HARD_BUTTON,Hard,Difícil,Schwierig,Hard,Hard,صعب,Difícil,困難,Hard,Těžká,Moeilijk,Moeilijk,Vaikea,Difficile,Δύσκολο,Hard,Kéz,Difficile,ハード,Hard,Hard,Twarde,Hard,Hard,Dificil,Сложный,Тешко,Hard,Hard,Zor,Складний
+K_HINT_BUTTON,Hint,Pista,Hilfe,Hint,Hint,تلميح,Pista,提示,Hint,Nápověda,Tip,Tip,Vihje,Indice,Υπόδειξη,Hint,Célzás,Suggerimenti,ヒント,Hint,Hint,Wskazówka,Hint,Hint,Indiciu,Подсказка,Наговештаји,Hint,Hint,İpucu,Підказка
+K_ITALIAN_SELECTION,Italian,,Italienisch,,Italian,الإيطالية,Italià,,,Italština,Italiensk,Italiaans,Italia,Italien,Ιταλικά,Italian,Olasz,Italiano,イタリア語,Italian,,Włoski,,,Italiană,Итальянский,Италијански,,,İtalyanca,Італійська
+K_LANGUAGE_OPTION_TITLE,Language,Idioma,Sprache,Language,Language,اللغة,Llengua,語言,Language,Jazyk,Taal,Taal,Kieli,Langue,Γλώσσα,Language,Nyelv,Lingua,言語,Language,Language,Język,Language,Language,Limba,Язык,Језици,Language,Language,Dil,Мова
+K_LANGUAGE_SELECTION,Select a language,Seleccione un idioma,Wählen Sie eine Sprache aus,Select a language,Select a language,اختر لغة,Selecciona una llengua,選擇語言,Select a language,Vyberte jazyk,Kies een taal,Kies een taal,Valitse kieli,Sélectionnez une langue,Επιλέξτε μια γλώσσα,Select a language,Nyelv kiválasztása,Seleziona una lingua,言語を選択,Select a language,Select a language,Wybierz język,Select a language,Select a language,Selectaţi o limbă,Выбрать язык,Одабери језик,Select a language,Select a language,Bir dil seçin,Обрати мову
+K_LEVEL_TITLE,Level,Nivel,Schwierigkeit,Level,Level,المستوى,Nivell,等級,Level,Úrovně,Niveau,Level,Taso,Niveau,Επίπεδο,Level,Szint,Livello,レベル,Level,Level,Poziom,Level,Level,Nivel,Уровень,Ниво,Level,Level,Seviye,Рівень
+K_LIPOMA_BUTTON,Lipoma,Lipoma,Lipom,Lipoma,Lipoma,Lipoma,Lipoma,脂肪瘤,Lipoma,Lipoma,Lipoom,Lipoom,Lipoma,Lipoma,Lipoma,Lipoma,Lipóma,Lipoma,脂肪腫,Lipoma,Lipoma,Lipoma,Lipoma,Lipoma,Lipom,Липома,Липома,Lipoma,Lipoma,Lipom,Ліпома
 K_LIPOMA_TUTORIAL_TEXT,"The complex protuberance to remove in a body. But i will show how to remove it.
 
 First, you need to apply anaesthetic because you are going to cut the area. After you apply it you can select the cutter tool and cut the area.
@@ -1334,19 +1299,13 @@ Ve şimdi her şey kaldırıldığına göre, yarayı dikmeniz gerekecek.","Це
 
 Тепер, коли утворення розкрито, натисніть на нього рукою, щоб видалити вміст.
 
-Після завершення процедури рану необхідно зашити.","Sự lồi lõm phức tạp cần loại bỏ trong cơ thể. Nhưng tôi sẽ chỉ cho bạn cách loại bỏ nó.
-
-Đầu tiên, bạn cần bôi thuốc tê vì bạn sẽ cắt vùng đó. Sau khi áp dụng nó, bạn có thể chọn công cụ cắt và cắt khu vực.
-
-Bây giờ với nội dung lộ ra, hãy dùng tay để tạo áp lực và loại bỏ nội dung.
-
-Và bây giờ mọi thứ đã được gỡ bỏ, bạn sẽ cần khâu vết thương."
-K_NEEDLE_TOOL,Needle,Inyectadora,Nadel,Needle,Needle,إحتياطي,Agulla,針,Needle,Jehly,Naald,Naald,Neula,Aiguille,Βελόνα,Needle,Tű,Ago,ニードル語,Needle,Needle,Igła,Needle,Needle,Ac,Игла,Игла,Needle,Needle,İğne,Голка,Needle
-K_NORMAL_BUTTON,Normal,Normal,Normal,Normal,Normal,عادي,Normal,普通,Normal,Normální,Normaal,Normaal,Normaali,Normale,Κανονικό,Normal,Normális,Normale,標準,Normal,Normal,Normalny,Normal,Normal,Normal,Средний,Нормално,Normal,Normal,Normal,Середній,Normal
-K_NOSE_BUTTON,Nose,,Nase,,Nose,الأنف,Nas,,,Nosnice,Næse,Neus,Nenä,Nez,Μύτη,Nose,Orr,Naso,鼻毛（なせ）,Nose,,Nose,,,Nuci,Нос,Нос,,,Burun,Носе,Nose
-K_OPTIONS,Options,Opciones,Einstellungen,Options,Options,خيارات,Opcions,選項,Options,Možnosti,Opties,Opties,Valinnat,Options,Επιλογές,Options,Lehetőségek,Opzioni,オプション,Options,Options,Opcje,Options,Options,Opţiuni,Опции,Опције,Options,Options,Şeçenekler,Опції,Options
-K_OPTIONS_TITLE,Options,Opciones,Optionen,Options,Options,خيارات,Opcions,選項,Options,Možnosti,Opties,Opties,Valinnat,Options,Επιλογές,Options,Lehetőségek,Opzioni,オプション,Options,Options,Opcje,Options,Options,Opţiuni,Опции,Опције,Options,Options,Şeçenekler,Опції,Options
-K_PIMPLE_BUTTON,Pimple,Espinilla,Pickel,Pimple,Pimple,قماش,Grano,丘疹,Pimple,Pimár,Puistje,Puistje,Pimple,Touche,Σπυράκι,Pimple,Pattanás,Brufoli,吹き出物,Pimple,Pimple,Prosty,Pimple,Pimple,Pimplant,Прыщ,Бубуљица,Pimple,Pimple,Sivilceler,Прищ,Pimple
+Після завершення процедури рану необхідно зашити."
+K_NEEDLE_TOOL,Needle,Inyectadora,Nadel,Needle,Needle,إحتياطي,Agulla,針,Needle,Jehly,Naald,Naald,Neula,Aiguille,Βελόνα,Needle,Tű,Ago,ニードル語,Needle,Needle,Igła,Needle,Needle,Ac,Игла,Игла,Needle,Needle,İğne,Голка
+K_NORMAL_BUTTON,Normal,Normal,Normal,Normal,Normal,عادي,Normal,普通,Normal,Normální,Normaal,Normaal,Normaali,Normale,Κανονικό,Normal,Normális,Normale,標準,Normal,Normal,Normalny,Normal,Normal,Normal,Средний,Нормално,Normal,Normal,Normal,Середній
+K_NOSE_BUTTON,Nose,,Nase,,Nose,الأنف,Nas,,,Nosnice,Næse,Neus,Nenä,Nez,Μύτη,Nose,Orr,Naso,鼻毛（なせ）,Nose,,Nose,,,Nuci,Нос,Нос,,,Burun,Носе
+K_OPTIONS,Options,Opciones,Einstellungen,Options,Options,خيارات,Opcions,選項,Options,Možnosti,Opties,Opties,Valinnat,Options,Επιλογές,Options,Lehetőségek,Opzioni,オプション,Options,Options,Opcje,Options,Options,Opţiuni,Опции,Опције,Options,Options,Şeçenekler,Опції
+K_OPTIONS_TITLE,Options,Opciones,Optionen,Options,Options,خيارات,Opcions,選項,Options,Možnosti,Opties,Opties,Valinnat,Options,Επιλογές,Options,Lehetőségek,Opzioni,オプション,Options,Options,Opcje,Options,Options,Opţiuni,Опции,Опције,Options,Options,Şeçenekler,Опції
+K_PIMPLE_BUTTON,Pimple,Espinilla,Pickel,Pimple,Pimple,قماش,Grano,丘疹,Pimple,Pimár,Puistje,Puistje,Pimple,Touche,Σπυράκι,Pimple,Pattanás,Brufoli,吹き出物,Pimple,Pimple,Prosty,Pimple,Pimple,Pimplant,Прыщ,Бубуљица,Pimple,Pimple,Sivilceler,Прищ
 K_PIMPLE_TUTORIAL_TEXT,"In this section you need to remove some pimples from different parts of the body.
 
 In order to remove the pimples, you just need to enable the hand tool and use your finger to apply pressure to pop the pimple. Then when the pimple's popped, use a handkerchief to clean the are. You aren't going to be a good doctor if you left all those stuff there.","En esta sección necesitas remover algunas espinillas de diferentes partes del cuerpo.
@@ -1409,19 +1368,17 @@ In order to remove the pimples, you just need to enable the hand tool and use yo
 
 Sivilceleri gidermek için el aletini etkinleştirmeniz ve sivilceyi patlatmak için parmağınızı kullanarak baskı uygulamanız yeterlidir. Ardından sivilce çıktığında, bölgeyi temizlemek için bir mendil kullanın. Bütün o şeyleri orada bırakırsan iyi bir doktor olmayacaksın.","У цьому блоці вам потрібно видалити кілька прищів із різних частин тіла.
 
-Щоб видалити прищі, вам потрібно лише активізувати ручний інструмент і натиснути пальцем на прищ, щоб видавити його. Після того, як прищ буде видавлений, скористайтеся носову хустинкою, щоб протерти ділянку шкіри. Ви не станете хорошим лікарем, якщо залишите все як є.","Trong phần này, bạn cần loại bỏ một số mụn từ các bộ phận khác nhau của cơ thể.
-
-Để loại bỏ mụn, bạn chỉ cần bật dụng cụ cầm tay và dùng ngón tay ấn vào để làm bật mụn. Sau đó, khi mụn xuất hiện, hãy dùng khăn tay để làm sạch chúng. Bạn sẽ không trở thành một bác sĩ giỏi nếu bạn để tất cả những thứ đó ở đó."
-K_PLAY,Play,Comenzar,Start,Play,Play,تشغيل,Jugar,開始,Play,Hrát,Spelen,Spelen,Toista,Jouer,Αναπαραγωγή,Play,Játék,Gioca,再生,Play,Play,Odtwórz,Play,Play,Joacă,Играть,Покрени,Play,Play,Oynat,Грати,Play
-K_PR_SELECTION,Portugese,,Portugese,,Portugese,Portugese,Portuguès,,,Portugese,Portugese,Portugese,Portugese,Portugese,Portugese,Portugese,Portugál,Portugese,ポルトガル語,Portugese,,Portugese,,,Portugese,Portugese,Португалски,,,Portekizce,Португальська,Portugese
-K_RUSSIAN_SELECTION,Russian,,Russisch,,Russian,الروسية,Rus,,,Ruština,Russisk,Russisch,Venäjä,Russe,Ρωσικά,Russian,Orosz,Russo,ロシア語,Russian,,Rosyjski,,,Rusă,Русский,Руски,,,Rusça,Російська,Russian
-K_SERBIAN_SELECTION,Serbian,,Serbisch,,Serbian,الصربية,Sèrbi,,,Srbština,Serbisk,Servisch,Serbia,Serbe,Σερβικά,Serbian,Szerb,Serbo,セルビア語,Serbian,,Serbski,,,Sârbă,Сербский,Српски,,,Sırpça,Сербська,Serbian
-K_SHIN_BUTTON,Shin,,Schienbein,,Shin,شين,Canyella,,,Stříbrný,Shin,scheenbeen,Shin,Tibia,Shin,Shin,Lábszár,Shin,しん（しん）,Shin,,Ślew,,,Strălucire,Шин,Цеваница,,,Incik,Шин,Shin
-K_SHOULDER_BUTTON,Shoulder,,Schulter,,Shoulder,كتف,Espatlla,,,Rameno,Shoulder,Shoulder,Shoulder,Épaule,΄Ωμος,Shoulder,Váll,Spalla,ショルダー,Shoulder,,Ramię,,,Umăr,Плечо,Рамена,,,Omuz,Плече,Shoulder
-K_SPANISH_SELECTION,Spanish,Español,Spanisch,Spanish,Spanish,الإسبانية,Espanyol,西班牙文,Spanish,Španělština,Spaans,Spaans,Espanja,Espagnol,Ισπανικά,Spanish,Spanyol,Spagnolo,スペイン語,Spanish,Spanish,hiszpański,Spanish,Spanish,Spaniolă,Испанский,Шпански,Spanish,Spanish,İspanyolca,Іспанська,Spanish
-K_SUPER_HARD_BUTTON,Super hard,Super difícil,Äußerst schwierig,Super hard,Super hard,صعب جداً,Super dur,超難,Super hard,Super tvrdý,Heel moeilijk,Heel moeilijk,Super kova,Super dur,Σούπερ σκληρό,Super hard,Szuper kemény,Super difficile,スーパーマリオ,Super hard,Super hard,Super twardy,Super hard,Super hard,Super dificil,Очень сложный,Тељко,Super hard,Super hard,Süper Çiftlik,Дуже складний,Super hard
-K_SUTURE_TOOL,Suture,Suturar,Vernähen,Suture,Suture,رقاقة,Sutura,縫合,Suture,Výbuch,Hechting,Hechting,Imeä,Suture,Συρραφή,Suture,Varrat,Sutura,縫合,Suture,Suture,Przyszłość,Suture,Suture,Sutură,Хирургическая нить,Шав,Suture,Suture,İplik,Хірургічна нитка,Suture
-K_TUTORIAL,Tutorial,Tutorial,Anleitung,Tutorial,Tutorial,البرنامج التعليمي,Aprenentatge,新手教學,Tutorial,Návod,Vejledning,Tutorial,Opastus,Tutoriel,Εκμάθηση,Tutorial,Oktató videó,Tutorial,チュートリアル,Tutorial,Tutorial,Samouczek,Tutorial,Tutorial,Tutorial,Инструкция,Водич,Tutorial,Tutorial,Öğretici,Інструкція,Tutorial
+Щоб видалити прищі, вам потрібно лише активізувати ручний інструмент і натиснути пальцем на прищ, щоб видавити його. Після того, як прищ буде видавлений, скористайтеся носову хустинкою, щоб протерти ділянку шкіри. Ви не станете хорошим лікарем, якщо залишите все як є."
+K_PLAY,Play,Comenzar,Start,Play,Play,تشغيل,Jugar,開始,Play,Hrát,Spelen,Spelen,Toista,Jouer,Αναπαραγωγή,Play,Játék,Gioca,再生,Play,Play,Odtwórz,Play,Play,Joacă,Играть,Покрени,Play,Play,Oynat,Грати
+K_PR_SELECTION,Portugese,,Portugese,,Portugese,Portugese,Portuguès,,,Portugese,Portugese,Portugese,Portugese,Portugese,Portugese,Portugese,Portugál,Portugese,ポルトガル語,Portugese,,Portugese,,,Portugese,Portugese,Португалски,,,Portekizce,Португальська
+K_RUSSIAN_SELECTION,Russian,,Russisch,,Russian,الروسية,Rus,,,Ruština,Russisk,Russisch,Venäjä,Russe,Ρωσικά,Russian,Orosz,Russo,ロシア語,Russian,,Rosyjski,,,Rusă,Русский,Руски,,,Rusça,Російська
+K_SERBIAN_SELECTION,Serbian,,Serbisch,,Serbian,الصربية,Sèrbi,,,Srbština,Serbisk,Servisch,Serbia,Serbe,Σερβικά,Serbian,Szerb,Serbo,セルビア語,Serbian,,Serbski,,,Sârbă,Сербский,Српски,,,Sırpça,Сербська
+K_SHIN_BUTTON,Shin,,Schienbein,,Shin,شين,Canyella,,,Stříbrný,Shin,scheenbeen,Shin,Tibia,Shin,Shin,Lábszár,Shin,しん（しん）,Shin,,Ślew,,,Strălucire,Шин,Цеваница,,,Incik,Шин
+K_SHOULDER_BUTTON,Shoulder,,Schulter,,Shoulder,كتف,Espatlla,,,Rameno,Shoulder,Shoulder,Shoulder,Épaule,΄Ωμος,Shoulder,Váll,Spalla,ショルダー,Shoulder,,Ramię,,,Umăr,Плечо,Рамена,,,Omuz,Плече
+K_SPANISH_SELECTION,Spanish,Español,Spanisch,Spanish,Spanish,الإسبانية,Espanyol,西班牙文,Spanish,Španělština,Spaans,Spaans,Espanja,Espagnol,Ισπανικά,Spanish,Spanyol,Spagnolo,スペイン語,Spanish,Spanish,hiszpański,Spanish,Spanish,Spaniolă,Испанский,Шпански,Spanish,Spanish,İspanyolca,Іспанська
+K_SUPER_HARD_BUTTON,Super hard,Super difícil,Äußerst schwierig,Super hard,Super hard,صعب جداً,Super dur,超難,Super hard,Super tvrdý,Heel moeilijk,Heel moeilijk,Super kova,Super dur,Σούπερ σκληρό,Super hard,Szuper kemény,Super difficile,スーパーマリオ,Super hard,Super hard,Super twardy,Super hard,Super hard,Super dificil,Очень сложный,Тељко,Super hard,Super hard,Süper Çiftlik,Дуже складний
+K_SUTURE_TOOL,Suture,Suturar,Vernähen,Suture,Suture,رقاقة,Sutura,縫合,Suture,Výbuch,Hechting,Hechting,Imeä,Suture,Συρραφή,Suture,Varrat,Sutura,縫合,Suture,Suture,Przyszłość,Suture,Suture,Sutură,Хирургическая нить,Шав,Suture,Suture,İplik,Хірургічна нитка
+K_TUTORIAL,Tutorial,Tutorial,Anleitung,Tutorial,Tutorial,البرنامج التعليمي,Aprenentatge,新手教學,Tutorial,Návod,Vejledning,Tutorial,Opastus,Tutoriel,Εκμάθηση,Tutorial,Oktató videó,Tutorial,チュートリアル,Tutorial,Tutorial,Samouczek,Tutorial,Tutorial,Tutorial,Инструкция,Водич,Tutorial,Tutorial,Öğretici,Інструкція
 K_TUTORIAL_DEVELOPMENT_MESSAGE,"The tutorial is under the works. 
 
 Please wait for an app update.",Play,"Das Tutorial ist in Arbeit.
@@ -1466,8 +1423,6 @@ Te rugăm, așteaptă o actualizare a aplicației.","Инструкция нах
 
 Lütfen bir uygulama güncellemesi için bekleyin.","Інструкція знаходиться у розробці.
 
-Будь ласка, зачекайте на оновлення додатка.","The tutorial is under the works. 
-
-Please wait for an app update."
-K_VAPOR_TOOL,Vapor,Vapor,Wasserdampf,Vapor,Vapor,Vapor,Vapor,噴霧器,Vapor,Vapor,Stoom,Stoom,Vapor,Vapor,Vapor,Vapor,Gőz,Vapore,蒸気,Vapor,Vapor,Vapor,Vapor,Vapor,Vapor,Пар,Вапор,Vapor,Vapor,Buhar,Пара,Vapor
-K_WRIST_LEVEL_BUTTON,Wrist,Muñeca,Handgelenk,Wrist,Wrist,معطف,Canell,手腕,Wrist,Zápěstí,Pols,Pols,Ranneke,Poignets,Καρπός,Wrist,Csukló,Polso,手,Wrist,Wrist,Nadgarstka,Wrist,Wrist,Încheietura mâinii,Запястье,Ручни зглоб,Wrist,Wrist,Bilek,Зап'ясток,Wrist
+Будь ласка, зачекайте на оновлення додатка."
+K_VAPOR_TOOL,Vapor,Vapor,Wasserdampf,Vapor,Vapor,Vapor,Vapor,噴霧器,Vapor,Vapor,Stoom,Stoom,Vapor,Vapor,Vapor,Vapor,Gőz,Vapore,蒸気,Vapor,Vapor,Vapor,Vapor,Vapor,Vapor,Пар,Вапор,Vapor,Vapor,Buhar,Пара
+K_WRIST_LEVEL_BUTTON,Wrist,Muñeca,Handgelenk,Wrist,Wrist,معطف,Canell,手腕,Wrist,Zápěstí,Pols,Pols,Ranneke,Poignets,Καρπός,Wrist,Csukló,Polso,手,Wrist,Wrist,Nadgarstka,Wrist,Wrist,Încheietura mâinii,Запястье,Ручни зглоб,Wrist,Wrist,Bilek,Зап'ясток
