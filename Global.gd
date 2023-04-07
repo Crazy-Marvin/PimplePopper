@@ -19,7 +19,8 @@ var _scenes = {
 		"forehead": "res://bodyparts/blackhead/forehead.tscn",
 		"nose": "res://bodyparts/blackhead/nose.tscn",
 		"shoulder": "res://bodyparts/blackhead/shoulder.tscn",
-		"back": "res://bodyparts/blackhead/back.tscn"
+		"back": "res://bodyparts/blackhead/back.tscn",
+		"ear": "res://bodyparts/blackhead/ear.tscn",
 	},
 	"cyst": {
 		"forehead": "res://bodyparts/cyst/forehead.tscn",
@@ -77,6 +78,10 @@ var _levels: Dictionary = {
 		{
 			"name": "K_BACK_LEVEL_BUTTON",
 			"code": "back"
+		},
+		{
+			"name": "K_EAR_LEVEL_BUTTON",
+			"code": "ear"
 		},
 	],
 	"cyst": [
