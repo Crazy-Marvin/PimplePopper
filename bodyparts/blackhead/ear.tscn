@@ -1,0 +1,48 @@
+[gd_scene load_steps=13 format=2]
+
+[ext_resource path="res://protuberances/Blackhead.gd" type="Script" id=1]
+[ext_resource path="res://assets/blackheads/ear.png" type="Texture" id=2]
+[ext_resource path="res://assets/blackheads/foreheads/1/6.png" type="Texture" id=8]
+[ext_resource path="res://assets/blackheads/foreheads/1/2.png" type="Texture" id=22]
+[ext_resource path="res://assets/blackheads/foreheads/1/4.png" type="Texture" id=23]
+[ext_resource path="res://assets/blackheads/foreheads/1/5.png" type="Texture" id=24]
+[ext_resource path="res://assets/blackheads/foreheads/1/3.png" type="Texture" id=25]
+[ext_resource path="res://assets/blackheads/foreheads/1/1.png" type="Texture" id=26]
+[ext_resource path="res://tools/circle_hint.tscn" type="PackedScene" id=27]
+[ext_resource path="res://bodyparts/blackhead/ForeheadBlackhead.gd" type="Script" id=28]
+
+[sub_resource type="SpriteFrames" id=1]
+animations = [ {
+"frames": [ ExtResource( 26 ), ExtResource( 22 ), ExtResource( 25 ), ExtResource( 23 ), ExtResource( 24 ), ExtResource( 8 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="CircleShape2D" id=2]
+radius = 24.6237
+
+[node name="forehead" type="Node2D"]
+position = Vector2( 0, -109.531 )
+scale = Vector2( 1.284, 1.147 )
+script = ExtResource( 28 )
+
+[node name="background" type="Sprite" parent="."]
+position = Vector2( -278.037, -119.851 )
+texture = ExtResource( 2 )
+centered = false
+
+[node name="balckhead" type="Area2D" parent="." groups=["protuberance"]]
+position = Vector2( 619.159, 308.222 )
+script = ExtResource( 1 )
+
+[node name="sprites" type="AnimatedSprite" parent="balckhead"]
+position = Vector2( -636.66, -395.98 )
+frames = SubResource( 1 )
+centered = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="balckhead"]
+shape = SubResource( 2 )
+
+[node name="circle_hint" parent="balckhead" instance=ExtResource( 27 )]
+radius = 24.0
