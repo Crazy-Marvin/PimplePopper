@@ -21,8 +21,8 @@ files:
       af.: .
       ar.: .
       ca.: .
-      zh-CN.: .
-      zh-TW.: .
+      zh_CN.: .
+      zh_TW.: .
       cs.: .
       da.: .
       nl.: .
@@ -34,10 +34,10 @@ files:
       it.: .
       ja.: .
       ko.: .
-      nn_NO.: .
+      no.: .
       pl.: .
       pt.: .
-      pt-BR.: .
+      pt_BR.: .
       ro.: .
       ru.: .
       sr.: .
