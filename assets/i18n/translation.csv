@@ -802,7 +802,11 @@ We are also interested in your real-life pops. [url=""mailto:marvin@poopjournal.
 [url=""https://www.buymeacoffee.com/Marvin""][color=#0000FF]Send us a coffee[/color][/url]  [img=16]res://assets/icons/bmc.svg[/img]
 [/color]"
 "K_ABOUT_TITLE","About","Sobre","Über","About","Oor","عن البرنامج","Sobre","關於","About","O aplikaci","Over","Over","Tietoja","À propos","Σχετικά με","אודות","Róla","Info","について","관련 정보","About","O programie","About","About","Об игре","Об игре","О програму","About","About","Hakkında","Про додаток","Про додаток"
+"K_ADS_BUTTON","Disable Ads",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"K_ADS_CONFIRM","Confirm purchase?",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"K_AFRIKAANS_SELECTION","Afrikaans",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 "K_ANESTHETIC_TOOL","Anestesia","Anestesia","Anästhesie","Anestesia","Anestesia","Anestesia","Anestèsia","麻醉","Anestesia","Anestesia","Anestesia","Anestesia","Anestesia","Anestesia","Anestesia","Anestesia","Anesztézia","Anesztézia","麻酔","麻酔","Anestesia","Anestesia","Anestesia","Anestesia","Анестезия","Анестезия","Анестезија","Anestesia","Anestesia","Anestezi","Анестезія","Анестезія"
+"K_ARABIC_SELECTION","Arabic",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 "K_ARM_LEVEL_BUTTON","Arm",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 "K_BACK_BUTTON","Back","Atras","Zurück","Back","Back","الرجوع","Darrere","返回","Back","Zpět","Vorige","Vorige","Takaisin","Précédent","Πίσω","Πίσω","Hát","Indietro","戻る","戻る","Back","Powrót","Back","Back","Spate","Назад","Назад","Back","Back","Geri dönmek","Назад","Назад"
 "K_BACK_LEVEL_BUTTON","Back","Espalda","Rücken","Back","Back","الرجوع","Darrere","返回","Back","Zpět","Vorige","Vorige","Takaisin","Précédent","Πίσω","Πίσω","Hát","Indietro","戻る","戻る","Back","Powrót","Back","Back","Spate","Спина","Назад","Back","Back","Taşınmak","Спина","Спина"
@@ -1004,11 +1008,13 @@ Tabii ki, tüm işleri yaptıktan sonra alanı temizlemeyi unutmayın.","З та
 "K_BODYPART_TITLE","Bodypart","Parte del cuerpo","Körperteil","Bodypart","Bodypart","جسد","Parts del cos","身體部位","Bodypart","Součást karoserie","Lichaamsdeel","Lichaamsdeel","Kehonosa","Pièce corporelle","ΣώμαΕξάρτημα","ΣώμαΕξάρτημα","Testrész","Parti del corpo","ボディーパーツ","ボディーパーツ","Bodypart","Część ciała","Bodypart","Bodypart","Parte a corpului","Часть тела","Део тела","Bodypart","Bodypart","Vücut kısımları","Частина тіла","Частина тіла"
 "K_BUTTOCKS_BUTTON","Butt",,"Po",,"Butt","بايت","Botó",,,"Koberce","Koberce","Billen","Billen","format@@0 Butt","Πλήκτρο","Πλήκτρο","Fenék","Fenék","バット","バット",,"Przycisk",,,"Buton","Попа","Бутт",,,"Popo","Піпа","Піпа"
 "K_BREAST_LEVEL_BUTTON","Breast",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"K_CATALAN_SELECTION","Catalan",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 "K_CHEEK_LEVEL_BUTTON","Cheek","Cachete","Wange","Cheek","Cheek","شيك","Galta","臉頰","Cheek","Sýr","Wang","Wang","Wang","Joue","Μάγουλα","Μάγουλα","Pofa","Guancia","チーク","チーク","Cheek","Czek","Cheek","Cheek","Obraz","Щека","Образ","Cheek","Cheek","Yanak","Щока","Щока"
 "K_CHEST_LEVEL_BUTTON","Chest","Pecho","Brust","Chest","Chest","صندوق","Pit","箱子","Chest","Truhla","Kist","Kist","Arkku","Coffre","Κιβώτιο","Κιβώτιο","Láda","Forziere","Forziere","Chest","Chest","Skrzynia","Chest","Chest","Ladă","Грудь","Груди","Chest","Chest","Göğüs","Груди","Груди"
 "K_CN_SIMPLIFIED_SELECTION","Chinese Simplified",,"Chinesisch (vereinfacht)",,"Chinese Simplified","الصينية المبسطة","Xinès simplificat",,,"Čínština zjednodušená","Kinesisk Forenklet","Chinees (vereenvoudigd)","Kiina Yksinkertaistettu","Chinois simplifié","Κινεζικά Απλοποιημένα","Κινεζικά Απλοποιημένα","Kínai egyszerűsített","Cinese Semplificato","簡体字中国語","簡体字中国語",,"Chiński uproszczony",,,"Chineză simplificată","Китайский (упрощенный)","Кинески поједностављени",,,"Çince (Basitleştirilmiş)","Китайська спрощена","Китайська спрощена"
 "K_CN_TRAD_SELECTION","Chinese Traditional",,"Chinesisch (traditionell)",,"Chinese Traditional","الصينية التقليدية","Xinès tradicional",,,"Tradiční čínština","Kinesisk, Traditionelt","Chinees (traditioneel)","Kiina Perinteinen","Chinois Traditionnel","Παραδοσιακά Κινέζικα","Παραδοσιακά Κινέζικα","Hagyományos kínai","Cinese Tradizionale","繁体字中国語","繁体字中国語",,"Chiński tradycyjny",,,"Chineză tradițională","Китайский (традиционный)","Кинески традиционални",,,"Çince (Geleneksel)","Китайська традиційна","Китайська традиційна"
 "K_COMEDONE_TOOL","Comedone","Comedona","Mitesser","Comedone","Comedone","كوميدون","Comedons","粉刺","Comedone","Komedon","Mee-eters","Mee-eters","Komedoni","Komedoni","Κομεδόνη","Κομεδόνη","Bőratka","Bőratka","面皰","面皰","Comedone","Komedon","Comedone","Comedone","Cădere","Комедон","Комедони","Comedone","Comedone","Komedonlar","Комедон","Комедон"
+"K_CONFIRM_TITLE","Confirm",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 "K_CUTTER_TOOL","Cutter","Exacto","Messer","Cutter","Cutter","مصراع","Tallador","切割","Cutter","Řezání","Smør","Smør","Leikkaaja","Coupeur","Κόφτης","Κόφτης","Vágó szerkezet","Taglierino","カッター","カッター","Cutter","Kawałek","Cutter","Cutter","Cuțit","Режущий инструмент","Цуттер","Cutter","Cutter","Kesici","Ріжучий інструмент","Ріжучий інструмент"
 "K_CYST_BUTTON","Cyst","Quiste","Zyste","Cyst","Cyst","دراجة","Quist","囊腫","Cyst","Cyst","Cyste","Cyste","Kysy","kyste","Κύστη","Κύστη","Hólyag","Cisti","シスト","シスト","Cyst","Cysta","Cyst","Cyst","Chist","Киста","Циста","Cyst","Cyst","Kist","Кіста","Кіста"
 "K_CYST_TUTORIAL_TEXT","Probably the easiest protuberance to remove.
@@ -1138,20 +1144,29 @@ Her şeyi çıkardıktan sonra mendille temizlemeyi unutmayın.","Мабуть, 
 Це велике утворення можна видалити таким чином: оберіть інструмент «Голка» та утримуйте його у певній точці випуклості. Натисніть кнопку ""Підказка"", якщо не знаєте, де краще розмістити голку. Якщо торкнутися правильного місця, ви почуєте звук. Після цього, утримуючи голку одним пальцем, іншим вийміть вміст утворення.
 
 Після того, як ви все видалите, не забудьте протерти шкіру носовою хустинкою."
+"K_CZECH_SELECTION","Czech",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"K_DANISH_SELECTION","Danish",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"K_DUTCH_SELECTION","Dutch",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 "K_EAR_LEVEL_BUTTON","Ear",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 "K_EASY_BUTTON","Easy","Fácil","Einfach","Easy","Easy","سهل","Fàcil","簡單","Easy","Snadné","Gemakkelijk","Gemakkelijk","Helppo","Facile","Εύκολο","Εύκολο","Könnyű","Facile","簡単","簡単","Easy","Łatwy","Easy","Easy","Ușor","Легкий","Лако","Easy","Easy","Kolay","Легкий","Легкий"
 "K_ENGLISH_SELECTION","English","Ingles","Englisch","English","English","الإنكليزية","Anglès","英文","English","Anglické","Engels","Engels","Englanti","Anglais","Αγγλικά","Αγγλικά","Angol","Inglese","日本語","日本語","English","Angielski","English","English","Engleză","Английский","Енглески","English","English","İngilizce","Англійська","Англійська"
 "K_EXIT_GAME_BUTTON","Exit","Salir","Beenden","Exit","Exit","الخروج","Sortir","退出","Exit","Ukončit","Sluit af","Sluit af","Poistu","Quitter","Έξοδος","Έξοδος","Kijárat","Esci","終了","終了","Exit","Wyjście","Exit","Exit","Ieșire","Выйти","Изађи","Exit","Exit","Çıkış","Вийти","Вийти"
 "K_FACE_LEVEL_BUTTON","Face",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"K_FINNISH_SELECTION","Finnish",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 "K_FOOT_LEVEL_BUTTON","Foot",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 "K_FOREHEAD_LEVEL_BUTTON","Forehead","Frente","Stirn","Forehead","Forehead","الفاتح","Front","額頭","Forehead","Přední","Voorhoofd","Voorhoofd","Etupää","Avant-plan","Μέτωπο","Μέτωπο","Homlok","Fronte","おでき","おでき","Forehead","Przód","Forehead","Forehead","Frunte","Лоб","Чело","Forehead","Forehead","Alın","Чоло","Чоло"
 "K_FRENCH_SELECTION","French",,"Französisch",,"French","الفرنسية","Francès",,,"Francouzština","Fransk","Frans","Ranska","Français","Γαλλικά","Γαλλικά","Franciául","Francese","フランス語","フランス語",,"Francuski",,,"Franceză","Французский","Француски",,,"Fransızca","Французька","Французька"
 "K_GERMAN_SELECTION","German","Alemán","Deutsch","German","German","الألمانية","Alemany","德文","German","Němčina","Duits","Duits","Saksa","Allemand","Γερμανικά","גרמנית","Német","Tedesco","ドイツ語","ドイツ語","German","niemiecki","German","German","Germană","Немецкий","Немачки","German","German","Almanca","Німецька","Німецька"
+"K_GREEK_SELECTION","Greek",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 "K_HAND_TOOL","Hand","Mano","Hand","Hand","Hand","اليد","Mans","手","Hand","Ruka","Hånd","Hånd","Käsi","Main","Χέρι","Χέρι","Kéz","Mano","手","手","Hand","Dłoń","Hand","Hand","Mână","Рука","Рука","Hand","Hand","El","Рука","Рука"
 "K_HANDKERCHIEF_TOOL","Handkerchief","Pañuelo","Taschentuch","Handkerchief","Handkerchief","المعالج","Mocador","手帕","Handkerchief","Šéfkuchař","Zakdoek","Zakdoek","Nenäliinat","Poussière","Poussière","Handkerchief","Zsebkendő","Fazzoletto","ハンカチ型","ハンカチ型","Handkerchief","Kierownik","Handkerchief","Handkerchief","Batistă","Носовой платок","Марамица","Handkerchief","Handkerchief","Lenço","Носова хустинка","Носова хустинка"
 "K_HARD_BUTTON","Hard","Difícil","Schwierig","Hard","Hard","صعب","Difícil","困難","Hard","Těžká","Moeilijk","Moeilijk","Vaikea","Difficile","Δύσκολο","Δύσκολο","Kéz","Difficile","ハード","ハード","Hard","Twarde","Hard","Hard","Dificil","Сложный","Тешко","Hard","Hard","Zor","Складний","Складний"
+"K_HEBREW_SELECTION","Hebrew",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 "K_HINT_BUTTON","Hint","Pista","Hilfe","Hint","Hint","تلميح","Pista","提示","Hint","Nápověda","Tip","Tip","Vihje","Indice","Υπόδειξη","Υπόδειξη","Célzás","Suggerimenti","ヒント","ヒント","Hint","Wskazówka","Hint","Hint","Indiciu","Подсказка","Наговештаји","Hint","Hint","İpucu","Підказка","Підказка"
+"K_HUNGARIAN_SELECTION","Hungarian",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 "K_ITALIAN_SELECTION","Italian",,"Italienisch",,"Italian","الإيطالية","Italià",,,"Italština","Italiensk","Italiaans","Italia","Italien","Ιταλικά","Ιταλικά","Olasz","Italiano","イタリア語","イタリア語",,"Włoski",,,"Italiană","Итальянский","Италијански",,,"İtalyanca","Італійська","Італійська"
+"K_JAPANESE_SELECTION","Japanese",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"K_KOREAN_SELECTION","Korean",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 "K_LANGUAGE_OPTION_TITLE","Language","Idioma","Sprache","Language","Language","اللغة","Llengua","語言","Language","Jazyk","Taal","Taal","Kieli","Langue","Γλώσσα","Γλώσσα","Nyelv","Lingua","言語","言語","Language","Język","Language","Language","Limba","Язык","Језици","Language","Language","Dil","Мова","Мова"
 "K_LANGUAGE_SELECTION","Select a language","Seleccione un idioma","Wählen Sie eine Sprache aus","Select a language","Select a language","اختر لغة","Selecciona una llengua","選擇語言","Select a language","Vyberte jazyk","Kies een taal","Kies een taal","Valitse kieli","Sélectionnez une langue","Επιλέξτε μια γλώσσα","Επιλέξτε μια γλώσσα","Nyelv kiválasztása","Seleziona una lingua","言語を選択","言語を選択","Select a language","Wybierz język","Select a language","Select a language","Selectaţi o limbă","Выбрать язык","Одабери језик","Select a language","Select a language","Bir dil seçin","Обрати мову","Обрати мову"
 "K_LEVEL_TITLE","Level","Nivel","Schwierigkeit","Level","Level","المستوى","Nivell","等級","Level","Úrovně","Niveau","Niveau","Taso","Niveau","Επίπεδο","Επίπεδο","Szint","Livello","レベル","レベル","Level","Poziom","Level","Level","Nivel","Уровень","Ниво","Level","Level","Seviye","Рівень","Рівень"
@@ -1349,7 +1364,9 @@ Ve şimdi her şey kaldırıldığına göre, yarayı dikmeniz gerekecek.","Це
 Після завершення процедури рану необхідно зашити."
 "K_NEEDLE_TOOL","Needle","Inyectadora","Nadel","Needle","Needle","إحتياطي","Agulla","針","Needle","Jehly","Naald","Naald","Neula","Aiguille","Βελόνα","Βελόνα","Tű","Ago","ニードル語","ニードル語","Needle","Igła","Needle","Needle","Ac","Игла","Игла","Needle","Needle","İğne","Голка","Голка"
 "K_NORMAL_BUTTON","Normal","Normal","Normal","Normal","Normal","عادي","عادي","普通","Normal","Normální","Normaal","Normaal","Normaali","Normale","Κανονικό","Κανονικό","Normális","Normale","標準","標準","Normal","Normalny","Normal","Normal","Normal","Средний","Нормално","Normal","Normal","Normal","Середній","Середній"
+"K_NORWEGIAN_SELECTION","Norwegian",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 "K_NOSE_BUTTON","Nose",,"Nase",,"Nose","الأنف","Nas",,,"Nosnice","Næse","Neus","Nenä","Nez","Μύτη","Μύτη","Orr","Naso","鼻毛（なせ）","鼻毛（なせ）",,"Nose",,,"Nuci","Нос","Нос",,,"Burun","Носе","Носе"
+"K_OK_BUTTON","OK",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 "K_OPTIONS","Options","Opciones","Einstellungen","Options","Options","خيارات","Opcions","選項","Options","Možnosti","Opties","Opties","Valinnat","Valinnat","Επιλογές","Επιλογές","Lehetőségek","Opzioni","オプション","オプション","Options","Opcje","Options","Options","Opţiuni","Опции","Опције","Options","Options","Şeçenekler","Опції","Опції"
 "K_OPTIONS_TITLE","Options","Opciones","Optionen","Options","Options","خيارات","Opcions","選項","Options","Možnosti","Opties","Opties","Valinnat","Valinnat","Επιλογές","Επιλογές","Lehetőségek","Opzioni","オプション","オプション","Options","Opcje","Options","Options","Opţiuni","Опции","Опције","Options","Options","Şeçenekler","Опції","Опції"
 "K_PIMPLE_BUTTON","Pimple","Espinilla","Pickel","Pimple","Pimple","قماش","Grano","丘疹","Pimple","Pimár","Puistje","Puistje","Puistje","Touche","Σπυράκι","Σπυράκι","Pattanás","Brufoli","吹き出物","吹き出物","Pimple","Prosty","Pimple","Pimple","Pimplant","Прыщ","Бубуљица","Pimple","Pimple","Sivilceler","Прищ","Прищ"
@@ -1419,15 +1436,21 @@ Sivilceleri gidermek için el aletini etkinleştirmeniz ve sivilceyi patlatmak i
 
 Щоб видалити прищі, вам потрібно лише активізувати ручний інструмент і натиснути пальцем на прищ, щоб видавити його. Після того, як прищ буде видавлений, скористайтеся носову хустинкою, щоб протерти ділянку шкіри. Ви не станете хорошим лікарем, якщо залишите все як є."
 "K_PLAY","Play","Comenzar","Start","Play","Play","تشغيل","Jugar","開始","Play","Hrát","Spelen","Spelen","Toista","Jouer","Αναπαραγωγή","Αναπαραγωγή","Játék","Gioca","再生","再生","Play","Odtwórz","Play","Play","Joacă","Играть","Покрени","Play","Play","Oynat","Грати","Грати"
-"K_PR_SELECTION","Portugese",,"Portugiesisch",,"Portugese","Portugese","Portuguès",,,"Portugese","Portugese","Portugese","Portugese","Portugese","Portugese","Portugese","Portugál","Portugál","ポルトガル語","ポルトガル語",,"Portugese",,,"Portugese","Portugese","Португалски",,,"Portekizce","Португальська","Португальська"
+"K_POLISH_SELECTION","Polish",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"K_PORTUGUESE_SELECTION","Portuguese",,"Portugiesisch",,"Portugese","Portugese","Portuguès",,,"Portugese","Portugese","Portugese","Portugese","Portugese","Portugese","Portugese","Portugál","Portugál","ポルトガル語","ポルトガル語",,"Portugese",,,"Portugese","Portugese","Португалски",,,"Portekizce","Португальська","Португальська"
+"K_PORTUGUESE_BRAZILIAN_SELECTION","Portuguese, Brazilian",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"K_ROMANIAN_SELECTION","Romanian",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 "K_RUSSIAN_SELECTION","Russian",,"Russisch",,"Russian","الروسية","Rus",,,"Ruština","Russisk","Russisch","Venäjä","Russe","Ρωσικά","Ρωσικά","Orosz","Russo","ロシア語","ロシア語",,"Rosyjski",,,"Rusă","Русский","Руски",,,"Rusça","Російська","Російська"
 "K_SERBIAN_SELECTION","Serbian",,"Serbisch",,"Serbian","الصربية","Sèrbi",,,"Srbština","Serbisk","Servisch","Serbia","Serbe","Σερβικά","Σερβικά","Szerb","Serbo","セルビア語","セルビア語",,"Serbski",,,"Sârbă","Сербский","Српски",,,"Sırpça","Сербська","Сербська"
 "K_SHIN_BUTTON","Shin",,"Schienbein",,"Shin","شين","Canyella",,,"Stříbrný","Stříbrný","scheenbeen","scheenbeen","Tibia","Tibia","Shin","Lábszár","Lábszár","しん（しん）","しん（しん）",,"Ślew",,,"Strălucire","Шин","Цеваница",,,"Incik","Шин","Шин"
 "K_SHOULDER_BUTTON","Shoulder",,"Schulter",,"Shoulder","كتف","Espatlla",,,"Rameno","Rameno","Shoulder","Shoulder","Épaule","΄Ωμος","΄Ωμος","Váll","Spalla","ショルダー","ショルダー",,"Ramię",,,"Umăr","Плечо","Рамена",,,"Omuz","Плече","Плече"
+"K_SINHALA_SELECTION","Sinhala",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 "K_SPANISH_SELECTION","Spanish","Español","Spanisch","Spanish","Spanish","الإسبانية","Espanyol","西班牙文","Spanish","Španělština","Spaans","Spaans","Espanja","Espagnol","Ισπανικά","Ισπανικά","Spanyol","Spagnolo","スペイン語","スペイン語","Spanish","hiszpański","Spanish","Spanish","Spaniolă","Испанский","Шпански","Spanish","Spanish","İspanyolca","Іспанська","Іспанська"
 "K_SUPER_HARD_BUTTON","Super hard","Super difícil","Äußerst schwierig","Super hard","Super hard","صعب جداً","Super dur","超難","Super hard","Super tvrdý","Heel moeilijk","Heel moeilijk","Super kova","Super dur","Σούπερ σκληρό","Σούπερ σκληρό","Szuper kemény","Super difficile","スーパーマリオ","スーパーマリオ","Super hard","Super twardy","Super hard","Super hard","Super dificil","Очень сложный","Тељко","Super hard","Super hard","Süper Çiftlik","Дуже складний","Дуже складний"
 "K_SUTURE_TOOL","Suture","Suturar","Vernähen","Suture","Suture","رقاقة","Sutura","縫合","Suture","Výbuch","Hechting","Hechting","Imeä","Imeä","Συρραφή","Συρραφή","Varrat","Sutura","縫合","縫合","Suture","Przyszłość","Suture","Suture","Sutură","Хирургическая нить","Шав","Suture","Suture","İplik","Хірургічна нитка","Хірургічна нитка"
+"K_SWEDISH_SELECTION","Swedish",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 "K_THIGH_LEVEL_BUTTON","Thigh",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"K_TURKISH_SELECTION","Turkish",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 "K_TUTORIAL","Tutorial","Tutorial","Anleitung","Tutorial","Tutorial","البرنامج التعليمي","Aprenentatge","新手教學","Tutorial","Návod","Vejledning","Vejledning","Opastus","Tutoriel","Εκμάθηση","Εκμάθηση","Oktató videó","Oktató videó","チュートリアル","チュートリアル","Tutorial","Samouczek","Tutorial","Tutorial","Tutorial","Инструкция","Водич","Tutorial","Tutorial","Öğretici","Інструкція","Інструкція"
 "K_TUTORIAL_DEVELOPMENT_MESSAGE","The tutorial is under the works. 
 
@@ -1474,5 +1497,7 @@ Lütfen bir uygulama güncellemesi için bekleyin.","Інструкція зна
 Будь ласка, зачекайте на оновлення додатка.","Інструкція знаходиться у розробці.
 
 Будь ласка, зачекайте на оновлення додатка."
+"K_UKRAINIAN_SELECTION","Ukrainian",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 "K_VAPOR_TOOL","Vapor","Vapor","Wasserdampf","Vapor","Vapor","Vapor","Vapor","噴霧器","Vapor","Vapor","Stoom","Stoom","Stoom","Vapor","Vapor","Vapor","Gőz","Vapore","蒸気","蒸気","Vapor","Vapor","Vapor","Vapor","Vapor","Пар","Вапор","Vapor","Vapor","Buhar","Пара","Пара"
+"K_VIETNAMESE_SELECTION","Vietnamese",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 "K_WRIST_LEVEL_BUTTON","Wrist","Muñeca","Handgelenk","Wrist","Wrist","معطف","Canell","手腕","Wrist","Zápěstí","Pols","Pols","Ranneke","Poignets","Καρπός","Καρπός","Csukló","Polso","手","手","Wrist","Nadgarstka","Wrist","Wrist","Încheietura mâinii","Запястье","Ручни зглоб","Wrist","Wrist","Bilek","Зап'ясток","Зап'ясток"
