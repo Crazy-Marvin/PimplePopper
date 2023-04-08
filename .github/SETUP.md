@@ -24,7 +24,8 @@ These steps should work on Linux, Windows and macOS.
 
 ## Translations
 
-Translations are stored in ```assets/i18n```. Users can contribute them on Crowdin.
+Translations are stored in ```assets/i18n```. Users can contribute them on Crowdin.  
+The ```translation.csv``` file holds all keys and values. More details may be found [here](https://docs.godotengine.org/en/stable/tutorials/assets_pipeline/importing_translations.html).
 
 ## Yodo1 MAS (ads)
 
