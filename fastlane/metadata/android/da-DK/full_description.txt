@@ -1,19 +1,19 @@
-Pimple Popper is a game about popping pimples and removing blackheads, whiteheads, lipomas and similar stuff. Download now and feel the huge satisfaction!
+Bumspopper er et spil, der handler om at poppe bumser og fjerne sorte og hvide hudorme, lipomer og andre sådanne ting. Download spillet nu og føl den enorme tilfredshed!
 
-<b>Features:</b>
+<b>! Om spillet:</b>
 
 <ul>
 <li>Open Source 🎉</li>
-<li>Extremely satisfactory 😂</li>
-<li>Quite realistic 😉</li>
-<li>Might come in handy for your daily life 😜</li>
-<li>You can send us your real-life pops and get a complimentary message 🙈</li>
+<li>Ekstremt tilfredsstillende 😂</li>
+<li>Ret realistisk 😉</li>
+<li>Kan komme til nytte i det daglige liv 😜</li>
+<li>Du kan sende os dit virkelige liv pops og få en gratis besked 🙈</li>
 </ul>
 
-Homepage: <a href="https://www.crazymarvin.com/pimple-popper">https://www.crazymarvin.com/pimple-popper</a>
+Hjemmeside: <a href="https://www.crazymarvin.com/pimple-popper">https://www.crazymarvin.com/pimple-popper</a>
 
-Help us with translation: <a href="https://crowdin.com/project/pimple-popper">https://crowdin.com/project/pimple-popper</a> 
+Hjælp os med oversættelse: <a href="https://crowdin.com/project/pimple-popper">https://crowdin.com/project/pimple-popper</a> 
 
-Source on GitHub: <a href="https://github.com/Crazy-Marvin/PimplePopper">https://github.com/Crazy-Marvin/PimplePopper</a> 
+Kilde på GitHub: <a href="https://github.com/Crazy-Marvin/PimplePopper">https://github.com/Crazy-Marvin/PimplePopper</a> 
 
-Enjoy! 👌
+God fornøjelse! 👌
