@@ -5,7 +5,6 @@
 [![Pull requests](https://img.shields.io/github/issues-pr/Crazy-Marvin/PimplePopper.svg?style=flat)](https://github.com/Crazy-Marvin/PimplePopper/pulls)
 [![Crowdin](https://badges.crowdin.net/pimple-popper/localized.svg)](https://crowdin.com/project/pimple-popper)
 [![TODOs](https://badgen.net/https/api.tickgit.com/badgen/github.com/Crazy-Marvin/PimplePopper)](https://www.tickgit.com/browse?repo=github.com/Crazy-Marvin/PimplePopper)
-[![F-Droid](https://img.shields.io/f-droid/v/rocks.poopjournal.pimplepopper.svg)](https://f-droid.org/app/rocks.poopjournal.pimplepopper)
 [![Google Play](https://badgen.net/badge/icon/googleplay?icon=googleplay&label)](https://play.google.com/store/apps/details?id=rocks.poopjournal.pimplepopper)
 
 <p align="left">
@@ -14,11 +13,6 @@
         height="80"
         src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" />
 </a>  
-<a href="https://f-droid.org/app/rocks.poopjournal.pimplepopper">
-    <img alt="Get it on F-Droid"
-        height="80"
-        src="https://f-droid.org/badge/get-it-on.png" />
-        </a>
         </p>
         
 __Game to pop pimples using the awesome Godot Engine__
