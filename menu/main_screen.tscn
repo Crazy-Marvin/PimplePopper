@@ -13,7 +13,7 @@
 [ext_resource path="res://assets/about- text-background.png" type="Texture" id=11]
 [ext_resource path="res://menu/protuberance_explanation.tscn" type="PackedScene" id=12]
 [ext_resource path="res://assets/themes/button_protuberance_tutorial.tres" type="Theme" id=13]
-[ext_resource path="res://yodo1mas.gd" type="Script" id=14]
+[ext_resource path="res://tools/yodo1mas.gd" type="Script" id=14]
 
 [sub_resource type="DynamicFont" id=1]
 size = 40

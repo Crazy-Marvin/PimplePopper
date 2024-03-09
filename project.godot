@@ -82,7 +82,7 @@ _global_script_classes=[ {
 "base": "Node",
 "class": "Yodo1Mas",
 "language": "GDScript",
-"path": "res://yodo1mas.gd"
+"path": "res://tools/yodo1mas.gd"
 } ]
 _global_script_class_icons={
 "Blackhead": "",

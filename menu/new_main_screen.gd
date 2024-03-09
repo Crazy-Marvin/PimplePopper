@@ -1,7 +1,8 @@
 extends Control
 
 
-
+onready var yodo1mas = $Yodo1Mas
+onready var debug_out = $CanvasLayer/Orange/DebugOut
 var orig_main_panel_pos
 var selection_panel_destination_pos
 
@@ -26,10 +27,13 @@ onready var lang_options = $SettingsPanel/VBoxContainer/LangOptions
 
 
 func _ready():
-	Yodo.connect("banner_ad_loaded", self, 'on_banner_ad_loaded')
+	yodo1mas.init()
+	#yodo1mas.connect("banner_ad_loaded", self, 'on_banner_ad_loaded')
 	
 	if Global.player_data['is_add_active'] == false:
-		Yodo.load_banner_ad("Banner","RIGHT","TOP")
+		yodo1mas.load_banner_ad("Banner","RIGHT","TOP")
+		yodo1mas.load_interstitial_ads()
+		#yodo1mas.show_banner_ad()
 	
 	orig_main_panel_pos = $Panel.rect_global_position
 	
@@ -42,8 +46,7 @@ func _ready():
 
 
 func on_banner_ad_loaded():
-	Yodo.show_banner_ad()
-
+	yodo1mas.show_banner_ad()
 
 func _on_Play_pressed():
 #	get_tree().change_scene("res://game.tscn")
@@ -157,6 +160,7 @@ func _on_tutorial_pressed(string: String):
 
 func on_level_select(string: String):
 	Global.bodypart = string
+	yodo1mas.show_interstitial_ad()
 	get_tree().change_scene("res://game.tscn")
 
 
@@ -210,3 +214,66 @@ func _on_DisableAdsButton_pressed():
 
 func _on_DisableAdsPopup_confirmed():
 	ManagerBilling.payment.purchase('remove_ads') # add this sku to your google play settings
+	
+# callbacks	from signals
+
+func _on_Yodo1Mas_banner_ad_loaded():
+	debug_out.text = debug_out.text + "Banner loaded\n"
+	
+func _on_Yodo1Mas_banner_failed_ad_loaded():
+	debug_out.text = debug_out.text + "Banner not loaded\n"
+func _on_Yodo1Mas_banner_ad_opened():
+	#add_coins(5)
+	debug_out.text = debug_out.text + "Banner opened\n"
+
+func _on_Yodo1Mas_banner_ad_failed_opened():
+	#add_coins(5)
+	debug_out.text = debug_out.text + "Banner not opened\n"
+
+func _on_Yodo1Mas_banner_ad_closed():
+	debug_out.text = debug_out.text + "Banner closed\n"
+
+
+
+
+func _on_Yodo1Mas_interstitial_ad_loaded():
+	debug_out.text = debug_out.text + "Interstitial  loaded\n"
+	
+func _on_Yodo1Mas_interstitial_ad_not_loaded():
+	yodo1mas.load_interstitial_ads()
+	debug_out.text = debug_out.text + "Interstitial not loaded\n"
+
+func _on_Yodo1Mas_interstitial_ad_opened():
+	debug_out.text = debug_out.text + "Interstitial opened\n"
+	
+func _on_Yodo1Mas_interstitial_ad_failed_to_opened():
+	yodo1mas.load_interstitial_ads()
+	debug_out.text = debug_out.text + "Interstitial not opened\n"
+
+func _on_Yodo1Mas_interstitial_ad_closed():
+	yodo1mas.load_interstitial_ads()
+	#add_coins(10)
+	debug_out.text = debug_out.text + "Interstitial closed\n"
+
+
+
+func _on_Yodo1Mas_rewarded_ad_loaded():
+	debug_out.text = debug_out.text + "Rewarded video  loaded\n"
+	
+func _on_Yodo1Mas_rewarded_ad_not_loaded():
+	yodo1mas.load_rewarded_ad()
+	debug_out.text = debug_out.text + "Rewarded video not loaded\n"
+	
+func _on_Yodo1Mas_rewarded_ad_opened():
+	debug_out.text = debug_out.text + "Rewarded video opened\n"
+	
+func _on_Yodo1Mas_rewarded_ad_failed_opened():
+	yodo1mas.load_rewarded_ad()
+	debug_out.text = debug_out.text + "Rewarded video not opened\n"
+func _on_Yodo1Mas_rewarded_ad_closed():
+	yodo1mas.load_rewarded_ad()
+	debug_out.text = debug_out.text + "Rewarded video closed\n"
+
+func _on_Yodo1Mas_rewarded_ad_earned():
+	#add_coins(15)
+	debug_out.text = debug_out.text + "Rewarded video earned\n"

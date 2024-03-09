@@ -4,4 +4,4 @@ binary_type="local"
 binary="GodotYodo1Mas.2.0.0.aar"
 
 [dependencies]
-remote=["com.yodo1.mas:full:4.8.5"]
+remote=["com.yodo1.mas:full:4.11.0"]

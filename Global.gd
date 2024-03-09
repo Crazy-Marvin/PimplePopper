@@ -115,7 +115,7 @@ var _window_project_size: Vector2
 var relative_screen_size_x: float
 
 var player_data: Dictionary = {
-	'is_add_active': true
+	'is_add_active': false
 }
 
 func _ready():
