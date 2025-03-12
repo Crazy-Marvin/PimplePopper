@@ -109,6 +109,20 @@ func animate_settings(forward: bool):
 		$Panel.show()
 
 
+func animate_about(forward: bool):
+	var tween = get_tree().create_tween()
+	
+	
+	if forward:
+		$AboutPanel.rect_scale = Vector2.ZERO
+		$AboutPanel.show()
+		tween.tween_property($AboutPanel, 'rect_scale', Vector2.ONE, 0.4).set_trans(Tween.TRANS_BOUNCE).set_ease(Tween.EASE_OUT)
+	else:
+		tween.tween_property($AboutPanel, 'rect_scale', Vector2.ZERO, 0.4).set_trans(Tween.TRANS_BOUNCE).set_ease(Tween.EASE_OUT)
+		yield(tween, "finished")
+		$AboutPanel.hide()
+
+
 func load_types():
 	for child in $LevelSelectionPanel/CenterContainer/LevelsList.get_children():
 		child.queue_free()
@@ -277,3 +291,11 @@ func _on_Yodo1Mas_rewarded_ad_closed():
 func _on_Yodo1Mas_rewarded_ad_earned():
 	#add_coins(15)
 	debug_out.text = debug_out.text + "Rewarded video earned\n"
+
+
+func _on_About_pressed():
+	animate_about(true)
+
+
+func _on_AboutBack_pressed():
+	animate_about(false)
