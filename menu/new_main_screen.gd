@@ -311,4 +311,5 @@ func _on_PlayGamesSignin_pressed():
 
 
 func _on_Leaderboards_pressed():
-	ManagerPlayGames.playgames.leaderboardsShowAll()
+	if ManagerPlayGames.playgames:
+		ManagerPlayGames.playgames.leaderboardsShowAll()
