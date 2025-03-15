@@ -34,6 +34,22 @@ func hide_hints(hided: bool) -> void:
 		h.visible = not hided
 
 func _on_bodypart_cleaned() -> void:
+	# sets the level as COMPLETED or is finished by the player!
+	Global.player_data['levels_completion'][Global.type][Global.bodypart] = true
+	
+	# checks if all bodyparts in this type are completed
+	var is_all_completed = true
+	
+	for body_part in Global.player_data['levels_completion'][Global.type]:
+		if Global.player_data['levels_completion'][Global.type][body_part] == false:
+			is_all_completed = false
+			break
+	
+	if is_all_completed:
+		ManagerPlayGames.playgames.achievementsUnlock('finished_%s' % Global.type, true)
+	
+	#####################################################
+	
 	_finish_popup.start()
 
 
