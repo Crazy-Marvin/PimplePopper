@@ -11,6 +11,14 @@ export(bool) var hint_hided: bool = true
 export(ButtonGroup) var _buttons: ButtonGroup
 var _hints: Array
 
+
+# tracks the current gameplay time, while this scene is active it will count up until the levels finished
+# this is used for the Quick Popper and Slow Popper GPlay Achievements
+var game_time: float
+var is_game_running = true
+
+
+
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	var nodes = get_tree().get_nodes_in_group("bodypart")
@@ -29,16 +37,32 @@ func _ready():
 	
 	#Yodo.load_interstitial_ads()
 
+
+func _physics_process(delta):
+	if is_game_running:
+		game_time += delta
+
+
 func hide_hints(hided: bool) -> void:
 	for h in _hints:
 		h.visible = not hided
 
 func _on_bodypart_cleaned() -> void:
+	is_game_running = false
+	
 	# sets the level as COMPLETED or is finished by the player!
 	Global.player_data['levels_completion'][Global.type][Global.bodypart] = true
 	
 	# checks if all bodyparts in this type are completed
 	var is_all_completed = true
+	
+	# stupid godot 3 doesnt even have the to_pascal() function which could've prevented me from writing this shit
+	var names = {
+		'pimple': 'Pimple',
+		'blackhead': 'Blackhead',
+		'cyst': 'Cyst',
+		'lipoma': 'Lipoma',
+	}
 	
 	for body_part in Global.player_data['levels_completion'][Global.type]:
 		if Global.player_data['levels_completion'][Global.type][body_part] == false:
@@ -46,7 +70,13 @@ func _on_bodypart_cleaned() -> void:
 			break
 	
 	if is_all_completed:
-		ManagerPlayGames.playgames.achievementsUnlock('finished_%s' % Global.type, true)
+		ManagerPlayGames.playgames.achievementsUnlock('%s Expert' % names[Global.type], true)
+	
+	# checks for the time achievements -- !!
+	if game_time < 30.0:
+		ManagerPlayGames.playgames.achievementsUnlock('Quick Popper', true)
+	if game_time > 180.0:
+		ManagerPlayGames.playgames.achievementsUnlock('Slow Popper', true)
 	
 	#####################################################
 	
