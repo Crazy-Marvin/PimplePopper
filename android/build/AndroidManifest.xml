@@ -92,7 +92,11 @@
 
 <!-- Custom application XML added by add-ons. -->
 <!--CHUNK_APPLICATION_BEGIN-->
+<meta-data android:name="com.google.android.gms.games.APP_ID"
+      android:value="@string/game_services_project_id"/>
 <!--CHUNK_APPLICATION_END-->
+
+
 
     </application>
 

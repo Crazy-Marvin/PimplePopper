@@ -45,6 +45,11 @@ func _ready():
 	load_languages()
 
 
+func _physics_process(delta):
+	if ManagerPlayGames.playgames:
+		$PlayGamesSignin.visible = !ManagerPlayGames.playgames.signInIsAuthenticated()
+
+
 func on_banner_ad_loaded():
 	yodo1mas.show_banner_ad()
 
@@ -299,3 +304,11 @@ func _on_About_pressed():
 
 func _on_AboutBack_pressed():
 	animate_about(false)
+
+
+func _on_PlayGamesSignin_pressed():
+	ManagerPlayGames.playgames.signInShowPopup()
+
+
+func _on_Leaderboards_pressed():
+	ManagerPlayGames.playgames.leaderboardsShowAll()

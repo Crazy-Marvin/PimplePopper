@@ -1,4 +1,4 @@
-[gd_scene load_steps=24 format=2]
+[gd_scene load_steps=26 format=2]
 
 [ext_resource path="res://assets/styles/back.png" type="Texture" id=1]
 [ext_resource path="res://assets/styles/panel_1.tres" type="StyleBox" id=2]
@@ -21,6 +21,7 @@
 [ext_resource path="res://assets/styles/icons8-puzzle-pieces-64.png" type="Texture" id=19]
 [ext_resource path="res://assets/fonts/prototype/Prototype.ttf" type="DynamicFontData" id=20]
 [ext_resource path="res://assets/styles/icons8-settings-100.png" type="Texture" id=21]
+[ext_resource path="res://assets/styles/icons8-play-games-48.png" type="Texture" id=22]
 
 [sub_resource type="StyleBoxFlat" id=1]
 content_margin_left = 16.0
@@ -39,6 +40,13 @@ shadow_offset = Vector2( 1, 1 )
 [sub_resource type="DynamicFont" id=2]
 size = 12
 font_data = ExtResource( 20 )
+
+[sub_resource type="StyleBoxFlat" id=3]
+bg_color = Color( 0.945098, 0.823529, 0.760784, 1 )
+corner_radius_top_left = 1024
+corner_radius_top_right = 1024
+corner_radius_bottom_right = 1024
+corner_radius_bottom_left = 1024
 
 [node name="new_main_screen" type="Control"]
 anchor_right = 1.0
@@ -168,24 +176,23 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-margin_left = -97.0
+margin_left = -74.0
 margin_top = -50.0
-margin_right = 97.0
+margin_right = 74.0
 margin_bottom = 16.0
 custom_constants/separation = -11
 
-[node name="TextureRect" type="TextureRect" parent="Panel/Floating/HBoxContainer"]
-margin_right = 102.0
+[node name="Leaderboards" type="TextureButton" parent="Panel/Floating/HBoxContainer"]
+margin_right = 64.0
 margin_bottom = 66.0
-size_flags_horizontal = 3
-size_flags_vertical = 3
-texture = ExtResource( 8 )
+rect_min_size = Vector2( 64, 64 )
+texture_normal = ExtResource( 8 )
 expand = true
-stretch_mode = 6
+stretch_mode = 5
 
 [node name="TextureRect2" type="TextureRect" parent="Panel/Floating/HBoxContainer"]
-margin_left = 91.0
-margin_right = 194.0
+margin_left = 53.0
+margin_right = 148.0
 margin_bottom = 66.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -676,9 +683,34 @@ script = ExtResource( 15 )
 app_id_android = "Icsp8OCZ28"
 IsPrivacyEnabled = true
 
+[node name="PlayGamesSignin" type="Button" parent="."]
+margin_left = 42.0
+margin_top = 458.0
+margin_right = 106.0
+margin_bottom = 522.0
+rect_min_size = Vector2( 64, 64 )
+custom_styles/hover = SubResource( 3 )
+custom_styles/pressed = SubResource( 3 )
+custom_styles/focus = SubResource( 3 )
+custom_styles/normal = SubResource( 3 )
+
+[node name="TextureRect" type="TextureRect" parent="PlayGamesSignin"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -22.0
+margin_top = -22.0
+margin_right = 22.0
+margin_bottom = 22.0
+texture = ExtResource( 22 )
+expand = true
+stretch_mode = 6
+
 [connection signal="pressed" from="Panel/VBoxContainer/Play" to="." method="_on_Play_pressed"]
 [connection signal="pressed" from="Panel/VBoxContainer/About" to="." method="_on_About_pressed"]
 [connection signal="pressed" from="Panel/VBoxContainer/Options" to="." method="_on_Options_pressed"]
+[connection signal="pressed" from="Panel/Floating/HBoxContainer/Leaderboards" to="." method="_on_Leaderboards_pressed"]
 [connection signal="gui_input" from="Panel/Floating/HBoxContainer/TextureRect2" to="." method="_on_TextureRect2_gui_input"]
 [connection signal="pressed" from="LevelSelectionPanel/HBoxContainer/Back" to="." method="_on_Back_pressed"]
 [connection signal="pressed" from="LevelSelectionPanel/HBoxContainer/Cancel" to="." method="_on_Cancel_pressed"]
@@ -700,3 +732,4 @@ IsPrivacyEnabled = true
 [connection signal="interstitial_ad_opened" from="Yodo1Mas" to="." method="_on_Yodo1Mas_interstitial_ad_opened"]
 [connection signal="rewarded_ad_earned" from="Yodo1Mas" to="." method="_on_Yodo1Mas_rewarded_ad_earned"]
 [connection signal="rewarded_ad_opened" from="Yodo1Mas" to="." method="_on_Yodo1Mas_rewarded_ad_opened"]
+[connection signal="pressed" from="PlayGamesSignin" to="." method="_on_PlayGamesSignin_pressed"]
