@@ -187,6 +187,9 @@ margin_right = 64.0
 margin_bottom = 66.0
 rect_min_size = Vector2( 64, 64 )
 texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 8 )
+texture_hover = ExtResource( 8 )
+texture_focused = ExtResource( 8 )
 expand = true
 stretch_mode = 5
 
