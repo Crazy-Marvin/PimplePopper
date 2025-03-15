@@ -114,11 +114,40 @@ var _window_relation: Vector2
 var _window_project_size: Vector2
 var relative_screen_size_x: float
 
+var player_data_orig = {}
 var player_data: Dictionary = {
-	'is_add_active': false
+	'is_add_active': false,
+	'levels_completion': {
+		'pimple':{
+			'cheek': false,
+			'back': false,
+			'butt': false,
+			'chest': false,
+			'forehead': false,
+		},
+		'cyst':{
+			'back': false,
+			'forehead': false,
+			'wrist': false,
+			'shin': false,
+		},
+		'lipoma':{
+			'back': false,
+		},
+		'blackhead':{
+			'back': false,
+			'cheek': false,
+			'ear': false,
+			'forehead': false,
+			'nose': false,
+			'shoulder': false,
+		}
+	}
 }
 
 func _ready():
+	player_data_orig = player_data.duplicate(true)
+	
 	var width: float = ProjectSettings.get_setting("display/window/size/width")
 	var height: float = ProjectSettings.get_setting("display/window/size/height")
 	_window_project_size = Vector2(width, height)
@@ -175,6 +204,7 @@ func load_game():
 	var f = File.new()
 	f.open(SAVE_PATH, f.READ)
 	player_data = parse_json(f.get_as_text())
+	player_data.merge(player_data_orig)
 	f.close()
 
 
@@ -186,5 +216,5 @@ func save_game():
 
 
 func _notification(what):
-	if what == NOTIFICATION_WM_FOCUS_OUT:
+	if what == NOTIFICATION_WM_FOCUS_OUT or what == NOTIFICATION_APP_PAUSED:
 		save_game()
