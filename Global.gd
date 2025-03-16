@@ -30,7 +30,8 @@ var _scenes = {
 		"shin": "res://bodyparts/cyst/shin.tscn"
 	},
 	"lipoma": {
-		"back": "res://bodyparts/lipoma/back.tscn"
+		"back": "res://bodyparts/lipoma/back.tscn",
+		"nose": "res://bodyparts/lipoma/nose.tscn"
 	}
 }
 
@@ -109,6 +110,10 @@ var _levels: Dictionary = {
 		{
 			"name": "K_BACK_LEVEL_BUTTON",
 			"code": "back"
+		},
+		{
+			"name": "K_ARM_LEVEL_BUTTON",
+			"code": "arm"
 		}
 	]
 }
@@ -127,6 +132,7 @@ var player_data: Dictionary = {
 			'butt': false,
 			'chest': false,
 			'forehead': false,
+			'nose': false,
 		},
 		'cyst':{
 			'back': false,
@@ -136,6 +142,7 @@ var player_data: Dictionary = {
 		},
 		'lipoma':{
 			'back': false,
+			'arm': false,
 		},
 		'blackhead':{
 			'back': false,
