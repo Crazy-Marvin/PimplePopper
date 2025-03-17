@@ -56,12 +56,11 @@ func _on_bodypart_cleaned() -> void:
 	# checks if all bodyparts in this type are completed
 	var is_all_completed = true
 	
-	# stupid godot 3 doesnt even have the to_pascal() function which could've prevented me from writing this shit
 	var names = {
-		'pimple': 'Pimple',
-		'blackhead': 'Blackhead',
-		'cyst': 'Cyst',
-		'lipoma': 'Lipoma',
+		'pimple': 'CgkI5ILm9-4PEAIQAA',
+		'blackhead': 'CgkI5ILm9-4PEAIQAQ',
+		'cyst': 'CgkI5ILm9-4PEAIQAg',
+		'lipoma': 'CgkI5ILm9-4PEAIQAw',
 	}
 	
 	for body_part in Global.player_data['levels_completion'][Global.type]:
@@ -70,15 +69,17 @@ func _on_bodypart_cleaned() -> void:
 			break
 	
 	if is_all_completed:
-		ManagerPlayGames.playgames.achievementsUnlock('%s Expert' % names[Global.type], true)
+		ManagerPlayGames.playgames.achievementsUnlock('%s' % names[Global.type], true)
 	
 	# checks for the time achievements -- !!
 	if game_time < 30.0:
-		ManagerPlayGames.playgames.achievementsUnlock('Quick Popper', true)
+		ManagerPlayGames.playgames.achievementsUnlock('CgkI5ILm9-4PEAIQBA', true)
 	if game_time > 180.0:
-		ManagerPlayGames.playgames.achievementsUnlock('Slow Popper', true)
+		ManagerPlayGames.playgames.achievementsUnlock('CgkI5ILm9-4PEAIQBQ', true)
 	
 	#####################################################
+	
+	ManagerPlayGames.playgames.leaderboardsSubmitScore('CgkI5ILm9-4PEAIQCQ', 150)
 	
 	_finish_popup.start()
 
