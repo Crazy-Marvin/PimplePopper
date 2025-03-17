@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.godot.game"
     android:versionCode="1"
     android:versionName="1.0"
     android:installLocation="auto" >
@@ -56,9 +55,6 @@
             android:name="xr_hand_tracking_version_name"
             android:value="xr_hand_tracking_version_value"/>
 
- <meta-data
-            android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-4973750815225055~4827496363"/>
         <!-- Supported Meta devices -->
         <!-- This is removed by the exporter if the xr mode is not VR. -->
         <meta-data
@@ -69,7 +65,7 @@
             android:name=".GodotApp"
             android:label="@string/godot_project_name_string"
             android:theme="@style/GodotAppSplashTheme"
-            android:launchMode="singleTask"
+            android:launchMode="singleInstancePerTask"
             android:excludeFromRecents="false"
             android:exported="true"
             android:screenOrientation="landscape"
@@ -92,11 +88,7 @@
 
 <!-- Custom application XML added by add-ons. -->
 <!--CHUNK_APPLICATION_BEGIN-->
-<meta-data android:name="com.google.android.gms.games.APP_ID"
-      android:value="@string/game_services_project_id"/>
 <!--CHUNK_APPLICATION_END-->
-
-
 
     </application>
 
