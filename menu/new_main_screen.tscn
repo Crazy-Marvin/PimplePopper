@@ -633,7 +633,7 @@ margin_bottom = -211.0
 [node name="Label" type="Label" parent="SettingsPanel/VBoxContainer"]
 margin_right = 382.0
 margin_bottom = 21.0
-text = "Language"
+text = "K_LANGUAGE_OPTION_TITLE"
 align = 1
 
 [node name="LangOptions" type="OptionButton" parent="SettingsPanel/VBoxContainer"]
@@ -680,6 +680,7 @@ text = "K_BACK_BUTTON"
 
 [node name="DisableAdsPopup" parent="." instance=ExtResource( 16 )]
 unique_name_in_owner = true
+window_title = "K_CONFIRM_TITLE"
 
 [node name="Yodo1Mas" type="Node" parent="."]
 script = ExtResource( 15 )
