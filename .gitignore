@@ -1,5 +1,6 @@
 
 android/build/*
+android/build/
 
 # Visual Studio Code
 .vscode
