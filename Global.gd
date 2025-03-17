@@ -152,7 +152,11 @@ var player_data: Dictionary = {
 			'nose': false,
 			'shoulder': false,
 		}
-	}
+	},
+	'day': 0,
+	'month': 0,
+	'day_streak':0,
+	'month_streak':0
 }
 
 func _ready():
@@ -172,6 +176,8 @@ func _ready():
 		save_game()
 	
 	f.close()
+	
+	check_time_achievements()
 
 
 func get_relative_screen_size_x() -> float:
@@ -228,3 +234,26 @@ func save_game():
 func _notification(what):
 	if what == NOTIFICATION_WM_FOCUS_OUT or what == NOTIFICATION_APP_PAUSED:
 		save_game()
+
+
+func check_time_achievements():
+	var time = Time.get_datetime_dict_from_system()
+	
+	var current_total_days = (time['month'] * 30) + time['day']
+	
+	if player_data['day'] == 0 and player_data['month'] == 0:
+		player_data['day'] = current_total_days
+	else:
+		pass
+	
+	if player_data['day'] == player_data['day'] - 1:
+		player_data['day_streak'] += 1
+		
+		if player_data['day_streak'] == 14:
+			ManagerPlayGames.playgames.achievementsUnlock('CgkI5ILm9-4PEAIQBg', true)
+		if player_data['day_streak'] == 30:
+			ManagerPlayGames.playgames.achievementsUnlock('CgkI5ILm9-4PEAIQBw', true)
+	else:
+		player_data['day_streak'] = 0
+	
+	player_data['day'] = current_total_days
