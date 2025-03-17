@@ -45,6 +45,11 @@ func _ready():
 	load_languages()
 
 
+func _physics_process(delta):
+	if ManagerPlayGames.playgames:
+		$PlayGamesSignin.visible = !ManagerPlayGames.playgames.signInIsAuthenticated()
+
+
 func on_banner_ad_loaded():
 	yodo1mas.show_banner_ad()
 
@@ -107,6 +112,20 @@ func animate_settings(forward: bool):
 		yield(tween, "finished")
 		$SettingsPanel.hide()
 		$Panel.show()
+
+
+func animate_about(forward: bool):
+	var tween = get_tree().create_tween()
+	
+	
+	if forward:
+		$AboutPanel.rect_scale = Vector2.ZERO
+		$AboutPanel.show()
+		tween.tween_property($AboutPanel, 'rect_scale', Vector2.ONE, 0.4).set_trans(Tween.TRANS_BOUNCE).set_ease(Tween.EASE_OUT)
+	else:
+		tween.tween_property($AboutPanel, 'rect_scale', Vector2.ZERO, 0.4).set_trans(Tween.TRANS_BOUNCE).set_ease(Tween.EASE_OUT)
+		yield(tween, "finished")
+		$AboutPanel.hide()
 
 
 func load_types():
@@ -277,3 +296,20 @@ func _on_Yodo1Mas_rewarded_ad_closed():
 func _on_Yodo1Mas_rewarded_ad_earned():
 	#add_coins(15)
 	debug_out.text = debug_out.text + "Rewarded video earned\n"
+
+
+func _on_About_pressed():
+	animate_about(true)
+
+
+func _on_AboutBack_pressed():
+	animate_about(false)
+
+
+func _on_PlayGamesSignin_pressed():
+	ManagerPlayGames.playgames.signInShowPopup()
+
+
+func _on_Leaderboards_pressed():
+	if ManagerPlayGames.playgames:
+		ManagerPlayGames.playgames.leaderboardsShowAll()

@@ -111,6 +111,7 @@ config/icon="res://icon.png"
 [autoload]
 
 ManagerBilling="*res://singleton/ManagerBilling.gd"
+ManagerPlayGames="*res://singleton/ManagerPlayGames.gd"
 Global="*res://Global.gd"
 Save="*res://singleton/Save.gd"
 Yodo="*res://singleton/yodo.tscn"

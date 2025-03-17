@@ -1,4 +1,4 @@
-[gd_scene load_steps=17 format=2]
+[gd_scene load_steps=26 format=2]
 
 [ext_resource path="res://assets/styles/back.png" type="Texture" id=1]
 [ext_resource path="res://assets/styles/panel_1.tres" type="StyleBox" id=2]
@@ -16,6 +16,37 @@
 [ext_resource path="res://menu/protuberance_explanation.tscn" type="PackedScene" id=14]
 [ext_resource path="res://tools/yodo1mas.gd" type="Script" id=15]
 [ext_resource path="res://assets/components/ui/DisableAdsPopup.tscn" type="PackedScene" id=16]
+[ext_resource path="res://icon.png" type="Texture" id=17]
+[ext_resource path="res://assets/styles/icons8-developer-64.png" type="Texture" id=18]
+[ext_resource path="res://assets/styles/icons8-puzzle-pieces-64.png" type="Texture" id=19]
+[ext_resource path="res://assets/fonts/prototype/Prototype.ttf" type="DynamicFontData" id=20]
+[ext_resource path="res://assets/styles/icons8-settings-100.png" type="Texture" id=21]
+[ext_resource path="res://assets/styles/icons8-play-games-48.png" type="Texture" id=22]
+
+[sub_resource type="StyleBoxFlat" id=1]
+content_margin_left = 16.0
+content_margin_right = 16.0
+content_margin_top = 10.0
+content_margin_bottom = 10.0
+bg_color = Color( 0.909804, 0.780392, 0.533333, 1 )
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_right = 8
+corner_radius_bottom_left = 8
+shadow_color = Color( 0, 0, 0, 0.203922 )
+shadow_size = 1
+shadow_offset = Vector2( 1, 1 )
+
+[sub_resource type="DynamicFont" id=2]
+size = 12
+font_data = ExtResource( 20 )
+
+[sub_resource type="StyleBoxFlat" id=3]
+bg_color = Color( 0.945098, 0.823529, 0.760784, 1 )
+corner_radius_top_left = 1024
+corner_radius_top_right = 1024
+corner_radius_bottom_right = 1024
+corner_radius_bottom_left = 1024
 
 [node name="new_main_screen" type="Control"]
 anchor_right = 1.0
@@ -145,24 +176,26 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-margin_left = -97.0
+margin_left = -74.0
 margin_top = -50.0
-margin_right = 97.0
+margin_right = 74.0
 margin_bottom = 16.0
 custom_constants/separation = -11
 
-[node name="TextureRect" type="TextureRect" parent="Panel/Floating/HBoxContainer"]
-margin_right = 102.0
+[node name="Leaderboards" type="TextureButton" parent="Panel/Floating/HBoxContainer"]
+margin_right = 64.0
 margin_bottom = 66.0
-size_flags_horizontal = 3
-size_flags_vertical = 3
-texture = ExtResource( 8 )
+rect_min_size = Vector2( 64, 64 )
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 8 )
+texture_hover = ExtResource( 8 )
+texture_focused = ExtResource( 8 )
 expand = true
-stretch_mode = 6
+stretch_mode = 5
 
 [node name="TextureRect2" type="TextureRect" parent="Panel/Floating/HBoxContainer"]
-margin_left = 91.0
-margin_right = 194.0
+margin_left = 53.0
+margin_right = 148.0
 margin_bottom = 66.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -317,10 +350,242 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-margin_left = -401.0
-margin_top = -206.0
-margin_right = 401.0
-margin_bottom = 206.0
+margin_left = -409.0
+margin_top = -248.0
+margin_right = 409.0
+margin_bottom = 248.0
+rect_pivot_offset = Vector2( 409, 248 )
+custom_styles/panel = ExtResource( 2 )
+
+[node name="VBoxContainer" type="VBoxContainer" parent="AboutPanel"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 56.0
+margin_top = 42.0
+margin_right = -56.0
+margin_bottom = -42.0
+custom_constants/separation = 32
+
+[node name="VBoxContainer" type="HBoxContainer" parent="AboutPanel/VBoxContainer"]
+margin_right = 706.0
+margin_bottom = 90.0
+custom_constants/separation = 30
+alignment = 1
+
+[node name="TextureRect" type="TextureRect" parent="AboutPanel/VBoxContainer/VBoxContainer"]
+margin_left = 231.0
+margin_right = 295.0
+margin_bottom = 90.0
+rect_min_size = Vector2( 64, 90 )
+texture = ExtResource( 17 )
+expand = true
+stretch_mode = 6
+
+[node name="VBoxContainer" type="VBoxContainer" parent="AboutPanel/VBoxContainer/VBoxContainer"]
+margin_left = 325.0
+margin_right = 474.0
+margin_bottom = 90.0
+alignment = 1
+
+[node name="Label" type="Label" parent="AboutPanel/VBoxContainer/VBoxContainer/VBoxContainer"]
+margin_top = 22.0
+margin_right = 149.0
+margin_bottom = 43.0
+custom_colors/font_color = Color( 0.32549, 0.266667, 0.792157, 1 )
+text = "Version:"
+
+[node name="Label2" type="Label" parent="AboutPanel/VBoxContainer/VBoxContainer/VBoxContainer"]
+margin_top = 47.0
+margin_right = 149.0
+margin_bottom = 68.0
+text = "Pimple Popper v1.8"
+
+[node name="VBoxContainer2" type="VBoxContainer" parent="AboutPanel/VBoxContainer"]
+margin_top = 122.0
+margin_right = 706.0
+margin_bottom = 186.0
+
+[node name="TextureRect" type="TextureRect" parent="AboutPanel/VBoxContainer/VBoxContainer2"]
+visible = false
+margin_right = 520.0
+margin_bottom = 61.0
+rect_min_size = Vector2( 0, 61 )
+texture = ExtResource( 18 )
+expand = true
+stretch_mode = 6
+
+[node name="VBoxContainer" type="HBoxContainer" parent="AboutPanel/VBoxContainer/VBoxContainer2"]
+margin_right = 706.0
+margin_bottom = 64.0
+custom_constants/separation = 8
+alignment = 1
+
+[node name="Panel" type="Panel" parent="AboutPanel/VBoxContainer/VBoxContainer2/VBoxContainer"]
+margin_right = 230.0
+margin_bottom = 64.0
+rect_min_size = Vector2( 230, 64 )
+custom_styles/panel = SubResource( 1 )
+
+[node name="Label" type="Label" parent="AboutPanel/VBoxContainer/VBoxContainer2/VBoxContainer/Panel"]
+margin_left = 15.0
+margin_top = 9.0
+margin_right = 121.0
+margin_bottom = 30.0
+text = "Jordan Motta"
+
+[node name="Label2" type="Label" parent="AboutPanel/VBoxContainer/VBoxContainer2/VBoxContainer/Panel"]
+margin_left = 15.0
+margin_top = 29.0
+margin_right = 121.0
+margin_bottom = 50.0
+custom_fonts/font = SubResource( 2 )
+text = "Developer"
+
+[node name="Panel2" type="Panel" parent="AboutPanel/VBoxContainer/VBoxContainer2/VBoxContainer"]
+margin_left = 238.0
+margin_right = 468.0
+margin_bottom = 64.0
+rect_min_size = Vector2( 230, 64 )
+custom_styles/panel = SubResource( 1 )
+
+[node name="Label" type="Label" parent="AboutPanel/VBoxContainer/VBoxContainer2/VBoxContainer/Panel2"]
+margin_left = 15.0
+margin_top = 9.0
+margin_right = 121.0
+margin_bottom = 30.0
+text = "Rock Gementiza"
+
+[node name="Label2" type="Label" parent="AboutPanel/VBoxContainer/VBoxContainer2/VBoxContainer/Panel2"]
+margin_left = 15.0
+margin_top = 29.0
+margin_right = 121.0
+margin_bottom = 50.0
+custom_fonts/font = SubResource( 2 )
+text = "Developer"
+
+[node name="Panel3" type="Panel" parent="AboutPanel/VBoxContainer/VBoxContainer2/VBoxContainer"]
+margin_left = 476.0
+margin_right = 706.0
+margin_bottom = 64.0
+rect_min_size = Vector2( 230, 64 )
+custom_styles/panel = SubResource( 1 )
+
+[node name="Label" type="Label" parent="AboutPanel/VBoxContainer/VBoxContainer2/VBoxContainer/Panel3"]
+margin_left = 15.0
+margin_top = 9.0
+margin_right = 121.0
+margin_bottom = 30.0
+text = "Marvin Meißner"
+
+[node name="Label2" type="Label" parent="AboutPanel/VBoxContainer/VBoxContainer2/VBoxContainer/Panel3"]
+margin_left = 15.0
+margin_top = 29.0
+margin_right = 121.0
+margin_bottom = 50.0
+custom_fonts/font = SubResource( 2 )
+text = "Developer"
+
+[node name="VBoxContainer3" type="HBoxContainer" parent="AboutPanel/VBoxContainer"]
+margin_top = 218.0
+margin_right = 706.0
+margin_bottom = 314.0
+custom_constants/separation = 72
+alignment = 1
+
+[node name="HBoxContainer" type="HBoxContainer" parent="AboutPanel/VBoxContainer/VBoxContainer3"]
+margin_left = 116.0
+margin_right = 272.0
+margin_bottom = 96.0
+
+[node name="TextureRect" type="TextureRect" parent="AboutPanel/VBoxContainer/VBoxContainer3/HBoxContainer"]
+margin_right = 64.0
+margin_bottom = 96.0
+rect_min_size = Vector2( 64, 90 )
+texture = ExtResource( 19 )
+expand = true
+stretch_mode = 6
+
+[node name="VBoxContainer" type="VBoxContainer" parent="AboutPanel/VBoxContainer/VBoxContainer3/HBoxContainer"]
+margin_left = 68.0
+margin_right = 156.0
+margin_bottom = 96.0
+alignment = 1
+
+[node name="Label" type="Label" parent="AboutPanel/VBoxContainer/VBoxContainer3/HBoxContainer/VBoxContainer"]
+margin_right = 88.0
+margin_bottom = 21.0
+custom_colors/font_color = Color( 0.745098, 0.423529, 0.227451, 1 )
+text = "Contribute:"
+
+[node name="LinkButton" type="LinkButton" parent="AboutPanel/VBoxContainer/VBoxContainer3/HBoxContainer/VBoxContainer"]
+margin_top = 25.0
+margin_right = 88.0
+margin_bottom = 46.0
+custom_colors/font_color = Color( 0.960784, 0.960784, 0.960784, 1 )
+text = "Translate"
+uri = "https://crowdin.com/project/pimple-popper"
+
+[node name="LinkButton2" type="LinkButton" parent="AboutPanel/VBoxContainer/VBoxContainer3/HBoxContainer/VBoxContainer"]
+margin_top = 50.0
+margin_right = 88.0
+margin_bottom = 71.0
+focus_mode = 2
+custom_colors/font_color = Color( 0.960784, 0.960784, 0.960784, 1 )
+text = "Issue"
+uri = "https://github.com/Crazy-Marvin/PimplePopper/issues"
+
+[node name="LinkButton3" type="LinkButton" parent="AboutPanel/VBoxContainer/VBoxContainer3/HBoxContainer/VBoxContainer"]
+margin_top = 75.0
+margin_right = 88.0
+margin_bottom = 96.0
+focus_mode = 2
+custom_colors/font_color = Color( 0.960784, 0.960784, 0.960784, 1 )
+text = "Source"
+uri = "https://github.com/Crazy-Marvin/PimplePopper"
+
+[node name="HBoxContainer2" type="HBoxContainer" parent="AboutPanel/VBoxContainer/VBoxContainer3"]
+margin_left = 344.0
+margin_right = 589.0
+margin_bottom = 96.0
+
+[node name="TextureRect" type="TextureRect" parent="AboutPanel/VBoxContainer/VBoxContainer3/HBoxContainer2"]
+margin_right = 64.0
+margin_bottom = 96.0
+rect_min_size = Vector2( 64, 90 )
+texture = ExtResource( 21 )
+expand = true
+stretch_mode = 6
+
+[node name="VBoxContainer" type="VBoxContainer" parent="AboutPanel/VBoxContainer/VBoxContainer3/HBoxContainer2"]
+margin_left = 68.0
+margin_right = 245.0
+margin_bottom = 96.0
+alignment = 1
+
+[node name="Label" type="Label" parent="AboutPanel/VBoxContainer/VBoxContainer3/HBoxContainer2/VBoxContainer"]
+margin_top = 25.0
+margin_right = 177.0
+margin_bottom = 46.0
+custom_colors/font_color = Color( 0.745098, 0.227451, 0.501961, 1 )
+text = "Open Source Licenses:"
+
+[node name="LinkButton" type="LinkButton" parent="AboutPanel/VBoxContainer/VBoxContainer3/HBoxContainer2/VBoxContainer"]
+margin_top = 50.0
+margin_right = 177.0
+margin_bottom = 71.0
+focus_mode = 2
+custom_colors/font_color = Color( 0.960784, 0.960784, 0.960784, 1 )
+text = "Godot Engine"
+uri = "https://godotengine.org/"
+
+[node name="AboutBack" type="Button" parent="AboutPanel/VBoxContainer"]
+margin_left = 182.0
+margin_top = 346.0
+margin_right = 524.0
+margin_bottom = 386.0
+rect_min_size = Vector2( 0, 40 )
+size_flags_horizontal = 4
+text = "K_BACK_BUTTON"
 
 [node name="SettingsPanel" type="Panel" parent="."]
 visible = false
@@ -421,8 +686,34 @@ script = ExtResource( 15 )
 app_id_android = "Icsp8OCZ28"
 IsPrivacyEnabled = true
 
+[node name="PlayGamesSignin" type="Button" parent="."]
+margin_left = 42.0
+margin_top = 458.0
+margin_right = 106.0
+margin_bottom = 522.0
+rect_min_size = Vector2( 64, 64 )
+custom_styles/hover = SubResource( 3 )
+custom_styles/pressed = SubResource( 3 )
+custom_styles/focus = SubResource( 3 )
+custom_styles/normal = SubResource( 3 )
+
+[node name="TextureRect" type="TextureRect" parent="PlayGamesSignin"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -22.0
+margin_top = -22.0
+margin_right = 22.0
+margin_bottom = 22.0
+texture = ExtResource( 22 )
+expand = true
+stretch_mode = 6
+
 [connection signal="pressed" from="Panel/VBoxContainer/Play" to="." method="_on_Play_pressed"]
+[connection signal="pressed" from="Panel/VBoxContainer/About" to="." method="_on_About_pressed"]
 [connection signal="pressed" from="Panel/VBoxContainer/Options" to="." method="_on_Options_pressed"]
+[connection signal="pressed" from="Panel/Floating/HBoxContainer/Leaderboards" to="." method="_on_Leaderboards_pressed"]
 [connection signal="gui_input" from="Panel/Floating/HBoxContainer/TextureRect2" to="." method="_on_TextureRect2_gui_input"]
 [connection signal="pressed" from="LevelSelectionPanel/HBoxContainer/Back" to="." method="_on_Back_pressed"]
 [connection signal="pressed" from="LevelSelectionPanel/HBoxContainer/Cancel" to="." method="_on_Cancel_pressed"]
@@ -431,6 +722,7 @@ IsPrivacyEnabled = true
 [connection signal="pressed" from="TutorialPanel/VBoxContainer/Cyst" to="." method="_on_tutorial_pressed" binds= [ "cyst" ]]
 [connection signal="pressed" from="TutorialPanel/VBoxContainer/Lipoma" to="." method="_on_tutorial_pressed" binds= [ "lipoma" ]]
 [connection signal="pressed" from="TutorialPanel/VBoxContainer/TutPanelBack" to="." method="_on_TutPanelBack_pressed"]
+[connection signal="pressed" from="AboutPanel/VBoxContainer/AboutBack" to="." method="_on_AboutBack_pressed"]
 [connection signal="item_selected" from="SettingsPanel/VBoxContainer/LangOptions" to="." method="on_language_selected"]
 [connection signal="pressed" from="SettingsPanel/VBoxContainer/DisableAdsButton" to="." method="_on_DisableAdsButton_pressed"]
 [connection signal="pressed" from="SettingsPanel/SettingsBack" to="." method="_on_SettingsBack_pressed"]
@@ -443,3 +735,4 @@ IsPrivacyEnabled = true
 [connection signal="interstitial_ad_opened" from="Yodo1Mas" to="." method="_on_Yodo1Mas_interstitial_ad_opened"]
 [connection signal="rewarded_ad_earned" from="Yodo1Mas" to="." method="_on_Yodo1Mas_rewarded_ad_earned"]
 [connection signal="rewarded_ad_opened" from="Yodo1Mas" to="." method="_on_Yodo1Mas_rewarded_ad_opened"]
+[connection signal="pressed" from="PlayGamesSignin" to="." method="_on_PlayGamesSignin_pressed"]
