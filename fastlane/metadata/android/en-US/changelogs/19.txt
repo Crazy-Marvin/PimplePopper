@@ -1,0 +1,9 @@
+- New levels: Pimple on nose & lipoma on shoulder, arm and head 🥳
+- UX improvements 🎨
+- Dependencie updates ⚙️
+- Translation updates 🗺️
+- Weird bug fixes 🐛
+
+A huge thank you to all contributors and translators, especially Alexandra & Rock. 😘
+Feel welcome to report issues and submit fixes on https://github.com/Crazy-Marvin/PimplePopper/ or translations on https://crowdin.com/project/pimple-popper. 🚀
+And of course, enjoy your pimples because you are awesome! 💥
