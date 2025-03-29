@@ -232,7 +232,10 @@ func _on_DisableAdsButton_pressed():
 
 
 func _on_DisableAdsPopup_confirmed():
-	ManagerBilling.payment.purchase('remove_ads') # add this sku to your google play settings
+	var response: Dictionary = ManagerBilling.payment.purchase('remove_ads') # add this sku to your google play settings
+	
+	if response.status != OK:
+		print("Purchase error %s: %s" % [response.response_code, response.debug_message])
 	
 # callbacks	from signals
 
