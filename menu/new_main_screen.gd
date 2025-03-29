@@ -30,7 +30,7 @@ func _ready():
 	yodo1mas.init()
 	#yodo1mas.connect("banner_ad_loaded", self, 'on_banner_ad_loaded')
 	
-	if Global.player_data['is_add_active'] == false:
+	if Global.player_data['is_ad_active'] == false:
 		yodo1mas.load_banner_ad("Banner","RIGHT","TOP")
 		yodo1mas.load_interstitial_ads()
 		#yodo1mas.show_banner_ad()

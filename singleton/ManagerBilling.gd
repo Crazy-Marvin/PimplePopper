@@ -20,6 +20,7 @@ func _ready():
 		payment.connect("purchase_acknowledgement_error", self, "_on_purchase_acknowledgement_error") # Response ID (int), Debug message (string), Purchase token (string)
 		payment.connect("purchase_consumed", self, "_on_purchase_consumed") # Purchase token (string)
 		payment.connect("purchase_consumption_error", self, "_on_purchase_consumption_error") # Response ID (int), Debug message (string), Purchase token (string)
+		payment.connect('query_purchases_response', self, '_on_query_purchases_response')
 		
 		payment.startConnection()
 	else:
@@ -27,7 +28,24 @@ func _ready():
 
 
 func _on_connected():
-  payment.querySkuDetails(["my_iap_item"], "inapp") # "subs" for subscriptions
+	payment.querySkuDetails(["remove_ads"], "inapp") # "subs" for subscriptions
+	payment.queryPurchases()
+
+
+func _on_query_purchases_response(query_result: Dictionary):
+	if query_result.status == OK:
+		for purchase in query_result.purchases:
+			# We must acknowledge all puchases.
+			# See https://developer.android.com/google/play/billing/integrate#process for more information
+			if purchase.sku == "remove_ads" and purchase.purchase_state == 1:
+				Global.player_data['is_ad_active'] = true
+				
+				print("Purchase " + str(purchase.sku) + " has not been acknowledged. Acknowledging...")
+				payment.acknowledgePurchase(purchase.purchase_token)
+	else:
+		print("queryPurchases failed, response code: ",
+				query_result.response_code,
+				" debug message: ", query_result.debug_message)
 
 
 func _on_sku_details_query_completed(sku_details):
@@ -42,6 +60,9 @@ func _on_purchases_updated(purchases):
 				payment.acknowledgePurchase(purchase.purchase_token)
 				# you need to setup your game's in-app-items
 				# and put them in this array
+				if purchase.sku == "remove_ads":
+					Global.player_data['is_ad_active'] = true
+				
 				if purchase.sku in []:
 					payment.consumePurchase(purchase.purchase_token)
 

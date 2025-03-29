@@ -124,7 +124,7 @@ var relative_screen_size_x: float
 
 var player_data_orig = {}
 var player_data: Dictionary = {
-	'is_add_active': false,
+	'is_ad_active': false,
 	'levels_completion': {
 		'pimple':{
 			'cheek': false,
