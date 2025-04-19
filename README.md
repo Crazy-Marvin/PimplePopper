@@ -6,6 +6,12 @@
 [![Crowdin](https://badges.crowdin.net/pimple-popper/localized.svg)](https://crowdin.com/project/pimple-popper)
 [![TODOs](https://badgen.net/https/api.tickgit.com/badgen/github.com/Crazy-Marvin/PimplePopper)](https://www.tickgit.com/browse?repo=github.com/Crazy-Marvin/PimplePopper)
 [![Google Play](https://badgen.net/badge/icon/googleplay?icon=googleplay&label)](https://play.google.com/store/apps/details?id=rocks.poopjournal.pimplepopper)
+        
+__Game to pop pimples using the awesome Godot Engine__
+
+# Pimple Popper
+
+Pimple Popper is a game about popping pimples and removing blackheads, whiteheads, lipomas and similar stuff. Download now and feel the huge satisfaction!
 
 <p align="left">
 <a href="https://play.google.com/store/apps/details?id=rocks.poopjournal.pimplepopper">
@@ -14,12 +20,6 @@
         src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" />
 </a>  
         </p>
-        
-__Game to pop pimples using the awesome Godot Engine__
-
-# Pimple Popper
-
-Pimple Popper is a game about popping pimples and removing blackheads, whiteheads, lipomas and similar stuff. Download now and feel the huge satisfaction!
 
 __Features__
 
